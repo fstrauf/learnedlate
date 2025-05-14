@@ -49,7 +49,7 @@
 
 <script setup lang="ts">
 import { computed } from 'vue';
-import type { PropType } from 'vue';
+// import type { PropType } from 'vue'; // Removed unused import
 import type { DisplayMode } from '../../types'; // Adjusted import path
 
 // --- State Constants ---
