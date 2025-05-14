@@ -1,3 +1,4 @@
+
 <template>
   <div class="concentric-circles-wrapper p-4 flex flex-col items-center min-h-screen justify-center">
     <div class="w-full flex justify-between items-center mb-4 px-4 md:px-0 md:max-w-3xl">
@@ -76,21 +77,19 @@ const panState = ref({ x: 0, y: 0 });
 // --- Circle Data ---
 const allCircles = ref<Circle[]>([
   // Inner circles (visible when zoomed in)
-  { id: 10, radius: 2, color: '#475569', label: 'AI Wizards' },
-  { id: 11, radius: 5, color: '#475569', label: 'Me' },
-  { id: 12, radius: 10, color: '#475569', label: 'Tech People' },
-  { id: 13, radius: 20, color: '#475569', label: 'Everyone else' },
+  { id: 10, radius: 2, color: '#475569', label: 'AI Gods' },
+  { id: 11, radius: 5, color: '#475569', label: 'AI Inventors' },
+  { id: 12, radius: 10, color: '#475569', label: 'AI Wizards' },
+  { id: 13, radius: 20, color: '#475569', label: 'AI Starters' },
   
   // Mid-range circles (visible at default zoom)
-  { id: 1, radius: 50, color: '#475569', label: '' },
-  { id: 2, radius: 100, color: '#475569', label: '' },
-  { id: 3, radius: 150, color: '#334155', label: '' },
+  { id: 1, radius: 50, color: '#475569', label: 'Tech Builders' },
+  { id: 2, radius: 100, color: '#475569', label: 'Tech People' },
+  { id: 3, radius: 150, color: '#334155', label: 'Non Tech People' },
 
   // Outer circles (visible when zoomed out)
-  { id: 4, radius: 250, color: '#1e293b', label: 'Enterprise Architects' },
-  { id: 5, radius: 400, color: '#0f172a', label: 'Architects' },
-  { id: 6, radius: 600, color: '#020617', label: 'SAP Employees' },
-  { id: 7, radius: 900, color: '#000000', label: 'Tech People' },
+  { id: 4, radius: 250, color: '#1e293b', label: 'Business People' },
+  { id: 5, radius: 400, color: '#0f172a', label: 'Everyone Else' },
 ]);
 
 // Calculate current scale based on viewBox for consistent stroke-width and font-size
