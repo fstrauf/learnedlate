@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yourdomain.com/sitemap.xml # Replace with your actual domain and sitemap path 
+Sitemap: https://learnedlate.com/sitemap.xml # Replace with your actual domain and sitemap path 
