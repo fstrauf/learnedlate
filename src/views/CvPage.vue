@@ -1,7 +1,6 @@
 <template>
   <div class="min-h-screen bg-gray-50 py-8">
     <div class="container mx-auto px-4">
-      <router-link to="/" class="text-blue-600 hover:text-blue-800 hover:underline mb-6 inline-block">&larr; Back Home</router-link>
       <div class="prose lg:prose-xl bg-white p-6 sm:p-8 rounded-lg shadow-md max-w-4xl mx-auto" v-html="cvHtml"></div>
     </div>
   </div>
@@ -10,7 +9,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import { marked } from 'marked'
-import cvMarkdownRaw from '../../index.md?raw'
+import cvMarkdownRaw from '../../cv.md?raw'
 
 const cvHtml = ref('')
 

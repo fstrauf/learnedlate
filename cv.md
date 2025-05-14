@@ -8,7 +8,7 @@ f.strauf@gmail.com | [Twitter](https://x.com/ffstrauf) | [LinkedIn](https://www.
 ## SUMMARY
 
 
-Entrepreneurial technology leader with a unique blend of business and technology expertise. CTO with proven ability to rapidly build and scale products from concept to market. Skilled at leading technical teams, optimizing development processes, and delivering complex architectures. Pragmatic problem-solver who excels at identifying what matters and delivering high-quality MVPs at speed. Oh, and I use AI every day.
+Entrepreneur with a unique blend of business and technology expertise. CTO with proven ability to rapidly build and scale products from concept to market. Skilled at leading technical teams, optimizing development processes, and delivering complex architectures. Pragmatic problem-solver who excels at identifying what matters and delivering high-quality MVPs at speed.
 
 ## CORE STRENGTHS
 
@@ -20,8 +20,20 @@ Entrepreneurial technology leader with a unique blend of business and technology
 
 ## PROFESSIONAL EXPERIENCE
 
+### Founder Expensesorted.com
+**2023 - Present**
+
+Finance management solution focused on custom transaction categorisation models.
+
+**Key Features:**
+- Developed an AI-powered expense categorization system that integrates with Google Sheets, Lunch Money and is available through an API
+- Expense Categorisation for any bank transactions that predict categories of new transactions with high accuracy
+- Built a financial independence calculator that helps users understand their "runway" - how long they can sustain themselves without income
+- Created educational content around the concept of "Fuck You Money" - having enough savings to provide freedom of choice
+
+
 ### CTO at Forgd.com
-**Jan 2024 - Present**
+**Jan 2024 - March 2024**
 
 Led the technical vision and delivery of [Forgd.com](https://www.forgd.com/), a comprehensive platform offering free tools for blockchain builders.
 
@@ -58,6 +70,7 @@ Bridging between business and technology, translating requirements into custom p
 - Led SAP's innovation strategy for blockchain adoption, including board-level proposals for crypto payments and token-based revenue streams
 - Designed custom solutions across many industries
 - Led agile delivery teams through successful PoCs, pilots, and production implementations
+  
 ### Development Consultant at SER Solutions Deutschland GmbH
 **2008 - 2014**
 
@@ -69,19 +82,6 @@ Progressed from apprentice to development consultant, focusing on SAP integratio
 - Implemented SAP Business Workflow solutions
 - Managed internal projects on J2EE application servers
 
-## SIDE PROJECTS
-
-### Founder at Expense Sorted / Fuck You Money
-**2023 - Present**
-
-Created a personal finance management solution focused on helping people achieve financial independence through smart expense tracking and runway calculation.
-
-**Key Features:**
-- Developed an AI-powered expense categorization system that integrates with Google Sheets
-- Built a financial independence calculator that helps users understand their "runway" - how long they can sustain themselves without income
-- Created educational content around the concept of "Fuck You Money" - having enough savings to provide freedom of choice
-- Implemented a system that helps users track expenses and savings and visualize their path to financial independence
-
 ## EDUCATION
 
 - **Bachelor of Science (B.Sc.)**, FOM University of Applied Sciences for Economics and Management, Köln/Bonn, Germany (2014)
@@ -89,5 +89,4 @@ Created a personal finance management solution focused on helping people achieve
 
 ## ADDITIONAL ACTIVITIES
 
-- **Writer**: [Writing Tokenomics DAO Substack](https://content.forgd.com/publish/home)
-- **Financial Independence Advocate**: Author of articles on personal finance and financial independence, including ["Fuck You Money Doesn't Mean You Need To Be Rich"](https://florianstrauf.substack.com/p/fuck-you-money-doesnt-mean-you-need)
+- **Writing**: 2500 Readers read my [writing at Rediscovering The Known: Things I Learned Late](https://ffstrauf.substack.com/)

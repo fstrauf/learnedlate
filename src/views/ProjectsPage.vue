@@ -1,15 +1,15 @@
 <template>
   <div class="min-h-screen bg-gray-50 py-8">
-    <div class="container mx-auto px-4">
-      <router-link to="/" class="text-blue-600 hover:text-blue-800 hover:underline mb-6 inline-block">&larr; Back Home</router-link>
+    <div class="container mx-auto px-4">    
 
       <h1 class="text-3xl font-bold text-center mb-8">My Projects</h1>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8">
         <ProjectCard
-          v-for="project in projects"
+          v-for="(project, index) in projects"
           :key="project.id"
           :project="project"
+          :cardIndex="index"
         />
       </div>
     </div>

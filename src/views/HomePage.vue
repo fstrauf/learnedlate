@@ -9,18 +9,19 @@
       </p>
       <div class="space-y-4 sm:space-y-0 sm:space-x-4">
         <router-link
-          to="/cv"
-          class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-8 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1"
-        >
-          View CV
-        </router-link>
-        <router-link
           to="/projects"
           class="inline-block bg-gray-700 hover:bg-gray-800 text-white font-medium py-3 px-8 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1"
-          >
+        >
           Explore Projects
         </router-link>
-        <!-- Optional: Add more links like Blog, Contact, etc. -->
+        <a 
+          href="https://ffstrauf.substack.com/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="inline-block bg-orange-500 hover:bg-orange-600 text-white font-medium py-3 px-8 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1"
+        >
+          Writing
+        </a>
       </div>
     </div>
   </div>

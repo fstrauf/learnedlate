@@ -24,27 +24,35 @@ function createProject(projectData: Omit<Project, 'slug'>): Project {
 export const projects: Project[] = [
   createProject({
     id: 1,
-    title: 'Forgd.com',
-    description: 'A comprehensive platform offering free tools for blockchain builders, including economic modeling and market data analysis.',
-    imageUrl: 'https://placehold.co/600x400/EEE/31343C?text=Forgd.com',
-    projectUrl: 'https://www.forgd.com/',
+    title: 'Expense Sorted', // Adjusted title slightly for uniqueness if needed
+    description: 'Effortless Expense Categorization Across Your Favorite Tools Ditch manual rules. Expense Sorted\'s AI automatically categorizes transactions in seconds within Google Sheets, Lunch Money, Tiller and soon PocketSmith. Explore our API for custom integrations.',
+    imageUrl: 'https://www.expensesorted.com/opengraph-image.png?39779eca9e6e8d74',
+    projectUrl: 'https://www.expensesorted.com/',
   }),
   createProject({
     id: 2,
-    title: 'Expense Sorted FYM', // Adjusted title slightly for uniqueness if needed
-    description: 'Personal finance tool using AI expense categorization and runway calculation to help users achieve financial independence.',
-    imageUrl: 'https://placehold.co/600x400/EEE/31343C?text=Expense+Sorted',
+    title: 'Forgd.com',
+    description: 'A comprehensive platform offering free tools for blockchain builders, including economic modeling and market data analysis.',
+    imageUrl: 'https://cdn.prod.website-files.com/6642268ef69d551ef8d67770/66d72c1ba054de8cd491c239_opengraph-forgd.jpg',
+    projectUrl: 'https://www.forgd.com/',
   }),
+  
   createProject({
     id: 3,
     title: 'Life Calendar',
     description: 'Visualize your life week by week, from birth to 90. See time elapsed, future weeks, and plan milestones.',
     internalUrl: '/life-calendar',
   }),
+  // createProject({
+  //   id: 4,
+  //   title: 'The Good Cup',
+  //   description: 'An app to brew coffee and get tailored recipes based on your taste preferences.',
+  //   imageUrl: 'https://placehold.co/600x400/EEE/31343C?text=The+Good+Cup',
+  // }),
   createProject({
-    id: 4,
-    title: 'The Good Cup',
-    description: 'An app to brew coffee and get tailored recipes based on your taste preferences.',
-    imageUrl: 'https://placehold.co/600x400/EEE/31343C?text=The+Good+Cup',
+    id: 5,
+    title: 'Bubble Biases',
+    description: 'An interactive visualization exploring the concept of bubble biases.',
+    internalUrl: '/concentric-circles', // This will be used by ProjectDetailPage to show the visualization
   }),
 ]; 
