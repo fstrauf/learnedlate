@@ -1,11 +1,9 @@
-import { createRouter, createWebHistory, type RouteLocationNormalized } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from '../views/HomePage.vue'
 import CvPage from '../views/CvPage.vue'
 import ProjectsPage from '../views/ProjectsPage.vue'
-import ProjectDetailPage from '../views/ProjectDetailPage.vue'
 import LifeCalendarPage from '../views/LifeCalendarPage.vue'
 import ConcentricCirclesPage from '../views/ConcentricCirclesPage.vue'
-import { projects } from '../data/projects'
 
 const DEFAULT_TITLE = 'Florian Strauf'
 
@@ -28,18 +26,18 @@ const routes = [
     component: ProjectsPage,
     meta: { title: 'Projects - Florian Strauf' }
   },
-  {
-    path: '/project/:slug',
-    name: 'ProjectDetail',
-    component: ProjectDetailPage,
-    props: true,
-    meta: {
-      title: (to: RouteLocationNormalized) => {
-        const project = projects.find(p => p.slug === to.params.slug)
-        return project ? `${project.title} - Project` : 'Project Details'
-      }
-    }
-  },
+  // {
+  //   path: '/project/:slug',
+  //   name: 'ProjectDetail',
+  //   component: ProjectDetailPage, // This component will be deleted
+  //   props: true,
+  //   meta: {
+  //     title: (to: RouteLocationNormalized) => {
+  //       const project = projects.find(p => p.slug === to.params.slug)
+  //       return project ? `${project.title} - Project` : 'Project Details'
+  //     }
+  //   }
+  // }, // ProjectDetail route removed
   {
     path: '/life-calendar',
     name: 'LifeCalendar',

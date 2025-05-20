@@ -33,7 +33,7 @@ Finance management solution focused on custom transaction categorisation models.
 
 
 ### CTO at Forgd.com
-**Jan 2024 - March 2024**
+**Jan 2024 - March 2025**
 
 Led the technical vision and delivery of [Forgd.com](https://www.forgd.com/), a comprehensive platform offering free tools for blockchain builders.
 
@@ -72,7 +72,7 @@ Bridging between business and technology, translating requirements into custom p
 - Led agile delivery teams through successful PoCs, pilots, and production implementations
   
 ### Development Consultant at SER Solutions Deutschland GmbH
-**2008 - 2014**
+**2005 - 2014**
 
 Progressed from apprentice to development consultant, focusing on SAP integrations and enterprise content management.
 

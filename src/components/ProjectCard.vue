@@ -1,10 +1,11 @@
 <template>
-  <div class="bg-white rounded-lg shadow-md overflow-hidden transition hover:shadow-xl flex flex-col">
-    <router-link v-if="project.imageUrl" :to="project.internalUrl || { name: 'ProjectDetail', params: { slug: project.slug } }" class="block hover:opacity-90">
-      <div class="aspect-[1200/630] w-full overflow-hidden">
-        <img :src="project.imageUrl" :alt="project.title" class="w-full h-full object-cover">
-      </div>
-    </router-link>
+  <component :is="cardWrapper.type" v-bind="cardWrapper.props" 
+    class="bg-white rounded-lg shadow-md overflow-hidden transition hover:shadow-xl flex flex-col"
+    :class="{ 'cursor-pointer': cardWrapper.type !== 'div', 'hover:shadow-2xl': cardWrapper.type !== 'div' }"
+  >
+    <div v-if="project.imageUrl" class="aspect-[1200/630] w-full overflow-hidden">
+      <img :src="project.imageUrl" :alt="project.title" class="w-full h-full object-cover">
+    </div>
     <!-- Placeholder with gray background and dynamic text color -->
     <div v-else 
       class="aspect-[1200/630] w-full flex items-center justify-center bg-gray-100 p-4"
@@ -13,34 +14,43 @@
     </div>
     
     <div class="p-4 flex flex-col flex-grow">
-      <router-link :to="project.internalUrl || { name: 'ProjectDetail', params: { slug: project.slug } }" class="block hover:text-blue-700">
-         <h3 class="text-lg font-semibold mb-2">{{ project.title }}</h3>
-      </router-link>
+      <h3 class="text-lg font-semibold mb-2">{{ project.title }}</h3>
       <p class="text-gray-600 text-sm mb-4 flex-grow">{{ project.description }}</p>
-      <div class="flex justify-start space-x-3 mt-auto">
-        <!-- Internal Link Button -->
-        <router-link v-if="project.internalUrl" :to="project.internalUrl"
-           class="text-sm bg-blue-500 hover:bg-blue-700 text-white py-1 px-3 rounded transition duration-300">
-           View Project
-        </router-link>
-        <!-- External Link Button -->
-        <a v-else-if="project.projectUrl" :href="project.projectUrl" target="_blank" rel="noopener noreferrer"
-           class="text-sm bg-blue-500 hover:bg-blue-700 text-white py-1 px-3 rounded transition duration-300">
-           View Project
-        </a>
-      </div>
+      <!-- "View Project" button section is removed -->
     </div>
-  </div>
+  </component>
 </template>
 
 <script setup lang="ts">
 import type { Project } from '../data/projects';
 import { computed } from 'vue';
+import { RouterLink } from 'vue-router'; // Import RouterLink for explicit use with <component :is>
 
 const props = defineProps<{ 
   project: Project;
   cardIndex: number;
 }>();
+
+const cardWrapper = computed(() => {
+  if (props.project.internalUrl) {
+    return { 
+      type: RouterLink, // Use the imported RouterLink component
+      props: { 
+        to: props.project.internalUrl 
+      } 
+    };
+  } else if (props.project.projectUrl) {
+    return { 
+      type: 'a', 
+      props: { 
+        href: props.project.projectUrl, 
+        target: '_blank', 
+        rel: 'noopener noreferrer' 
+      } 
+    };
+  }
+  return { type: 'div', props: {} }; // Fallback to a non-interactive div
+});
 
 // Define text colors to cycle through
 const placeholderTextColors = ['text-blue-600', 'text-orange-500'];
