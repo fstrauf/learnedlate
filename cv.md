@@ -29,7 +29,7 @@ Finance management solution focused on custom transaction categorisation models.
 - Developed an AI-powered expense categorization system that integrates with Google Sheets, Lunch Money and is available through an API
 - Expense Categorisation for any bank transactions that predict categories of new transactions with high accuracy
 - Built a financial independence calculator that helps users understand their "runway" - how long they can sustain themselves without income
-- Created educational content around the concept of "Fuck You Money" - having enough savings to provide freedom of choice
+- Created educational content around the concept of "Financial Independence" - having enough savings to provide freedom of choice
 
 
 ### CTO at Forgd.com
@@ -48,7 +48,7 @@ Led the technical vision and delivery of [Forgd.com](https://www.forgd.com/), a 
   - Complex SQL stored procedures and ranking algorithms for performance analytics
 - Developed an RFQ portal enabling market makers to bid on projects
 
-### Founder & CEO at Tokenomics DAO
+### Founder & CEO at Tokenomics DAO (acquired by Forgd.com)
 **2021 - 2024**
 
 Founded and led a tokenomics-focused community designing and ideating for web3 projects, producing thought leadership.
