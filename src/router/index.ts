@@ -4,6 +4,7 @@ import CvPage from '../views/CvPage.vue'
 import ProjectsPage from '../views/ProjectsPage.vue'
 import LifeCalendarPage from '../views/LifeCalendarPage.vue'
 import ConcentricCirclesPage from '../views/ConcentricCirclesPage.vue'
+import LifeBalanceVisualizerPage from '../views/LifeBalanceVisualizerPage.vue'
 
 const DEFAULT_TITLE = 'Florian Strauf'
 
@@ -49,6 +50,12 @@ const routes = [
     name: 'ConcentricCircles',
     component: ConcentricCirclesPage,
     meta: { title: 'Bubble Biases - Florian Strauf' }
+  },
+  {
+    path: '/life-balance-visualizer',
+    name: 'LifeBalanceVisualizer',
+    component: LifeBalanceVisualizerPage,
+    meta: { title: 'Life Balance Visualizer - Florian Strauf' }
   },
 ]
 

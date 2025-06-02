@@ -55,4 +55,10 @@ export const projects: Project[] = [
     description: 'An interactive visualization exploring the concept of bubble biases.',
     internalUrl: '/concentric-circles', // This will be used by ProjectDetailPage to show the visualization
   }),
+  createProject({
+    id: 6,
+    title: 'Life Balance Visualizer',
+    description: 'An interactive tool to assess and visualize your work-life balance between the fisherman and businessman mindsets.',
+    internalUrl: '/life-balance-visualizer',
+  }),
 ]; 
