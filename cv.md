@@ -20,7 +20,7 @@ Entrepreneur with a unique blend of business and technology expertise. CTO with 
 
 ## PROFESSIONAL EXPERIENCE
 
-### Founder Expensesorted.com
+### Founder & CEO at [Expensesorted.com](https://expensesorted.com)
 **2023 - Present**
 
 **Personal Finance Analytics & Automation Platform**
