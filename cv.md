@@ -23,14 +23,16 @@ Entrepreneur with a unique blend of business and technology expertise. CTO with 
 ### Founder Expensesorted.com
 **2023 - Present**
 
-Finance management solution focused on custom transaction categorisation models.
+**Personal Finance Analytics & Automation Platform**
 
-**Key Features:**
-- Developed an AI-powered expense categorization system that integrates with Google Sheets, Lunch Money and is available through an API
-- Expense Categorisation for any bank transactions that predict categories of new transactions with high accuracy
-- Built a financial independence calculator that helps users understand their "runway" - how long they can sustain themselves without income
-- Created educational content around the concept of "Financial Independence" - having enough savings to provide freedom of choice
+Designed and built a personal finance tool that empowers users to take control of their finances. By connecting their own Google Sheet to a smart web app, users can automate tedious tasks, visualize their spending, and receive actionable insights to improve their financial health—all while keeping their data securely in their own hands.
 
+**Key User Benefits Delivered:**
+
+- Provides Complete Control & Privacy: Gives users peace of mind by using their own Google Sheet as the database, blending the security and familiarity of spreadsheets with the power of a modern application.
+- Saves Hours of Manual Effort: Eliminates the need for manual data entry by automatically importing and categorizing bank transactions with an intelligent, AI-powered engine.
+- Offers Clear Financial Insight: Helps users instantly understand where their money goes with an intuitive, visual dashboard that tracks spending, monitors savings progress, and highlights important financial trends.
+- Delivers Actionable Guidance: Offers personalized, AI-driven suggestions and financial modeling to help users make smarter decisions and create a clear plan to reach their savings goals faster.
 
 ### CTO at Forgd.com
 **Jan 2024 - March 2025**
