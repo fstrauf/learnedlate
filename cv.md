@@ -91,4 +91,4 @@ Progressed from apprentice to development consultant, focusing on SAP integratio
 
 ## ADDITIONAL ACTIVITIES
 
-- **Writing**: 2500 Readers read my [writing at Rediscovering The Known: Things I Learned Late](https://ffstrauf.substack.com/)
+- **Writing**: 2500 Readers read my [writing at Rediscovering The Known: Things I Learned Late](https://blog.learnedlate.com/)

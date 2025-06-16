@@ -43,7 +43,7 @@
       </g>
     </svg>
     <p class="text-center mt-4 text-gray-600">
-      Interactive visualization of circles within circles, representing varying levels of experience and perspective. Check out my <a href="https://open.substack.com/pub/ffstrauf/p/bubble-biases?r=2fpxqa&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true" target="_blank">latest post</a> for more details.
+      Interactive visualization of circles within circles, representing varying levels of experience and perspective. Check out my <a href="https://blog.learnedlate.com/p/bubble-biases" target="_blank">latest post</a> for more details.
     </p>
   </div>
 </template>

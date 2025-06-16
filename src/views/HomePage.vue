@@ -15,7 +15,7 @@
           Explore Projects
         </router-link>
         <a 
-          href="https://ffstrauf.substack.com/" 
+          href="https://blog.learnedlate.com/" 
           target="_blank" 
           rel="noopener noreferrer"
           class="inline-block bg-orange-500 hover:bg-orange-600 text-white font-medium py-3 px-8 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1"
