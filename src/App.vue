@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <Analytics />
     <header class="bg-gray-800 text-white p-4 shadow-md">
       <nav class="container mx-auto flex justify-between items-center">
         <router-link to="/" class="flex items-center space-x-2 group">
@@ -36,7 +35,7 @@
 </template>
 
 <script setup lang="ts">
-import Analytics from './components/Analytics.vue'
+// PostHog analytics is now handled via the plugin in main.ts
 </script>
 
 <style>

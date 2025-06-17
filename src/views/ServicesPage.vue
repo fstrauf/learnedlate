@@ -279,7 +279,7 @@ onMounted(() => {
 })
 
 const handleContactClick = () => {
-  trackContactEvent('email_services_page')
+  trackContactEvent('email', 'services_page')
 }
 
 // Services schema markup
