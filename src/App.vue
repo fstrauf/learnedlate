@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Analytics />
     <header class="bg-gray-800 text-white p-4 shadow-md">
       <nav class="container mx-auto flex justify-between items-center">
         <router-link to="/" class="flex items-center space-x-2 group">
@@ -11,6 +12,7 @@
         <div class="space-x-4">
           <router-link to="/projects" class="hover:text-gray-300 transition-colors">Projects</router-link>
           <router-link to="/services" class="hover:text-gray-300 transition-colors">Services</router-link>
+          <router-link to="/blog" class="hover:text-gray-300 transition-colors">Blog</router-link>
           <router-link to="/cv" class="hover:text-gray-300 transition-colors">CV</router-link>
         </div>
       </nav>
@@ -23,6 +25,7 @@
         <nav class="space-x-4">
           <router-link to="/projects" class="hover:text-gray-900 hover:underline">Projects</router-link>
           <router-link to="/services" class="hover:text-gray-900 hover:underline">Services</router-link>
+          <router-link to="/blog" class="hover:text-gray-900 hover:underline">Blog</router-link>
           <router-link to="/cv" class="hover:text-gray-900 hover:underline">CV</router-link>
           <a href="mailto:f.strauf@gmail.com" class="hover:text-gray-900 hover:underline">Contact Me</a>
         </nav>
@@ -33,7 +36,7 @@
 </template>
 
 <script setup lang="ts">
-// No script needed here, routing handles content
+import Analytics from './components/Analytics.vue'
 </script>
 
 <style>

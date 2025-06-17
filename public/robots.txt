@@ -1,4 +1,24 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://learnedlate.com/sitemap.xml # Replace with your actual domain and sitemap path 
+# Specific directives for search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Block common bot directories (if any exist)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*.json
+Disallow: /node_modules/
+
+# Sitemap location
+Sitemap: https://learnedlate.com/sitemap.xml
+
+# Additional sitemaps (if needed in future)
+# Sitemap: https://learnedlate.com/blog-sitemap.xml
+# Sitemap: https://learnedlate.com/services-sitemap.xml 

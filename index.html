@@ -1,26 +1,72 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-NZ">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Florian Strauf</title>
-    <meta name="description" content="Personal website of Florian Strauf">
+    
+    <!-- DNS Prefetch for external resources -->
+    <link rel="dns-prefetch" href="//www.googletagmanager.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/learndlate.png" as="image" type="image/png">
+    
+    <!-- Primary Meta Tags -->
+    <title>Florian Strauf - Fractional CTO & Technical Consultant</title>
+    <meta name="title" content="Florian Strauf - Fractional CTO & Technical Consultant">
+    <meta name="description" content="Expert fractional CTO, technical advisor, and consultant specializing in MVP development, technical due diligence, and strategic technology guidance for New Zealand businesses.">
+    <meta name="keywords" content="fractional CTO, technical consultant, MVP development, technical due diligence, New Zealand, Auckland, Wellington, Christchurch, startup advisor, technology leadership">
+    <meta name="author" content="Florian Strauf">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="geo.region" content="NZ">
+    <meta name="geo.country" content="New Zealand">
+    <meta name="geo.placename" content="Auckland, New Zealand">
 
-    <!-- Open Graph / Social Media Tags -->
-    <meta property="og:title" content="Florian Strauf">
-    <meta property="og:description" content="Personal website of Florian Strauf, showcasing projects and articles.">
-    <meta property="og:image" content="/learndlate.png"> <!-- Check if this is the intended share image and consider optimizing -->
-    <meta property="og:url" content="https://yourdomain.com/"> <!-- Replace with your actual domain -->
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
+    <meta property="og:site_name" content="LearnedLate">
+    <meta property="og:title" content="Florian Strauf - Fractional CTO & Technical Consultant">
+    <meta property="og:description" content="Expert fractional CTO, technical advisor, and consultant specializing in MVP development, technical due diligence, and strategic technology guidance for New Zealand businesses.">
+    <meta property="og:image" content="https://learnedlate.com/learndlate.png">
+    <meta property="og:url" content="https://learnedlate.com/">
+    <meta property="og:locale" content="en_NZ">
 
-    <!-- Optional: Twitter Card Tags (often good to include) -->
-    <meta name="twitter:card" content="summary_large_image">
-    <!-- For Twitter, you might reuse the same title, description, and image, or have specific ones -->
-    <meta name="twitter:title" content="Florian Strauf">
-    <meta name="twitter:description" content="Personal website of Florian Strauf, showcasing projects and articles.">
-    <meta name="twitter:image" content="/learndlate.png">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Florian Strauf - Fractional CTO & Technical Consultant">
+    <meta property="twitter:description" content="Expert fractional CTO, technical advisor, and consultant specializing in MVP development, technical due diligence, and strategic technology guidance for New Zealand businesses.">
+    <meta property="twitter:image" content="https://learnedlate.com/learndlate.png">
 
+    <!-- Additional SEO Meta Tags -->
+    <meta name="theme-color" content="#1f2937">
+    <meta name="msapplication-TileColor" content="#1f2937">
+    <meta name="application-name" content="LearnedLate">
+    
+    <!-- Canonical URL (will be overridden by Vue components) -->
+    <link rel="canonical" href="https://learnedlate.com/">
+    
+    <!-- Structured Data - Base Organization (enhanced by Vue components) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "LearnedLate",
+      "url": "https://learnedlate.com",
+      "description": "Expert fractional CTO and technical consulting services for New Zealand businesses",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "NZ",
+        "addressRegion": "Auckland"
+      },
+      "areaServed": {
+        "@type": "Country", 
+        "name": "New Zealand"
+      },
+      "email": "f.strauf@gmail.com"
+    }
+    </script>
   </head>
   <body>
     <div id="app"></div>

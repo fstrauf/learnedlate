@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from '../views/HomePage.vue'
 import CvPage from '../views/CvPage.vue'
 import ServicesPage from '../views/ServicesPage.vue'
+import BlogPage from '../views/BlogPage.vue'
+import BlogPostPage from '../views/BlogPostPage.vue'
 import ProjectsPage from '../views/ProjectsPage.vue'
 import LifeCalendarPage from '../views/LifeCalendarPage.vue'
 import ConcentricCirclesPage from '../views/ConcentricCirclesPage.vue'
@@ -27,6 +29,24 @@ const routes = [
     name: 'Services',
     component: ServicesPage,
     meta: { title: 'Services - Florian Strauf' }
+  },
+  {
+    path: '/blog',
+    name: 'Blog',
+    component: BlogPage,
+    meta: { title: 'Blog - Florian Strauf' }
+  },
+  {
+    path: '/blog/:slug',
+    name: 'BlogPost',
+    component: BlogPostPage,
+    props: true,
+    meta: {
+      title: (to: any) => {
+        // This will be overridden by the component when the post loads
+        return 'Blog Post - Florian Strauf'
+      }
+    }
   },
   {
     path: '/projects',

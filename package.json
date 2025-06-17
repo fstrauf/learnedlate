@@ -9,8 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@unhead/vue": "^2.0.10",
+    "@vueuse/head": "^2.0.0",
     "lodash-es": "^4.17.21",
     "marked": "^15.0.11",
+    "posthog-js": "^1.254.0",
     "vue": "^3.5.13",
     "vue-router": "^4.5.1"
   },
