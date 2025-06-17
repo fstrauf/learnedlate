@@ -8,7 +8,11 @@
             LearnedLate
           </span>
         </router-link>
-        <!-- Add other navigation links here if needed in the future -->
+        <div class="space-x-4">
+          <router-link to="/projects" class="hover:text-gray-300 transition-colors">Projects</router-link>
+          <router-link to="/services" class="hover:text-gray-300 transition-colors">Services</router-link>
+          <router-link to="/cv" class="hover:text-gray-300 transition-colors">CV</router-link>
+        </div>
       </nav>
     </header>
     <main class="p-4">
@@ -17,9 +21,10 @@
     <footer class="bg-gray-200 text-gray-700 p-6 text-center mt-auto">
       <div class="container mx-auto">
         <nav class="space-x-4">
+          <router-link to="/projects" class="hover:text-gray-900 hover:underline">Projects</router-link>
+          <router-link to="/services" class="hover:text-gray-900 hover:underline">Services</router-link>
           <router-link to="/cv" class="hover:text-gray-900 hover:underline">CV</router-link>
           <a href="mailto:f.strauf@gmail.com" class="hover:text-gray-900 hover:underline">Contact Me</a>
-          <!-- Add other footer links here if needed -->
         </nav>
         <p class="text-sm mt-4">&copy; {{ new Date().getFullYear() }} Florian Strauf. All rights reserved.</p>
       </div>

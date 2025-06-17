@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from '../views/HomePage.vue'
 import CvPage from '../views/CvPage.vue'
+import ServicesPage from '../views/ServicesPage.vue'
 import ProjectsPage from '../views/ProjectsPage.vue'
 import LifeCalendarPage from '../views/LifeCalendarPage.vue'
 import ConcentricCirclesPage from '../views/ConcentricCirclesPage.vue'
@@ -20,6 +21,12 @@ const routes = [
     name: 'CV',
     component: CvPage,
     meta: { title: 'CV - Florian Strauf' }
+  },
+  {
+    path: '/services',
+    name: 'Services',
+    component: ServicesPage,
+    meta: { title: 'Services - Florian Strauf' }
   },
   {
     path: '/projects',
