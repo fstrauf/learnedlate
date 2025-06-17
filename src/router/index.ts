@@ -42,7 +42,7 @@ const routes = [
     component: BlogPostPage,
     props: true,
     meta: {
-      title: (to: any) => {
+      title: () => {
         // This will be overridden by the component when the post loads
         return 'Blog Post - Florian Strauf'
       }
