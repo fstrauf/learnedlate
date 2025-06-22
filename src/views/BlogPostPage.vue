@@ -237,17 +237,16 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted, watch } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { marked } from 'marked'
 import SEOHead from '../components/SEOHead.vue'
-import { getBlogPostBySlug, getBlogPostsByCategory, allBlogPosts, type BlogPost } from '../blog'
+import { getBlogPostBySlug, allBlogPosts, type BlogPost } from '../blog'
 
 const route = useRoute()
 const loading = ref(true)
 const error = ref<string | null>(null)
 const post = ref<BlogPost | null>(null)
-const allPosts = ref<BlogPost[]>([])
 
 // Configure marked for better rendering
 marked.setOptions({
@@ -262,9 +261,9 @@ const renderedContent = computed(() => {
 })
 
 const relatedPosts = computed(() => {
-  if (!post.value || allPosts.value.length === 0) return []
+  if (!post.value) return []
   
-  return allPosts.value
+  return allBlogPosts
     .filter(p => p.slug !== post.value!.slug && p.category === post.value!.category)
     .slice(0, 3)
 })
@@ -339,7 +338,6 @@ onMounted(async () => {
     
     if (postData) {
       post.value = postData
-      allPosts.value = allBlogPosts
     } else {
       error.value = 'Post not found'
     }

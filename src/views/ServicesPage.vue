@@ -12,14 +12,15 @@
       <div class="container mx-auto px-6">
         <div class="max-w-4xl mx-auto text-center">
           <h1 class="text-4xl md:text-5xl font-light text-gray-900 mb-6">
-            Strategic Technology Leadership for Your Business
+            Strategic Technology Leadership & AI Automation for Your Business
           </h1>
           <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-            Get expert fractional CTO services, technical advisory, and strategic guidance 
+            Get expert fractional CTO services, AI automation implementation, and strategic guidance 
             to accelerate your technology initiatives across Auckland, Wellington, and all of New Zealand.
           </p>
           <div class="flex flex-wrap justify-center gap-4 text-sm text-gray-500">
             <span class="bg-white px-4 py-2 rounded-full shadow-sm">🇳🇿 New Zealand Based</span>
+            <span class="bg-white px-4 py-2 rounded-full shadow-sm">🤖 AI Implementation Expert</span>
             <span class="bg-white px-4 py-2 rounded-full shadow-sm">⚡ Rapid Response</span>
             <span class="bg-white px-4 py-2 rounded-full shadow-sm">🎯 Results Focused</span>
           </div>
@@ -35,9 +36,83 @@
         </h2>
         <div class="grid md:grid-cols-1 lg:grid-cols-1 gap-12 max-w-4xl mx-auto">
           
-          <!-- Service 1: Fractional CTO -->
+          <!-- Service 1: AI Automation & Implementation -->
+          <div class="service-card bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border-2 border-blue-200 p-8 hover:shadow-lg transition-shadow duration-300 relative">
+            <div class="absolute top-6 right-6">
+              <span class="bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-full">NEW</span>
+            </div>
+            <div class="flex items-center mb-4">
+              <div class="w-12 h-12 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg flex items-center justify-center mr-4">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                </svg>
+              </div>
+              <h3 class="text-2xl font-semibold text-gray-900">
+                AI Automation & Business Implementation
+              </h3>
+            </div>
+            <p class="text-gray-700 mb-6 leading-relaxed">
+              Cut through the AI confusion and implement practical automation solutions that actually work for your New Zealand business. 
+              From ChatGPT integration to complete AI transformation strategies, get measurable results in 90 days or less.
+            </p>
+            
+            <!-- Service Tiers -->
+            <div class="grid md:grid-cols-2 gap-6 mb-6">
+              <div class="bg-white rounded-lg p-4 border border-blue-200">
+                <h4 class="font-semibold text-gray-900 mb-2">AI Confusion Audit</h4>
+                <p class="text-sm text-gray-600 mb-3">Diagnose why your current AI initiatives aren't delivering results</p>
+                <div class="text-blue-600 font-bold">$500 NZD</div>
+              </div>
+              <div class="bg-white rounded-lg p-4 border border-blue-200">
+                <h4 class="font-semibold text-gray-900 mb-2">ChatGPT Business Setup</h4>
+                <p class="text-sm text-gray-600 mb-3">Complete ChatGPT implementation with custom workflows</p>
+                <div class="text-blue-600 font-bold">$2,000-5,000 NZD</div>
+              </div>
+              <div class="bg-white rounded-lg p-4 border border-blue-200">
+                <h4 class="font-semibold text-gray-900 mb-2">90-Day AI Strategy</h4>
+                <p class="text-sm text-gray-600 mb-3">Complete business transformation with AI automation</p>
+                <div class="text-blue-600 font-bold">$5,000-15,000 NZD</div>
+              </div>
+              <div class="bg-white rounded-lg p-4 border border-blue-200">
+                <h4 class="font-semibold text-gray-900 mb-2">AI Training Workshops</h4>
+                <p class="text-sm text-gray-600 mb-3">Team capability building and practical AI implementation</p>
+                <div class="text-blue-600 font-bold">$1,500/day NZD</div>
+              </div>
+            </div>
+
+            <div class="space-y-3 mb-6">
+              <div class="flex items-start space-x-3">
+                <div class="w-1.5 h-1.5 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                <span class="text-gray-700">AI landscape analysis and opportunity identification</span>
+              </div>
+              <div class="flex items-start space-x-3">
+                <div class="w-1.5 h-1.5 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                <span class="text-gray-700">Custom ChatGPT and AI tool implementation</span>
+              </div>
+              <div class="flex items-start space-x-3">
+                <div class="w-1.5 h-1.5 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                <span class="text-gray-700">Business process automation and workflow optimization</span>
+              </div>
+              <div class="flex items-start space-x-3">
+                <div class="w-1.5 h-1.5 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                <span class="text-gray-700">Team training and change management support</span>
+              </div>
+              <div class="flex items-start space-x-3">
+                <div class="w-1.5 h-1.5 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                <span class="text-gray-700">Measurable ROI tracking and performance optimization</span>
+              </div>
+            </div>
+            <div class="pt-4 border-t border-blue-200 bg-blue-50 -mx-8 px-8 -mb-8 pb-8 rounded-b-lg">
+              <div class="flex items-center justify-between">
+                <span class="text-sm text-blue-800 font-medium">🇳🇿 First to market with practical AI implementation in New Zealand</span>
+                <span class="text-xs bg-blue-600 text-white px-2 py-1 rounded">HIGH DEMAND</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 2: Fractional CTO -->
           <div class="service-card bg-white rounded-lg border border-gray-200 p-8 hover:shadow-lg transition-shadow duration-300 relative">
-            <div class="absolute top-6 right-6 text-sm font-light text-gray-400">01</div>
+            <div class="absolute top-6 right-6 text-sm font-light text-gray-400">02</div>
             <h3 class="text-2xl font-light text-gray-900 mb-4">
               Fractional CTO & Technical Advisor
             </h3>
@@ -68,9 +143,9 @@
             </div>
           </div>
 
-          <!-- Service 2: MVP Development -->
+          <!-- Service 3: MVP Development -->
           <div class="service-card bg-white rounded-lg border border-gray-200 p-8 hover:shadow-lg transition-shadow duration-300 relative">
-            <div class="absolute top-6 right-6 text-sm font-light text-gray-400">02</div>
+            <div class="absolute top-6 right-6 text-sm font-light text-gray-400">03</div>
             <h3 class="text-2xl font-light text-gray-900 mb-4">
               MVP & Rapid Prototype Development
             </h3>
@@ -101,9 +176,9 @@
             </div>
           </div>
 
-          <!-- Service 3: Technical Due Diligence -->
+          <!-- Service 4: Technical Due Diligence -->
           <div class="service-card bg-white rounded-lg border border-gray-200 p-8 hover:shadow-lg transition-shadow duration-300 relative">
-            <div class="absolute top-6 right-6 text-sm font-light text-gray-400">03</div>
+            <div class="absolute top-6 right-6 text-sm font-light text-gray-400">04</div>
             <h3 class="text-2xl font-light text-gray-900 mb-4">
               Technical Due Diligence & Audits
             </h3>
@@ -179,7 +254,7 @@
             Serving New Zealand Businesses
           </h2>
           <p class="text-gray-600 mb-8">
-            Providing fractional CTO and technical consulting services across New Zealand's major business centers:
+            Providing AI automation implementation, fractional CTO, and technical consulting services across New Zealand's major business centers:
           </p>
           <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
             <div class="text-center">
@@ -202,6 +277,13 @@
               <div class="font-medium text-gray-900">Remote</div>
               <div class="text-sm text-gray-500">Nationwide</div>
             </div>
+          </div>
+          <div class="mt-12 bg-blue-50 rounded-lg p-6 border border-blue-200">
+            <h3 class="text-lg font-semibold text-blue-900 mb-2">🇳🇿 New Zealand AI Implementation Leader</h3>
+            <p class="text-blue-800 text-sm">
+              First to market with practical AI automation solutions specifically designed for New Zealand businesses. 
+              Local expertise with global AI knowledge, delivering measurable results in 90 days or less.
+            </p>
           </div>
         </div>
       </div>
@@ -237,6 +319,18 @@ import { trackServiceView, trackContactEvent } from '../utils/analytics'
 // FAQ data
 const faqs = [
   {
+    question: "How do you help businesses cut through AI confusion and actually implement useful automation?",
+    answer: "I start with a practical AI Confusion Audit to identify why current AI initiatives aren't working, then implement specific, measurable solutions like custom ChatGPT workflows, process automation, and team training. Unlike generic AI consultants, I focus on immediate business value with clear ROI tracking in 90 days or less."
+  },
+  {
+    question: "What's included in the AI Confusion Audit and how is it different from other AI consultations?",
+    answer: "The $500 NZD audit includes a comprehensive review of your current AI tools, failed implementations, team confusion points, and missed opportunities. You'll get a clear roadmap with specific, actionable recommendations tailored to New Zealand businesses. Most consultants talk theory - I focus on what actually works in practice."
+  },
+  {
+    question: "Can you really implement ChatGPT for business in just 2-12 weeks?",
+    answer: "Absolutely. The ChatGPT Business Implementation service ($2,000-5,000 NZD) includes custom workflow setup, team training, integration with existing systems, and measurable performance tracking. I've successfully implemented ChatGPT solutions for NZ businesses that save 10-20 hours per week within the first month."
+  },
+  {
     question: "What exactly is a fractional CTO and how does it work?",
     answer: "A fractional CTO provides strategic technology leadership on a part-time or project basis. You get access to senior-level expertise without the full-time salary and equity commitment. I work with your team to develop technology strategy, make architectural decisions, guide technical hiring, and provide leadership during critical growth phases."
   },
@@ -258,7 +352,7 @@ const faqs = [
   },
   {
     question: "How do you price your services?",
-    answer: "Pricing varies based on engagement type, scope, and duration. Fractional CTO services are typically monthly retainers, MVP development is project-based, and due diligence is fixed-fee. I provide transparent proposals after understanding your specific needs and can work within most budgets."
+    answer: "Pricing varies based on engagement type, scope, and duration. AI services range from $500 (audit) to $15,000 (90-day strategy). Fractional CTO services are typically monthly retainers, MVP development is project-based, and due diligence is fixed-fee. I provide transparent proposals after understanding your specific needs."
   }
 ]
 
@@ -284,6 +378,47 @@ const handleContactClick = () => {
 
 // Services schema markup
 const servicesSchema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "AI Automation & Business Implementation",
+    "description": "Practical AI automation solutions and ChatGPT implementation for New Zealand businesses with measurable results in 90 days",
+    "provider": {
+      "@type": "Person",
+      "@id": "https://learnedlate.com/#person"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "New Zealand"
+    },
+    "serviceType": "AI Consulting",
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "AI Confusion Audit",
+        "price": "500",
+        "priceCurrency": "NZD"
+      },
+      {
+        "@type": "Offer", 
+        "name": "ChatGPT Business Implementation",
+        "price": "2000-5000",
+        "priceCurrency": "NZD"
+      },
+      {
+        "@type": "Offer",
+        "name": "90-Day AI Strategy Consulting", 
+        "price": "5000-15000",
+        "priceCurrency": "NZD"
+      },
+      {
+        "@type": "Offer",
+        "name": "AI Training Workshops",
+        "price": "1500",
+        "priceCurrency": "NZD"
+      }
+    ]
+  },
   {
     "@context": "https://schema.org",
     "@type": "Service",
