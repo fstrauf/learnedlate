@@ -11,18 +11,13 @@ export interface BlogPost {
   readingTime?: number;
 }
 
-// Import markdown files as raw text
-import post1Raw from './posts/2024-01-15-when-to-hire-fractional-cto.md?raw';
-import post2Raw from './posts/2024-02-01-mvp-development-best-practices.md?raw';
-import post3Raw from './posts/2024-02-15-technical-due-diligence-checklist.md?raw';
-
 // Utility function to extract frontmatter and content
-function parseBlogPost(raw: string): BlogPost {
+function parseBlogPost(raw: string, filename: string): BlogPost {
   const lines = raw.split('\n');
   const frontmatterEnd = lines.findIndex((line, index) => index > 0 && line.trim() === '---');
   
   if (frontmatterEnd === -1) {
-    throw new Error('Invalid frontmatter format');
+    throw new Error(`Invalid frontmatter format in ${filename}`);
   }
 
   const frontmatterLines = lines.slice(1, frontmatterEnd);
@@ -57,26 +52,35 @@ function parseBlogPost(raw: string): BlogPost {
   const wordCount = content.split(/\s+/).length;
   const readingTime = Math.ceil(wordCount / 200);
 
+  // Extract slug from filename (remove date prefix and .md extension)
+  const baseFilename = filename.split('/').pop() || filename;
+  const slug = baseFilename.split('-').slice(3).join('-').replace('.md', '');
+
   return {
-    title: frontmatter.title,
-    slug: frontmatter.slug,
-    excerpt: frontmatter.excerpt,
-    publishDate: frontmatter.publishDate,
-    author: frontmatter.author,
+    title: frontmatter.title || 'Untitled',
+    slug: slug,
+    excerpt: frontmatter.summary || frontmatter.excerpt || '',
+    publishDate: frontmatter.date || frontmatter.publishDate || '2025-06-22',
+    author: frontmatter.author || 'Florian Strauf',
     tags: frontmatter.tags || [],
-    category: frontmatter.category,
-    metaDescription: frontmatter.metaDescription,
+    category: frontmatter.category || 'Uncategorized',
+    metaDescription: frontmatter.metaDescription || frontmatter.summary || frontmatter.excerpt || '',
     content,
     readingTime
   };
 }
 
-// Parse all blog posts
-const blogPosts: BlogPost[] = [
-  parseBlogPost(post1Raw),
-  parseBlogPost(post2Raw),
-  parseBlogPost(post3Raw),
-];
+// Dynamically import all markdown files from the posts directory
+const postModules = import.meta.glob('./posts/*.md', { 
+  query: '?raw', 
+  import: 'default',
+  eager: true 
+}) as Record<string, string>;
+
+// Parse all blog posts dynamically
+const blogPosts: BlogPost[] = Object.entries(postModules).map(([path, raw]) => {
+  return parseBlogPost(raw, path);
+});
 
 // Sort posts by date (newest first)
 export const allBlogPosts = blogPosts.sort((a, b) => 

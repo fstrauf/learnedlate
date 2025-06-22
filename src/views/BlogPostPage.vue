@@ -82,8 +82,23 @@
       </header>
 
       <!-- Article Content -->
-      <div class="prose prose-lg prose-gray max-w-none mb-16">
-        <div v-html="post.content"></div>
+      <div class="prose prose-lg prose-gray max-w-none mb-16 
+                  prose-headings:font-light prose-headings:text-gray-900
+                  prose-h1:text-4xl prose-h1:mb-8
+                  prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:border-b prose-h2:border-gray-200 prose-h2:pb-4
+                  prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4
+                  prose-h4:text-xl prose-h4:mt-6 prose-h4:mb-3
+                  prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-6
+                  prose-strong:text-gray-900 prose-strong:font-semibold
+                  prose-ul:my-6 prose-li:my-2
+                  prose-ol:my-6 prose-ol:list-decimal
+                  prose-blockquote:border-l-4 prose-blockquote:border-blue-500 prose-blockquote:bg-blue-50 prose-blockquote:px-6 prose-blockquote:py-4 prose-blockquote:my-8 prose-blockquote:italic
+                  prose-code:bg-gray-100 prose-code:px-2 prose-code:py-1 prose-code:rounded prose-code:text-sm prose-code:font-mono
+                  prose-pre:bg-gray-900 prose-pre:text-gray-100 prose-pre:p-6 prose-pre:rounded-lg prose-pre:overflow-x-auto
+                  prose-table:my-8 prose-th:border prose-th:border-gray-300 prose-th:bg-gray-50 prose-th:px-4 prose-th:py-2
+                  prose-td:border prose-td:border-gray-300 prose-td:px-4 prose-td:py-2
+                  prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline">
+        <div v-html="renderedContent"></div>
       </div>
 
       <!-- Tags -->
@@ -199,17 +214,29 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
-import { getBlogPostBySlug, allBlogPosts } from '../blog'
-import type { BlogPost } from '../blog'
+import { marked } from 'marked'
 import SEOHead from '../components/SEOHead.vue'
+import { getBlogPostBySlug, getBlogPostsByCategory, allBlogPosts, type BlogPost } from '../blog'
 
 const route = useRoute()
-const post = ref<BlogPost | null>(null)
-const allPosts = ref<BlogPost[]>([])
 const loading = ref(true)
 const error = ref<string | null>(null)
+const post = ref<BlogPost | null>(null)
+const allPosts = ref<BlogPost[]>([])
+
+// Configure marked for better rendering
+marked.setOptions({
+  breaks: true,
+  gfm: true
+})
+
+// Computed property to render markdown content
+const renderedContent = computed(() => {
+  if (!post.value?.content) return ''
+  return marked(post.value.content)
+})
 
 const relatedPosts = computed(() => {
   if (!post.value || allPosts.value.length === 0) return []
@@ -285,12 +312,11 @@ const articleSchema = computed(() => {
 onMounted(async () => {
   try {
     const slug = route.params.slug as string
-         const postData = getBlogPostBySlug(slug)
-     const allPostsData = allBlogPosts
+    const postData = getBlogPostBySlug(slug)
     
     if (postData) {
       post.value = postData
-      allPosts.value = allPostsData
+      allPosts.value = allBlogPosts
     } else {
       error.value = 'Post not found'
     }
@@ -325,71 +351,81 @@ const shareArticle = () => {
 }
 </script>
 
-<style>
+<style scoped>
+/* Enhanced typography styles for blog content */
 .prose {
-  color: #374151;
   line-height: 1.75;
 }
 
 .prose h2 {
-  font-size: 1.875rem;
-  font-weight: 300;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  position: relative;
 }
 
-.prose h3 {
-  font-size: 1.5rem;
-  font-weight: 400;
-  margin-top: 1.5rem;
-  margin-bottom: 0.75rem;
-}
-
-.prose p {
-  margin-bottom: 1.25rem;
-}
-
-.prose ul, .prose ol {
-  margin-bottom: 1.25rem;
-  padding-left: 1.5rem;
-}
-
-.prose li {
-  margin-bottom: 0.5rem;
-}
-
-.prose a {
-  color: #1f2937;
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  text-decoration-thickness: 1px;
-}
-
-.prose a:hover {
-  text-decoration-thickness: 2px;
+.prose h2::before {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: linear-gradient(90deg, #3b82f6, #1d4ed8);
 }
 
 .prose blockquote {
-  border-left: 4px solid #e5e7eb;
-  padding-left: 1rem;
-  margin: 1.5rem 0;
   font-style: italic;
-  color: #6b7280;
+  position: relative;
+}
+
+.prose blockquote::before {
+  content: '"';
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  font-size: 3rem;
+  color: #3b82f6;
+  font-family: serif;
 }
 
 .prose code {
-  background-color: #f3f4f6;
-  padding: 0.125rem 0.25rem;
-  border-radius: 0.25rem;
-  font-size: 0.875em;
+  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', 'Consolas', monospace;
 }
 
-.prose pre {
-  background-color: #1f2937;
-  color: #f9fafb;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  overflow-x: auto;
-  margin: 1.5rem 0;
+.prose pre code {
+  background: transparent;
+  padding: 0;
+}
+
+.prose table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.prose th {
+  background-color: #f9fafb;
+  font-weight: 600;
+  text-align: left;
+}
+
+.prose tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .prose {
+    font-size: 1rem;
+  }
+  
+  .prose h1 {
+    font-size: 2rem;
+  }
+  
+  .prose h2 {
+    font-size: 1.75rem;
+  }
+  
+  .prose h3 {
+    font-size: 1.5rem;
+  }
 }
 </style> 
