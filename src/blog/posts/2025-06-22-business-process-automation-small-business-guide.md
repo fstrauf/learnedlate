@@ -1,9 +1,9 @@
 ---
-title: "What is Business Process Automation? A Small Business Guide for 2025"
-date: "2025-06-22"
-summary: "A practical guide to business process automation for small businesses. Learn what BPA is, see real examples, and discover how automation can save your business 20+ hours per week."
+title: "Business Process Automation for Small Business: Complete Implementation Guide"
+date: "2025-04-03"
+summary: "Transform your business operations with practical automation strategies. Step-by-step guide to identifying, implementing, and scaling business process automation for maximum ROI."
 category: "AI & Automation"
-tags: ["Automation", "Business Process", "Small Business", "Efficiency", "Workflow", "ROI"]
+tags: ["Process Automation", "Business Operations", "Workflow Optimization", "Small Business", "Efficiency", "Implementation"]
 author: "Florian Strauf"
 ---
 

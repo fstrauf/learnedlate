@@ -20,140 +20,19 @@ export default {
       return;
     }
 
-    // Initialize PostHog
-    const posthogInstance = posthog.init(POSTHOG_API_KEY, {
+    // Initialize PostHog with standard settings
+    posthog.init(POSTHOG_API_KEY, {
       api_host: POSTHOG_HOST,
       // Automatically capture page views
       capture_pageview: true,
       // Automatically capture clicks, form submissions, etc.
       autocapture: true,
-      // Enable session recording (optional)
-      session_recording: {
-        maskAllInputs: true,
-      },
       // Privacy settings
       opt_out_capturing_by_default: false,
       respect_dnt: true,
-      // Performance settings
-      disable_session_recording: false,
-      enable_recording_console_log: false,
-      // Custom properties for this website
-      loaded: (posthog) => {
-        // Set person properties
-        posthog.register({
-          website: 'learnedlate.com',
-          business_type: 'fractional_cto',
-          location: 'new_zealand',
-          services: ['fractional_cto', 'mvp_development', 'technical_due_diligence']
-        });
-        
-        // Identify the business/website
-        posthog.group('company', 'learnedlate', {
-          name: 'LearnedLate',
-          industry: 'Technology Consulting',
-          location: 'New Zealand',
-          founder: 'Florian Strauf'
-        });
-      },
     });
 
     // Make PostHog available globally
-    app.config.globalProperties.$posthog = posthogInstance;
-    
-    // Set up global tracking functions
-    setupGlobalTracking(posthogInstance);
+    app.config.globalProperties.$posthog = posthog;
   },
-};
-
-const setupGlobalTracking = (posthogInstance: any) => {
-  // Define tracking functions and attach to window for global access
-  const trackEvent = (eventName: string, properties: Record<string, any> = {}) => {
-    posthogInstance.capture(eventName, {
-      ...properties,
-      timestamp: new Date().toISOString(),
-      page_url: window.location.href,
-      page_title: document.title
-    });
-  };
-
-  const trackBusinessEvent = (eventName: string, properties: Record<string, any> = {}) => {
-    posthogInstance.capture(eventName, {
-      business_type: 'fractional_cto',
-      location: 'new_zealand',
-      website: 'learnedlate.com',
-      ...properties
-    });
-  };
-
-  const trackContactEvent = (method: string, source?: string) => {
-    trackBusinessEvent('contact_initiated', {
-      contact_method: method,
-      contact_source: source || 'unknown',
-      page_location: window.location.href,
-      high_intent: true
-    });
-  };
-
-  const trackServiceView = (serviceName: string, section?: string) => {
-    trackBusinessEvent('service_viewed', {
-      service_name: serviceName,
-      service_section: section,
-      engagement_type: 'page_view'
-    });
-  };
-
-  const trackBlogPostView = (postTitle: string, category: string, readingTime?: number) => {
-    trackBusinessEvent('blog_post_viewed', {
-      post_title: postTitle,
-      post_category: category,
-      reading_time_minutes: readingTime,
-      content_type: 'blog_post'
-    });
-  };
-
-  const trackDownload = (fileName: string, fileType: string) => {
-    trackBusinessEvent('file_downloaded', {
-      file_name: fileName,
-      file_type: fileType,
-      engagement_type: 'download'
-    });
-  };
-
-  const trackNewsletterSignup = (source: string) => {
-    trackBusinessEvent('newsletter_signup', {
-      signup_source: source,
-      lead_quality: 'high',
-      engagement_type: 'email_capture'
-    });
-  };
-
-  const trackFAQInteraction = (question: string, action: 'open' | 'close') => {
-    trackBusinessEvent('faq_interaction', {
-      faq_question: question,
-      interaction_type: action,
-      engagement_type: 'content_interaction'
-    });
-  };
-
-  // Expose tracking functions globally
-  if (typeof window !== 'undefined') {
-    // @ts-ignore
-    window.posthog = posthogInstance;
-    // @ts-ignore
-    window.trackEvent = trackEvent;
-    // @ts-ignore
-    window.trackBusinessEvent = trackBusinessEvent;
-    // @ts-ignore
-    window.trackContactEvent = trackContactEvent;
-    // @ts-ignore
-    window.trackServiceView = trackServiceView;
-    // @ts-ignore
-    window.trackBlogPostView = trackBlogPostView;
-    // @ts-ignore
-    window.trackDownload = trackDownload;
-    // @ts-ignore
-    window.trackNewsletterSignup = trackNewsletterSignup;
-    // @ts-ignore
-    window.trackFAQInteraction = trackFAQInteraction;
-  }
 }; 

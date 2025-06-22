@@ -1,9 +1,9 @@
 ---
-title: "What is a Fractional CTO? The Complete Guide for Startups in 2025"
-date: "2025-06-22"
-summary: "Everything you need to know about fractional CTOs: definition, benefits, costs, and how to decide if your startup needs one. Includes real cost comparisons and practical frameworks."
+title: "What is a Fractional CTO? Complete Guide for New Zealand Startups"
+date: "2025-01-15"
+summary: "Discover how fractional CTO services can accelerate your startup's growth without the full-time cost. Complete guide to finding, hiring, and working with fractional technology leadership in New Zealand."
 category: "Leadership"
-tags: ["CTO", "Fractional CTO", "Leadership", "Startups", "Technology Strategy", "Cost Analysis"]
+tags: ["Fractional CTO", "Leadership", "Startups", "Technology Strategy", "New Zealand"]
 author: "Florian Strauf"
 ---
 

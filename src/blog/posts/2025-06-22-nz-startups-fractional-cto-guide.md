@@ -1,9 +1,9 @@
 ---
-title: "Why New Zealand Startups Choose Fractional CTOs Over Full-Time Hires"
-date: "2025-06-22"
-summary: "How New Zealand's unique startup landscape makes fractional CTOs the smart choice for technical leadership. Includes local cost analysis and success stories from Kiwi startups."
+title: "New Zealand Startups: Your Complete Fractional CTO Guide"
+date: "2025-02-08"
+summary: "Why New Zealand startups are turning to fractional CTOs for technical leadership. Includes local market insights, cost comparisons, and how to find the right fractional CTO in Auckland, Wellington, and Christchurch."
 category: "Leadership"
-tags: ["CTO", "Fractional CTO", "New Zealand", "Startups", "Cost Analysis", "Auckland", "Wellington"]
+tags: ["Fractional CTO", "New Zealand", "Startups", "Technical Leadership", "Auckland", "Wellington"]
 author: "Florian Strauf"
 ---
 

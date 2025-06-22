@@ -225,13 +225,7 @@ const truncateDescription = (description: string, maxLength: number = 120) => {
 
 // Track Substack clicks for analytics
 const trackSubstackClick = () => {
-  if (typeof window !== 'undefined' && window.trackBusinessEvent) {
-    window.trackBusinessEvent('substack_click', {
-      destination: 'blog.learnedlate.com',
-      content_type: 'newsletter',
-      engagement_type: 'external_navigation'
-    })
-  }
+  // PostHog will automatically track this click via autocapture
 }
 
 // Simplified home page schema markup

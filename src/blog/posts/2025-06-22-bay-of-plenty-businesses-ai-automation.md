@@ -1,9 +1,9 @@
 ---
-title: "Why Bay of Plenty Businesses Are Turning to AI Automation (And You Should Too)"
-date: "2025-06-22"
-summary: "Discover how Bay of Plenty businesses are using AI automation to solve labor shortages, reduce costs, and compete with larger companies. Includes local success stories and government support programs."
+title: "Bay of Plenty Businesses: Your AI Automation Opportunity"
+date: "2025-03-25"
+summary: "How Bay of Plenty businesses are gaining competitive advantages through AI automation. Local case studies, implementation strategies, and opportunities specific to the BOP region."
 category: "AI & Automation"
-tags: ["AI", "Automation", "Bay of Plenty", "New Zealand", "Local Business", "Labor Shortage"]
+tags: ["Bay of Plenty", "AI Automation", "Regional Business", "New Zealand", "Local Case Studies", "Competitive Advantage"]
 author: "Florian Strauf"
 ---
 

@@ -1,9 +1,9 @@
 ---
-title: "How AI Can Transform Your Small Business: 10 Practical Examples with Real ROI"
-date: "2025-06-22"
-summary: "Discover 10 practical ways small businesses are using AI to save time and money. Includes specific tools, costs, and ROI calculations for each automation example."
+title: "How AI Transforms Small Business: 10 Practical Examples with Real ROI"
+date: "2025-04-29"
+summary: "Real examples of how small businesses are using AI to save time, reduce costs, and improve customer experience. Includes implementation details, costs, and measurable results."
 category: "AI & Automation"
-tags: ["AI", "Automation", "Small Business", "ROI", "Business Strategy", "Customer Service", "Productivity"]
+tags: ["AI Transformation", "Small Business", "Case Studies", "ROI", "Practical Examples", "Business Automation"]
 author: "Florian Strauf"
 ---
 

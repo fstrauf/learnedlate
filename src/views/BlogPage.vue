@@ -122,29 +122,6 @@
               View All Posts
             </button>
           </div>
-
-          <!-- Newsletter Signup -->
-          <div class="mt-20 bg-gray-900 text-white p-12 rounded-lg text-center">
-            <div class="max-w-2xl mx-auto">
-              <h3 class="text-3xl font-light mb-6 text-white">Stay Updated</h3>
-              <p class="text-xl mb-8 text-gray-300 font-light">
-                Get the latest insights on technology leadership, startup strategy, and product development delivered to your inbox.
-              </p>
-              <div class="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
-                <input 
-                  type="email" 
-                  placeholder="Enter your email" 
-                  class="flex-1 px-4 py-3 rounded-md border border-gray-300 text-gray-900 focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent"
-                >
-                <button class="bg-white text-gray-900 px-6 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors">
-                  Subscribe
-                </button>
-              </div>
-              <p class="text-sm text-gray-400 mt-4">
-                No spam, unsubscribe anytime.
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </div>

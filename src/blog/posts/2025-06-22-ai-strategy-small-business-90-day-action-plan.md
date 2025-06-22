@@ -3,7 +3,7 @@ title: "AI Strategy for Small Business: Cut Through the Hype with This 90-Day Ac
 date: "2025-06-22"
 summary: "Every business needs an AI strategy, but most don't know where to start. This practical 90-day plan shows exactly how to evaluate, implement, and scale AI in your business with measurable ROI."
 category: "AI & Automation"
-tags: ["AI", "Business Strategy", "Planning", "Implementation", "ROI"]
+tags: ["AI Strategy", "Business Planning", "Implementation", "ROI", "Small Business", "90-Day Plan"]
 author: "Florian Strauf"
 ---
 

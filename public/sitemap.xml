@@ -33,20 +33,68 @@
   
   <!-- Blog Posts -->
   <url>
-    <loc>https://learnedlate.com/blog/when-to-hire-fractional-cto</loc>
-    <lastmod>2024-01-15</lastmod>
+    <loc>https://learnedlate.com/blog/what-is-fractional-cto-complete-guide</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://learnedlate.com/blog/mvp-development-best-practices</loc>
-    <lastmod>2024-02-01</lastmod>
+    <loc>https://learnedlate.com/blog/nz-startups-fractional-cto-guide</loc>
+    <lastmod>2025-02-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://learnedlate.com/blog/technical-due-diligence-checklist</loc>
-    <lastmod>2024-02-15</lastmod>
+    <loc>https://learnedlate.com/blog/mvp-development-cost-breakdown-timeline-guide</loc>
+    <lastmod>2025-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://learnedlate.com/blog/bay-of-plenty-businesses-ai-automation</loc>
+    <lastmod>2025-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://learnedlate.com/blog/business-process-automation-small-business-guide</loc>
+    <lastmod>2025-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://learnedlate.com/blog/technical-due-diligence-checklist-cto-guide</loc>
+    <lastmod>2025-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://learnedlate.com/blog/how-ai-transforms-small-business-practical-examples</loc>
+    <lastmod>2025-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://learnedlate.com/blog/technical-risks-kill-startup-valuations</loc>
+    <lastmod>2025-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://learnedlate.com/blog/small-business-ai-confusion-why-no-one-using-effectively</loc>
+    <lastmod>2025-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://learnedlate.com/blog/chatgpt-for-business-practical-implementation-guide</loc>
+    <lastmod>2025-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://learnedlate.com/blog/ai-strategy-small-business-90-day-action-plan</loc>
+    <lastmod>2025-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

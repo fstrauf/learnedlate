@@ -1,9 +1,9 @@
 ---
-title: "The Hidden Technical Risks That Kill Startup Valuations (And How to Fix Them)"
-date: "2025-06-22"
-summary: "Discover the five technical risk categories that cause deals to fall through and startup valuations to crash. Includes practical remediation frameworks and prevention strategies."
+title: "How Technical Risks Kill Startup Valuations (And How to Fix Them)"
+date: "2025-05-06"
+summary: "Technical debt and poor architecture decisions can destroy startup valuations. Learn how to identify, quantify, and fix technical risks before they impact your next funding round."
 category: "Investment"
-tags: ["Technical Risk", "Due Diligence", "Investment", "Valuation", "Risk Management", "Startups"]
+tags: ["Technical Risk", "Startup Valuation", "Technical Debt", "Investment", "Due Diligence", "Architecture"]
 author: "Florian Strauf"
 ---
 

@@ -1,9 +1,9 @@
 ---
-title: "The Small Business AI Confusion: Why Everyone's Talking About AI But No One's Actually Using It Effectively"
-date: "2025-06-22"
-summary: "95% of small businesses know they should be using AI, but only 15% are getting real results. Here's why most AI implementations fail and the simple framework that actually works."
+title: "Why Small Businesses Struggle with AI: The Real Reasons Behind Implementation Failure"
+date: "2025-05-14"
+summary: "Despite the hype, most small businesses aren't using AI effectively. This deep dive reveals the real barriers to AI adoption and provides a practical framework for overcoming them."
 category: "AI & Automation"
-tags: ["AI", "Small Business", "Implementation", "Strategy", "Business Transformation", "Common Mistakes"]
+tags: ["AI Implementation", "Small Business", "Business Strategy", "Change Management", "AI Adoption", "Barriers"]
 author: "Florian Strauf"
 ---
 

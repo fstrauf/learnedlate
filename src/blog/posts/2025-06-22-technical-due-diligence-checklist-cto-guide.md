@@ -1,9 +1,9 @@
 ---
-title: "Technical Due Diligence Checklist: A CTO's Guide to Investor-Ready Assessments"
-date: "2025-06-22"
-summary: "A comprehensive guide to technical due diligence from a CTO's perspective. Includes strategic frameworks, real case studies, and downloadable templates for investor-ready assessments."
+title: "Technical Due Diligence Checklist: CTO's Complete Guide"
+date: "2025-04-18"
+summary: "Comprehensive technical due diligence checklist for investors and acquirers. Covers code quality, architecture, security, team assessment, and risk evaluation with practical frameworks."
 category: "Investment"
-tags: ["Due Diligence", "Technical Assessment", "CTO", "Investment", "Risk Management", "Evaluation"]
+tags: ["Due Diligence", "Technical Assessment", "Investment", "CTO", "Risk Management", "Code Quality"]
 author: "Florian Strauf"
 ---
 

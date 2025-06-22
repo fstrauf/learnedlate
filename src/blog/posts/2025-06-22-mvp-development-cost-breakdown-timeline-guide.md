@@ -1,9 +1,9 @@
 ---
-title: "MVP Development in 2025: Complete Cost Breakdown and Timeline Guide"
-date: "2025-06-22"
-summary: "Detailed cost breakdown of MVP development including hidden costs, realistic timelines, and strategic decision frameworks for build vs buy vs hire approaches."
+title: "MVP Development Cost Breakdown: Complete Timeline and Budget Guide"
+date: "2025-03-12"
+summary: "Detailed breakdown of MVP development costs, timelines, and budget planning. Includes real project examples, cost optimization strategies, and how to avoid common expensive mistakes."
 category: "Development"
-tags: ["MVP", "Development", "Cost Analysis", "Startups", "Budget Planning", "Timeline"]
+tags: ["MVP", "Development", "Costs", "Timeline", "Budget Planning", "Startups"]
 author: "Florian Strauf"
 ---
 
