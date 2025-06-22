@@ -8,6 +8,7 @@ import ProjectsPage from '../views/ProjectsPage.vue'
 import LifeCalendarPage from '../views/LifeCalendarPage.vue'
 import ConcentricCirclesPage from '../views/ConcentricCirclesPage.vue'
 import LifeBalanceVisualizerPage from '../views/LifeBalanceVisualizerPage.vue'
+import { usePostHog } from '../plugins/posthog'
 
 const DEFAULT_TITLE = 'Florian Strauf'
 
@@ -90,6 +91,8 @@ const router = createRouter({
   history: createWebHistory(),
   routes,
 })
+
+const { posthog } = usePostHog()
 
 router.afterEach((to) => {
   if (typeof to.meta.title === 'function') {
