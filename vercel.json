@@ -1,4 +1,16 @@
 {
+  "redirects": [
+    {
+      "source": "/chat",
+      "destination": "https://calendar.notion.so/meet/florianstrauf/chat",
+      "permanent": true
+    },
+    {
+      "source": "/coffee",
+      "destination": "https://calendar.notion.so/meet/florianstrauf/chat",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/((?!api/|_next/|static/|public/|favicon.ico|robots.txt|sitemap.xml|sw.js|manifest.json|assets/).*)",

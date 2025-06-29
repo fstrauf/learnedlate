@@ -177,6 +177,75 @@
       </div>
     </section>
 
+    <!-- Pricing Section -->
+    <!-- <section id="price-2" class="py-16 bg-white">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-light text-center text-gray-900 mb-12">
+          Service Packages
+        </h2>
+        <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          
+          <div class="pricing-card border border-gray-200 rounded-lg p-8 flex flex-col hover:border-gray-400 transition-colors duration-300">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">AI Automation Sprint</h3>
+            <p class="text-gray-500 mb-6">Implement practical automation in 30 days.</p>
+            <p class="text-3xl font-light text-gray-900 mb-6">$2,500 <span class="text-lg font-normal text-gray-500">/month</span></p>
+            <ul class="space-y-3 text-gray-600 mb-8 flex-grow">
+              <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>30-Day Action Plan</li>
+              <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Custom AI Tool Integration</li>
+              <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Workflow Optimization</li>
+            </ul>
+            <a href="https://calendar.notion.so/meet/florianstrauf/chat" target="_blank" class="bg-gray-900 text-white text-center px-6 py-3 rounded-md hover:bg-gray-800 transition-colors duration-200">
+              Book Discovery Call
+            </a>
+          </div>
+
+          <div class="pricing-card border-2 border-blue-500 rounded-lg p-8 flex flex-col relative">
+            <div class="absolute top-0 -translate-y-1/2 bg-blue-500 text-white px-3 py-1 text-sm font-semibold rounded-full">Most Popular</div>
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Fractional CTO</h3>
+            <p class="text-gray-500 mb-6">Strategic technical leadership for your growing company.</p>
+            <p class="text-3xl font-light text-gray-900 mb-6">$15k - $25k <span class="text-lg font-normal text-gray-500">/month</span></p>
+            <ul class="space-y-3 text-gray-600 mb-8 flex-grow">
+              <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Technology Roadmap</li>
+              <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Team Leadership & Mentoring</li>
+              <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Architecture & Strategy</li>
+            </ul>
+            <a href="https://calendar.notion.so/meet/florianstrauf/chat" target="_blank" class="bg-blue-500 text-white text-center px-6 py-3 rounded-md hover:bg-blue-600 transition-colors duration-200">
+              Book Discovery Call
+            </a>
+          </div>
+
+          <div class="pricing-card border border-gray-200 rounded-lg p-8 flex flex-col hover:border-gray-400 transition-colors duration-300">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">MVP Development</h3>
+            <p class="text-gray-500 mb-6">From idea to launched product in 6-12 weeks.</p>
+            <p class="text-3xl font-light text-gray-900 mb-6">$15k - $30k <span class="text-lg font-normal text-gray-500">/fixed</span></p>
+            <ul class="space-y-3 text-gray-600 mb-8 flex-grow">
+              <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Rapid Prototyping</li>
+              <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>User Experience (UX) Design</li>
+              <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Go-to-Market Strategy</li>
+            </ul>
+            <a href="https://calendar.notion.so/meet/florianstrauf/chat" target="_blank" class="bg-gray-900 text-white text-center px-6 py-3 rounded-md hover:bg-gray-800 transition-colors duration-200">
+              Book Discovery Call
+            </a>
+          </div>
+
+          <div class="pricing-card border border-gray-200 rounded-lg p-8 flex flex-col hover:border-gray-400 transition-colors duration-300">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Technical Advisory</h3>
+            <p class="text-gray-500 mb-6">Quick wins and strategic guidance.</p>
+            <p class="text-3xl font-light text-gray-900 mb-6">$250 <span class="text-lg font-normal text-gray-500">/hour</span></p>
+            <ul class="space-y-3 text-gray-600 mb-8 flex-grow">
+              <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Strategic Planning Session</li>
+              <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Technical Due Diligence</li>
+              <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Architecture Review</li>
+            </ul>
+            <a href="https://calendar.notion.so/meet/florianstrauf/chat" target="_blank" class="bg-gray-900 text-white text-center px-6 py-3 rounded-md hover:bg-gray-800 transition-colors duration-200">
+              Book a Session
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section> -->
+
     <!-- FAQ Section -->
     <section class="py-16 bg-gray-50">
       <div class="container mx-auto px-6">

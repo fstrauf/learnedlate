@@ -13,24 +13,32 @@
       <div class="container mx-auto px-6">
         <div class="max-w-4xl mx-auto text-center">
           <h1 class="text-4xl md:text-5xl font-light mb-6 leading-tight">
-            Hi, I'm <span class="text-gray-300">Florian Strauf</span>
+            I help businesses implement AI automation that actually works.
           </h1>
           <p class="text-xl text-gray-300 mb-8 leading-relaxed">
-            I build things, write about technology, and help businesses with their technical challenges.
+            Previously founded and sold a startup, then scaled another as CTO. Now building Expense Sorted and helping others build better, faster.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <router-link 
-              to="/projects" 
+              to="/services" 
               class="bg-white text-gray-900 px-8 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors duration-200"
             >
-              View Projects
+              Work With Me
             </router-link>
-            <router-link 
-              to="/services" 
+            <a 
+              href="https://blog.learnedlate.com" 
+              target="_blank"
               class="border border-white text-white px-8 py-3 rounded-md font-medium hover:bg-white hover:text-gray-900 transition-colors duration-200"
             >
-              Services
-            </router-link>
+              Read My Writing
+            </a>
+            <a 
+              href="https://calendar.notion.so/meet/florianstrauf/chat" 
+              target="_blank"
+              class="border border-white text-white px-8 py-3 rounded-md font-medium hover:bg-white hover:text-gray-900 transition-colors duration-200"
+            >
+              Let's Chat →
+            </a>
           </div>
         </div>
       </div>
