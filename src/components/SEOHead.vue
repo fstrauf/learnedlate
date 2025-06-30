@@ -99,7 +99,8 @@ const organizationSchema = {
   ],
   "email": "f.strauf@gmail.com",
   "sameAs": [
-    "https://linkedin.com/in/florianstrauf"
+    "https://linkedin.com/in/florianstrauf",
+    "https://x.com/learnedlate"
   ]
 }
 
@@ -143,7 +144,8 @@ const personSchema = {
     }
   ],
   "sameAs": [
-    "https://linkedin.com/in/florianstrauf"
+    "https://linkedin.com/in/florianstrauf",
+    "https://x.com/learnedlate"
   ]
 }
 
@@ -176,7 +178,8 @@ const localBusinessSchema = {
   "paymentAccepted": "Cash, Credit Card, Bank Transfer",
   "openingHours": "Mo-Fr 09:00-17:00",
   "sameAs": [
-    "https://linkedin.com/in/florianstrauf"
+    "https://linkedin.com/in/florianstrauf",
+    "https://x.com/learnedlate"
   ]
 }
 

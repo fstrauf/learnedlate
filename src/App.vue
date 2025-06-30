@@ -26,6 +26,7 @@
           <router-link to="/services" class="hover:text-gray-900 hover:underline">Services</router-link>
           <router-link to="/blog" class="hover:text-gray-900 hover:underline">Blog</router-link>
           <router-link to="/cv" class="hover:text-gray-900 hover:underline">CV</router-link>
+          <a href="https://x.com/learnedlate" target="_blank" class="hover:text-gray-900 hover:underline">Twitter</a>
           <a href="mailto:f.strauf@gmail.com" class="hover:text-gray-900 hover:underline">Contact Me</a>
         </nav>
         <p class="text-sm mt-4">&copy; {{ new Date().getFullYear() }} Florian Strauf. All rights reserved.</p>
