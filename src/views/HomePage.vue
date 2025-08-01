@@ -13,32 +13,24 @@
       <div class="container mx-auto px-6">
         <div class="max-w-4xl mx-auto text-center">
           <h1 class="text-4xl md:text-5xl font-light mb-6 leading-tight">
-            I help businesses implement AI automation that actually works.
+            Reclaim 10+ hours a week for your business.
           </h1>
           <p class="text-xl text-gray-300 mb-8 leading-relaxed">
-            Previously founded and sold a startup, then scaled another as CTO. Now building Expense Sorted and helping others build better, faster.
+            I help businesses eliminate repetitive tasks and streamline operations with practical AI and automation solutions. Let's free you up to focus on what truly matters.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <router-link 
-              to="/services" 
+            <a 
+              href="mailto:f.strauf@gmail.com"
               class="bg-white text-gray-900 px-8 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors duration-200"
             >
-              Work With Me
+              Start a Conversation
+            </a>
+            <router-link 
+              to="/services" 
+              class="border border-white text-white px-8 py-3 rounded-md font-medium hover:bg-white hover:text-gray-900 transition-colors duration-200"
+            >
+              View My Services
             </router-link>
-            <a 
-              href="https://blog.learnedlate.com" 
-              target="_blank"
-              class="border border-white text-white px-8 py-3 rounded-md font-medium hover:bg-white hover:text-gray-900 transition-colors duration-200"
-            >
-              Read My Writing
-            </a>
-            <a 
-              href="https://calendar.notion.so/meet/florianstrauf/chat" 
-              target="_blank"
-              class="border border-white text-white px-8 py-3 rounded-md font-medium hover:bg-white hover:text-gray-900 transition-colors duration-200"
-            >
-              Let's Chat →
-            </a>
           </div>
         </div>
       </div>
@@ -191,8 +183,7 @@
             About Me
           </h2>
           <p class="text-gray-600 mb-8 leading-relaxed text-lg">
-            I'm a developer and technology consultant based in New Zealand. I enjoy building 
-            useful tools, exploring new technologies, and sharing what I learn along the way.
+            I'm a developer and technology consultant based in the Bay of Plenty. After years of building complex software, I now use those skills to create simple automation solutions that give business owners their time back.
           </p>
           <p class="text-gray-600 mb-8 leading-relaxed">
             When I'm not coding, I help businesses navigate technical challenges through 

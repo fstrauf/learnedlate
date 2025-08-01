@@ -43,8 +43,7 @@
               AI Automation & Business Implementation
             </h3>
             <p class="text-gray-600 mb-6 leading-relaxed">
-              Cut through the AI confusion and implement practical automation solutions that actually work for your New Zealand business. 
-              From ChatGPT integration to complete AI transformation strategies, get measurable results with expert guidance.
+              I identify the most time-consuming manual tasks in your business—like client onboarding, invoicing, or data entry—and build simple, reliable automations to handle them for you.
             </p>
             
             <div class="space-y-3 mb-6">
@@ -70,7 +69,7 @@
               </div>
             </div>
             <div class="pt-4 border-t border-gray-100">
-              <span class="text-sm text-gray-500">Best for: Small to medium businesses ready to implement AI automation strategically</span>
+              <span class="text-sm text-gray-500">Best for: NZ businesses spending too much time on manual admin and looking for a clear ROI on their first automation project</span>
             </div>
           </div>
 
