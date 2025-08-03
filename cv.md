@@ -12,6 +12,7 @@ Entrepreneur with a unique blend of business and technology expertise. CTO with 
 
 ## CORE STRENGTHS
 
+- **AI-Accelerated Development**: Combines deep architectural experience with modern AI tools to deliver high-quality, scalable software faster and more cost-effectively than traditional methods.
 - **Rapid Prototyping & MVP Development**: Expert at transforming ideas into working prototypes by identifying essential features and stripping away unnecessary complexity.
 - **Technical Leadership & Team Efficiency**: Restructured development processes to significantly improve team productivity and product quality.
 - **Full-Stack Technical Expertise**: Comfortable building across the entire stack - from frontend applications to complex backend systems, Python algorithms, and SQL optimizations.
