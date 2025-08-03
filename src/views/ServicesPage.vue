@@ -1,5 +1,5 @@
 <template>
-  <div class="services-page">
+  <div class="services-page overflow-x-hidden">
     <SEOHead 
       title="Fractional CTO & Technical Consulting Services"
       description="Expert fractional CTO services, MVP development, and technical due diligence for New Zealand startups and businesses. Get strategic technology guidance from an experienced technical leader."
@@ -8,78 +8,78 @@
     />
     
     <!-- Hero Section -->
-    <section class="bg-gradient-to-r from-gray-50 to-gray-100 py-16">
-      <div class="container mx-auto px-6">
+    <section class="bg-gradient-to-r from-gray-50 to-gray-100 py-12 sm:py-16">
+              <div class="container mx-auto px-2 sm:px-4 lg:px-6">
         <div class="max-w-4xl mx-auto text-center">
-          <h1 class="text-4xl md:text-5xl font-light text-gray-900 mb-6">
+          <h1 class="text-3xl sm:text-4xl md:text-5xl font-light text-gray-900 mb-6">
             Strategic Technology Leadership & AI Automation for Your Business
           </h1>
-          <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+          <p class="text-lg sm:text-xl text-gray-600 mb-8 leading-relaxed px-2">
             Get expert fractional CTO services, AI automation implementation, and strategic guidance 
             to accelerate your technology initiatives across Auckland, Wellington, and all of New Zealand.
           </p>
-          <div class="flex flex-wrap justify-center gap-4 text-sm text-gray-500">
-            <span class="bg-white px-4 py-2 rounded-full shadow-sm">🇳🇿 New Zealand Based</span>
-            <span class="bg-white px-4 py-2 rounded-full shadow-sm">🤖 AI Implementation Expert</span>
-            <span class="bg-white px-4 py-2 rounded-full shadow-sm">⚡ Rapid Response</span>
-            <span class="bg-white px-4 py-2 rounded-full shadow-sm">🎯 Results Focused</span>
+          <div class="flex flex-wrap justify-center gap-3 sm:gap-4 text-sm text-gray-500 px-4">
+            <span class="bg-white px-3 sm:px-4 py-2 rounded-full shadow-sm">🇳🇿 New Zealand Based</span>
+            <span class="bg-white px-3 sm:px-4 py-2 rounded-full shadow-sm">🤖 AI Implementation Expert</span>
+            <span class="bg-white px-3 sm:px-4 py-2 rounded-full shadow-sm">⚡ Rapid Response</span>
+            <span class="bg-white px-3 sm:px-4 py-2 rounded-full shadow-sm">🎯 Results Focused</span>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Services Grid -->
-    <section class="py-16">
-      <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-light text-center text-gray-900 mb-12">
+    <section class="py-12 sm:py-16">
+              <div class="container mx-auto px-2 sm:px-4 lg:px-6">
+        <h2 class="text-2xl sm:text-3xl font-light text-center text-gray-900 mb-8 sm:mb-12">
           Professional Services
         </h2>
-        <div class="grid md:grid-cols-1 lg:grid-cols-1 gap-12 max-w-4xl mx-auto">
+        <div class="grid grid-cols-1 gap-8 sm:gap-12 max-w-4xl mx-auto">
           
           <!-- Service 1: AI Automation & Implementation -->
-          <div class="service-card bg-white rounded-lg border border-gray-200 p-8 hover:shadow-lg transition-shadow duration-300 relative">
-            <div class="absolute top-6 right-6 text-sm font-light text-gray-400">01</div>
-            <h3 class="text-2xl font-light text-gray-900 mb-4">
+          <div class="service-card bg-white rounded-lg border border-gray-200 p-6 sm:p-8 hover:shadow-lg transition-shadow duration-300 relative">
+            <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-gray-400">01</div>
+            <h3 class="text-xl sm:text-2xl font-light text-gray-900 mb-4 pr-8">
               AI Automation & Business Implementation
             </h3>
-            <p class="text-gray-600 mb-6 leading-relaxed">
+            <p class="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
               I identify the most time-consuming manual tasks in your business—like client onboarding, invoicing, or data entry—and build simple, reliable automations to handle them for you.
             </p>
             
             <div class="space-y-3 mb-6">
               <div class="flex items-start space-x-3">
                 <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600">AI landscape analysis and opportunity identification</span>
+                <span class="text-gray-600 text-sm sm:text-base">AI landscape analysis and opportunity identification</span>
               </div>
               <div class="flex items-start space-x-3">
                 <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600">Custom ChatGPT and AI tool implementation</span>
+                <span class="text-gray-600 text-sm sm:text-base">Custom ChatGPT and AI tool implementation</span>
               </div>
               <div class="flex items-start space-x-3">
                 <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600">Business process automation and workflow optimization</span>
+                <span class="text-gray-600 text-sm sm:text-base">Business process automation and workflow optimization</span>
               </div>
               <div class="flex items-start space-x-3">
                 <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600">Team training and change management support</span>
+                <span class="text-gray-600 text-sm sm:text-base">Team training and change management support</span>
               </div>
               <div class="flex items-start space-x-3">
                 <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600">Measurable ROI tracking and performance optimization</span>
+                <span class="text-gray-600 text-sm sm:text-base">Measurable ROI tracking and performance optimization</span>
               </div>
             </div>
             <div class="pt-4 border-t border-gray-100">
-              <span class="text-sm text-gray-500">Best for: NZ businesses spending too much time on manual admin and looking for a clear ROI on their first automation project</span>
+              <span class="text-xs sm:text-sm text-gray-500 leading-relaxed">Best for: NZ businesses spending too much time on manual admin and looking for a clear ROI on their first automation project</span>
             </div>
           </div>
 
           <!-- Service 2: Fractional CTO -->
-          <div class="service-card bg-white rounded-lg border border-gray-200 p-8 hover:shadow-lg transition-shadow duration-300 relative">
-            <div class="absolute top-6 right-6 text-sm font-light text-gray-400">02</div>
-            <h3 class="text-2xl font-light text-gray-900 mb-4">
+          <div class="service-card bg-white rounded-lg border border-gray-200 p-6 sm:p-8 hover:shadow-lg transition-shadow duration-300 relative">
+            <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-gray-400">02</div>
+            <h3 class="text-xl sm:text-2xl font-light text-gray-900 mb-4 pr-8">
               Fractional CTO & Technical Advisor
             </h3>
-            <p class="text-gray-600 mb-6 leading-relaxed">
+            <p class="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
               Get seasoned technical leadership without the full-time commitment. Perfect for startups and growing companies 
               that need strategic technology guidance, team leadership, and technical decision-making support.
             </p>
@@ -246,19 +246,19 @@
     </section> -->
 
     <!-- FAQ Section -->
-    <section class="py-16 bg-gray-50">
-      <div class="container mx-auto px-6">
+    <section class="py-12 sm:py-16 bg-gray-50">
+              <div class="container mx-auto px-2 sm:px-4 lg:px-6">
         <div class="max-w-4xl mx-auto">
-          <h2 class="text-3xl font-light text-center text-gray-900 mb-12">
+          <h2 class="text-2xl sm:text-3xl font-light text-center text-gray-900 mb-8 sm:mb-12">
             Frequently Asked Questions
           </h2>
-          <div class="space-y-6">
+          <div class="space-y-4 sm:space-y-6">
             <div v-for="(faq, index) in faqs" :key="index" class="bg-white rounded-lg shadow-sm">
               <button
                 @click="toggleFAQ(index)"
-                class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 rounded-lg transition-colors duration-200"
+                class="w-full px-2 sm:px-4 lg:px-6 py-3 sm:py-4 text-left flex justify-between items-center hover:bg-gray-50 rounded-lg transition-colors duration-200"
               >
-                <span class="font-medium text-gray-900">{{ faq.question }}</span>
+                <span class="font-medium text-gray-900 text-sm sm:text-base pr-2">{{ faq.question }}</span>
                 <svg 
                   :class="{ 'rotate-180': expandedFAQ === index }" 
                   class="w-5 h-5 text-gray-500 transition-transform duration-200" 
@@ -269,8 +269,8 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"></path>
                 </svg>
               </button>
-              <div v-show="expandedFAQ === index" class="px-6 pb-4">
-                <p class="text-gray-600 leading-relaxed">{{ faq.answer }}</p>
+              <div v-show="expandedFAQ === index" class="px-2 sm:px-4 lg:px-6 pb-3 sm:pb-4">
+                <p class="text-gray-600 leading-relaxed text-sm sm:text-base">{{ faq.answer }}</p>
               </div>
             </div>
           </div>
@@ -279,40 +279,40 @@
     </section>
 
     <!-- Local Areas Served -->
-    <section class="py-16">
-      <div class="container mx-auto px-6">
+    <section class="py-12 sm:py-16">
+              <div class="container mx-auto px-2 sm:px-4 lg:px-6">
         <div class="max-w-4xl mx-auto text-center">
-          <h2 class="text-3xl font-light text-gray-900 mb-8">
+          <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-6 sm:mb-8">
             Serving New Zealand Businesses
           </h2>
-          <p class="text-gray-600 mb-8">
+          <p class="text-gray-600 mb-8 text-sm sm:text-base px-2">
             Providing AI automation implementation, fractional CTO, and technical consulting services across New Zealand's major business centers:
           </p>
-          <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
             <div class="text-center">
-              <div class="text-2xl mb-2">🏙️</div>
-              <div class="font-medium text-gray-900">Auckland</div>
-              <div class="text-sm text-gray-500">Business Hub</div>
+              <div class="text-xl sm:text-2xl mb-2">🏙️</div>
+              <div class="font-medium text-gray-900 text-sm sm:text-base">Auckland</div>
+              <div class="text-xs sm:text-sm text-gray-500">Business Hub</div>
             </div>
             <div class="text-center">
-              <div class="text-2xl mb-2">🏛️</div>
-              <div class="font-medium text-gray-900">Wellington</div>
-              <div class="text-sm text-gray-500">Capital City</div>
+              <div class="text-xl sm:text-2xl mb-2">🏛️</div>
+              <div class="font-medium text-gray-900 text-sm sm:text-base">Wellington</div>
+              <div class="text-xs sm:text-sm text-gray-500">Capital City</div>
             </div>
             <div class="text-center">
-              <div class="text-2xl mb-2">🏔️</div>
-              <div class="font-medium text-gray-900">Christchurch</div>
-              <div class="text-sm text-gray-500">South Island</div>
+              <div class="text-xl sm:text-2xl mb-2">🏔️</div>
+              <div class="font-medium text-gray-900 text-sm sm:text-base">Christchurch</div>
+              <div class="text-xs sm:text-sm text-gray-500">South Island</div>
             </div>
             <div class="text-center">
-              <div class="text-2xl mb-2">🌐</div>
-              <div class="font-medium text-gray-900">Remote</div>
-              <div class="text-sm text-gray-500">Nationwide</div>
+              <div class="text-xl sm:text-2xl mb-2">🌐</div>
+              <div class="font-medium text-gray-900 text-sm sm:text-base">Remote</div>
+              <div class="text-xs sm:text-sm text-gray-500">Nationwide</div>
             </div>
           </div>
-          <div class="mt-12 bg-blue-50 rounded-lg p-6 border border-blue-200">
-            <h3 class="text-lg font-semibold text-blue-900 mb-2">🇳🇿 New Zealand AI Implementation Leader</h3>
-            <p class="text-blue-800 text-sm">
+          <div class="mt-8 sm:mt-12 bg-blue-50 rounded-lg p-4 sm:p-6 border border-blue-200 mx-2 sm:mx-0">
+            <h3 class="text-base sm:text-lg font-semibold text-blue-900 mb-2">🇳🇿 New Zealand AI Implementation Leader</h3>
+            <p class="text-blue-800 text-xs sm:text-sm leading-relaxed">
               First to market with practical AI automation solutions specifically designed for New Zealand businesses. 
               Local expertise with global AI knowledge, delivering measurable results in 90 days or less.
             </p>
@@ -322,19 +322,19 @@
     </section>
 
     <!-- Call to Action -->
-    <section class="py-16 bg-gray-900 text-white">
-      <div class="container mx-auto px-6 text-center">
-        <h2 class="text-3xl font-light mb-6">
+    <section class="py-12 sm:py-16 bg-gray-900 text-white">
+      <div class="container mx-auto px-2 sm:px-4 lg:px-6 text-center">
+        <h2 class="text-2xl sm:text-3xl font-light mb-6">
           Ready to Accelerate Your Technology Strategy?
         </h2>
-        <p class="text-gray-300 mb-8 max-w-2xl mx-auto">
+        <p class="text-gray-300 mb-8 max-w-2xl mx-auto text-sm sm:text-base px-2">
           Get expert guidance, strategic planning, and hands-on technical leadership 
           to drive your business forward. Let's discuss your needs.
         </p>
         <a 
           href="mailto:f.strauf@gmail.com" 
           @click="handleContactClick"
-          class="inline-block bg-white text-gray-900 px-8 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors duration-200"
+          class="inline-block bg-white text-gray-900 px-6 sm:px-8 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors duration-200"
         >
           Start a Conversation
         </a>

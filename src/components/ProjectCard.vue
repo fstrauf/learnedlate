@@ -10,12 +10,12 @@
     <div v-else 
       class="aspect-[1200/630] w-full flex items-center justify-center bg-gray-100 p-4"
     >
-       <span class="text-center font-semibold text-4xl" :class="placeholderTextColor">{{ project.title }}</span>
+       <span class="text-center font-semibold text-2xl sm:text-3xl lg:text-4xl" :class="placeholderTextColor">{{ project.title }}</span>
     </div>
     
-    <div class="p-4 flex flex-col flex-grow">
-      <h3 class="text-lg font-semibold mb-2">{{ project.title }}</h3>
-      <p class="text-gray-600 text-sm mb-4 flex-grow">{{ project.description }}</p>
+    <div class="p-4 sm:p-6 flex flex-col flex-grow">
+      <h3 class="text-base sm:text-lg font-semibold mb-2 sm:mb-3">{{ project.title }}</h3>
+      <p class="text-gray-600 text-sm sm:text-base mb-4 flex-grow leading-relaxed">{{ project.description }}</p>
       <!-- "View Project" button section is removed -->
     </div>
   </component>

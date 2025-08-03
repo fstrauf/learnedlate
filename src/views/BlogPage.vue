@@ -8,15 +8,15 @@
       :schema="blogSchema"
     />
     
-    <div class="min-h-screen bg-gray-50 py-16">
-      <div class="container mx-auto px-4">
+    <div class="min-h-screen bg-gray-50 py-12 sm:py-16">
+      <div class="container mx-auto px-2 sm:px-4 lg:px-6">
         <div class="max-w-6xl mx-auto">
           <!-- Header Section -->
-          <div class="text-center mb-16">
-            <h1 class="text-5xl font-light text-gray-900 mb-6 tracking-tight">
+          <div class="text-center mb-12 sm:mb-16">
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-light text-gray-900 mb-6 tracking-tight px-2">
               Technology Leadership Insights
             </h1>
-            <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-light">
+            <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-light px-4">
               Expert insights on fractional CTO services, MVP development, technical strategy, and 
               business growth from an experienced technology consultant.
             </p>
@@ -24,11 +24,11 @@
 
           <!-- Category Filter -->
           <div class="flex justify-center mb-12">
-            <div class="flex space-x-2 bg-white rounded-lg p-2 shadow-sm border border-gray-200">
+            <div class="flex flex-wrap justify-center gap-2 bg-white rounded-lg p-3 sm:p-2 shadow-sm border border-gray-200 max-w-full">
               <button
                 @click="selectedCategory = ''"
                 :class="[
-                  'px-4 py-2 rounded-md text-sm font-medium transition-colors',
+                  'px-3 sm:px-4 py-2 rounded-md text-sm font-medium transition-colors whitespace-nowrap',
                   selectedCategory === '' 
                     ? 'bg-gray-900 text-white' 
                     : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
@@ -41,7 +41,7 @@
                 :key="category"
                 @click="selectedCategory = category"
                 :class="[
-                  'px-4 py-2 rounded-md text-sm font-medium transition-colors',
+                  'px-3 sm:px-4 py-2 rounded-md text-sm font-medium transition-colors whitespace-nowrap',
                   selectedCategory === category 
                     ? 'bg-gray-900 text-white' 
                     : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
@@ -53,15 +53,15 @@
           </div>
 
           <!-- Blog Posts Grid -->
-          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             <article
               v-for="post in filteredPosts"
               :key="post.slug"
               class="bg-white rounded-lg shadow-sm border border-gray-200 hover:shadow-lg transition-all duration-300 overflow-hidden"
             >
-              <div class="p-8">
+              <div class="p-6 sm:p-8">
                 <!-- Meta Info -->
-                <div class="flex items-center space-x-3 mb-4">
+                <div class="flex flex-wrap items-center gap-2 sm:gap-3 mb-4">
                   <span class="inline-block px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">
                     {{ post.category }}
                   </span>
@@ -71,7 +71,7 @@
                 </div>
 
                 <!-- Title and Excerpt -->
-                <h2 class="text-xl font-medium text-gray-900 mb-3 leading-tight">
+                <h2 class="text-lg sm:text-xl font-medium text-gray-900 mb-3 leading-tight">
                   <router-link 
                     :to="`/blog/${post.slug}`" 
                     class="hover:text-gray-700 transition-colors"
@@ -80,7 +80,7 @@
                   </router-link>
                 </h2>
                 
-                <p class="text-gray-600 mb-6 line-clamp-3 leading-relaxed font-light">
+                <p class="text-gray-600 mb-6 line-clamp-3 leading-relaxed font-light text-sm sm:text-base">
                   {{ post.excerpt }}
                 </p>
 

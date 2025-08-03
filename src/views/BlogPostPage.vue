@@ -24,27 +24,27 @@
       <div class="text-red-500">{{ error }}</div>
     </div>
     
-    <article v-else-if="post" class="max-w-4xl mx-auto px-6 py-16">
+          <article v-else-if="post" class="max-w-4xl mx-auto px-2 sm:px-4 lg:px-6 py-12 sm:py-16">
       <!-- Breadcrumbs -->
-      <nav class="mb-8">
-        <ol class="flex items-center space-x-2 text-sm text-gray-500">
+      <nav class="mb-6 sm:mb-8">
+        <ol class="flex flex-wrap items-center gap-1 sm:gap-2 text-sm text-gray-500">
           <li><router-link to="/" class="hover:text-gray-700">Home</router-link></li>
-          <li><span class="mx-2">/</span></li>
+          <li><span class="mx-1 sm:mx-2">/</span></li>
           <li><router-link to="/blog" class="hover:text-gray-700">Blog</router-link></li>
-          <li><span class="mx-2">/</span></li>
-          <li class="text-gray-900">{{ post.title }}</li>
+          <li><span class="mx-1 sm:mx-2">/</span></li>
+          <li class="text-gray-900 truncate max-w-[200px] sm:max-w-none">{{ post.title }}</li>
         </ol>
       </nav>
 
       <!-- Article Header -->
-      <header class="mb-16">
-        <div class="flex items-center space-x-3 text-sm text-gray-500 mb-6">
-          <span class="bg-gradient-to-r from-blue-100 to-indigo-100 text-blue-800 px-4 py-2 rounded-full font-medium shadow-sm border border-blue-200">
+      <header class="mb-12 sm:mb-16">
+        <div class="flex flex-wrap items-center gap-2 sm:gap-3 text-sm text-gray-500 mb-6">
+          <span class="bg-gradient-to-r from-blue-100 to-indigo-100 text-blue-800 px-3 sm:px-4 py-2 rounded-full font-medium shadow-sm border border-blue-200">
             {{ post.category }}
           </span>
-          <span class="text-gray-300">•</span>
+          <span class="hidden sm:inline text-gray-300">•</span>
           <time :datetime="post.publishDate" class="font-medium">{{ formatDate(post.publishDate) }}</time>
-          <span class="text-gray-300">•</span>
+          <span class="hidden sm:inline text-gray-300">•</span>
           <span class="flex items-center space-x-1 font-medium">
             <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
@@ -53,29 +53,29 @@
           </span>
         </div>
         
-        <h1 class="text-5xl md:text-6xl font-bold text-gray-900 leading-tight mb-8 tracking-tight">
+        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6 sm:mb-8 tracking-tight">
           {{ post.title }}
         </h1>
         
-        <p class="text-xl md:text-2xl text-gray-600 leading-relaxed mb-12 max-w-4xl font-light">
+        <p class="text-lg sm:text-xl md:text-2xl text-gray-600 leading-relaxed mb-8 sm:mb-12 max-w-4xl font-light">
           {{ post.excerpt }}
         </p>
 
         <!-- Author Info -->
-        <div class="flex items-center justify-between py-8 border-t border-b border-gray-200 bg-gradient-to-r from-gray-50 to-white rounded-lg px-6">
-          <div class="flex items-center space-x-4">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 py-6 sm:py-8 border-t border-b border-gray-200 bg-gradient-to-r from-gray-50 to-white rounded-lg px-2 sm:px-4 lg:px-6">
+          <div class="flex items-center space-x-3 sm:space-x-4">
             <img 
               src="/learndlate.png" 
               alt="Florian Strauf" 
-              class="w-14 h-14 rounded-full object-cover ring-4 ring-white shadow-lg"
+              class="w-12 h-12 sm:w-14 sm:h-14 rounded-full object-cover ring-2 sm:ring-4 ring-white shadow-lg flex-shrink-0"
               loading="lazy"
             >
             <div>
-              <div class="font-semibold text-gray-900 text-lg">Florian Strauf</div>
+              <div class="font-semibold text-gray-900 text-base sm:text-lg">Florian Strauf</div>
               <div class="text-sm text-gray-600 font-medium">Fractional CTO & Technical Consultant</div>
             </div>
           </div>
-          <div class="flex space-x-3">
+          <div class="flex justify-center sm:justify-end">
             <button 
               @click="shareArticle"
               class="bg-white text-gray-600 hover:text-gray-900 p-3 rounded-full shadow-md hover:shadow-lg transition-all duration-200 border border-gray-200 hover:border-gray-300 group"
@@ -90,14 +90,14 @@
       </header>
 
       <!-- Article Content -->
-      <div class="prose prose-xl prose-slate max-w-none mb-16 
+      <div class="prose prose-lg sm:prose-xl prose-slate max-w-none mb-12 sm:mb-16 
                   prose-headings:font-normal prose-headings:tracking-tight
-                  prose-h1:text-5xl prose-h1:mb-8 prose-h1:font-bold prose-h1:text-gray-900
-                  prose-h2:text-3xl prose-h2:mt-16 prose-h2:mb-8 prose-h2:font-semibold prose-h2:text-gray-900 prose-h2:border-b-0 prose-h2:pb-0
-                  prose-h3:text-2xl prose-h3:mt-12 prose-h3:mb-6 prose-h3:font-semibold prose-h3:text-gray-800
-                  prose-h4:text-xl prose-h4:mt-8 prose-h4:mb-4 prose-h4:font-medium prose-h4:text-gray-800
-                  prose-h5:text-lg prose-h5:mt-6 prose-h5:mb-3 prose-h5:font-medium prose-h5:text-gray-700
-                  prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-6 prose-p:text-lg
+                  prose-h1:text-3xl sm:prose-h1:text-4xl lg:prose-h1:text-5xl prose-h1:mb-6 sm:prose-h1:mb-8 prose-h1:font-bold prose-h1:text-gray-900 prose-h1:leading-tight
+                  prose-h2:text-2xl sm:prose-h2:text-3xl prose-h2:mt-12 sm:prose-h2:mt-16 prose-h2:mb-6 sm:prose-h2:mb-8 prose-h2:font-semibold prose-h2:text-gray-900 prose-h2:border-b-0 prose-h2:pb-0 prose-h2:leading-tight
+                  prose-h3:text-xl sm:prose-h3:text-2xl prose-h3:mt-8 sm:prose-h3:mt-12 prose-h3:mb-4 sm:prose-h3:mb-6 prose-h3:font-semibold prose-h3:text-gray-800 prose-h3:leading-tight
+                  prose-h4:text-lg sm:prose-h4:text-xl prose-h4:mt-6 sm:prose-h4:mt-8 prose-h4:mb-3 sm:prose-h4:mb-4 prose-h4:font-medium prose-h4:text-gray-800
+                  prose-h5:text-base sm:prose-h5:text-lg prose-h5:mt-4 sm:prose-h5:mt-6 prose-h5:mb-2 sm:prose-h5:mb-3 prose-h5:font-medium prose-h5:text-gray-700
+                  prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-4 sm:prose-p:mb-6 prose-p:text-base sm:prose-p:text-lg
                   prose-strong:text-gray-900 prose-strong:font-semibold
                   prose-em:text-gray-800 prose-em:font-medium
                   prose-ul:my-8 prose-ul:space-y-2 prose-li:my-1 prose-li:text-gray-700 prose-li:leading-relaxed

@@ -9,25 +9,25 @@
     />
     
     <!-- Hero Section -->
-    <section class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-20">
-      <div class="container mx-auto px-6">
+    <section class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-12 sm:py-20">
+      <div class="container mx-auto px-2 sm:px-4 lg:px-6">
         <div class="max-w-4xl mx-auto text-center">
-          <h1 class="text-4xl md:text-5xl font-light mb-6 leading-tight">
+          <h1 class="text-3xl sm:text-4xl md:text-5xl font-light mb-6 leading-tight">
             Reclaim 10+ hours a week for your business.
           </h1>
-          <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+          <p class="text-lg sm:text-xl text-gray-300 mb-8 leading-relaxed px-2">
             I help businesses eliminate repetitive tasks and streamline operations with practical AI and automation solutions. Let's free you up to focus on what truly matters.
           </p>
-          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-2 sm:px-4">
             <a 
               href="mailto:f.strauf@gmail.com"
-              class="bg-white text-gray-900 px-8 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors duration-200"
+              class="bg-white text-gray-900 px-4 sm:px-6 lg:px-8 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors duration-200 text-center text-sm sm:text-base"
             >
               Start a Conversation
             </a>
             <router-link 
               to="/services" 
-              class="border border-white text-white px-8 py-3 rounded-md font-medium hover:bg-white hover:text-gray-900 transition-colors duration-200"
+              class="border border-white text-white px-4 sm:px-6 lg:px-8 py-3 rounded-md font-medium hover:bg-white hover:text-gray-900 transition-colors duration-200 text-center text-sm sm:text-base"
             >
               View My Services
             </router-link>
@@ -37,19 +37,19 @@
     </section>
 
     <!-- Featured Projects -->
-    <section class="py-16">
-      <div class="container mx-auto px-6">
+    <section class="py-12 sm:py-16">
+      <div class="container mx-auto px-2 sm:px-4 lg:px-6">
         <div class="max-w-6xl mx-auto">
-          <div class="flex justify-between items-center mb-12">
-            <h2 class="text-3xl font-light text-gray-900">Featured Projects</h2>
+          <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 sm:mb-12 gap-4">
+            <h2 class="text-2xl sm:text-3xl font-light text-gray-900">Featured Projects</h2>
             <router-link 
               to="/projects" 
-              class="text-gray-600 hover:text-gray-900 transition-colors duration-200"
+              class="text-gray-600 hover:text-gray-900 transition-colors duration-200 text-sm sm:text-base"
             >
               View All Projects →
             </router-link>
           </div>
-          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             <article v-for="project in featuredProjects" :key="project.id" 
                      class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-200 border border-gray-100">
               <div v-if="project.imageUrl" class="aspect-video bg-gray-100 overflow-hidden">
@@ -83,16 +83,16 @@
     </section>
 
     <!-- Substack Feature -->
-    <section class="py-16 bg-gray-50">
-      <div class="container mx-auto px-6">
+    <section class="py-12 sm:py-16 bg-gray-50">
+      <div class="container mx-auto px-2 sm:px-4 lg:px-6">
         <div class="max-w-4xl mx-auto text-center">
-          <h2 class="text-3xl font-light text-gray-900 mb-6">
+          <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-6">
             Personal Finance & Life Writing
           </h2>
-          <p class="text-gray-600 mb-8 leading-relaxed text-lg">
+          <p class="text-gray-600 mb-8 leading-relaxed text-base sm:text-lg px-2">
             I write regularly about personal finance, life lessons, and building wealth on my Substack newsletter.
           </p>
-          <div class="bg-white rounded-lg p-8 shadow-sm border border-gray-200">
+          <div class="bg-white rounded-lg p-6 sm:p-8 shadow-sm border border-gray-200">
             <div class="flex items-center justify-center mb-6">
               <div class="bg-orange-100 p-3 rounded-full">
                 <svg class="w-8 h-8 text-orange-600" fill="currentColor" viewBox="0 0 24 24">
@@ -118,19 +118,19 @@
     </section>
 
     <!-- Recent Blog Posts -->
-    <section class="py-16">
-      <div class="container mx-auto px-6">
+    <section class="py-12 sm:py-16">
+      <div class="container mx-auto px-2 sm:px-4 lg:px-6">
         <div class="max-w-6xl mx-auto">
-          <div class="flex justify-between items-center mb-12">
-            <h2 class="text-3xl font-light text-gray-900">Technical Writing</h2>
+          <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 sm:mb-12 gap-4">
+            <h2 class="text-2xl sm:text-3xl font-light text-gray-900">Technical Writing</h2>
             <router-link 
               to="/blog" 
-              class="text-gray-600 hover:text-gray-900 transition-colors duration-200"
+              class="text-gray-600 hover:text-gray-900 transition-colors duration-200 text-sm sm:text-base"
             >
               View Tech Posts →
             </router-link>
           </div>
-          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             <article class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-200">
               <div class="p-6">
                 <div class="text-sm text-gray-500 mb-2">January 15, 2024</div>
@@ -176,29 +176,29 @@
     </section>
 
     <!-- About Section -->
-    <section class="py-16">
-      <div class="container mx-auto px-6">
+    <section class="py-12 sm:py-16">
+      <div class="container mx-auto px-2 sm:px-4 lg:px-6">
         <div class="max-w-4xl mx-auto text-center">
-          <h2 class="text-3xl font-light text-gray-900 mb-6">
+          <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-6">
             About Me
           </h2>
-          <p class="text-gray-600 mb-8 leading-relaxed text-lg">
+          <p class="text-gray-600 mb-6 sm:mb-8 leading-relaxed text-base sm:text-lg px-2">
             I'm a developer and technology consultant based in the Bay of Plenty. After years of building complex software, I now use those skills to create simple automation solutions that give business owners their time back.
           </p>
-          <p class="text-gray-600 mb-8 leading-relaxed">
+          <p class="text-gray-600 mb-6 sm:mb-8 leading-relaxed text-base px-2">
             When I'm not coding, I help businesses navigate technical challenges through 
             consulting and fractional CTO services.
           </p>
-          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-2 sm:px-4">
             <router-link 
               to="/cv" 
-              class="border border-gray-300 text-gray-700 px-6 py-2 rounded-md hover:border-gray-400 transition-colors duration-200"
+              class="border border-gray-300 text-gray-700 px-4 sm:px-6 py-3 rounded-md hover:border-gray-400 transition-colors duration-200 text-center text-sm sm:text-base"
             >
               View CV
             </router-link>
             <a 
               href="mailto:f.strauf@gmail.com" 
-              class="bg-gray-900 text-white px-6 py-2 rounded-md hover:bg-gray-800 transition-colors duration-200"
+              class="bg-gray-900 text-white px-4 sm:px-6 py-3 rounded-md hover:bg-gray-800 transition-colors duration-200 text-center text-sm sm:text-base"
             >
               Get in Touch
             </a>
@@ -264,4 +264,13 @@ const homeSchema = [
 
 <style scoped>
 /* Clean, minimal styles for the homepage */
+.home-page {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Ensure all sections don't overflow horizontally */
+section {
+  overflow-x: hidden;
+}
 </style> 

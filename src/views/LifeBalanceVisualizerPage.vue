@@ -1,13 +1,15 @@
 <template>
-  <div class="max-w-6xl mx-auto p-6 bg-gray-50 min-h-screen">
-    <h1 class="text-3xl font-bold text-center mb-8 text-gray-800">
+  <div class="max-w-6xl mx-auto p-2 sm:p-4 lg:p-6 bg-gray-50 min-h-screen overflow-x-hidden">
+    <router-link to="/projects" class="text-blue-600 hover:text-blue-800 hover:underline mb-4 sm:mb-6 inline-block text-sm sm:text-base">&larr; Back to Projects</router-link>
+    
+    <h1 class="text-2xl sm:text-3xl font-bold text-center mb-6 sm:mb-8 text-gray-800">
       Life Balance Visualizer
     </h1>
     
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
       <!-- Controls -->
-      <div class="bg-white rounded-lg shadow-lg p-6">
-        <h2 class="text-xl font-semibold mb-6 text-gray-700">Adjust Your Life Parameters</h2>
+      <div class="bg-white rounded-lg shadow-lg p-4 sm:p-6">
+        <h2 class="text-lg sm:text-xl font-semibold mb-4 sm:mb-6 text-gray-700">Adjust Your Life Parameters</h2>
         
         <div class="space-y-8">
           <div>
@@ -97,8 +99,8 @@
       </div>
 
       <!-- Visualization -->
-      <div class="bg-white rounded-lg shadow-lg p-6">
-        <h2 class="text-xl font-semibold mb-6 text-gray-700">Your Balance</h2>
+      <div class="bg-white rounded-lg shadow-lg p-4 sm:p-6">
+        <h2 class="text-lg sm:text-xl font-semibold mb-4 sm:mb-6 text-gray-700">Your Balance</h2>
         
         <!-- Balance Meter -->
         <div class="mb-8">
@@ -164,9 +166,9 @@
     </div>
 
     <!-- Action Items -->
-    <div class="mt-8 bg-white rounded-lg shadow-lg p-6">
-      <h3 class="text-xl font-semibold mb-4 text-gray-700">Rebalancing Suggestions</h3>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div class="mt-6 sm:mt-8 bg-white rounded-lg shadow-lg p-4 sm:p-6">
+      <h3 class="text-lg sm:text-xl font-semibold mb-4 text-gray-700">Rebalancing Suggestions</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         <template v-if="balanceZone === 'businessman'">
           <div class="p-4 bg-yellow-50 rounded border-l-4 border-yellow-400">
             <h4 class="font-semibold text-yellow-800">Reduce Stress</h4>
