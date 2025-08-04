@@ -1,6 +1,6 @@
 ---
 title: "The Good Enough Mindset"
-date: "2025-08-01"
+date: "2025-07-25"
 summary: "Learn how the 'good enough mindset' helps you find functional solutions without chasing perfection. Master the art of breaking down problems and prioritizing working solutions over perfect ones."
 category: "Development & Strategy"
 tags: ["Mindset", "Development Strategy", "Productivity", "Problem Solving", "Pareto Principle"]

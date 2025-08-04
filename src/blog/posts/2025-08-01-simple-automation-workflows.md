@@ -1,6 +1,6 @@
 ---
 title: "Simple Automation Workflows"
-date: "2025-08-01"
+date: "2025-07-12"
 summary: "Learn the basics of workflow automation to improve your business's productivity and efficiency. This guide covers the essential components and benefits of automating your routines and systems."
 category: "AI & Automation"
 tags: ["Workflow Automation", "Business Process", "Productivity", "Efficiency", "Automation"]
