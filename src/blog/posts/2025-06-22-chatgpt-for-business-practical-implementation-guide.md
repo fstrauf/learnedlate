@@ -13,9 +13,9 @@ Every business owner has heard about ChatGPT. Most have tried it once or twice. 
 
 While everyone's debating whether AI will replace jobs, smart business owners are quietly using ChatGPT to eliminate 15-20 hours of weekly busywork, improve customer communications, and streamline operations—often for less than the cost of a lunch meeting.
 
-But here's what the tech blogs won't tell you: success with ChatGPT isn't about having the latest prompts or the most sophisticated use cases. It's about identifying the right business processes, implementing proper workflows, and measuring actual results.
+But here's what the tech blogs won't tell you: success with ChatGPT isn't about having the latest prompts or the most sophisticated use cases. It's about identifying the right business processes, implementing proper workflows, and measuring actual results. Many businesses struggle with [AI confusion and implementation challenges](/blog/posts/2025-06-22-small-business-ai-confusion-why-no-one-using-effectively/) despite the clear benefits.
 
-This guide shows you exactly how small businesses are using ChatGPT practically and profitably, with specific prompts, workflows, and ROI calculations that work in the real world.
+This guide shows you exactly how small businesses are using ChatGPT practically and profitably, with specific prompts, workflows, and ROI calculations that work in the real world. For broader context, see our complete [AI Strategy for Small Business](/blog/posts/2025-06-22-ai-strategy-small-business-90-day-action-plan/).
 
 ## The ChatGPT Business Reality Check
 

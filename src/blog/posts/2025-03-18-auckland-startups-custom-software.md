@@ -16,13 +16,13 @@ Most Auckland startups face a classic catch-22:
 
 - **Generic software** doesn't fit their unique business model
 - **Custom development** seems too expensive for startup budgets
-- **Technical debt** from workarounds kills their ability to scale
+- **Technical debt** from workarounds kills their ability to scale and [destroys startup valuations](/blog/posts/2025-06-22-technical-risks-kill-startup-valuations/)
 
 Meanwhile, their competitors who invest in proper software architecture are scaling faster, operating more efficiently, and attracting better talent.
 
 ## AI Has Rewritten the Rules
 
-What used to require $100k+ and 12+ months can now be delivered for $20k-40k in 2-4 months. This puts custom software squarely within reach of seed-stage startups.
+What used to require $100k+ and 12+ months can now be delivered for $20k-40k in 2-4 months. This puts custom software squarely within reach of seed-stage startups. Our [Custom Software Development Packages](/blog/posts/2025-04-05-custom-software-packages-nz/) are specifically designed for this new reality.
 
 ### The New Economics for Auckland Startups:
 

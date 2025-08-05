@@ -187,6 +187,7 @@ Before starting any custom software project, AI-assisted technical due diligence
 - AI analysis identified 3 integration points that would require custom API development
 - Compliance framework mapping revealed 12 regulatory requirements that would impact architecture
 - Performance modeling showed database design needed optimization for complex billing queries
+- [Technical risk assessment](/blog/posts/2025-06-22-technical-risks-kill-startup-valuations/) revealed potential scalability constraints
 
 **Week 3-4: Rapid Prototyping**
 - Working prototype demonstrated core workflows
@@ -236,7 +237,7 @@ Even with AI assistance, some projects are too risky:
 
 ## The Bottom Line: Risk is Optional
 
-Custom software project failure isn't inevitable—it's preventable. The combination of AI-assisted development and proper risk management transforms custom software from a high-risk investment to a predictable business tool.
+Custom software project failure isn't inevitable—it's preventable. The combination of AI-assisted development and proper risk management transforms custom software from a high-risk investment to a predictable business tool. An [AI Feasibility Sprint](/blog/posts/2025-01-08-ai-feasibility-sprint/) is one of the most effective ways to prevent these failures.
 
 The most expensive software project isn't the one that costs $100k—it's the one that fails to deliver value. With AI-powered risk prevention, that's a problem you can avoid entirely.
 

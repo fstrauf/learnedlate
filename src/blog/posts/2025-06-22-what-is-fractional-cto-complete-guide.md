@@ -11,7 +11,7 @@ author: "Florian Strauf"
 
 The traditional model of hiring a full-time Chief Technology Officer is broken for most startups. With senior CTO salaries ranging from $200,000 to $400,000+ annually, plus equity and benefits, many early-stage companies simply can't afford dedicated technical leadership when they need it most.
 
-Enter the fractional CTO—a model that's revolutionizing how startups access world-class technical expertise without breaking the bank. But what exactly is a fractional CTO, and how do you know if your startup needs one?
+Enter the fractional CTO—a model that's revolutionizing how startups access world-class technical expertise without breaking the bank. For New Zealand-specific insights, see our [NZ Startups Fractional CTO Guide](/blog/posts/2025-06-22-nz-startups-fractional-cto-guide/). But what exactly is a fractional CTO, and how do you know if your startup needs one?
 
 ## What is a Fractional CTO? (Beyond the Basic Definition)
 
@@ -25,7 +25,7 @@ The fractional CTO model emerged from a simple reality: most startups don't need
 
 - **Option A**: No technical leadership (risky and limiting)
 - **Option B**: Full-time hire too early (expensive and potentially premature)
-- **Option C**: Promote a developer to CTO (often leads to management mistakes)
+- **Option C**: Promote a developer to CTO (often leads to management mistakes and [technical risks that destroy valuations](/blog/posts/2025-06-22-technical-risks-kill-startup-valuations/))
 
 Fractional CTOs provide **Option D**: Strategic technical leadership scaled to your actual needs and budget.
 

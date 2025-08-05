@@ -11,9 +11,9 @@ author: "Florian Strauf"
 
 Running a small business means wearing multiple hats, juggling countless tasks, and often feeling like there aren't enough hours in the day. If you're spending your evenings manually updating spreadsheets, chasing invoices, or copying data between systems, you're not alone—but you don't have to stay stuck in this cycle.
 
-Business Process Automation (BPA) is transforming how small businesses operate, and the results are remarkable: companies implementing automation see 10-50% cost reductions, up to 70% fewer errors, and gain back 20+ hours per week for strategic work.
+Business Process Automation (BPA) is transforming how small businesses operate, and the results are remarkable: companies implementing automation see 10-50% cost reductions, up to 70% fewer errors, and gain back 20+ hours per week for strategic work. For strategic implementation, see our [AI Strategy for Small Business 90-Day Action Plan](/blog/posts/2025-06-22-ai-strategy-small-business-90-day-action-plan/).
 
-But here's what most guides won't tell you: you don't need a massive budget or technical team to get started. This guide will show you exactly what business process automation is, how it works for small businesses, and practical steps to begin automating your most time-consuming processes.
+But here's what most guides won't tell you: you don't need a massive budget or technical team to get started. Many businesses struggle with [AI confusion and implementation challenges](/blog/posts/2025-06-22-small-business-ai-confusion-why-no-one-using-effectively/), but automation can be straightforward. This guide will show you exactly what business process automation is, how it works for small businesses, and practical steps to begin automating your most time-consuming processes.
 
 ## What is Business Process Automation?
 

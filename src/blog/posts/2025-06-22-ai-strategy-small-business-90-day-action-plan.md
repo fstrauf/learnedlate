@@ -17,7 +17,7 @@ Meanwhile, practical business owners are quietly implementing AI solutions that 
 
 The difference? They have a clear strategy that focuses on business outcomes rather than technology trends.
 
-This guide provides a practical 90-day AI strategy framework that any small business can implement, with specific steps, decision points, and measurable outcomes at each stage.
+This guide provides a practical 90-day AI strategy framework that any small business can implement, with specific steps, decision points, and measurable outcomes at each stage. For hands-on implementation, see our [ChatGPT for Business Implementation Guide](/blog/posts/2025-06-22-chatgpt-for-business-practical-implementation-guide/).
 
 ## The Small Business AI Strategy Reality
 
@@ -30,7 +30,7 @@ This guide provides a practical 90-day AI strategy framework that any small busi
 - **No Success Metrics**: Implementing AI without measuring business impact
 
 **The Success Pattern**:
-Start with clear business problems, implement simple solutions, measure results, and scale what works.
+Start with clear business problems, implement simple solutions, measure results, and scale what works. This approach mirrors [how AI transforms small business operations](/blog/posts/2025-06-22-how-ai-transforms-small-business-practical-examples/) in practice.
 
 ### The 90-Day Framework Overview
 

@@ -1,6 +1,6 @@
 ---
 title: "Automate Marketing, Automate Anything"
-date: "2025-08-01"
+date: "2025-07-30"
 summary: "A short, actionable guide to automating your marketing and other tasks by creating a personal AI agent using extensions and structured workflows."
 category: "AI & Automation"
 tags: ["Marketing Automation", "AI Agent", "Workflow", "Productivity", "SEO"]
@@ -9,7 +9,7 @@ author: "Florian Strauf"
 
 ### Automate Marketing, Automate Anything
 
-You can automate marketing and other complex tasks by creating your own personal AI agent. This is done by connecting an AI like Claude to external applications and services using extensions, which allows the AI to perform powerful, automated workflows.
+You can automate marketing and other complex tasks by creating your own personal AI agent. This is done by connecting an AI like Claude to external applications and services using extensions, which allows the AI to perform powerful, automated workflows. For broader automation context, see our [Business Process Automation Guide](/blog/posts/2025-06-22-business-process-automation-small-business-guide/).
 
 An AI agent is the combination of an AI, extensions (or MCPs), and a structured, step-by-step workflow. Here are a couple of examples of what you can do with it:
 

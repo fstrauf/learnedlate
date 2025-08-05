@@ -11,9 +11,9 @@ author: "Florian Strauf"
 
 New Zealand's startup ecosystem is booming. From Auckland's fintech scene to Wellington's creative tech hub, Kiwi entrepreneurs are building world-class companies. But there's a problem that's holding many of them back: the tech talent shortage.
 
-With senior developers commanding $120,000-180,000+ annually and experienced CTOs even more scarce, many promising startups face an impossible choice: compromise on technical leadership or burn through runway trying to compete for talent with deep-pocketed multinational companies.
+With senior developers commanding $120,000-180,000+ annually and experienced CTOs even more scarce, many promising startups face an impossible choice: compromise on technical leadership or burn through runway trying to compete for talent with deep-pocketed multinational companies. Poor technical decisions early on can [kill startup valuations](/blog/posts/2025-06-22-technical-risks-kill-startup-valuations/) later.
 
-Smart New Zealand founders are choosing a third option: fractional CTOs. Here's why this model is perfectly suited to the unique challenges and opportunities of building a tech company in Aotearoa.
+Smart New Zealand founders are choosing a third option: fractional CTOs. For a complete overview, see [What is a Fractional CTO](/blog/posts/2025-06-22-what-is-fractional-cto-complete-guide/). Here's why this model is perfectly suited to the unique challenges and opportunities of building a tech company in Aotearoa.
 
 ## The New Zealand Startup Landscape in 2025
 
