@@ -20,7 +20,7 @@
           </p>
           <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-2 sm:px-4">
             <a 
-              href="mailto:f.strauf@gmail.com"
+              href="mailto:hello@learnedlate.com"
               class="bg-white text-gray-900 px-4 sm:px-6 lg:px-8 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors duration-200 text-center text-sm sm:text-base"
             >
               Start a Conversation
@@ -197,7 +197,7 @@
               View CV
             </router-link>
             <a 
-              href="mailto:f.strauf@gmail.com" 
+              href="mailto:hello@learnedlate.com" 
               class="bg-gray-900 text-white px-4 sm:px-6 py-3 rounded-md hover:bg-gray-800 transition-colors duration-200 text-center text-sm sm:text-base"
             >
               Get in Touch

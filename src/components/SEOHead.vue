@@ -97,7 +97,7 @@ const organizationSchema = {
     "Web3 Technology",
     "Product Management"
   ],
-  "email": "f.strauf@gmail.com",
+  "email": "hello@learnedlate.com",
   "sameAs": [
     "https://linkedin.com/in/florianstrauf",
     "https://x.com/learnedlate"
@@ -113,7 +113,7 @@ const personSchema = {
   "jobTitle": "Fractional CTO & Technical Consultant",
   "description": "Experienced technology leader specializing in fractional CTO services, technical advisory, and strategic guidance for New Zealand startups and businesses.",
   "url": "https://learnedlate.com",
-  "email": "f.strauf@gmail.com",
+  "email": "hello@learnedlate.com",
   "image": "https://learnedlate.com/learndlate.png",
   "knowsAbout": [
     "Software Architecture",
@@ -158,7 +158,7 @@ const localBusinessSchema = {
   "description": "Professional fractional CTO and technical consulting services in New Zealand",
   "url": "https://learnedlate.com",
   "telephone": "+64-21-XXX-XXXX", // Replace with actual number
-  "email": "f.strauf@gmail.com",
+  "email": "hello@learnedlate.com",
   "address": {
     "@type": "PostalAddress",
     "addressCountry": "NZ",

@@ -221,7 +221,7 @@
           Let's discuss how AI-accelerated development can bring your idea to life, or how strategic automation can free up your time.
         </p>
         <a
-          href="mailto:f.strauf@gmail.com"
+          href="mailto:hello@learnedlate.com"
           @click="handleContactClick"
           class="inline-block bg-white text-gray-900 px-6 sm:px-8 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors duration-200"
         >

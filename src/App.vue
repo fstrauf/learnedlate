@@ -80,7 +80,7 @@
           <router-link to="/blog" class="hover:text-gray-900 hover:underline transition-colors">Blog</router-link>
           <router-link to="/cv" class="hover:text-gray-900 hover:underline transition-colors">CV</router-link>
           <a href="https://x.com/learnedlate" target="_blank" class="hover:text-gray-900 hover:underline transition-colors">Twitter</a>
-          <a href="mailto:f.strauf@gmail.com" class="hover:text-gray-900 hover:underline transition-colors">Contact Me</a>
+          <a href="mailto:hello@learnedlate.com" class="hover:text-gray-900 hover:underline transition-colors">Contact Me</a>
         </nav>
 
         <!-- Mobile Footer Navigation -->
@@ -90,7 +90,7 @@
           <router-link to="/blog" class="hover:text-gray-900 hover:underline transition-colors">Blog</router-link>
           <router-link to="/cv" class="hover:text-gray-900 hover:underline transition-colors">CV</router-link>
           <a href="https://x.com/learnedlate" target="_blank" class="hover:text-gray-900 hover:underline transition-colors">Twitter</a>
-          <a href="mailto:f.strauf@gmail.com" class="hover:text-gray-900 hover:underline transition-colors">Contact Me</a>
+          <a href="mailto:hello@learnedlate.com" class="hover:text-gray-900 hover:underline transition-colors">Contact Me</a>
         </nav>
 
         <div class="text-center">
