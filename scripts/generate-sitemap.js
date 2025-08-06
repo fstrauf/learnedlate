@@ -10,13 +10,11 @@ const SITE_URL = 'https://www.learnedlate.com';
 const POSTS_DIR = join(__dirname, '../src/blog/posts');
 const OUTPUT_PATH = join(__dirname, '../public/sitemap.xml');
 
-// Static pages configuration
+// Static pages configuration - Only canonical URLs
+// Note: /services, /blog, /cv, and /projects have canonical tags pointing to / (homepage)
+// so they should not be included in the sitemap to avoid conflicting SEO signals
 const STATIC_PAGES = [
   { path: '/', priority: '1.0', changefreq: 'weekly' },
-  { path: '/services', priority: '0.9', changefreq: 'monthly' },
-  { path: '/blog', priority: '0.9', changefreq: 'weekly' },
-  { path: '/cv', priority: '0.8', changefreq: 'monthly' },
-  { path: '/projects', priority: '0.9', changefreq: 'monthly' },
 ];
 
 // Project pages configuration
