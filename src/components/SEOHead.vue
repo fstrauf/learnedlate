@@ -26,7 +26,7 @@ const props = withDefaults(defineProps<SEOProps>(), {
   title: 'Florian Strauf - Fractional CTO & Technical Consultant',
   description: 'Expert fractional CTO, technical advisor, and consultant specializing in MVP development, technical due diligence, and strategic technology guidance for New Zealand businesses.',
   image: '/learndlate.png',
-  url: 'https://learnedlate.com',
+  url: 'https://www.learnedlate.com',
   type: 'website',
   schema: () => []
 })
@@ -38,26 +38,26 @@ const fullTitle = computed(() =>
 )
 
 const canonicalUrl = computed(() => 
-  props.url.startsWith('http') ? props.url : `https://learnedlate.com${props.url}`
+  props.url.startsWith('http') ? props.url : `https://www.learnedlate.com${props.url}`
 )
 
 // Base organization schema
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  "@id": "https://learnedlate.com/#organization",
+  "@id": "https://www.learnedlate.com/#organization",
   "name": "LearnedLate",
   "legalName": "Florian Strauf Consulting",
-  "url": "https://learnedlate.com",
+  "url": "https://www.learnedlate.com",
   "logo": {
     "@type": "ImageObject",
-    "url": "https://learnedlate.com/learndlate.png"
+    "url": "https://www.learnedlate.com/learndlate.png"
   },
   "description": "Expert fractional CTO and technical consulting services for New Zealand businesses",
   "foundingDate": "2020",
   "founder": {
     "@type": "Person",
-    "@id": "https://learnedlate.com/#person"
+    "@id": "https://www.learnedlate.com/#person"
   },
   "address": {
     "@type": "PostalAddress",
@@ -108,13 +108,13 @@ const organizationSchema = {
 const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
-  "@id": "https://learnedlate.com/#person",
+  "@id": "https://www.learnedlate.com/#person",
   "name": "Florian Strauf",
   "jobTitle": "Fractional CTO & Technical Consultant",
   "description": "Experienced technology leader specializing in fractional CTO services, technical advisory, and strategic guidance for New Zealand startups and businesses.",
-  "url": "https://learnedlate.com",
+  "url": "https://www.learnedlate.com",
   "email": "hello@learnedlate.com",
-  "image": "https://learnedlate.com/learndlate.png",
+  "image": "https://www.learnedlate.com/learndlate.png",
   "knowsAbout": [
     "Software Architecture",
     "Technical Leadership", 
@@ -135,7 +135,7 @@ const personSchema = {
   },
   "worksFor": {
     "@type": "Organization",
-    "@id": "https://learnedlate.com/#organization"
+    "@id": "https://www.learnedlate.com/#organization"
   },
   "alumniOf": [
     {
@@ -153,10 +153,10 @@ const personSchema = {
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://learnedlate.com/#localbusiness",
+  "@id": "https://www.learnedlate.com/#localbusiness",
   "name": "LearnedLate - Fractional CTO Services",
   "description": "Professional fractional CTO and technical consulting services in New Zealand",
-  "url": "https://learnedlate.com",
+  "url": "https://www.learnedlate.com",
   "telephone": "+64-21-XXX-XXXX", // Replace with actual number
   "email": "hello@learnedlate.com",
   "address": {

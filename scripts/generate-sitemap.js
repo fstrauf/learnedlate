@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 // Configuration
-const SITE_URL = 'https://learnedlate.com';
+const SITE_URL = 'https://www.learnedlate.com';
 const POSTS_DIR = join(__dirname, '../src/blog/posts');
 const OUTPUT_PATH = join(__dirname, '../public/sitemap.xml');
 
