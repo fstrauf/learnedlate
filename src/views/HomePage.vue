@@ -90,7 +90,7 @@
             Personal Finance & Life Writing
           </h2>
           <p class="text-gray-600 mb-8 leading-relaxed text-base sm:text-lg px-2">
-            I write regularly about personal finance, life lessons, and building wealth on my Substack newsletter.
+            I write regularly about personal finance, life lessons, and building wealth on my Substack newsletter. You can also read my <router-link to="/blog" class="text-gray-700 hover:text-gray-900 underline">technical blog posts</router-link> about software development and business automation.
           </p>
           <div class="bg-white rounded-lg p-6 sm:p-8 shadow-sm border border-gray-200">
             <div class="flex items-center justify-center mb-6">
@@ -183,11 +183,11 @@
             About Me
           </h2>
           <p class="text-gray-600 mb-6 sm:mb-8 leading-relaxed text-base sm:text-lg px-2">
-            I'm a developer and technology consultant based in the Bay of Plenty. After years of building complex software, I now use those skills to create simple automation solutions that give business owners their time back.
+            I'm a developer and technology consultant based in the Bay of Plenty. After years of <router-link to="/projects" class="text-gray-700 hover:text-gray-900 underline">building complex software</router-link>, I now use those skills to create simple automation solutions that give business owners their time back.
           </p>
           <p class="text-gray-600 mb-6 sm:mb-8 leading-relaxed text-base px-2">
             When I'm not coding, I help businesses navigate technical challenges through 
-            consulting and fractional CTO services.
+            <router-link to="/services" class="text-gray-700 hover:text-gray-900 underline">consulting and fractional CTO services</router-link>.
           </p>
           <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-2 sm:px-4">
             <router-link 

@@ -12,6 +12,7 @@
 
           <div>
             <div class="hidden sm:flex space-x-6">
+              <router-link to="/" class="hover:text-gray-300 transition-colors">Home</router-link>
               <router-link to="/projects" class="hover:text-gray-300 transition-colors">Projects</router-link>
               <router-link to="/services" class="hover:text-gray-300 transition-colors">Services</router-link>
               <router-link to="/blog" class="hover:text-gray-300 transition-colors">Blog</router-link>
@@ -59,6 +60,7 @@
             class="sm:hidden mt-4 py-4 border-t border-gray-700"
           >
             <div class="flex flex-col space-y-4">
+              <router-link @click="closeMobileMenu" to="/" class="block px-2 py-2 hover:text-gray-300 hover:bg-gray-700 rounded-md">Home</router-link>
               <router-link @click="closeMobileMenu" to="/projects" class="block px-2 py-2 hover:text-gray-300 hover:bg-gray-700 rounded-md">Projects</router-link>
               <router-link @click="closeMobileMenu" to="/services" class="block px-2 py-2 hover:text-gray-300 hover:bg-gray-700 rounded-md">Services</router-link>
               <router-link @click="closeMobileMenu" to="/blog" class="block px-2 py-2 hover:text-gray-300 hover:bg-gray-700 rounded-md">Blog</router-link>
@@ -75,6 +77,7 @@
       <div class="container mx-auto max-w-4xl">
         <!-- Desktop Footer Navigation -->
         <nav class="hidden sm:flex flex-wrap justify-center gap-x-6 gap-y-2 mb-6">
+          <router-link to="/" class="hover:text-gray-900 hover:underline transition-colors">Home</router-link>
           <router-link to="/projects" class="hover:text-gray-900 hover:underline transition-colors">Projects</router-link>
           <router-link to="/services" class="hover:text-gray-900 hover:underline transition-colors">Services</router-link>
           <router-link to="/blog" class="hover:text-gray-900 hover:underline transition-colors">Blog</router-link>
@@ -85,6 +88,7 @@
 
         <!-- Mobile Footer Navigation -->
         <nav class="sm:hidden grid grid-cols-2 gap-4 mb-6 text-center">
+          <router-link to="/" class="hover:text-gray-900 hover:underline transition-colors">Home</router-link>
           <router-link to="/projects" class="hover:text-gray-900 hover:underline transition-colors">Projects</router-link>
           <router-link to="/services" class="hover:text-gray-900 hover:underline transition-colors">Services</router-link>
           <router-link to="/blog" class="hover:text-gray-900 hover:underline transition-colors">Blog</router-link>

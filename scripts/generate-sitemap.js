@@ -132,33 +132,13 @@ function generateSitemapXML(blogPosts) {
 
   xml += `
   
-  <!-- Blog Posts -->`;
-
-  // Add blog posts
-  blogPosts.forEach(post => {
-    xml += `
-  <url>
-    <loc>${SITE_URL}/blog/${post.slug}</loc>
-    <lastmod>${formatDate(post.date)}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>`;
-  });
+  <!-- Blog Posts - Temporarily excluded due to canonical URL conflicts -->
+  <!-- Individual blog posts will be excluded until canonical tag issues are resolved -->`;
 
   xml += `
   
-  <!-- Project Detail Pages -->`;
-
-  // Add project pages
-  PROJECT_PAGES.forEach(project => {
-    xml += `
-  <url>
-    <loc>${SITE_URL}/project/${project}</loc>
-    <lastmod>${now}</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>`;
-  });
+  <!-- Project Detail Pages - Excluded as routes are not implemented -->
+  <!-- Individual project pages excluded until routes are implemented -->`;
 
   xml += `
 </urlset>`;
