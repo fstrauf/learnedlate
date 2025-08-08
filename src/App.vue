@@ -82,7 +82,7 @@
           <router-link to="/services" class="hover:text-gray-900 hover:underline transition-colors">Services</router-link>
           <router-link to="/blog" class="hover:text-gray-900 hover:underline transition-colors">Blog</router-link>
           <router-link to="/cv" class="hover:text-gray-900 hover:underline transition-colors">CV</router-link>
-          <a href="https://x.com/learnedlate" target="_blank" class="hover:text-gray-900 hover:underline transition-colors">Twitter</a>
+         <a href="https://x.com/learnedlate" target="_blank" rel="noopener noreferrer" class="hover:text-gray-900 hover:underline transition-colors">Twitter</a>
           <a href="mailto:hello@learnedlate.com" class="hover:text-gray-900 hover:underline transition-colors">Contact Me</a>
         </nav>
 
@@ -93,7 +93,7 @@
           <router-link to="/services" class="hover:text-gray-900 hover:underline transition-colors">Services</router-link>
           <router-link to="/blog" class="hover:text-gray-900 hover:underline transition-colors">Blog</router-link>
           <router-link to="/cv" class="hover:text-gray-900 hover:underline transition-colors">CV</router-link>
-          <a href="https://x.com/learnedlate" target="_blank" class="hover:text-gray-900 hover:underline transition-colors">Twitter</a>
+         <a href="https://x.com/learnedlate" target="_blank" rel="noopener noreferrer" class="hover:text-gray-900 hover:underline transition-colors">Twitter</a>
           <a href="mailto:hello@learnedlate.com" class="hover:text-gray-900 hover:underline transition-colors">Contact Me</a>
         </nav>
 

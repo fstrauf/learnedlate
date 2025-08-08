@@ -33,7 +33,7 @@
         </h2>
         <div class="grid grid-cols-1 gap-8 sm:gap-12 max-w-4xl mx-auto">
 
-          <div class="service-card bg-white rounded-lg border-2 border-blue-500 p-6 sm:p-8 shadow-lg transition-shadow duration-300 relative">
+          <div id="build-launch" class="service-card bg-white rounded-lg border-2 border-blue-500 p-6 sm:p-8 shadow-lg transition-shadow duration-300 relative">
             <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-gray-400">NEW</div>
             <h3 class="text-xl sm:text-2xl font-light text-gray-900 mb-4 pr-8">
               AI-Accelerated Development & Prototyping
@@ -57,11 +57,14 @@
               </div>
             </div>
             <div class="pt-4 border-t border-gray-100">
+              <div class="flex flex-wrap gap-3 mb-3">
+                <a href="mailto:hello@learnedlate.com?subject=MVP%20Development%20Inquiry" class="inline-flex items-center bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm hover:bg-gray-800">Start Scoping</a>
+              </div>
               <span class="text-xs sm:text-sm text-gray-500 leading-relaxed">Best for: Founders and businesses who want to build quality software faster, leveraging AI without the technical risk.</span>
             </div>
           </div>
 
-          <div class="service-card bg-white rounded-lg border border-gray-200 p-6 sm:p-8 hover:shadow-lg transition-shadow duration-300 relative">
+          <div id="quick-wins" class="service-card bg-white rounded-lg border border-gray-200 p-6 sm:p-8 hover:shadow-lg transition-shadow duration-300 relative">
             <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-gray-400">01</div>
             <h3 class="text-xl sm:text-2xl font-light text-gray-900 mb-4 pr-8">
               AI Automation & Business Implementation
@@ -85,11 +88,14 @@
               </div>
             </div>
             <div class="pt-4 border-t border-gray-100">
+              <div class="flex flex-wrap gap-3 mb-3">
+                <a href="mailto:hello@learnedlate.com?subject=AI%20Automation%20Audit%20Inquiry" class="inline-flex items-center bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm hover:bg-gray-800">Book Audit</a>
+              </div>
               <span class="text-xs sm:text-sm text-gray-500 leading-relaxed">Best for: NZ businesses spending too much time on manual admin and looking for a clear ROI on their first automation project</span>
             </div>
           </div>
 
-          <div class="service-card bg-white rounded-lg border border-gray-200 p-6 sm:p-8 hover:shadow-lg transition-shadow duration-300 relative">
+          <div id="strategic-leadership" class="service-card bg-white rounded-lg border border-gray-200 p-6 sm:p-8 hover:shadow-lg transition-shadow duration-300 relative">
             <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-gray-400">02</div>
             <h3 class="text-xl sm:text-2xl font-light text-gray-900 mb-4 pr-8">
               Fractional CTO & Technical Advisor
@@ -113,11 +119,14 @@
               </div>
             </div>
             <div class="pt-4 border-t border-gray-100">
+              <div class="flex flex-wrap gap-3 mb-3">
+                <a href="mailto:hello@learnedlate.com?subject=Fractional%20CTO%20Inquiry" class="inline-flex items-center bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm hover:bg-gray-800">Discuss Fit</a>
+              </div>
               <span class="text-sm text-gray-500">Best for: Series A-C startups, scale-ups needing technical leadership</span>
             </div>
           </div>
 
-          <div class="service-card bg-white rounded-lg border border-gray-200 p-8 hover:shadow-lg transition-shadow duration-300 relative">
+          <div id="due-diligence" class="service-card bg-white rounded-lg border border-gray-200 p-8 hover:shadow-lg transition-shadow duration-300 relative">
             <div class="absolute top-6 right-6 text-sm font-light text-gray-400">03</div>
             <h3 class="text-2xl font-light text-gray-900 mb-4">
               Technical Due Diligence & Audits
@@ -137,6 +146,9 @@
               </div>
             </div>
             <div class="pt-4 border-t border-gray-100">
+              <div class="flex flex-wrap gap-3 mb-3">
+                <a href="mailto:hello@learnedlate.com?subject=Technical%20Due%20Diligence%20Inquiry" class="inline-flex items-center bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm hover:bg-gray-800">Request Assessment</a>
+              </div>
               <span class="text-sm text-gray-500">Best for: VCs, PE firms, acquirers, businesses evaluating technology</span>
             </div>
           </div>

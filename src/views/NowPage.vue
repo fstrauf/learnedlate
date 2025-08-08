@@ -15,7 +15,7 @@
           
           <div class="space-y-4 sm:space-y-6 text-base sm:text-lg text-gray-700 leading-relaxed">
             <p>
-              Building <a href="https://expensesorted.com" target="_blank" class="text-blue-600 hover:underline">Expense Sorted</a>, an AI-powered expense tracking tool to simplify finances for freelancers and small businesses.
+             Building <a href="https://expensesorted.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Expense Sorted</a>, an AI-powered expense tracking tool to simplify finances for freelancers and small businesses.
             </p>
             <p>
               Writing weekly about technology, AI, and business at <router-link to="/blog" class="text-blue-600 hover:underline">blog.learnedlate.com</router-link>.
@@ -28,7 +28,7 @@
           <div class="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-gray-200">
             <p class="text-base sm:text-lg text-gray-800">
               Interested in working together? 
-              <a href="https://calendar.notion.so/meet/florianstrauf/chat" target="_blank" class="font-semibold text-blue-600 hover:underline">Book a call →</a>
+             <a href="https://calendar.notion.so/meet/florianstrauf/chat" target="_blank" rel="noopener noreferrer" class="font-semibold text-blue-600 hover:underline">Book a call →</a>
             </p>
           </div>
         </div>

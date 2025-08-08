@@ -9,6 +9,10 @@ import LifeCalendarPage from '../views/LifeCalendarPage.vue'
 import ConcentricCirclesPage from '../views/ConcentricCirclesPage.vue'
 import LifeBalanceVisualizerPage from '../views/LifeBalanceVisualizerPage.vue'
 import NowPage from '../views/NowPage.vue'
+import AutomationPage from '../views/AutomationPage.vue'
+import MvpDevelopmentPage from '../views/MvpDevelopmentPage.vue'
+import FractionalCtoPage from '../views/FractionalCtoPage.vue'
+import AiImplementationPage from '../views/AiImplementationPage.vue'
 
 const DEFAULT_TITLE = 'Florian Strauf'
 
@@ -90,6 +94,30 @@ const routes = [
     name: 'Now',
     component: NowPage,
     meta: { title: 'Now - Florian Strauf' }
+  },
+  {
+    path: '/automation',
+    name: 'Automation',
+    component: AutomationPage,
+    meta: { title: 'Automation - Save 10+ Hours/Week' }
+  },
+  {
+    path: '/mvp-development',
+    name: 'MvpDevelopment',
+    component: MvpDevelopmentPage,
+    meta: { title: 'MVP Development - Launch Faster' }
+  },
+  {
+    path: '/fractional-cto',
+    name: 'FractionalCto',
+    component: FractionalCtoPage,
+    meta: { title: 'Fractional CTO - Senior Leadership' }
+  },
+  {
+    path: '/ai-implementation',
+    name: 'AiImplementation',
+    component: AiImplementationPage,
+    meta: { title: 'AI Implementation - Practical, Fast ROI' }
   },
 ]
 

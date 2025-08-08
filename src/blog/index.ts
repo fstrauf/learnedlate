@@ -11,6 +11,16 @@ export interface BlogPost {
   readingTime?: number;
 }
 
+function sanitizeSlug(input: string): string {
+  return input
+    .trim()
+    .toLowerCase()
+    .replace(/[_\s]+/g, '-')
+    .replace(/[^a-z0-9-]/g, '-')
+    .replace(/-{2,}/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
 // Utility function to extract frontmatter and content
 function parseBlogPost(raw: string, filename: string): BlogPost {
   const lines = raw.split('\n');
@@ -49,18 +59,37 @@ function parseBlogPost(raw: string, filename: string): BlogPost {
   });
 
   // Calculate reading time (average 200 words per minute)
-  const wordCount = content.split(/\s+/).length;
+  const wordCount = content.split(/\s+/).filter(Boolean).length;
   const readingTime = Math.ceil(wordCount / 200);
 
-  // Extract slug from filename (remove date prefix and .md extension)
+  // Extract slug robustly
   const baseFilename = filename.split('/').pop() || filename;
-  const slug = baseFilename.split('-').slice(3).join('-').replace('.md', '');
+  const nameWithoutExt = baseFilename.replace(/\.md$/i, '');
+
+  let derivedSlug = '';
+  const datePrefixMatch = nameWithoutExt.match(/^(\d{4})-(\d{2})-(\d{2})-(.+)$/);
+  if (datePrefixMatch) {
+    derivedSlug = datePrefixMatch[4];
+  } else {
+    derivedSlug = nameWithoutExt;
+  }
+
+  const frontmatterSlug = typeof frontmatter.slug === 'string' ? frontmatter.slug : '';
+  const rawSlug = frontmatterSlug || derivedSlug;
+  const slug = sanitizeSlug(rawSlug) || sanitizeSlug(nameWithoutExt) || `post-${Math.random().toString(36).slice(2, 8)}`;
+
+  // Publish date: prefer frontmatter, else derive from filename if present, else fallback
+  let publishDate = frontmatter.date || frontmatter.publishDate;
+  if (!publishDate && datePrefixMatch) {
+    publishDate = `${datePrefixMatch[1]}-${datePrefixMatch[2]}-${datePrefixMatch[3]}`;
+  }
+  if (!publishDate) publishDate = '2025-06-22';
 
   return {
     title: frontmatter.title || 'Untitled',
-    slug: slug,
+    slug,
     excerpt: frontmatter.summary || frontmatter.excerpt || '',
-    publishDate: frontmatter.date || frontmatter.publishDate || '2025-06-22',
+    publishDate,
     author: frontmatter.author || 'Florian Strauf',
     tags: frontmatter.tags || [],
     category: frontmatter.category || 'Uncategorized',

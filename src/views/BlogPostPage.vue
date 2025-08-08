@@ -211,7 +211,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { marked } from 'marked'
 import SEOHead from '../components/SEOHead.vue'
@@ -322,6 +322,25 @@ onMounted(async () => {
     loading.value = false
   }
 })
+
+// Handle navigation to related articles within the same component instance
+watch(
+  () => route.params.slug,
+  (newSlug) => {
+    if (!newSlug || typeof newSlug !== 'string') return
+    loading.value = true
+    error.value = null
+    const postData = getBlogPostBySlug(newSlug)
+    if (postData) {
+      post.value = postData
+      // scroll to top on article change
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    } else {
+      error.value = 'Post not found'
+    }
+    loading.value = false
+  }
+)
 
 const formatDate = (dateString: string) => {
   return new Date(dateString).toLocaleDateString('en-NZ', {
