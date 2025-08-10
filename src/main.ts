@@ -3,9 +3,13 @@ import { createHead } from '@vueuse/head'
 import './style.css'
 import App from './App.vue'
 import router from './router'
+import { usePostHog } from './plugins/posthog'
 
 const app = createApp(App)
 const head = createHead()
+
+// Initialize analytics before mounting and routing
+usePostHog()
 
 app.use(head)
 app.use(router)

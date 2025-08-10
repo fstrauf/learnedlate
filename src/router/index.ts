@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import posthog from 'posthog-js'
 import HomePage from '../views/HomePage.vue'
 import CvPage from '../views/CvPage.vue'
 import ServicesPage from '../views/ServicesPage.vue'
@@ -131,6 +132,14 @@ router.afterEach((to) => {
     document.title = `${to.meta.title(to)} | Florian Strauf` || DEFAULT_TITLE
   } else {
     document.title = to.meta.title ? `${to.meta.title}` : DEFAULT_TITLE
+  }
+
+  // Capture pageview after every route change
+  // Guard in case PostHog hasn't initialized yet
+  try {
+    posthog.capture('$pageview')
+  } catch {
+    // noop
   }
 })
 
