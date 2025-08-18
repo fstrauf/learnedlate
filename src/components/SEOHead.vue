@@ -24,7 +24,7 @@ interface SEOProps {
 
 const props = withDefaults(defineProps<SEOProps>(), {
   title: 'Florian Strauf - Fractional CTO & Technical Consultant',
-  description: 'Expert fractional CTO, technical advisor, and consultant specializing in MVP development, technical due diligence, and strategic technology guidance for New Zealand businesses.',
+  description: 'Strategic technical consulting for New Zealand businesses. I provide fractional CTO services, AI automation, and AI-accelerated MVP development to save you time and accelerate your growth.',
   image: '/learndlate.png',
   url: 'https://www.learnedlate.com',
   type: 'website',

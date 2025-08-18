@@ -13,10 +13,10 @@
       <div class="container mx-auto px-2 sm:px-4 lg:px-6">
         <div class="max-w-4xl mx-auto text-center">
           <h1 class="text-3xl sm:text-4xl md:text-5xl font-light mb-6 leading-tight">
-            I automate your repetitive tasks so you can focus on growth
+            Stop losing time to technical problems. Start building momentum.
           </h1>
           <p class="text-lg sm:text-xl text-gray-300 mb-8 leading-relaxed px-2">
-            Save 10+ hours every week with practical AI and automation solutions tailored for New Zealand businesses
+            I help businesses accelerate growth by implementing practical AI automation, building efficient software, and providing clear technical leadership.
           </p>
           <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-2 sm:px-4">
             <a 
@@ -45,21 +45,21 @@
               <h4 class="text-white text-base sm:text-lg font-medium">I waste hours on admin tasks</h4>
               <p class="text-gray-300 text-sm mt-2">Automate invoicing, data entry, and reports</p>
               <router-link to="/automation" class="inline-flex items-center justify-center mt-4 w-full sm:w-auto bg-white text-gray-900 px-5 py-2.5 rounded-md text-sm font-medium hover:bg-gray-100">
-                Save 10+ hours/week
+                Start Automating
               </router-link>
             </div>
             <div class="rounded-xl border border-white/15 bg-white/5 hover:bg-white/10 transition-colors duration-200 p-5 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06)]">
               <h4 class="text-white text-base sm:text-lg font-medium">I need to build software fast</h4>
               <p class="text-gray-300 text-sm mt-2">Launch your MVP in 8 weeks with AI</p>
               <router-link to="/services#build-launch" class="inline-flex items-center justify-center mt-4 w-full sm:w-auto bg-white text-gray-900 px-5 py-2.5 rounded-md text-sm font-medium hover:bg-gray-100">
-                Start building
+                Build My MVP
               </router-link>
             </div>
             <div class="rounded-xl border border-white/15 bg-white/5 hover:bg-white/10 transition-colors duration-200 p-5 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06)]">
               <h4 class="text-white text-base sm:text-lg font-medium">I need technical leadership</h4>
               <p class="text-gray-300 text-sm mt-2">Get strategic guidance without the full-time cost</p>
               <router-link to="/services#strategic-leadership" class="inline-flex items-center justify-center mt-4 w-full sm:w-auto bg-white text-gray-900 px-5 py-2.5 rounded-md text-sm font-medium hover:bg-gray-100">
-                Get a CTO
+                Get Strategic Leadership
               </router-link>
             </div>
           </div>        </div>

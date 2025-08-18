@@ -11,10 +11,10 @@
               <div class="container mx-auto px-2 sm:px-4 lg:px-6">
         <div class="max-w-4xl mx-auto text-center">
           <h1 class="text-3xl sm:text-4xl md:text-5xl font-light text-gray-900 mb-6">
-            Strategic Technology Leadership & AI-Accelerated Development
+            Strategic Technology Solutions That Drive Business Results
           </h1>
           <p class="text-lg sm:text-xl text-gray-600 mb-8 leading-relaxed px-2">
-            Leverage expert guidance to build scalable software faster. I combine strategic oversight with AI-powered tools to deliver high-quality MVPs and custom applications for businesses across New Zealand.
+            From automating a single, time-consuming task to providing long-term technical leadership, my services are designed to deliver measurable ROI and give you a sustainable competitive advantage.
           </p>
           <div class="flex flex-wrap justify-center gap-3 sm:gap-4 text-sm text-gray-500 px-4">
             <span class="bg-white px-3 sm:px-4 py-2 rounded-full shadow-sm">🚀 AI-Accelerated</span>
@@ -28,128 +28,82 @@
 
     <section class="py-12 sm:py-16">
               <div class="container mx-auto px-2 sm:px-4 lg:px-6">
-        <h2 class="text-2xl sm:text-3xl font-light text-center text-gray-900 mb-8 sm:mb-12">
-          Professional Services
-        </h2>
         <div class="grid grid-cols-1 gap-8 sm:gap-12 max-w-4xl mx-auto">
 
-          <div id="build-launch" class="service-card bg-white rounded-lg border-2 border-blue-500 p-6 sm:p-8 shadow-lg transition-shadow duration-300 relative">
-            <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-gray-400">NEW</div>
+          <div id="quick-wins" class="service-card bg-white rounded-lg border border-gray-200 p-6 sm:p-8 hover:shadow-lg transition-shadow duration-300 relative">
+            <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-blue-600">Tier 1</div>
             <h3 class="text-xl sm:text-2xl font-light text-gray-900 mb-4 pr-8">
-              AI-Accelerated Development & Prototyping
+              The Quick Win: AI Automation & Business Implementation
             </h3>
             <p class="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
-              Turn your idea into a high-quality, scalable application faster than ever. I combine my deep development experience with the latest AI coding tools to build your MVP or custom software efficiently, without sacrificing quality or strategic foresight.
+              You're spending too much time on repetitive, manual work like data entry, invoicing, or customer follow-ups. I'll identify your single biggest time-drain and build a reliable automation to handle it, saving you 10+ hours a week.
             </p>
 
             <div class="space-y-3 mb-6">
               <div class="flex items-start space-x-3">
                 <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600 text-sm sm:text-base">**AI Feasibility & Prototype Sprint (1-2 Weeks):** De-risk your project with a fixed-fee engagement that delivers a technical scope, interactive prototype, and a detailed project roadmap.</span>
+                <span class="text-gray-600 text-sm sm:text-base"><strong>Perfect for:</strong> Businesses feeling overwhelmed by admin and looking for a fast, high-ROI project to start with.</span>
               </div>
               <div class="flex items-start space-x-3">
                 <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600 text-sm sm:text-base">**AI-Powered MVP Build (1-3 Months):** Get a market-ready product built on a solid architectural foundation, ready for users and investors.</span>
-              </div>
-              <div class="flex items-start space-x-3">
-                <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600 text-sm sm:text-base">**Expert Oversight:** Avoid the common pitfalls of AI-generated code with experienced architectural planning and quality assurance.</span>
+                <span class="text-gray-600 text-sm sm:text-base"><strong>Deliverables:</strong> A fully functional automation for one core business process, team training, and a clear ROI report.</span>
               </div>
             </div>
             <div class="pt-4 border-t border-gray-100">
               <div class="flex flex-wrap gap-3 mb-3">
-                <a href="mailto:hello@learnedlate.com?subject=MVP%20Development%20Inquiry" class="inline-flex items-center bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm hover:bg-gray-800">Start Scoping</a>
+                <router-link to="/automation" class="inline-flex items-center bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm hover:bg-gray-800">Learn More About Automation</router-link>
               </div>
-              <span class="text-xs sm:text-sm text-gray-500 leading-relaxed">Best for: Founders and businesses who want to build quality software faster, leveraging AI without the technical risk.</span>
             </div>
           </div>
 
-          <div id="quick-wins" class="service-card bg-white rounded-lg border border-gray-200 p-6 sm:p-8 hover:shadow-lg transition-shadow duration-300 relative">
-            <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-gray-400">01</div>
+          <div id="build-launch" class="service-card bg-white rounded-lg border-2 border-blue-500 p-6 sm:p-8 shadow-lg transition-shadow duration-300 relative">
+            <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-blue-600">Tier 2</div>
             <h3 class="text-xl sm:text-2xl font-light text-gray-900 mb-4 pr-8">
-              AI Automation & Business Implementation
+              The Product Launch: AI-Accelerated MVP Development
             </h3>
             <p class="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
-              I identify the most time-consuming manual tasks in your business—like client onboarding, invoicing, or data entry—and build simple, reliable automations to handle them for you.
+              You have a software idea but need to get to market quickly without sacrificing quality. I combine deep architectural experience with modern AI tools to build your market-ready MVP in as little as 8 weeks. Avoid costly mistakes and build a product on a foundation that's ready for scale.
             </p>
 
             <div class="space-y-3 mb-6">
               <div class="flex items-start space-x-3">
                 <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600 text-sm sm:text-base">AI landscape analysis and opportunity identification</span>
+                <span class="text-gray-600 text-sm sm:text-base"><strong>Perfect for:</strong> Founders and businesses who need to validate an idea, secure investment, or launch a new product efficiently.</span>
               </div>
               <div class="flex items-start space-x-3">
                 <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600 text-sm sm:text-base">Custom ChatGPT and AI tool implementation</span>
-              </div>
-              <div class="flex items-start space-x-3">
-                <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600 text-sm sm:text-base">Business process automation and workflow optimization</span>
+                <span class="text-gray-600 text-sm sm:text-base"><strong>Deliverables:</strong> A complete, scalable MVP, launch-ready infrastructure, and full intellectual property ownership.</span>
               </div>
             </div>
             <div class="pt-4 border-t border-gray-100">
               <div class="flex flex-wrap gap-3 mb-3">
-                <a href="mailto:hello@learnedlate.com?subject=AI%20Automation%20Audit%20Inquiry" class="inline-flex items-center bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm hover:bg-gray-800">Book Audit</a>
+                <router-link to="/mvp-development" class="inline-flex items-center bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm hover:bg-gray-800">Learn More About MVP Development</router-link>
               </div>
-              <span class="text-xs sm:text-sm text-gray-500 leading-relaxed">Best for: NZ businesses spending too much time on manual admin and looking for a clear ROI on their first automation project</span>
             </div>
           </div>
 
           <div id="strategic-leadership" class="service-card bg-white rounded-lg border border-gray-200 p-6 sm:p-8 hover:shadow-lg transition-shadow duration-300 relative">
-            <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-gray-400">02</div>
+            <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-blue-600">Tier 3</div>
             <h3 class="text-xl sm:text-2xl font-light text-gray-900 mb-4 pr-8">
-              Fractional CTO & Technical Advisor
+              The Strategic Partnership: Fractional CTO & Technical Leadership
             </h3>
             <p class="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
-              Get seasoned technical leadership without the full-time commitment. Perfect for startups and growing companies
-              that need strategic technology guidance, team leadership, and technical decision-making support.
+              You're making critical technology decisions without senior expertise. You need to scale your team, prepare for due diligence, or align your tech with business goals. I provide the strategic leadership of a full-time CTO for a fraction of the cost.
             </p>
             <div class="space-y-3 mb-6">
               <div class="flex items-start space-x-3">
                 <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600">Strategic technology planning and roadmap development</span>
+                <span class="text-gray-600 text-sm sm:text-base"><strong>Perfect for:</strong> Growing startups (Seed to Series A) and established businesses needing to modernize their technology strategy.</span>
               </div>
               <div class="flex items-start space-x-3">
                 <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600">Technical team leadership and mentoring</span>
-              </div>
-              <div class="flex items-start space-x-3">
-                <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600">Architecture reviews and technology decisions</span>
+                <span class="text-gray-600 text-sm sm:text-base"><strong>Deliverables:</strong> A clear technical roadmap, improved team velocity, investor-ready documentation, and confident technical decision-making.</span>
               </div>
             </div>
             <div class="pt-4 border-t border-gray-100">
               <div class="flex flex-wrap gap-3 mb-3">
-                <a href="mailto:hello@learnedlate.com?subject=Fractional%20CTO%20Inquiry" class="inline-flex items-center bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm hover:bg-gray-800">Discuss Fit</a>
+                <router-link to="/fractional-cto" class="inline-flex items-center bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm hover:bg-gray-800">Learn More About Fractional CTO Services</router-link>
               </div>
-              <span class="text-sm text-gray-500">Best for: Series A-C startups, scale-ups needing technical leadership</span>
-            </div>
-          </div>
-
-          <div id="due-diligence" class="service-card bg-white rounded-lg border border-gray-200 p-8 hover:shadow-lg transition-shadow duration-300 relative">
-            <div class="absolute top-6 right-6 text-sm font-light text-gray-400">03</div>
-            <h3 class="text-2xl font-light text-gray-900 mb-4">
-              Technical Due Diligence & Audits
-            </h3>
-            <p class="text-gray-600 mb-6 leading-relaxed">
-              Comprehensive technical assessments for investors, acquirers, and businesses. Get detailed insights into
-              technology assets, risks, scalability potential, and strategic recommendations.
-            </p>
-            <div class="space-y-3 mb-6">
-              <div class="flex items-start space-x-3">
-                <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600">Codebase quality and architecture assessment</span>
-              </div>
-              <div class="flex items-start space-x-3">
-                <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600">Scalability analysis and performance evaluation</span>
-              </div>
-            </div>
-            <div class="pt-4 border-t border-gray-100">
-              <div class="flex flex-wrap gap-3 mb-3">
-                <a href="mailto:hello@learnedlate.com?subject=Technical%20Due%20Diligence%20Inquiry" class="inline-flex items-center bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm hover:bg-gray-800">Request Assessment</a>
-              </div>
-              <span class="text-sm text-gray-500">Best for: VCs, PE firms, acquirers, businesses evaluating technology</span>
             </div>
           </div>
 
