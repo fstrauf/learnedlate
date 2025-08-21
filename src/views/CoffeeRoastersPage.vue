@@ -177,15 +177,18 @@
               </span>
             </div>
 
-            <button 
-              @click="openRoasterDrawer(coffee.roaster)"
-              class="text-base font-medium text-gray-900 mb-3 hover:text-gray-700 hover:underline transition-all duration-200 text-left bg-gray-50 hover:bg-gray-100 px-3 py-2 rounded-md border border-gray-200 hover:border-gray-300 w-full flex items-center justify-between group"
-            >
-              <span>{{ coffee.roaster.name }}</span>
-              <svg class="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-              </svg>
-            </button>
+            <div class="mb-3">
+              <p class="text-base font-medium text-gray-900 mb-2">{{ coffee.roaster.name }}</p>
+              <button 
+                @click="openProductDrawer(coffee)"
+                class="text-sm text-gray-700 hover:text-gray-900 hover:underline transition-all duration-200 text-left bg-gray-50 hover:bg-gray-100 px-3 py-2 rounded-md border border-gray-200 hover:border-gray-300 w-full flex items-center justify-between group"
+              >
+                <span>Product Details</span>
+                <svg class="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
             
             <div class="space-y-1 text-sm text-gray-600 mb-4">
               <p v-if="coffee.origin">
@@ -243,19 +246,19 @@
       </div>
     </div>
 
-    <!-- Roaster Info Drawer -->
-    <div v-if="showRoasterDrawer" class="fixed inset-0 z-50 overflow-hidden pointer-events-none">
+    <!-- Product Details Drawer -->
+    <div v-if="showProductDrawer" class="fixed inset-0 z-50 overflow-hidden pointer-events-none">
       <!-- Drawer -->
       <div class="absolute right-0 top-0 h-full w-full max-w-md bg-white shadow-xl transform transition-transform pointer-events-auto">
         <div class="flex flex-col h-full">
           <!-- Header -->
           <div class="flex items-center justify-between p-6 border-b">
             <div>
-              <h2 class="text-lg font-semibold text-gray-900">{{ selectedRoaster?.name }}</h2>
-              <p class="text-sm text-gray-600">Ordering Information</p>
+              <h2 class="text-lg font-semibold text-gray-900">{{ selectedCoffee?.name }}</h2>
+              <p class="text-sm text-gray-600">Product Details</p>
             </div>
             <button
-              @click="closeRoasterDrawer"
+              @click="closeProductDrawer"
               class="p-2 hover:bg-gray-100 rounded-full transition-colors"
             >
               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -266,30 +269,320 @@
 
           <!-- Content -->
           <div class="flex-1 overflow-y-auto p-6 space-y-6">
-            <!-- Website Link -->
-            <div v-if="selectedRoaster?.websiteUrl">
-              <a 
-                :href="selectedRoaster.websiteUrl" 
-                target="_blank"
-                class="inline-flex items-center space-x-2 text-gray-900 hover:text-gray-700 transition-colors"
+            <!-- Coffee Image -->
+            <div v-if="selectedCoffee?.imageUrl" class="w-full h-48 bg-gray-200 rounded-lg overflow-hidden">
+              <img
+                :src="selectedCoffee.imageUrl"
+                :alt="selectedCoffee.name"
+                class="w-full h-full object-cover object-center"
               >
-                <span>Visit Website</span>
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                </svg>
-              </a>
             </div>
 
-            <!-- Location -->
-            <div v-if="selectedRoaster?.location" class="space-y-2">
-              <h3 class="font-medium text-gray-900">Location</h3>
-              <p class="text-gray-600">{{ selectedRoaster.location }}</p>
+            <!-- Coffee Description -->
+            <div v-if="selectedCoffee?.description" class="space-y-2">
+              <h3 class="font-medium text-gray-900">Description</h3>
+              <p class="text-gray-600">{{ selectedCoffee.description }}</p>
             </div>
 
-            <!-- Description -->
-            <div v-if="selectedRoaster?.description" class="space-y-2">
-              <h3 class="font-medium text-gray-900">About</h3>
-              <p class="text-gray-600">{{ selectedRoaster.description }}</p>
+            <!-- Coffee Details -->
+            <div class="space-y-4">
+              <h3 class="font-medium text-gray-900">Coffee Details</h3>
+              
+              <div class="bg-gray-50 rounded-lg p-4 space-y-3">
+                <div v-if="selectedCoffee?.origin" class="flex justify-between items-center">
+                  <span class="text-sm text-gray-600">Origin</span>
+                  <span class="font-medium">{{ selectedCoffee.origin }}</span>
+                </div>
+
+                <div v-if="selectedCoffee?.roastType" class="flex justify-between items-center">
+                  <span class="text-sm text-gray-600">Roast Type</span>
+                  <span class="font-medium">{{ selectedCoffee.roastType }}</span>
+                </div>
+
+                <div v-if="selectedCoffee?.tastingNotes && selectedCoffee.tastingNotes.length > 0" class="">
+                  <span class="text-sm text-gray-600 block mb-1">Tasting Notes</span>
+                  <div class="flex flex-wrap gap-1">
+                    <span v-for="note in selectedCoffee.tastingNotes" :key="note" class="inline-block bg-gray-200 text-gray-700 text-xs px-2 py-1 rounded-full">
+                      {{ note }}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Brewing Guides -->
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <h3 class="font-medium text-gray-900">Brewing Guide</h3>
+                <button
+                  v-if="!isAdminAuthenticated"
+                  @click="requestAdminAccess"
+                  class="text-xs bg-amber-600 text-white px-3 py-1 rounded-full hover:bg-amber-700 transition-colors"
+                >
+                  Add Guide
+                </button>
+                <button
+                  v-else
+                  @click="showBrewingGuideForm = !showBrewingGuideForm"
+                  class="text-xs bg-amber-600 text-white px-3 py-1 rounded-full hover:bg-amber-700 transition-colors"
+                >
+                  {{ showBrewingGuideForm ? 'Cancel' : 'Add Guide' }}
+                </button>
+              </div>
+
+              <!-- Admin Password Prompt -->
+              <div v-if="showPasswordPrompt" class="bg-yellow-50 rounded-lg p-4 border border-yellow-200">
+                <div class="space-y-3">
+                  <p class="text-sm font-medium text-yellow-800">Admin Access Required</p>
+                  <form @submit.prevent="checkAdminPassword" class="flex space-x-3">
+                    <input
+                      v-model="adminPassword"
+                      type="password"
+                      placeholder="Enter admin password"
+                      class="flex-1 px-3 py-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500"
+                      autofocus
+                    >
+                    <button
+                      type="submit"
+                      class="bg-amber-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-amber-700 transition-colors"
+                    >
+                      Verify
+                    </button>
+                    <button
+                      type="button"
+                      @click="showPasswordPrompt = false; adminPassword = ''"
+                      class="bg-gray-500 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-600 transition-colors"
+                    >
+                      Cancel
+                    </button>
+                  </form>
+                </div>
+              </div>
+
+              <!-- Existing Brewing Guides -->
+              <div v-if="brewingGuides.length > 0" class="space-y-4">
+                <div v-for="guide in brewingGuides" :key="guide.id" class="bg-amber-50 rounded-lg p-4 border border-amber-200">
+                  <div class="space-y-3">
+                    <div v-if="guide.water" class="flex items-start space-x-3">
+                      <span class="inline-flex items-center justify-center w-6 h-6 bg-amber-600 text-white text-xs font-medium rounded-full flex-shrink-0">1</span>
+                      <div>
+                        <span class="text-sm font-medium text-gray-900">Water:</span>
+                        <span class="text-sm text-gray-700 ml-1">{{ guide.water }}</span>
+                      </div>
+                    </div>
+
+                    <div v-if="guide.grindSize" class="flex items-start space-x-3">
+                      <span class="inline-flex items-center justify-center w-6 h-6 bg-amber-600 text-white text-xs font-medium rounded-full flex-shrink-0">2</span>
+                      <div>
+                        <span class="text-sm font-medium text-gray-900">Grind Size:</span>
+                        <span class="text-sm text-gray-700 ml-1">{{ guide.grindSize }}</span>
+                      </div>
+                    </div>
+
+                    <div v-if="guide.ratio" class="flex items-start space-x-3">
+                      <span class="inline-flex items-center justify-center w-6 h-6 bg-amber-600 text-white text-xs font-medium rounded-full flex-shrink-0">3</span>
+                      <div>
+                        <span class="text-sm font-medium text-gray-900">Ratio:</span>
+                        <span class="text-sm text-gray-700 ml-1">{{ guide.ratio }}</span>
+                      </div>
+                    </div>
+
+                    <div v-if="guide.bloomTime && guide.bloomWater" class="flex items-start space-x-3">
+                      <span class="inline-flex items-center justify-center w-6 h-6 bg-amber-600 text-white text-xs font-medium rounded-full flex-shrink-0">4</span>
+                      <div>
+                        <span class="text-sm font-medium text-gray-900">Bloom:</span>
+                        <span class="text-sm text-gray-700 ml-1">{{ guide.bloomTime }} with {{ guide.bloomWater }}</span>
+                      </div>
+                    </div>
+
+                    <div v-if="guide.pourInstructions" class="flex items-start space-x-3">
+                      <span class="inline-flex items-center justify-center w-6 h-6 bg-amber-600 text-white text-xs font-medium rounded-full flex-shrink-0">5</span>
+                      <div>
+                        <span class="text-sm font-medium text-gray-900">Pour:</span>
+                        <span class="text-sm text-gray-700 ml-1">{{ guide.pourInstructions }}</span>
+                      </div>
+                    </div>
+
+                    <div v-if="guide.totalTime" class="flex items-start space-x-3">
+                      <span class="inline-flex items-center justify-center w-6 h-6 bg-amber-600 text-white text-xs font-medium rounded-full flex-shrink-0">6</span>
+                      <div>
+                        <span class="text-sm font-medium text-gray-900">Total Time:</span>
+                        <span class="text-sm text-gray-700 ml-1">{{ guide.totalTime }}</span>
+                      </div>
+                    </div>
+
+                    <div v-if="guide.additionalNotes" class="mt-3 p-3 bg-white rounded-md border border-amber-100">
+                      <span class="text-sm font-medium text-gray-900">Additional Notes:</span>
+                      <p class="text-sm text-gray-700 mt-1">{{ guide.additionalNotes }}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- No guides message -->
+              <div v-else-if="!showBrewingGuideForm && !showPasswordPrompt" class="text-sm text-gray-500 bg-gray-50 rounded-lg p-4 border border-gray-200 text-center">
+                No brewing guides available for this coffee yet.
+              </div>
+
+              <!-- Add Brewing Guide Form -->
+              <div v-if="showBrewingGuideForm && isAdminAuthenticated" class="bg-blue-50 rounded-lg p-4 border border-blue-200">
+                <form @submit.prevent="submitBrewingGuide" class="space-y-4" :class="{ 'opacity-75': isSavingGuide }">
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                      <label class="block text-xs font-medium text-gray-700 mb-1">Water</label>
+                      <input
+                        v-model="brewingGuideForm.water"
+                        type="text"
+                        placeholder="e.g., off boil"
+                        :disabled="isSavingGuide"
+                        class="w-full px-3 py-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500 disabled:bg-gray-100 disabled:text-gray-500"
+                      >
+                    </div>
+                    
+                    <div>
+                      <label class="block text-xs font-medium text-gray-700 mb-1">Grind Size</label>
+                      <input
+                        v-model="brewingGuideForm.grindSize"
+                        type="text"
+                        placeholder="e.g., 28 clicks on 1zpressoj (medium-fine)"
+                        :disabled="isSavingGuide"
+                        class="w-full px-3 py-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500 disabled:bg-gray-100 disabled:text-gray-500"
+                      >
+                    </div>
+                  </div>
+
+                  <div>
+                    <label class="block text-xs font-medium text-gray-700 mb-1">Ratio</label>
+                    <input
+                      v-model="brewingGuideForm.ratio"
+                      type="text"
+                      placeholder="e.g., 1:16 i.e. 15g of coffee, 240g water"
+                      :disabled="isSavingGuide"
+                      class="w-full px-3 py-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500 disabled:bg-gray-100 disabled:text-gray-500"
+                    >
+                  </div>
+
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                      <label class="block text-xs font-medium text-gray-700 mb-1">Bloom Time</label>
+                      <input
+                        v-model="brewingGuideForm.bloomTime"
+                        type="text"
+                        placeholder="e.g., 30s"
+                        :disabled="isSavingGuide"
+                        class="w-full px-3 py-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500 disabled:bg-gray-100 disabled:text-gray-500"
+                      >
+                    </div>
+                    
+                    <div>
+                      <label class="block text-xs font-medium text-gray-700 mb-1">Bloom Water</label>
+                      <input
+                        v-model="brewingGuideForm.bloomWater"
+                        type="text"
+                        placeholder="e.g., 60g of water"
+                        :disabled="isSavingGuide"
+                        class="w-full px-3 py-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500 disabled:bg-gray-100 disabled:text-gray-500"
+                      >
+                    </div>
+                  </div>
+
+                  <div>
+                    <label class="block text-xs font-medium text-gray-700 mb-1">Pour Instructions</label>
+                    <textarea
+                      v-model="brewingGuideForm.pourInstructions"
+                      placeholder="e.g., close switch pour remaining water to 60s mark. immerse until 1:45min, open switch"
+                      rows="2"
+                      :disabled="isSavingGuide"
+                      class="w-full px-3 py-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500 disabled:bg-gray-100 disabled:text-gray-500"
+                    ></textarea>
+                  </div>
+
+                  <div>
+                    <label class="block text-xs font-medium text-gray-700 mb-1">Total Time</label>
+                    <input
+                      v-model="brewingGuideForm.totalTime"
+                      type="text"
+                      placeholder="e.g., 1:45min"
+                      :disabled="isSavingGuide"
+                      class="w-full px-3 py-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500 disabled:bg-gray-100 disabled:text-gray-500"
+                    >
+                  </div>
+
+                  <div>
+                    <label class="block text-xs font-medium text-gray-700 mb-1">Additional Notes</label>
+                    <textarea
+                      v-model="brewingGuideForm.additionalNotes"
+                      placeholder="Any extra tips or notes..."
+                      rows="2"
+                      :disabled="isSavingGuide"
+                      class="w-full px-3 py-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500 disabled:bg-gray-100 disabled:text-gray-500"
+                    ></textarea>
+                  </div>
+
+                  <div class="flex space-x-3">
+                    <button
+                      type="submit"
+                      :disabled="isSavingGuide"
+                      :class="[
+                        'px-4 py-2 rounded-md text-sm font-medium transition-colors flex items-center space-x-2',
+                        isSavingGuide 
+                          ? 'bg-gray-400 text-gray-200 cursor-not-allowed' 
+                          : 'bg-amber-600 text-white hover:bg-amber-700'
+                      ]"
+                    >
+                      <svg v-if="isSavingGuide" class="animate-spin -ml-1 mr-2 h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                      </svg>
+                      <span>{{ isSavingGuide ? 'Saving...' : 'Save Brewing Guide' }}</span>
+                    </button>
+                    <button
+                      type="button"
+                      @click="showBrewingGuideForm = false; resetBrewingGuideForm()"
+                      :disabled="isSavingGuide"
+                      :class="[
+                        'px-4 py-2 rounded-md text-sm font-medium transition-colors',
+                        isSavingGuide 
+                          ? 'bg-gray-300 text-gray-500 cursor-not-allowed' 
+                          : 'bg-gray-500 text-white hover:bg-gray-600'
+                      ]"
+                    >
+                      Cancel
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <!-- Roaster Information -->
+            <div class="space-y-4">
+              <h3 class="font-medium text-gray-900">Roaster: {{ selectedCoffee?.roaster.name }}</h3>
+              
+              <!-- Website Link -->
+              <div v-if="selectedCoffee?.roaster?.websiteUrl">
+                <a 
+                  :href="selectedCoffee.roaster.websiteUrl" 
+                  target="_blank"
+                  class="inline-flex items-center space-x-2 text-gray-900 hover:text-gray-700 transition-colors"
+                >
+                  <span>Visit Website</span>
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                  </svg>
+                </a>
+              </div>
+
+              <!-- Location -->
+              <div v-if="selectedCoffee?.roaster?.location" class="space-y-2">
+                <h4 class="text-sm font-medium text-gray-900">Location</h4>
+                <p class="text-sm text-gray-600">{{ selectedCoffee.roaster.location }}</p>
+              </div>
+
+              <!-- Roaster Description -->
+              <div v-if="selectedCoffee?.roaster?.description" class="space-y-2">
+                <h4 class="text-sm font-medium text-gray-900">About the Roaster</h4>
+                <p class="text-sm text-gray-600">{{ selectedCoffee.roaster.description }}</p>
+              </div>
             </div>
 
             <!-- Shipping Information -->
@@ -297,51 +590,62 @@
               <h3 class="font-medium text-gray-900">Shipping & Pricing</h3>
               
               <div class="bg-gray-50 rounded-lg p-4 space-y-3">
-                <div v-if="selectedRoaster?.shippingCostStandard" class="flex justify-between items-center">
+                <div v-if="selectedCoffee?.roaster?.shippingCostStandard" class="flex justify-between items-center">
                   <span class="text-sm text-gray-600">Standard Shipping</span>
-                  <span class="font-medium">${{ selectedRoaster.shippingCostStandard }}</span>
+                  <span class="font-medium">${{ selectedCoffee.roaster.shippingCostStandard }}</span>
                 </div>
 
-                <div v-if="selectedRoaster?.freeShippingThreshold" class="flex justify-between items-center">
+                <div v-if="selectedCoffee?.roaster?.freeShippingThreshold" class="flex justify-between items-center">
                   <span class="text-sm text-gray-600">Free Shipping Over</span>
-                  <span class="font-medium text-green-600">${{ selectedRoaster.freeShippingThreshold }}</span>
+                  <span class="font-medium text-green-600">${{ selectedCoffee.roaster.freeShippingThreshold }}</span>
                 </div>
 
-                <div v-if="!selectedRoaster?.shippingCostStandard && !selectedRoaster?.freeShippingThreshold" class="text-sm text-gray-500 text-center py-2">
+                <div v-if="!selectedCoffee?.roaster?.shippingCostStandard && !selectedCoffee?.roaster?.freeShippingThreshold" class="text-sm text-gray-500 text-center py-2">
                   Shipping information not available
                 </div>
               </div>
             </div>
 
             <!-- Discounts -->
-            <div v-if="selectedRoaster?.subscriptionDiscount || selectedRoaster?.signupDiscount" class="space-y-4">
+            <div v-if="selectedCoffee?.roaster?.subscriptionDiscount || selectedCoffee?.roaster?.signupDiscount" class="space-y-4">
               <h3 class="font-medium text-gray-900">Available Discounts</h3>
               
               <div class="space-y-3">
-                <div v-if="selectedRoaster?.signupDiscount" class="bg-blue-50 rounded-lg p-4 border border-blue-200">
+                <div v-if="selectedCoffee?.roaster?.signupDiscount" class="bg-blue-50 rounded-lg p-4 border border-blue-200">
                   <div class="flex items-center space-x-2">
                     <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path>
                     </svg>
                     <div>
                       <p class="font-medium text-blue-900">New Customer Discount</p>
-                      <p class="text-sm text-blue-700">{{ selectedRoaster.signupDiscount }}% off your first order</p>
+                      <p class="text-sm text-blue-700">{{ selectedCoffee.roaster.signupDiscount }}% off your first order</p>
                     </div>
                   </div>
                 </div>
 
-                <div v-if="selectedRoaster?.subscriptionDiscount" class="bg-green-50 rounded-lg p-4 border border-green-200">
+                <div v-if="selectedCoffee?.roaster?.subscriptionDiscount" class="bg-green-50 rounded-lg p-4 border border-green-200">
                   <div class="flex items-center space-x-2">
                     <svg class="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
                     </svg>
                     <div>
                       <p class="font-medium text-green-900">Subscription Discount</p>
-                      <p class="text-sm text-green-700">{{ selectedRoaster.subscriptionDiscount }}% off recurring orders</p>
+                      <p class="text-sm text-green-700">{{ selectedCoffee.roaster.subscriptionDiscount }}% off recurring orders</p>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+
+            <!-- Product Link -->
+            <div v-if="selectedCoffee && getProductUrl(selectedCoffee)" class="pt-4 border-t">
+              <a
+                :href="getProductUrl(selectedCoffee)"
+                target="_blank"
+                class="block w-full bg-gray-700 text-white text-center py-3 px-4 rounded-md hover:bg-gray-500 transition-colors font-medium"
+              >
+                View Product Page
+              </a>
             </div>
           </div>
         </div>
@@ -353,7 +657,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, watch } from 'vue'
 import { HttpCoffeeAPI as CoffeeAPI, type CoffeeFilters, type CoffeeSortOptions } from '../api/http-client'
-import type { CoffeeListing } from '../db/schema'
+import type { CoffeeListing, BrewingGuide } from '../db/schema'
 
 // Reactive data
 const allCoffees = ref<CoffeeListing[]>([])
@@ -363,9 +667,29 @@ const uniqueRoasters = ref<string[]>([])
 const loading = ref(true)
 const error = ref<string | null>(null)
 
-// Roaster info drawer state
-const showRoasterDrawer = ref(false)
-const selectedRoaster = ref<CoffeeListing['roaster'] | null>(null)
+// Product details drawer state
+const showProductDrawer = ref(false)
+const selectedCoffee = ref<CoffeeListing | null>(null)
+const brewingGuides = ref<BrewingGuide[]>([])
+
+// Brewing guide admin form state
+const showBrewingGuideForm = ref(false)
+const showPasswordPrompt = ref(false)
+const adminPassword = ref('')
+const isAdminAuthenticated = ref(false)
+const isSavingGuide = ref(false)
+const brewingGuideForm = ref({
+  water: '',
+  grindSize: '',
+  ratio: '',
+  bloomTime: '',
+  bloomWater: '',
+  pourInstructions: '',
+  totalTime: '',
+  additionalNotes: ''
+})
+
+// No more frontend password storage needed
 
 // Filters
 const filters = ref<CoffeeFilters>({
@@ -538,14 +862,92 @@ const clearFilters = () => {
   sortOption.value = 'created_at-desc'
 }
 
-const openRoasterDrawer = (roaster: CoffeeListing['roaster']) => {
-  selectedRoaster.value = roaster
-  showRoasterDrawer.value = true
+const openProductDrawer = async (coffee: CoffeeListing) => {
+  selectedCoffee.value = coffee
+  showProductDrawer.value = true
+  
+  // Load brewing guides for this coffee
+  try {
+    brewingGuides.value = await CoffeeAPI.getBrewingGuidesByCoffeeId(coffee.id)
+  } catch (err) {
+    console.error('Failed to load brewing guides:', err)
+    brewingGuides.value = []
+  }
 }
 
-const closeRoasterDrawer = () => {
-  showRoasterDrawer.value = false
-  selectedRoaster.value = null
+const closeProductDrawer = () => {
+  showProductDrawer.value = false
+  selectedCoffee.value = null
+  brewingGuides.value = []
+  showBrewingGuideForm.value = false
+  showPasswordPrompt.value = false
+  isAdminAuthenticated.value = false
+  adminPassword.value = ''
+  isSavingGuide.value = false
+  resetBrewingGuideForm()
+}
+
+const checkAdminPassword = async () => {
+  try {
+    const isValid = await CoffeeAPI.validateAdminPassword(adminPassword.value)
+    
+    if (isValid) {
+      isAdminAuthenticated.value = true
+      showPasswordPrompt.value = false
+      showBrewingGuideForm.value = true
+      adminPassword.value = ''
+    } else {
+      alert('Incorrect password')
+      adminPassword.value = ''
+    }
+  } catch (error) {
+    console.error('Error validating password:', error)
+    alert('Error validating password. Please try again.')
+    adminPassword.value = ''
+  }
+}
+
+const requestAdminAccess = () => {
+  showPasswordPrompt.value = true
+}
+
+const resetBrewingGuideForm = () => {
+  brewingGuideForm.value = {
+    water: '',
+    grindSize: '',
+    ratio: '',
+    bloomTime: '',
+    bloomWater: '',
+    pourInstructions: '',
+    totalTime: '',
+    additionalNotes: ''
+  }
+}
+
+const submitBrewingGuide = async () => {
+  if (!selectedCoffee.value || isSavingGuide.value) return
+  
+  try {
+    isSavingGuide.value = true
+    
+    const newGuide = await CoffeeAPI.createBrewingGuide({
+      coffeeId: selectedCoffee.value.id,
+      ...brewingGuideForm.value
+    })
+    
+    if (newGuide) {
+      brewingGuides.value.push(newGuide)
+      resetBrewingGuideForm()
+      showBrewingGuideForm.value = false
+    } else {
+      alert('Failed to save brewing guide. Please try again.')
+    }
+  } catch (err) {
+    console.error('Failed to create brewing guide:', err)
+    alert('Error saving brewing guide. Please try again.')
+  } finally {
+    isSavingGuide.value = false
+  }
 }
 
 const loadData = async () => {

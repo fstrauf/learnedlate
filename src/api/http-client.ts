@@ -1,5 +1,5 @@
 // HTTP API client for frontend
-import type { CoffeeListing } from '../db/schema'
+import type { CoffeeListing, BrewingGuide, NewBrewingGuide } from '../db/schema'
 
 const API_BASE_URL = import.meta.env.DEV 
   ? 'http://localhost:3001/api' 
@@ -112,6 +112,102 @@ export class HttpCoffeeAPI {
     } catch (error) {
       console.error('Error fetching roast types from API:', error)
       return []
+    }
+  }
+
+  static async getBrewingGuidesByCoffeeId(coffeeId: number): Promise<BrewingGuide[]> {
+    try {
+      const response = await fetch(`${API_BASE_URL}/coffees/${coffeeId}/brewing-guides`)
+      
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`)
+      }
+
+      return await response.json()
+    } catch (error) {
+      console.error('Error fetching brewing guides from API:', error)
+      return []
+    }
+  }
+
+  static async createBrewingGuide(brewingGuide: NewBrewingGuide): Promise<BrewingGuide | null> {
+    try {
+      const response = await fetch(`${API_BASE_URL}/brewing-guides`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(brewingGuide),
+      })
+      
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`)
+      }
+
+      return await response.json()
+    } catch (error) {
+      console.error('Error creating brewing guide:', error)
+      return null
+    }
+  }
+
+  static async updateBrewingGuide(id: number, brewingGuide: Partial<NewBrewingGuide>): Promise<BrewingGuide | null> {
+    try {
+      const response = await fetch(`${API_BASE_URL}/brewing-guides?id=${id}`, {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(brewingGuide),
+      })
+      
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`)
+      }
+
+      return await response.json()
+    } catch (error) {
+      console.error('Error updating brewing guide:', error)
+      return null
+    }
+  }
+
+  static async deleteBrewingGuide(id: number): Promise<boolean> {
+    try {
+      const response = await fetch(`${API_BASE_URL}/brewing-guides?id=${id}`, {
+        method: 'DELETE',
+      })
+      
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`)
+      }
+
+      return true
+    } catch (error) {
+      console.error('Error deleting brewing guide:', error)
+      return false
+    }
+  }
+
+  static async validateAdminPassword(password: string): Promise<boolean> {
+    try {
+      const response = await fetch(`${API_BASE_URL}/admin/validate`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ password }),
+      })
+      
+      if (!response.ok) {
+        return false
+      }
+
+      const result = await response.json()
+      return result.valid === true
+    } catch (error) {
+      console.error('Error validating admin password:', error)
+      return false
     }
   }
 

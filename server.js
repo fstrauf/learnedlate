@@ -61,6 +61,21 @@ const coffees = pgTable('coffees', {
   updatedAt: timestamp('updated_at').defaultNow()
 })
 
+const brewingGuides = pgTable('brewing_guides', {
+  id: serial('id').primaryKey(),
+  coffeeId: integer('coffee_id').references(() => coffees.id, { onDelete: 'cascade' }).notNull(),
+  water: text('water'),
+  grindSize: text('grind_size'),
+  ratio: text('ratio'),
+  bloomTime: text('bloom_time'),
+  bloomWater: text('bloom_water'),
+  pourInstructions: text('pour_instructions'),
+  totalTime: text('total_time'),
+  additionalNotes: text('additional_notes'),
+  createdAt: timestamp('created_at').defaultNow(),
+  updatedAt: timestamp('updated_at').defaultNow()
+})
+
 
 const app = express()
 app.use(cors())
@@ -200,6 +215,127 @@ app.get('/api/roast-types', async (req, res) => {
   } catch (error) {
     console.error('Error fetching roast types:', error)
     res.status(500).json({ error: 'Failed to fetch roast types' })
+  }
+})
+
+// Admin password validation endpoint
+app.post('/api/admin/validate', async (req, res) => {
+  try {
+    const { password } = req.body
+    
+    if (!password) {
+      return res.status(400).json({ valid: false, error: 'Password is required' })
+    }
+    
+    console.log('Received password:', password)
+    console.log('Expected password:', process.env.ADMIN_PASSWORD)
+    console.log('Passwords match:', password === process.env.ADMIN_PASSWORD)
+    
+    const isValid = password === process.env.ADMIN_PASSWORD
+    res.json({ valid: isValid })
+  } catch (error) {
+    console.error('Error validating admin password:', error)
+    res.status(500).json({ valid: false, error: 'Server error' })
+  }
+})
+
+// Brewing guide endpoints
+app.get('/api/coffees/:coffeeId/brewing-guides', async (req, res) => {
+  try {
+    const { coffeeId } = req.params
+    
+    const results = await db
+      .select()
+      .from(brewingGuides)
+      .where(eq(brewingGuides.coffeeId, parseInt(coffeeId)))
+      .orderBy(asc(brewingGuides.createdAt))
+
+    res.json(results)
+  } catch (error) {
+    console.error('Error fetching brewing guides:', error)
+    res.status(500).json({ error: 'Failed to fetch brewing guides' })
+  }
+})
+
+app.post('/api/brewing-guides', async (req, res) => {
+  try {
+    const { coffeeId, water, grindSize, ratio, bloomTime, bloomWater, pourInstructions, totalTime, additionalNotes } = req.body
+    
+    if (!coffeeId) {
+      return res.status(400).json({ error: 'Coffee ID is required' })
+    }
+
+    const [result] = await db
+      .insert(brewingGuides)
+      .values({
+        coffeeId: parseInt(coffeeId),
+        water,
+        grindSize,
+        ratio,
+        bloomTime,
+        bloomWater,
+        pourInstructions,
+        totalTime,
+        additionalNotes
+      })
+      .returning()
+
+    res.status(201).json(result)
+  } catch (error) {
+    console.error('Error creating brewing guide:', error)
+    res.status(500).json({ error: 'Failed to create brewing guide' })
+  }
+})
+
+app.put('/api/brewing-guides/:id', async (req, res) => {
+  try {
+    const { id } = req.params
+    const { water, grindSize, ratio, bloomTime, bloomWater, pourInstructions, totalTime, additionalNotes } = req.body
+
+    const [result] = await db
+      .update(brewingGuides)
+      .set({
+        water,
+        grindSize,
+        ratio,
+        bloomTime,
+        bloomWater,
+        pourInstructions,
+        totalTime,
+        additionalNotes,
+        updatedAt: new Date()
+      })
+      .where(eq(brewingGuides.id, parseInt(id)))
+      .returning()
+
+    if (!result) {
+      return res.status(404).json({ error: 'Brewing guide not found' })
+    }
+
+    res.json(result)
+  } catch (error) {
+    console.error('Error updating brewing guide:', error)
+    res.status(500).json({ error: 'Failed to update brewing guide' })
+  }
+})
+
+app.delete('/api/brewing-guides/:id', async (req, res) => {
+  try {
+    const { id } = req.params
+
+    const [result] = await db
+      .delete(brewingGuides)
+      .where(eq(brewingGuides.id, parseInt(id)))
+      .returning()
+
+    if (!result) {
+      return res.status(404).json({ error: 'Brewing guide not found' })
+    }
+
+    res.json({ success: true })
+  } catch (error) {
+    console.error('Error deleting brewing guide:', error)
+    res.status(500).json({ error: 'Failed to delete brewing guide' })
   }
 })
 

@@ -66,11 +66,12 @@ export const roastersRelations = relations(roasters, ({ many }) => ({
   coffees: many(coffees)
 }))
 
-export const coffeesRelations = relations(coffees, ({ one }) => ({
+export const coffeesRelations = relations(coffees, ({ one, many }) => ({
   roaster: one(roasters, {
     fields: [coffees.roasterId],
     references: [roasters.id]
-  })
+  }),
+  brewingGuides: many(brewingGuides)
 }))
 
 // Types for TypeScript
@@ -116,3 +117,32 @@ export type CoffeeListing = Coffee & {
 
 export type CoffeeChange = typeof coffeeChanges.$inferSelect
 export type NewCoffeeChange = typeof coffeeChanges.$inferInsert
+
+export const brewingGuides = pgTable('brewing_guides', {
+  id: serial('id').primaryKey(),
+  coffeeId: integer('coffee_id').references(() => coffees.id, { onDelete: 'cascade' }).notNull(),
+  water: text('water'),
+  grindSize: text('grind_size'),
+  ratio: text('ratio'),
+  bloomTime: text('bloom_time'),
+  bloomWater: text('bloom_water'),
+  pourInstructions: text('pour_instructions'),
+  totalTime: text('total_time'),
+  additionalNotes: text('additional_notes'),
+  createdAt: timestamp('created_at').defaultNow(),
+  updatedAt: timestamp('updated_at').defaultNow()
+}, (table) => {
+  return {
+    coffeeIdx: index('brewing_guides_coffee_id_idx').on(table.coffeeId)
+  }
+})
+
+export const brewingGuidesRelations = relations(brewingGuides, ({ one }) => ({
+  coffee: one(coffees, {
+    fields: [brewingGuides.coffeeId],
+    references: [coffees.id]
+  })
+}))
+
+export type BrewingGuide = typeof brewingGuides.$inferSelect
+export type NewBrewingGuide = typeof brewingGuides.$inferInsert

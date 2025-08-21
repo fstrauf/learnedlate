@@ -76,7 +76,151 @@ interface ShopifyProductsResponse {
   products: ShopifyProduct[]
 }
 
+interface SitemapUrl {
+  loc: string
+  lastmod?: string
+  changefreq?: string
+  priority?: string
+}
+
+interface ScrapingConfig {
+  productKeywords: string[]
+  collectionPathPatterns: string[]
+  sitemapPatterns: string[]
+  apiEndpointPatterns: PlatformEndpoint[]
+  excludeKeywords: string[]
+}
+
+interface PlatformEndpoint {
+  name: string
+  urlPattern: string
+  pathCheck: (url: string) => boolean
+  buildApiUrl: (baseUrl: string, collectionUrl: string) => string[]
+}
+
 export class CoffeeScraper {
+  private static readonly DEFAULT_CONFIG: ScrapingConfig = {
+    productKeywords: [
+      // Core coffee terms
+      'coffee', 'bean', 'espresso', 'filter', 'roast', 'blend',
+      'single-origin', 'origin', 'arabica', 'robusta', 'decaf',
+      
+      // Processing & quality
+      'grind', 'whole-bean', 'specialty', 'artisan', 'craft',
+      'organic', 'fair-trade', 'direct-trade', 'shade-grown',
+      
+      // Roast levels
+      'light-roast', 'medium-roast', 'dark-roast', 'french-roast',
+      
+      // Popular origins (expandable)
+      'ethiopia', 'colombia', 'brazil', 'guatemala', 'kenya',
+      'yemen', 'jamaica', 'costa-rica', 'honduras', 'peru',
+      
+      // Brew methods
+      'pour-over', 'french-press', 'aeropress', 'chemex', 'v60'
+    ],
+    
+    collectionPathPatterns: [
+      '/collections/', '/collection/', 
+      '/category/', '/categories/',
+      '/shop/', '/store/', '/products/', '/product/',
+      '/coffee/', '/beans/', '/roasts/', '/blends/',
+      '/specialty/', '/artisan/', '/craft/'
+    ],
+    
+    sitemapPatterns: [
+      // Only target collection sitemaps (these contain bulk product collections)
+      'sitemap_collections', 'collections.xml', 'sitemap-collections'
+    ],
+    
+    apiEndpointPatterns: [
+      {
+        name: 'shopify',
+        urlPattern: '/collections/',
+        pathCheck: (url) => url.includes('/collections/') || url.includes('/collection/'),
+        buildApiUrl: (baseUrl, collectionUrl) => [`${collectionUrl}/products.json`]
+      },
+      {
+        name: 'woocommerce',
+        urlPattern: '/product-category/',
+        pathCheck: (url) => url.includes('wp-') || url.includes('/product-category/'),
+        buildApiUrl: (baseUrl) => [
+          `${baseUrl}/wp-json/wc/v3/products`,
+          `${baseUrl}/wp-json/wc/v2/products`
+        ]
+      },
+      {
+        name: 'generic-json',
+        urlPattern: '/',
+        pathCheck: () => true, // fallback for any URL
+        buildApiUrl: (baseUrl, collectionUrl) => [
+          `${collectionUrl}/products.json`,
+          `${collectionUrl}.json`,
+          `${collectionUrl}/api/products`
+        ]
+      }
+    ],
+    
+    excludeKeywords: [
+      'equipment', 'grinder', 'cup', 'mug', 'merchandise', 
+      'subscription', 'gift-card', 'office-product', 'accessory',
+      'brewing-equipment', 'machine', 'kettle', 'scale'
+    ]
+  }
+
+  private static config: ScrapingConfig = CoffeeScraper.DEFAULT_CONFIG
+
+  static setConfig(customConfig: Partial<ScrapingConfig>): void {
+    CoffeeScraper.config = {
+      ...CoffeeScraper.DEFAULT_CONFIG,
+      ...customConfig,
+      // Merge arrays instead of replacing them
+      productKeywords: customConfig.productKeywords 
+        ? [...CoffeeScraper.DEFAULT_CONFIG.productKeywords, ...customConfig.productKeywords]
+        : CoffeeScraper.DEFAULT_CONFIG.productKeywords,
+      collectionPathPatterns: customConfig.collectionPathPatterns
+        ? [...CoffeeScraper.DEFAULT_CONFIG.collectionPathPatterns, ...customConfig.collectionPathPatterns]
+        : CoffeeScraper.DEFAULT_CONFIG.collectionPathPatterns,
+      apiEndpointPatterns: customConfig.apiEndpointPatterns
+        ? [...CoffeeScraper.DEFAULT_CONFIG.apiEndpointPatterns, ...customConfig.apiEndpointPatterns]
+        : CoffeeScraper.DEFAULT_CONFIG.apiEndpointPatterns
+    }
+  }
+
+  static getConfig(): ScrapingConfig {
+    return { ...CoffeeScraper.config }
+  }
+
+  private static async fetchXmlWithRetry(url: string, maxRetries = 3): Promise<string> {
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+      try {
+        console.log(`Attempting to fetch XML ${url} (attempt ${attempt}/${maxRetries})`)
+        
+        const response = await fetch(url, {
+          headers: {
+            'User-Agent': 'NZ Coffee Hub Bot/1.0'
+          }
+        })
+
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}: ${response.statusText}`)
+        }
+
+        return await response.text()
+      } catch (error) {
+        console.error(`Attempt ${attempt} failed for ${url}:`, error)
+        
+        if (attempt === maxRetries) {
+          throw error
+        }
+        
+        // Wait before retrying
+        await new Promise(resolve => setTimeout(resolve, 1000 * attempt))
+      }
+    }
+    return ''
+  }
+
   private static async fetchWithRetry(url: string, maxRetries = 3): Promise<any> {
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
       try {
@@ -106,6 +250,141 @@ export class CoffeeScraper {
     }
   }
 
+  private static parseSitemap(xmlContent: string): SitemapUrl[] {
+    const urls: SitemapUrl[] = []
+    
+    // Simple XML parsing - look for <loc> tags
+    const locRegex = /<loc>(.*?)<\/loc>/g
+    let match
+    
+    while ((match = locRegex.exec(xmlContent)) !== null) {
+      urls.push({
+        loc: match[1].trim()
+      })
+    }
+    
+    return urls
+  }
+
+  private static findBestSitemapUrl(sitemapUrls: SitemapUrl[], patterns: string[]): string | null {
+    // Only look for collections sitemaps
+    return sitemapUrls.find(url => 
+      patterns.some(pattern => url.loc.includes(pattern))
+    )?.loc || null
+  }
+
+  private static async discoverCollectionsFromSitemap(websiteUrl: string): Promise<string[]> {
+    try {
+      const sitemapUrl = `${websiteUrl}/sitemap.xml`
+      const sitemapXml = await this.fetchXmlWithRetry(sitemapUrl)
+      const sitemapUrls = this.parseSitemap(sitemapXml)
+      
+      // Look for collections sitemap only
+      const collectionsSitemapUrl = this.findBestSitemapUrl(sitemapUrls, this.config.sitemapPatterns)
+      
+      if (collectionsSitemapUrl) {
+        console.log(`Found collections sitemap: ${collectionsSitemapUrl}`)
+        
+        // Fetch and parse the collections sitemap
+        const collectionsXml = await this.fetchXmlWithRetry(collectionsSitemapUrl)
+        const collectionUrls = this.parseSitemap(collectionsXml)
+        
+        // Extract collection URLs that are likely coffee-related (using configurable keywords)
+        const coffeeCollections = collectionUrls
+          .map(url => url.loc)
+          .filter(url => {
+            const path = url.toLowerCase()
+            
+            // Check for product keywords using configuration
+            const hasCoffeeKeyword = this.config.productKeywords.some(keyword => 
+              path.includes(keyword.toLowerCase())
+            )
+            
+            // Check for collection path patterns using configuration  
+            const isCollectionLike = this.config.collectionPathPatterns.some(pattern => 
+              path.includes(pattern.toLowerCase())
+            )
+            
+            // Exclude unwanted keywords
+            const hasExcludeKeyword = this.config.excludeKeywords.some(keyword =>
+              path.includes(keyword.toLowerCase())
+            )
+            
+            return hasCoffeeKeyword && isCollectionLike && !hasExcludeKeyword
+          })
+        
+        console.log(`Found ${coffeeCollections.length} coffee-related collections for ${websiteUrl}`)
+        return coffeeCollections
+      }
+      
+      console.log(`No collections sitemap found for ${websiteUrl}`)
+      return []
+      
+    } catch (error) {
+      console.error(`Error discovering collections for ${websiteUrl}:`, error)
+      return []
+    }
+  }
+
+  private static async scrapeCollectionProducts(collectionUrls: string[]): Promise<ShopifyProduct[]> {
+    const allProducts: ShopifyProduct[] = []
+    
+    for (const collectionUrl of collectionUrls) {
+      try {
+        // Try to match platform using configuration
+        const baseUrl = new URL(collectionUrl).origin
+        let foundProducts = false
+        
+        for (const platform of this.config.apiEndpointPatterns) {
+          if (platform.pathCheck(collectionUrl)) {
+            console.log(`Attempting ${platform.name} scraping for: ${collectionUrl}`)
+            
+            const apiUrls = platform.buildApiUrl(baseUrl, collectionUrl)
+            
+            for (const apiUrl of apiUrls) {
+              try {
+                console.log(`Trying API endpoint: ${apiUrl}`)
+                const data: ShopifyProductsResponse = await this.fetchWithRetry(apiUrl)
+                
+                if (data.products && Array.isArray(data.products)) {
+                  console.log(`Found ${data.products.length} products via ${platform.name} from ${apiUrl}`)
+                  allProducts.push(...data.products)
+                  foundProducts = true
+                  break // Stop trying more URLs for this collection
+                }
+              } catch (error) {
+                console.log(`Failed to fetch from ${apiUrl}: ${error}`)
+                // Continue to next API URL
+              }
+            }
+            
+            if (foundProducts) {
+              break // Stop trying other platforms for this collection
+            }
+          }
+        }
+        
+        if (!foundProducts) {
+          console.log(`No compatible API found for: ${collectionUrl}`)
+        }
+        
+        // Small delay between requests
+        await new Promise(resolve => setTimeout(resolve, 500))
+        
+      } catch (error) {
+        console.error(`Error fetching products from ${collectionUrl}:`, error)
+      }
+    }
+    
+    // Remove duplicates based on product ID
+    const uniqueProducts = allProducts.filter((product, index, self) => 
+      index === self.findIndex(p => p.id === product.id)
+    )
+    
+    console.log(`Total unique products found: ${uniqueProducts.length}`)
+    return uniqueProducts
+  }
+
   static async scrapeRoaster(roasterId: number): Promise<number> {
     try {
       // Get roaster details
@@ -122,10 +401,37 @@ export class CoffeeScraper {
       const roasterData = roaster[0]
       console.log(`Scraping products for ${roasterData.name}...`)
 
-      // Fetch products from Shopify API
-      const data: ShopifyProductsResponse = await this.fetchWithRetry(roasterData.productsJsonUrl)
+      let products: ShopifyProduct[] = []
+
+      // Try sitemap approach first (for Shopify sites)
+      if (roasterData.websiteUrl) {
+        try {
+          console.log(`Using sitemap approach for ${roasterData.name}`)
+          const collectionUrls = await this.discoverCollectionsFromSitemap(roasterData.websiteUrl)
+          
+          if (collectionUrls.length > 0) {
+            products = await this.scrapeCollectionProducts(collectionUrls)
+          }
+        } catch (error) {
+          console.log(`Sitemap approach failed for ${roasterData.name}, falling back to direct URL:`, error)
+        }
+      }
+
+      // Fallback to direct products.json URL if sitemap approach didn't work or no products found
+      if (products.length === 0 && roasterData.productsJsonUrl) {
+        try {
+          console.log(`Using direct products.json URL for ${roasterData.name}`)
+          const data: ShopifyProductsResponse = await this.fetchWithRetry(roasterData.productsJsonUrl)
+          
+          if (data.products && Array.isArray(data.products)) {
+            products = data.products
+          }
+        } catch (error) {
+          console.error(`Direct URL approach also failed for ${roasterData.name}:`, error)
+        }
+      }
       
-      if (!data.products || !Array.isArray(data.products)) {
+      if (products.length === 0) {
         console.log(`No products found for ${roasterData.name}`)
         return 0
       }
@@ -144,7 +450,7 @@ export class CoffeeScraper {
       let updatedCount = 0
       const processedExternalIds = new Set<string>()
 
-      for (const product of data.products) {
+      for (const product of products) {
         // Skip non-coffee products
         if (!this.isCoffeeProduct(product)) {
           continue
@@ -237,23 +543,20 @@ export class CoffeeScraper {
       ? product.tags.join(' ').toLowerCase() 
       : (product.tags || '').toLowerCase()
     const productType = product.product_type?.toLowerCase() || ''
+    const productText = `${title} ${tags} ${productType}`
     
-    // Keywords that indicate it's a coffee product
-    const coffeeKeywords = ['coffee', 'bean', 'roast', 'blend', 'single origin', 'espresso']
-    
-    // Keywords that indicate it's NOT a coffee product
-    const excludeKeywords = ['equipment', 'grinder', 'cup', 'mug', 'merchandise', 'subscription', 'gift card', 'office-product']
-    
-    const hasExcludeKeyword = excludeKeywords.some(keyword => 
-      title.includes(keyword) || tags.includes(keyword) || productType.includes(keyword)
+    // Check for exclude keywords first using configuration
+    const hasExcludeKeyword = this.config.excludeKeywords.some(keyword => 
+      productText.includes(keyword.toLowerCase())
     )
     
     if (hasExcludeKeyword) {
       return false
     }
     
-    const hasCoffeeKeyword = coffeeKeywords.some(keyword => 
-      title.includes(keyword) || tags.includes(keyword) || productType.includes(keyword)
+    // Check for coffee keywords using configuration
+    const hasCoffeeKeyword = this.config.productKeywords.some(keyword => 
+      productText.includes(keyword.toLowerCase())
     )
     
     return hasCoffeeKeyword
@@ -550,6 +853,35 @@ export class CoffeeScraper {
     await db.insert(coffeeChanges).values(change)
   }
 }
+
+/*
+USAGE EXAMPLES:
+
+// Basic usage with default configuration
+CoffeeScraper.scrapeAllRoasters()
+
+// Custom configuration for tea scraping
+CoffeeScraper.setConfig({
+  productKeywords: ['tea', 'chai', 'matcha', 'oolong', 'sencha'],
+  excludeKeywords: ['teapot', 'strainer', 'infuser']
+})
+
+// Add custom platform support
+CoffeeScraper.setConfig({
+  apiEndpointPatterns: [{
+    name: 'custom-api',
+    urlPattern: '/my-products/',
+    pathCheck: (url) => url.includes('/my-products/'),
+    buildApiUrl: (baseUrl, collectionUrl) => [`${baseUrl}/api/v1/products`]
+  }]
+})
+
+// Regional customization (e.g., for New Zealand coffee terms)
+CoffeeScraper.setConfig({
+  productKeywords: ['flat-white', 'long-black', 'kiwi-coffee'],
+  collectionPathPatterns: ['/coffee-nz/', '/roasters/']
+})
+*/
 
 // CLI execution
 const args = process.argv.slice(2)
