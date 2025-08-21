@@ -4,7 +4,7 @@ import cors from 'cors'
 import { drizzle } from 'drizzle-orm/node-postgres'
 import { Pool } from 'pg'
 import { eq, and, ilike, sql, desc, asc } from 'drizzle-orm'
-import { createCoffeeProductFilter, createCoffeeSearchFilter } from './src/shared/coffee-filters.ts'
+import { createCoffeeProductFilter, createCoffeeSearchFilter } from './src/shared/coffee-filters.js'
 
 // Import schema
 const pool = new Pool({

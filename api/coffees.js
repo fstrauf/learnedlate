@@ -3,7 +3,7 @@ import { drizzle } from 'drizzle-orm/node-postgres'
 import { Pool } from 'pg'
 import { eq, and, ilike, sql, desc, asc } from 'drizzle-orm'
 import { pgTable, serial, varchar, text, integer, decimal, boolean, timestamp } from 'drizzle-orm/pg-core'
-import { createCoffeeProductFilter, createCoffeeSearchFilter } from '../src/shared/coffee-filters.ts'
+import { createCoffeeProductFilter, createCoffeeSearchFilter } from '../src/shared/coffee-filters.js'
 
 // Database connection
 const pool = new Pool({

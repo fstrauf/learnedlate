@@ -1,6 +1,6 @@
 import { db, coffees, roasters, type CoffeeListing } from '../db'
 import { eq, and, ilike, sql, desc, asc } from 'drizzle-orm'
-import { createCoffeeProductFilter, createCoffeeSearchFilter } from '../shared/coffee-filters'
+import { createCoffeeProductFilter, createCoffeeSearchFilter } from '../shared/coffee-filters.js'
 
 export interface CoffeeFilters {
   origin?: string
