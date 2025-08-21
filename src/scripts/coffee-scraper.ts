@@ -242,7 +242,7 @@ export class CoffeeScraper {
     const coffeeKeywords = ['coffee', 'bean', 'roast', 'blend', 'single origin', 'espresso']
     
     // Keywords that indicate it's NOT a coffee product
-    const excludeKeywords = ['equipment', 'grinder', 'cup', 'mug', 'merchandise', 'subscription', 'gift card']
+    const excludeKeywords = ['equipment', 'grinder', 'cup', 'mug', 'merchandise', 'subscription', 'gift card', 'office-product']
     
     const hasExcludeKeyword = excludeKeywords.some(keyword => 
       title.includes(keyword) || tags.includes(keyword) || productType.includes(keyword)
