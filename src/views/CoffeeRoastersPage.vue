@@ -24,7 +24,7 @@
               v-model="filters.search"
               type="text"
               placeholder="Coffee name, tasting notes..."
-              class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500"
             >
           </div>
 
@@ -35,7 +35,7 @@
             </label>
             <select
               v-model="filters.origin"
-              class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500"
             >
               <option value="">All Origins</option>
               <option v-for="origin in uniqueOrigins" :key="origin" :value="origin">
@@ -51,7 +51,7 @@
             </label>
             <select
               v-model="filters.roastType"
-              class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500"
             >
               <option value="">All Types</option>
               <option v-for="type in uniqueRoastTypes" :key="type" :value="type">
@@ -67,7 +67,7 @@
             </label>
             <select
               v-model="filters.roaster"
-              class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500"
             >
               <option value="">All Roasters</option>
               <option v-for="roaster in uniqueRoasters" :key="roaster" :value="roaster">
@@ -83,7 +83,7 @@
             </label>
             <select
               v-model="sortOption"
-              class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500"
             >
               <option value="created_at-desc">Newest First</option>
               <option value="price-asc">Price: Low to High</option>
@@ -106,7 +106,7 @@
               placeholder="Min"
               min="0"
               step="0.50"
-              class="w-24 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              class="w-24 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500"
             >
             <span class="text-gray-500">to</span>
             <input
@@ -115,7 +115,7 @@
               placeholder="Max"
               min="0"
               step="0.50"
-              class="w-24 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              class="w-24 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500"
             >
           </div>
         </div>
@@ -128,7 +128,7 @@
 
       <!-- Loading State -->
       <div v-if="loading" class="text-center py-12">
-        <div class="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
+        <div class="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-gray-600"></div>
         <p class="mt-2 text-gray-600">Loading coffee data...</p>
       </div>
 
@@ -137,7 +137,7 @@
         <p class="text-red-600">{{ error }}</p>
         <button
           @click="loadData"
-          class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700"
+          class="mt-4 px-4 py-2 bg-gray-900 text-white rounded-md hover:bg-gray-800"
         >
           Try Again
         </button>
@@ -179,7 +179,7 @@
 
             <button 
               @click="openRoasterDrawer(coffee.roaster)"
-              class="text-base font-medium text-blue-600 mb-3 hover:text-blue-800 hover:underline transition-all duration-200 text-left bg-blue-50 hover:bg-blue-100 px-3 py-2 rounded-md border border-blue-200 hover:border-blue-300 w-full flex items-center justify-between group"
+              class="text-base font-medium text-gray-900 mb-3 hover:text-gray-700 hover:underline transition-all duration-200 text-left bg-gray-50 hover:bg-gray-100 px-3 py-2 rounded-md border border-gray-200 hover:border-gray-300 w-full flex items-center justify-between group"
             >
               <span>{{ coffee.roaster.name }}</span>
               <svg class="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -221,7 +221,7 @@
                   v-if="getProductUrl(coffee)"
                   :href="getProductUrl(coffee)"
                   target="_blank"
-                  class="block w-full bg-blue-600 text-white text-center py-2 px-4 rounded-md hover:bg-blue-700 transition-colors text-sm"
+                  class="block w-full bg-gray-700 text-white text-center py-2 px-4 rounded-md hover:bg-gray-500 transition-colors text-sm"
                 >
                   View Product
                 </a>
@@ -236,7 +236,7 @@
         <p class="text-gray-600">No coffees found matching your filters.</p>
         <button
           @click="clearFilters"
-          class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700"
+          class="mt-4 px-4 py-2 bg-gray-900 text-white rounded-md hover:bg-gray-800"
         >
           Clear Filters
         </button>
@@ -271,7 +271,7 @@
               <a 
                 :href="selectedRoaster.websiteUrl" 
                 target="_blank"
-                class="inline-flex items-center space-x-2 text-blue-600 hover:text-blue-800 transition-colors"
+                class="inline-flex items-center space-x-2 text-gray-900 hover:text-gray-700 transition-colors"
               >
                 <span>Visit Website</span>
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
