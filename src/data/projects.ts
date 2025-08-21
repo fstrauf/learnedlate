@@ -68,4 +68,10 @@ export const projects: Project[] = [
     description: 'An interactive tool to assess and visualize your work-life balance between the fisherman and businessman mindsets.',
     internalUrl: '/life-balance-visualizer',
   }),
+  createProject({
+    id: 8,
+    title: 'NZ Coffee Hub',
+    description: 'Discover and compare specialty coffee beans from New Zealand\'s finest roasters with real-time pricing and filtering.',
+    internalUrl: '/coffee-roasters',
+  }),
 ]; 

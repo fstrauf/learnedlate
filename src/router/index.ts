@@ -9,6 +9,7 @@ import ProjectsPage from '../views/ProjectsPage.vue'
 import LifeCalendarPage from '../views/LifeCalendarPage.vue'
 import ConcentricCirclesPage from '../views/ConcentricCirclesPage.vue'
 import LifeBalanceVisualizerPage from '../views/LifeBalanceVisualizerPage.vue'
+import CoffeeRoastersPage from '../views/CoffeeRoastersPage.vue'
 import NowPage from '../views/NowPage.vue'
 import AutomationPage from '../views/AutomationPage.vue'
 import MvpDevelopmentPage from '../views/MvpDevelopmentPage.vue'
@@ -89,6 +90,12 @@ const routes = [
     name: 'LifeBalanceVisualizer',
     component: LifeBalanceVisualizerPage,
     meta: { title: 'Life Balance Visualizer - Florian Strauf' }
+  },
+  {
+    path: '/coffee-roasters',
+    name: 'CoffeeRoasters',
+    component: CoffeeRoastersPage,
+    meta: { title: 'NZ Coffee Hub - Florian Strauf' }
   },
   {
     path: '/now',

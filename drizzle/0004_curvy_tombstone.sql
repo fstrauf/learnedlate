@@ -1,0 +1,1 @@
+ALTER TABLE "roasters" ADD COLUMN "is_active_l" boolean DEFAULT true;

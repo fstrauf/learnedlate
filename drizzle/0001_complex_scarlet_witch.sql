@@ -1,0 +1,1 @@
+ALTER TABLE "coffees" ADD COLUMN "product_type" varchar(100);

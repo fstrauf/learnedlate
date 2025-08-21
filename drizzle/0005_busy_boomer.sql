@@ -1,0 +1,1 @@
+ALTER TABLE "roasters" DROP COLUMN "is_active_l";
