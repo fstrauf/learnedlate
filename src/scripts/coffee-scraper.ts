@@ -138,7 +138,7 @@ export class CoffeeScraper {
         name: 'shopify',
         urlPattern: '/collections/',
         pathCheck: (url) => url.includes('/collections/') || url.includes('/collection/'),
-        buildApiUrl: (baseUrl, collectionUrl) => [`${collectionUrl}/products.json`]
+        buildApiUrl: (_baseUrl, collectionUrl) => [`${collectionUrl}/products.json`]
       },
       {
         name: 'woocommerce',
@@ -153,7 +153,7 @@ export class CoffeeScraper {
         name: 'generic-json',
         urlPattern: '/',
         pathCheck: () => true, // fallback for any URL
-        buildApiUrl: (baseUrl, collectionUrl) => [
+        buildApiUrl: (_baseUrl, collectionUrl) => [
           `${collectionUrl}/products.json`,
           `${collectionUrl}.json`,
           `${collectionUrl}/api/products`

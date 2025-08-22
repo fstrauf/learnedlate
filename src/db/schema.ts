@@ -16,7 +16,8 @@ export const roasters = pgTable('roasters', {
   shippingCostStandard: decimal('shipping_cost_standard', { precision: 10, scale: 2 }),
   freeShippingThreshold: decimal('free_shipping_threshold', { precision: 10, scale: 2 }),
   subscriptionDiscount: decimal('subscription_discount', { precision: 5, scale: 2 }),
-  signupDiscount: decimal('signup_discount', { precision: 5, scale: 2 })
+  signupDiscount: decimal('signup_discount', { precision: 5, scale: 2 }),
+  country: varchar('country', { length: 100 })
 }, (table) => {
   return {
     nameIdx: index('roasters_name_idx').on(table.name),

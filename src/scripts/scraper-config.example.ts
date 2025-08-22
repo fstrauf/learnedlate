@@ -1,4 +1,3 @@
-import { CoffeeScraper } from './coffee-scraper'
 
 // Example: Tea scraper configuration
 export const TeaScraperConfig = {
@@ -42,7 +41,7 @@ export const CustomPlatformConfig = {
     name: 'my-custom-platform',
     urlPattern: '/my-products/',
     pathCheck: (url: string) => url.includes('mycustomstore.com'),
-    buildApiUrl: (baseUrl: string, collectionUrl: string) => [
+    buildApiUrl: (baseUrl: string, _collectionUrl: string) => [
       `${baseUrl}/api/v2/products.json`,
       `${baseUrl}/rest/products`
     ]

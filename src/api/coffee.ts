@@ -46,6 +46,7 @@ export class CoffeeAPI {
           price1kg: coffees.price1kg,
           imageUrl: coffees.imageUrl,
           productUrl: coffees.productUrl,
+          collectionUrl: coffees.collectionUrl,
           inStock: coffees.inStock,
           featured: coffees.featured,
           harvestYear: coffees.harvestYear,
@@ -66,7 +67,8 @@ export class CoffeeAPI {
             shippingCostStandard: roasters.shippingCostStandard,
             freeShippingThreshold: roasters.freeShippingThreshold,
             subscriptionDiscount: roasters.subscriptionDiscount,
-            signupDiscount: roasters.signupDiscount
+            signupDiscount: roasters.signupDiscount,
+            country: roasters.country
           }
         })
         .from(coffees)
@@ -147,6 +149,7 @@ export class CoffeeAPI {
           price1kg: coffees.price1kg,
           imageUrl: coffees.imageUrl,
           productUrl: coffees.productUrl,
+          collectionUrl: coffees.collectionUrl,
           inStock: coffees.inStock,
           featured: coffees.featured,
           harvestYear: coffees.harvestYear,
@@ -167,7 +170,8 @@ export class CoffeeAPI {
             shippingCostStandard: roasters.shippingCostStandard,
             freeShippingThreshold: roasters.freeShippingThreshold,
             subscriptionDiscount: roasters.subscriptionDiscount,
-            signupDiscount: roasters.signupDiscount
+            signupDiscount: roasters.signupDiscount,
+            country: roasters.country
           }
         })
         .from(coffees)
