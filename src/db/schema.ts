@@ -38,6 +38,7 @@ export const coffees = pgTable('coffees', {
   roastLevel: varchar('roast_level', { length: 100 }),
   roastType: varchar('roast_type', { length: 100 }),
   productType: varchar('product_type', { length: 100 }),
+  collectionUrl: varchar('collection_url', { length: 500 }),
   tastingNotes: text('tasting_notes').array(),
   altitude: integer('altitude'),
   price250g: decimal('price_250g', { precision: 10, scale: 2 }),
@@ -57,6 +58,7 @@ export const coffees = pgTable('coffees', {
     originIdx: index('coffees_origin_idx').on(table.origin),
     roastTypeIdx: index('coffees_roast_type_idx').on(table.roastType),
     inStockIdx: index('coffees_in_stock_idx').on(table.inStock),
+    collectionUrlIdx: index('coffees_collection_url_idx').on(table.collectionUrl),
     uniqueRoasterProduct: uniqueIndex('coffees_roaster_external_id_idx').on(table.roasterId, table.externalId)
   }
 })

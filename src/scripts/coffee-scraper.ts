@@ -164,7 +164,15 @@ export class CoffeeScraper {
     excludeKeywords: [
       'equipment', 'grinder', 'cup', 'mug', 'merchandise', 
       'subscription', 'gift-card', 'office-product', 'accessory',
-      'brewing-equipment', 'machine', 'kettle', 'scale'
+      'brewing-equipment', 'machine', 'kettle', 'scale',
+      // Additional non-coffee product types
+      'filter papers', 'cloth set', 'chocolate', 'bundle', 'prepaid',
+      'cold brew', 'disposables', 'drinking chocolate', 'sugar', 'storage',
+      'cocoa shaker', 'cleaning', 'gift cards', 'retail stock', 'spare part',
+      'espresso accessories', 'brew device', 'training', 'clothing', 'apparel',
+      'consumables', 'brewers', 'tea', 'lesson', 'tamper', 'foodservice',
+      'servers', 'electric brewers', 'paper filters', 'merch', 'aeropress',
+      'drippers', 't-shirts', 'green coffee beans', 'tasting pack'
     ]
   }
 
@@ -326,8 +334,8 @@ export class CoffeeScraper {
     }
   }
 
-  private static async scrapeCollectionProducts(collectionUrls: string[]): Promise<ShopifyProduct[]> {
-    const allProducts: ShopifyProduct[] = []
+  private static async scrapeCollectionProducts(collectionUrls: string[]): Promise<(ShopifyProduct & { collectionUrl: string })[]> {
+    const allProducts: (ShopifyProduct & { collectionUrl: string })[] = []
     
     for (const collectionUrl of collectionUrls) {
       try {
@@ -348,7 +356,12 @@ export class CoffeeScraper {
                 
                 if (data.products && Array.isArray(data.products)) {
                   console.log(`Found ${data.products.length} products via ${platform.name} from ${apiUrl}`)
-                  allProducts.push(...data.products)
+                  // Add collection URL to each product
+                  const productsWithCollection = data.products.map(product => ({
+                    ...product,
+                    collectionUrl
+                  }))
+                  allProducts.push(...productsWithCollection)
                   foundProducts = true
                   break // Stop trying more URLs for this collection
                 }
@@ -376,7 +389,7 @@ export class CoffeeScraper {
       }
     }
     
-    // Remove duplicates based on product ID
+    // Remove duplicates based on product ID, keeping the first occurrence with its collection
     const uniqueProducts = allProducts.filter((product, index, self) => 
       index === self.findIndex(p => p.id === product.id)
     )
@@ -401,7 +414,7 @@ export class CoffeeScraper {
       const roasterData = roaster[0]
       console.log(`Scraping products for ${roasterData.name}...`)
 
-      let products: ShopifyProduct[] = []
+      let products: (ShopifyProduct & { collectionUrl?: string })[] = []
 
       // Try sitemap approach first (for Shopify sites)
       if (roasterData.websiteUrl) {
@@ -424,7 +437,11 @@ export class CoffeeScraper {
           const data: ShopifyProductsResponse = await this.fetchWithRetry(roasterData.productsJsonUrl)
           
           if (data.products && Array.isArray(data.products)) {
-            products = data.products
+            // Add the direct products URL as collection for fallback products
+            products = data.products.map(product => ({
+              ...product,
+              collectionUrl: roasterData.productsJsonUrl
+            }))
           }
         } catch (error) {
           console.error(`Direct URL approach also failed for ${roasterData.name}:`, error)
@@ -457,7 +474,7 @@ export class CoffeeScraper {
         }
 
         try {
-          const coffeeData = await this.parseShopifyProduct(product, roasterId)
+          const coffeeData = await this.parseShopifyProduct(product, roasterId, product.collectionUrl)
           
           if (coffeeData && coffeeData.externalId) {
             processedExternalIds.add(coffeeData.externalId)
@@ -562,7 +579,7 @@ export class CoffeeScraper {
     return hasCoffeeKeyword
   }
 
-  private static async parseShopifyProduct(product: ShopifyProduct, roasterId: number): Promise<NewCoffee | null> {
+  private static async parseShopifyProduct(product: ShopifyProduct, roasterId: number, collectionUrl?: string): Promise<NewCoffee | null> {
     try {
       // Extract coffee information from title and description
       const name = this.cleanProductName(product.title)
@@ -611,6 +628,7 @@ export class CoffeeScraper {
         roastType,
         processingMethod,
         productType: product.product_type || null,
+        collectionUrl: collectionUrl || null,
         tastingNotes,
         price250g: prices.price250g,
         price500g: prices.price500g,
@@ -792,7 +810,7 @@ export class CoffeeScraper {
     // Fields to monitor for changes (excluding timestamps and id)
     const fieldsToCheck = [
       'name', 'description', 'origin', 'roastLevel', 'roastType', 'processingMethod',
-      'price250g', 'price500g', 'price1kg', 'inStock', 'imageUrl', 'productUrl'
+      'price250g', 'price500g', 'price1kg', 'inStock', 'imageUrl', 'productUrl', 'collectionUrl'
     ]
 
     for (const field of fieldsToCheck) {

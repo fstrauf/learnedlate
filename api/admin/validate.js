@@ -22,9 +22,8 @@ export default async function handler(req, res) {
       return res.status(400).json({ valid: false, error: 'Password is required' })
     }
     
-    console.log('Received password:', password)
-    console.log('Expected password:', process.env.ADMIN_PASSWORD)
-    console.log('Passwords match:', password === process.env.ADMIN_PASSWORD)
+    // Log authentication attempt without exposing credentials
+    console.log('Admin authentication attempt')
     
     const isValid = password === process.env.ADMIN_PASSWORD
     res.status(200).json({ valid: isValid })
