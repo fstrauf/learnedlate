@@ -1,1 +1,0 @@
-ALTER TABLE "roasters" ADD COLUMN "last_scraped_at" timestamp;

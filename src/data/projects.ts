@@ -72,6 +72,6 @@ export const projects: Project[] = [
     id: 8,
     title: 'NZ Coffee Hub',
     description: 'Discover and compare specialty coffee beans from New Zealand\'s finest roasters with real-time pricing and filtering.',
-    internalUrl: '/coffee-roasters',
+    projectUrl: 'https://coffee.learnedlate.com',
   }),
 ]; 
