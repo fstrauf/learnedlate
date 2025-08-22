@@ -514,6 +514,11 @@ export class CoffeeScraper {
         console.log(`Deleted coffee: ${deletedCoffee.name}`)
       }
 
+      // Update lastScrapedAt timestamp after successful scraping
+      await db.update(roasters)
+        .set({ lastScrapedAt: new Date() })
+        .where(eq(roasters.id, roasterId))
+
       console.log(`Successfully processed ${addedCount} new, ${updatedCount} updated, ${deletedCoffees.length} deleted coffees for ${roasterData.name}`)
       return addedCount
 
@@ -533,9 +538,18 @@ export class CoffeeScraper {
         .where(eq(roasters.isActive, true))
 
       let totalCoffees = 0
+      const twoDaysAgo = new Date()
+      twoDaysAgo.setDate(twoDaysAgo.getDate() - 2)
 
       for (const roaster of activeRoasters) {
         try {
+          // Check if roaster was scraped within the last 2 days
+          if (roaster.lastScrapedAt && roaster.lastScrapedAt > twoDaysAgo) {
+            console.log(`Skipping ${roaster.name} - last scraped on ${roaster.lastScrapedAt.toISOString()}, less than 2 days ago`)
+            continue
+          }
+
+          console.log(`Scraping ${roaster.name} - last scraped: ${roaster.lastScrapedAt ? roaster.lastScrapedAt.toISOString() : 'never'}`)
           const count = await this.scrapeRoaster(roaster.id)
           totalCoffees += count
           

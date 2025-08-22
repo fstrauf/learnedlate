@@ -64,6 +64,13 @@
       "when": 1755826873427,
       "tag": "0008_abandoned_hannibal_king",
       "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1755827897089,
+      "tag": "0009_long_stellaris",
+      "breakpoints": true
     }
   ]
 }

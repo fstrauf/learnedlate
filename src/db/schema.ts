@@ -11,6 +11,7 @@ export const roasters = pgTable('roasters', {
   description: text('description'),
   logoUrl: varchar('logo_url', { length: 500 }),
   isActive: boolean('is_active').default(true),
+  lastScrapedAt: timestamp('last_scraped_at'),
   createdAt: timestamp('created_at').defaultNow(),
   updatedAt: timestamp('updated_at').defaultNow(),
   shippingCostStandard: decimal('shipping_cost_standard', { precision: 10, scale: 2 }),
