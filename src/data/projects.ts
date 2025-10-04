@@ -50,12 +50,6 @@ export const projects: Project[] = [
     description: 'Visualize your life week by week, from birth to 90. See time elapsed, future weeks, and plan milestones.',
     internalUrl: '/life-calendar',
   }),
-  // createProject({
-  //   id: 4,
-  //   title: 'The Good Cup',
-  //   description: 'An app to brew coffee and get tailored recipes based on your taste preferences.',
-  //   imageUrl: 'https://placehold.co/600x400/EEE/31343C?text=The+Good+Cup',
-  // }),
   createProject({
     id: 6,
     title: 'Bubble Biases',
@@ -70,8 +64,16 @@ export const projects: Project[] = [
   }),
   createProject({
     id: 8,
-    title: 'NZ Coffee Hub',
+    title: 'The Good Cup Coffee',
     description: 'Discover and compare specialty coffee beans from New Zealand\'s finest roasters with real-time pricing and filtering.',
     projectUrl: 'https://coffee.learnedlate.com',
+    imageUrl: 'https://coffee.learnedlate.com/og-image.png',
+  }),
+  createProject({
+    id: 9,
+    title: 'Options Analyser',
+    description: 'A tool to analyze and visualize options trading strategies.',
+    projectUrl: 'https://options.learnedlate.com',
+    imageUrl: 'https://options.learnedlate.com/og-image.png',
   }),
 ]; 
