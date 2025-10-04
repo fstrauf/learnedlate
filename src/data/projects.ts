@@ -29,41 +29,8 @@ export const projects: Project[] = [
     imageUrl: 'https://www.supplylah.com/og-image.png',
     projectUrl: 'https://www.supplylah.com/',
   }),
-  createProject({
+    createProject({
     id: 2,
-    title: 'Expense Sorted', // Adjusted title slightly for uniqueness if needed
-    description: 'Effortless Expense Categorization Across Your Favorite Tools Ditch manual rules. Expense Sorted\'s AI automatically categorizes transactions in seconds within Google Sheets, Lunch Money, Tiller and soon PocketSmith. Explore our API for custom integrations.',
-    imageUrl: 'https://www.expensesorted.com/opengraph-image.png?39779eca9e6e8d74',
-    projectUrl: 'https://www.expensesorted.com/',
-  }),
-  createProject({
-    id: 3,
-    title: 'Forgd.com',
-    description: 'A comprehensive platform offering free tools for blockchain builders, including economic modeling and market data analysis.',
-    imageUrl: 'https://cdn.prod.website-files.com/6642268ef69d551ef8d67770/66d72c1ba054de8cd491c239_opengraph-forgd.jpg',
-    projectUrl: 'https://www.forgd.com/',
-  }),
-  
-  createProject({
-    id: 4,
-    title: 'Life Calendar',
-    description: 'Visualize your life week by week, from birth to 90. See time elapsed, future weeks, and plan milestones.',
-    internalUrl: '/life-calendar',
-  }),
-  createProject({
-    id: 6,
-    title: 'Bubble Biases',
-    description: 'An interactive visualization exploring the concept of bubble biases.',
-    internalUrl: '/concentric-circles', // This will be used by ProjectDetailPage to show the visualization
-  }),
-  createProject({
-    id: 7,
-    title: 'Life Balance Visualizer',
-    description: 'An interactive tool to assess and visualize your work-life balance between the fisherman and businessman mindsets.',
-    internalUrl: '/life-balance-visualizer',
-  }),
-  createProject({
-    id: 8,
     title: 'The Good Cup Coffee',
     description: 'Discover and compare specialty coffee beans from New Zealand\'s finest roasters with real-time pricing and filtering.',
     projectUrl: 'https://coffee.learnedlate.com',
@@ -71,10 +38,43 @@ export const projects: Project[] = [
     
   }),
   createProject({
-    id: 9,
+    id: 3,
     title: 'Options Analyser',
     description: 'A tool to analyze and visualize options trading strategies.',
     projectUrl: 'https://options.learnedlate.com',
     imageUrl: 'https://options.learnedlate.com/og-image.png',
+  }),
+  createProject({
+    id: 4,
+    title: 'Expense Sorted', // Adjusted title slightly for uniqueness if needed
+    description: 'Effortless Expense Categorization Across Your Favorite Tools Ditch manual rules. Expense Sorted\'s AI automatically categorizes transactions in seconds within Google Sheets, Lunch Money, Tiller and soon PocketSmith. Explore our API for custom integrations.',
+    imageUrl: 'https://www.expensesorted.com/opengraph-image.png?39779eca9e6e8d74',
+    projectUrl: 'https://www.expensesorted.com/',
+  }),
+  createProject({
+    id: 5,
+    title: 'Forgd.com',
+    description: 'A comprehensive platform offering free tools for blockchain builders, including economic modeling and market data analysis.',
+    imageUrl: 'https://cdn.prod.website-files.com/6642268ef69d551ef8d67770/66d72c1ba054de8cd491c239_opengraph-forgd.jpg',
+    projectUrl: 'https://www.forgd.com/',
+  }),
+  
+  createProject({
+    id: 6,
+    title: 'Life Calendar',
+    description: 'Visualize your life week by week, from birth to 90. See time elapsed, future weeks, and plan milestones.',
+    internalUrl: '/life-calendar',
+  }),
+  createProject({
+    id: 7,
+    title: 'Bubble Biases',
+    description: 'An interactive visualization exploring the concept of bubble biases.',
+    internalUrl: '/concentric-circles', // This will be used by ProjectDetailPage to show the visualization
+  }),
+  createProject({
+    id: 8,
+    title: 'Life Balance Visualizer',
+    description: 'An interactive tool to assess and visualize your work-life balance between the fisherman and businessman mindsets.',
+    internalUrl: '/life-balance-visualizer',
   }),
 ]; 
