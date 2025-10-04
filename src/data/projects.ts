@@ -67,7 +67,8 @@ export const projects: Project[] = [
     title: 'The Good Cup Coffee',
     description: 'Discover and compare specialty coffee beans from New Zealand\'s finest roasters with real-time pricing and filtering.',
     projectUrl: 'https://coffee.learnedlate.com',
-    imageUrl: 'https://coffee.learnedlate.com/og-image.png',
+    imageUrl: 'https://coffee.learnedlate.com/og-image.jpg',
+    
   }),
   createProject({
     id: 9,
