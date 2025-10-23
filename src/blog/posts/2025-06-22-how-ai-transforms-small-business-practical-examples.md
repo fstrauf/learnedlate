@@ -223,4 +223,14 @@ Start small. Start simple. But start now.
 
 ---
 
+## Related Articles
+
+- [AI Strategy for Small Business: 90-Day Action Plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan.md)
+- [How to Use AI for Small Business: Step-by-Step Guide](./how-to-use-ai-for-small-business.md)
+- [ChatGPT for Business: Practical Implementation Guide](./2025-06-22-chatgpt-for-business-practical-implementation-guide.md)
+- [Business Process Automation Examples](./business-process-automation-examples.md)
+- [Bay of Plenty Businesses: AI & Automation Guide](./2025-06-22-bay-of-plenty-businesses-ai-automation.md)
+
+---
+
 *Ready to implement AI in your Bay of Plenty business? [Get in touch](/services) for a free AI automation assessment and discover which processes could deliver the highest ROI for your specific situation.*

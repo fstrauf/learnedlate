@@ -21,3 +21,13 @@ Workflow automation is the process of setting up an automated system to perform 
 * **Monitoring and Analysis:** Many workflow automation systems track what they do using metrics. Systems can log the actions they take and report them to administrators.
 
 Read the full post on our blog: [https://blog.learnedlight.com/p/simple-automation-workflows](https://blog.learnedlight.com/p/simple-automation-workflows)
+
+---
+
+## Related Articles
+
+- [AI Strategy for Small Business: 90-Day Action Plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan.md)
+- [Business Process Automation Examples](./business-process-automation-examples.md)
+- [Business Process Automation: Small Business Guide](./2025-06-22-business-process-automation-small-business-guide.md)
+- [Automate Marketing, Automate Anything](./2025-08-01-automate-marketing-automate-anything.md)
+- [Best AI Tools for Business 2025](./best-ai-tools-for-business-2025.md)

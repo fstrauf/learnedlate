@@ -11,7 +11,7 @@ author: "Florian Strauf"
 
 The traditional model of hiring a full-time Chief Technology Officer is broken for most startups. With senior CTO salaries ranging from $200,000 to $400,000+ annually, plus equity and benefits, many early-stage companies simply can't afford dedicated technical leadership when they need it most.
 
-Enter the fractional CTO—a model that's revolutionizing how startups access world-class technical expertise without breaking the bank. For New Zealand-specific insights, see our [NZ Startups Fractional CTO Guide](/blog/posts/2025-06-22-nz-startups-fractional-cto-guide/). But what exactly is a fractional CTO, and how do you know if your startup needs one?
+Enter the fractional CTO—a model that's revolutionizing how startups access world-class technical expertise without breaking the bank. For New Zealand-specific insights, see our [NZ Startups Fractional CTO Guide](./2025-06-22-nz-startups-fractional-cto-guide.md). But what exactly is a fractional CTO, and how do you know if your startup needs one?
 
 ## What is a Fractional CTO? (Beyond the Basic Definition)
 
@@ -25,7 +25,7 @@ The fractional CTO model emerged from a simple reality: most startups don't need
 
 - **Option A**: No technical leadership (risky and limiting)
 - **Option B**: Full-time hire too early (expensive and potentially premature)
-- **Option C**: Promote a developer to CTO (often leads to management mistakes and [technical risks that destroy valuations](/blog/posts/2025-06-22-technical-risks-kill-startup-valuations/))
+- **Option C**: Promote a developer to CTO (often leads to management mistakes and [technical risks that destroy valuations](./2025-06-22-technical-risks-kill-startup-valuations.md))
 
 Fractional CTOs provide **Option D**: Strategic technical leadership scaled to your actual needs and budget.
 
@@ -286,6 +286,16 @@ If you're considering a fractional CTO:
 Remember: the best fractional CTOs are experienced leaders who choose this model for the flexibility and impact, not CTOs who couldn't land full-time roles. Look for proven track records of scaling technology teams and companies similar to yours.
 
 The question isn't whether you can afford a fractional CTO—it's whether you can afford not to have experienced technical leadership when your startup needs it most.
+
+---
+
+## Related Articles
+
+- [NZ Startups Fractional CTO Guide](./2025-06-22-nz-startups-fractional-cto-guide.md)
+- [Technical Due Diligence Checklist: CTO Guide](./2025-06-22-technical-due-diligence-checklist-cto-guide.md)
+- [Technical Risks That Kill Startup Valuations](./2025-06-22-technical-risks-kill-startup-valuations.md)
+- [MVP Development Cost Breakdown & Timeline Guide](./2025-06-22-mvp-development-cost-breakdown-timeline-guide.md)
+- [Why Custom Software Projects Fail](./2025-01-28-why-custom-software-projects-fail.md)
 
 ---
 

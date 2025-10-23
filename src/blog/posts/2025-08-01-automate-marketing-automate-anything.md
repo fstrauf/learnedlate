@@ -32,3 +32,12 @@ Create a workflow where you give the AI a link to a published blog post. The AI 
 By combining an AI with extensions and structured processes, you can create a personal AI agent to automate a wide range of tasks.
 
 Read the full post on our blog: [https://blog.learnedlate.com/p/automate-marketing-automate-anything](https://blog.learnedlate.com/p/automate-marketing-automate-anything)
+
+---
+
+## Related Articles
+
+- [AI Strategy for Small Business: 90-Day Action Plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan.md)
+- [Business Process Automation Examples](./business-process-automation-examples.md)
+- [Simple Automation Workflows](./2025-08-01-simple-automation-workflows.md)
+- [ChatGPT for Business: Practical Implementation Guide](./2025-06-22-chatgpt-for-business-practical-implementation-guide.md)

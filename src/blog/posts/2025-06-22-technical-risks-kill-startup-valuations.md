@@ -19,7 +19,9 @@ The investors walked away. Not because the technology was broken, but because fi
 
 This isn't an isolated incident. According to recent M&A data, technical issues contribute to 30% of deal failures, and poor technical foundations reduce startup valuations by an average of 25-40% even when deals do close.
 
-The tragedy is that most of these technical risks are preventable and many are fixable with the right approach. Understanding [why most custom software projects fail](/blog/posts/2025-01-28-why-custom-software-projects-fail/) is the first step. Here's how to identify them before they kill your valuation—and what to do about them.
+The tragedy is that most of these technical risks are preventable and many are fixable with the right approach. Understanding [why most custom software projects fail](./2025-01-28-why-custom-software-projects-fail.md) is the first step. Here's how to identify them before they kill your valuation—and what to do about them.
+
+For a comprehensive assessment framework, see our [technical due diligence checklist](./2025-06-22-technical-due-diligence-checklist-cto-guide.md).
 
 ## The Five Technical Risk Categories Investors Fear Most
 
@@ -264,7 +266,18 @@ Companies with strong technical foundations consistently outperform in:
 
 The question isn't whether your startup has technical risks—every startup does. The question is whether you'll identify and address them proactively, or wait until they become existential threats to your business.
 
-The best time to build strong technical foundations was when you started your company. The second best time is now. Consider starting with an [AI Feasibility Sprint](/blog/posts/2025-01-08-ai-feasibility-sprint/) to assess and improve your technical foundation systematically.
+The best time to build strong technical foundations was when you started your company. The second best time is now. Consider starting with an [AI Feasibility Sprint](./2025-01-08-ai-feasibility-sprint.md) to assess and improve your technical foundation systematically.
+
+For ongoing technical leadership, learn about [fractional CTO services](./2025-06-22-what-is-fractional-cto-complete-guide.md) and our [NZ startups guide](./2025-06-22-nz-startups-fractional-cto-guide.md).
+
+---
+
+## Related Articles
+
+- [What is a Fractional CTO? Complete Guide](./2025-06-22-what-is-fractional-cto-complete-guide.md)
+- [Technical Due Diligence Checklist: CTO Guide](./2025-06-22-technical-due-diligence-checklist-cto-guide.md)
+- [NZ Startups Fractional CTO Guide](./2025-06-22-nz-startups-fractional-cto-guide.md)
+- [Why Custom Software Projects Fail (And How to Avoid It)](./2025-01-28-why-custom-software-projects-fail.md)
 
 ---
 

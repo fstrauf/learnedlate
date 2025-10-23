@@ -223,4 +223,13 @@ Start with one high-impact process. Use the government support available. Learn 
 
 ---
 
+## Related Articles
+
+- [AI Strategy for Small Business: 90-Day Action Plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan.md)
+- [How AI Transforms Small Business: Practical Examples](./2025-06-22-how-ai-transforms-small-business-practical-examples.md)
+- [Business Process Automation Examples](./business-process-automation-examples.md)
+- [Auckland Startups Custom Software Guide](./2025-03-18-auckland-startups-custom-software.md)
+
+---
+
 *Ready to explore automation opportunities for your Bay of Plenty business? [Get in touch](/services) for a free automation assessment specifically designed for regional businesses. Discover which processes could deliver the highest ROI while addressing your unique local challenges.*

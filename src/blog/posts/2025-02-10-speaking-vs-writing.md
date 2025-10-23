@@ -28,3 +28,10 @@ Typing prompts is slow and prone to errors. Speaking allows for more natural and
 Configure a hotkey for quick dictation in text editors to maximize efficiency. While speech-to-text isn't perfect and some words may not be detected accurately, the speed gains make it worthwhile for AI interactions.
 
 Read the full post on our blog: [https://blog.learnedlate.com/p/speaking-writing](https://blog.learnedlate.com/p/speaking-writing)
+
+---
+
+## Related Articles
+
+- [Using Obsidian and Cursor for Writing](./2025-05-12-using-obsidian-and-cursor-for-writing.md)
+- [Make Space for Your Best Work](./2025-03-05-make-space-for-your-best-work.md)

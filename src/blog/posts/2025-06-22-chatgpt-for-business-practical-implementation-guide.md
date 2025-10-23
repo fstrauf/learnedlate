@@ -13,9 +13,9 @@ Every business owner has heard about ChatGPT. Most have tried it once or twice. 
 
 While everyone's debating whether AI will replace jobs, smart business owners are quietly using ChatGPT to eliminate 15-20 hours of weekly busywork, improve customer communications, and streamline operations—often for less than the cost of a lunch meeting.
 
-But here's what the tech blogs won't tell you: success with ChatGPT isn't about having the latest prompts or the most sophisticated use cases. It's about identifying the right business processes, implementing proper workflows, and measuring actual results. Many businesses struggle with [AI confusion and implementation challenges](/blog/posts/2025-06-22-small-business-ai-confusion-why-no-one-using-effectively/) despite the clear benefits.
+But here's what the tech blogs won't tell you: success with ChatGPT isn't about having the latest prompts or the most sophisticated use cases. It's about identifying the right business processes, implementing proper workflows, and measuring actual results. Many businesses struggle with [AI confusion and implementation challenges](./2025-06-22-small-business-ai-confusion-why-no-one-using-effectively.md) despite the clear benefits.
 
-This guide shows you exactly how small businesses are using ChatGPT practically and profitably, with specific prompts, workflows, and ROI calculations that work in the real world. For broader context, see our complete [AI Strategy for Small Business](/blog/posts/2025-06-22-ai-strategy-small-business-90-day-action-plan/).
+This guide shows you exactly how small businesses are using ChatGPT practically and profitably, with specific prompts, workflows, and ROI calculations that work in the real world. For broader context, see our complete [AI Strategy for Small Business](./2025-06-22-ai-strategy-small-business-90-day-action-plan.md) and [How to Use AI for Small Business](./how-to-use-ai-for-small-business.md).
 
 ## The ChatGPT Business Reality Check
 
@@ -465,6 +465,16 @@ Choose one repetitive business process that consumes significant time. Spend 30 
 The future belongs to businesses that use AI to work smarter, not harder. The question isn't whether ChatGPT will change your industry—it's whether you'll lead that change or be forced to catch up.
 
 Start small. Start practical. But start now.
+
+---
+
+## Related Articles
+
+- [AI Strategy for Small Business: 90-Day Action Plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan.md)
+- [How to Use AI for Small Business: Step-by-Step Guide](./how-to-use-ai-for-small-business.md)
+- [Best AI Tools for Business 2025](./best-ai-tools-for-business-2025.md)
+- [How AI Transforms Small Business: Practical Examples](./2025-06-22-how-ai-transforms-small-business-practical-examples.md)
+- [Automate Marketing, Automate Anything](./2025-08-01-automate-marketing-automate-anything.md)
 
 ---
 

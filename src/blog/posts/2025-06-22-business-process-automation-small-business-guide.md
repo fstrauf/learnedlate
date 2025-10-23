@@ -429,4 +429,14 @@ Your future self—and your team—will thank you for making the decision to wor
 
 ---
 
+## Related Articles
+
+- [AI Strategy for Small Business: 90-Day Action Plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan.md)
+- [Business Process Automation Examples: Real Companies, Real Results](./business-process-automation-examples.md)
+- [Simple Automation Workflows](./2025-08-01-simple-automation-workflows.md)
+- [How to Use AI for Small Business](./how-to-use-ai-for-small-business.md)
+- [Small Business Custom Software Solutions](./2025-05-28-small-business-custom-software.md)
+
+---
+
 *Looking for help implementing business process automation in your Bay of Plenty business? [Get in touch](/services) for a free automation assessment and discover which processes could save you the most time and money.*

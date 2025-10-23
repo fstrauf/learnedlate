@@ -13,7 +13,7 @@ Most technical due diligence fails before it begins. Not because the technology 
 
 After conducting dozens of technical due diligence assessments for investors and helping startups prepare for scrutiny, I've seen the same patterns repeatedly: companies that treat technical DD as a chance to showcase their strategic thinking raise funding faster and at better valuations than those who simply check boxes on a generic checklist.
 
-This guide will show you how to approach technical due diligence strategically, what investors really want to know, and how to position your technical capabilities as a competitive advantage rather than a risk factor.
+This guide will show you how to approach technical due diligence strategically, what investors really want to know, and how to position your technical capabilities as a competitive advantage rather than a risk factor. For broader technical leadership guidance, see our [Fractional CTO guide](./2025-06-22-what-is-fractional-cto-complete-guide.md).
 
 ## Beyond Basic Checklists: Strategic Technical Assessment
 
@@ -88,6 +88,8 @@ Infrastructure Layer:
 ```
 
 **Real Example**: A B2B SaaS company's technical DD revealed their database design couldn't support multi-tenancy at scale. Rather than killing the deal, the investor factored a $200K database redesign into the funding round, which was completed in 6 months and enabled 50x user growth.
+
+For more on avoiding common pitfalls, see our guide on [why custom software projects fail](./2025-01-28-why-custom-software-projects-fail.md).
 
 ### Pillar 2: Code Quality & Technical Debt Analysis
 
@@ -431,6 +433,15 @@ The best technical teams I've worked with treat due diligence as an opportunity 
 Remember: investors aren't just evaluating your current technology—they're betting on your team's ability to navigate the technical challenges of scaling a business. Show them you're not just building software, you're building sustainable competitive advantages.
 
 The question isn't whether your technology is perfect—it's whether you have the strategic thinking, operational discipline, and execution capability to turn technology into a business multiplier.
+
+---
+
+## Related Articles
+
+- [What is a Fractional CTO? Complete Guide](./2025-06-22-what-is-fractional-cto-complete-guide.md)
+- [Technical Risks That Kill Startup Valuations](./2025-06-22-technical-risks-kill-startup-valuations.md)
+- [NZ Startups Fractional CTO Guide](./2025-06-22-nz-startups-fractional-cto-guide.md)
+- [Why Custom Software Projects Fail (And How to Avoid It)](./2025-01-28-why-custom-software-projects-fail.md)
 
 ---
 
