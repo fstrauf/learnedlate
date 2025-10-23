@@ -39,10 +39,10 @@ export const projects: Project[] = [
   }),
   createProject({
     id: 3,
-    title: 'Options Analyser',
+    title: 'Days to Expiry',
     description: 'A tool to analyze and visualize options trading strategies.',
-    projectUrl: 'https://options.learnedlate.com',
-    imageUrl: 'https://options.learnedlate.com/og-image.png',
+    projectUrl: 'https://www.daystoexpiry.com/',
+    imageUrl: 'https://www.daystoexpiry.com/og-image.png',
   }),
   createProject({
     id: 4,
