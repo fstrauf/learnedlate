@@ -35,8 +35,8 @@ export default async function handler(
     const session = await stripe.checkout.sessions.retrieve(sessionId);
 
     if (session.payment_status === 'paid') {
-      // Serve ZIP file directly from public folder
-      const downloadUrl = `${req.headers.origin || 'http://localhost:5173'}/seo-automation-package.zip`;
+      // Return download API endpoint URL
+      const downloadUrl = `${req.headers.origin || 'http://localhost:5173'}/api/download?sessionId=${sessionId}`;
 
       return res.status(200).json({
         status: 'paid',

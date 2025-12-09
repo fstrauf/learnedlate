@@ -1,5 +1,7 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
 import Stripe from 'stripe';
+import fs from 'fs';
+import path from 'path';
 
 export default async function handler(
   req: VercelRequest,
@@ -28,14 +30,22 @@ export default async function handler(
       return res.status(403).json({ error: 'Payment not completed' });
     }
 
-    // Return public URL for direct download
-    // File is hosted at /public/seo-automation-package.zip
-    const downloadUrl = `${req.headers['x-forwarded-proto'] || 'https'}://${req.headers.host}/seo-automation-package.zip`;
+    // Serve the ZIP file from public folder
+    const filePath = path.join(process.cwd(), 'public', 'seo-automation-package.zip');
     
-    return res.status(200).json({
-      downloadUrl,
-      customerEmail: session.customer_email,
-    });
+    // Check if file exists
+    if (!fs.existsSync(filePath)) {
+      return res.status(404).json({ error: 'Download file not found' });
+    }
+
+    // Set proper headers for file download
+    res.setHeader('Content-Type', 'application/zip');
+    res.setHeader('Content-Disposition', 'attachment; filename="seo-automation-package.zip"');
+    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+
+    // Stream the file
+    const fileStream = fs.createReadStream(filePath);
+    fileStream.pipe(res);
   } catch (error: any) {
     console.error('Download error:', error);
     return res.status(500).json({ error: error.message });
