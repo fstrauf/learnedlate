@@ -14,6 +14,9 @@ import AutomationPage from '../views/AutomationPage.vue'
 import MvpDevelopmentPage from '../views/MvpDevelopmentPage.vue'
 import FractionalCtoPage from '../views/FractionalCtoPage.vue'
 import AiImplementationPage from '../views/AiImplementationPage.vue'
+import CheckoutSuccessPage from '../views/CheckoutSuccessPage.vue'
+import CheckoutCancelPage from '../views/CheckoutCancelPage.vue'
+import SeoAutomationPage from '../views/SeoAutomationPage.vue'
 
 const DEFAULT_TITLE = 'Florian Strauf'
 
@@ -119,6 +122,24 @@ const routes = [
     name: 'AiImplementation',
     component: AiImplementationPage,
     meta: { title: 'AI Implementation - Practical, Fast ROI' }
+  },
+  {
+    path: '/checkout-success',
+    name: 'CheckoutSuccess',
+    component: CheckoutSuccessPage,
+    meta: { title: 'Payment Successful - Florian Strauf' }
+  },
+  {
+    path: '/checkout-cancel',
+    name: 'CheckoutCancel',
+    component: CheckoutCancelPage,
+    meta: { title: 'Payment Cancelled - Florian Strauf' }
+  },
+  {
+    path: '/seo-automation',
+    name: 'SeoAutomation',
+    component: SeoAutomationPage,
+    meta: { title: 'SEO Automation Package - Florian Strauf' }
   },
 ]
 

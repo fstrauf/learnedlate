@@ -77,4 +77,10 @@ export const projects: Project[] = [
     description: 'An interactive tool to assess and visualize your work-life balance between the fisherman and businessman mindsets.',
     internalUrl: '/life-balance-visualizer',
   }),
+  createProject({
+    id: 9,
+    title: 'SEO Automation Package',
+    description: 'A VS Code and Copilot workflow to automate SEO optimization for your blog or website.',
+    internalUrl: '/seo-automation',
+  }),
 ]; 
