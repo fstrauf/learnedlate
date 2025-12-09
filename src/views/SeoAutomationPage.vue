@@ -221,6 +221,11 @@
 </template>
 
 <script setup lang="ts">
+import { onMounted } from 'vue';
 import SEOHead from '../components/SEOHead.vue';
 import CheckoutButton from '../components/CheckoutButton.vue';
+
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
 </script>
