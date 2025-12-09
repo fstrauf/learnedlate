@@ -17,18 +17,17 @@
           </div>
 
           <!-- Download Section -->
-          <div v-if="downloadUrl" class="bg-white/5 border border-white/10 rounded-xl p-8 mb-8 backdrop-blur-sm">
+          <div class="bg-white/5 border border-white/10 rounded-xl p-8 mb-8 backdrop-blur-sm">
             <h2 class="text-xl font-medium mb-4 text-white">Your Download</h2>
             <p class="text-gray-300 mb-6">
               Your SEO Automation Package is ready to download. Get started with the folder structure and Copilot prompts right away.
             </p>
-            <a
-              :href="downloadUrl"
-              download
-              class="inline-block w-full sm:w-auto px-8 py-3 bg-white text-gray-900 font-medium rounded-md hover:bg-gray-100 transition-colors text-center"
+            <button
+              @click="downloadPackage"
+              class="inline-block w-full sm:w-auto px-8 py-3 bg-white text-gray-900 font-medium rounded-md hover:bg-gray-100 transition-colors text-center cursor-pointer"
             >
               Download Package Now
-            </a>
+            </button>
           </div>
 
           <!-- Support Section -->
@@ -195,8 +194,16 @@ type PaymentStatus = 'loading' | 'paid' | 'error';
 
 const route = useRoute();
 const paymentStatus = ref<PaymentStatus>('loading');
-const downloadUrl = ref('');
 const errorMessage = ref('');
+
+const downloadPackage = () => {
+  const link = document.createElement('a');
+  link.href = '/seo-workflow-template.zip';
+  link.download = 'seo-workflow-template.zip';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
 
 onMounted(async () => {
   const sessionId = route.query.session_id as string;
@@ -216,13 +223,12 @@ onMounted(async () => {
     });
 
     if (!response.ok) {
-      throw new Error('Failed to verify payment');
+      throw new Error(`Failed to verify payment: ${response.status}`);
     }
 
     const data = await response.json();
 
     if (data.status === 'paid') {
-      downloadUrl.value = data.downloadUrl;
       paymentStatus.value = 'paid';
     } else {
       paymentStatus.value = 'error';
@@ -231,6 +237,7 @@ onMounted(async () => {
   } catch (error) {
     paymentStatus.value = 'error';
     errorMessage.value = error instanceof Error ? error.message : 'An error occurred.';
+    console.error('Verification error:', error);
   }
 });
 </script>
