@@ -8,7 +8,6 @@
       {{ isLoading ? 'Redirecting to checkout...' : buttonText }}
     </button>
     <p v-if="error" class="text-red-600 text-sm mt-2">{{ error }}</p>
-    <p v-if="isDev && devMessage" class="text-yellow-600 text-xs mt-2">{{ devMessage }}</p>
   </div>
 </template>
 
@@ -39,8 +38,6 @@ const props = withDefaults(defineProps<Props>(), {
 
 const isLoading = ref(false);
 const error = ref('');
-const devMessage = ref('');
-const isDev = import.meta.env.DEV;
 
 const buttonText = computed(() => {
   const priceInDollars = (props.product.price / 100).toFixed(2);
@@ -50,18 +47,9 @@ const buttonText = computed(() => {
 const handleCheckout = async () => {
   isLoading.value = true;
   error.value = '';
-  devMessage.value = '';
 
   try {
-    // Build the API URL
-    let apiUrl = '/api/checkout';
-    if (isDev && !window.location.origin.includes('localhost:3001')) {
-      // For local dev, the Vercel dev server runs on 3000 by default
-      // but we're proxying through Vite on 5173
-      devMessage.value = 'To test payments locally, run: vercel dev';
-    }
-
-    const response = await fetch(apiUrl, {
+    const response = await fetch('/api/checkout', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -73,9 +61,6 @@ const handleCheckout = async () => {
     });
 
     if (!response.ok) {
-      if (isDev) {
-        devMessage.value = `Dev error: ${response.status} ${response.statusText}. Make sure to run 'vercel dev' in another terminal.`;
-      }
       throw new Error('Failed to create checkout session');
     }
 

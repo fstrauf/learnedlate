@@ -45,6 +45,104 @@
             </a>
           </div>
 
+          <!-- Getting Started Section -->
+          <div class="mt-8">
+            <h2 class="text-2xl font-light mb-6 text-white">Getting Started (13 Minutes)</h2>
+            
+            <!-- Prerequisites -->
+            <div class="bg-white/5 border border-white/10 rounded-xl p-6 mb-6 backdrop-blur-sm">
+              <h3 class="text-lg font-medium text-white mb-4">Prerequisites</h3>
+              <ul class="space-y-3 text-gray-300">
+                <li class="flex items-start gap-3">
+                  <span class="text-green-400 mt-1">✓</span>
+                  <span><a href="https://code.visualstudio.com" target="_blank" class="text-blue-300 hover:text-blue-200 underline">VS Code</a> — Free code editor (download if needed)</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-green-400 mt-1">✓</span>
+                  <span><a href="https://github.com/features/copilot" target="_blank" class="text-blue-300 hover:text-blue-200 underline">GitHub Copilot</a> — Free tier available for personal use</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Quick Start Steps -->
+            <div class="space-y-4">
+              <div class="bg-white/5 border border-white/10 rounded-xl p-6 backdrop-blur-sm">
+                <div class="flex gap-4">
+                  <div class="flex-shrink-0 w-8 h-8 bg-white/10 rounded-full flex items-center justify-center text-white font-semibold">1</div>
+                  <div>
+                    <h4 class="text-white font-medium mb-2">Extract & Open in VS Code</h4>
+                    <p class="text-gray-300 text-sm">Unzip the SEO Automation Package and open the folder in VS Code.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-white/5 border border-white/10 rounded-xl p-6 backdrop-blur-sm">
+                <div class="flex gap-4">
+                  <div class="flex-shrink-0 w-8 h-8 bg-white/10 rounded-full flex items-center justify-center text-white font-semibold">2</div>
+                  <div>
+                    <h4 class="text-white font-medium mb-2">Run the Setup Script</h4>
+                    <p class="text-gray-300 text-sm mb-2">In VS Code's terminal, run:</p>
+                    <code class="bg-black/40 text-gray-100 px-3 py-2 rounded text-xs block">chmod +x setup.sh && ./setup.sh</code>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-white/5 border border-white/10 rounded-xl p-6 backdrop-blur-sm">
+                <div class="flex gap-4">
+                  <div class="flex-shrink-0 w-8 h-8 bg-white/10 rounded-full flex items-center justify-center text-white font-semibold">3</div>
+                  <div>
+                    <h4 class="text-white font-medium mb-2">Answer 3 Questions</h4>
+                    <p class="text-gray-300 text-sm">The script will ask for your project name and website URL. Everything is set up automatically.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-white/5 border border-white/10 rounded-xl p-6 backdrop-blur-sm">
+                <div class="flex gap-4">
+                  <div class="flex-shrink-0 w-8 h-8 bg-white/10 rounded-full flex items-center justify-center text-white font-semibold">4</div>
+                  <div>
+                    <h4 class="text-white font-medium mb-2">Connect GitHub Copilot</h4>
+                    <p class="text-gray-300 text-sm mb-2">Copy the config lines from the setup and paste into your GitHub Copilot settings. Then restart Copilot.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-white/5 border border-white/10 rounded-xl p-6 backdrop-blur-sm">
+                <div class="flex gap-4">
+                  <div class="flex-shrink-0 w-8 h-8 bg-white/10 rounded-full flex items-center justify-center text-white font-semibold">5</div>
+                  <div>
+                    <h4 class="text-white font-medium mb-2">Start Workflow</h4>
+                    <p class="text-gray-300 text-sm">Open the first prompt file in the <code class="bg-black/40 px-2 py-1 rounded text-xs">.github/prompts/</code> folder and type <code class="bg-black/40 px-2 py-1 rounded text-xs">/</code> in Copilot to run it.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- What You Get -->
+            <div class="mt-6 bg-white/5 border border-white/10 rounded-xl p-6 backdrop-blur-sm">
+              <h3 class="text-lg font-medium text-white mb-4">What You'll Have</h3>
+              <p class="text-gray-300 text-sm mb-4">After setup, your project folder includes:</p>
+              <ul class="space-y-2 text-gray-300 text-sm">
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-300">→</span>
+                  <span>Pre-built folder structure for organizing your SEO workflow</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-300">→</span>
+                  <span>4 prompts for keyword research, content creation, linking, and validation</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-300">→</span>
+                  <span>Automation tools powered by GitHub Copilot</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-blue-300">→</span>
+                  <span>Complete documentation and examples</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
           <!-- Return Home -->
           <div class="text-center mt-8">
             <router-link to="/" class="text-gray-300 hover:text-white transition-colors">
