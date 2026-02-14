@@ -31,6 +31,20 @@ Partnering with businesses as a fractional CTO and strategic advisor to provide 
 - **AI Implementation:** Identifying high-impact opportunities to integrate AI into existing workflows and products to boost efficiency and create new capabilities.
 - **Team Leadership & Process Optimization:** Establishing and refining agile development practices, setting up effective team structures, and mentoring developers to improve velocity and quality.
 
+### Founder & Builder at [daystoexpiry.com](https://daystoexpiry.com)
+**2025 - Present**
+
+Days to Expiry began as a personal tool to better understand and optimize my own options income strategies and has grown into a niche SaaS with paying customers. I designed and built the entire platform end-to-end, from data ingestion to AI-assisted analytics.
+
+The app ingests and parses broker statements, normalizes positions and trades, and presents them in a clear, options-focused view. On top of this, I’ve implemented AI-driven analysis that helps users evaluate, plan, and execute options income strategies based on their actual portfolio holdings.
+
+**Key User Benefits Delivered:**
+
+- **Automated Data Pipeline:** Imports, scans, and reconciles broker statements into a clean, structured dataset.
+- **AI-Assisted Trade Discovery:** Surfaces covered call, put-selling, and other income opportunities aligned with users’ holdings.
+- **Clear Performance Insight:** Visualizes income, risk, and drawdowns in an intuitive, portfolio-centric dashboard.
+- **Actionable Strategy Guidance:** Bridges the gap from “what do I hold?” to “what should I do next?” with portfolio-aware suggestions.
+
 ### Founder & Builder at [Expensesorted.com](https://expensesorted.com)
 **2023 - Present**
 
