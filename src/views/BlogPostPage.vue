@@ -215,12 +215,20 @@ import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { marked } from 'marked'
 import SEOHead from '../components/SEOHead.vue'
-import { getBlogPostBySlug, allBlogPosts, type BlogPost } from '../blog'
+import { loadPostContent, getBlogPostBySlug, allBlogPosts, type BlogPost } from '../blog'
 
 const route = useRoute()
-const loading = ref(true)
+
+// Check if we're running in SSR context
+const isSSR = typeof window === 'undefined'
+
+// Try to load post data immediately for SSR
+const slug = route.params.slug as string
+const initialPostData = isSSR ? (getBlogPostBySlug(slug) ?? null) : null
+
+const loading = ref(!isSSR && !initialPostData)
 const error = ref<string | null>(null)
-const post = ref<BlogPost | null>(null)
+const post = ref<BlogPost | null>(initialPostData)
 
 // Configure marked for better rendering
 marked.setOptions({
@@ -308,7 +316,8 @@ const articleSchema = computed(() => {
 onMounted(async () => {
   try {
     const slug = route.params.slug as string
-    const postData = getBlogPostBySlug(slug)
+    // Load full post content including markdown
+    const postData = loadPostContent(slug)
     
     if (postData) {
       post.value = postData
@@ -330,7 +339,7 @@ watch(
     if (!newSlug || typeof newSlug !== 'string') return
     loading.value = true
     error.value = null
-    const postData = getBlogPostBySlug(newSlug)
+    const postData = loadPostContent(newSlug)
     if (postData) {
       post.value = postData
       // scroll to top on article change

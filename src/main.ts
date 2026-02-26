@@ -1,17 +1,40 @@
-import { createApp } from 'vue'
+import { createApp as createVueApp } from 'vue'
 import { createHead } from '@vueuse/head'
 import './style.css'
 import App from './App.vue'
-import router from './router'
+import { createRouter, createMemoryHistory, createWebHistory } from 'vue-router'
+import routes from './router/routes'
 import { usePostHog } from './plugins/posthog'
 
-const app = createApp(App)
-const head = createHead()
+// Environment check
+const isSSR = typeof window === 'undefined'
 
-// Initialize analytics before mounting and routing
-usePostHog()
+export function createApp() {
+  const app = createVueApp(App)
+  const head = createHead()
+  
+  // Create router with appropriate history
+  const router = createRouter({
+    history: isSSR ? createMemoryHistory() : createWebHistory(),
+    routes,
+  })
+  
+  // Initialize PostHog only on client side
+  if (!isSSR) {
+    usePostHog()
+  }
+  
+  app.use(head)
+  app.use(router)
+  
+  return { app, router, head }
+}
 
-app.use(head)
-app.use(router)
-
-app.mount('#app')
+// Client-side only: mount the app
+if (!isSSR) {
+  const { app, router } = createApp()
+  
+  router.isReady().then(() => {
+    app.mount('#app')
+  })
+}

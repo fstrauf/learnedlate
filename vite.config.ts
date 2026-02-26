@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { resolve } from 'path'
 
 // https://vitejs.dev/config/
-export default defineConfig({
+export default defineConfig(({ isSsrBuild }) => ({
   plugins: [
     vue(),
     tailwindcss(),
@@ -16,12 +16,19 @@ export default defineConfig({
     },
   },
   
-  // Performance optimizations
+  // Build configuration
   build: {
     // Enable compression
     reportCompressedSize: true,
-    // Chunk splitting for better caching
-    rollupOptions: {
+    
+    // SSR manifest for prerendering (only for client build)
+    ...(isSsrBuild ? {} : { ssrManifest: true }),
+    
+    // Rollup options - only apply manualChunks for client build
+    rollupOptions: isSsrBuild ? {} : {
+      input: {
+        client: resolve(__dirname, 'index.html'),
+      },
       output: {
         manualChunks: {
           vendor: ['vue', 'vue-router'],
@@ -29,6 +36,7 @@ export default defineConfig({
         }
       }
     },
+    
     // Minification
     minify: 'terser',
     terserOptions: {
@@ -37,8 +45,17 @@ export default defineConfig({
         drop_debugger: true,
       },
     },
+    
     // Ensure assets have consistent paths
     assetsDir: 'assets',
+  },
+  
+  // SSR-specific options
+  ssr: {
+    // External packages that shouldn't be bundled in SSR
+    external: ['posthog-js'],
+    // Don't bundle Vue in SSR (use the external version)
+    noExternal: [],
   },
   
   // Preview server configuration
@@ -69,4 +86,4 @@ export default defineConfig({
     __VUE_OPTIONS_API__: false,
     __VUE_PROD_DEVTOOLS__: false,
   },
-})
+}))

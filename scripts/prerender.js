@@ -1,154 +1,158 @@
+#!/usr/bin/env node
+/**
+ * SSR-based Prerender Script
+ * 
+ * This script uses Vite's SSR capabilities to prerender routes at build time.
+ * No Chrome/Puppeteer needed - it renders Vue components directly to HTML strings.
+ */
+
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import puppeteer from 'puppeteer'
-import http from 'http'
-import { createRequire } from 'module'
+import { createServer } from 'vite'
+import { render, staticRoutes, articleRoutes, allRoutes } from '../dist/server/entry-server.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 const distPath = path.join(__dirname, '..', 'dist')
-const articlesPath = path.join(__dirname, '..', 'articles.json')
+const clientPath = path.join(distPath, 'client')
 
-// Read articles
-const articlesData = JSON.parse(fs.readFileSync(articlesPath, 'utf8'))
-const publishedArticles = articlesData.articles.filter(a => a.status === 'published')
+console.log(`🚀 Starting SSR prerendering for ${allRoutes.length} routes...\n`)
 
-const staticRoutes = [
-  '/',
-  '/blog',
-  '/projects',
-  '/services',
-  '/cv',
-  '/mvp-development',
-  '/fractional-cto',
-  '/ai-implementation',
-  '/automation',
-  '/seo-automation',
-  '/now',
-  '/life-balance-visualizer',
-  '/life-calendar',
-  '/concentric-circles',
-]
+// Read the template HTML file
+function getTemplate() {
+  const templatePath = path.join(clientPath, 'index.html')
+  return fs.readFileSync(templatePath, 'utf-8')
+}
 
-const articleRoutes = publishedArticles.map(a => `/blog/${a.url_slug}`)
-const allRoutes = [...staticRoutes, ...articleRoutes]
-
-console.log(`🚀 Starting prerendering for ${allRoutes.length} routes...\n`)
-
-// Simple static file server
-function createServer(rootPath, port) {
-  return new Promise((resolve) => {
-    const server = http.createServer((req, res) => {
-      let filePath = path.join(rootPath, req.url === '/' ? 'index.html' : req.url)
-      
-      // For SPA routes, serve index.html
-      if (!fs.existsSync(filePath) || fs.statSync(filePath).isDirectory()) {
-        filePath = path.join(rootPath, 'index.html')
-      }
-      
-      const ext = path.extname(filePath)
-      const contentType = {
-        '.html': 'text/html',
-        '.js': 'application/javascript',
-        '.css': 'text/css',
-        '.json': 'application/json',
-        '.png': 'image/png',
-        '.jpg': 'image/jpeg',
-        '.gif': 'image/gif',
-        '.svg': 'image/svg+xml',
-        '.ico': 'image/x-icon',
-      }[ext] || 'application/octet-stream'
-      
-      try {
-        const content = fs.readFileSync(filePath)
-        res.writeHead(200, { 'Content-Type': contentType })
-        res.end(content)
-      } catch (err) {
-        res.writeHead(404)
-        res.end('Not found')
-      }
-    })
-    
-    server.listen(port, () => {
-      console.log(`  📡 Dev server running on http://localhost:${port}`)
-      resolve(server)
-    })
-  })
+// Escape special regex characters
+function escapeRegExp(string) {
+  return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 }
 
 async function prerender() {
-  const port = 3456
-  const server = await createServer(distPath, port)
-  
-  const browser = await puppeteer.launch({
-    headless: 'new',
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
-  })
-
   try {
+    // Create a Vite server in middleware mode for SSR
+    const vite = await createServer({
+      server: { middlewareMode: true },
+      appType: 'custom',
+      ssr: {
+        noExternal: true,
+      }
+    })
+
+    const template = getTemplate()
+    const manifest = JSON.parse(fs.readFileSync(path.join(clientPath, '.vite', 'ssr-manifest.json'), 'utf-8'))
+
+    // Track results
+    let successCount = 0
+    let skipCount = 0
+    let failCount = 0
+
     for (const route of allRoutes) {
-      const page = await browser.newPage()
-      
-      // Construct the file path
-      let outputPath
-      if (route === '/') {
-        outputPath = path.join(distPath, 'index.html')
-      } else if (route === '/blog') {
-        outputPath = path.join(distPath, 'blog', 'index.html')
-      } else if (route.startsWith('/blog/')) {
-        const slug = route.replace('/blog/', '')
-        outputPath = path.join(distPath, 'blog', `${slug}.html`)
-      } else {
-        outputPath = path.join(distPath, `${route}.html`)
+      try {
+        // Determine output path
+        let outputPath
+        if (route === '/') {
+          outputPath = path.join(clientPath, 'index.html')
+          // Root index.html already exists from build
+          console.log(`  ⏭️  Skipping ${route} (already exists from build)`)
+          skipCount++
+          continue
+        } else if (route === '/blog') {
+          outputPath = path.join(clientPath, 'blog', 'index.html')
+        } else if (route.startsWith('/blog/')) {
+          const slug = route.replace('/blog/', '')
+          outputPath = path.join(clientPath, 'blog', `${slug}.html`)
+        } else {
+          outputPath = path.join(clientPath, `${route}.html`)
+        }
+
+        // Ensure directory exists
+        const dir = path.dirname(outputPath)
+        if (!fs.existsSync(dir)) {
+          fs.mkdirSync(dir, { recursive: true })
+        }
+
+        console.log(`  📝 Prerendering ${route}...`)
+
+        // Render the app for this route
+        const { app, ctx } = await render(route, manifest)
+        
+        // Render to string
+        const { renderToString } = await import('vue/server-renderer')
+        const appHtml = await renderToString(app, ctx)
+
+        // Get the preload links for this route
+        const preloadLinks = renderPreloadLinks(ctx.modules || [], manifest)
+
+        // Inject the app HTML into the template
+        let html = template
+          .replace('<!--app-html-->', appHtml)
+          .replace('<!--preload-links-->', preloadLinks)
+
+        // Add hydration data script
+        const hydrationScript = `<script>window.__INITIAL_STATE__=${JSON.stringify({ route }).replace(/</g, '\\u003c')}</script>`
+        html = html.replace('</head>', `${hydrationScript}</head>`)
+
+        // Write the file
+        fs.writeFileSync(outputPath, html)
+        const size = (fs.statSync(outputPath).size / 1024).toFixed(1)
+        console.log(`  ✅ Written ${size} KB to ${path.relative(clientPath, outputPath)}`)
+        successCount++
+
+      } catch (error) {
+        console.error(`  ❌ Failed to prerender ${route}:`, error.message)
+        failCount++
       }
-
-      // Ensure directory exists
-      const dir = path.dirname(outputPath)
-      if (!fs.existsSync(dir)) {
-        fs.mkdirSync(dir, { recursive: true })
-      }
-
-      // Skip root index.html (we already have it from the build)
-      if (route === '/') {
-        console.log(`  ⏭️  Skipping ${route} (already exists from build)`)
-        await page.close()
-        continue
-      }
-
-      const url = `http://localhost:${port}${route}`
-      
-      console.log(`  📝 Prerendering ${route}...`)
-      
-      await page.goto(url, { waitUntil: 'networkidle0' })
-      
-      // Wait for Vue to render
-      await new Promise(resolve => setTimeout(resolve, 1500))
-
-      // Get the HTML
-      const html = await page.content()
-
-      // Write the file
-      fs.writeFileSync(outputPath, html)
-      const size = (fs.statSync(outputPath).size / 1024).toFixed(1)
-      console.log(`  ✅ Written ${size} KB to ${path.relative(distPath, outputPath)}`)
-
-      await page.close()
     }
 
+    // Close the Vite server
+    await vite.close()
+
+    // Summary
     console.log(`\n✅ Prerendering complete!`)
+    console.log(`   - ${successCount} routes rendered successfully`)
+    console.log(`   - ${skipCount} routes skipped (already exist)`)
+    if (failCount > 0) {
+      console.log(`   - ${failCount} routes failed`)
+    }
     console.log(`   - ${staticRoutes.length} static routes`)
     console.log(`   - ${articleRoutes.length} article routes`)
-    
+
+    if (failCount > 0) {
+      process.exit(1)
+    }
+
   } catch (error) {
     console.error(`\n❌ Prerendering failed:`, error)
     process.exit(1)
-  } finally {
-    await browser.close()
-    server.close()
-    console.log(`  📡 Dev server stopped`)
   }
+}
+
+function renderPreloadLinks(modules, manifest) {
+  let links = ''
+  const seen = new Set()
+  
+  modules.forEach((id) => {
+    const files = manifest[id]
+    if (files) {
+      files.forEach((file) => {
+        if (!seen.has(file)) {
+          seen.add(file)
+          const filename = path.basename(file)
+          if (filename.endsWith('.js')) {
+            links += `<link rel="modulepreload" crossorigin href="${file}">\n`
+          } else if (filename.endsWith('.css')) {
+            links += `<link rel="stylesheet" href="${file}">\n`
+          }
+        }
+      })
+    }
+  })
+  
+  return links
 }
 
 prerender()

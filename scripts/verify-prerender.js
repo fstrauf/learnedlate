@@ -1,3 +1,10 @@
+#!/usr/bin/env node
+/**
+ * Verify Prerender Script
+ * 
+ * This script verifies that all expected prerendered files exist in the dist/client folder.
+ */
+
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
@@ -5,7 +12,7 @@ import { fileURLToPath } from 'url'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-const distPath = path.join(__dirname, '..', 'dist')
+const distPath = path.join(__dirname, '..', 'dist', 'client')
 const articlesPath = path.join(__dirname, '..', 'articles.json')
 
 // Check if dist folder exists
@@ -52,6 +59,8 @@ articles.forEach(article => {
   const blogPath = path.join(distPath, 'blog', `${article.url_slug}.html`)
   if (!fs.existsSync(blogPath)) {
     errors.push(`Missing blog post: blog/${article.url_slug}.html`)
+  } else {
+    success.push(`✅ blog/${article.url_slug}.html`)
   }
 })
 
@@ -59,6 +68,7 @@ articles.forEach(article => {
 console.log(`\n📊 Verification Summary:`)
 console.log(`   - Total published articles: ${articles.length}`)
 console.log(`   - Static pages checked: ${staticPages.length + 1}`)
+console.log(`   - Total files verified: ${success.length}`)
 
 if (errors.length > 0) {
   console.error(`\n❌ Prerender verification FAILED:`)
