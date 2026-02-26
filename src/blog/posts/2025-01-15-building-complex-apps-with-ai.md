@@ -29,6 +29,9 @@ Read the full post on our blog: [https://blog.learnedlate.com/p/building-complex
 ## Related Articles
 
 - [AI Strategy for Small Business: 90-Day Action Plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan.md)
+- [How to Use AI for Small Business: Step-by-Step Guide](./how-to-use-ai-for-small-business.md)
 - [AI Feasibility Sprint](./2025-01-08-ai-feasibility-sprint.md)
 - [Best AI Tools for Business 2025](./best-ai-tools-for-business-2025.md)
 - [8-Week MVP Development Guide](./8-week-mvp-development-guide.md)
+- [What is Custom Software Development?](./what-is-custom-software-development-complete-guide.md)
+- [Why Custom Software Projects Fail (And How to Avoid It)](./2025-01-28-why-custom-software-projects-fail.md)

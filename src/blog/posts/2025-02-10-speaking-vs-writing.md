@@ -33,5 +33,8 @@ Read the full post on our blog: [https://blog.learnedlate.com/p/speaking-writing
 
 ## Related Articles
 
+- [ChatGPT for Business: Practical Implementation Guide](./2025-06-22-chatgpt-for-business-practical-implementation-guide.md)
+- [Best AI Tools for Business 2025](./best-ai-tools-for-business-2025.md)
+- [AI Just Made You Twice as Fast](./2025-04-20-ai-just-made-you-twice-as-fast.md)
 - [Using Obsidian and Cursor for Writing](./2025-05-12-using-obsidian-and-cursor-for-writing.md)
 - [Make Space for Your Best Work](./2025-03-05-make-space-for-your-best-work.md)

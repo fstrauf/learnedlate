@@ -344,3 +344,4 @@ The businesses that break through AI confusion now will be the ones dominating t
 ---
 
 *Tired of AI confusion? [Get in touch](/services) for a clear, practical AI implementation plan that cuts through the hype and delivers real business results.*
+- [AI Strategy for Small Business: Cut Through the Hype with This 90-Day Action Plan](/blog/2025-06-22-ai-strategy-small-business-90-day-action-plan/)

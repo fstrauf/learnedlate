@@ -2,15 +2,153 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.learnedlate.com/</loc>
-    <lastmod>2025-09-22</lastmod>
+    <lastmod>2026-02-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.learnedlate.com/blog</loc>
-    <lastmod>2025-09-22</lastmod>
+    <lastmod>2026-02-26</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/projects</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/services</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/cv</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/mvp-development</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/fractional-cto</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/ai-implementation</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/automation</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/seo-automation</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/now</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/life-balance-visualizer</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/life-calendar</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/concentric-circles</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/blog/cto-responsibilities-startup</loc>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/blog/how-to-choose-cto-for-startup</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/blog/no-code-automation-for-small-business</loc>
+    <lastmod>2025-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/blog/ai-tools-for-business-automation</loc>
+    <lastmod>2025-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/blog/what-is-business-process-automation</loc>
+    <lastmod>2025-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/blog/how-to-choose-software-development-company</loc>
+    <lastmod>2025-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/blog/custom-software-vs-off-the-shelf</loc>
+    <lastmod>2025-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/blog/best-ai-tools-for-business-2025</loc>
+    <lastmod>2025-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/blog/how-to-use-ai-for-small-business</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/blog/custom-software-development-cost-breakdown</loc>
+    <lastmod>2025-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/blog/what-is-custom-software-development-complete-guide</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.learnedlate.com/blog/technical-due-diligence-checklist</loc>
@@ -25,19 +163,25 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/crm-software-nz-blog-post</loc>
+    <loc>https://www.learnedlate.com/blog/business-process-automation-examples</loc>
     <lastmod>2025-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/ai-feasibility-sprint</loc>
+    <loc>https://www.learnedlate.com/blog/crm_software_nz_blog_post</loc>
+    <lastmod>2025-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/blog/2025-01-08-ai-feasibility-sprint</loc>
     <lastmod>2025-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/automate-marketing-automate-anything</loc>
+    <loc>https://www.learnedlate.com/blog/2025-08-01-automate-marketing-automate-anything</loc>
     <lastmod>2025-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -49,163 +193,163 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/the-good-enough-mindset</loc>
+    <loc>https://www.learnedlate.com/blog/2025-08-01-the-good-enough-mindset</loc>
     <lastmod>2025-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/technical-risks-kill-startup-valuations</loc>
+    <loc>https://www.learnedlate.com/blog/2025-07-22-technical-risks-kill-startup-valuations</loc>
     <lastmod>2025-07-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/digital-marketing-nz-guide</loc>
+    <loc>https://www.learnedlate.com/blog/digital_marketing_nz_guide</loc>
     <lastmod>2025-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/simple-automation-workflows</loc>
+    <loc>https://www.learnedlate.com/blog/2025-08-01-simple-automation-workflows</loc>
     <lastmod>2025-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/free-accounting-software-nz-guide</loc>
+    <loc>https://www.learnedlate.com/blog/free_accounting_software_nz_guide</loc>
     <lastmod>2025-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/acting-and-iterating-on-ideas</loc>
+    <loc>https://www.learnedlate.com/blog/2025-07-08-acting-and-iterating-on-ideas</loc>
     <lastmod>2025-07-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/small-business-custom-software</loc>
+    <loc>https://www.learnedlate.com/blog/2025-05-28-small-business-custom-software</loc>
     <lastmod>2025-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/chatgpt-for-business-practical-implementation-guide</loc>
+    <loc>https://www.learnedlate.com/blog/2025-06-22-chatgpt-for-business-practical-implementation-guide</loc>
     <lastmod>2025-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/small-business-ai-confusion-why-no-one-using-effectively</loc>
+    <loc>https://www.learnedlate.com/blog/2025-06-22-small-business-ai-confusion-why-no-one-using-effectively</loc>
     <lastmod>2025-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/using-obsidian-and-cursor-for-writing</loc>
+    <loc>https://www.learnedlate.com/blog/2025-05-12-using-obsidian-and-cursor-for-writing</loc>
     <lastmod>2025-05-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/technical-risks-kill-startup-valuations</loc>
+    <loc>https://www.learnedlate.com/blog/2025-06-22-technical-risks-kill-startup-valuations</loc>
     <lastmod>2025-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/how-ai-transforms-small-business-practical-examples</loc>
+    <loc>https://www.learnedlate.com/blog/2025-06-22-how-ai-transforms-small-business-practical-examples</loc>
     <lastmod>2025-04-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/ai-just-made-you-twice-as-fast</loc>
+    <loc>https://www.learnedlate.com/blog/2025-04-20-ai-just-made-you-twice-as-fast</loc>
     <lastmod>2025-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/technical-due-diligence-checklist-cto-guide</loc>
+    <loc>https://www.learnedlate.com/blog/2025-06-22-technical-due-diligence-checklist-cto-guide</loc>
     <lastmod>2025-04-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/custom-software-packages-nz</loc>
+    <loc>https://www.learnedlate.com/blog/2025-04-05-custom-software-packages-nz</loc>
     <lastmod>2025-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/business-process-automation-small-business-guide</loc>
+    <loc>https://www.learnedlate.com/blog/2025-06-22-business-process-automation-small-business-guide</loc>
     <lastmod>2025-04-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/bay-of-plenty-businesses-ai-automation</loc>
+    <loc>https://www.learnedlate.com/blog/2025-06-22-bay-of-plenty-businesses-ai-automation</loc>
     <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/auckland-startups-custom-software</loc>
+    <loc>https://www.learnedlate.com/blog/2025-03-18-auckland-startups-custom-software</loc>
     <lastmod>2025-03-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/mvp-development-cost-breakdown-timeline-guide</loc>
+    <loc>https://www.learnedlate.com/blog/2025-06-22-mvp-development-cost-breakdown-timeline-guide</loc>
     <lastmod>2025-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/make-space-for-your-best-work</loc>
+    <loc>https://www.learnedlate.com/blog/2025-03-05-make-space-for-your-best-work</loc>
     <lastmod>2025-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/ai-revolution-custom-software-nz</loc>
+    <loc>https://www.learnedlate.com/blog/2025-02-25-ai-revolution-custom-software-nz</loc>
     <lastmod>2025-02-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/speaking-vs-writing</loc>
+    <loc>https://www.learnedlate.com/blog/2025-02-10-speaking-vs-writing</loc>
     <lastmod>2025-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/nz-startups-fractional-cto-guide</loc>
+    <loc>https://www.learnedlate.com/blog/2025-06-22-nz-startups-fractional-cto-guide</loc>
     <lastmod>2025-02-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/ai-strategy-small-business-90-day-action-plan</loc>
+    <loc>https://www.learnedlate.com/blog/2025-06-22-ai-strategy-small-business-90-day-action-plan</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/why-custom-software-projects-fail</loc>
+    <loc>https://www.learnedlate.com/blog/2025-01-28-why-custom-software-projects-fail</loc>
     <lastmod>2025-01-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/building-complex-apps-with-ai</loc>
+    <loc>https://www.learnedlate.com/blog/2025-01-15-building-complex-apps-with-ai</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/what-is-fractional-cto-complete-guide</loc>
+    <loc>https://www.learnedlate.com/blog/2025-06-22-what-is-fractional-cto-complete-guide</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

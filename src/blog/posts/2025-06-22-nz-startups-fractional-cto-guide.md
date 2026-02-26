@@ -379,3 +379,8 @@ New Zealand startups that embrace fractional technical leadership today will bui
 ---
 
 *Based in Tauranga and working with startups across New Zealand? [Get in touch](/services) to discuss how fractional technical leadership can accelerate your startup's growth in the New Zealand market.*
+- [What is a Fractional CTO? Complete Guide for New Zealand Startups](/blog/2025-06-22-what-is-fractional-cto-complete-guide/)
+- [How Much Does a Fractional CTO Cost in 2025? Complete Pricing Guide](/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide/)
+- [Interim CTO vs Fractional CTO: Which One Does Your Startup Need?](/blog/interim_cto_vs_fractional_cto_which_one_does_your_startup_need/)
+- [CTO Responsibilities in a Startup: Stage-by-Stage Breakdown](/blog/cto-responsibilities-startup/)
+- [How to Choose the Right CTO for Your Startup](/blog/how-to-choose-cto-for-startup/)

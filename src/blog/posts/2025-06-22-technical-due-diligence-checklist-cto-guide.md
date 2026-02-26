@@ -446,3 +446,5 @@ The question isn't whether your technology is perfect—it's whether you have th
 ---
 
 *Need help preparing your startup for technical due diligence? [Get in touch](/services) for a comprehensive technical assessment and investor readiness evaluation.*
+- [New Zealand Startups: Your Complete Fractional CTO Guide](/blog/2025-06-22-nz-startups-fractional-cto-guide/)
+- [What is a Fractional CTO? Complete Guide for New Zealand Startups](/blog/2025-06-22-what-is-fractional-cto-complete-guide/)

@@ -665,5 +665,7 @@ The key is starting simple and building from there. You don't need to be an AI e
 - [AI Strategy for Small Business: 90-Day Action Plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan.md)
 - [Best AI Tools for Business 2025](./best-ai-tools-for-business-2025.md)
 - [ChatGPT for Business: Practical Implementation Guide](./2025-06-22-chatgpt-for-business-practical-implementation-guide.md)
+- [Building Complex Apps With AI](./2025-01-15-building-complex-apps-with-ai.md)
 - [Business Process Automation Examples](./business-process-automation-examples.md)
 - [How AI Transforms Small Business: Practical Examples](./2025-06-22-how-ai-transforms-small-business-practical-examples.md)
+- [AI Strategy for Small Business: Cut Through the Hype with This 90-Day Action Plan](/blog/2025-06-22-ai-strategy-small-business-90-day-action-plan/)

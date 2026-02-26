@@ -270,3 +270,4 @@ Auckland's startup ecosystem is more competitive than ever. The startups that wi
 ---
 
 *Ready to explore how custom software could accelerate your startup's growth? Start with a technical feasibility assessment to understand exactly what's possible within your budget and timeline.*
+- [New Zealand Startups: Your Complete Fractional CTO Guide](/blog/2025-06-22-nz-startups-fractional-cto-guide/)

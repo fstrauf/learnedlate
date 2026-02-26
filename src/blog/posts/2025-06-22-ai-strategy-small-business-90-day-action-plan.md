@@ -160,6 +160,7 @@ Start your 90-day AI strategy implementation this week. Your competitors are eit
 - [How to Use AI for Small Business: Step-by-Step Implementation Guide](./how-to-use-ai-for-small-business.md)
 - [Best AI Tools for Business 2025](./best-ai-tools-for-business-2025.md)
 - [ChatGPT for Business: Practical Implementation Guide](./2025-06-22-chatgpt-for-business-practical-implementation-guide.md)
+- [Building Complex Apps With AI](./2025-01-15-building-complex-apps-with-ai.md)
 - [How AI Transforms Small Business: Practical Examples](./2025-06-22-how-ai-transforms-small-business-practical-examples.md)
 - [Business Process Automation Examples](./business-process-automation-examples.md)
 - [Business Process Automation: Small Business Guide](./2025-06-22-business-process-automation-small-business-guide.md)
@@ -168,3 +169,8 @@ Start your 90-day AI strategy implementation this week. Your competitors are eit
 ---
 
 *Ready to develop your AI strategy? [Get in touch](/services) for a comprehensive AI strategy consultation designed for small businesses.*
+- [How to Use AI for Small Business: Step-by-Step Guide](/blog/how-to-use-ai-for-small-business/)
+- [Best AI Tools for Business 2025 (Small Business Edition)](/blog/best-ai-tools-for-business-2025/)
+- [How AI Transforms Small Business: 10 Practical Examples with Real ROI](/blog/2025-06-22-how-ai-transforms-small-business-practical-examples/)
+- [Business Process Automation for Small Business: Complete Implementation Guide](/blog/2025-06-22-business-process-automation-small-business-guide/)
+- [AI Tools for Business Automation: The Complete Stack](/blog/ai-tools-for-business-automation/)

@@ -386,5 +386,7 @@ The key is starting smart—not starting big.
 - [MVP Development Cost Breakdown & Timeline Guide](./2025-06-22-mvp-development-cost-breakdown-timeline-guide.md)
 - [Why Custom Software Projects Fail (And How to Avoid It)](./2025-01-28-why-custom-software-projects-fail.md)
 - [8-Week MVP Development Guide](./8-week-mvp-development-guide.md)
+- [Building Complex Apps With AI](./2025-01-15-building-complex-apps-with-ai.md)
 - [Auckland Startups Custom Software Guide](./2025-03-18-auckland-startups-custom-software.md)
 - [Small Business Custom Software Solutions](./2025-05-28-small-business-custom-software.md)
+- [Why Most Custom Software Projects Fail (And How AI Prevents It)](/blog/2025-01-28-why-custom-software-projects-fail/)

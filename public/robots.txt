@@ -10,15 +10,12 @@ User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
 
-# Block common bot directories (if any exist)
+# Block admin and API routes
 Disallow: /admin/
 Disallow: /api/
-Disallow: /*.json
-Disallow: /node_modules/
+
+# Allow JSON files for structured data
+# Disallow: /*.json  <- REMOVED - was blocking structured data
 
 # Sitemap location
-Sitemap: https://learnedlate.com/sitemap.xml
-
-# Additional sitemaps (if needed in future)
-# Sitemap: https://learnedlate.com/blog-sitemap.xml
-# Sitemap: https://learnedlate.com/services-sitemap.xml 
+Sitemap: https://www.learnedlate.com/sitemap.xml

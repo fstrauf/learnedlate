@@ -287,7 +287,7 @@ The question isn't whether you can afford a feasibility sprint. The question is 
 ## Related Articles
 
 - [AI Strategy for Small Business: 90-Day Action Plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan.md)
-- [Building Complex Apps with AI](./2025-01-15-building-complex-apps-with-ai.md)
+- [Building Complex Apps With AI](./2025-01-15-building-complex-apps-with-ai.md)
 - [What is a Fractional CTO? Complete Guide](./2025-06-22-what-is-fractional-cto-complete-guide.md)
 - [Why Custom Software Projects Fail (And How to Avoid It)](./2025-01-28-why-custom-software-projects-fail.md)
 - [Acting and Iterating on Ideas](./2025-07-08-acting-and-iterating-on-ideas.md)

@@ -13,8 +13,23 @@
   ],
   "rewrites": [
     {
-      "source": "/((?!api/|_next/|static/|public/|favicon.ico|robots.txt|sitemap.xml|sw.js|manifest.json|assets/).*)",
+      "source": "/blog/:slug",
+      "destination": "/blog/:slug.html"
+    },
+    {
+      "source": "/((?!api/|_next/|static/|public/|favicon.ico|robots.txt|sitemap.xml|sw.js|manifest.json|assets/|blog/).*)",
       "destination": "/index.html"
     }
+  ],
+  "headers": [
+    {
+      "source": "/blog/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    }
   ]
-} 
+}

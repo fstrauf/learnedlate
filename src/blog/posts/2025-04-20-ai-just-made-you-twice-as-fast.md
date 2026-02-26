@@ -33,4 +33,5 @@ Read the full post on our blog: [https://blog.learnedlate.com/p/ai-just-made-you
 - [AI Strategy for Small Business: 90-Day Action Plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan.md)
 - [How to Use AI for Small Business: Step-by-Step Guide](./how-to-use-ai-for-small-business.md)
 - [Best AI Tools for Business 2025](./best-ai-tools-for-business-2025.md)
+- [Speaking > Writing](./2025-02-10-speaking-vs-writing.md)
 - [The Good Enough Mindset](./2025-08-01-the-good-enough-mindset.md)

@@ -474,6 +474,7 @@ Start small. Start practical. But start now.
 - [How to Use AI for Small Business: Step-by-Step Guide](./how-to-use-ai-for-small-business.md)
 - [Best AI Tools for Business 2025](./best-ai-tools-for-business-2025.md)
 - [How AI Transforms Small Business: Practical Examples](./2025-06-22-how-ai-transforms-small-business-practical-examples.md)
+- [Speaking > Writing](./2025-02-10-speaking-vs-writing.md)
 - [Automate Marketing, Automate Anything](./2025-08-01-automate-marketing-automate-anything.md)
 
 ---

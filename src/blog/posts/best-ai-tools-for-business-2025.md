@@ -762,5 +762,7 @@ The best AI tool is the one you'll actually use. Start simple, prove ROI, then e
 - [AI Strategy for Small Business: 90-Day Action Plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan.md)
 - [How to Use AI for Small Business: Step-by-Step Guide](./how-to-use-ai-for-small-business.md)
 - [ChatGPT for Business: Practical Implementation Guide](./2025-06-22-chatgpt-for-business-practical-implementation-guide.md)
+- [Building Complex Apps With AI](./2025-01-15-building-complex-apps-with-ai.md)
 - [Simple Automation Workflows](./2025-08-01-simple-automation-workflows.md)
 - [Using Obsidian and Cursor for Writing](./2025-05-12-using-obsidian-and-cursor-for-writing.md)
+- [AI Strategy for Small Business: Cut Through the Hype with This 90-Day Action Plan](/blog/2025-06-22-ai-strategy-small-business-90-day-action-plan/)

@@ -11,7 +11,7 @@ author: "Florian Strauf"
 
 The traditional model of hiring a full-time Chief Technology Officer is broken for most startups. With senior CTO salaries ranging from $200,000 to $400,000+ annually, plus equity and benefits, many early-stage companies simply can't afford dedicated technical leadership when they need it most.
 
-Enter the fractional CTO—a model that's revolutionizing how startups access world-class technical expertise without breaking the bank. For New Zealand-specific insights, see our [NZ Startups Fractional CTO Guide](./2025-06-22-nz-startups-fractional-cto-guide.md). But what exactly is a fractional CTO, and how do you know if your startup needs one?
+Enter the fractional CTO—a model that's revolutionizing how startups access world-class technical expertise without breaking the bank. For New Zealand-specific insights, see our [NZ Startups Fractional CTO Guide](./2025-06-22-nz-startups-fractional-cto-guide.md). If you're preparing for investment, a fractional CTO can also guide you through [technical due diligence](./2025-06-22-technical-due-diligence-checklist-cto-guide.md). But what exactly is a fractional CTO, and how do you know if your startup needs one?
 
 ## What is a Fractional CTO? (Beyond the Basic Definition)
 
@@ -76,7 +76,7 @@ Let's cut through the marketing speak and look at the actual financial impact.
 Fractional CTOs can start immediately—no 3-6 month recruitment process, no negotiating equity packages, no onboarding period. I've seen startups gain 2-4 months of development time by engaging a fractional CTO instead of going through a traditional hiring process.
 
 Time saved often translates to:
-- Earlier product launches
+- Earlier product launches (see our [MVP development timeline guide](./2025-06-22-mvp-development-cost-breakdown-timeline-guide.md))
 - Faster market validation
 - Reduced runway burn
 - Competitive advantages that compound
@@ -91,7 +91,7 @@ If you're a non-technical founder, the value goes beyond cost savings. Fractiona
 
 **Architecture Insurance**: Prevent costly technical debt by making smart architecture decisions early.
 
-**Investor Confidence**: Due diligence becomes smoother when you have proper technical leadership in place.
+**Investor Confidence**: [Due diligence](./2025-06-22-technical-due-diligence-checklist-cto-guide.md) becomes smoother when you have proper technical leadership in place.
 
 ## Common Fractional CTO Engagement Models in Practice
 
@@ -103,7 +103,7 @@ If you're a non-technical founder, the value goes beyond cost savings. Fractiona
 - Monthly architecture reviews
 - Quarterly technical roadmap planning
 - Ad-hoc guidance on major technical decisions
-- Support during fundraising and due diligence
+- Support during fundraising and [technical due diligence](./2025-06-22-technical-due-diligence-checklist-cto-guide.md)
 
 **Investment**: $5,000-8,000/month
 
@@ -300,3 +300,6 @@ The question isn't whether you can afford a fractional CTO—it's whether you ca
 ---
 
 *Need help evaluating whether a fractional CTO is right for your startup? [Get in touch](/services) for a complimentary technical leadership assessment.*
+- [New Zealand Startups: Your Complete Fractional CTO Guide](/blog/2025-06-22-nz-startups-fractional-cto-guide/)
+- [How Much Does a Fractional CTO Cost in 2025? Complete Pricing Guide](/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide/)
+- [Interim CTO vs Fractional CTO: Which One Does Your Startup Need?](/blog/interim_cto_vs_fractional_cto_which_one_does_your_startup_need/)
