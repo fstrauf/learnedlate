@@ -245,3 +245,12 @@ Because knowing where your money goes is the first step to having more of it.
 ---
 
 *Ready to streamline your NZ business finances? The right software choice depends on your specific situation - but the wrong choice is doing nothing.*
+
+---
+
+## Related Articles
+
+- [Best AI Tools for Business 2025 (Small Business Edition)](/blog/best-ai-tools-for-business-2025/)
+- [Custom Software Development in New Zealand: The AI Revolution](/blog/2025-02-25-ai-revolution-custom-software-nz/)
+- [Small Business Custom Software: No Longer Just for Enterprise](/blog/2025-05-28-small-business-custom-software/)
+- [No Code Automation for Small Business: Guide & Tool Comparison](/blog/no-code-automation-for-small-business/)

@@ -1,0 +1,491 @@
+{
+  "topic": "Learned Late - CTO Services, Custom Software & AI Automation for NZ Startups",
+  "target_audience": "Startup founders, small business owners, and tech leaders in New Zealand",
+  "goals": [
+    "Establish topical authority in fractional CTO services",
+    "Build expertise in custom software development",
+    "Demonstrate AI and automation implementation knowledge",
+    "Drive organic traffic through strategic internal linking"
+  ],
+  "pillars": [
+    {
+      "id": 45,
+      "title": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
+      "url_slug": "2025-06-22-what-is-fractional-cto-complete-guide",
+      "target_keyword": "what is a fractional cto",
+      "cluster": "fractional-cto"
+    },
+    {
+      "id": 1,
+      "title": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
+      "url_slug": "cto-responsibilities-startup",
+      "target_keyword": "cto responsibilities startup",
+      "cluster": "cto-leadership"
+    },
+    {
+      "id": 11,
+      "title": "What is Custom Software Development? Complete Guide 2025",
+      "url_slug": "what-is-custom-software-development-complete-guide",
+      "target_keyword": "what is custom software development",
+      "cluster": "custom-software"
+    },
+    {
+      "id": 50,
+      "title": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
+      "url_slug": "how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide",
+      "target_keyword": "how to build an MVP for a startup",
+      "cluster": "mvp-development"
+    },
+    {
+      "id": 8,
+      "title": "Best AI Tools for Business 2025 (Small Business Edition)",
+      "url_slug": "best-ai-tools-for-business-2025",
+      "target_keyword": "best ai tools for business",
+      "cluster": "ai-automation"
+    },
+    {
+      "id": 31,
+      "title": "AI Just Made You Twice as Fast",
+      "url_slug": "2025-04-20-ai-just-made-you-twice-as-fast",
+      "target_keyword": "",
+      "cluster": "mindset-productivity"
+    }
+  ],
+  "support_articles": {
+    "fractional-cto": [
+      13,
+      41,
+      46,
+      47,
+      49,
+      53,
+      54,
+      56
+    ],
+    "cto-leadership": [
+      2,
+      12,
+      20,
+      29,
+      32,
+      49,
+      55,
+      58
+    ],
+    "custom-software": [
+      6,
+      7,
+      10,
+      16,
+      25,
+      33,
+      36,
+      39,
+      43,
+      48,
+      52,
+      57
+    ],
+    "mvp-development": [
+      18,
+      37,
+      59
+    ],
+    "ai-automation": [
+      3,
+      4,
+      5,
+      9,
+      14,
+      17,
+      22,
+      26,
+      27,
+      30,
+      34,
+      35,
+      42,
+      44,
+      51
+    ],
+    "mindset-productivity": [
+      19,
+      24,
+      28,
+      38,
+      40
+    ],
+    "business-operations": [
+      15,
+      21,
+      23
+    ]
+  },
+  "cross_cluster_links": [
+    {
+      "from": "fractional-cto",
+      "to": "custom-software",
+      "reason": "CTOs guide software decisions"
+    },
+    {
+      "from": "fractional-cto",
+      "to": "mvp-development",
+      "reason": "CTOs oversee MVP strategy"
+    },
+    {
+      "from": "fractional-cto",
+      "to": "cto-leadership",
+      "reason": "Fractional CTOs provide leadership"
+    },
+    {
+      "from": "cto-leadership",
+      "to": "custom-software",
+      "reason": "CTOs manage software teams"
+    },
+    {
+      "from": "cto-leadership",
+      "to": "mvp-development",
+      "reason": "CTOs guide MVP development"
+    },
+    {
+      "from": "custom-software",
+      "to": "ai-automation",
+      "reason": "AI enhances custom software"
+    },
+    {
+      "from": "custom-software",
+      "to": "mvp-development",
+      "reason": "Custom software often builds MVPs"
+    },
+    {
+      "from": "mvp-development",
+      "to": "custom-software",
+      "reason": "MVP may require custom development"
+    },
+    {
+      "from": "ai-automation",
+      "to": "custom-software",
+      "reason": "AI needs software integration"
+    },
+    {
+      "from": "ai-automation",
+      "to": "business-operations",
+      "reason": "AI tools optimize business operations"
+    },
+    {
+      "from": "mindset-productivity",
+      "to": "ai-automation",
+      "reason": "AI tools boost productivity"
+    },
+    {
+      "from": "business-operations",
+      "to": "ai-automation",
+      "reason": "Operations leverage AI automation"
+    }
+  ],
+  "linking_checklist": {
+    "hub_spoke_links": true,
+    "cross_cluster_links": true,
+    "pillar_to_support": true,
+    "support_to_pillar": true,
+    "orphan_articles_linked": true,
+    "last_updated": "2026-03-04T11:45:00+13:00"
+  },
+  "cluster_mapping": {
+    "fractional-cto": {
+      "pillar_id": 45,
+      "pillar_title": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
+      "support_count": 8,
+      "support_ids": [
+        13,
+        41,
+        46,
+        47,
+        49,
+        53,
+        54,
+        56
+      ]
+    },
+    "cto-leadership": {
+      "pillar_id": 1,
+      "pillar_title": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
+      "support_count": 7,
+      "support_ids": [
+        2,
+        12,
+        20,
+        29,
+        32,
+        55,
+        58
+      ]
+    },
+    "custom-software": {
+      "pillar_id": 11,
+      "pillar_title": "What is Custom Software Development? Complete Guide 2025",
+      "support_count": 12,
+      "support_ids": [
+        6,
+        7,
+        10,
+        16,
+        25,
+        33,
+        36,
+        39,
+        43,
+        48,
+        52,
+        57
+      ]
+    },
+    "mvp-development": {
+      "pillar_id": 50,
+      "pillar_title": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
+      "support_count": 3,
+      "support_ids": [
+        18,
+        37,
+        59
+      ]
+    },
+    "ai-automation": {
+      "pillar_id": 8,
+      "pillar_title": "Best AI Tools for Business 2025 (Small Business Edition)",
+      "support_count": 15,
+      "support_ids": [
+        3,
+        4,
+        5,
+        9,
+        14,
+        17,
+        22,
+        26,
+        27,
+        30,
+        34,
+        35,
+        42,
+        44,
+        51
+      ]
+    },
+    "mindset-productivity": {
+      "pillar_id": 31,
+      "pillar_title": "AI Just Made You Twice as Fast",
+      "support_count": 5,
+      "support_ids": [
+        19,
+        24,
+        28,
+        38,
+        40
+      ]
+    },
+    "business-operations": {
+      "pillar_id": 8,
+      "pillar_title": "Best AI Tools for Business 2025 (Small Business Edition)",
+      "support_count": 3,
+      "support_ids": [
+        15,
+        21,
+        23
+      ]
+    }
+  },
+  "linking_plan": {
+    "low_link_articles": [
+      {
+        "id": 3,
+        "title": "No Code Automation for Small Business: Guide & Tool Comparison",
+        "cluster": "ai-automation",
+        "current_links": 1,
+        "recommended_additions": [
+          {
+            "target_id": 11,
+            "reason": "No-code vs custom software comparison"
+          },
+          {
+            "target_id": 50,
+            "reason": "No-code for MVP validation"
+          },
+          {
+            "target_id": 44,
+            "reason": "AI tools for no-code automation"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "What is Business Process Automation? Complete Guide for SMBs",
+        "cluster": "ai-automation",
+        "current_links": 1,
+        "recommended_additions": [
+          {
+            "target_id": 44,
+            "reason": "AI for business process automation"
+          },
+          {
+            "target_id": 14,
+            "reason": "Automation examples reference"
+          },
+          {
+            "target_id": 21,
+            "reason": "Business operations connection"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Custom Software vs Off-the-Shelf: Decision Framework for 2025",
+        "cluster": "custom-software",
+        "current_links": 1,
+        "recommended_additions": [
+          {
+            "target_id": 50,
+            "reason": "Custom software for MVP development"
+          },
+          {
+            "target_id": 44,
+            "reason": "AI-enhanced custom software"
+          },
+          {
+            "target_id": 8,
+            "reason": "AI tools integration with custom software"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Technical Due Diligence Checklist for Startup Investors",
+        "cluster": "cto-leadership",
+        "current_links": 1,
+        "recommended_additions": [
+          {
+            "target_id": 32,
+            "reason": "Detailed technical due diligence guide"
+          },
+          {
+            "target_id": 45,
+            "reason": "Fractional CTO for due diligence"
+          },
+          {
+            "target_id": 41,
+            "reason": "NZ-specific CTO guidance"
+          }
+        ]
+      }
+    ],
+    "cross_cluster_opportunities": [
+      {
+        "from_cluster": "ai-automation",
+        "to_cluster": "custom-software",
+        "articles": [3, 5, 4, 17],
+        "reason": "AI tools enhance custom software development"
+      },
+      {
+        "from_cluster": "custom-software",
+        "to_cluster": "mvp-development",
+        "articles": [7, 25, 6],
+        "reason": "Custom software often used for MVP builds"
+      },
+      {
+        "from_cluster": "mvp-development",
+        "to_cluster": "fractional-cto",
+        "articles": [18, 37, 59],
+        "reason": "MVP development needs technical leadership"
+      },
+      {
+        "from_cluster": "fractional-cto",
+        "to_cluster": "ai-automation",
+        "articles": [41, 46, 47],
+        "reason": "CTOs guide AI automation strategy"
+      }
+    ],
+    "orphan_status": {
+      "article_59": {
+        "status": "has_incoming_links",
+        "sources": [18, 37, 50],
+        "note": "CLI scan shows orphan but actual links exist in files"
+      }
+    }
+  },
+  "seo_step3_summary": {
+    "total_articles": 59,
+    "clustered_articles": 59,
+    "orphan_articles": 0,
+    "total_internal_links": 249,
+    "articles_with_outgoing_links": 53,
+    "articles_with_incoming_links": 51,
+    "missing_hub_spoke_links": 0,
+    "missing_cross_cluster_links": 0,
+    "cluster_summary": {
+      "fractional-cto": {
+        "pillar_id": 45,
+        "pillar_title": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
+        "support_count": 8,
+        "support_ids": [13, 41, 46, 47, 49, 53, 54, 56]
+      },
+      "cto-leadership": {
+        "pillar_id": 1,
+        "pillar_title": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
+        "support_count": 7,
+        "support_ids": [2, 12, 20, 29, 32, 55, 58]
+      },
+      "custom-software": {
+        "pillar_id": 11,
+        "pillar_title": "What is Custom Software Development? Complete Guide 2025",
+        "support_count": 12,
+        "support_ids": [6, 7, 10, 16, 25, 33, 36, 39, 43, 48, 52, 57]
+      },
+      "mvp-development": {
+        "pillar_id": 50,
+        "pillar_title": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
+        "support_count": 3,
+        "support_ids": [18, 37, 59]
+      },
+      "ai-automation": {
+        "pillar_id": 8,
+        "pillar_title": "Best AI Tools for Business 2025 (Small Business Edition)",
+        "support_count": 15,
+        "support_ids": [3, 4, 5, 9, 14, 17, 22, 26, 27, 30, 34, 35, 42, 44, 51]
+      },
+      "mindset-productivity": {
+        "pillar_id": 31,
+        "pillar_title": "AI Just Made You Twice as Fast",
+        "support_count": 5,
+        "support_ids": [19, 24, 28, 38, 40]
+      },
+      "business-operations": {
+        "pillar_id": 8,
+        "pillar_title": "Best AI Tools for Business 2025 (Small Business Edition)",
+        "support_count": 3,
+        "support_ids": [15, 21, 23]
+      }
+    },
+    "new_cross_cluster_links_added": [
+      {"from": 3, "to": 11, "reason": "No-code vs custom software comparison"},
+      {"from": 3, "to": 50, "reason": "No-code for MVP validation"},
+      {"from": 3, "to": 44, "reason": "AI tools for no-code automation"},
+      {"from": 5, "to": 44, "reason": "AI for business process automation"},
+      {"from": 5, "to": 14, "reason": "Automation examples reference"},
+      {"from": 7, "to": 50, "reason": "Custom software for MVP development"},
+      {"from": 7, "to": 8, "reason": "AI tools integration with custom software"},
+      {"from": 12, "to": 32, "reason": "Detailed technical due diligence guide"},
+      {"from": 12, "to": 45, "reason": "Fractional CTO for due diligence"},
+      {"from": 13, "to": 1, "reason": "Link to CTO leadership cluster"},
+      {"from": 15, "to": 5, "reason": "CRM connects to automation"},
+      {"from": 18, "to": 45, "reason": "MVP development needs technical leadership"},
+      {"from": 21, "to": 34, "reason": "Digital marketing connects to automation"},
+      {"from": 22, "to": 11, "reason": "Automation may need custom development"},
+      {"from": 25, "to": 8, "reason": "AI enhances custom software"},
+      {"from": 37, "to": 45, "reason": "MVP cost planning with CTO guidance"},
+      {"from": 41, "to": 11, "reason": "CTOs guide software decisions"},
+      {"from": 51, "to": 11, "reason": "AI automation may need custom integration"},
+      {"from": 52, "to": 8, "reason": "AI tools for Wellington businesses"}
+    ],
+    "run_date": "2026-03-04T11:45:00+13:00"
+  }
+}

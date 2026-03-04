@@ -476,3 +476,4 @@ The companies in this article aren't special. They just started. You can too.
 - [Simple Automation Workflows](./2025-08-01-simple-automation-workflows.md)
 - [How AI Transforms Small Business: Practical Examples](./2025-06-22-how-ai-transforms-small-business-practical-examples.md)
 - [Automate Marketing, Automate Anything](./2025-08-01-automate-marketing-automate-anything.md)
+- [Best AI Tools for Business 2025 (Small Business Edition)](/blog/best-ai-tools-for-business-2025/)

@@ -233,3 +233,4 @@ Start with one high-impact process. Use the government support available. Learn 
 ---
 
 *Ready to explore automation opportunities for your Bay of Plenty business? [Get in touch](/services) for a free automation assessment specifically designed for regional businesses. Discover which processes could deliver the highest ROI while addressing your unique local challenges.*
+- [Best AI Tools for Business 2025 (Small Business Edition)](/blog/best-ai-tools-for-business-2025/)

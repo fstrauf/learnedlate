@@ -678,3 +678,4 @@ The key is starting with clear requirements and realistic expectations. Cost is 
 - [Why Custom Software Projects Fail (And How to Avoid It)](./2025-01-28-why-custom-software-projects-fail.md)
 - [Custom Software Packages for NZ Businesses](./2025-04-05-custom-software-packages-nz.md)
 - [Technical Due Diligence Checklist](./2025-06-22-technical-due-diligence-checklist-cto-guide.md)
+- [What is Custom Software Development? Complete Guide 2025](/blog/what-is-custom-software-development-complete-guide/)

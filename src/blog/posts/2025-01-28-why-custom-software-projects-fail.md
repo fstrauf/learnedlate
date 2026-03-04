@@ -262,3 +262,5 @@ For ongoing technical leadership and risk management, consider our [fractional C
 *Ready to eliminate the risk from your custom software project? Start with an AI-assisted technical feasibility assessment to identify and mitigate potential issues before they become expensive problems.*
 - [Custom Software Development Cost: Complete Breakdown 2025](/blog/custom-software-development-cost-breakdown/)
 - [How to Choose a Software Development Company (Buyer's Guide)](/blog/how-to-choose-software-development-company/)
+- [How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide](/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/)
+- [What is Custom Software Development? Complete Guide 2025](/blog/what-is-custom-software-development-complete-guide/)

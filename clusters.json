@@ -1,0 +1,105 @@
+[
+  {
+    "cluster_id": "fractional-cto",
+    "name": "Fractional CTO",
+    "pillar_id": 45,
+    "support_ids": [
+      13,
+      41,
+      46,
+      47,
+      49,
+      53,
+      54,
+      56
+    ]
+  },
+  {
+    "cluster_id": "cto-leadership",
+    "name": "CTO Leadership",
+    "pillar_id": 1,
+    "support_ids": [
+      2,
+      12,
+      20,
+      29,
+      32,
+      49,
+      55,
+      58
+    ]
+  },
+  {
+    "cluster_id": "custom-software",
+    "name": "Custom Software",
+    "pillar_id": 11,
+    "support_ids": [
+      6,
+      7,
+      10,
+      16,
+      25,
+      33,
+      36,
+      39,
+      43,
+      48,
+      52,
+      57
+    ]
+  },
+  {
+    "cluster_id": "mvp-development",
+    "name": "MVP Development",
+    "pillar_id": 50,
+    "support_ids": [
+      18,
+      37,
+      59
+    ]
+  },
+  {
+    "cluster_id": "ai-automation",
+    "name": "AI & Automation",
+    "pillar_id": 8,
+    "support_ids": [
+      3,
+      4,
+      5,
+      9,
+      14,
+      17,
+      22,
+      26,
+      27,
+      30,
+      34,
+      35,
+      42,
+      44,
+      51
+    ]
+  },
+  {
+    "cluster_id": "mindset-productivity",
+    "name": "Mindset & Productivity",
+    "pillar_id": 31,
+    "support_ids": [
+      19,
+      24,
+      28,
+      38,
+      40
+    ]
+  },
+  {
+    "cluster_id": "business-operations",
+    "name": "Business Operations",
+    "pillar_id": 8,
+    "support_ids": [
+      15,
+      21,
+      23
+    ]
+  }
+]

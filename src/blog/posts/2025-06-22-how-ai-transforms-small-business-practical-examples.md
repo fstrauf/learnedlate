@@ -235,3 +235,5 @@ Start small. Start simple. But start now.
 
 *Ready to implement AI in your Bay of Plenty business? [Get in touch](/services) for a free AI automation assessment and discover which processes could deliver the highest ROI for your specific situation.*
 - [AI Strategy for Small Business: Cut Through the Hype with This 90-Day Action Plan](/blog/2025-06-22-ai-strategy-small-business-90-day-action-plan/)
+- [AI Automation for Small Business Owners: 2025 Implementation Playbook](/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/)
+- [Best AI Tools for Business 2025 (Small Business Edition)](/blog/best-ai-tools-for-business-2025/)

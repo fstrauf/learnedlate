@@ -235,6 +235,7 @@ The question isn't whether your business is big enough for custom software. The 
 ## Related Articles
 
 - [What is Custom Software Development? Complete Guide](./what-is-custom-software-development-complete-guide.md)
+- [Software Development Costs in New Zealand: 2025 Pricing Guide](./048_software_development_costs_in_new_zealand_2025_pricing_guide.mdx)
 - [Custom Software Development Cost: Complete Breakdown](./custom-software-development-cost-breakdown.md)
 - [Custom Software Packages for NZ Businesses](./2025-04-05-custom-software-packages-nz.md)
 - [Business Process Automation: Small Business Guide](./2025-06-22-business-process-automation-small-business-guide.md)
@@ -242,3 +243,4 @@ The question isn't whether your business is big enough for custom software. The 
 ---
 
 *Ready to explore custom software for your business? Start with a risk-free feasibility assessment to understand exactly how custom software could improve your operations and what it would cost.*
+- [What is Custom Software Development? Complete Guide 2025](/blog/what-is-custom-software-development-complete-guide/)

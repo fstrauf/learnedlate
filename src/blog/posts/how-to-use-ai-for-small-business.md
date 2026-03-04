@@ -669,3 +669,5 @@ The key is starting simple and building from there. You don't need to be an AI e
 - [Business Process Automation Examples](./business-process-automation-examples.md)
 - [How AI Transforms Small Business: Practical Examples](./2025-06-22-how-ai-transforms-small-business-practical-examples.md)
 - [AI Strategy for Small Business: Cut Through the Hype with This 90-Day Action Plan](/blog/2025-06-22-ai-strategy-small-business-90-day-action-plan/)
+- [AI Automation for Small Business Owners: 2025 Implementation Playbook](/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/)
+- [Best AI Tools for Business 2025 (Small Business Edition)](/blog/best-ai-tools-for-business-2025/)

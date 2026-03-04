@@ -241,3 +241,12 @@ If you're considering a CRM implementation and want to ensure you make the right
 ---
 
 *About the Author: As a Fractional CTO with deep experience in the New Zealand tech ecosystem, I help startups and established businesses make smart technology decisions that drive growth. My background includes leading technical teams at SAP, founding multiple successful ventures, and providing strategic technology guidance to over 50 New Zealand businesses.*
+
+---
+
+## Related Articles
+
+- [What is Custom Software Development? Complete Guide 2025](/blog/what-is-custom-software-development-complete-guide/)
+- [Best AI Tools for Business 2025 (Small Business Edition)](/blog/best-ai-tools-for-business-2025/)
+- [Custom Software vs Off-the-Shelf: Decision Framework](/blog/custom-software-vs-off-the-shelf/)
+- [Fractional CTO Services for New Zealand Startups](/blog/fractional-cto-guide-new-zealand/)

@@ -480,3 +480,4 @@ Start small. Start practical. But start now.
 ---
 
 *Ready to implement ChatGPT strategically in your business? [Get in touch](/services) for a free AI implementation assessment and discover which processes could deliver the highest ROI for your specific situation.*
+- [Best AI Tools for Business 2025 (Small Business Edition)](/blog/best-ai-tools-for-business-2025/)

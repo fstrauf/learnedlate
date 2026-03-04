@@ -309,3 +309,4 @@ Remember: time is your most valuable currency. Don't spend it searching for the 
 
 - [New Zealand Startups: Your Complete Fractional CTO Guide](/blog/2025-06-22-nz-startups-fractional-cto-guide/)
 - [What is a Fractional CTO? Complete Guide for New Zealand Startups](/blog/2025-06-22-what-is-fractional-cto-complete-guide/)
+- [Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy](/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/)
