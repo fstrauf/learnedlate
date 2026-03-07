@@ -93,19 +93,19 @@ Startup founders, small business owners, and tech leaders in New Zealand
 ## Linking Checklist (Updated: 2026-03-04)
 - [x] Hub-spoke links: All 5 clusters have pillar↔support linking
 - [x] Cross-cluster links: All pillar articles link to relevant clusters
-- [x] Pillar to support: 39/39 support articles linked from pillars
-- [x] Support to pillar: 39/39 support articles link to their pillar
+- [x] Pillar to support: 40/40 support articles linked from pillars
+- [x] Support to pillar: 40/40 support articles link to their pillar
 - [x] Orphan articles linked: 15/15 orphan articles now have cross-cluster links
 
 ## SEO Step 3 Summary
 | Metric | Value |
 |--------|-------|
-| Total Articles | 53 |
-| Clustered Articles | 39 |
+| Total Articles | 54 |
+| Clustered Articles | 40 |
 | Orphan Articles | 14 |
-| Total Internal Links | 286 |
-| Articles with Outgoing Links | 53 |
-| Articles with Incoming Links | 53 |
+| Total Internal Links | 292 |
+| Articles with Outgoing Links | 54 |
+| Articles with Incoming Links | 54 |
 | Missing Hub-Spoke Links | 0 |
 | Missing Cross-Cluster Links | 0 |
 
@@ -115,5 +115,5 @@ Startup founders, small business owners, and tech leaders in New Zealand
 | Fractional CTO | ID 45 | 6 | ✓ Complete |
 | CTO Leadership | ID 1 | 4 | ✓ Complete |
 | Custom Software | ID 11 | 10 | ✓ Complete |
-| MVP Development | ID 50 | 2 | ✓ Complete |
+| MVP Development | ID 50 | 3 | ✓ Complete |
 | AI & Automation | ID 8 | 12 | ✓ Complete |

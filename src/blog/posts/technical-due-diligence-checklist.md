@@ -512,3 +512,6 @@ Your 48 hours of technical due diligence might be the difference between funding
 ## Related Articles
 
 - [CTO Responsibilities in a Startup: Stage-by-Stage Breakdown](/blog/cto-responsibilities-startup/)
+- [Complete technical due diligence checklist for CTOs](/blog/2025-06-22-technical-due-diligence-checklist-cto-guide/)
+- [Fractional CTO services for investor due diligence](/blog/2025-06-22-what-is-fractional-cto-complete-guide/)
+- [NZ startup technical due diligence expertise](/blog/2025-06-22-nz-startups-fractional-cto-guide/)

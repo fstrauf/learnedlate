@@ -384,3 +384,8 @@ New Zealand startups that embrace fractional technical leadership today will bui
 - [Interim CTO vs Fractional CTO: Which One Does Your Startup Need?](/blog/interim_cto_vs_fractional_cto_which_one_does_your_startup_need/)
 - [CTO Responsibilities in a Startup: Stage-by-Stage Breakdown](/blog/cto-responsibilities-startup/)
 - [How to Choose the Right CTO for Your Startup](/blog/how-to-choose-cto-for-startup/)
+- [How to Hire Developers for Your Startup: A Non-Technical Founder's Complete Guide](/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide/)
+- [Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy](/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/)
+- [What is Custom Software Development? Complete Guide 2025](/blog/what-is-custom-software-development-complete-guide/)
+- [The Complete Guide to NZ Startup Grants & Funding (2025 Edition with Application Tips)](/blog/the_complete_guide_to_nz_startup_grants_funding_2025_edition_with_application_tips/)
+- [Free Software Development Agreement Template for NZ Startups (2025)](/blog/free_software_development_agreement_template_for_nz_startups_2025/)

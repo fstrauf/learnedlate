@@ -9,11 +9,18 @@
   ],
   "pillars": [
     {
-      "id": 45,
-      "title": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-      "url_slug": "2025-06-22-what-is-fractional-cto-complete-guide",
-      "target_keyword": "what is a fractional cto",
-      "cluster": "fractional-cto"
+      "id": 8,
+      "title": "Best AI Tools for Business 2025 (Small Business Edition)",
+      "url_slug": "best-ai-tools-for-business-2025",
+      "target_keyword": "best ai tools for business",
+      "cluster": "ai-automation"
+    },
+    {
+      "id": 21,
+      "title": "Digital Marketing Services for NZ Small Businesses: Your Practical Guide",
+      "url_slug": "digital_marketing_nz_guide",
+      "target_keyword": "",
+      "cluster": "business-operations"
     },
     {
       "id": 1,
@@ -30,18 +37,11 @@
       "cluster": "custom-software"
     },
     {
-      "id": 50,
-      "title": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-      "url_slug": "how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide",
-      "target_keyword": "how to build an MVP for a startup",
-      "cluster": "mvp-development"
-    },
-    {
-      "id": 8,
-      "title": "Best AI Tools for Business 2025 (Small Business Edition)",
-      "url_slug": "best-ai-tools-for-business-2025",
-      "target_keyword": "best ai tools for business",
-      "cluster": "ai-automation"
+      "id": 45,
+      "title": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
+      "url_slug": "2025-06-22-what-is-fractional-cto-complete-guide",
+      "target_keyword": "",
+      "cluster": "fractional-cto"
     },
     {
       "id": 31,
@@ -49,48 +49,23 @@
       "url_slug": "2025-04-20-ai-just-made-you-twice-as-fast",
       "target_keyword": "",
       "cluster": "mindset-productivity"
+    },
+    {
+      "id": 50,
+      "title": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
+      "url_slug": "how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide",
+      "target_keyword": "how to build an MVP for a startup",
+      "cluster": "mvp-development"
+    },
+    {
+      "id": 61,
+      "title": "The Complete Guide to NZ Startup Grants & Funding (2025 Edition with Application Tips)",
+      "url_slug": "the_complete_guide_to_nz_startup_grants_funding_2025_edition_with_application_tips",
+      "target_keyword": "",
+      "cluster": "startup-funding"
     }
   ],
   "support_articles": {
-    "fractional-cto": [
-      13,
-      41,
-      46,
-      47,
-      49,
-      53,
-      54,
-      56
-    ],
-    "cto-leadership": [
-      2,
-      12,
-      20,
-      29,
-      32,
-      49,
-      55,
-      58
-    ],
-    "custom-software": [
-      6,
-      7,
-      10,
-      16,
-      25,
-      33,
-      36,
-      39,
-      43,
-      48,
-      52,
-      57
-    ],
-    "mvp-development": [
-      18,
-      37,
-      59
-    ],
     "ai-automation": [
       3,
       4,
@@ -108,6 +83,48 @@
       44,
       51
     ],
+    "business-operations": [
+      15,
+      23
+    ],
+    "cto-leadership": [
+      2,
+      12,
+      20,
+      29,
+      32,
+      55,
+      58,
+      63
+    ],
+    "custom-software": [
+      6,
+      7,
+      10,
+      16,
+      25,
+      33,
+      36,
+      39,
+      43,
+      48,
+      52,
+      57,
+      62,
+      65,
+      66,
+      67
+    ],
+    "fractional-cto": [
+      13,
+      41,
+      46,
+      47,
+      49,
+      53,
+      54,
+      56
+    ],
     "mindset-productivity": [
       19,
       24,
@@ -115,10 +132,15 @@
       38,
       40
     ],
-    "business-operations": [
-      15,
-      21,
-      23
+    "mvp-development": [
+      18,
+      37,
+      59,
+      60,
+      69
+    ],
+    "startup-funding": [
+      64
     ]
   },
   "cross_cluster_links": [
@@ -189,67 +211,9 @@
     "pillar_to_support": true,
     "support_to_pillar": true,
     "orphan_articles_linked": true,
-    "last_updated": "2026-03-04T11:45:00+13:00"
+    "last_updated": "2026-03-08T08:41:42.460432"
   },
   "cluster_mapping": {
-    "fractional-cto": {
-      "pillar_id": 45,
-      "pillar_title": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-      "support_count": 8,
-      "support_ids": [
-        13,
-        41,
-        46,
-        47,
-        49,
-        53,
-        54,
-        56
-      ]
-    },
-    "cto-leadership": {
-      "pillar_id": 1,
-      "pillar_title": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
-      "support_count": 7,
-      "support_ids": [
-        2,
-        12,
-        20,
-        29,
-        32,
-        55,
-        58
-      ]
-    },
-    "custom-software": {
-      "pillar_id": 11,
-      "pillar_title": "What is Custom Software Development? Complete Guide 2025",
-      "support_count": 12,
-      "support_ids": [
-        6,
-        7,
-        10,
-        16,
-        25,
-        33,
-        36,
-        39,
-        43,
-        48,
-        52,
-        57
-      ]
-    },
-    "mvp-development": {
-      "pillar_id": 50,
-      "pillar_title": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-      "support_count": 3,
-      "support_ids": [
-        18,
-        37,
-        59
-      ]
-    },
     "ai-automation": {
       "pillar_id": 8,
       "pillar_title": "Best AI Tools for Business 2025 (Small Business Edition)",
@@ -272,6 +236,67 @@
         51
       ]
     },
+    "business-operations": {
+      "pillar_id": 21,
+      "pillar_title": "Digital Marketing Services for NZ Small Businesses: Your Practical Guide",
+      "support_count": 2,
+      "support_ids": [
+        15,
+        23
+      ]
+    },
+    "cto-leadership": {
+      "pillar_id": 1,
+      "pillar_title": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
+      "support_count": 8,
+      "support_ids": [
+        2,
+        12,
+        20,
+        29,
+        32,
+        55,
+        58,
+        63
+      ]
+    },
+    "custom-software": {
+      "pillar_id": 11,
+      "pillar_title": "What is Custom Software Development? Complete Guide 2025",
+      "support_count": 15,
+      "support_ids": [
+        6,
+        7,
+        10,
+        16,
+        25,
+        33,
+        36,
+        39,
+        43,
+        48,
+        52,
+        57,
+        62,
+        65,
+        67
+      ]
+    },
+    "fractional-cto": {
+      "pillar_id": 45,
+      "pillar_title": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
+      "support_count": 8,
+      "support_ids": [
+        13,
+        41,
+        46,
+        47,
+        49,
+        53,
+        54,
+        56
+      ]
+    },
     "mindset-productivity": {
       "pillar_id": 31,
       "pillar_title": "AI Just Made You Twice as Fast",
@@ -284,14 +309,23 @@
         40
       ]
     },
-    "business-operations": {
-      "pillar_id": 8,
-      "pillar_title": "Best AI Tools for Business 2025 (Small Business Edition)",
-      "support_count": 3,
+    "mvp-development": {
+      "pillar_id": 50,
+      "pillar_title": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
+      "support_count": 4,
       "support_ids": [
-        15,
-        21,
-        23
+        18,
+        37,
+        59,
+        60
+      ]
+    },
+    "startup-funding": {
+      "pillar_id": 61,
+      "pillar_title": "The Complete Guide to NZ Startup Grants & Funding (2025 Edition with Application Tips)",
+      "support_count": 1,
+      "support_ids": [
+        64
       ]
     }
   },
@@ -382,110 +416,917 @@
       {
         "from_cluster": "ai-automation",
         "to_cluster": "custom-software",
-        "articles": [3, 5, 4, 17],
+        "articles": [
+          3,
+          5,
+          4,
+          17
+        ],
         "reason": "AI tools enhance custom software development"
       },
       {
         "from_cluster": "custom-software",
         "to_cluster": "mvp-development",
-        "articles": [7, 25, 6],
+        "articles": [
+          7,
+          25,
+          6
+        ],
         "reason": "Custom software often used for MVP builds"
       },
       {
         "from_cluster": "mvp-development",
         "to_cluster": "fractional-cto",
-        "articles": [18, 37, 59],
+        "articles": [
+          18,
+          37,
+          59
+        ],
         "reason": "MVP development needs technical leadership"
       },
       {
         "from_cluster": "fractional-cto",
         "to_cluster": "ai-automation",
-        "articles": [41, 46, 47],
+        "articles": [
+          41,
+          46,
+          47
+        ],
         "reason": "CTOs guide AI automation strategy"
       }
     ],
     "orphan_status": {
       "article_59": {
         "status": "has_incoming_links",
-        "sources": [18, 37, 50],
+        "sources": [
+          18,
+          37,
+          50
+        ],
         "note": "CLI scan shows orphan but actual links exist in files"
       }
     }
   },
   "seo_step3_summary": {
-    "total_articles": 59,
-    "clustered_articles": 59,
-    "orphan_articles": 0,
-    "total_internal_links": 249,
-    "articles_with_outgoing_links": 53,
-    "articles_with_incoming_links": 51,
-    "missing_hub_spoke_links": 0,
-    "missing_cross_cluster_links": 0,
+    "step": "Clustering & Linking (SEO Step 3)",
+    "run_date": "2026-03-05T21:04:05.815601",
+    "total_articles": 65,
+    "published_articles": 51,
+    "draft_articles": 14,
+    "total_internal_links": 294,
+    "articles_with_outgoing_links": 59,
+    "articles_with_incoming_links": 58,
+    "orphan_articles_count": 0,
+    "clusters_count": 8,
     "cluster_summary": {
-      "fractional-cto": {
-        "pillar_id": 45,
-        "pillar_title": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-        "support_count": 8,
-        "support_ids": [13, 41, 46, 47, 49, 53, 54, 56]
+      "ai-automation": {
+        "pillar_id": 8,
+        "support_count": 15
+      },
+      "business-operations": {
+        "pillar_id": 21,
+        "support_count": 2
       },
       "cto-leadership": {
         "pillar_id": 1,
-        "pillar_title": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
-        "support_count": 7,
-        "support_ids": [2, 12, 20, 29, 32, 55, 58]
+        "support_count": 8
       },
       "custom-software": {
         "pillar_id": 11,
-        "pillar_title": "What is Custom Software Development? Complete Guide 2025",
-        "support_count": 12,
-        "support_ids": [6, 7, 10, 16, 25, 33, 36, 39, 43, 48, 52, 57]
+        "support_count": 14
       },
-      "mvp-development": {
-        "pillar_id": 50,
-        "pillar_title": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-        "support_count": 3,
-        "support_ids": [18, 37, 59]
-      },
-      "ai-automation": {
-        "pillar_id": 8,
-        "pillar_title": "Best AI Tools for Business 2025 (Small Business Edition)",
-        "support_count": 15,
-        "support_ids": [3, 4, 5, 9, 14, 17, 22, 26, 27, 30, 34, 35, 42, 44, 51]
+      "fractional-cto": {
+        "pillar_id": 45,
+        "support_count": 8
       },
       "mindset-productivity": {
         "pillar_id": 31,
-        "pillar_title": "AI Just Made You Twice as Fast",
-        "support_count": 5,
-        "support_ids": [19, 24, 28, 38, 40]
+        "support_count": 5
       },
-      "business-operations": {
-        "pillar_id": 8,
-        "pillar_title": "Best AI Tools for Business 2025 (Small Business Edition)",
-        "support_count": 3,
-        "support_ids": [15, 21, 23]
+      "mvp-development": {
+        "pillar_id": 50,
+        "support_count": 4
+      },
+      "startup-funding": {
+        "pillar_id": 61,
+        "support_count": 1
       }
     },
-    "new_cross_cluster_links_added": [
-      {"from": 3, "to": 11, "reason": "No-code vs custom software comparison"},
-      {"from": 3, "to": 50, "reason": "No-code for MVP validation"},
-      {"from": 3, "to": 44, "reason": "AI tools for no-code automation"},
-      {"from": 5, "to": 44, "reason": "AI for business process automation"},
-      {"from": 5, "to": 14, "reason": "Automation examples reference"},
-      {"from": 7, "to": 50, "reason": "Custom software for MVP development"},
-      {"from": 7, "to": 8, "reason": "AI tools integration with custom software"},
-      {"from": 12, "to": 32, "reason": "Detailed technical due diligence guide"},
-      {"from": 12, "to": 45, "reason": "Fractional CTO for due diligence"},
-      {"from": 13, "to": 1, "reason": "Link to CTO leadership cluster"},
-      {"from": 15, "to": 5, "reason": "CRM connects to automation"},
-      {"from": 18, "to": 45, "reason": "MVP development needs technical leadership"},
-      {"from": 21, "to": 34, "reason": "Digital marketing connects to automation"},
-      {"from": 22, "to": 11, "reason": "Automation may need custom development"},
-      {"from": 25, "to": 8, "reason": "AI enhances custom software"},
-      {"from": 37, "to": 45, "reason": "MVP cost planning with CTO guidance"},
-      {"from": 41, "to": 11, "reason": "CTOs guide software decisions"},
-      {"from": 51, "to": 11, "reason": "AI automation may need custom integration"},
-      {"from": 52, "to": 8, "reason": "AI tools for Wellington businesses"}
+    "cross_cluster_links_added_this_run": 14,
+    "articles_updated": [
+      3,
+      5,
+      7,
+      12,
+      47,
+      64
+    ]
+  },
+  "new_cross_cluster_links_added": [
+    {
+      "from": 60,
+      "to": 50,
+      "reason": "Support article to MVP pillar (hub/spoke)"
+    },
+    {
+      "from": 60,
+      "to": 11,
+      "reason": "Validation leads to custom software development"
+    },
+    {
+      "from": 60,
+      "to": 3,
+      "reason": "No-code validation methods connect to no-code automation"
+    },
+    {
+      "from": 50,
+      "to": 60,
+      "reason": "MVP pillar to support article (hub/spoke)"
+    },
+    {
+      "from": 3,
+      "to": 60,
+      "reason": "No-code automation connects to validation methods"
+    },
+    {
+      "from": 45,
+      "to": 60,
+      "reason": "Fractional CTOs guide validation strategy"
+    },
+    {
+      "from": 61,
+      "to": 50,
+      "reason": "Grants funding connects to MVP development"
+    },
+    {
+      "from": 61,
+      "to": 41,
+      "reason": "NZ grants guide links to NZ CTO guide"
+    },
+    {
+      "from": 61,
+      "to": 64,
+      "reason": "Startup grants connect to runway planning"
+    },
+    {
+      "from": 61,
+      "to": 45,
+      "reason": "Grants help fund fractional CTO services"
+    },
+    {
+      "from": 50,
+      "to": 61,
+      "reason": "MVP development needs funding through grants"
+    },
+    {
+      "from": 41,
+      "to": 61,
+      "reason": "NZ startups need funding and grants"
+    },
+    {
+      "from": 64,
+      "to": 61,
+      "reason": "Runway planning connects to grant funding"
+    },
+    {
+      "from": 45,
+      "to": 61,
+      "reason": "Fractional CTO services can be grant-funded"
+    },
+    {
+      "from": 45,
+      "to": 54,
+      "reason": "Pillar to support: Technical Co-Founder comparison guide"
+    },
+    {
+      "from": 41,
+      "to": 54,
+      "reason": "Cross-cluster: NZ startups to technical co-founder guide"
+    },
+    {
+      "from": 32,
+      "to": 54,
+      "reason": "Cross-cluster: Due diligence to co-founder comparison"
+    },
+    {
+      "from": 45,
+      "to": 56,
+      "reason": "Pillar to support: Healthcare-specific CTO guidance"
+    },
+    {
+      "from": 53,
+      "to": 56,
+      "reason": "Cross-cluster: Fractional CTO roles to healthcare specialization"
+    },
+    {
+      "from": 11,
+      "to": 57,
+      "reason": "Pillar to support: Christchurch software development guide"
+    },
+    {
+      "from": 36,
+      "to": 57,
+      "reason": "Cross-cluster: Auckland to Christchurch location guides"
+    },
+    {
+      "from": 52,
+      "to": 57,
+      "reason": "Cross-cluster: Wellington to Christchurch location guides"
+    },
+    {
+      "from": 29,
+      "to": 57,
+      "reason": "Cross-cluster: Technical risks to Christchurch development"
+    },
+    {
+      "from": 1,
+      "to": 58,
+      "reason": "Pillar to support: Developer hiring timing guide"
+    },
+    {
+      "from": 2,
+      "to": 58,
+      "reason": "Cross-cluster: CTO hiring to developer hiring"
+    },
+    {
+      "from": 49,
+      "to": 58,
+      "reason": "Cross-cluster: CTO timing to developer timing"
+    }
+  ],
+  "seo_step3_summary_article_61": {
+    "article_id": 61,
+    "title": "The Complete Guide to NZ Startup Grants & Funding (2025 Edition with Application Tips)",
+    "cluster": "startup-funding",
+    "cluster_role": "pillar",
+    "links_to": [
+      50,
+      41,
+      64,
+      45
     ],
-    "run_date": "2026-03-04T11:45:00+13:00"
+    "links_from": [
+      50,
+      41,
+      64,
+      45
+    ],
+    "orphan_status": "resolved",
+    "run_date": "2026-03-05T19:54:00+13:00"
+  },
+  "seo_step3_summary_article_64": {
+    "article_id": 64,
+    "title": "Startup Runway Calculator: How to Plan Your Cash Runway (NZ-Focused Template)",
+    "cluster": "startup-funding",
+    "cluster_role": "support",
+    "links_to": [
+      61,
+      50,
+      45
+    ],
+    "links_from": [
+      61,
+      50,
+      45,
+      60
+    ],
+    "orphan_status": "resolved",
+    "cross_cluster_links": [
+      {
+        "to": 50,
+        "reason": "Runway planning essential for MVP development budgeting"
+      },
+      {
+        "to": 45,
+        "reason": "Fractional CTOs help with financial planning and runway strategy"
+      }
+    ],
+    "links_added": [
+      {
+        "from": 64,
+        "to": 50,
+        "reason": "Cross-cluster: runway planning for MVP budgeting"
+      },
+      {
+        "from": 64,
+        "to": 45,
+        "reason": "Cross-cluster: CTOs guide financial planning"
+      },
+      {
+        "from": 50,
+        "to": 64,
+        "reason": "Cross-cluster: MVP development needs runway planning"
+      },
+      {
+        "from": 45,
+        "to": 64,
+        "reason": "Cross-cluster: Fractional CTOs help with runway strategy"
+      },
+      {
+        "from": 60,
+        "to": 64,
+        "reason": "Cross-cluster: Validation phase needs runway planning"
+      }
+    ],
+    "run_date": "2026-03-05T20:10:00+13:00"
+  },
+  "seo_step3_summary_article_65": {
+    "article_id": 65,
+    "title": "Free Software Development Agreement Template for NZ Startups (2025)",
+    "cluster": "custom-software",
+    "cluster_role": "support",
+    "links_to": [
+      11,
+      50,
+      45
+    ],
+    "links_from": [
+      11,
+      45,
+      50,
+      7,
+      41
+    ],
+    "orphan_status": "resolved",
+    "cross_cluster_links": [
+      {
+        "to": 50,
+        "reason": "Development agreements essential for MVP projects"
+      },
+      {
+        "to": 45,
+        "reason": "Fractional CTOs help negotiate development contracts"
+      }
+    ],
+    "links_added": [
+      {
+        "from": 65,
+        "to": 11,
+        "reason": "Support article to Custom Software pillar (hub/spoke)"
+      },
+      {
+        "from": 65,
+        "to": 50,
+        "reason": "Cross-cluster: development agreements for MVP builds"
+      },
+      {
+        "from": 65,
+        "to": 45,
+        "reason": "Cross-cluster: CTOs guide contract negotiations"
+      },
+      {
+        "from": 11,
+        "to": 65,
+        "reason": "Pillar to support article (hub/spoke)"
+      },
+      {
+        "from": 45,
+        "to": 65,
+        "reason": "Fractional CTOs help with development agreements"
+      },
+      {
+        "from": 50,
+        "to": 65,
+        "reason": "MVP development needs proper contracts"
+      },
+      {
+        "from": 7,
+        "to": 65,
+        "reason": "Custom software decisions involve contracts"
+      },
+      {
+        "from": 41,
+        "to": 65,
+        "reason": "NZ startups need development agreements"
+      }
+    ],
+    "run_date": "2026-03-05T20:15:00+13:00"
+  },
+  "seo_step3_summary_2026_03_05": {
+    "step": "Clustering & Linking - Orphan Resolution",
+    "run_date": "2026-03-05T20:16:00+13:00",
+    "total_articles": 65,
+    "published_articles": 51,
+    "draft_articles": 14,
+    "orphan_articles_resolved": [
+      {
+        "id": 54,
+        "title": "Technical Co-Founder vs Fractional CTO: Which is Right for Your Startup?",
+        "cluster": "fractional-cto",
+        "action": "Added link from pillar article 45",
+        "links_from": [
+          45
+        ]
+      },
+      {
+        "id": 56,
+        "title": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
+        "cluster": "fractional-cto",
+        "action": "Already linked from pillar article 45 - verified",
+        "links_from": [
+          45
+        ]
+      },
+      {
+        "id": 57,
+        "title": "Software Development in Christchurch: Complete Guide for Local Businesses (2026)",
+        "cluster": "custom-software",
+        "action": "Already linked from pillar article 11 and 45 - verified",
+        "links_from": [
+          11,
+          45
+        ]
+      },
+      {
+        "id": 58,
+        "title": "When to Hire Your First Developer: A Startup Founder's Timing & Readiness Guide",
+        "cluster": "cto-leadership",
+        "action": "Added link from pillar article 1 and verified link from 45",
+        "links_from": [
+          1,
+          45
+        ]
+      }
+    ],
+    "cluster_updates": {
+      "fractional-cto": {
+        "pillar_id": 45,
+        "support_count": 8,
+        "support_ids": [
+          13,
+          41,
+          46,
+          47,
+          49,
+          53,
+          54,
+          56
+        ]
+      },
+      "cto-leadership": {
+        "pillar_id": 1,
+        "support_count": 8,
+        "support_ids": [
+          2,
+          12,
+          20,
+          29,
+          32,
+          55,
+          58,
+          63
+        ]
+      },
+      "custom-software": {
+        "pillar_id": 11,
+        "support_count": 14,
+        "support_ids": [
+          6,
+          7,
+          10,
+          16,
+          25,
+          33,
+          36,
+          39,
+          43,
+          48,
+          52,
+          57,
+          62,
+          65
+        ]
+      },
+      "mvp-development": {
+        "pillar_id": 50,
+        "support_count": 4,
+        "support_ids": [
+          18,
+          37,
+          59,
+          60
+        ]
+      },
+      "ai-automation": {
+        "pillar_id": 8,
+        "support_count": 15,
+        "support_ids": [
+          3,
+          4,
+          5,
+          9,
+          14,
+          17,
+          22,
+          26,
+          27,
+          30,
+          34,
+          35,
+          42,
+          44,
+          51
+        ]
+      },
+      "mindset-productivity": {
+        "pillar_id": 31,
+        "support_count": 5,
+        "support_ids": [
+          19,
+          24,
+          28,
+          38,
+          40
+        ]
+      },
+      "business-operations": {
+        "pillar_id": 21,
+        "support_count": 2,
+        "support_ids": [
+          15,
+          23
+        ]
+      },
+      "startup-funding": {
+        "pillar_id": 61,
+        "support_count": 1,
+        "support_ids": [
+          64
+        ]
+      }
+    },
+    "seo_step3_summary_2026_03_05_final": {
+      "step": "Clustering & Linking (SEO Step 3) - Final",
+      "run_date": "2026-03-05T21:15:00+13:00",
+      "total_articles": 65,
+      "published_articles": 51,
+      "draft_articles": 14,
+      "total_internal_links": 321,
+      "previous_internal_links": 277,
+      "new_links_added_this_run": 44,
+      "articles_with_outgoing_links": 59,
+      "articles_with_incoming_links": 65,
+      "orphan_articles_count": 0,
+      "clusters_count": 8,
+      "cluster_summary": {
+        "ai-automation": {
+          "pillar_id": 8,
+          "support_count": 15,
+          "total_links_added_to_cluster": 12
+        },
+        "business-operations": {
+          "pillar_id": 21,
+          "support_count": 2,
+          "total_links_added_to_cluster": 8
+        },
+        "cto-leadership": {
+          "pillar_id": 1,
+          "support_count": 8,
+          "total_links_added_to_cluster": 8
+        },
+        "custom-software": {
+          "pillar_id": 11,
+          "support_count": 14,
+          "total_links_added_to_cluster": 5
+        },
+        "fractional-cto": {
+          "pillar_id": 45,
+          "support_count": 8,
+          "total_links_added_to_cluster": 2
+        },
+        "mindset-productivity": {
+          "pillar_id": 31,
+          "support_count": 5,
+          "total_links_added_to_cluster": 6
+        },
+        "mvp-development": {
+          "pillar_id": 50,
+          "support_count": 4,
+          "total_links_added_to_cluster": 3
+        },
+        "startup-funding": {
+          "pillar_id": 61,
+          "support_count": 1,
+          "total_links_added_to_cluster": 5
+        }
+      },
+      "cross_cluster_links_added_this_run": 44,
+      "articles_updated": [
+        1,
+        8,
+        11,
+        15,
+        21,
+        23,
+        31,
+        45,
+        50,
+        61,
+        63
+      ],
+      "low_link_articles_resolved": [
+        {
+          "id": 4,
+          "title": "AI Tools for Business Automation: The Complete Stack",
+          "previous_links": 2,
+          "action": "Links will be added in next run"
+        },
+        {
+          "id": 6,
+          "title": "How to Choose a Software Development Company (Buyer's Guide)",
+          "previous_links": 2,
+          "action": "Links will be added in next run"
+        },
+        {
+          "id": 21,
+          "title": "Digital Marketing Services for NZ Small Businesses",
+          "previous_links": 3,
+          "new_links": 7,
+          "improvement": "+4 links"
+        }
+      ]
+    },
+    "cross_cluster_links_added": [
+      {
+        "from": 45,
+        "to": 54,
+        "reason": "Pillar to support: Technical Co-Founder comparison guide"
+      },
+      {
+        "from": 1,
+        "to": 58,
+        "reason": "Pillar to support: When to hire first developer timing guide"
+      },
+      {
+        "from": 1,
+        "to": 63,
+        "reason": "Pillar to support: Non-technical founder hiring guide"
+      }
+    ],
+    "files_modified": [
+      "clusters.json - Updated cluster mappings",
+      "content-brief.json - Updated cluster mapping and linking checklist",
+      "src/blog/posts/2025-06-22-what-is-fractional-cto-complete-guide.md - Added link to article 54",
+      "src/blog/posts/cto-responsibilities-startup.mdx - Added links to articles 58 and 63",
+      "articles.json - Updated internal_links data"
+    ],
+    "linking_checklist": {
+      "hub_spoke_links": true,
+      "cross_cluster_links": true,
+      "pillar_to_support": true,
+      "support_to_pillar": true,
+      "orphan_articles_linked": true
+    }
+  },
+  "cross_cluster_links_added": [
+    {
+      "from": 3,
+      "to": 11,
+      "reason": "No-code vs custom software comparison (cross-cluster)",
+      "added_date": "2026-03-05T21:04:05.815601"
+    },
+    {
+      "from": 3,
+      "to": 44,
+      "reason": "AI for no-code automation enhancement (cross-cluster)",
+      "added_date": "2026-03-05T21:04:05.815601"
+    },
+    {
+      "from": 3,
+      "to": 50,
+      "reason": "No-code for MVP development (cross-cluster)",
+      "added_date": "2026-03-05T21:04:05.815601"
+    },
+    {
+      "from": 4,
+      "to": 11,
+      "reason": "AI automation stack integrates with custom software (cross-cluster)",
+      "added_date": "2026-03-08T06:48:00+13:00"
+    },
+    {
+      "from": 4,
+      "to": 50,
+      "reason": "AI automation for MVP validation (cross-cluster)",
+      "added_date": "2026-03-08T06:48:00+13:00"
+    },
+    {
+      "from": 5,
+      "to": 14,
+      "reason": "Automation examples reference (hub/spoke)",
+      "added_date": "2026-03-05T21:04:05.815601"
+    },
+    {
+      "from": 5,
+      "to": 44,
+      "reason": "AI for business process automation (cross-cluster)",
+      "added_date": "2026-03-05T21:04:05.815601"
+    },
+    {
+      "from": 5,
+      "to": 11,
+      "reason": "Custom software for automation (cross-cluster)",
+      "added_date": "2026-03-05T21:04:05.815601"
+    },
+    {
+      "from": 6,
+      "to": 8,
+      "reason": "AI tools enhance software development company evaluation (cross-cluster)",
+      "added_date": "2026-03-08T06:48:00+13:00"
+    },
+    {
+      "from": 6,
+      "to": 1,
+      "reason": "CTO leadership guides development company selection (cross-cluster)",
+      "added_date": "2026-03-08T06:48:00+13:00"
+    },
+    {
+      "from": 12,
+      "to": 32,
+      "reason": "Detailed technical due diligence guide (hub/spoke)",
+      "added_date": "2026-03-05T21:04:05.815601"
+    },
+    {
+      "from": 12,
+      "to": 45,
+      "reason": "Fractional CTO for due diligence (cross-cluster)",
+      "added_date": "2026-03-05T21:04:05.815601"
+    },
+    {
+      "from": 12,
+      "to": 41,
+      "reason": "NZ-specific due diligence guidance (cross-cluster)",
+      "added_date": "2026-03-05T21:04:05.815601"
+    },
+    {
+      "from": 47,
+      "to": 49,
+      "reason": "CTO hiring timing guide (hub/spoke)",
+      "added_date": "2026-03-05T21:04:05.815601"
+    },
+    {
+      "from": 47,
+      "to": 2,
+      "reason": "How to choose a CTO (cross-cluster)",
+      "added_date": "2026-03-05T21:04:05.815601"
+    },
+    {
+      "from": 47,
+      "to": 46,
+      "reason": "Fractional CTO pricing guide (hub/spoke)",
+      "added_date": "2026-03-05T21:04:05.815601"
+    },
+    {
+      "from": 64,
+      "to": 50,
+      "reason": "MVP budgeting for runway planning (cross-cluster)",
+      "added_date": "2026-03-05T21:04:05.815601"
+    },
+    {
+      "from": 64,
+      "to": 45,
+      "reason": "CTO financial planning guidance (cross-cluster)",
+      "added_date": "2026-03-05T21:04:05.815601"
+    }
+  ],
+  "seo_step3_summary_final": {
+    "step": "Clustering & Linking (SEO Step 3) - Final Run",
+    "run_date": "2026-03-05T21:15:00+13:00",
+    "total_articles": 65,
+    "published_articles": 51,
+    "draft_articles": 14,
+    "total_internal_links": 321,
+    "previous_internal_links": 277,
+    "new_links_added_this_run": 44,
+    "articles_with_outgoing_links": 59,
+    "articles_with_incoming_links": 65,
+    "orphan_articles_count": 0,
+    "clusters_count": 8,
+    "cluster_summary": {
+      "ai-automation": {
+        "pillar_id": 8,
+        "support_count": 15
+      },
+      "business-operations": {
+        "pillar_id": 21,
+        "support_count": 2
+      },
+      "cto-leadership": {
+        "pillar_id": 1,
+        "support_count": 8
+      },
+      "custom-software": {
+        "pillar_id": 11,
+        "support_count": 14
+      },
+      "fractional-cto": {
+        "pillar_id": 45,
+        "support_count": 8
+      },
+      "mindset-productivity": {
+        "pillar_id": 31,
+        "support_count": 5
+      },
+      "mvp-development": {
+        "pillar_id": 50,
+        "support_count": 4
+      },
+      "startup-funding": {
+        "pillar_id": 61,
+        "support_count": 1
+      }
+    },
+    "cross_cluster_links_added_this_run": 44,
+    "articles_updated": [
+      1,
+      8,
+      11,
+      15,
+      21,
+      23,
+      31,
+      45,
+      50,
+      61,
+      63
+    ],
+    "linking_checklist": {
+      "hub_spoke_links": true,
+      "cross_cluster_links": true,
+      "pillar_to_support": true,
+      "support_to_pillar": true,
+      "orphan_articles_linked": true
+    }
+  },
+  "seo_step3_summary_article_67": {
+    "article_id": 67,
+    "title": "API Integration Services: Connecting Your Business Systems Seamlessly",
+    "cluster": "custom-software",
+    "cluster_role": "support",
+    "links_to": [
+      11,
+      45,
+      50
+    ],
+    "links_from": [
+      11,
+      7,
+      45,
+      50,
+      65
+    ],
+    "orphan_status": "resolved",
+    "cross_cluster_links": [
+      {
+        "to": 45,
+        "reason": "Fractional CTOs guide API integration strategy and technical decisions"
+      },
+      {
+        "to": 50,
+        "reason": "API integration planning essential during MVP development"
+      }
+    ],
+    "links_added": [
+      {
+        "from": 67,
+        "to": 11,
+        "reason": "Support article to Custom Software pillar (hub/spoke)"
+      },
+      {
+        "from": 67,
+        "to": 45,
+        "reason": "Cross-cluster: CTOs guide integration strategy"
+      },
+      {
+        "from": 67,
+        "to": 50,
+        "reason": "Cross-cluster: APIs often built during MVP phase"
+      },
+      {
+        "from": 11,
+        "to": 67,
+        "reason": "Pillar to support article (hub/spoke)"
+      },
+      {
+        "from": 7,
+        "to": 67,
+        "reason": "Custom software decisions include integration considerations"
+      },
+      {
+        "from": 45,
+        "to": 67,
+        "reason": "Fractional CTOs oversee API integration projects"
+      },
+      {
+        "from": 50,
+        "to": 67,
+        "reason": "MVP development may require third-party API integrations"
+      },
+      {
+        "from": 65,
+        "to": 67,
+        "reason": "Integration projects need proper development agreements"
+      }
+    ],
+    "run_date": "2026-03-08T08:44:51+13:00"
   }
 }

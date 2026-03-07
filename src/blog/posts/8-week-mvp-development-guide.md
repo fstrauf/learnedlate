@@ -553,3 +553,4 @@ The question is whether you can afford not to.
 
 *Ready to turn your startup idea into paying customers in 8 weeks? The first step is validating your customer problem and value proposition before writing any code.*
 - [How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide](/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/)
+- [Mobile App vs Web App: Which Should Your Startup Build First?](/blog/mobile_app_vs_web_app_which_should_your_startup_build_first/)
