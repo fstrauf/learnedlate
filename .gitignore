@@ -34,3 +34,7 @@ dist-ssr
 
 # Automation data - do not commit
 .github/automation/
+
+# Compiled API files
+api/*.js
+api/*.js.map
