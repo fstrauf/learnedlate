@@ -1,18 +1,22 @@
 <template>
   <div class="w-full">
-    <button
+    <Button
       @click="handleCheckout"
       :disabled="isLoading"
-      class="w-full px-6 py-3 bg-white text-gray-900 font-medium rounded-md hover:bg-gray-100 disabled:bg-gray-300 transition-colors duration-200"
+      class="w-full"
+      size="lg"
     >
+      <Loader2 v-if="isLoading" class="mr-2 h-4 w-4 animate-spin" />
       {{ isLoading ? 'Redirecting to checkout...' : buttonText }}
-    </button>
-    <p v-if="error" class="text-red-600 text-sm mt-2">{{ error }}</p>
+    </Button>
+    <p v-if="error" class="text-destructive text-sm mt-2">{{ error }}</p>
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref, computed } from 'vue';
+import { Loader2 } from 'lucide-vue-next';
+import { Button } from '@/components/ui/button';
 
 interface Product {
   id: string;

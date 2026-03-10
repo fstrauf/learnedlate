@@ -19,18 +19,16 @@
             From SEO automation systems to solid architecture and AI-accelerated MVPs, I bring senior engineering and product thinking without the full-time CTO price tag.
           </p>
           <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-2 sm:px-4">
-            <a 
-              href="mailto:hello@learnedlate.com"
-              class="bg-white text-gray-900 px-4 sm:px-6 lg:px-8 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors duration-200 text-center text-sm sm:text-base"
-            >
-              Start a Conversation
-            </a>
-            <router-link 
-              to="/services" 
-              class="border border-white text-white px-4 sm:px-6 lg:px-8 py-3 rounded-md font-medium hover:bg-white hover:text-gray-900 transition-colors duration-200 text-center text-sm sm:text-base"
-            >
-              View My Services
-            </router-link>
+            <Button as-child size="lg" class="bg-white text-gray-900 hover:bg-gray-100">
+              <a href="mailto:hello@learnedlate.com">
+                Start a Conversation
+              </a>
+            </Button>
+            <Button as-child size="lg" variant="outline" class="border-white bg-transparent text-white hover:bg-white hover:text-gray-900">
+              <router-link to="/services">
+                View My Services
+              </router-link>
+            </Button>
           </div>
         </div>
       </div>
@@ -41,28 +39,47 @@
             <h2 class="text-xl sm:text-2xl font-light">How I can help</h2>
           </div>
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
-            <div class="rounded-xl border border-white/15 bg-white/5 hover:bg-white/10 transition-colors duration-200 p-5 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06)]">
-              <h4 class="text-white text-base sm:text-lg font-medium">My site isn't getting enough traffic</h4>
-              <p class="text-gray-300 text-sm mt-2">Build SEO automation systems that use your existing content, Google Search Console data, and AI workflows to grow organic traffic.</p>
-              <router-link to="/services/seo-automation" class="inline-flex items-center justify-center mt-4 w-full sm:w-auto bg-white text-gray-900 px-5 py-2.5 rounded-md text-sm font-medium hover:bg-gray-100">
-                Build My SEO System
-              </router-link>
-            </div>
-            <div class="rounded-xl border border-white/15 bg-white/5 hover:bg-white/10 transition-colors duration-200 p-5 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06)]">
-              <h4 class="text-white text-base sm:text-lg font-medium">I need to build software fast</h4>
-              <p class="text-gray-300 text-sm mt-2">Launch your MVP or internal tools in weeks using AI-accelerated development and solid architecture.</p>
-              <router-link to="/services#ai-accelerated-mvps" class="inline-flex items-center justify-center mt-4 w-full sm:w-auto bg-white text-gray-900 px-5 py-2.5 rounded-md text-sm font-medium hover:bg-gray-100">
-                Build My MVP
-              </router-link>
-            </div>
-            <div class="rounded-xl border border-white/15 bg-white/5 hover:bg-white/10 transition-colors duration-200 p-5 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06)]">
-              <h4 class="text-white text-base sm:text-lg font-medium">I need technical leadership</h4>
-              <p class="text-gray-300 text-sm mt-2">Get a senior architect and fractional CTO to untangle your systems and align tech with the business.</p>
-              <router-link to="/services#fractional-cto" class="inline-flex items-center justify-center mt-4 w-full sm:w-auto bg-white text-gray-900 px-5 py-2.5 rounded-md text-sm font-medium hover:bg-gray-100">
-                Get Strategic Leadership
-              </router-link>
-            </div>
-          </div>        </div>
+            <Card class="rounded-xl border-white/15 bg-white/5 hover:bg-white/10 transition-colors duration-200 border shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06)] text-white">
+              <CardHeader class="pb-2">
+                <CardTitle class="text-white text-base sm:text-lg font-medium">My site isn't getting enough traffic</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p class="text-gray-300 text-sm">Build SEO automation systems that use your existing content, Google Search Console data, and AI workflows to grow organic traffic.</p>
+              </CardContent>
+              <CardFooter>
+                <Button as-child class="w-full sm:w-auto bg-white text-gray-900 hover:bg-gray-100">
+                  <router-link to="/services/seo-automation">Build My SEO System</router-link>
+                </Button>
+              </CardFooter>
+            </Card>
+            <Card class="rounded-xl border-white/15 bg-white/5 hover:bg-white/10 transition-colors duration-200 border shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06)] text-white">
+              <CardHeader class="pb-2">
+                <CardTitle class="text-white text-base sm:text-lg font-medium">I need to build software fast</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p class="text-gray-300 text-sm">Launch your MVP or internal tools in weeks using AI-accelerated development and solid architecture.</p>
+              </CardContent>
+              <CardFooter>
+                <Button as-child class="w-full sm:w-auto bg-white text-gray-900 hover:bg-gray-100">
+                  <router-link to="/services#ai-accelerated-mvps">Build My MVP</router-link>
+                </Button>
+              </CardFooter>
+            </Card>
+            <Card class="rounded-xl border-white/15 bg-white/5 hover:bg-white/10 transition-colors duration-200 border shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06)] text-white">
+              <CardHeader class="pb-2">
+                <CardTitle class="text-white text-base sm:text-lg font-medium">I need technical leadership</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p class="text-gray-300 text-sm">Get a senior architect and fractional CTO to untangle your systems and align tech with the business.</p>
+              </CardContent>
+              <CardFooter>
+                <Button as-child class="w-full sm:w-auto bg-white text-gray-900 hover:bg-gray-100">
+                  <router-link to="/services#fractional-cto">Get Strategic Leadership</router-link>
+                </Button>
+              </CardFooter>
+            </Card>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -80,33 +97,34 @@
             </router-link>
           </div>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            <article v-for="project in featuredProjects" :key="project.id" 
-                     class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-200 border border-gray-100">
+            <Card v-for="project in featuredProjects" :key="project.id" 
+                  class="overflow-hidden hover:shadow-md transition-shadow duration-200">
               <div v-if="project.imageUrl" class="aspect-video bg-gray-100 overflow-hidden">
                 <img :src="project.imageUrl" :alt="project.title" class="w-full h-full object-cover">
               </div>
-              <div class="p-6">
-                <h3 class="text-lg font-medium text-gray-900 mb-3">
+              <CardHeader>
+                <CardTitle class="text-lg font-medium text-gray-900">
                   {{ project.title }}
-                </h3>
-                <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p class="text-gray-600 text-sm leading-relaxed">
                   {{ truncateDescription(project.description) }}
                 </p>
-                <div class="flex gap-2">
-                  <a v-if="project.projectUrl" 
-                     :href="project.projectUrl" 
-                     target="_blank"
-                     class="text-sm text-gray-600 hover:text-gray-900 border border-gray-300 px-3 py-1 rounded hover:border-gray-400 transition-colors duration-200">
+              </CardContent>
+              <CardFooter class="flex gap-2">
+                <Button v-if="project.projectUrl" as-child variant="outline" size="sm">
+                  <a :href="project.projectUrl" target="_blank" rel="noopener noreferrer">
                     Visit →
                   </a>
-                  <router-link v-if="project.internalUrl" 
-                               :to="project.internalUrl"
-                               class="text-sm text-gray-600 hover:text-gray-900 border border-gray-300 px-3 py-1 rounded hover:border-gray-400 transition-colors duration-200">
+                </Button>
+                <Button v-if="project.internalUrl" as-child variant="outline" size="sm">
+                  <router-link :to="project.internalUrl">
                     Try It →
                   </router-link>
-                </div>
-              </div>
-            </article>
+                </Button>
+              </CardFooter>
+            </Card>
           </div>
         </div>
       </div>
@@ -122,26 +140,26 @@
           <p class="text-gray-600 mb-8 leading-relaxed text-base sm:text-lg px-2">
             I write regularly about personal finance, life lessons, and building wealth on my Substack newsletter. You can also read my <router-link to="/blog" class="text-gray-700 hover:text-gray-900 underline">technical blog posts</router-link> about software development and business automation.
           </p>
-          <div class="bg-white rounded-lg p-6 sm:p-8 shadow-sm border border-gray-200">
-            <div class="flex items-center justify-center mb-6">
-              <div class="bg-orange-100 p-3 rounded-full">
-                <svg class="w-8 h-8 text-orange-600" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.539 24V10.812H1.46zM12 15.75l-9.077 4.615V12.77H12v2.98zm9.077-2.98v7.596L12 15.75v-2.98h9.077z"/>
-                </svg>
+          <Card class="border-gray-200">
+            <CardContent class="pt-6">
+              <div class="flex items-center justify-center mb-6">
+                <div class="bg-orange-100 p-3 rounded-full">
+                  <svg class="w-8 h-8 text-orange-600" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.539 24V10.812H1.46zM12 15.75l-9.077 4.615V12.77H12v2.98zm9.077-2.98v7.596L12 15.75v-2.98h9.077z"/>
+                  </svg>
+                </div>
               </div>
-            </div>
-            <h3 class="text-xl font-medium text-gray-900 mb-4">LearnedLate Newsletter</h3>
-            <p class="text-gray-600 mb-6">
-              Join thousands of readers getting weekly insights on personal finance, investing, and building a better financial future.
-            </p>
-            <a 
-              href="https://blog.learnedlate.com" target="_blank" rel="noopener noreferrer"
-              class="inline-block bg-orange-600 text-white px-8 py-3 rounded-md font-medium hover:bg-orange-700 transition-colors duration-200"
-              @click="trackSubstackClick"
-            >
-              Read on Substack →
-            </a>
-          </div>
+              <h3 class="text-xl font-medium text-gray-900 mb-4">LearnedLate Newsletter</h3>
+              <p class="text-gray-600 mb-6">
+                Join thousands of readers getting weekly insights on personal finance, investing, and building a better financial future.
+              </p>
+              <Button as-child class="bg-orange-600 text-white hover:bg-orange-700">
+                <a href="https://blog.learnedlate.com" target="_blank" rel="noopener noreferrer" @click="trackSubstackClick">
+                  Read on Substack →
+                </a>
+              </Button>
+            </CardContent>
+          </Card>
         </div>
       </div>
     </section>
@@ -160,45 +178,51 @@
             </router-link>
           </div>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            <article class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-200">
-              <div class="p-6">
+            <Card class="hover:shadow-md transition-shadow duration-200">
+              <CardHeader>
                 <div class="text-sm text-gray-500 mb-2">January 15, 2024</div>
-                <h3 class="text-lg font-medium text-gray-900 mb-3">
+                <CardTitle class="text-lg font-medium text-gray-900">
                   <router-link to="/blog/when-to-hire-fractional-cto" class="hover:text-gray-700">
                     When to Hire a Fractional CTO
                   </router-link>
-                </h3>
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
                 <p class="text-gray-600 text-sm leading-relaxed">
                   Strategic guidance on when startups should consider bringing in fractional CTO expertise...
                 </p>
-              </div>
-            </article>
-            <article class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-200">
-              <div class="p-6">
+              </CardContent>
+            </Card>
+            <Card class="hover:shadow-md transition-shadow duration-200">
+              <CardHeader>
                 <div class="text-sm text-gray-500 mb-2">February 1, 2024</div>
-                <h3 class="text-lg font-medium text-gray-900 mb-3">
+                <CardTitle class="text-lg font-medium text-gray-900">
                   <router-link to="/blog/mvp-development-best-practices" class="hover:text-gray-700">
                     MVP Development Best Practices
                   </router-link>
-                </h3>
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
                 <p class="text-gray-600 text-sm leading-relaxed">
                   Essential strategies for building successful minimum viable products that attract users...
                 </p>
-              </div>
-            </article>
-            <article class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-200">
-              <div class="p-6">
+              </CardContent>
+            </Card>
+            <Card class="hover:shadow-md transition-shadow duration-200">
+              <CardHeader>
                 <div class="text-sm text-gray-500 mb-2">February 15, 2024</div>
-                <h3 class="text-lg font-medium text-gray-900 mb-3">
+                <CardTitle class="text-lg font-medium text-gray-900">
                   <router-link to="/blog/technical-due-diligence-checklist" class="hover:text-gray-700">
                     Technical Due Diligence Checklist
                   </router-link>
-                </h3>
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
                 <p class="text-gray-600 text-sm leading-relaxed">
                   Comprehensive guide for investors evaluating technology assets during acquisitions...
                 </p>
-              </div>
-            </article>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </div>
@@ -219,18 +243,16 @@
             <router-link to="/services" class="text-gray-700 hover:text-gray-900 underline">consulting and fractional CTO services</router-link>.
           </p>
           <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-2 sm:px-4">
-            <router-link 
-              to="/cv" 
-              class="border border-gray-300 text-gray-700 px-4 sm:px-6 py-3 rounded-md hover:border-gray-400 transition-colors duration-200 text-center text-sm sm:text-base"
-            >
-              View CV
-            </router-link>
-            <a 
-              href="mailto:hello@learnedlate.com" 
-              class="bg-gray-900 text-white px-4 sm:px-6 py-3 rounded-md hover:bg-gray-800 transition-colors duration-200 text-center text-sm sm:text-base"
-            >
-              Get in Touch
-            </a>
+            <Button as-child variant="outline">
+              <router-link to="/cv">
+                View CV
+              </router-link>
+            </Button>
+            <Button as-child>
+              <a href="mailto:hello@learnedlate.com">
+                Get in Touch
+              </a>
+            </Button>
           </div>
         </div>
       </div>
@@ -241,6 +263,14 @@
 <script setup lang="ts">
 import SEOHead from '../components/SEOHead.vue'
 import { projects } from '../data/projects'
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card'
+import { Button } from '@/components/ui/button'
 
 // Show first 3 projects as featured
 const featuredProjects = projects.slice(0, 3)
@@ -302,4 +332,4 @@ const homeSchema = [
 section {
   overflow-x: hidden;
 }
-</style> 
+</style>

@@ -17,10 +17,10 @@
             From SEO automation systems to AI-accelerated MVPs and fractional CTO work, I focus on three types of engagements designed to deliver measurable ROI.
           </p>
           <div class="flex flex-wrap justify-center gap-3 sm:gap-4 text-sm text-gray-500 px-4">
-            <span class="bg-white px-3 sm:px-4 py-2 rounded-full shadow-sm">🚀 AI-Accelerated</span>
-            <span class="bg-white px-3 sm:px-4 py-2 rounded-full shadow-sm">🇳🇿 New Zealand Based</span>
-            <span class="bg-white px-3 sm:px-4 py-2 rounded-full shadow-sm">⚡ Rapid Prototyping</span>
-            <span class="bg-white px-3 sm:px-4 py-2 rounded-full shadow-sm">🎯 Results Focused</span>
+            <Badge variant="secondary">🚀 AI-Accelerated</Badge>
+            <Badge variant="secondary">🇳🇿 New Zealand Based</Badge>
+            <Badge variant="secondary">⚡ Rapid Prototyping</Badge>
+            <Badge variant="secondary">🎯 Results Focused</Badge>
           </div>
         </div>
       </div>
@@ -31,84 +31,90 @@
         <div class="grid grid-cols-1 gap-8 sm:gap-12 max-w-4xl mx-auto">
 
           <!-- Pillar 1: SEO Automation Systems -->
-          <div id="seo-automation" class="service-card bg-white rounded-lg border-2 border-blue-500 p-6 sm:p-8 shadow-lg transition-shadow duration-300 relative">
-            <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-blue-600">Pillar 1</div>
-            <h3 class="text-xl sm:text-2xl font-light text-gray-900 mb-4 pr-8">
-              SEO Automation Systems
-            </h3>
-            <p class="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
-              Build SEO automation systems that use your existing content, Google Search Console data, and AI workflows to grow organic traffic. For developers and founders who treat SEO like an engineering system—not a marketing afterthought.
-            </p>
+          <Card id="seo-automation" class="relative border-2 border-blue-500 shadow-lg">
+            <CardHeader>
+              <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-blue-600">Pillar 1</div>
+              <CardTitle class="text-xl sm:text-2xl font-light pr-8">SEO Automation Systems</CardTitle>
+            </CardHeader>
+            <CardContent class="space-y-6">
+              <p class="text-gray-600 leading-relaxed text-sm sm:text-base">
+                Build SEO automation systems that use your existing content, Google Search Console data, and AI workflows to grow organic traffic. For developers and founders who treat SEO like an engineering system—not a marketing afterthought.
+              </p>
 
-            <div class="space-y-3 mb-6">
-              <div class="flex items-start space-x-3">
-                <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600 text-sm sm:text-base"><strong>Perfect for:</strong> Git-based sites with Markdown content, 1-3 projects, founders who want organic growth without manual SEO work.</span>
+              <div class="space-y-3">
+                <div class="flex items-start space-x-3">
+                  <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <span class="text-gray-600 text-sm sm:text-base"><strong>Perfect for:</strong> Git-based sites with Markdown content, 1-3 projects, founders who want organic growth without manual SEO work.</span>
+                </div>
+                <div class="flex items-start space-x-3">
+                  <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <span class="text-gray-600 text-sm sm:text-base"><strong>Deliverables:</strong> Control centre setup, GSC data pipelines, CLI workflows, AI-assisted content specs, and documentation.</span>
+                </div>
               </div>
-              <div class="flex items-start space-x-3">
-                <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600 text-sm sm:text-base"><strong>Deliverables:</strong> Control centre setup, GSC data pipelines, CLI workflows, AI-assisted content specs, and documentation.</span>
-              </div>
-            </div>
-            <div class="pt-4 border-t border-gray-100">
-              <div class="flex flex-wrap gap-3 mb-3">
-                <router-link to="/services/seo-automation" class="inline-flex items-center bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm hover:bg-gray-800">Learn More About SEO Automation</router-link>
-              </div>
-            </div>
-          </div>
+            </CardContent>
+            <CardFooter class="border-t border-gray-100 pt-4">
+              <Button as-child>
+                <router-link to="/services/seo-automation">Learn More About SEO Automation</router-link>
+              </Button>
+            </CardFooter>
+          </Card>
 
           <!-- Pillar 2: AI-Accelerated MVPs & Internal Tools -->
-          <div id="ai-accelerated-mvps" class="service-card bg-white rounded-lg border border-gray-200 p-6 sm:p-8 hover:shadow-lg transition-shadow duration-300 relative">
-            <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-blue-600">Pillar 2</div>
-            <h3 class="text-xl sm:text-2xl font-light text-gray-900 mb-4 pr-8">
-              AI-Accelerated MVPs & Internal Tools
-            </h3>
-            <p class="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
-              You have a software idea but need to get to market quickly without sacrificing quality. I combine deep architectural experience with modern AI tools to build your market-ready MVP in as little as 8 weeks. Avoid costly mistakes and build a product on a foundation that's ready for scale.
-            </p>
+          <Card id="ai-accelerated-mvps" class="relative">
+            <CardHeader>
+              <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-blue-600">Pillar 2</div>
+              <CardTitle class="text-xl sm:text-2xl font-light pr-8">AI-Accelerated MVPs & Internal Tools</CardTitle>
+            </CardHeader>
+            <CardContent class="space-y-6">
+              <p class="text-gray-600 leading-relaxed text-sm sm:text-base">
+                You have a software idea but need to get to market quickly without sacrificing quality. I combine deep architectural experience with modern AI tools to build your market-ready MVP in as little as 8 weeks. Avoid costly mistakes and build a product on a foundation that's ready for scale.
+              </p>
 
-            <div class="space-y-3 mb-6">
-              <div class="flex items-start space-x-3">
-                <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600 text-sm sm:text-base"><strong>Perfect for:</strong> Founders and businesses who need to validate an idea, secure investment, or launch a new product efficiently.</span>
+              <div class="space-y-3">
+                <div class="flex items-start space-x-3">
+                  <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <span class="text-gray-600 text-sm sm:text-base"><strong>Perfect for:</strong> Founders and businesses who need to validate an idea, secure investment, or launch a new product efficiently.</span>
+                </div>
+                <div class="flex items-start space-x-3">
+                  <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <span class="text-gray-600 text-sm sm:text-base"><strong>Deliverables:</strong> A complete, scalable MVP, launch-ready infrastructure, and full intellectual property ownership.</span>
+                </div>
               </div>
-              <div class="flex items-start space-x-3">
-                <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600 text-sm sm:text-base"><strong>Deliverables:</strong> A complete, scalable MVP, launch-ready infrastructure, and full intellectual property ownership.</span>
-              </div>
-            </div>
-            <div class="pt-4 border-t border-gray-100">
-              <div class="flex flex-wrap gap-3 mb-3">
-                <router-link to="/mvp-development" class="inline-flex items-center bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm hover:bg-gray-800">Learn More About MVP Development</router-link>
-              </div>
-            </div>
-          </div>
+            </CardContent>
+            <CardFooter class="border-t border-gray-100 pt-4">
+              <Button as-child>
+                <router-link to="/mvp-development">Learn More About MVP Development</router-link>
+              </Button>
+            </CardFooter>
+          </Card>
 
           <!-- Pillar 3: Solution Architecture & Fractional CTO -->
-          <div id="fractional-cto" class="service-card bg-white rounded-lg border border-gray-200 p-6 sm:p-8 hover:shadow-lg transition-shadow duration-300 relative">
-            <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-blue-600">Pillar 3</div>
-            <h3 class="text-xl sm:text-2xl font-light text-gray-900 mb-4 pr-8">
-              Solution Architecture & Fractional CTO
-            </h3>
-            <p class="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
-              You're making critical technology decisions without senior expertise. You need to scale your team, prepare for due diligence, or align your tech with business goals. I provide the strategic leadership of a full-time CTO for a fraction of the cost.
-            </p>
-            <div class="space-y-3 mb-6">
-              <div class="flex items-start space-x-3">
-                <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600 text-sm sm:text-base"><strong>Perfect for:</strong> Growing startups (Seed to Series A) and established businesses needing to modernize their technology strategy.</span>
+          <Card id="fractional-cto" class="relative">
+            <CardHeader>
+              <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-blue-600">Pillar 3</div>
+              <CardTitle class="text-xl sm:text-2xl font-light pr-8">Solution Architecture & Fractional CTO</CardTitle>
+            </CardHeader>
+            <CardContent class="space-y-6">
+              <p class="text-gray-600 leading-relaxed text-sm sm:text-base">
+                You're making critical technology decisions without senior expertise. You need to scale your team, prepare for due diligence, or align your tech with business goals. I provide the strategic leadership of a full-time CTO for a fraction of the cost.
+              </p>
+              <div class="space-y-3">
+                <div class="flex items-start space-x-3">
+                  <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <span class="text-gray-600 text-sm sm:text-base"><strong>Perfect for:</strong> Growing startups (Seed to Series A) and established businesses needing to modernize their technology strategy.</span>
+                </div>
+                <div class="flex items-start space-x-3">
+                  <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <span class="text-gray-600 text-sm sm:text-base"><strong>Deliverables:</strong> A clear technical roadmap, improved team velocity, investor-ready documentation, and confident technical decision-making.</span>
+                </div>
               </div>
-              <div class="flex items-start space-x-3">
-                <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600 text-sm sm:text-base"><strong>Deliverables:</strong> A clear technical roadmap, improved team velocity, investor-ready documentation, and confident technical decision-making.</span>
-              </div>
-            </div>
-            <div class="pt-4 border-t border-gray-100">
-              <div class="flex flex-wrap gap-3 mb-3">
-                <router-link to="/fractional-cto" class="inline-flex items-center bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm hover:bg-gray-800">Learn More About Fractional CTO Services</router-link>
-              </div>
-            </div>
-          </div>
+            </CardContent>
+            <CardFooter class="border-t border-gray-100 pt-4">
+              <Button as-child>
+                <router-link to="/fractional-cto">Learn More About Fractional CTO Services</router-link>
+              </Button>
+            </CardFooter>
+          </Card>
 
         </div>
       </div>
@@ -120,27 +126,21 @@
           <h2 class="text-2xl sm:text-3xl font-light text-center text-gray-900 mb-8 sm:mb-12">
             Frequently Asked Questions
           </h2>
-          <div class="space-y-4 sm:space-y-6">
-            <div v-for="(faq, index) in faqs" :key="index" class="bg-white rounded-lg shadow-sm">
-              <button
-                @click="toggleFAQ(index)"
-                class="w-full px-2 sm:px-4 lg:px-6 py-3 sm:py-4 text-left flex justify-between items-center hover:bg-gray-50 rounded-lg transition-colors duration-200"
-              >
-                <span class="font-medium text-gray-900 text-sm sm:text-base pr-2">{{ faq.question }}</span>
-                <svg
-                  :class="{ 'rotate-180': expandedFAQ === index }"
-                  class="w-5 h-5 text-gray-500 transition-transform duration-200"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"></path>
-                </svg>
-              </button>
-              <div v-show="expandedFAQ === index" class="px-2 sm:px-4 lg:px-6 pb-3 sm:pb-4">
+          <div class="space-y-3">
+            <Collapsible
+              v-for="(faq, index) in faqs"
+              :key="index"
+              v-model:open="openItems[index]"
+              class="bg-white rounded-lg shadow-sm border"
+            >
+              <CollapsibleTrigger class="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center hover:bg-gray-50 rounded-lg transition-colors duration-200 [&[data-state=open]>svg]:rotate-180">
+                <span class="font-medium text-gray-900 text-sm sm:text-base pr-2 text-left">{{ faq.question }}</span>
+                <ChevronDown class="w-5 h-5 text-gray-500 transition-transform duration-200 shrink-0" />
+              </CollapsibleTrigger>
+              <CollapsibleContent class="px-4 sm:px-6 pb-4">
                 <p class="text-gray-600 leading-relaxed text-sm sm:text-base">{{ faq.answer }}</p>
-              </div>
-            </div>
+              </CollapsibleContent>
+            </Collapsible>
           </div>
         </div>
       </div>
@@ -156,26 +156,34 @@
             Providing AI automation, development, and fractional CTO services across New Zealand's major business centers:
           </p>
           <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
-            <div class="text-center">
-              <div class="text-xl sm:text-2xl mb-2">🏙️</div>
-              <div class="font-medium text-gray-900 text-sm sm:text-base">Auckland</div>
-              <div class="text-xs sm:text-sm text-gray-500">Business Hub</div>
-            </div>
-            <div class="text-center">
-              <div class="text-xl sm:text-2xl mb-2">🏛️</div>
-              <div class="font-medium text-gray-900 text-sm sm:text-base">Wellington</div>
-              <div class="text-xs sm:text-sm text-gray-500">Capital City</div>
-            </div>
-            <div class="text-center">
-              <div class="text-xl sm:text-2xl mb-2">🏔️</div>
-              <div class="font-medium text-gray-900 text-sm sm:text-base">Christchurch</div>
-              <div class="text-xs sm:text-sm text-gray-500">South Island</div>
-            </div>
-            <div class="text-center">
-              <div class="text-xl sm:text-2xl mb-2">🌐</div>
-              <div class="font-medium text-gray-900 text-sm sm:text-base">Remote</div>
-              <div class="text-xs sm:text-sm text-gray-500">Nationwide</div>
-            </div>
+            <Card class="text-center border-0 shadow-sm">
+              <CardContent class="pt-6">
+                <div class="text-xl sm:text-2xl mb-2">🏙️</div>
+                <div class="font-medium text-gray-900 text-sm sm:text-base">Auckland</div>
+                <div class="text-xs sm:text-sm text-gray-500">Business Hub</div>
+              </CardContent>
+            </Card>
+            <Card class="text-center border-0 shadow-sm">
+              <CardContent class="pt-6">
+                <div class="text-xl sm:text-2xl mb-2">🏛️</div>
+                <div class="font-medium text-gray-900 text-sm sm:text-base">Wellington</div>
+                <div class="text-xs sm:text-sm text-gray-500">Capital City</div>
+              </CardContent>
+            </Card>
+            <Card class="text-center border-0 shadow-sm">
+              <CardContent class="pt-6">
+                <div class="text-xl sm:text-2xl mb-2">🏔️</div>
+                <div class="font-medium text-gray-900 text-sm sm:text-base">Christchurch</div>
+                <div class="text-xs sm:text-sm text-gray-500">South Island</div>
+              </CardContent>
+            </Card>
+            <Card class="text-center border-0 shadow-sm">
+              <CardContent class="pt-6">
+                <div class="text-xl sm:text-2xl mb-2">🌐</div>
+                <div class="font-medium text-gray-900 text-sm sm:text-base">Remote</div>
+                <div class="text-xs sm:text-sm text-gray-500">Nationwide</div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </div>
@@ -189,13 +197,18 @@
         <p class="text-gray-300 mb-8 max-w-2xl mx-auto text-sm sm:text-base px-2">
           Let's discuss how SEO automation, AI-accelerated development, or strategic technical leadership can help grow your business.
         </p>
-        <a
-          href="mailto:hello@learnedlate.com"
-          @click="handleContactClick"
-          class="inline-block bg-white text-gray-900 px-6 sm:px-8 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors duration-200"
+        <Button
+          as-child
+          size="lg"
+          class="bg-white text-gray-900 hover:bg-gray-100"
         >
-          Start a Conversation
-        </a>
+          <a
+            href="mailto:hello@learnedlate.com"
+            @click="handleContactClick"
+          >
+            Start a Conversation
+          </a>
+        </Button>
       </div>
     </section>
   </div>
@@ -203,7 +216,22 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
+import { ChevronDown } from 'lucide-vue-next'
 import SEOHead from '../components/SEOHead.vue'
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card'
+import { Button } from '@/components/ui/button'
+import { Badge } from '@/components/ui/badge'
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from '@/components/ui/collapsible'
 
 // FAQ data
 const faqs = [
@@ -233,12 +261,8 @@ const faqs = [
   }
 ]
 
-// FAQ state management
-const expandedFAQ = ref<number | null>(null)
-
-const toggleFAQ = (index: number) => {
-  expandedFAQ.value = expandedFAQ.value === index ? null : index
-}
+// FAQ state management with Collapsible - each item tracks its own state
+const openItems = ref<boolean[]>(new Array(faqs.length).fill(false))
 
 onMounted(() => {
   // PostHog will automatically track page views
