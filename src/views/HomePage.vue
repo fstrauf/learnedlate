@@ -1,8 +1,8 @@
 <template>
   <div class="home-page">
     <SEOHead 
-      title="Florian Strauf - Developer & Tech Consultant"
-      description="Personal portfolio of Florian Strauf, featuring development projects, technical insights, and consulting services."
+      title="Florian Strauf – SEO Automation, AI Development & Fractional CTO"
+      description="Developer and tech consultant helping founders with SEO automation systems, AI-accelerated MVPs, and solution architecture / fractional CTO services from New Zealand."
       url="/"
       type="website"
       :schema="homeSchema"
@@ -13,10 +13,10 @@
       <div class="container mx-auto px-2 sm:px-4 lg:px-6">
         <div class="max-w-4xl mx-auto text-center">
           <h1 class="text-3xl sm:text-4xl md:text-5xl font-light mb-6 leading-tight">
-            Stop losing time to technical problems. Start building momentum.
+            I help founders and teams build software that grows their business.
           </h1>
           <p class="text-lg sm:text-xl text-gray-300 mb-8 leading-relaxed px-2">
-            I help businesses accelerate growth by implementing practical AI automation, building efficient software, and providing clear technical leadership.
+            From SEO automation systems to solid architecture and AI-accelerated MVPs, I bring senior engineering and product thinking without the full-time CTO price tag.
           </p>
           <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-2 sm:px-4">
             <a 
@@ -38,27 +38,27 @@
       <div class="container mx-auto px-2 sm:px-4 lg:px-6 pt-10">
         <div class="max-w-5xl mx-auto">
           <div class="text-center mb-6">
-            <h2 class="text-xl sm:text-2xl font-light">What's your biggest challenge right now?</h2>
+            <h2 class="text-xl sm:text-2xl font-light">How I can help</h2>
           </div>
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
             <div class="rounded-xl border border-white/15 bg-white/5 hover:bg-white/10 transition-colors duration-200 p-5 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06)]">
-              <h4 class="text-white text-base sm:text-lg font-medium">I waste hours on admin tasks</h4>
-              <p class="text-gray-300 text-sm mt-2">Automate invoicing, data entry, and reports</p>
-              <router-link to="/automation" class="inline-flex items-center justify-center mt-4 w-full sm:w-auto bg-white text-gray-900 px-5 py-2.5 rounded-md text-sm font-medium hover:bg-gray-100">
-                Start Automating
+              <h4 class="text-white text-base sm:text-lg font-medium">My site isn't getting enough traffic</h4>
+              <p class="text-gray-300 text-sm mt-2">Build SEO automation systems that use your existing content, Google Search Console data, and AI workflows to grow organic traffic.</p>
+              <router-link to="/services/seo-automation" class="inline-flex items-center justify-center mt-4 w-full sm:w-auto bg-white text-gray-900 px-5 py-2.5 rounded-md text-sm font-medium hover:bg-gray-100">
+                Build My SEO System
               </router-link>
             </div>
             <div class="rounded-xl border border-white/15 bg-white/5 hover:bg-white/10 transition-colors duration-200 p-5 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06)]">
               <h4 class="text-white text-base sm:text-lg font-medium">I need to build software fast</h4>
-              <p class="text-gray-300 text-sm mt-2">Launch your MVP in 8 weeks with AI</p>
-              <router-link to="/services#build-launch" class="inline-flex items-center justify-center mt-4 w-full sm:w-auto bg-white text-gray-900 px-5 py-2.5 rounded-md text-sm font-medium hover:bg-gray-100">
+              <p class="text-gray-300 text-sm mt-2">Launch your MVP or internal tools in weeks using AI-accelerated development and solid architecture.</p>
+              <router-link to="/services#ai-accelerated-mvps" class="inline-flex items-center justify-center mt-4 w-full sm:w-auto bg-white text-gray-900 px-5 py-2.5 rounded-md text-sm font-medium hover:bg-gray-100">
                 Build My MVP
               </router-link>
             </div>
             <div class="rounded-xl border border-white/15 bg-white/5 hover:bg-white/10 transition-colors duration-200 p-5 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06)]">
               <h4 class="text-white text-base sm:text-lg font-medium">I need technical leadership</h4>
-              <p class="text-gray-300 text-sm mt-2">Get strategic guidance without the full-time cost</p>
-              <router-link to="/services#strategic-leadership" class="inline-flex items-center justify-center mt-4 w-full sm:w-auto bg-white text-gray-900 px-5 py-2.5 rounded-md text-sm font-medium hover:bg-gray-100">
+              <p class="text-gray-300 text-sm mt-2">Get a senior architect and fractional CTO to untangle your systems and align tech with the business.</p>
+              <router-link to="/services#fractional-cto" class="inline-flex items-center justify-center mt-4 w-full sm:w-auto bg-white text-gray-900 px-5 py-2.5 rounded-md text-sm font-medium hover:bg-gray-100">
                 Get Strategic Leadership
               </router-link>
             </div>
@@ -212,7 +212,7 @@
             About Me
           </h2>
           <p class="text-gray-600 mb-6 sm:mb-8 leading-relaxed text-base sm:text-lg px-2">
-            I'm a developer and technology consultant based in the Bay of Plenty. After years of <router-link to="/projects" class="text-gray-700 hover:text-gray-900 underline">building complex software</router-link>, I now use those skills to create simple automation solutions that give business owners their time back.
+            I'm a developer and technology consultant based in the Bay of Plenty. After years of <router-link to="/projects" class="text-gray-700 hover:text-gray-900 underline">building complex software</router-link> as a solution architect and fractional CTO, I now help founders with SEO automation systems, modern software architectures, and AI-accelerated product development.
           </p>
           <p class="text-gray-600 mb-6 sm:mb-8 leading-relaxed text-base px-2">
             When I'm not coding, I help businesses navigate technical challenges through 
@@ -263,8 +263,8 @@ const homeSchema = [
     "@type": "WebPage",
     "@id": "https://learnedlate.com/#webpage",
     "url": "https://learnedlate.com",
-    "name": "Florian Strauf - Developer & Tech Consultant",
-    "description": "Personal portfolio of Florian Strauf, featuring development projects, technical insights, and consulting services.",
+    "name": "Florian Strauf – SEO Automation, AI Development & Fractional CTO",
+    "description": "Developer and tech consultant helping founders with SEO automation systems, AI-accelerated MVPs, and solution architecture / fractional CTO services from New Zealand.",
     "inLanguage": "en-NZ",
     "isPartOf": {
       "@type": "WebSite",

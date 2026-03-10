@@ -11,7 +11,67 @@
           </router-link>
 
           <div>
-            <div class="hidden sm:flex space-x-6">
+            <!-- Desktop Navigation -->
+            <div class="hidden lg:flex items-center space-x-6">
+              <router-link to="/" class="hover:text-gray-300 transition-colors">Home</router-link>
+              <router-link to="/projects" class="hover:text-gray-300 transition-colors">Projects</router-link>
+              
+              <!-- Services Dropdown -->
+              <div class="relative group">
+                <button 
+                  class="flex items-center space-x-1 hover:text-gray-300 transition-colors py-2"
+                  @mouseenter="showServicesDropdown = true"
+                  @mouseleave="showServicesDropdown = false"
+                >
+                  <span>Services</span>
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                <div 
+                  v-show="showServicesDropdown"
+                  class="absolute left-0 mt-0 w-64 bg-white rounded-md shadow-lg py-2 z-50"
+                  @mouseenter="showServicesDropdown = true"
+                  @mouseleave="showServicesDropdown = false"
+                >
+                  <router-link 
+                    to="/services" 
+                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                    @click="showServicesDropdown = false"
+                  >
+                    All Services
+                  </router-link>
+                  <div class="border-t border-gray-100 my-1"></div>
+                  <router-link 
+                    to="/services/seo-automation" 
+                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                    @click="showServicesDropdown = false"
+                  >
+                    SEO Automation Systems
+                  </router-link>
+                  <router-link 
+                    to="/services#ai-accelerated-mvps" 
+                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                    @click="showServicesDropdown = false"
+                  >
+                    MVP Development
+                  </router-link>
+                  <router-link 
+                    to="/services#fractional-cto" 
+                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                    @click="showServicesDropdown = false"
+                  >
+                    Fractional CTO & Architecture
+                  </router-link>
+                </div>
+              </div>
+
+              <router-link to="/blog" class="hover:text-gray-300 transition-colors">Blog</router-link>
+              <router-link to="/cv" class="hover:text-gray-300 transition-colors">CV</router-link>
+            </div>
+
+            <!-- Tablet Navigation (simplified, no dropdown) -->
+            <div class="hidden sm:flex lg:hidden space-x-6">
               <router-link to="/" class="hover:text-gray-300 transition-colors">Home</router-link>
               <router-link to="/projects" class="hover:text-gray-300 transition-colors">Projects</router-link>
               <router-link to="/services" class="hover:text-gray-300 transition-colors">Services</router-link>
@@ -19,6 +79,7 @@
               <router-link to="/cv" class="hover:text-gray-300 transition-colors">CV</router-link>
             </div>
 
+            <!-- Mobile Menu Button -->
             <div class="sm:hidden">
               <button 
                 @click="toggleMobileMenu"
@@ -47,6 +108,7 @@
           </div>
         </div>
 
+        <!-- Mobile Menu -->
         <transition
           enter-active-class="transition ease-out duration-200"
           enter-from-class="transform opacity-0 scale-95"
@@ -62,7 +124,13 @@
             <div class="flex flex-col space-y-4">
               <router-link @click="closeMobileMenu" to="/" class="block px-2 py-2 hover:text-gray-300 hover:bg-gray-700 rounded-md">Home</router-link>
               <router-link @click="closeMobileMenu" to="/projects" class="block px-2 py-2 hover:text-gray-300 hover:bg-gray-700 rounded-md">Projects</router-link>
-              <router-link @click="closeMobileMenu" to="/services" class="block px-2 py-2 hover:text-gray-300 hover:bg-gray-700 rounded-md">Services</router-link>
+              <div class="px-2">
+                <div class="text-gray-400 text-xs uppercase tracking-wide mb-2">Services</div>
+                <router-link @click="closeMobileMenu" to="/services" class="block py-2 pl-4 hover:text-gray-300 hover:bg-gray-700 rounded-md">All Services</router-link>
+                <router-link @click="closeMobileMenu" to="/services/seo-automation" class="block py-2 pl-4 hover:text-gray-300 hover:bg-gray-700 rounded-md">SEO Automation</router-link>
+                <router-link @click="closeMobileMenu" to="/services#ai-accelerated-mvps" class="block py-2 pl-4 hover:text-gray-300 hover:bg-gray-700 rounded-md">MVP Development</router-link>
+                <router-link @click="closeMobileMenu" to="/services#fractional-cto" class="block py-2 pl-4 hover:text-gray-300 hover:bg-gray-700 rounded-md">Fractional CTO</router-link>
+              </div>
               <router-link @click="closeMobileMenu" to="/blog" class="block px-2 py-2 hover:text-gray-300 hover:bg-gray-700 rounded-md">Blog</router-link>
               <router-link @click="closeMobileMenu" to="/cv" class="block px-2 py-2 hover:text-gray-300 hover:bg-gray-700 rounded-md">CV</router-link>
             </div>
@@ -80,6 +148,7 @@
           <router-link to="/" class="hover:text-gray-900 hover:underline transition-colors">Home</router-link>
           <router-link to="/projects" class="hover:text-gray-900 hover:underline transition-colors">Projects</router-link>
           <router-link to="/services" class="hover:text-gray-900 hover:underline transition-colors">Services</router-link>
+          <router-link to="/services/seo-automation" class="hover:text-gray-900 hover:underline transition-colors">SEO Automation</router-link>
           <router-link to="/blog" class="hover:text-gray-900 hover:underline transition-colors">Blog</router-link>
           <router-link to="/cv" class="hover:text-gray-900 hover:underline transition-colors">CV</router-link>
          <a href="https://x.com/learnedlate" target="_blank" rel="noopener noreferrer" class="hover:text-gray-900 hover:underline transition-colors">Twitter</a>
@@ -91,6 +160,7 @@
           <router-link to="/" class="hover:text-gray-900 hover:underline transition-colors">Home</router-link>
           <router-link to="/projects" class="hover:text-gray-900 hover:underline transition-colors">Projects</router-link>
           <router-link to="/services" class="hover:text-gray-900 hover:underline transition-colors">Services</router-link>
+          <router-link to="/services/seo-automation" class="hover:text-gray-900 hover:underline transition-colors">SEO Automation</router-link>
           <router-link to="/blog" class="hover:text-gray-900 hover:underline transition-colors">Blog</router-link>
           <router-link to="/cv" class="hover:text-gray-900 hover:underline transition-colors">CV</router-link>
          <a href="https://x.com/learnedlate" target="_blank" rel="noopener noreferrer" class="hover:text-gray-900 hover:underline transition-colors">Twitter</a>
@@ -110,6 +180,8 @@ import { ref } from 'vue'
 
 // Mobile menu state
 const isMobileMenuOpen = ref(false)
+// Services dropdown state
+const showServicesDropdown = ref(false)
 
 const toggleMobileMenu = () => {
   isMobileMenuOpen.value = !isMobileMenuOpen.value

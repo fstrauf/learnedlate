@@ -14,7 +14,7 @@
             Strategic Technology Solutions That Drive Business Results
           </h1>
           <p class="text-lg sm:text-xl text-gray-600 mb-8 leading-relaxed px-2">
-            From automating a single, time-consuming task to providing long-term technical leadership, my services are designed to deliver measurable ROI and give you a sustainable competitive advantage.
+            From SEO automation systems to AI-accelerated MVPs and fractional CTO work, I focus on three types of engagements designed to deliver measurable ROI.
           </p>
           <div class="flex flex-wrap justify-center gap-3 sm:gap-4 text-sm text-gray-500 px-4">
             <span class="bg-white px-3 sm:px-4 py-2 rounded-full shadow-sm">🚀 AI-Accelerated</span>
@@ -30,36 +30,38 @@
               <div class="container mx-auto px-2 sm:px-4 lg:px-6">
         <div class="grid grid-cols-1 gap-8 sm:gap-12 max-w-4xl mx-auto">
 
-          <div id="quick-wins" class="service-card bg-white rounded-lg border border-gray-200 p-6 sm:p-8 hover:shadow-lg transition-shadow duration-300 relative">
-            <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-blue-600">Tier 1</div>
+          <!-- Pillar 1: SEO Automation Systems -->
+          <div id="seo-automation" class="service-card bg-white rounded-lg border-2 border-blue-500 p-6 sm:p-8 shadow-lg transition-shadow duration-300 relative">
+            <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-blue-600">Pillar 1</div>
             <h3 class="text-xl sm:text-2xl font-light text-gray-900 mb-4 pr-8">
-              The Quick Win: AI Automation & Business Implementation
+              SEO Automation Systems
             </h3>
             <p class="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
-              You're spending too much time on repetitive, manual work like data entry, invoicing, or customer follow-ups. I'll identify your single biggest time-drain and build a reliable automation to handle it, saving you 10+ hours a week.
+              Build SEO automation systems that use your existing content, Google Search Console data, and AI workflows to grow organic traffic. For developers and founders who treat SEO like an engineering system—not a marketing afterthought.
             </p>
 
             <div class="space-y-3 mb-6">
               <div class="flex items-start space-x-3">
                 <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600 text-sm sm:text-base"><strong>Perfect for:</strong> Businesses feeling overwhelmed by admin and looking for a fast, high-ROI project to start with.</span>
+                <span class="text-gray-600 text-sm sm:text-base"><strong>Perfect for:</strong> Git-based sites with Markdown content, 1-3 projects, founders who want organic growth without manual SEO work.</span>
               </div>
               <div class="flex items-start space-x-3">
                 <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                <span class="text-gray-600 text-sm sm:text-base"><strong>Deliverables:</strong> A fully functional automation for one core business process, team training, and a clear ROI report.</span>
+                <span class="text-gray-600 text-sm sm:text-base"><strong>Deliverables:</strong> Control centre setup, GSC data pipelines, CLI workflows, AI-assisted content specs, and documentation.</span>
               </div>
             </div>
             <div class="pt-4 border-t border-gray-100">
               <div class="flex flex-wrap gap-3 mb-3">
-                <router-link to="/automation" class="inline-flex items-center bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm hover:bg-gray-800">Learn More About Automation</router-link>
+                <router-link to="/services/seo-automation" class="inline-flex items-center bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm hover:bg-gray-800">Learn More About SEO Automation</router-link>
               </div>
             </div>
           </div>
 
-          <div id="build-launch" class="service-card bg-white rounded-lg border-2 border-blue-500 p-6 sm:p-8 shadow-lg transition-shadow duration-300 relative">
-            <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-blue-600">Tier 2</div>
+          <!-- Pillar 2: AI-Accelerated MVPs & Internal Tools -->
+          <div id="ai-accelerated-mvps" class="service-card bg-white rounded-lg border border-gray-200 p-6 sm:p-8 hover:shadow-lg transition-shadow duration-300 relative">
+            <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-blue-600">Pillar 2</div>
             <h3 class="text-xl sm:text-2xl font-light text-gray-900 mb-4 pr-8">
-              The Product Launch: AI-Accelerated MVP Development
+              AI-Accelerated MVPs & Internal Tools
             </h3>
             <p class="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
               You have a software idea but need to get to market quickly without sacrificing quality. I combine deep architectural experience with modern AI tools to build your market-ready MVP in as little as 8 weeks. Avoid costly mistakes and build a product on a foundation that's ready for scale.
@@ -82,10 +84,11 @@
             </div>
           </div>
 
-          <div id="strategic-leadership" class="service-card bg-white rounded-lg border border-gray-200 p-6 sm:p-8 hover:shadow-lg transition-shadow duration-300 relative">
-            <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-blue-600">Tier 3</div>
+          <!-- Pillar 3: Solution Architecture & Fractional CTO -->
+          <div id="fractional-cto" class="service-card bg-white rounded-lg border border-gray-200 p-6 sm:p-8 hover:shadow-lg transition-shadow duration-300 relative">
+            <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-blue-600">Pillar 3</div>
             <h3 class="text-xl sm:text-2xl font-light text-gray-900 mb-4 pr-8">
-              The Strategic Partnership: Fractional CTO & Technical Leadership
+              Solution Architecture & Fractional CTO
             </h3>
             <p class="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
               You're making critical technology decisions without senior expertise. You need to scale your team, prepare for due diligence, or align your tech with business goals. I provide the strategic leadership of a full-time CTO for a fraction of the cost.
@@ -184,7 +187,7 @@
           Have a Project in Mind?
         </h2>
         <p class="text-gray-300 mb-8 max-w-2xl mx-auto text-sm sm:text-base px-2">
-          Let's discuss how AI-accelerated development can bring your idea to life, or how strategic automation can free up your time.
+          Let's discuss how SEO automation, AI-accelerated development, or strategic technical leadership can help grow your business.
         </p>
         <a
           href="mailto:hello@learnedlate.com"
@@ -202,15 +205,15 @@
 import { ref, onMounted } from 'vue'
 import SEOHead from '../components/SEOHead.vue'
 
-// NEW FAQ for the new service
+// FAQ data
 const faqs = [
+  {
+    question: "How does SEO automation work for developers?",
+    answer: "It's a system that treats SEO like an engineering problem. We connect your Git-based content repository with Google Search Console data, creating automated workflows that identify content improvements, generate specs using AI, and produce Git-ready edits. No manual keyword research or spreadsheet juggling—just a CLI-driven workflow that fits how you already work."
+  },
   {
     question: "How is 'AI-Accelerated Development' different from just using ChatGPT to code?",
     answer: "It's the difference between having a powerful engine and having a skilled driver with a map. AI tools generate code quickly, but they lack strategic context. My service combines that speed with experienced architectural planning, quality control, and a focus on your business goals. This ensures the final product is not just built fast, but built right—scalable, secure, and ready for the market."
-  },
-  {
-    question: "How do you help businesses cut through AI confusion and actually implement useful automation?",
-    answer: "I start with a practical AI assessment to identify why current AI initiatives aren't working, then implement specific, measurable solutions like custom ChatGPT workflows, process automation, and team training. Unlike generic AI consultants, I focus on immediate business value with clear ROI tracking and measurable outcomes."
   },
   {
     question: "What exactly is a fractional CTO and how does it work?",
@@ -250,6 +253,21 @@ const servicesSchema = [
   {
     "@context": "https://schema.org",
     "@type": "Service",
+    "name": "SEO Automation Systems",
+    "description": "Build SEO automation systems that use your existing content, Google Search Console data, and AI workflows to grow organic traffic.",
+    "provider": {
+      "@type": "Person",
+      "@id": "https://learnedlate.com/#person"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "New Zealand"
+    },
+    "serviceType": "SEO Consulting"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
     "name": "AI-Accelerated Development",
     "description": "Rapidly build and launch your Minimum Viable Product (MVP) or custom software using a combination of expert development oversight and AI-powered coding tools.",
     "provider": {
@@ -275,21 +293,6 @@ const servicesSchema = [
         "priceCurrency": "NZD"
       }
     ]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "AI Automation & Business Implementation",
-    "description": "Practical AI automation solutions and ChatGPT implementation for New Zealand businesses with measurable results in 90 days",
-    "provider": {
-      "@type": "Person",
-      "@id": "https://learnedlate.com/#person"
-    },
-    "areaServed": {
-      "@type": "Country",
-      "name": "New Zealand"
-    },
-    "serviceType": "AI Consulting"
   },
   {
     "@context": "https://schema.org",

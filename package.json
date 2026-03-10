@@ -14,6 +14,7 @@
     "build:server": "vite build --outDir dist/server --ssr src/entry-server.ts",
     "prerender": "node scripts/prerender.js",
     "generate-sitemap": "node scripts/generate-sitemap.js",
+    "cv:pdf": "node scripts/cv-to-pdf.mjs",
     "verify-prerender": "node scripts/verify-prerender.js",
     "preview": "vite preview"
   },
@@ -22,7 +23,6 @@
     "@vercel/node": "^5.5.15",
     "@vueuse/head": "^2.0.0",
     "lodash-es": "^4.17.21",
-    "marked": "^15.0.11",
     "posthog-js": "^1.254.0",
     "stripe": "^20.0.0",
     "vue": "^3.5.13",
@@ -38,6 +38,9 @@
     "concurrently": "^9.2.1",
     "dotenv": "^17.2.1",
     "esbuild": "^0.27.3",
+    
+    "marked": "^15.0.11",
+    "playwright": "^1.58.2",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.0.0",
     "terser": "^5.43.0",

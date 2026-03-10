@@ -16,6 +16,7 @@ import AiImplementationPage from '../views/AiImplementationPage.vue'
 import CheckoutSuccessPage from '../views/CheckoutSuccessPage.vue'
 import CheckoutCancelPage from '../views/CheckoutCancelPage.vue'
 import SeoAutomationPage from '../views/SeoAutomationPage.vue'
+import SeoAutomationSystemsPage from '../views/SeoAutomationSystemsPage.vue'
 import CustomSoftwareDevelopmentCompanyPage from '../views/CustomSoftwareDevelopmentCompanyPage.vue'
 import CustomSoftwareDevelopmentServicesPage from '../views/CustomSoftwareDevelopmentServicesPage.vue'
 import FractionalCtoServicesPage from '../views/FractionalCtoServicesPage.vue'
@@ -130,6 +131,12 @@ const routes: RouteRecordRaw[] = [
     name: 'SeoAutomation',
     component: SeoAutomationPage,
     meta: { title: 'SEO Automation Package - Florian Strauf' }
+  },
+  {
+    path: '/services/seo-automation',
+    name: 'SeoAutomationSystems',
+    component: SeoAutomationSystemsPage,
+    meta: { title: 'SEO Automation Systems - Florian Strauf' }
   },
   {
     path: '/custom-software-development-company',
