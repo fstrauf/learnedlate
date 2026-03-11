@@ -1,5 +1,9 @@
 <template>
   <div class="min-h-screen bg-gray-100 py-6 sm:py-8 overflow-x-hidden">
+    <SEOHead
+      title="Life Calendar - Visualize Your Time"
+      description="An interactive life calendar visualization tool. See your weeks at a glance and reflect on how you spend your time."
+    />
     <div class="container mx-auto px-2 sm:px-4 lg:px-6">
         <router-link to="/projects" class="text-blue-600 hover:text-blue-800 hover:underline mb-4 sm:mb-6 inline-block text-sm sm:text-base">&larr; Back to Projects</router-link>
         <LifeCalendarWrapper />
@@ -8,6 +12,7 @@
 </template>
 
 <script setup lang="ts">
+import SEOHead from '../components/SEOHead.vue';
 import LifeCalendarWrapper from '../components/life-calendar/LifeCalendarWrapper.vue';
 </script>
 

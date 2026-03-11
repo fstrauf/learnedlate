@@ -1,5 +1,9 @@
 <template>
   <div class="min-h-screen flex items-center justify-center px-4">
+    <SEOHead
+      title="Payment Cancelled"
+      description="Your payment was cancelled. No charges have been made to your account."
+    />
     <div class="max-w-md w-full text-center">
       <div class="mb-6">
         <svg class="w-16 h-16 text-red-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -20,5 +24,6 @@
 </template>
 
 <script setup lang="ts">
+import SEOHead from '../components/SEOHead.vue'
 // Cancel page - user will see this if they cancel payment
 </script>

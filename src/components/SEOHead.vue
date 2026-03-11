@@ -5,6 +5,7 @@
 <script setup lang="ts">
 import { useHead } from '@vueuse/head'
 import { computed } from 'vue'
+import { useRoute } from 'vue-router'
 
 interface SEOProps {
   title?: string
@@ -26,10 +27,12 @@ const props = withDefaults(defineProps<SEOProps>(), {
   title: 'Florian Strauf - Fractional CTO & Technical Consultant',
   description: 'Strategic technical consulting for New Zealand businesses. I provide fractional CTO services, AI automation, and AI-accelerated MVP development to save you time and accelerate your growth.',
   image: '/learndlate.png',
-  url: 'https://www.learnedlate.com',
+  url: undefined, // Let it be computed from current route
   type: 'website',
   schema: () => []
 })
+
+const route = useRoute()
 
 const fullTitle = computed(() => 
   props.title.includes('Florian Strauf') 
@@ -37,9 +40,15 @@ const fullTitle = computed(() =>
     : `${props.title} | Florian Strauf`
 )
 
-const canonicalUrl = computed(() => 
-  props.url.startsWith('http') ? props.url : `https://www.learnedlate.com${props.url}`
-)
+const canonicalUrl = computed(() => {
+  // If URL prop is provided, use it
+  if (props.url) {
+    return props.url.startsWith('http') ? props.url : `https://www.learnedlate.com${props.url}`
+  }
+  // Otherwise, use the current route path
+  const path = route.path
+  return `https://www.learnedlate.com${path}`
+})
 
 // Base organization schema
 const organizationSchema = {

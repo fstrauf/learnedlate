@@ -1,5 +1,9 @@
 <template>
   <div class="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
+    <SEOHead
+      title="Payment Successful - SEO Automation Package"
+      description="Your payment was successful. Download your SEO Automation Package and get started with the implementation guide."
+    />
     <div class="container mx-auto px-4 py-20">
       <div class="max-w-2xl mx-auto">
         <!-- Success State -->
@@ -189,6 +193,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
+import SEOHead from '../components/SEOHead.vue';
 
 type PaymentStatus = 'loading' | 'paid' | 'error';
 

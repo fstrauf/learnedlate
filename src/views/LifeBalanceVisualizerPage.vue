@@ -1,5 +1,9 @@
 <template>
   <div class="max-w-6xl mx-auto p-2 sm:p-4 lg:p-6 bg-gray-50 min-h-screen overflow-x-hidden">
+    <SEOHead
+      title="Life Balance Visualizer"
+      description="An interactive tool to visualize and explore the balance between future striving and present life enjoyment. Find your optimal life balance."
+    />
     <router-link to="/projects" class="text-blue-600 hover:text-blue-800 hover:underline mb-4 sm:mb-6 inline-block text-sm sm:text-base">&larr; Back to Projects</router-link>
     
     <h1 class="text-2xl sm:text-3xl font-bold text-center mb-6 sm:mb-8 text-gray-800">
@@ -220,6 +224,7 @@
 
 <script setup lang="ts">
 import { ref, computed, watch } from 'vue';
+import SEOHead from '../components/SEOHead.vue';
 
 const values = ref({
   futureStriving: 5,

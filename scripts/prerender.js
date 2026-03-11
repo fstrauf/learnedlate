@@ -78,19 +78,20 @@ async function prerender() {
         console.log(`  📝 Prerendering ${route}...`)
 
         // Render the app for this route
-        const { app, ctx } = await render(route, manifest)
-        
-        // Render to string
-        const { renderToString } = await import('vue/server-renderer')
-        const appHtml = await renderToString(app, ctx)
+        const { appHtml, headPayload, ctx } = await render(route, manifest)
 
         // Get the preload links for this route
         const preloadLinks = renderPreloadLinks(ctx.modules || [], manifest)
 
-        // Inject the app HTML into the template
+        // Inject the app HTML and head tags into the template
         let html = template
           .replace('<!--app-html-->', appHtml)
           .replace('<!--preload-links-->', preloadLinks)
+
+        // Inject head tags (already rendered as HTML string) before closing head tag
+        if (headPayload.headTags) {
+          html = html.replace('</head>', `    ${headPayload.headTags}\n  </head>`)
+        }
 
         // Add hydration data script
         const hydrationScript = `<script>window.__INITIAL_STATE__=${JSON.stringify({ route }).replace(/</g, '\\u003c')}</script>`

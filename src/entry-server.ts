@@ -1,4 +1,6 @@
 import { createApp } from './main'
+import { renderToString } from 'vue/server-renderer'
+import { renderSSRHead } from '@unhead/vue/server'
 
 import articlesData from '../articles.json'
 
@@ -29,7 +31,7 @@ export const articleRoutes = publishedArticles.map(a => `/blog/${a.url_slug}`)
 export const allRoutes = [...staticRoutes, ...articleRoutes]
 
 export async function render(url: string, _manifest: Record<string, string[]> = {}) {
-  const { app, router } = createApp()
+  const { app, router, head } = createApp()
   
   // Set the router to the desired URL
   await router.push(url)
@@ -41,10 +43,19 @@ export async function render(url: string, _manifest: Record<string, string[]> = 
   // SSR context for vue
   const ctx: { modules?: string[] } = {}
   
+  // Render the app to string
+  const appHtml = await renderToString(app, ctx)
+  
+  // Render head tags - access the underlying unhead instance
+  const headPayload = await renderSSRHead((head as any).unhead || head)
+  
   return {
     app,
     router,
+    head,
     ctx,
     matchedComponents,
+    appHtml,
+    headPayload,
   }
 }

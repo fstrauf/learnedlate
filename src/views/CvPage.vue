@@ -1,5 +1,9 @@
 <template>
   <div class="min-h-screen bg-gray-50 py-6 sm:py-8 overflow-x-hidden">
+    <SEOHead
+      title="CV - Florian Strauf"
+      description="Professional CV of Florian Strauf - Fractional CTO, Technical Consultant, and Solution Architect based in New Zealand."
+    />
     <div class="container mx-auto px-2 sm:px-4 lg:px-6">
       <div class="prose prose-sm sm:prose-base lg:prose-lg bg-white p-4 sm:p-6 lg:p-8 rounded-lg shadow-md max-w-4xl mx-auto 
                   prose-headings:text-gray-900 prose-headings:font-semibold
@@ -18,6 +22,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import { marked } from 'marked'
+import SEOHead from '../components/SEOHead.vue'
 import cvMarkdownRaw from '../../cv.md?raw'
 
 const cvHtml = ref('')
