@@ -2407,6 +2407,11 @@
           "target_id": 65,
           "anchor_text": "Free Software Development Agreement Template",
           "url": "/blog/free_software_development_agreement_template_for_nz_startups_2025/"
+        },
+        {
+          "target_id": 73,
+          "anchor_text": "Part-Time CTO Hourly Rates in New Zealand: 2026 Market Guide",
+          "url": "/blog/part-time-cto-hourly-rates-nz-2026-guide/"
         }
       ]
     },
@@ -2465,6 +2470,11 @@
           "target_id": 63,
           "anchor_text": "The Non-Technical Founder's Complete Guide to Hiring Your First Developer",
           "url": "/blog/the_non_technical_founders_complete_guide_to_hiring_your_first_developer/"
+        },
+        {
+          "target_id": 73,
+          "anchor_text": "Part-Time CTO Hourly Rates in New Zealand: 2026 Market Guide",
+          "url": "/blog/part-time-cto-hourly-rates-nz-2026-guide/"
         }
       ]
     },
@@ -2609,6 +2619,11 @@
           "target_id": 63,
           "anchor_text": "The Non-Technical Founder's Complete Guide to Hiring Your First Developer",
           "url": "/blog/the_non_technical_founders_complete_guide_to_hiring_your_first_developer/"
+        },
+        {
+          "target_id": 73,
+          "anchor_text": "Part-Time CTO Hourly Rates in New Zealand: 2026 Market Guide",
+          "url": "/blog/part-time-cto-hourly-rates-nz-2026-guide/"
         }
       ]
     },
@@ -2866,6 +2881,11 @@
           "target_id": 70,
           "anchor_text": "Product Management for Non-Technical Founders: A Practical Guide",
           "url": "/blog/product_management_for_non_technical_founders_a_practical_guide/"
+        },
+        {
+          "target_id": 73,
+          "anchor_text": "Part-Time CTO Hourly Rates in New Zealand: 2026 Market Guide",
+          "url": "/blog/part-time-cto-hourly-rates-nz-2026-guide/"
         }
       ]
     },
@@ -3604,6 +3624,176 @@
           "target_id": 69,
           "anchor_text": "Mobile App vs Web App: Which Should Your Startup Build First?",
           "url": "/blog/mobile_app_vs_web_app_which_should_your_startup_build_first/"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "title": "How to Hire Developers in New Zealand: A Startup Founder's Complete Guide to the Local Tech Talent Market",
+      "url_slug": "how_to_hire_developers_in_new_zealand_a_startup_founders_complete_guide_to_the_local_tech_talent_market",
+      "file": "./src/blog/posts/071_how_to_hire_developers_in_new_zealand_a_startup_founders_complete_guide_to_the_local_tech_talent_market.mdx",
+      "target_keyword": "hire developers new zealand",
+      "keyword_difficulty": "0",
+      "target_volume": 0,
+      "published_date": "2026-03-12",
+      "word_count": 176,
+      "status": "published",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "hiring",
+      "cluster_role": "support",
+      "internal_links": [
+        {
+          "target_id": 55,
+          "anchor_text": "How to Hire Developers for Your Startup: A Non-Technical Founder's Complete Guide",
+          "url": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide/"
+        },
+        {
+          "target_id": 58,
+          "anchor_text": "When to Hire Your First Developer: A Startup Founder's Timing & Readiness Guide",
+          "url": "/blog/when_to_hire_your_first_developer_a_startup_founders_timing_readiness_guide/"
+        },
+        {
+          "target_id": 63,
+          "anchor_text": "The Non-Technical Founder's Complete Guide to Hiring Your First Developer",
+          "url": "/blog/the_non_technical_founders_complete_guide_to_hiring_your_first_developer/"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "title": "AI Automation for Trades Businesses: How Plumbers, Electricians & Builders Are Saving 10+ Hours a Week",
+      "url_slug": "ai_automation_for_trades_businesses_how_plumbers_electricians_builders_are_saving_10_hours_a_week",
+      "file": "./src/blog/posts/072_ai_automation_for_trades_businesses_how_plumbers_electricians_builders_are_saving_10_hours_a_week.mdx",
+      "target_keyword": "ai automation trades business",
+      "keyword_difficulty": "0",
+      "target_volume": 0,
+      "published_date": "2026-03-13",
+      "word_count": 147,
+      "status": "published",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "ai-automation",
+      "cluster_role": "support",
+      "internal_links": [
+        {
+          "target_id": 8,
+          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
+          "url": "/blog/best-ai-tools-for-business-2025/"
+        },
+        {
+          "target_id": 51,
+          "anchor_text": "AI Automation for Small Business Owners: 2025 Implementation Playbook",
+          "url": "/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Part-Time CTO Hourly Rates in New Zealand: 2026 Market Guide for Startups",
+      "url_slug": "part-time-cto-hourly-rates-nz-2026-guide",
+      "file": "./src/blog/posts/073_part_time_cto_hourly_rates_in_new_zealand_2026_market_guide_for_startups.mdx",
+      "target_keyword": "part time cto hourly rate nz",
+      "keyword_difficulty": "0",
+      "target_volume": 0,
+      "published_date": "2026-02-27",
+      "word_count": 181,
+      "status": "published",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "fractional-cto",
+      "cluster_role": "support",
+      "internal_links": [
+        {
+          "target_id": 45,
+          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
+          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
+        },
+        {
+          "target_id": 46,
+          "anchor_text": "How Much Does a Fractional CTO Cost in 2025? Complete Pricing Guide",
+          "url": "/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide/"
+        },
+        {
+          "target_id": 49,
+          "anchor_text": "When to Hire Your First CTO: A Startup Founder's Timing Guide",
+          "url": "/blog/when_to_hire_your_first_cto_a_startup_founders_timing_guide/"
+        },
+        {
+          "target_id": 53,
+          "anchor_text": "What Does a Fractional CTO Do Exactly? Roles, Responsibilities & Deliverables",
+          "url": "/blog/what_does_a_fractional_cto_do_exactly_roles_responsibilities_deliverables/"
+        },
+        {
+          "target_id": 55,
+          "anchor_text": "How to Hire Developers for Your Startup: A Non-Technical Founder's Complete Guide",
+          "url": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide/"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Startup Cash Runway Calculator Template (Free Download): Plan Your Burn Rate in Minutes",
+      "url_slug": "startup_cash_runway_calculator_template_free_download_plan_your_burn_rate_in_minutes",
+      "file": "./src/blog/posts/074_startup_cash_runway_calculator_template_free_download_plan_your_burn_rate_in_minutes.mdx",
+      "target_keyword": "startup cash runway calculator",
+      "keyword_difficulty": "0",
+      "target_volume": 0,
+      "published_date": "2026-03-14",
+      "word_count": 197,
+      "status": "published",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "startup-finance",
+      "cluster_role": "support",
+      "internal_links": [
+        {
+          "target_id": 64,
+          "anchor_text": "Startup Runway Calculator: How to Plan Your Cash Runway (NZ-Focused Template)",
+          "url": "/blog/startup_runway_calculator_how_to_plan_your_cash_runway_nz_focused_template/"
+        },
+        {
+          "target_id": 50,
+          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
+          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Fractional CTO for SaaS Startups: Scaling Your Platform Without the Full-Time Price Tag",
+      "url_slug": "fractional_cto_for_saas_startups_scaling_your_platform_without_the_full_time_price_tag",
+      "file": "./src/blog/posts/075_fractional_cto_for_saas_startups_scaling_your_platform_without_the_full_time_price_tag.mdx",
+      "target_keyword": "fractional cto saas startup",
+      "keyword_difficulty": "0",
+      "target_volume": 0,
+      "published_date": "2026-03-15",
+      "word_count": 155,
+      "status": "published",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "fractional-cto",
+      "cluster_role": "support",
+      "internal_links": [
+        {
+          "target_id": 45,
+          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
+          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
+        },
+        {
+          "target_id": 46,
+          "anchor_text": "How Much Does a Fractional CTO Cost in 2025? Complete Pricing Guide",
+          "url": "/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide/"
+        },
+        {
+          "target_id": 53,
+          "anchor_text": "What Does a Fractional CTO Do Exactly? Roles, Responsibilities & Deliverables",
+          "url": "/blog/what_does_a_fractional_cto_do_exactly_roles_responsibilities_deliverables/"
+        },
+        {
+          "target_id": 71,
+          "anchor_text": "How to Hire Developers in New Zealand: A Startup Founder's Complete Guide",
+          "url": "/blog/how_to_hire_developers_in_new_zealand_a_startup_founders_complete_guide_to_the_local_tech_talent_market/"
         }
       ]
     }

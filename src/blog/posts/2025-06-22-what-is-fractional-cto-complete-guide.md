@@ -301,6 +301,7 @@ The question isn't whether you can afford a fractional CTO—it's whether you ca
 
 *Need help evaluating whether a fractional CTO is right for your startup? [Get in touch](/services) for a complimentary technical leadership assessment.*
 - [New Zealand Startups: Your Complete Fractional CTO Guide](/blog/2025-06-22-nz-startups-fractional-cto-guide/)
+- [Part-Time CTO Hourly Rates in New Zealand: 2026 Market Guide](/blog/part-time-cto-hourly-rates-nz-2026-guide/)
 - [How Much Does a Fractional CTO Cost in 2025? Complete Pricing Guide](/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide/)
 - [Interim CTO vs Fractional CTO: Which One Does Your Startup Need?](/blog/interim_cto_vs_fractional_cto_which_one_does_your_startup_need/)
 - [What Does a Fractional CTO Do Exactly? Roles, Responsibilities & Deliverables](/blog/what_does_a_fractional_cto_do_exactly_roles_responsibilities_deliverables/)
