@@ -4,8 +4,6 @@ date: "2025-07-15"
 summary: "Cut through the digital marketing noise with this practical guide designed specifically for New Zealand small businesses ready to grow online."
 ---
 
-# Digital Marketing Services for NZ Small Businesses: Your Practical Guide
-
 Here's the reality: most New Zealand small businesses are drowning in digital marketing advice that doesn't fit their world.
 
 The courses cost $840. The degrees take three years. But your customers are searching for your services right now, and you need results that matter to your bottom line - not academic theory.

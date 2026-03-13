@@ -4,8 +4,6 @@ date: "2025-07-10"
 summary: "Navigate New Zealand's free accounting software options with this comprehensive comparison guide covering GST compliance, features, and upgrade paths."
 ---
 
-# Free Accounting Software for NZ Businesses: Complete 2025 Guide
-
 Your business needs proper accounting, but spending $50+ monthly on software feels premature when you're still building revenue.
 
 Here's what the current "free accounting software NZ" results won't tell you: most free options come with significant limitations that could cost you more than paid software in the long run.

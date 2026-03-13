@@ -4,8 +4,6 @@ date: "2025-08-08"
 summary: "A comprehensive guide to evaluating startup technology stacks, identifying red flags, and conducting rapid technical assessments for investment decisions."
 ---
 
-# Technical Due Diligence Checklist for Startup Investors
-
 Your $500K investment decision shouldn't hinge on a founder's PowerPoint deck.
 
 While financial due diligence gets all the attention, technical due diligence often determines whether a startup can actually deliver on its promises. Yet most investors skip the technical assessment or delegate it to someone who's never built a scalable system.

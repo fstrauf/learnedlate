@@ -4,8 +4,6 @@ date: "2025-01-28"
 summary: "Technical risk assessment and mitigation strategies for custom software projects, showing how AI-assisted architecture review prevents the common failures that kill projects."
 ---
 
-# Why Most Custom Software Projects Fail (And How AI Prevents It)
-
 The statistics are sobering: **68% of custom software projects fail to deliver on time, on budget, or with the promised functionality.**
 
 After working with dozens of businesses on custom software projects, I've seen the same failure patterns repeat over and over. But here's what's changed: AI tools now allow us to identify and prevent these failures before they happen.

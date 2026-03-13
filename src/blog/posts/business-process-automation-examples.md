@@ -6,8 +6,6 @@ keyword: "business process automation examples"
 difficulty: 7
 ---
 
-# 15+ Business Process Automation Examples (Real Companies, Real Results)
-
 You know automation works. The question is: where do you actually start?
 
 Most business process automation guides throw around buzzwords like "digital transformation" without showing you what real companies actually automated. This article does the opposite. You'll see 15+ concrete examples from real businesses, complete with before/after metrics, implementation details, and honest ROI numbers.

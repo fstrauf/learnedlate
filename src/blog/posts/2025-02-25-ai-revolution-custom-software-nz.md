@@ -4,8 +4,6 @@ date: "2025-02-25"
 summary: "How AI is making custom software development affordable for small businesses in New Zealand, with 60% cost reductions and accelerated timelines."
 ---
 
-# Custom Software Development in New Zealand: The AI Revolution
-
 For decades, custom software development has been the exclusive domain of large enterprises with deep pockets. A typical custom software project in New Zealand would cost between $80,000 and $250,000, putting it well beyond the reach of most small businesses and startups.
 
 That paradigm is changing rapidly, thanks to AI.

@@ -4,8 +4,6 @@ date: "2025-03-18"
 summary: "Local case studies and success stories showing how Auckland startups build custom software solutions on startup budgets, from MVP to full product development."
 ---
 
-# Auckland Startups: Custom Software on a Budget
-
 Auckland's startup ecosystem is thriving, but there's a persistent myth that's holding many founders back: "We can't afford custom software until we raise Series A."
 
 This couldn't be further from the truth in 2025.

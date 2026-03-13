@@ -4,8 +4,6 @@ date: "2025-05-28"
 summary: "Breaking down the $80k barrier with AI tools. Real examples of $20k-$40k custom solutions and ROI calculator for small business software investment."
 ---
 
-# Small Business Custom Software: No Longer Just for Enterprise
-
 The most common objection I hear from small business owners about custom software is simple: "That's not for businesses like ours."
 
 I get it. For decades, custom software has been synonymous with massive enterprise projects, six-figure budgets, and year-long implementations. But that world no longer exists.

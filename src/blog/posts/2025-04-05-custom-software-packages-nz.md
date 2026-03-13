@@ -4,8 +4,6 @@ date: "2025-04-05"
 summary: "Clear pricing tiers and service packages for AI-accelerated custom software development, designed specifically for New Zealand small businesses and startups."
 ---
 
-# Custom Software Development Packages for NZ Small Business
-
 The biggest barrier to custom software adoption isn't technical complexity—it's pricing uncertainty. Traditional custom development comes with vague estimates, scope creep, and budget surprises.
 
 AI-accelerated development changes this entirely. We can now offer fixed-price packages with predictable outcomes, making custom software as accessible as any other business investment. This approach specifically addresses [why most custom software projects fail](/blog/posts/2025-01-28-why-custom-software-projects-fail/).

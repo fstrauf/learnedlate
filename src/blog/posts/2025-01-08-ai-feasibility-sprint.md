@@ -4,8 +4,6 @@ date: "2025-08-01"
 summary: "Your signature low-risk validation service for custom software projects. Technical due diligence with AI assistance and proof-of-concept development process."
 ---
 
-# The AI Feasibility Sprint: De-risk Your Custom Software Project
-
 The biggest mistake businesses make with custom software isn't choosing the wrong technology or hiring the wrong developers. It's committing to a major investment without truly understanding what they're building.
 
 The AI Feasibility Sprint solves this problem by giving you complete clarity on scope, timeline, cost, and technical feasibility—before you invest in full development.

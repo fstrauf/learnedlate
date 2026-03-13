@@ -7,8 +7,6 @@ tags: ["AI Strategy", "Business Planning", "Implementation", "ROI", "Small Busin
 author: "Florian Strauf"
 ---
 
-# AI Strategy for Small Business: Cut Through the Hype with This 90-Day Action Plan
-
 "We need an AI strategy" is the new "we need a website."
 
 Every business leader knows they should be doing something with AI, but most are paralyzed by the overwhelming options, conflicting advice, and fear of making expensive mistakes.
