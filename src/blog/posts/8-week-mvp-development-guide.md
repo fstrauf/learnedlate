@@ -1,7 +1,11 @@
 ---
 title: "8-Week MVP Development: Why Speed Beats Perfection"
 date: "2025-07-28"
+excerpt: "Learn how to build a revenue-generating MVP in just 8 weeks. Step-by-step framework for founders using AI-accelerated development to validate ideas fast."
 summary: "A technical founder's guide to delivering revenue-generating MVPs in 8 weeks using AI-accelerated development and proven frameworks."
+keyword: "8 week mvp development"
+category: "MVP Development"
+tags: ["MVP", "Startup", "AI Development", "Rapid Prototyping", "Product Market Fit"]
 ---
 
 Your brilliant idea is worthless until someone pays for it.

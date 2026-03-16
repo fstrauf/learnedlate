@@ -6,6 +6,7 @@
       "url_slug": "cto-responsibilities-startup",
       "file": "./src/blog/posts/cto-responsibilities-startup.mdx",
       "target_keyword": "cto responsibilities startup",
+      "excerpt": "What a CTO actually does changes based on your stage. Here's what technical leadership looks like from pre-product through scale.",
       "keyword_difficulty": "0",
       "target_volume": 0,
       "published_date": "2025-10-02",
@@ -112,6 +113,7 @@
       "keyword_difficulty": "0",
       "target_volume": 0,
       "published_date": "2025-09-30",
+      "last_modified": "2026-03-17",
       "word_count": 1477,
       "status": "published",
       "content_gaps_addressed": [],
@@ -186,6 +188,7 @@
       "estimated_traffic_monthly": "",
       "cluster": "ai-automation",
       "cluster_role": "support",
+      "canonical_url": "https://www.learnedlate.com/blog/no-code-automation-for-small-business",
       "internal_links": [
         {
           "target_id": 8,
@@ -225,6 +228,10 @@
       "published_date": "2025-09-26",
       "word_count": 1643,
       "status": "published",
+      "meta_title": "AI Tools for Business Automation: The Complete Stack 2025",
+      "meta_description": "Build a complete AI-powered automation stack for your business. Discover the best tools for workflow automation, data processing, and decision making.",
+      "og_image": "/og-images/ai-tools-for-business-automation.png",
+      "canonical_url": "https://www.learnedlate.com/blog/ai-tools-for-business-automation",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "cluster": "ai-automation",
@@ -258,6 +265,7 @@
       "url_slug": "what-is-business-process-automation",
       "file": "./src/blog/posts/what-is-business-process-automation.mdx",
       "target_keyword": "what is business process automation",
+      "excerpt": "Business process automation (BPA) isn't just for enterprises. Learn what it actually is, why small businesses use it, and whether it makes sense for you.",
       "keyword_difficulty": "0",
       "target_volume": 0,
       "published_date": "2025-09-24",
@@ -435,7 +443,7 @@
         {
           "target_id": 4,
           "anchor_text": "AI Tools for Business Automation: The Complete Stack",
-          "url": "/blog/ai-tools-for-business-automation/"
+          "url": "/blog/ai-tools-for-business-automation"
         },
         {
           "target_id": 5,
@@ -523,7 +531,7 @@
         {
           "target_id": 14,
           "anchor_text": "business process automation examples",
-          "url": "./business-process-automation-examples.md"
+          "url": "/blog/business-process-automation-examples/"
         },
         {
           "target_id": 30,
@@ -563,6 +571,7 @@
       "published_date": "2025-08-13",
       "word_count": 2945,
       "status": "published",
+      "meta_description": "What does custom software actually cost? Get transparent pricing for NZ projects, from MVPs to enterprise systems, plus the hidden costs most vendors won't tell you about.",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "cluster": "custom-software",
@@ -571,7 +580,7 @@
         {
           "target_id": 18,
           "anchor_text": "8-week MVP development guide",
-          "url": "./8-week-mvp-development-guide.md"
+          "url": "/blog/8-week-mvp-development-guide/"
         },
         {
           "target_id": 37,
@@ -581,7 +590,7 @@
         {
           "target_id": 11,
           "anchor_text": "complete guide to custom software development",
-          "url": "./what-is-custom-software-development-complete-guide.md"
+          "url": "/blog/what-is-custom-software-development-complete-guide/"
         },
         {
           "target_id": 43,
@@ -616,6 +625,7 @@
       "published_date": "2025-08-09",
       "word_count": 2381,
       "status": "published",
+      "meta_description": "Custom software development means building tailored applications for your specific business needs. Learn when it makes sense, what it costs, and how to avoid the common mistakes that derail projects.",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "cluster": "custom-software",
@@ -629,7 +639,7 @@
         {
           "target_id": 10,
           "anchor_text": "complete custom software development cost guide",
-          "url": "./custom-software-development-cost-breakdown.md"
+          "url": "/blog/custom-software-development-cost-breakdown/"
         },
         {
           "target_id": 43,
@@ -639,7 +649,7 @@
         {
           "target_id": 18,
           "anchor_text": "8-week MVP development guide",
-          "url": "./8-week-mvp-development-guide.md"
+          "url": "/blog/8-week-mvp-development-guide/"
         },
         {
           "target_id": 45,
@@ -850,6 +860,7 @@
       "published_date": "2025-08-05",
       "word_count": 2697,
       "status": "published",
+      "meta_description": "Discover proven business process automation examples from real companies. See before/after metrics, implementation costs, and ROI data from small businesses that automated successfully.",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "cluster": "ai-automation",
@@ -890,16 +901,16 @@
     {
       "id": 15,
       "title": "CRM Software NZ: The Complete Guide for Kiwi Businesses in 2025",
-      "url_slug": "crm_software_nz_blog_post",
+      "url_slug": "crm-software-nz-guide-2025",
       "file": "./src/blog/posts/crm_software_nz_blog_post.md",
-      "target_keyword": "",
-      "keyword_difficulty": "",
-      "target_volume": 0,
+      "target_keyword": "crm software nz",
+      "keyword_difficulty": "35",
+      "target_volume": 480,
       "published_date": "2025-08-05",
       "word_count": 1191,
       "status": "published",
-      "content_gaps_addressed": [],
-      "estimated_traffic_monthly": "",
+      "content_gaps_addressed": ["local compliance", "nz integrations", "industry-specific"],
+      "estimated_traffic_monthly": "50-100",
       "cluster": "business-operations",
       "cluster_role": "support",
       "internal_links": [
@@ -928,43 +939,48 @@
     {
       "id": 16,
       "title": "The AI Feasibility Sprint: De-risk Your Custom Software Project",
-      "url_slug": "2025-01-08-ai-feasibility-sprint",
+      "url_slug": "ai-feasibility-sprint",
       "file": "./src/blog/posts/2025-01-08-ai-feasibility-sprint.md",
-      "target_keyword": "",
-      "keyword_difficulty": "",
-      "target_volume": 0,
+      "target_keyword": "ai feasibility sprint",
+      "keyword_difficulty": "25",
+      "target_volume": 150,
       "published_date": "2025-08-01",
       "word_count": 1666,
       "status": "published",
-      "content_gaps_addressed": [],
-      "estimated_traffic_monthly": "",
+      "content_gaps_addressed": [
+        "custom software risk assessment",
+        "ai-powered feasibility study",
+        "technical due diligence process",
+        "startup project validation"
+      ],
+      "estimated_traffic_monthly": "30-50",
       "cluster": "custom-software",
-      "cluster_role": "support",
+      "cluster_role": "pillar",
       "internal_links": [
         {
           "target_id": 42,
           "anchor_text": "AI Strategy for Small Business: 90-Day Action Plan",
-          "url": "./2025-06-22-ai-strategy-small-business-90-day-action-plan.md"
+          "url": "/blog/ai-strategy-small-business-90-day-action-plan/"
         },
         {
           "target_id": 44,
           "anchor_text": "Building Complex Apps With AI",
-          "url": "./2025-01-15-building-complex-apps-with-ai.md"
+          "url": "/blog/building-complex-apps-with-ai/"
         },
         {
           "target_id": 45,
           "anchor_text": "What is a Fractional CTO? Complete Guide",
-          "url": "./2025-06-22-what-is-fractional-cto-complete-guide.md"
+          "url": "/blog/what-is-fractional-cto-complete-guide/"
         },
         {
           "target_id": 43,
           "anchor_text": "Why Custom Software Projects Fail (And How to Avoid It)",
-          "url": "./2025-01-28-why-custom-software-projects-fail.md"
+          "url": "/blog/why-custom-software-projects-fail/"
         },
         {
           "target_id": 24,
           "anchor_text": "Acting and Iterating on Ideas",
-          "url": "./2025-07-08-acting-and-iterating-on-ideas.md"
+          "url": "/blog/acting-and-iterating-on-ideas/"
         }
       ]
     },
@@ -992,7 +1008,7 @@
         {
           "target_id": 14,
           "anchor_text": "Business Process Automation Examples",
-          "url": "./business-process-automation-examples.md"
+          "url": "/blog/business-process-automation-examples/"
         },
         {
           "target_id": 22,
@@ -1011,12 +1027,13 @@
       "title": "8-Week MVP Development: Why Speed Beats Perfection",
       "url_slug": "8-week-mvp-development-guide",
       "file": "./src/blog/posts/8-week-mvp-development-guide.md",
-      "target_keyword": "",
-      "keyword_difficulty": "",
-      "target_volume": 0,
+      "target_keyword": "8 week mvp development",
+      "keyword_difficulty": "25",
+      "target_volume": 150,
       "published_date": "2025-07-28",
       "word_count": 2540,
       "status": "published",
+      "meta_description": "Learn how to build a revenue-generating MVP in just 8 weeks. Step-by-step framework for founders using AI-accelerated development to validate ideas fast.",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "cluster": "mvp-development",
@@ -1025,7 +1042,7 @@
         {
           "target_id": 11,
           "anchor_text": "complete guide to custom software development",
-          "url": "./what-is-custom-software-development-complete-guide.md"
+          "url": "/blog/what-is-custom-software-development-complete-guide/"
         },
         {
           "target_id": 37,
@@ -1093,7 +1110,7 @@
         {
           "target_id": 18,
           "anchor_text": "8-Week MVP Development Guide",
-          "url": "./8-week-mvp-development-guide.md"
+          "url": "/blog/8-week-mvp-development-guide/"
         }
       ]
     },
@@ -1192,7 +1209,7 @@
         {
           "target_id": 14,
           "anchor_text": "Business Process Automation Examples",
-          "url": "./business-process-automation-examples.md"
+          "url": "/blog/business-process-automation-examples/"
         },
         {
           "target_id": 34,
@@ -1278,7 +1295,7 @@
         {
           "target_id": 16,
           "anchor_text": "AI Feasibility Sprint",
-          "url": "./2025-01-08-ai-feasibility-sprint.md"
+          "url": "/blog/ai-feasibility-sprint/"
         }
       ]
     },
@@ -1301,12 +1318,12 @@
         {
           "target_id": 11,
           "anchor_text": "What is Custom Software Development? Complete Guide",
-          "url": "./what-is-custom-software-development-complete-guide.md"
+          "url": "/blog/what-is-custom-software-development-complete-guide/"
         },
         {
           "target_id": 10,
           "anchor_text": "Custom Software Development Cost: Complete Breakdown",
-          "url": "./custom-software-development-cost-breakdown.md"
+          "url": "/blog/custom-software-development-cost-breakdown/"
         },
         {
           "target_id": 33,
@@ -1488,17 +1505,17 @@
         {
           "target_id": 16,
           "anchor_text": "AI Feasibility Sprint",
-          "url": "./2025-01-08-ai-feasibility-sprint.md"
+          "url": "/blog/ai-feasibility-sprint/"
         },
         {
           "target_id": 45,
           "anchor_text": "fractional CTO services",
-          "url": "./2025-06-22-what-is-fractional-cto-complete-guide.md"
+          "url": "/blog/what-is-fractional-cto-complete-guide/"
         },
         {
           "target_id": 41,
           "anchor_text": "NZ startups guide",
-          "url": "./2025-06-22-nz-startups-fractional-cto-guide.md"
+          "url": "/blog/nz-startups-fractional-cto-guide/"
         }
       ]
     },
@@ -1536,7 +1553,7 @@
         {
           "target_id": 14,
           "anchor_text": "Business Process Automation Examples",
-          "url": "./business-process-automation-examples.md"
+          "url": "/blog/business-process-automation-examples/"
         },
         {
           "target_id": 35,
@@ -1665,12 +1682,12 @@
         {
           "target_id": 11,
           "anchor_text": "What is Custom Software Development? Complete Guide",
-          "url": "./what-is-custom-software-development-complete-guide.md"
+          "url": "/blog/what-is-custom-software-development-complete-guide/"
         },
         {
           "target_id": 10,
           "anchor_text": "Custom Software Development Cost: Complete Breakdown",
-          "url": "./custom-software-development-cost-breakdown.md"
+          "url": "/blog/custom-software-development-cost-breakdown/"
         },
         {
           "target_id": 25,
@@ -1713,7 +1730,7 @@
         {
           "target_id": 14,
           "anchor_text": "Business Process Automation Examples: Real Companies, Real Results",
-          "url": "./business-process-automation-examples.md"
+          "url": "/blog/business-process-automation-examples/"
         },
         {
           "target_id": 22,
@@ -1771,7 +1788,7 @@
         {
           "target_id": 14,
           "anchor_text": "Business Process Automation Examples",
-          "url": "./business-process-automation-examples.md"
+          "url": "/blog/business-process-automation-examples/"
         },
         {
           "target_id": 36,
@@ -1804,7 +1821,7 @@
         {
           "target_id": 11,
           "anchor_text": "What is Custom Software Development? Complete Guide",
-          "url": "./what-is-custom-software-development-complete-guide.md"
+          "url": "/blog/what-is-custom-software-development-complete-guide/"
         },
         {
           "target_id": 25,
@@ -1852,12 +1869,12 @@
         {
           "target_id": 10,
           "anchor_text": "complete custom software development cost breakdown",
-          "url": "./custom-software-development-cost-breakdown.md"
+          "url": "/blog/custom-software-development-cost-breakdown/"
         },
         {
           "target_id": 18,
           "anchor_text": "8-week MVP development guide",
-          "url": "./8-week-mvp-development-guide.md"
+          "url": "/blog/8-week-mvp-development-guide/"
         },
         {
           "target_id": 43,
@@ -1867,7 +1884,7 @@
         {
           "target_id": 11,
           "anchor_text": "What is Custom Software Development? Complete Guide",
-          "url": "./what-is-custom-software-development-complete-guide.md"
+          "url": "/blog/what-is-custom-software-development-complete-guide/"
         },
         {
           "target_id": 45,
@@ -1953,7 +1970,7 @@
         {
           "target_id": 11,
           "anchor_text": "What is Custom Software Development? Complete Guide",
-          "url": "./what-is-custom-software-development-complete-guide.md"
+          "url": "/blog/what-is-custom-software-development-complete-guide/"
         },
         {
           "target_id": 36,
@@ -2132,7 +2149,7 @@
         {
           "target_id": 14,
           "anchor_text": "business process automation examples",
-          "url": "./business-process-automation-examples.md"
+          "url": "/blog/business-process-automation-examples/"
         },
         {
           "target_id": 8,
@@ -2157,7 +2174,7 @@
         {
           "target_id": 4,
           "anchor_text": "AI Tools for Business Automation: The Complete Stack",
-          "url": "/blog/ai-tools-for-business-automation/"
+          "url": "/blog/ai-tools-for-business-automation"
         }
       ]
     },
@@ -2180,7 +2197,7 @@
         {
           "target_id": 11,
           "anchor_text": "complete guide to custom software development",
-          "url": "./what-is-custom-software-development-complete-guide.md"
+          "url": "/blog/what-is-custom-software-development-complete-guide/"
         },
         {
           "target_id": 37,
@@ -2190,22 +2207,22 @@
         {
           "target_id": 16,
           "anchor_text": "AI Feasibility Sprint",
-          "url": "./2025-01-08-ai-feasibility-sprint.md"
+          "url": "/blog/ai-feasibility-sprint/"
         },
         {
           "target_id": 45,
           "anchor_text": "fractional CTO services",
-          "url": "./2025-06-22-what-is-fractional-cto-complete-guide.md"
+          "url": "/blog/what-is-fractional-cto-complete-guide/"
         },
         {
           "target_id": 32,
           "anchor_text": "technical due diligence checklist",
-          "url": "./2025-06-22-technical-due-diligence-checklist-cto-guide.md"
+          "url": "/blog/technical-due-diligence-checklist-cto-guide/"
         },
         {
           "target_id": 18,
           "anchor_text": "8-Week MVP Development Guide",
-          "url": "./8-week-mvp-development-guide.md"
+          "url": "/blog/8-week-mvp-development-guide/"
         },
         {
           "target_id": 29,
@@ -2263,27 +2280,27 @@
         {
           "target_id": 16,
           "anchor_text": "AI Feasibility Sprint",
-          "url": "./2025-01-08-ai-feasibility-sprint.md"
+          "url": "/blog/ai-feasibility-sprint/"
         },
         {
           "target_id": 8,
           "anchor_text": "Best AI Tools for Business 2025",
-          "url": "./best-ai-tools-for-business-2025.md"
+          "url": "/blog/best-ai-tools-for-business-2025/"
         },
         {
           "target_id": 18,
           "anchor_text": "8-Week MVP Development Guide",
-          "url": "./8-week-mvp-development-guide.md"
+          "url": "/blog/8-week-mvp-development-guide/"
         },
         {
           "target_id": 11,
           "anchor_text": "What is Custom Software Development?",
-          "url": "./what-is-custom-software-development-complete-guide.md"
+          "url": "/blog/what-is-custom-software-development-complete-guide/"
         },
         {
           "target_id": 43,
           "anchor_text": "Why Custom Software Projects Fail (And How to Avoid It)",
-          "url": "./2025-01-28-why-custom-software-projects-fail.md"
+          "url": "/blog/why-custom-software-projects-fail/"
         }
       ]
     },
@@ -2804,7 +2821,7 @@
         {
           "target_id": 4,
           "anchor_text": "AI Tools for Business Automation: The Complete Stack",
-          "url": "/blog/ai-tools-for-business-automation/"
+          "url": "/blog/ai-tools-for-business-automation"
         },
         {
           "target_id": 45,
@@ -3890,9 +3907,9 @@
       "target_keyword": "sap clean core assessment checklist",
       "keyword_difficulty": "0",
       "target_volume": 0,
-      "published_date": "2026-03-13",
+      "published_date": "2026-03-17",
       "word_count": 0,
-      "status": "draft",
+      "status": "published",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "cluster": "sap-clean-core",
@@ -3928,9 +3945,9 @@
       "target_keyword": "fractional cto for healthcare startups",
       "keyword_difficulty": "",
       "target_volume": 0,
-      "published_date": "2026-03-15",
+      "published_date": "2025-11-01",
       "word_count": 1348,
-      "status": "draft",
+      "status": "published",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "cluster": "fractional-cto",
@@ -3966,9 +3983,9 @@
       "target_keyword": "sap btp side by side extension",
       "keyword_difficulty": "0",
       "target_volume": 0,
-      "published_date": "2026-02-15",
+      "published_date": "2025-11-15",
       "word_count": 0,
-      "status": "draft",
+      "status": "published",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "cluster": "sap-clean-core",
@@ -4004,9 +4021,9 @@
       "target_keyword": "technical due diligence checklist angel investors",
       "keyword_difficulty": "0",
       "target_volume": 0,
-      "published_date": "2026-02-16",
+      "published_date": "2025-11-29",
       "word_count": 1894,
-      "status": "draft",
+      "status": "published",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "cluster": "cto-leadership",
@@ -4042,9 +4059,9 @@
       "target_keyword": "sap joule custom skills development tutorial",
       "keyword_difficulty": "0",
       "target_volume": 0,
-      "published_date": "2026-03-23",
+      "published_date": "2025-12-13",
       "word_count": 2500,
-      "status": "draft",
+      "status": "published",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "cluster": "sap-clean-core",
@@ -4076,13 +4093,13 @@
       "id": 82,
       "title": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
       "url_slug": "startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency",
-      "file": "./src/blog/posts/082_startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency.mdx",
+      "file": "./content/082_startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency.mdx",
       "target_keyword": "startup runway calculator nz template",
       "keyword_difficulty": "0",
       "target_volume": 0,
-      "published_date": "2026-03-25",
+      "published_date": "2025-12-27",
       "word_count": 2100,
-      "status": "draft",
+      "status": "published",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "cluster": "startup-funding",

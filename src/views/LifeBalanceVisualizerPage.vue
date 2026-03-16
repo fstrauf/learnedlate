@@ -3,6 +3,7 @@
     <SEOHead
       title="Life Balance Visualizer"
       description="An interactive tool to visualize and explore the balance between future striving and present life enjoyment. Find your optimal life balance."
+      url="/life-balance-visualizer/"
     />
     <router-link to="/projects" class="text-blue-600 hover:text-blue-800 hover:underline mb-4 sm:mb-6 inline-block text-sm sm:text-base">&larr; Back to Projects</router-link>
     

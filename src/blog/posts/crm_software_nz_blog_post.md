@@ -2,6 +2,9 @@
 title: "CRM Software NZ: The Complete Guide for Kiwi Businesses in 2025"
 date: "2025-08-05"
 summary: "Comprehensive guide to choosing the right CRM software for New Zealand businesses, including local compliance, integrations, and industry-specific recommendations."
+excerpt: "Discover the best CRM software for NZ businesses in 2025. Compare HubSpot, Pipedrive, Zoho & Salesforce with local GST compliance, Xero integration & industry-specific features."
+category: "Business Operations"
+tags: ["crm software", "new zealand business", "xero integration", "business software", "nz compliance"]
 ---
 
 Choosing the right Customer Relationship Management (CRM) software for your New Zealand business isn't just about features—it's about finding a solution that understands local business requirements, integrates with Kiwi accounting systems, and scales with your growth.

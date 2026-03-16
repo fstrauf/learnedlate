@@ -1,9 +1,12 @@
 ---
 title: "Custom Software Development Cost: Complete Breakdown 2025"
 date: "2025-08-13"
+excerpt: "What does custom software actually cost? Get transparent pricing for NZ projects, from MVPs to enterprise systems, plus the hidden costs most vendors won't tell you about."
 summary: "What does custom software actually cost? Get transparent pricing for NZ projects, from MVPs to enterprise systems, plus the hidden costs most vendors won't tell you about."
 keyword: "custom software development cost"
 difficulty: 12
+category: "Custom Software"
+tags: ["Custom Software", "Pricing", "Software Development", "NZ Business", "MVP", "Enterprise"]
 ---
 
 # Custom Software Development Cost: Complete Breakdown for 2025

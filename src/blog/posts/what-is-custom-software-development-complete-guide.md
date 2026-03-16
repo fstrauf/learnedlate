@@ -1,9 +1,12 @@
 ---
 title: "What is Custom Software Development? Complete Guide 2025"
 date: "2025-08-09"
+excerpt: "Custom software development means building tailored applications for your specific business needs. Learn when it makes sense, what it costs, and how to avoid the common mistakes that derail projects."
 summary: "Custom software development means building tailored applications for your specific business needs. Learn when it makes sense, what it costs, and how to avoid the common mistakes that derail projects."
 keyword: "what is custom software development"
 difficulty: 12
+category: "Software"
+tags: ["Custom Software", "Development", "MVP", "Startups"]
 ---
 
 Custom software development is building software specifically for your business—not buying something off-the-shelf and hoping it fits.
@@ -263,7 +266,7 @@ Choosing the right developer is more important than choosing the right technolog
 
 **New Zealand context:** Local developers understand NZ business practices, work in your timezone, and can meet face-to-face. Offshore can be cheaper but adds communication complexity and timezone challenges.
 
-For a detailed guide, see [how to choose a software development company](/how-to-choose-software-development-company).
+For a detailed guide, see [how to choose a software development company](/blog/how-to-choose-software-development-company/).
 
 ## Custom Software for Small Businesses: Is It Worth It?
 

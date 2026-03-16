@@ -1,7 +1,9 @@
 ---
 title: "The AI Feasibility Sprint: De-risk Your Custom Software Project"
 date: "2025-08-01"
-summary: "Your signature low-risk validation service for custom software projects. Technical due diligence with AI assistance and proof-of-concept development process."
+excerpt: "De-risk your custom software project with an AI Feasibility Sprint. Get clarity on scope, timeline, and cost before investing in full development. 2-3 week validation process."
+category: "Custom Software"
+tags: ["ai feasibility sprint", "custom software", "technical due diligence", "mvp validation", "software development", "project planning", "risk assessment"]
 ---
 
 The biggest mistake businesses make with custom software isn't choosing the wrong technology or hiring the wrong developers. It's committing to a major investment without truly understanding what they're building.
@@ -284,11 +286,11 @@ The question isn't whether you can afford a feasibility sprint. The question is 
 
 ## Related Articles
 
-- [AI Strategy for Small Business: 90-Day Action Plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan.md)
-- [Building Complex Apps With AI](./2025-01-15-building-complex-apps-with-ai.md)
-- [What is a Fractional CTO? Complete Guide](./2025-06-22-what-is-fractional-cto-complete-guide.md)
-- [Why Custom Software Projects Fail (And How to Avoid It)](./2025-01-28-why-custom-software-projects-fail.md)
-- [Acting and Iterating on Ideas](./2025-07-08-acting-and-iterating-on-ideas.md)
+- [AI Strategy for Small Business: 90-Day Action Plan](/blog/ai-strategy-small-business-90-day-action-plan/)
+- [Building Complex Apps With AI](/blog/building-complex-apps-with-ai/)
+- [What is a Fractional CTO? Complete Guide](/blog/what-is-fractional-cto-complete-guide/)
+- [Why Custom Software Projects Fail (And How to Avoid It)](/blog/why-custom-software-projects-fail/)
+- [Acting and Iterating on Ideas](/blog/acting-and-iterating-on-ideas/)
 
 ---
 

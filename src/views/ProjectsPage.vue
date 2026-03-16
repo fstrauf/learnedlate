@@ -3,6 +3,7 @@
     <SEOHead
       title="Projects - Florian Strauf"
       description="Explore projects by Florian Strauf including SEO automation systems, AI-accelerated MVPs, life calendar visualizations, and technical tools."
+      url="/projects/"
     />
     <div class="container mx-auto px-2 sm:px-4 lg:px-6">    
 

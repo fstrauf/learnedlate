@@ -2,6 +2,8 @@
 title: "Ultimate Guide to Fractional CTO Services in New Zealand"
 date: "2025-08-06"
 summary: "Everything New Zealand startups need to know about fractional CTO services - from cost savings to technical mentorship and AI-accelerated development."
+category: "Fractional CTO"
+tags: ["fractional cto", "new zealand", "startups", "technical leadership", "cto services"]
 ---
 
 Time is your startup's most valuable currency. Every day you spend searching for the perfect full-time CTO is a day your competitors are shipping features, raising funds, and capturing market share.
@@ -10,7 +12,7 @@ But here's what most New Zealand founders don't realize: you don't need a full-t
 
 ## What is a Fractional CTO?
 
-A fractional CTO is an experienced technology executive who works with your startup part-time, providing the same strategic technical leadership as a full-time CTO but without the full-time commitment or cost. For a comprehensive overview of the fractional CTO model, see our [complete guide to fractional CTO services](./2025-06-22-what-is-fractional-cto-complete-guide.md).
+A fractional CTO is an experienced technology executive who works with your startup part-time, providing the same strategic technical leadership as a full-time CTO but without the full-time commitment or cost. For a comprehensive overview of the fractional CTO model, see our [complete guide to fractional CTO services](/blog/2025-06-22-what-is-fractional-cto-complete-guide/).
 
 Think of it as having a seasoned technical co-founder available 2-3 days per week, precisely when you need critical decisions made and technical roadmaps built.
 

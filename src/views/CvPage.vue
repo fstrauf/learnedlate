@@ -3,6 +3,7 @@
     <SEOHead
       title="CV - Florian Strauf"
       description="Professional CV of Florian Strauf - Fractional CTO, Technical Consultant, and Solution Architect based in New Zealand."
+      url="/cv/"
     />
     <div class="container mx-auto px-2 sm:px-4 lg:px-6">
       <div class="prose prose-sm sm:prose-base lg:prose-lg bg-white p-4 sm:p-6 lg:p-8 rounded-lg shadow-md max-w-4xl mx-auto 

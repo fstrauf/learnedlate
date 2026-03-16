@@ -1,9 +1,12 @@
 ---
 title: "15+ Business Process Automation Examples (Real Companies, Real Results)"
 date: "2025-08-05"
+excerpt: "Discover proven business process automation examples from real companies. See before/after metrics, implementation costs, and ROI data from small businesses that automated successfully."
 summary: "Discover proven business process automation examples from real companies. See before/after metrics, implementation costs, and ROI data from small businesses that automated successfully."
 keyword: "business process automation examples"
 difficulty: 7
+category: "AI Automation"
+tags: ["business automation", "workflow automation", "small business", "ROI"]
 ---
 
 You know automation works. The question is: where do you actually start?

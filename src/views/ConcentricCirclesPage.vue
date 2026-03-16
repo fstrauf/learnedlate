@@ -3,6 +3,7 @@
     <SEOHead
       title="Bubble Biases - Perspective Visualizer"
       description="An interactive visualization of concentric circles representing how we organize our world - from self to the universe. Explore your biases and perspectives."
+      url="/concentric-circles/"
     />
     <div class="container mx-auto px-2 sm:px-4 lg:px-6">
       <router-link to="/projects" class="text-blue-600 hover:text-blue-800 hover:underline mb-4 sm:mb-6 inline-block text-sm sm:text-base">&larr; Back to Projects</router-link>

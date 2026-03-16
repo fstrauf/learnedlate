@@ -2,13 +2,14 @@
   <div class="blog-post-page">
     <SEOHead 
       v-if="post"
-      :title="post.title"
-      :description="post.excerpt"
+      :title="post.metaTitle || post.title"
+      :description="post.metaDescription || postDescription"
       :url="`/blog/${post.slug}`"
+      :image="post.ogImage || '/learndlate.png'"
       type="article"
       :article="{
         publishedTime: post.publishDate,
-        modifiedTime: post.publishDate,
+        modifiedTime: post.modifiedDate || post.publishDate,
         author: 'Florian Strauf',
         section: post.category,
         tags: post.tags
@@ -253,6 +254,25 @@ const relatedPosts = computed(() => {
     .slice(0, 3)
 })
 
+// Computed property for SEO-safe description with fallback
+const postDescription = computed(() => {
+  if (!post.value) return ''
+  // Use excerpt if available and not empty
+  if (post.value.excerpt && post.value.excerpt.trim()) {
+    return post.value.excerpt
+  }
+  // Generate from content if available (first 160 chars)
+  if (post.value.content) {
+    const text = post.value.content
+      .replace(/<[^>]*>/g, '')  // Remove HTML tags
+      .replace(/[#*_`\[\]]/g, '')  // Remove markdown syntax
+      .replace(/\s+/g, ' ')  // Normalize whitespace
+      .trim()
+    return text.length > 160 ? text.substring(0, 157) + '...' : text
+  }
+  return ''
+})
+
 const articleSchema = computed(() => {
   if (!post.value) return []
   
@@ -260,24 +280,24 @@ const articleSchema = computed(() => {
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "@id": `https://learnedlate.com/blog/${post.value.slug}#article`,
+      "@id": `https://www.learnedlate.com/blog/${post.value.slug}#article`,
       "headline": post.value.title,
-      "description": post.value.excerpt,
-      "image": "https://learnedlate.com/learndlate.png",
+      "description": postDescription.value,
+      "image": "https://www.learnedlate.com/learndlate.png",
       "author": {
         "@type": "Person",
-        "@id": "https://learnedlate.com/#person",
+        "@id": "https://www.learnedlate.com/#person",
         "name": "Florian Strauf"
       },
       "publisher": {
         "@type": "Organization",
-        "@id": "https://learnedlate.com/#organization"
+        "@id": "https://www.learnedlate.com/#organization"
       },
-             "datePublished": post.value.publishDate,
-       "dateModified": post.value.publishDate,
+      "datePublished": post.value.publishDate,
+      "dateModified": post.value.modifiedDate || post.value.publishDate,
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": `https://learnedlate.com/blog/${post.value.slug}`
+        "@id": `https://www.learnedlate.com/blog/${post.value.slug}`
       },
       "articleSection": post.value.category,
       "keywords": post.value.tags.join(", "),
@@ -286,7 +306,7 @@ const articleSchema = computed(() => {
       "inLanguage": "en-NZ",
       "isPartOf": {
         "@type": "Blog",
-        "@id": "https://learnedlate.com/blog#blog"
+        "@id": "https://www.learnedlate.com/blog#blog"
       }
     },
     {
@@ -297,19 +317,19 @@ const articleSchema = computed(() => {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://learnedlate.com"
+          "item": "https://www.learnedlate.com"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://learnedlate.com/blog"
+          "item": "https://www.learnedlate.com/blog"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": post.value.title,
-          "item": `https://learnedlate.com/blog/${post.value.slug}`
+          "item": `https://www.learnedlate.com/blog/${post.value.slug}`
         }
       ]
     }

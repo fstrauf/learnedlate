@@ -14,6 +14,26 @@
       "source": "/coffee",
       "destination": "https://calendar.notion.so/meet/florianstrauf/chat",
       "permanent": true
+    },
+    {
+      "source": "/blog/2025-01-08-ai-feasibility-sprint",
+      "destination": "/blog/ai-feasibility-sprint",
+      "permanent": true
+    },
+    {
+      "source": "/blog/2025-01-08-ai-feasibility-sprint/",
+      "destination": "/blog/ai-feasibility-sprint",
+      "permanent": true
+    },
+    {
+      "source": "/blog/crm_software_nz_blog_post",
+      "destination": "/blog/crm-software-nz-guide-2025",
+      "permanent": true
+    },
+    {
+      "source": "/blog/crm_software_nz_blog_post/",
+      "destination": "/blog/crm-software-nz-guide-2025",
+      "permanent": true
     }
   ],
   "rewrites": [

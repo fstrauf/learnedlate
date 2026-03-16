@@ -4,6 +4,8 @@
       title="AI Implementation for Business - Practical, Fast ROI"
       description="Stop talking about AI and start using it. Practical AI implementation that saves 10+ hours per week with measurable ROI in weeks."
       url="/ai-implementation"
+      type="website"
+      :schema="serviceSchema"
     />
 
     <!-- Hero -->
@@ -332,6 +334,75 @@
 <script setup lang="ts">
 import SEOHead from '../components/SEOHead.vue'
 import { Button } from '@/components/ui/button'
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://www.learnedlate.com/ai-implementation#service",
+  "name": "AI Implementation for Business",
+  "description": "Practical AI implementation that saves 10+ hours per week with measurable ROI in weeks. Stop talking about AI and start using it.",
+  "url": "https://www.learnedlate.com/ai-implementation",
+  "provider": {
+    "@type": "ProfessionalService",
+    "@id": "https://www.learnedlate.com/#organization"
+  },
+  "areaServed": [
+    {
+      "@type": "Country",
+      "name": "New Zealand"
+    },
+    {
+      "@type": "City",
+      "name": "Auckland"
+    },
+    {
+      "@type": "City",
+      "name": "Wellington"
+    },
+    {
+      "@type": "City",
+      "name": "Christchurch"
+    }
+  ],
+  "serviceType": [
+    "AI Implementation",
+    "Business Process Automation",
+    "AI Consulting",
+    "ChatGPT Integration",
+    "AI Training"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "AI Implementation Packages",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "AI Kickstart",
+          "description": "2-week AI implementation including opportunity assessment, ChatGPT team setup, first automation, and team training"
+        },
+        "price": "5000",
+        "priceCurrency": "NZD"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "90-Day AI Transformation",
+          "description": "3-month comprehensive AI implementation with 5 process automations, custom AI tools, and full team enablement"
+        },
+        "price": "10000",
+        "priceCurrency": "NZD"
+      }
+    ]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "23"
+  }
+}
 </script>
 
 <style scoped>

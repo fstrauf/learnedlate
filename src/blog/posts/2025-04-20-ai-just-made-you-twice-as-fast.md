@@ -26,6 +26,8 @@ Like the Industrial Revolution, this technology transformation will create new o
 
 Read the full post on our blog: [https://blog.learnedlate.com/p/ai-just-made-you-twice-as-fast](https://blog.learnedlate.com/p/ai-just-made-you-twice-as-fast)
 
+Curious about what else I'm working on? [Check out my now page](/now) to see my current projects and focus areas.
+
 ---
 
 ## Related Articles

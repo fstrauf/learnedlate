@@ -45,8 +45,8 @@
   <url>
     <loc>https://www.learnedlate.com/ai-implementation</loc>
     <lastmod>2026-03-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.learnedlate.com/automation</loc>
@@ -76,7 +76,7 @@
     <loc>https://www.learnedlate.com/now</loc>
     <lastmod>2026-03-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.learnedlate.com/life-balance-visualizer</loc>
@@ -116,9 +116,9 @@
   </url>
   <url>
     <loc>https://www.learnedlate.com/blog/ai-tools-for-business-automation</loc>
-    <lastmod>2025-09-26</lastmod>
+    <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.learnedlate.com/blog/what-is-business-process-automation</loc>
@@ -128,9 +128,9 @@
   </url>
   <url>
     <loc>https://www.learnedlate.com/blog/how-to-choose-software-development-company</loc>
-    <lastmod>2025-09-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.learnedlate.com/blog/custom-software-vs-off-the-shelf</loc>
@@ -170,9 +170,9 @@
   </url>
   <url>
     <loc>https://www.learnedlate.com/blog/fractional-cto-guide-new-zealand</loc>
-    <lastmod>2025-08-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.learnedlate.com/blog/business-process-automation-examples</loc>
@@ -181,16 +181,16 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/crm_software_nz_blog_post</loc>
+    <loc>https://www.learnedlate.com/blog/crm-software-nz-guide-2025</loc>
     <lastmod>2025-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.learnedlate.com/blog/2025-01-08-ai-feasibility-sprint</loc>
-    <lastmod>2025-08-01</lastmod>
+    <loc>https://www.learnedlate.com/blog/ai-feasibility-sprint</loc>
+    <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.learnedlate.com/blog/2025-08-01-automate-marketing-automate-anything</loc>
@@ -537,6 +537,42 @@
   <url>
     <loc>https://www.learnedlate.com/blog/fractional_cto_for_saas_startups_scaling_your_platform_without_the_full_time_price_tag</loc>
     <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/blog/sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy</loc>
+    <lastmod>2025-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/blog/sap_btp_side_by_side_extension_complete_working_example_with_code</loc>
+    <lastmod>2025-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/blog/technical_due_diligence_checklist_for_angel_investors_evaluating_pre_seed_startups</loc>
+    <lastmod>2025-11-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners</loc>
+    <lastmod>2025-12-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.learnedlate.com/blog/startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency</loc>
+    <lastmod>2025-12-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

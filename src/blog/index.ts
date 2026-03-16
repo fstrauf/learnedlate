@@ -89,12 +89,16 @@ export const allBlogPosts: BlogPost[] = publishedArticles
     return {
       title: article.title,
       slug: article.url_slug,
-      excerpt: '', // Loaded with content
+      excerpt: article.meta_description || article.excerpt || '',
       publishDate: article.published_date || '2025-01-01',
+      modifiedDate: article.modified_date,
       author: 'Florian Strauf',
       tags: [], // Loaded with content
       category: 'General',
-      metaDescription: '',
+      metaDescription: article.meta_description || '',
+      metaTitle: article.meta_title,
+      ogImage: article.og_image,
+      canonicalUrl: article.canonical_url,
       content: '', // Loaded separately
       readingTime
     }

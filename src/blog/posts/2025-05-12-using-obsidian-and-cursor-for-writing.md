@@ -30,6 +30,8 @@ Explore "Copilot for Obsidian" as an additional AI writing assistant tool.
 
 Read the full post on our blog: [https://blog.learnedlate.com/p/using-obsidian-and-cursor-for-writing](https://blog.learnedlate.com/p/using-obsidian-and-cursor-for-writing)
 
+Curious about what else I'm working on? [Check out my now page](/now) to see my current projects and focus areas.
+
 ---
 
 ## Related Articles

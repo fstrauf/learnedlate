@@ -255,6 +255,9 @@
             When I'm not coding, I help businesses navigate technical challenges through 
             <router-link to="/services" class="text-gray-700 hover:text-gray-900 underline">consulting and fractional CTO services</router-link>.
           </p>
+          <p class="text-gray-600 mb-6 sm:mb-8 leading-relaxed text-base px-2">
+            <router-link to="/now" class="text-blue-600 hover:underline">See what I'm working on now →</router-link>
+          </p>
           <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-2 sm:px-4">
             <Button as-child variant="outline">
               <router-link to="/cv">

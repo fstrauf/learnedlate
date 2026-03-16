@@ -3,6 +3,7 @@
     <SEOHead
       title="Life Calendar - Visualize Your Time"
       description="An interactive life calendar visualization tool. See your weeks at a glance and reflect on how you spend your time."
+      url="/life-calendar/"
     />
     <div class="container mx-auto px-2 sm:px-4 lg:px-6">
         <router-link to="/projects" class="text-blue-600 hover:text-blue-800 hover:underline mb-4 sm:mb-6 inline-block text-sm sm:text-base">&larr; Back to Projects</router-link>
