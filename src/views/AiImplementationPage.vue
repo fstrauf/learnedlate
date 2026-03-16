@@ -5,7 +5,7 @@
       description="Stop talking about AI and start using it. Practical AI implementation that saves 10+ hours per week with measurable ROI in weeks."
       url="/ai-implementation"
       type="website"
-      :schema="serviceSchema"
+      :schema="[serviceSchema]"
     />
 
     <!-- Hero -->

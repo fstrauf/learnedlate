@@ -16,7 +16,9 @@
     "generate-sitemap": "node scripts/generate-sitemap.js",
     "cv:pdf": "node scripts/cv-to-pdf.mjs",
     "verify-prerender": "node scripts/verify-prerender.js",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "type-check": "vue-tsc --noEmit",
+    "setup-hooks": "bash scripts/setup-hooks.sh"
   },
   "dependencies": {
     "@unhead/vue": "^2.0.10",

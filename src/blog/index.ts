@@ -91,7 +91,7 @@ export const allBlogPosts: BlogPost[] = publishedArticles
       slug: article.url_slug,
       excerpt: article.meta_description || article.excerpt || '',
       publishDate: article.published_date || '2025-01-01',
-      modifiedDate: article.modified_date,
+      modifiedDate: (article as any).modified_date,
       author: 'Florian Strauf',
       tags: [], // Loaded with content
       category: 'General',
