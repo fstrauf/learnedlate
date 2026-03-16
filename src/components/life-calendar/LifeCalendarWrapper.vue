@@ -3,6 +3,9 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue';
 import LifeGrid from './LifeGrid.vue'; // Adjusted import path
 import DateInput from './DateInput.vue'; // Adjusted import path
+import { Checkbox } from '@/components/ui/checkbox';
+import { Input } from '@/components/ui/input';
+import { Label } from '@/components/ui/label';
 import type { DisplayMode } from '../../types'; // Adjusted import path
 
 const dateOfBirth = ref<Date | null>(null);
@@ -50,21 +53,21 @@ const handleDateUpdate = (newDate: Date) => {
     <div class="flex flex-col items-center w-full mb-6 space-y-4">
       <DateInput @update:date="handleDateUpdate" />
       <div class="flex flex-wrap justify-center items-center gap-x-4 gap-y-2">
-        <div>
-          <input type="checkbox" id="showRetirement" v-model="showRetirement" class="mr-1" />
-          <label for="showRetirement" class="text-sm text-gray-700">Show Retirement</label>
+        <div class="flex items-center space-x-2">
+          <Checkbox id="showRetirement" v-model:checked="showRetirement" />
+          <Label for="showRetirement" class="text-sm text-gray-700">Show Retirement</Label>
         </div>
-        <div>
-          <label for="runwayYears" class="text-sm text-gray-700 mr-1">Runway (Years):</label>
-          <input type="number" id="runwayYears" v-model.number="runwayYears" min="0" class="p-1 border rounded w-16 text-sm"/>
+        <div class="flex items-center space-x-2">
+          <Label for="runwayYears" class="text-sm text-gray-700">Runway (Years):</Label>
+          <Input type="number" id="runwayYears" v-model.number="runwayYears" min="0" class="w-16 text-sm"/>
         </div>
-         <div>
-          <label for="timeOffStart" class="text-sm text-gray-700 mr-1">Time Off Start Age:</label>
-          <input type="number" id="timeOffStart" v-model.number="timeOffStartAge" min="0" :max="90 - (timeOffDurationYears || 0)" class="p-1 border rounded w-16 text-sm"/>
+         <div class="flex items-center space-x-2">
+          <Label for="timeOffStart" class="text-sm text-gray-700">Time Off Start Age:</Label>
+          <Input type="number" id="timeOffStart" v-model.number="timeOffStartAge" min="0" :max="90 - (timeOffDurationYears || 0)" class="w-16 text-sm"/>
         </div>
-         <div>
-          <label for="timeOffDuration" class="text-sm text-gray-700 mr-1">Time Off Duration (Years):</label>
-          <input type="number" id="timeOffDuration" v-model.number="timeOffDurationYears" min="0" :max="90 - (timeOffStartAge || 0)" class="p-1 border rounded w-16 text-sm"/>
+         <div class="flex items-center space-x-2">
+          <Label for="timeOffDuration" class="text-sm text-gray-700">Time Off Duration (Years):</Label>
+          <Input type="number" id="timeOffDuration" v-model.number="timeOffDurationYears" min="0" :max="90 - (timeOffStartAge || 0)" class="w-16 text-sm"/>
         </div>
       </div>
     </div>
@@ -93,4 +96,4 @@ const handleDateUpdate = (newDate: Date) => {
 
 <style scoped>
 /* Add component-specific styles if needed */
-</style> 
+</style>

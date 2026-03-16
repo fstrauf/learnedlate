@@ -17,86 +17,78 @@
         
         <div class="space-y-8">
           <div>
-            <label class="block text-sm font-medium text-gray-600 mb-2">
+            <Label class="block text-sm font-medium text-gray-600 mb-2">
               Future Striving vs Present Focus
-            </label>
-            <div class="flex justify-between text-xs text-gray-500 mb-1">
+            </Label>
+            <div class="flex justify-between text-xs text-gray-500 mb-3">
               <span>Live for today</span>
               <span>Build for tomorrow</span>
             </div>
-            <input
-              type="range"
-              v-model="values.futureStriving"
-              min="0"
-              max="10"
-              step="1"
-              class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer slider"
+            <Slider
+              v-model="sliderValues.futureStriving"
+              :min="0"
+              :max="10"
+              :step="1"
             />
-            <div class="text-center text-sm text-gray-600 mt-1">
-              {{ values.futureStriving }}/10
+            <div class="text-center text-sm text-gray-600 mt-2">
+              {{ sliderValues.futureStriving[0] }}/10
             </div>
           </div>
 
           <div>
-            <label class="block text-sm font-medium text-gray-600 mb-2">
+            <Label class="block text-sm font-medium text-gray-600 mb-2">
               Present Life Enjoyment
-            </label>
-            <div class="flex justify-between text-xs text-gray-500 mb-1">
+            </Label>
+            <div class="flex justify-between text-xs text-gray-500 mb-3">
               <span>Stressed, unfulfilled</span>
               <span>Happy, content daily</span>
             </div>
-            <input
-              type="range"
-              v-model="values.presentEnjoyment"
-              min="0"
-              max="10"
-              step="1"
-              class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer slider"
+            <Slider
+              v-model="sliderValues.presentEnjoyment"
+              :min="0"
+              :max="10"
+              :step="1"
             />
-            <div class="text-center text-sm text-gray-600 mt-1">
-              {{ values.presentEnjoyment }}/10
+            <div class="text-center text-sm text-gray-600 mt-2">
+              {{ sliderValues.presentEnjoyment[0] }}/10
             </div>
           </div>
 
           <div>
-            <label class="block text-sm font-medium text-gray-600 mb-2">
+            <Label class="block text-sm font-medium text-gray-600 mb-2">
               Work Intensity
-            </label>
-            <div class="flex justify-between text-xs text-gray-500 mb-1">
+            </Label>
+            <div class="flex justify-between text-xs text-gray-500 mb-3">
               <span>Minimal work</span>
               <span>High stress/hours</span>
             </div>
-            <input
-              type="range"
-              v-model="values.workIntensity"
-              min="0"
-              max="10"
-              step="1"
-              class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer slider"
+            <Slider
+              v-model="sliderValues.workIntensity"
+              :min="0"
+              :max="10"
+              :step="1"
             />
-            <div class="text-center text-sm text-gray-600 mt-1">
-              {{ values.workIntensity }}/10
+            <div class="text-center text-sm text-gray-600 mt-2">
+              {{ sliderValues.workIntensity[0] }}/10
             </div>
           </div>
 
           <div>
-            <label class="block text-sm font-medium text-gray-600 mb-2">
+            <Label class="block text-sm font-medium text-gray-600 mb-2">
               Financial Security Buffer
-            </label>
-            <div class="flex justify-between text-xs text-gray-500 mb-1">
+            </Label>
+            <div class="flex justify-between text-xs text-gray-500 mb-3">
               <span>Living paycheck to paycheck</span>
               <span>Strong emergency fund</span>
             </div>
-            <input
-              type="range"
-              v-model="values.securityBuffer"
-              min="0"
-              max="10"
-              step="1"
-              class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer slider"
+            <Slider
+              v-model="sliderValues.securityBuffer"
+              :min="0"
+              :max="10"
+              :step="1"
             />
-            <div class="text-center text-sm text-gray-600 mt-1">
-              {{ values.securityBuffer }}/10
+            <div class="text-center text-sm text-gray-600 mt-2">
+              {{ sliderValues.securityBuffer[0] }}/10
             </div>
           </div>
         </div>
@@ -225,13 +217,24 @@
 <script setup lang="ts">
 import { ref, computed, watch } from 'vue';
 import SEOHead from '../components/SEOHead.vue';
+import { Slider } from '@/components/ui/slider';
+import { Label } from '@/components/ui/label';
 
-const values = ref({
-  futureStriving: 5,
-  presentEnjoyment: 5,
-  workIntensity: 5,
-  securityBuffer: 5
+// Slider values are arrays (Shadcn Slider requirement)
+const sliderValues = ref({
+  futureStriving: [5],
+  presentEnjoyment: [5],
+  workIntensity: [5],
+  securityBuffer: [5]
 });
+
+// Computed values for calculations (extract from arrays)
+const values = computed(() => ({
+  futureStriving: sliderValues.value.futureStriving[0],
+  presentEnjoyment: sliderValues.value.presentEnjoyment[0],
+  workIntensity: sliderValues.value.workIntensity[0],
+  securityBuffer: sliderValues.value.securityBuffer[0]
+}));
 
 const overallBalance = ref(0);
 const balanceZone = ref('balanced');
@@ -267,8 +270,8 @@ const updateBalance = () => {
   else balanceZone.value = 'balanced';
 };
 
-// Watch for changes in values and update balance
-watch(values, updateBalance, { deep: true, immediate: true });
+// Watch for changes in slider values and update balance
+watch(sliderValues, updateBalance, { deep: true, immediate: true });
 
 const zoneColor = computed(() => {
   if (balanceZone.value === 'fisherman') return 'bg-blue-500';
@@ -310,21 +313,5 @@ const zone = computed(() => {
 </script>
 
 <style scoped>
-.slider::-webkit-slider-thumb {
-  appearance: none;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  background: #3b82f6;
-  cursor: pointer;
-}
-
-.slider::-moz-range-thumb {
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  background: #3b82f6;
-  cursor: pointer;
-  border: none;
-}
+/* Slider styling is now handled by Shadcn Slider component */
 </style>

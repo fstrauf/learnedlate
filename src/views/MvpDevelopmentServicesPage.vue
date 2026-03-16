@@ -20,18 +20,12 @@
                 AI-accelerated development meets strategic guidance from an experienced fractional CTO.
               </p>
               <div class="mt-8 flex flex-col sm:flex-row gap-4">
-                <a 
-                  href="mailto:hello@learnedlate.com?subject=MVP%20Development%20Services%20Inquiry" 
-                  class="inline-flex items-center justify-center bg-white text-gray-900 px-6 py-3 rounded-md font-medium hover:bg-gray-100"
-                >
-                  Start Your MVP Journey
-                </a>
-                <a 
-                  href="#process" 
-                  class="inline-flex items-center justify-center bg-white/10 border border-white/20 text-white px-6 py-3 rounded-md font-medium hover:bg-white/20"
-                >
-                  See How It Works
-                </a>
+                <Button as-child size="lg" variant="secondary">
+                  <router-link to="/cv">Start Your MVP Journey</router-link>
+                </Button>
+                <Button as-child size="lg" variant="outline" class="border-white/20 text-white hover:bg-white/20 hover:text-white bg-transparent">
+                  <router-link to="/projects">See How It Works</router-link>
+                </Button>
               </div>
             </div>
             <div class="hidden lg:flex justify-center">
@@ -181,62 +175,62 @@
           <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-8 text-center">
             Learned Late vs The Alternatives
           </h2>
-          <div class="overflow-x-auto">
-            <table class="min-w-full bg-white border border-gray-200 rounded-xl overflow-hidden">
-              <thead class="bg-gray-100">
-                <tr>
-                  <th class="px-4 py-3 text-left text-gray-700 text-sm font-medium">Factor</th>
-                  <th class="px-4 py-3 text-left text-gray-700 text-sm font-medium">Learned Late</th>
-                  <th class="px-4 py-3 text-left text-gray-700 text-sm font-medium">Offshore Agencies</th>
-                  <th class="px-4 py-3 text-left text-gray-700 text-sm font-medium">Traditional Dev Shops</th>
-                  <th class="px-4 py-3 text-left text-gray-700 text-sm font-medium">Freelancers</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="border-t border-gray-200">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Delivery Time</td>
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium text-green-700">8 weeks</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">3-6 months</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">4-8 months</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Unpredictable</td>
-                </tr>
-                <tr class="border-t border-gray-200 bg-gray-50">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Strategic Guidance</td>
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium text-green-700">Included</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Extra cost</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Extra cost</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Rare</td>
-                </tr>
-                <tr class="border-t border-gray-200">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Timezone Alignment</td>
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium text-green-700">NZ/AU friendly</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Challenges</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Varies</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Varies</td>
-                </tr>
-                <tr class="border-t border-gray-200 bg-gray-50">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">AI-Accelerated Dev</td>
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium text-green-700">Yes</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">No</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Rare</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Rare</td>
-                </tr>
-                <tr class="border-t border-gray-200">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Fixed Engagement</td>
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium text-green-700">Yes</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Sometimes</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Rare</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">No</td>
-                </tr>
-                <tr class="border-t border-gray-200 bg-gray-50">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Post-Launch Support</td>
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium text-green-700">Included</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Extra cost</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Extra cost</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Unavailable</td>
-                </tr>
-              </tbody>
-            </table>
+          <div class="overflow-x-auto bg-white border border-gray-200 rounded-xl">
+            <Table>
+              <TableHeader>
+                <TableRow>
+                  <TableHead>Factor</TableHead>
+                  <TableHead>Learned Late</TableHead>
+                  <TableHead>Offshore Agencies</TableHead>
+                  <TableHead>Traditional Dev Shops</TableHead>
+                  <TableHead>Freelancers</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                <TableRow>
+                  <TableCell class="font-medium">Delivery Time</TableCell>
+                  <TableCell class="font-medium text-green-700">8 weeks</TableCell>
+                  <TableCell>3-6 months</TableCell>
+                  <TableCell>4-8 months</TableCell>
+                  <TableCell>Unpredictable</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell class="font-medium">Strategic Guidance</TableCell>
+                  <TableCell class="font-medium text-green-700">Included</TableCell>
+                  <TableCell>Extra cost</TableCell>
+                  <TableCell>Extra cost</TableCell>
+                  <TableCell>Rare</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell class="font-medium">Timezone Alignment</TableCell>
+                  <TableCell class="font-medium text-green-700">NZ/AU friendly</TableCell>
+                  <TableCell>Challenges</TableCell>
+                  <TableCell>Varies</TableCell>
+                  <TableCell>Varies</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell class="font-medium">AI-Accelerated Dev</TableCell>
+                  <TableCell class="font-medium text-green-700">Yes</TableCell>
+                  <TableCell>No</TableCell>
+                  <TableCell>Rare</TableCell>
+                  <TableCell>Rare</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell class="font-medium">Fixed Engagement</TableCell>
+                  <TableCell class="font-medium text-green-700">Yes</TableCell>
+                  <TableCell>Sometimes</TableCell>
+                  <TableCell>Rare</TableCell>
+                  <TableCell>No</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell class="font-medium">Post-Launch Support</TableCell>
+                  <TableCell class="font-medium text-green-700">Included</TableCell>
+                  <TableCell>Extra cost</TableCell>
+                  <TableCell>Extra cost</TableCell>
+                  <TableCell>Unavailable</TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
           </div>
         </div>
       </div>
@@ -312,12 +306,9 @@
             program, and outline what your MVP could look like. No commitment required.
           </p>
           <div class="mt-8">
-            <a 
-              href="mailto:hello@learnedlate.com?subject=MVP%20Development%20Services%20Inquiry" 
-              class="inline-flex items-center justify-center bg-white text-gray-900 px-8 py-3 rounded-md font-medium hover:bg-gray-100"
-            >
-              Book Your Discovery Call
-            </a>
+            <Button as-child size="lg" variant="secondary">
+              <a href="mailto:hello@learnedlate.com?subject=MVP%20Development%20Services%20Inquiry">Book Your Discovery Call</a>
+            </Button>
             <div class="mt-4 space-y-2 text-sm text-gray-400">
               <p>✓ No-obligation consultation</p>
               <p>✓ Response within 24 hours</p>
@@ -332,6 +323,15 @@
 
 <script setup lang="ts">
 import SEOHead from '../components/SEOHead.vue'
+import { Button } from '@/components/ui/button'
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from '@/components/ui/table'
 </script>
 
 <style scoped>

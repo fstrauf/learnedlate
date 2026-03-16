@@ -2,7 +2,7 @@
   <div class="services-page overflow-x-hidden">
     <SEOHead
       title="Fractional CTO & AI Development Services"
-      description="Expert AI-accelerated development, fractional CTO services, and technical due diligence for New Zealand startups. Get your MVP built faster and smarter."
+      description="Expert AI-accelerated development, fractional CTO services, SAP consulting, and technical due diligence for New Zealand businesses. Get your MVP built faster and smarter."
       url="/services"
       :schema="servicesSchema"
     />
@@ -14,108 +14,134 @@
             Strategic Technology Solutions That Drive Business Results
           </h1>
           <p class="text-lg sm:text-xl text-gray-600 mb-8 leading-relaxed px-2">
-            From SEO automation systems to AI-accelerated MVPs and fractional CTO work, I focus on three types of engagements designed to deliver measurable ROI.
+            From SEO automation systems to AI-accelerated MVPs and fractional CTO work, I focus on engagements designed to deliver measurable ROI.
           </p>
           <div class="flex flex-wrap justify-center gap-3 sm:gap-4 text-sm text-gray-500 px-4">
-            <Badge variant="secondary">🚀 AI-Accelerated</Badge>
-            <Badge variant="secondary">🇳🇿 New Zealand Based</Badge>
-            <Badge variant="secondary">⚡ Rapid Prototyping</Badge>
-            <Badge variant="secondary">🎯 Results Focused</Badge>
+            <Badge variant="secondary">AI-Accelerated</Badge>
+            <Badge variant="secondary">New Zealand Based</Badge>
+            <Badge variant="secondary">Rapid Prototyping</Badge>
+            <Badge variant="secondary">Results Focused</Badge>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="py-12 sm:py-16">
+    <section class="py-12 sm:py-16 bg-white">
               <div class="container mx-auto px-2 sm:px-4 lg:px-6">
-        <div class="grid grid-cols-1 gap-8 sm:gap-12 max-w-4xl mx-auto">
+        <div class="max-w-4xl mx-auto">
+          <div class="grid grid-cols-1 gap-8 sm:gap-12">
 
-          <!-- Pillar 1: SEO Automation Systems -->
-          <Card id="seo-automation" class="relative border-2 border-blue-500 shadow-lg">
-            <CardHeader>
-              <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-blue-600">Pillar 1</div>
-              <CardTitle class="text-xl sm:text-2xl font-light pr-8">SEO Automation Systems</CardTitle>
-            </CardHeader>
-            <CardContent class="space-y-6">
-              <p class="text-gray-600 leading-relaxed text-sm sm:text-base">
-                Build SEO automation systems that use your existing content, Google Search Console data, and AI workflows to grow organic traffic. For developers and founders who treat SEO like an engineering system—not a marketing afterthought.
-              </p>
+            <!-- Pillar 1: SEO Automation Systems -->
+            <Card id="seo-automation" class="relative">
+              <CardHeader>
+                <CardTitle class="text-xl sm:text-2xl font-light">SEO Automation Systems</CardTitle>
+              </CardHeader>
+              <CardContent class="space-y-4">
+                <p class="text-gray-600 leading-relaxed text-sm sm:text-base">
+                  Build SEO automation systems that use your existing content, Google Search Console data, and AI workflows to grow organic traffic. For developers and founders who treat SEO like an engineering system—not a marketing afterthought.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                  <Badge variant="secondary">Git-based workflows</Badge>
+                  <Badge variant="secondary">GSC data pipelines</Badge>
+                  <Badge variant="secondary">AI content specs</Badge>
+                </div>
+              </CardContent>
+              <CardFooter class="border-t border-gray-100 pt-4">
+                <Button as-child variant="outline">
+                  <router-link to="/services/seo-automation">Learn More About SEO Automation</router-link>
+                </Button>
+              </CardFooter>
+            </Card>
 
-              <div class="space-y-3">
-                <div class="flex items-start space-x-3">
-                  <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span class="text-gray-600 text-sm sm:text-base"><strong>Perfect for:</strong> Git-based sites with Markdown content, 1-3 projects, founders who want organic growth without manual SEO work.</span>
+            <!-- Pillar 2: AI-Accelerated MVPs & Internal Tools -->
+            <Card id="ai-accelerated-mvps" class="relative">
+              <CardHeader>
+                <CardTitle class="text-xl sm:text-2xl font-light">AI-Accelerated MVPs & Internal Tools</CardTitle>
+              </CardHeader>
+              <CardContent class="space-y-4">
+                <p class="text-gray-600 leading-relaxed text-sm sm:text-base">
+                  You have a software idea but need to get to market quickly without sacrificing quality. I combine deep architectural experience with modern AI tools to build your market-ready MVP in as little as 8 weeks.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                  <Badge variant="secondary">8-week MVP</Badge>
+                  <Badge variant="secondary">Full-stack development</Badge>
+                  <Badge variant="secondary">AI-accelerated</Badge>
                 </div>
-                <div class="flex items-start space-x-3">
-                  <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span class="text-gray-600 text-sm sm:text-base"><strong>Deliverables:</strong> Control centre setup, GSC data pipelines, CLI workflows, AI-assisted content specs, and documentation.</span>
-                </div>
-              </div>
-            </CardContent>
-            <CardFooter class="border-t border-gray-100 pt-4">
-              <Button as-child>
-                <router-link to="/services/seo-automation">Learn More About SEO Automation</router-link>
-              </Button>
-            </CardFooter>
-          </Card>
+              </CardContent>
+              <CardFooter class="border-t border-gray-100 pt-4">
+                <Button as-child variant="outline">
+                  <router-link to="/mvp-development">Learn More About MVP Development</router-link>
+                </Button>
+              </CardFooter>
+            </Card>
 
-          <!-- Pillar 2: AI-Accelerated MVPs & Internal Tools -->
-          <Card id="ai-accelerated-mvps" class="relative">
-            <CardHeader>
-              <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-blue-600">Pillar 2</div>
-              <CardTitle class="text-xl sm:text-2xl font-light pr-8">AI-Accelerated MVPs & Internal Tools</CardTitle>
-            </CardHeader>
-            <CardContent class="space-y-6">
-              <p class="text-gray-600 leading-relaxed text-sm sm:text-base">
-                You have a software idea but need to get to market quickly without sacrificing quality. I combine deep architectural experience with modern AI tools to build your market-ready MVP in as little as 8 weeks. Avoid costly mistakes and build a product on a foundation that's ready for scale.
-              </p>
+            <!-- Pillar 3: Solution Architecture & Fractional CTO -->
+            <Card id="fractional-cto" class="relative">
+              <CardHeader>
+                <CardTitle class="text-xl sm:text-2xl font-light">Fractional CTO</CardTitle>
+              </CardHeader>
+              <CardContent class="space-y-4">
+                <p class="text-gray-600 leading-relaxed text-sm sm:text-base">
+                  Strategic technology leadership for growing businesses. I provide the expertise of a full-time CTO on a fractional basis—perfect for scaling startups and established companies.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                  <Badge variant="secondary">Technical roadmap</Badge>
+                  <Badge variant="secondary">Team leadership</Badge>
+                  <Badge variant="secondary">Investor readiness</Badge>
+                </div>
+              </CardContent>
+              <CardFooter class="border-t border-gray-100 pt-4">
+                <Button as-child variant="outline">
+                  <router-link to="/fractional-cto">Learn More About Fractional CTO</router-link>
+                </Button>
+              </CardFooter>
+            </Card>
 
-              <div class="space-y-3">
-                <div class="flex items-start space-x-3">
-                  <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span class="text-gray-600 text-sm sm:text-base"><strong>Perfect for:</strong> Founders and businesses who need to validate an idea, secure investment, or launch a new product efficiently.</span>
+            <!-- SAP Solution Architecture -->
+            <Card id="sap-architecture" class="relative">
+              <CardHeader>
+                <CardTitle class="text-xl sm:text-2xl font-light">SAP Solution Architecture</CardTitle>
+              </CardHeader>
+              <CardContent class="space-y-4">
+                <p class="text-gray-600 leading-relaxed text-sm sm:text-base">
+                  Strategic architecture services for SAP landscapes. S/4HANA transformation planning, system integration design, and architecture governance for enterprise systems.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                  <Badge variant="secondary">S/4HANA</Badge>
+                  <Badge variant="secondary">System Integration</Badge>
+                  <Badge variant="secondary">Architecture Review</Badge>
                 </div>
-                <div class="flex items-start space-x-3">
-                  <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span class="text-gray-600 text-sm sm:text-base"><strong>Deliverables:</strong> A complete, scalable MVP, launch-ready infrastructure, and full intellectual property ownership.</span>
-                </div>
-              </div>
-            </CardContent>
-            <CardFooter class="border-t border-gray-100 pt-4">
-              <Button as-child>
-                <router-link to="/mvp-development">Learn More About MVP Development</router-link>
-              </Button>
-            </CardFooter>
-          </Card>
+              </CardContent>
+              <CardFooter class="border-t border-gray-100 pt-4">
+                <Button as-child variant="outline">
+                  <router-link to="/sap-solution-architecture">Learn More About SAP Architecture</router-link>
+                </Button>
+              </CardFooter>
+            </Card>
 
-          <!-- Pillar 3: Solution Architecture & Fractional CTO -->
-          <Card id="fractional-cto" class="relative">
-            <CardHeader>
-              <div class="absolute top-4 sm:top-6 right-4 sm:right-6 text-sm font-light text-blue-600">Pillar 3</div>
-              <CardTitle class="text-xl sm:text-2xl font-light pr-8">Solution Architecture & Fractional CTO</CardTitle>
-            </CardHeader>
-            <CardContent class="space-y-6">
-              <p class="text-gray-600 leading-relaxed text-sm sm:text-base">
-                You're making critical technology decisions without senior expertise. You need to scale your team, prepare for due diligence, or align your tech with business goals. I provide the strategic leadership of a full-time CTO for a fraction of the cost.
-              </p>
-              <div class="space-y-3">
-                <div class="flex items-start space-x-3">
-                  <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span class="text-gray-600 text-sm sm:text-base"><strong>Perfect for:</strong> Growing startups (Seed to Series A) and established businesses needing to modernize their technology strategy.</span>
+            <!-- SAP Custom Development -->
+            <Card id="sap-development" class="relative">
+              <CardHeader>
+                <CardTitle class="text-xl sm:text-2xl font-light">SAP Custom Development</CardTitle>
+              </CardHeader>
+              <CardContent class="space-y-4">
+                <p class="text-gray-600 leading-relaxed text-sm sm:text-base">
+                  Custom development services for SAP systems. ABAP programming, SAP Fiori apps, BTP extensions, and integration development.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                  <Badge variant="secondary">ABAP</Badge>
+                  <Badge variant="secondary">Fiori/SAPUI5</Badge>
+                  <Badge variant="secondary">SAP BTP</Badge>
                 </div>
-                <div class="flex items-start space-x-3">
-                  <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span class="text-gray-600 text-sm sm:text-base"><strong>Deliverables:</strong> A clear technical roadmap, improved team velocity, investor-ready documentation, and confident technical decision-making.</span>
-                </div>
-              </div>
-            </CardContent>
-            <CardFooter class="border-t border-gray-100 pt-4">
-              <Button as-child>
-                <router-link to="/fractional-cto">Learn More About Fractional CTO Services</router-link>
-              </Button>
-            </CardFooter>
-          </Card>
+              </CardContent>
+              <CardFooter class="border-t border-gray-100 pt-4">
+                <Button as-child variant="outline">
+                  <router-link to="/sap-custom-development">Learn More About SAP Development</router-link>
+                </Button>
+              </CardFooter>
+            </Card>
 
+          </div>
         </div>
       </div>
     </section>

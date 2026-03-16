@@ -81,7 +81,10 @@
       53,
       54,
       56,
-      73
+      73,
+      75,
+      77,
+      80
     ]
   },
   {
@@ -115,7 +118,17 @@
     "pillar_id": 61,
     "support_ids": [
       64,
-      74
+      74,
+      82
+    ]
+  },
+  {
+    "cluster_id": "sap-clean-core",
+    "name": "SAP Clean Core & S/4HANA",
+    "pillar_id": 76,
+    "support_ids": [
+      78,
+      81
     ]
   }
 ]

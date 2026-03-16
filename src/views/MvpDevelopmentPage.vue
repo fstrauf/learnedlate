@@ -30,7 +30,9 @@
           </div>
 
           <div class="mt-8">
-            <a href="#sprint" class="inline-flex items-center justify-center bg-white text-gray-900 px-6 py-3 rounded-md font-medium hover:bg-gray-100">Start with a 2‑Week Feasibility Sprint</a>
+            <Button as-child size="lg" variant="secondary">
+              <a href="#sprint">Start with a 2‑Week Feasibility Sprint</a>
+            </Button>
             <div class="text-gray-300 text-sm mt-2">$5,000 sprint fee • 100% credited to your build</div>
           </div>
         </div>
@@ -282,6 +284,7 @@
 
 <script setup lang="ts">
 import SEOHead from '../components/SEOHead.vue'
+import { Button } from '@/components/ui/button'
 </script>
 
 <style scoped>

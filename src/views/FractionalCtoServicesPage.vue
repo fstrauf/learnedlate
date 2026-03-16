@@ -42,18 +42,16 @@
           </div>
 
           <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="mailto:hello@learnedlate.com?subject=Fractional%20CTO%20Services%20Discussion" 
-              class="inline-flex items-center justify-center bg-white text-gray-900 px-6 py-3 rounded-md font-medium hover:bg-gray-100"
-            >
-              Schedule a Confidential Discussion
-            </a>
-            <a 
-              href="#engagement-options" 
-              class="inline-flex items-center justify-center bg-white/10 border border-white/20 text-white px-6 py-3 rounded-md font-medium hover:bg-white/20"
-            >
-              View Engagement Options
-            </a>
+            <Button as-child size="lg" variant="secondary">
+              <a href="mailto:hello@learnedlate.com?subject=Fractional%20CTO%20Services%20Discussion">
+                Schedule a Confidential Discussion
+              </a>
+            </Button>
+            <Button as-child size="lg" variant="outline" class="border-white/20 text-white hover:bg-white/20 hover:text-white bg-transparent">
+              <a href="#engagement-options">
+                View Engagement Options
+              </a>
+            </Button>
           </div>
         </div>
       </div>
@@ -231,48 +229,48 @@
             Fractional CTO vs. Full-Time CTO vs. No CTO
           </h2>
           <div class="overflow-x-auto">
-            <table class="min-w-full bg-white border border-gray-200 rounded-xl overflow-hidden">
-              <thead class="bg-gray-100">
-                <tr>
-                  <th class="px-4 py-3 text-left text-gray-700 text-sm font-medium">Factor</th>
-                  <th class="px-4 py-3 text-left text-gray-700 text-sm font-medium">Full-Time CTO</th>
-                  <th class="px-4 py-3 text-left text-gray-700 text-sm font-medium">Fractional CTO</th>
-                  <th class="px-4 py-3 text-left text-gray-700 text-sm font-medium">No CTO</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="border-t border-gray-200">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Cost</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">$300K+ salary + equity</td>
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium text-green-700">$5–15K/month</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">$0 (seems free...)</td>
-                </tr>
-                <tr class="border-t border-gray-200 bg-gray-50">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Experience Level</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Varies</td>
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium text-green-700">15+ years senior</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">None</td>
-                </tr>
-                <tr class="border-t border-gray-200">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Time to Start</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">3–6 months to hire</td>
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium text-green-700">Next week</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">N/A</td>
-                </tr>
-                <tr class="border-t border-gray-200 bg-gray-50">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Flexibility</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Fixed overhead</td>
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium text-green-700">Scale up/down</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">N/A</td>
-                </tr>
-                <tr class="border-t border-gray-200">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Hidden Costs</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Benefits, severance</td>
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium text-green-700">None</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Technical debt, delays</td>
-                </tr>
-              </tbody>
-            </table>
+            <Table class="bg-white border border-gray-200 rounded-xl overflow-hidden">
+              <TableHeader class="bg-gray-100">
+                <TableRow>
+                  <TableHead class="text-gray-700 text-sm font-medium">Factor</TableHead>
+                  <TableHead class="text-gray-700 text-sm font-medium">Full-Time CTO</TableHead>
+                  <TableHead class="text-gray-700 text-sm font-medium">Fractional CTO</TableHead>
+                  <TableHead class="text-gray-700 text-sm font-medium">No CTO</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                <TableRow class="border-t border-gray-200">
+                  <TableCell class="text-sm text-gray-700 font-medium">Cost</TableCell>
+                  <TableCell class="text-sm text-gray-700">$300K+ salary + equity</TableCell>
+                  <TableCell class="text-sm text-gray-700 font-medium text-green-700">$5–15K/month</TableCell>
+                  <TableCell class="text-sm text-gray-700">$0 (seems free...)</TableCell>
+                </TableRow>
+                <TableRow class="border-t border-gray-200 bg-gray-50">
+                  <TableCell class="text-sm text-gray-700 font-medium">Experience Level</TableCell>
+                  <TableCell class="text-sm text-gray-700">Varies</TableCell>
+                  <TableCell class="text-sm text-gray-700 font-medium text-green-700">15+ years senior</TableCell>
+                  <TableCell class="text-sm text-gray-700">None</TableCell>
+                </TableRow>
+                <TableRow class="border-t border-gray-200">
+                  <TableCell class="text-sm text-gray-700 font-medium">Time to Start</TableCell>
+                  <TableCell class="text-sm text-gray-700">3–6 months to hire</TableCell>
+                  <TableCell class="text-sm text-gray-700 font-medium text-green-700">Next week</TableCell>
+                  <TableCell class="text-sm text-gray-700">N/A</TableCell>
+                </TableRow>
+                <TableRow class="border-t border-gray-200 bg-gray-50">
+                  <TableCell class="text-sm text-gray-700 font-medium">Flexibility</TableCell>
+                  <TableCell class="text-sm text-gray-700">Fixed overhead</TableCell>
+                  <TableCell class="text-sm text-gray-700 font-medium text-green-700">Scale up/down</TableCell>
+                  <TableCell class="text-sm text-gray-700">N/A</TableCell>
+                </TableRow>
+                <TableRow class="border-t border-gray-200">
+                  <TableCell class="text-sm text-gray-700 font-medium">Hidden Costs</TableCell>
+                  <TableCell class="text-sm text-gray-700">Benefits, severance</TableCell>
+                  <TableCell class="text-sm text-gray-700 font-medium text-green-700">None</TableCell>
+                  <TableCell class="text-sm text-gray-700">Technical debt, delays</TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
           </div>
         </div>
       </div>
@@ -466,12 +464,11 @@
               <div class="text-sm text-gray-300">✓ Month-to-month after 3 months</div>
               <div class="text-sm text-gray-300">✓ 100% money-back guarantee</div>
             </div>
-            <a 
-              href="mailto:hello@learnedlate.com?subject=Fractional%20CTO%20Services%20Discussion" 
-              class="inline-flex items-center justify-center bg-white text-gray-900 px-8 py-3 rounded-md font-medium hover:bg-gray-100"
-            >
-              Schedule Your Confidential Discussion →
-            </a>
+            <Button as-child size="lg" variant="secondary">
+              <a href="mailto:hello@learnedlate.com?subject=Fractional%20CTO%20Services%20Discussion">
+                Schedule Your Confidential Discussion →
+              </a>
+            </Button>
             <p class="text-gray-400 text-sm mt-3">30-minute call • No obligation • NDA available</p>
           </div>
           <p class="text-gray-400 text-sm mt-4 italic">
@@ -487,6 +484,15 @@
 
 <script setup lang="ts">
 import SEOHead from '../components/SEOHead.vue'
+import { Button } from '@/components/ui/button'
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from '@/components/ui/table'
 </script>
 
 <style scoped>

@@ -23,6 +23,16 @@ import FractionalCtoServicesPage from '../views/FractionalCtoServicesPage.vue'
 import MvpDevelopmentServicesPage from '../views/MvpDevelopmentServicesPage.vue'
 import TechnicalCofounderVsFractionalCtoPage from '../views/TechnicalCofounderVsFractionalCtoPage.vue'
 import ToptalAlternativePage from '../views/ToptalAlternativePage.vue'
+import SapSolutionArchitecturePage from '../views/SapSolutionArchitecturePage.vue'
+import SapCustomDevelopmentPage from '../views/SapCustomDevelopmentPage.vue'
+import SapImplementationPartnerPage from '../views/SapImplementationPartnerPage.vue'
+import SapBtpConsultantNzPage from '../views/SapBtpConsultantNzPage.vue'
+import SapConsultingFirmsPage from '../views/SapConsultingFirmsPage.vue'
+import SapCleanCoreExtensionsPage from '../views/SapCleanCoreExtensionsPage.vue'
+import SapCustomDevelopmentServicesPage from '../views/SapCustomDevelopmentServicesPage.vue'
+import SapJouleCustomSkillsPage from '../views/SapJouleCustomSkillsPage.vue'
+import AccentureAlternativePage from '../views/AccentureAlternativePage.vue'
+import SapBtpConsultantPage from '../views/SapBtpConsultantPage.vue'
 
 const routes: RouteRecordRaw[] = [
   {
@@ -173,6 +183,66 @@ const routes: RouteRecordRaw[] = [
     name: 'ToptalAlternative',
     component: ToptalAlternativePage,
     meta: { title: 'Best Toptal Alternative for Fractional CTO Services | LearnedLate' }
+  },
+  {
+    path: '/sap-solution-architecture',
+    name: 'SapSolutionArchitecture',
+    component: SapSolutionArchitecturePage,
+    meta: { title: 'SAP Solution Architecture Services | Enterprise System Design' }
+  },
+  {
+    path: '/sap-custom-development',
+    name: 'SapCustomDevelopment',
+    component: SapCustomDevelopmentPage,
+    meta: { title: 'SAP Custom Development Services | ABAP, Fiori & BTP' }
+  },
+  {
+    path: '/sap-clean-core-extensions',
+    name: 'SapCleanCoreExtensions',
+    component: SapCleanCoreExtensionsPage,
+    meta: { title: 'SAP Clean Core Extensions | BTP Side-by-Side Development Services' }
+  },
+  {
+    path: '/sap-implementation-partner',
+    name: 'SapImplementationPartner',
+    component: SapImplementationPartnerPage,
+    meta: { title: 'SAP Implementation Partner ANZ | Senior Experts, 40% Savings | LearnedLate' }
+  },
+  {
+    path: '/sap-btp-consultant-new-zealand',
+    name: 'SapBtpConsultantNz',
+    component: SapBtpConsultantNzPage,
+    meta: { title: 'SAP BTP Consultant New Zealand | Local Clean Core Expertise' }
+  },
+  {
+    path: '/sap-consulting-firms',
+    name: 'SapConsultingFirms',
+    component: SapConsultingFirmsPage,
+    meta: { title: 'SAP Consulting Firms: ANZ Expert at Big 4 Rates | LearnedLate' }
+  },
+  {
+    path: '/sap-btp-consultant',
+    name: 'SapBtpConsultant',
+    component: SapBtpConsultantPage,
+    meta: { title: 'SAP BTP Consultant | Side-by-Side Extensions & Clean Core' }
+  },
+  {
+    path: '/accenture-alternative-sap-consulting',
+    name: 'AccentureAlternative',
+    component: AccentureAlternativePage,
+    meta: { title: 'Accenture Alternative for SAP | 40-60% Cost Savings | learnedlate' }
+  },
+  {
+    path: '/sap-joule-custom-skills-development',
+    name: 'SapJouleCustomSkills',
+    component: SapJouleCustomSkillsPage,
+    meta: { title: 'SAP Joule Custom Skills Development | AI Agent Implementation' }
+  },
+  {
+    path: '/sap-custom-development-services',
+    name: 'SapCustomDevelopmentServices',
+    component: SapCustomDevelopmentServicesPage,
+    meta: { title: 'SAP Custom Development Services | Clean Core Extensions | ANZ' }
   },
 ]
 

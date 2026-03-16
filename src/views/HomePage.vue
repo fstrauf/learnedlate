@@ -38,43 +38,56 @@
           <div class="text-center mb-6">
             <h2 class="text-xl sm:text-2xl font-light">How I can help</h2>
           </div>
-          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
-            <Card class="rounded-xl border-white/15 bg-white/5 hover:bg-white/10 transition-colors duration-200 border shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06)] text-white">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+            <Card class="rounded-xl border-white/15 bg-white/5 hover:bg-white/10 transition-colors duration-200 border shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06)] text-white flex flex-col h-full">
               <CardHeader class="pb-2">
                 <CardTitle class="text-white text-base sm:text-lg font-medium">My site isn't getting enough traffic</CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent class="flex-grow">
                 <p class="text-gray-300 text-sm">Build SEO automation systems that use your existing content, Google Search Console data, and AI workflows to grow organic traffic.</p>
               </CardContent>
-              <CardFooter>
-                <Button as-child class="w-full sm:w-auto bg-white text-gray-900 hover:bg-gray-100">
+              <CardFooter class="mt-auto pt-4">
+                <Button as-child class="w-full bg-white text-gray-900 hover:bg-gray-100">
                   <router-link to="/services/seo-automation">Build My SEO System</router-link>
                 </Button>
               </CardFooter>
             </Card>
-            <Card class="rounded-xl border-white/15 bg-white/5 hover:bg-white/10 transition-colors duration-200 border shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06)] text-white">
+            <Card class="rounded-xl border-white/15 bg-white/5 hover:bg-white/10 transition-colors duration-200 border shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06)] text-white flex flex-col h-full">
               <CardHeader class="pb-2">
                 <CardTitle class="text-white text-base sm:text-lg font-medium">I need to build software fast</CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent class="flex-grow">
                 <p class="text-gray-300 text-sm">Launch your MVP or internal tools in weeks using AI-accelerated development and solid architecture.</p>
               </CardContent>
-              <CardFooter>
-                <Button as-child class="w-full sm:w-auto bg-white text-gray-900 hover:bg-gray-100">
-                  <router-link to="/services#ai-accelerated-mvps">Build My MVP</router-link>
+              <CardFooter class="mt-auto pt-4">
+                <Button as-child class="w-full bg-white text-gray-900 hover:bg-gray-100">
+                  <router-link to="/mvp-development">Build My MVP</router-link>
                 </Button>
               </CardFooter>
             </Card>
-            <Card class="rounded-xl border-white/15 bg-white/5 hover:bg-white/10 transition-colors duration-200 border shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06)] text-white">
+            <Card class="rounded-xl border-white/15 bg-white/5 hover:bg-white/10 transition-colors duration-200 border shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06)] text-white flex flex-col h-full">
               <CardHeader class="pb-2">
                 <CardTitle class="text-white text-base sm:text-lg font-medium">I need technical leadership</CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent class="flex-grow">
                 <p class="text-gray-300 text-sm">Get a senior architect and fractional CTO to untangle your systems and align tech with the business.</p>
               </CardContent>
-              <CardFooter>
-                <Button as-child class="w-full sm:w-auto bg-white text-gray-900 hover:bg-gray-100">
-                  <router-link to="/services#fractional-cto">Get Strategic Leadership</router-link>
+              <CardFooter class="mt-auto pt-4">
+                <Button as-child class="w-full bg-white text-gray-900 hover:bg-gray-100">
+                  <router-link to="/fractional-cto">Get Strategic Leadership</router-link>
+                </Button>
+              </CardFooter>
+            </Card>
+            <Card class="rounded-xl border-white/15 bg-white/5 hover:bg-white/10 transition-colors duration-200 border shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06)] text-white flex flex-col h-full">
+              <CardHeader class="pb-2">
+                <CardTitle class="text-white text-base sm:text-lg font-medium">I need SAP expertise</CardTitle>
+              </CardHeader>
+              <CardContent class="flex-grow">
+                <p class="text-gray-300 text-sm">SAP Solution Architecture, S/4HANA transformations, ABAP development, and Fiori apps.</p>
+              </CardContent>
+              <CardFooter class="mt-auto pt-4">
+                <Button as-child class="w-full bg-white text-gray-900 hover:bg-gray-100">
+                  <router-link to="/services">View SAP Services</router-link>
                 </Button>
               </CardFooter>
             </Card>

@@ -30,7 +30,9 @@
           </div>
 
           <div class="mt-8">
-            <a href="mailto:hello@learnedlate.com?subject=AI%20Readiness%20Assessment" class="inline-flex items-center justify-center bg-white text-gray-900 px-6 py-3 rounded-md font-medium hover:bg-gray-100">Get Your Free AI Readiness Assessment</a>
+            <Button as-child size="lg" variant="secondary">
+              <a href="mailto:hello@learnedlate.com?subject=AI%20Readiness%20Assessment">Get Your Free AI Readiness Assessment</a>
+            </Button>
             <div class="text-gray-300 text-sm mt-2">15-minute call • 3 immediate opportunities identified • No fluff</div>
           </div>
         </div>
@@ -329,6 +331,7 @@
 
 <script setup lang="ts">
 import SEOHead from '../components/SEOHead.vue'
+import { Button } from '@/components/ui/button'
 </script>
 
 <style scoped>

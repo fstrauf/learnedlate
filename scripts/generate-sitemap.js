@@ -23,6 +23,8 @@ const staticRoutes = [
   { path: '/ai-implementation', priority: '0.8', changefreq: 'monthly' },
   { path: '/automation', priority: '0.8', changefreq: 'monthly' },
   { path: '/seo-automation', priority: '0.8', changefreq: 'monthly' },
+  { path: '/sap-solution-architecture', priority: '0.7', changefreq: 'monthly' },
+  { path: '/sap-custom-development', priority: '0.7', changefreq: 'monthly' },
   { path: '/now', priority: '0.6', changefreq: 'weekly' },
   { path: '/life-balance-visualizer', priority: '0.6', changefreq: 'monthly' },
   { path: '/life-calendar', priority: '0.6', changefreq: 'monthly' },

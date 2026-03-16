@@ -13,6 +13,8 @@ export const staticRoutes = [
   '/projects',
   '/services',
   '/cv',
+  '/sap-solution-architecture',
+  '/sap-custom-development',
   '/mvp-development',
   '/fractional-cto',
   '/ai-implementation',

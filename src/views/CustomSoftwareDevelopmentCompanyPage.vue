@@ -18,18 +18,14 @@
             and direct access to the developers building your solution.
           </p>
           <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="mailto:hello@learnedlate.com?subject=Custom%20Software%20Development%20Discovery%20Call" 
-              class="inline-flex items-center justify-center bg-white text-gray-900 px-6 py-3 rounded-md font-medium hover:bg-gray-100"
-            >
-              Book a Free Discovery Call
-            </a>
-            <a 
-              href="#case-studies" 
-              class="inline-flex items-center justify-center bg-white/10 border border-white/20 text-white px-6 py-3 rounded-md font-medium hover:bg-white/20"
-            >
-              View Our Work
-            </a>
+            <Button as-child size="lg" variant="secondary">
+              <a href="mailto:hello@learnedlate.com?subject=Custom%20Software%20Development%20Discovery%20Call">
+                Book a Free Discovery Call
+              </a>
+            </Button>
+            <Button as-child size="lg" variant="outline" class="border-white/20 text-white hover:bg-white/20 hover:text-white bg-transparent">
+              <router-link to="/projects">View Our Work</router-link>
+            </Button>
           </div>
         </div>
       </div>
@@ -158,42 +154,42 @@
             learnedlate vs Offshore Development
           </h2>
           <div class="overflow-x-auto">
-            <table class="min-w-full bg-white border border-gray-200 rounded-xl overflow-hidden">
-              <thead class="bg-gray-100">
-                <tr>
-                  <th class="px-4 py-3 text-left text-gray-700 text-sm font-medium">Factor</th>
-                  <th class="px-4 py-3 text-left text-gray-700 text-sm font-medium">learnedlate (NZ-Based)</th>
-                  <th class="px-4 py-3 text-left text-gray-700 text-sm font-medium">Offshore Development</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="border-t border-gray-200">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Communication</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Direct with developers</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Through account managers</td>
-                </tr>
-                <tr class="border-t border-gray-200 bg-gray-50">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Timezone</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">NZ business hours</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">8-12 hour delays</td>
-                </tr>
-                <tr class="border-t border-gray-200">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Pricing</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Fixed, transparent</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Hourly + hidden costs</td>
-                </tr>
-                <tr class="border-t border-gray-200 bg-gray-50">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Legal protection</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">NZ law</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Difficult to enforce</td>
-                </tr>
-                <tr class="border-t border-gray-200">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Code quality</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Senior developers only</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Variable quality</td>
-                </tr>
-              </tbody>
-            </table>
+            <Table class="bg-white border border-gray-200 rounded-xl overflow-hidden">
+              <TableHeader class="bg-gray-100">
+                <TableRow>
+                  <TableHead class="text-left text-gray-700 text-sm font-medium">Factor</TableHead>
+                  <TableHead class="text-left text-gray-700 text-sm font-medium">learnedlate (NZ-Based)</TableHead>
+                  <TableHead class="text-left text-gray-700 text-sm font-medium">Offshore Development</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                <TableRow class="border-t border-gray-200">
+                  <TableCell class="text-sm text-gray-700 font-medium">Communication</TableCell>
+                  <TableCell class="text-sm text-gray-700">Direct with developers</TableCell>
+                  <TableCell class="text-sm text-gray-700">Through account managers</TableCell>
+                </TableRow>
+                <TableRow class="border-t border-gray-200 bg-gray-50">
+                  <TableCell class="text-sm text-gray-700 font-medium">Timezone</TableCell>
+                  <TableCell class="text-sm text-gray-700">NZ business hours</TableCell>
+                  <TableCell class="text-sm text-gray-700">8-12 hour delays</TableCell>
+                </TableRow>
+                <TableRow class="border-t border-gray-200">
+                  <TableCell class="text-sm text-gray-700 font-medium">Pricing</TableCell>
+                  <TableCell class="text-sm text-gray-700">Fixed, transparent</TableCell>
+                  <TableCell class="text-sm text-gray-700">Hourly + hidden costs</TableCell>
+                </TableRow>
+                <TableRow class="border-t border-gray-200 bg-gray-50">
+                  <TableCell class="text-sm text-gray-700 font-medium">Legal protection</TableCell>
+                  <TableCell class="text-sm text-gray-700">NZ law</TableCell>
+                  <TableCell class="text-sm text-gray-700">Difficult to enforce</TableCell>
+                </TableRow>
+                <TableRow class="border-t border-gray-200">
+                  <TableCell class="text-sm text-gray-700 font-medium">Code quality</TableCell>
+                  <TableCell class="text-sm text-gray-700">Senior developers only</TableCell>
+                  <TableCell class="text-sm text-gray-700">Variable quality</TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
           </div>
           <p class="text-gray-700 mt-6 text-center">
             learnedlate eliminates the hidden costs of offshore development—communication delays, 
@@ -261,12 +257,11 @@
             potential approach, and provide a ballpark estimate—no commitment required.
           </p>
           <div class="mt-8">
-            <a 
-              href="mailto:hello@learnedlate.com?subject=Custom%20Software%20Development%20Discovery%20Call" 
-              class="inline-flex items-center justify-center bg-white text-gray-900 px-8 py-3 rounded-md font-medium hover:bg-gray-100"
-            >
-              Book Your Free Discovery Call
-            </a>
+            <Button as-child size="lg" variant="secondary">
+              <a href="mailto:hello@learnedlate.com?subject=Custom%20Software%20Development%20Discovery%20Call">
+                Book Your Free Discovery Call
+              </a>
+            </Button>
             <p class="text-gray-400 text-sm mt-3">No sales pressure. No obligation. Just honest technical advice.</p>
           </div>
         </div>
@@ -277,6 +272,15 @@
 
 <script setup lang="ts">
 import SEOHead from '../components/SEOHead.vue'
+import { Button } from '@/components/ui/button'
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from '@/components/ui/table'
 </script>
 
 <style scoped>

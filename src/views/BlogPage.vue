@@ -25,30 +25,24 @@
           <!-- Category Filter -->
           <div class="flex justify-center mb-12">
             <div class="flex flex-wrap justify-center gap-2 bg-white rounded-lg p-3 sm:p-2 shadow-sm border border-gray-200 max-w-full">
-              <button
+              <Button
                 @click="selectedCategory = ''"
-                :class="[
-                  'px-3 sm:px-4 py-2 rounded-md text-sm font-medium transition-colors whitespace-nowrap',
-                  selectedCategory === '' 
-                    ? 'bg-gray-900 text-white' 
-                    : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
-                ]"
+                :variant="selectedCategory === '' ? 'default' : 'ghost'"
+                size="sm"
+                class="whitespace-nowrap"
               >
                 All Posts
-              </button>
-              <button
+              </Button>
+              <Button
                 v-for="category in categories"
                 :key="category"
                 @click="selectedCategory = category"
-                :class="[
-                  'px-3 sm:px-4 py-2 rounded-md text-sm font-medium transition-colors whitespace-nowrap',
-                  selectedCategory === category 
-                    ? 'bg-gray-900 text-white' 
-                    : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
-                ]"
+                :variant="selectedCategory === category ? 'default' : 'ghost'"
+                size="sm"
+                class="whitespace-nowrap"
               >
                 {{ category }}
-              </button>
+              </Button>
             </div>
           </div>
 
@@ -115,12 +109,12 @@
           <div v-if="filteredPosts.length === 0" class="text-center py-16">
             <h3 class="text-2xl font-light text-gray-900 mb-4">No posts found</h3>
             <p class="text-gray-600 mb-8">Try selecting a different category or check back later for new content.</p>
-            <button
+            <Button
               @click="selectedCategory = ''"
-              class="inline-block bg-gray-900 text-white font-medium py-3 px-6 rounded-lg hover:bg-gray-800 transition-colors"
+              variant="default"
             >
               View All Posts
-            </button>
+            </Button>
           </div>
         </div>
       </div>
@@ -132,6 +126,7 @@
 import { ref, computed } from 'vue'
 import { allBlogPosts, getAllCategories, type BlogPost } from '../blog'
 import SEOHead from '../components/SEOHead.vue'
+import { Button } from '@/components/ui/button'
 
 const selectedCategory = ref('')
 const posts = ref<BlogPost[]>(allBlogPosts)

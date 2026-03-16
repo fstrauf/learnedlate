@@ -26,12 +26,13 @@
             <p class="text-gray-300 mb-6">
               Your SEO Automation Package is ready to download. Get started with the folder structure and Copilot prompts right away.
             </p>
-            <button
-              @click="downloadPackage"
+            <Button
+              variant="default"
               class="inline-block w-full sm:w-auto px-8 py-3 bg-white text-gray-900 font-medium rounded-md hover:bg-gray-100 transition-colors text-center cursor-pointer"
+              @click="downloadPackage"
             >
               Download Package Now
-            </button>
+            </Button>
           </div>
 
           <!-- Support Section -->
@@ -194,6 +195,7 @@
 import { ref, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
 import SEOHead from '../components/SEOHead.vue';
+import { Button } from '@/components/ui/button';
 
 type PaymentStatus = 'loading' | 'paid' | 'error';
 

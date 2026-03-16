@@ -20,18 +20,12 @@
                 save 40%, and work with a proven technology leader who understands the NZ startup ecosystem.
               </p>
               <div class="mt-8 flex flex-col sm:flex-row gap-4">
-                <a 
-                  href="mailto:hello@learnedlate.com?subject=Toptal%20Alternative%20-%20Discovery%20Call" 
-                  class="inline-flex items-center justify-center bg-white text-gray-900 px-6 py-3 rounded-md font-medium hover:bg-gray-100"
-                >
+                <Button as="a" href="mailto:hello@learnedlate.com?subject=Toptal%20Alternative%20-%20Discovery%20Call" size="lg" variant="secondary">
                   Book Free Discovery Call
-                </a>
-                <a 
-                  href="#comparison" 
-                  class="inline-flex items-center justify-center bg-white/10 border border-white/20 text-white px-6 py-3 rounded-md font-medium hover:bg-white/20"
-                >
-                  View CTO Services
-                </a>
+                </Button>
+                <Button as-child size="lg" variant="outline" class="border-white/20 text-white hover:bg-white/20 hover:text-white bg-transparent">
+                  <router-link to="/services">View CTO Services</router-link>
+                </Button>
               </div>
             </div>
             <div class="hidden lg:flex justify-center">
@@ -189,47 +183,47 @@
             LearnedLate vs Toptal: A Direct Comparison
           </h2>
           <div class="overflow-x-auto">
-            <table class="min-w-full bg-white border border-gray-200 rounded-xl overflow-hidden">
-              <thead class="bg-gray-100">
-                <tr>
-                  <th class="px-4 py-3 text-left text-gray-700 text-sm font-medium">Factor</th>
-                  <th class="px-4 py-3 text-left text-gray-700 text-sm font-medium">Toptal</th>
-                  <th class="px-4 py-3 text-left text-gray-700 text-sm font-medium">LearnedLate</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="border-t border-gray-200">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Time to Onboard</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">6-8 weeks</td>
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium text-green-700">2-7 days</td>
-                </tr>
-                <tr class="border-t border-gray-200 bg-gray-50">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Typical Hourly Rate</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">$100-150/hr</td>
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium text-green-700">40% less</td>
-                </tr>
-                <tr class="border-t border-gray-200">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">NZ Market Knowledge</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Variable</td>
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium text-green-700">Deep expertise</td>
-                </tr>
-                <tr class="border-t border-gray-200 bg-gray-50">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Working Relationship</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Via platform</td>
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium text-green-700">Direct access</td>
-                </tr>
-                <tr class="border-t border-gray-200">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">AI-Accelerated Delivery</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Depends on freelancer</td>
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium text-green-700">Core methodology</td>
-                </tr>
-                <tr class="border-t border-gray-200 bg-gray-50">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Minimum Commitment</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Often 20+ hrs/week</td>
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium text-green-700">Flexible</td>
-                </tr>
-              </tbody>
-            </table>
+            <Table>
+              <TableHeader>
+                <TableRow>
+                  <TableHead>Factor</TableHead>
+                  <TableHead>Toptal</TableHead>
+                  <TableHead>LearnedLate</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                <TableRow>
+                  <TableCell class="font-medium">Time to Onboard</TableCell>
+                  <TableCell>6-8 weeks</TableCell>
+                  <TableCell class="font-medium text-green-700">2-7 days</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell class="font-medium">Typical Hourly Rate</TableCell>
+                  <TableCell>$100-150/hr</TableCell>
+                  <TableCell class="font-medium text-green-700">40% less</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell class="font-medium">NZ Market Knowledge</TableCell>
+                  <TableCell>Variable</TableCell>
+                  <TableCell class="font-medium text-green-700">Deep expertise</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell class="font-medium">Working Relationship</TableCell>
+                  <TableCell>Via platform</TableCell>
+                  <TableCell class="font-medium text-green-700">Direct access</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell class="font-medium">AI-Accelerated Delivery</TableCell>
+                  <TableCell>Depends on freelancer</TableCell>
+                  <TableCell class="font-medium text-green-700">Core methodology</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell class="font-medium">Minimum Commitment</TableCell>
+                  <TableCell>Often 20+ hrs/week</TableCell>
+                  <TableCell class="font-medium text-green-700">Flexible</TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
           </div>
 
           <!-- Why Choose LearnedLate -->
@@ -313,12 +307,9 @@
             Available for NZ startups and businesses ready to move fast.
           </p>
           <div class="mt-8">
-            <a 
-              href="mailto:hello@learnedlate.com?subject=Toptal%20Alternative%20-%20Discovery%20Call" 
-              class="inline-flex items-center justify-center bg-white text-gray-900 px-8 py-3 rounded-md font-medium hover:bg-gray-100"
-            >
+            <Button as="a" href="mailto:hello@learnedlate.com?subject=Toptal%20Alternative%20-%20Discovery%20Call" size="lg" variant="secondary">
               Book My Free Discovery Call
-            </a>
+            </Button>
             <p class="text-gray-400 text-sm mt-3">Available this week • No platform fees • NZ-based</p>
           </div>
         </div>
@@ -329,6 +320,15 @@
 
 <script setup lang="ts">
 import SEOHead from '../components/SEOHead.vue'
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from '@/components/ui/table'
+import { Button } from '@/components/ui/button'
 </script>
 
 <style scoped>

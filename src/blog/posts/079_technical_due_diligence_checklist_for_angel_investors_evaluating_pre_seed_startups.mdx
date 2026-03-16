@@ -1,0 +1,271 @@
+---
+title: "Technical Due Diligence Checklist for Angel Investors: Evaluating Pre-Seed Startups"
+date: "2026-03-19"
+description: "A comprehensive technical due diligence checklist for angel investors evaluating pre-seed startups. Learn what to look for, red flags to avoid, and how to assess technical risk."
+tags: ["technical due diligence", "angel investing", "pre-seed startups", "startup evaluation", "tech investing"]
+---
+
+# Technical Due Diligence Checklist for Angel Investors: Evaluating Pre-Seed Startups
+
+Investing in pre-seed startups is inherently risky. You're betting on founders, markets, and products that often barely exist yet. While market opportunity and team quality typically dominate early-stage investment decisions, technical due diligence can save you from costly mistakes—and reveal hidden opportunities others might miss.
+
+Most angel investors aren't software engineers. You don't need to review code or critique architecture decisions. But you *do* need to understand whether the technical foundation can support the business plan, or whether hidden technical debt will derail the company before it finds product-market fit.
+
+This **technical due diligence checklist for angel investors** gives you a practical framework for evaluating pre-seed startups without getting lost in technical weeds.
+
+## Why Technical Due Diligence Matters for Angel Investors
+
+At the pre-seed stage, you're typically investing $25K–$250K in companies with minimal revenue, unproven products, and founding teams that may or may not have technical expertise. Technical risk is often the biggest unexamined variable in these investments.
+
+Consider what technical problems can cost:
+
+- **Rebuilds** — Discovering the codebase can't scale often means 6–12 months of lost momentum
+- **Security breaches** — Early-stage companies rarely survive major data breaches
+- **Hiring challenges** — Poor tech choices make attracting engineering talent nearly impossible
+- **Founder distraction** — Technical fires pull founders away from customer development
+
+A startup with solid technical foundations moves faster, hires better, and raises subsequent rounds more easily. One with fundamental technical problems often dies quietly after burning through your capital.
+
+## Pre-Seed Technical Due Diligence: Key Areas to Evaluate
+
+### 1. Founding Team Technical Capability
+
+**Who Built What?**
+
+Understanding who actually wrote the code—and their experience level—is fundamental.
+
+- **Technical co-founder present?** — Pre-seed startups without technical leadership are extremely risky
+- **Previous technical experience?** — First-time technical founders often make expensive architectural mistakes
+- **Full-time commitment?** — Part-time technical co-founders struggle to maintain velocity
+- **Equity alignment?** — Technical co-founders should have meaningful equity stakes
+
+**Questions to Ask:**
+- Walk me through your technical backgrounds and what you built before this startup
+- Who wrote the current codebase, and how much is outsourced?
+- What's your plan for building the technical team post-funding?
+
+**Red Flags:**
+- No technical co-founder and no plan to hire one
+- Entire product built by low-cost offshore developers
+- Technical founder working part-time with no transition plan
+
+### 2. Technology Stack Appropriateness
+
+**Are They Using Sensible Tools?**
+
+Pre-seed startups don't need cutting-edge technology. They need boring, reliable tools that engineers know and love.
+
+**Evaluate the stack against these criteria:**
+
+| Factor | Green Flags | Red Flags |
+|--------|-------------|-----------|
+| **Mainstream adoption** | React, Python, PostgreSQL, AWS | Obscure frameworks, custom-built solutions |
+| **Hiring pool** | Large community, abundant talent | Niche languages with limited developers |
+| **Learning curve** | Team already proficient | Major new technology learning required |
+| **Hosting complexity** | Managed services (Vercel, Heroku, AWS) | Self-managed servers, complex DevOps |
+| **Mobile approach** | Progressive Web App or React Native | Native iOS *and* Android from day one |
+
+**Questions to Ask:**
+- Why did you choose your current tech stack?
+- How hard is it to hire engineers familiar with your technology?
+- What would you change about your stack if you were starting over?
+
+### 3. Product Stage and Technical Debt
+
+**What Actually Exists?**
+
+Pre-seed startups range from PowerPoint decks to products with thousands of users. Understanding where they actually are technically is crucial.
+
+**Product Maturity Assessment:**
+
+- **Prototype/MVP** — Basic functionality demonstrating core value proposition
+- **Alpha/Beta** — Working product with limited users, collecting feedback
+- **Early traction** — Paying customers or consistent usage metrics
+- **Growth stage** — Proven product-market fit, scaling challenges
+
+**Technical Debt Evaluation:**
+
+All early-stage products have technical debt. The question is whether it's manageable or existential.
+
+**Acceptable Technical Debt:**
+- Known shortcuts with documented plans to address
+- Deliberate decisions to prioritise speed over perfection
+- Issues that don't block scaling to the next milestone
+
+**Dangerous Technical Debt:**
+- Core architecture that won't support 10x user growth
+- No testing infrastructure in a regulated industry
+- Security practices that invite breaches
+- Database design that requires complete rebuild
+
+**Questions to Ask:**
+- How many users can your current architecture support?
+- What's the biggest technical risk you're aware of?
+- Have you done any code reviews or security assessments?
+
+### 4. Development Velocity and Process
+
+**Can They Ship?**
+
+In pre-seed startups, shipping speed often matters more than code quality. You need to understand whether the team can iterate quickly based on customer feedback.
+
+**Velocity Indicators:**
+
+- **Release frequency** — Weekly or bi-weekly releases suggest healthy velocity
+- **Feature completion rate** — Do they actually finish what they start?
+- **Bug resolution time** — Critical bugs fixed within days, not weeks
+- **Customer feedback integration** — Evidence of rapid iteration based on user input
+
+**Process Maturity:**
+
+Early-stage startups don't need enterprise processes, but some basics matter:
+
+- **Version control** — Code in GitHub/GitLab with proper history
+- **Deployment process** — Some automation, not manual FTP uploads
+- **Testing** — At least smoke tests for critical paths
+- **Documentation** — Basic setup instructions for new developers
+
+**Questions to Ask:**
+- How often do you release updates?
+- Walk me through how you deploy code to production
+- How do you handle bugs that affect customers?
+
+### 5. Security and Compliance Posture
+
+**Are They Responsible Stewards?**
+
+Security breaches at pre-seed startups are often fatal. You don't need military-grade security, but basic hygiene matters enormously.
+
+**Essential Security Practices:**
+
+- **Authentication** — Proper password handling, no hardcoded credentials
+- **Data encryption** — HTTPS everywhere, encrypted database connections
+- **Access controls** — Multi-factor authentication for production systems
+- **Dependency management** — Regular security updates for libraries
+- **Backups** — Automated backups with tested restoration procedures
+
+**Compliance Considerations:**
+
+If the startup handles sensitive data, compliance requirements multiply:
+
+| Data Type | Requirements | Questions to Ask |
+|-----------|--------------|------------------|
+| **Payment information** | PCI DSS | How do you handle card data? |
+| **Healthcare data** | HIPAA | Are you aware of healthcare compliance requirements? |
+| **Personal data (EU)** | GDPR | What's your data handling and deletion process? |
+| **Financial data** | SOC 2 | Do enterprise customers require security certifications? |
+
+**Questions to Ask:**
+- Have you had any security incidents or breaches?
+- How do you handle sensitive customer data?
+- What security measures protect your production environment?
+
+### 6. Scalability and Technical Roadmap
+
+**Can the Technology Support the Business Plan?**
+
+Founders pitch ambitious growth projections. The technology needs to support that vision—or at least not prevent it.
+
+**Scalability Assessment:**
+
+- **Database design** — Will queries slow down at 10,000 users?
+- **API architecture** — Can third-party integrations scale?
+- **Infrastructure costs** — Does the hosting bill grow linearly with users?
+- **Performance bottlenecks** — Known limitations and planned solutions
+
+**Technical Roadmap Alignment:**
+
+The technical roadmap should support the business plan, not fight it:
+
+- Major features required for the next funding milestone
+- Technical debt paydown scheduled appropriately
+- Hiring plan aligned with technical needs
+- Infrastructure scaling triggers and costs
+
+**Questions to Ask:**
+- What technical work is required to achieve your 12-month goals?
+- What would break first if you 10x'd your user base overnight?
+- How much will your infrastructure costs grow with scale?
+
+## Red Flags That Should Give You Pause
+
+Some technical issues are recoverable. Others suggest fundamental problems that make investment inadvisable.
+
+### Critical Red Flags (Consider Walking Away)
+
+- **No technical founder** and no credible plan to hire technical leadership
+- **Single developer** who holds all knowledge and isn't fully committed
+- **Technology choices** that make hiring impossible in your market
+- **Security negligence** that creates existential liability
+- **Core product built by lowest-bidder outsourcing** with no in-house expertise
+
+### Concerning Yellow Flags (Dig Deeper)
+
+- **Massive technical debt** with no acknowledgment or plan
+- **Technology stack** the founders chose for learning, not business needs
+- **Inability to explain** basic technical architecture
+- **No version control** or deployment automation
+- **Frequent production outages** with slow recovery times
+
+## Practical Technical Due Diligence Process
+
+You don't need to be a developer to conduct effective technical due diligence. Here's a lightweight process that works:
+
+### Step 1: Initial Screening (30 minutes)
+
+Review the pitch deck and website for:
+- Technical team composition and backgrounds
+- Technology mentions that seem unusual
+- Product screenshots and functionality demos
+
+### Step 2: Founding Team Interview (60 minutes)
+
+Focus on the questions outlined in this checklist. Pay attention to:
+- Confidence without arrogance about technical decisions
+- Honesty about limitations and known problems
+- Clear plans for addressing technical challenges
+
+### Step 3: Technical Demo (30 minutes)
+
+Ask for a live product walkthrough:
+- Test the product yourself if possible
+- Ask about specific technical features and how they work
+- Observe loading times, error handling, and edge cases
+
+### Step 4: Reference Checks (Optional but Valuable)
+
+If you're investing significant capital:
+- Speak with technical advisors or consultants they've worked with
+- Review any code audits or security assessments they've commissioned
+- Talk to early customers about product reliability
+
+## When to Bring in Technical Help
+
+For investments over $100K, or when you have specific concerns, consider engaging a technical advisor or [fractional CTO](TODO: link) to conduct deeper due diligence:
+
+- **Code review** — Actual assessment of codebase quality and architecture
+- **Security audit** — Professional evaluation of security posture
+- **Technical roadmap review** — Validation of technical plans and timelines
+- **Team assessment** — Evaluation of technical team's capabilities
+
+The cost of professional technical due diligence ($2,000–$10,000) is small compared to the potential losses from a bad technical investment.
+
+## Conclusion
+
+Technical due diligence for pre-seed investing isn't about finding perfect code—it's about understanding risk. Early-stage startups should prioritise speed over perfection, but they need solid foundations that won't collapse under growth.
+
+Use this checklist to identify the technical risks that matter: team capability, appropriate technology choices, manageable technical debt, and responsible security practices. The goal isn't to catch every technical flaw—it's to avoid investments where technical problems will likely kill the company before it has a chance to succeed.
+
+The best pre-seed investments often combine strong market opportunity, capable founders, and technical foundations that can support rapid iteration. With practice, you'll develop intuition for which technical shortcuts are acceptable and which signal deeper problems.
+
+Remember: at the pre-seed stage, you're investing in people and their ability to execute. Technical due diligence helps you evaluate whether they have the tools and foundation to do so.
+
+## Related Articles
+
+- [How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide](/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/)
+- [When to Hire Your First CTO: A Startup Founder's Timing Guide](/blog/when_to_hire_your_first_cto_a_startup_founders_timing_guide/)
+- [Technical Co-Founder vs Fractional CTO: Which Is Right for Your Startup?](/blog/technical_co_founder_vs_fractional_cto_which_is_right_for_your_startup_2026/)
+- [How to Hire Developers for Your Startup: A Non-Technical Founder's Complete Guide](/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide_2026/)
+- [What Does a Fractional CTO Do Exactly? Roles, Responsibilities & Deliverables](/blog/what_does_a_fractional_cto_do_exactly_roles_responsibilities_deliverables/)
+- [CTO Responsibilities in a Startup: Stage-by-Stage Breakdown](/blog/cto-responsibilities-startup/) — Pillar guide on CTO leadership across startup stages
+- [Technical Due Diligence Checklist for Startup Investors](/blog/technical-due-diligence-checklist/) — Comprehensive due diligence framework for investors

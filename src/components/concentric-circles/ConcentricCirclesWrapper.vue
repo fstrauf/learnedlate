@@ -3,13 +3,13 @@
   <div class="concentric-circles-wrapper p-4 flex flex-col items-center min-h-screen justify-center">
     <div class="w-full flex justify-between items-center mb-4 px-4 md:px-0 md:max-w-3xl">
       <h1 class="text-2xl font-bold text-center">Concentric Circles of Experience</h1>
-      <button 
+      <Button 
         @click="toggleLabels"
-        class="px-4 py-2 text-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2"
-        :class="showLabels ? 'bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500' : 'bg-gray-200 text-gray-700 hover:bg-gray-300 focus:ring-gray-400'"
+        :variant="showLabels ? 'default' : 'secondary'"
+        :class="showLabels ? 'bg-blue-600 text-white hover:bg-blue-700' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'"
       >
         {{ showLabels ? 'Hide' : 'Show' }} Labels
-      </button>
+      </Button>
     </div>
     <svg 
       ref="svgRef" 
@@ -50,6 +50,7 @@
 
 <script setup lang="ts">
 import { ref, computed } from 'vue';
+import { Button } from '@/components/ui/button'
 
 interface Circle {
   id: number;

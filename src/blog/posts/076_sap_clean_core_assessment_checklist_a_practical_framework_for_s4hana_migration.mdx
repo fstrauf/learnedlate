@@ -1,0 +1,139 @@
+---
+title: "SAP Clean Core Assessment Checklist: A Practical Framework for S/4HANA Migration"
+description: "A practical SAP Clean Core assessment checklist to evaluate your system readiness before S/4HANA migration. Includes technical, process, and governance criteria."
+date: "2026-03-13"
+tags: ["SAP", "S/4HANA", "Clean Core", "Enterprise Architecture", "Digital Transformation"]
+---
+
+# SAP Clean Core Assessment Checklist: A Practical Framework for S/4HANA Migration
+
+Migrating to SAP S/4HANA is one of the most significant IT transformations an organisation can undertake. Yet many companies dive into migration planning without first assessing whether their current SAP environment is ready for the journey. This is where a **SAP Clean Core assessment checklist** becomes invaluable—it helps you identify technical debt, process gaps, and governance issues before they derail your project.
+
+In this article, I'll share a practical framework I've developed through years of leading S/4HANA transformations. Whether you're preparing for a greenfield implementation, brownfield conversion, or selective data transition, this checklist will help you establish a solid foundation.
+
+## What Is a Clean Core Assessment?
+
+A Clean Core assessment evaluates your existing SAP landscape against the principles of the Clean Core approach. SAP introduced the Clean Core philosophy to help organisations maintain a stable, upgradable system core while enabling innovation through side-by-side extensions and cloud services.
+
+The assessment examines three critical dimensions:
+
+- **Technical cleanliness**: Code quality, modification levels, and technical debt
+- **Process standardisation**: Alignment with SAP standard processes versus custom workflows
+- **Governance maturity**: Change management, documentation practices, and compliance frameworks
+
+Without this baseline understanding, migration projects often encounter scope creep, budget overruns, and delayed go-live dates.
+
+## The Clean Core Assessment Checklist
+
+### Technical Assessment
+
+#### 1. Custom Code Analysis
+
+- [ ] Inventory all custom Z* and Y* objects in your ECC system
+- [ ] Identify obsolete customisations no longer in use
+- [ ] Document all enhancements (user exits, BAdIs, BTEs)
+- [ ] Review modifications to SAP standard objects
+- [ ] Assess compatibility of custom code with S/4HANA using ATC (ABAP Test Cockpit)
+- [ ] Identify custom code requiring remediation for SAP HANA database
+
+**Red flag indicators**: More than 20% of your transaction volume runs through custom code, or you have modifications to core SAP tables like BKPF or BSEG.
+
+#### 2. Data Quality and Volume
+
+- [ ] Analyse database growth trends over the past 3-5 years
+- [ ] Identify archiving opportunities for application logs, IDocs, and change documents
+- [ ] Assess master data quality (customer, vendor, material, GL accounts)
+- [ ] Document data retention requirements by legal entity
+- [ ] Evaluate the need for data migration versus data archiving strategies
+
+#### 3. Interface Landscape
+
+- [ ] Map all RFC connections and their purposes
+- [ ] Inventory PI/PO interfaces and assess migration to SAP Integration Suite
+- [ ] Document IDoc types and message flows
+- [ ] Identify file-based integrations requiring modernisation
+- [ ] Assess API readiness for cloud connectivity
+
+### Process Assessment
+
+#### 4. Business Process Documentation
+
+- [ ] Document current state processes for all key business areas (OTC, PTP, RTR)
+- [ ] Identify process variations across business units or geographies
+- [ ] Map process deviations from SAP standard functionality
+- [ ] Document regulatory or industry-specific requirements
+- [ ] Assess shared service centre implications
+
+#### 5. Organisational Readiness
+
+- [ ] Evaluate current change management capabilities
+- [ ] Assess user training requirements and delivery methods
+- [ ] Document key user and super-user structures
+- [ ] Identify change champions within business units
+- [ ] Review governance for future process changes
+
+### Governance Assessment
+
+#### 6. System Landscape Strategy
+
+- [ ] Define target landscape (single tenant vs. multi-tenant)
+- [ ] Plan sandbox, development, quality, and production environments
+- [ ] Assess SAP BTP requirements for extensions and integrations
+- [ ] Document release and transport management approach
+- [ ] Plan for continuous innovation and quarterly upgrades
+
+#### 7. Extension Strategy
+
+- [ ] Categorise all current customisations by business criticality
+- [ ] Identify candidates for side-by-side extensions on SAP BTP
+- [ ] Plan for SAP Fiori app development or adoption
+- [ ] Document in-app extensibility requirements
+- [ ] Assess third-party add-ons and their S/4HANA compatibility
+
+## Scoring Your Assessment
+
+Once you've worked through the checklist, score each section on a scale of 1-5:
+
+| Score | Interpretation | Recommended Action |
+|-------|----------------|-------------------|
+| 1-2 | High complexity/risk | Prioritise remediation before migration |
+| 3 | Moderate complexity | Plan for remediation during migration |
+| 4-5 | Clean and ready | Proceed with migration planning |
+
+A total score below 20 suggests significant preparation work is needed. Scores between 20-30 indicate moderate readiness with some targeted remediation required. Above 30, you're in good shape to proceed with migration planning.
+
+## Common Pitfalls to Avoid
+
+Based on my experience with S/4HANA transformations, here are the most common mistakes organisations make during Clean Core assessments:
+
+**Underestimating data quality issues**: Poor master data doesn't magically improve during migration. Start data cleansing early, ideally 12-18 months before go-live.
+
+**Ignoring user adoption**: Technical readiness means nothing if users resist the new system. Include change impact assessments in your evaluation.
+
+**Overlooking integration complexity**: Point-to-point integrations are the silent killers of S/4HANA projects. Modernise your integration architecture before migration.
+
+**Failing to document business rationale**: Every customisation should have a documented business justification. If you can't explain why it exists, it probably shouldn't.
+
+## Building Your Clean Core Roadmap
+
+The assessment is just the beginning. Use your findings to build a phased roadmap:
+
+1. **Quick wins** (0-3 months): Remove unused custom code, archive obsolete data, retire redundant interfaces
+2. **Remediation phase** (3-12 months): Refactor critical custom code, standardise processes, implement data quality frameworks
+3. **Migration preparation** (12-18 months): Finalise extension strategy, complete user training, execute cutover planning
+
+## Conclusion
+
+A thorough **SAP Clean Core assessment** isn't a box-ticking exercise—it's the foundation of a successful S/4HANA migration. By systematically evaluating your technical landscape, business processes, and governance frameworks, you can identify risks early and build a realistic migration plan.
+
+The checklist above provides a starting point, but every organisation is unique. If you're planning an S/4HANA migration and need guidance on your Clean Core assessment, [get in touch](TODO: link to contact page) to discuss how I can help evaluate your readiness and develop a tailored migration strategy.
+
+Remember: the goal isn't perfection—it's understanding. A realistic assessment of your current state, warts and all, will serve you better than optimistic assumptions that unravel during implementation.
+
+---
+
+*Want a downloadable version of this checklist? [Contact me](TODO: link to contact page) for a comprehensive Clean Core assessment template you can use with your team.*
+
+## Related Articles
+
+- [SAP BTP Side-by-Side Extension: Complete Working Example with Code](/blog/sap_btp_side_by_side_extension_complete_working_example_with_code/)

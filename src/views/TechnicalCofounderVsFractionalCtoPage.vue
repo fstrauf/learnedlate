@@ -19,18 +19,14 @@
             commitment, control—and make the choice that gets you building faster.
           </p>
           <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="mailto:hello@learnedlate.com?subject=Co-Founder%20vs%20Fractional%20CTO%20Consultation" 
-              class="inline-flex items-center justify-center bg-white text-gray-900 px-6 py-3 rounded-md font-medium hover:bg-gray-100"
-            >
-              Book a Free 30-Min Consultation
-            </a>
-            <a 
-              href="#comparison" 
-              class="inline-flex items-center justify-center bg-white/10 border border-white/20 text-white px-6 py-3 rounded-md font-medium hover:bg-white/20"
-            >
-              See the Comparison
-            </a>
+            <Button as-child variant="secondary">
+              <a href="mailto:hello@learnedlate.com?subject=Co-Founder%20vs%20Fractional%20CTO%20Consultation">
+                Book a Free 30-Min Consultation
+              </a>
+            </Button>
+            <Button as-child variant="outline" class="border-white/20 text-white hover:bg-white/20 hover:text-white bg-transparent">
+              <a href="#comparison">See the Comparison</a>
+            </Button>
           </div>
         </div>
       </div>
@@ -174,47 +170,47 @@
             Technical Co-Founder vs Fractional CTO Comparison
           </h2>
           <div class="overflow-x-auto">
-            <table class="min-w-full bg-white border border-gray-200 rounded-xl overflow-hidden">
-              <thead class="bg-gray-100">
-                <tr>
-                  <th class="px-4 py-3 text-left text-gray-700 text-sm font-medium">Factor</th>
-                  <th class="px-4 py-3 text-left text-gray-700 text-sm font-medium">Technical Co-Founder</th>
-                  <th class="px-4 py-3 text-left text-gray-700 text-sm font-medium">Fractional CTO</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="border-t border-gray-200">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Cost</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">20-50% equity</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">$5K-$15K/month</td>
-                </tr>
-                <tr class="border-t border-gray-200 bg-gray-50">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Time to start</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">3-6 months</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">1-2 weeks</td>
-                </tr>
-                <tr class="border-t border-gray-200">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Commitment</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">4+ years (vesting)</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Monthly/quarterly</td>
-                </tr>
-                <tr class="border-t border-gray-200 bg-gray-50">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Control</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Shared decision-making</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">You retain full control</td>
-                </tr>
-                <tr class="border-t border-gray-200">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Best for</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Deep technical innovation</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Defined product builds</td>
-                </tr>
-                <tr class="border-t border-gray-200 bg-gray-50">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Risk if wrong</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Co-founder conflicts, legal complexity</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Easy to transition away</td>
-                </tr>
-              </tbody>
-            </table>
+            <Table>
+              <TableHeader>
+                <TableRow>
+                  <TableHead>Factor</TableHead>
+                  <TableHead>Technical Co-Founder</TableHead>
+                  <TableHead>Fractional CTO</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                <TableRow>
+                  <TableCell class="font-medium">Cost</TableCell>
+                  <TableCell>20-50% equity</TableCell>
+                  <TableCell>$5K-$15K/month</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell class="font-medium">Time to start</TableCell>
+                  <TableCell>3-6 months</TableCell>
+                  <TableCell>1-2 weeks</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell class="font-medium">Commitment</TableCell>
+                  <TableCell>4+ years (vesting)</TableCell>
+                  <TableCell>Monthly/quarterly</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell class="font-medium">Control</TableCell>
+                  <TableCell>Shared decision-making</TableCell>
+                  <TableCell>You retain full control</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell class="font-medium">Best for</TableCell>
+                  <TableCell>Deep technical innovation</TableCell>
+                  <TableCell>Defined product builds</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell class="font-medium">Risk if wrong</TableCell>
+                  <TableCell>Co-founder conflicts, legal complexity</TableCell>
+                  <TableCell>Easy to transition away</TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
           </div>
         </div>
       </div>
@@ -406,12 +402,11 @@
             dozens of NZ founders make this decision.
           </p>
           <div class="mt-8">
-            <a 
-              href="mailto:hello@learnedlate.com?subject=Co-Founder%20vs%20Fractional%20CTO%20Consultation" 
-              class="inline-flex items-center justify-center bg-white text-gray-900 px-8 py-3 rounded-md font-medium hover:bg-gray-100"
-            >
-              Book Your Free Consultation
-            </a>
+            <Button as-child size="lg" variant="secondary">
+              <a href="mailto:hello@learnedlate.com?subject=Co-Founder%20vs%20Fractional%20CTO%20Consultation">
+                Book Your Free Consultation
+              </a>
+            </Button>
             <p class="text-gray-400 text-sm mt-3">
               Or email directly at <a href="mailto:florian@learnedlate.com" class="underline">florian@learnedlate.com</a>
             </p>
@@ -425,6 +420,15 @@
 
 <script setup lang="ts">
 import SEOHead from '../components/SEOHead.vue'
+import { Button } from '@/components/ui/button'
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from '@/components/ui/table'
 </script>
 
 <style scoped>

@@ -95,6 +95,11 @@
           "target_id": 63,
           "anchor_text": "The Non-Technical Founder's Complete Guide to Hiring Your First Developer",
           "url": "/blog/the_non_technical_founders_complete_guide_to_hiring_your_first_developer/"
+        },
+        {
+          "target_id": 79,
+          "anchor_text": "Technical Due Diligence Checklist for Angel Investors: Evaluating Pre-Seed Startups",
+          "url": "/blog/technical_due_diligence_checklist_for_angel_investors_evaluating_pre_seed_startups/"
         }
       ]
     },
@@ -486,6 +491,11 @@
           "target_id": 66,
           "anchor_text": "Legacy Software Modernization Strategy: A Practical Guide for NZ Businesses",
           "url": "/blog/legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses/"
+        },
+        {
+          "target_id": 81,
+          "anchor_text": "SAP Joule Custom Skills Development: Step-by-Step Tutorial for Beginners",
+          "url": "/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/"
         }
       ]
     },
@@ -783,6 +793,11 @@
           "target_id": 41,
           "anchor_text": "NZ startup technical due diligence expertise",
           "url": "/blog/2025-06-22-nz-startups-fractional-cto-guide/"
+        },
+        {
+          "target_id": 79,
+          "anchor_text": "Technical Due Diligence Checklist for Angel Investors: Evaluating Pre-Seed Startups",
+          "url": "/blog/technical_due_diligence_checklist_for_angel_investors_evaluating_pre_seed_startups/"
         }
       ]
     },
@@ -1623,6 +1638,11 @@
           "target_id": 1,
           "anchor_text": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
           "url": "/blog/cto-responsibilities-startup/"
+        },
+        {
+          "target_id": 79,
+          "anchor_text": "Technical Due Diligence Checklist for Angel Investors: Evaluating Pre-Seed Startups",
+          "url": "/blog/technical_due_diligence_checklist_for_angel_investors_evaluating_pre_seed_startups/"
         }
       ]
     },
@@ -2412,6 +2432,21 @@
           "target_id": 73,
           "anchor_text": "Part-Time CTO Hourly Rates in New Zealand: 2026 Market Guide",
           "url": "/blog/part-time-cto-hourly-rates-nz-2026-guide/"
+        },
+        {
+          "target_id": 76,
+          "anchor_text": "SAP Clean Core Assessment Checklist: A Practical Framework for S/4HANA Migration",
+          "url": "/blog/sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration/"
+        },
+        {
+          "target_id": 77,
+          "anchor_text": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
+          "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
+        },
+        {
+          "target_id": 82,
+          "anchor_text": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
+          "url": "/blog/startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency/"
         }
       ]
     },
@@ -2732,6 +2767,11 @@
           "target_id": 70,
           "anchor_text": "Product Management for Non-Technical Founders: A Practical Guide",
           "url": "/blog/product_management_for_non_technical_founders_a_practical_guide/"
+        },
+        {
+          "target_id": 82,
+          "anchor_text": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
+          "url": "/blog/startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency/"
         }
       ]
     },
@@ -2939,6 +2979,11 @@
           "target_id": 32,
           "anchor_text": "Technical Due Diligence Checklist: CTO's Complete Guide",
           "url": "/blog/2025-06-22-technical-due-diligence-checklist-cto-guide/"
+        },
+        {
+          "target_id": 79,
+          "anchor_text": "Technical Due Diligence Checklist for Angel Investors: Evaluating Pre-Seed Startups",
+          "url": "/blog/technical_due_diligence_checklist_for_angel_investors_evaluating_pre_seed_startups/"
         }
       ]
     },
@@ -3267,6 +3312,11 @@
           "url": "/blog/startup_runway_calculator_how_to_plan_your_cash_runway_nz_focused_template/"
         },
         {
+          "target_id": 82,
+          "anchor_text": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
+          "url": "/blog/startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency/"
+        },
+        {
           "target_id": 41,
           "anchor_text": "New Zealand Startups: Your Complete Fractional CTO Guide",
           "url": "/blog/2025-06-22-nz-startups-fractional-cto-guide/"
@@ -3394,6 +3444,11 @@
           "target_id": 45,
           "anchor_text": "Fractional CTO guidance on financial planning",
           "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
+        },
+        {
+          "target_id": 82,
+          "anchor_text": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
+          "url": "/blog/startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency/"
         }
       ]
     },
@@ -3434,7 +3489,7 @@
       "id": 66,
       "title": "Legacy Software Modernization Strategy: A Practical Guide for NZ Businesses",
       "url_slug": "legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses",
-      "file": "./content/066_legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses.mdx",
+      "file": "./src/blog/posts/066_legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses.mdx",
       "target_keyword": "legacy software modernization strategy",
       "keyword_difficulty": "0",
       "target_volume": 0,
@@ -3470,6 +3525,21 @@
           "target_id": 68,
           "anchor_text": "Cloud Migration Checklist for Small Businesses: 2025 NZ Edition",
           "url": "/blog/cloud_migration_checklist_for_small_businesses_2025_nz_edition/"
+        },
+        {
+          "target_id": 76,
+          "anchor_text": "SAP Clean Core Assessment Checklist: A Practical Framework for S/4HANA Migration",
+          "url": "/blog/sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration/"
+        },
+        {
+          "target_id": 78,
+          "anchor_text": "SAP BTP Side-by-Side Extension: Complete Working Example with Code",
+          "url": "/blog/sap_btp_side_by_side_extension_complete_working_example_with_code/"
+        },
+        {
+          "target_id": 81,
+          "anchor_text": "SAP Joule Custom Skills Development: Step-by-Step Tutorial for Beginners",
+          "url": "/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/"
         }
       ]
     },
@@ -3477,7 +3547,7 @@
       "id": 68,
       "title": "Cloud Migration Checklist for Small Businesses: 2026 NZ Edition",
       "url_slug": "cloud-migration-checklist-small-business-2025-nz",
-      "file": "./content/068_cloud_migration_checklist_for_small_businesses_2025_nz_edition.mdx",
+      "file": "./src/blog/posts/068_cloud_migration_checklist_for_small_businesses_2025_nz_edition.mdx",
       "target_keyword": "cloud migration checklist for small business",
       "keyword_difficulty": "0",
       "target_volume": 0,
@@ -3513,6 +3583,11 @@
           "target_id": 48,
           "anchor_text": "Software Development Costs in New Zealand: 2025 Pricing Guide",
           "url": "/blog/software_development_costs_in_new_zealand_2025_pricing_guide/"
+        },
+        {
+          "target_id": 78,
+          "anchor_text": "SAP BTP Side-by-Side Extension: Complete Working Example with Code",
+          "url": "/blog/sap_btp_side_by_side_extension_complete_working_example_with_code/"
         }
       ]
     },
@@ -3756,6 +3831,11 @@
           "target_id": 50,
           "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
           "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
+        },
+        {
+          "target_id": 82,
+          "anchor_text": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
+          "url": "/blog/startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency/"
         }
       ]
     },
@@ -3794,6 +3874,244 @@
           "target_id": 71,
           "anchor_text": "How to Hire Developers in New Zealand: A Startup Founder's Complete Guide",
           "url": "/blog/how_to_hire_developers_in_new_zealand_a_startup_founders_complete_guide_to_the_local_tech_talent_market/"
+        },
+        {
+          "target_id": 77,
+          "anchor_text": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
+          "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "title": "SAP Clean Core Assessment Checklist: A Practical Framework for S/4HANA Migration",
+      "url_slug": "sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration",
+      "file": "./src/blog/posts/076_sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration.mdx",
+      "target_keyword": "sap clean core assessment checklist",
+      "keyword_difficulty": "0",
+      "target_volume": 0,
+      "published_date": "2026-03-13",
+      "word_count": 0,
+      "status": "draft",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "sap-clean-core",
+      "cluster_role": "pillar",
+      "internal_links": [
+        {
+          "target_id": 45,
+          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
+          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
+        },
+        {
+          "target_id": 78,
+          "anchor_text": "SAP BTP Side-by-Side Extension: Complete Working Example with Code",
+          "url": "/blog/sap_btp_side_by_side_extension_complete_working_example_with_code/"
+        },
+        {
+          "target_id": 66,
+          "anchor_text": "Legacy Software Modernization Strategy: A Practical Guide for NZ Businesses",
+          "url": "/blog/legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses/"
+        },
+        {
+          "target_id": 81,
+          "anchor_text": "SAP Joule Custom Skills Development: Step-by-Step Tutorial for Beginners",
+          "url": "/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
+      "url_slug": "fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy",
+      "file": "./src/blog/posts/077_fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy.mdx",
+      "target_keyword": "fractional cto for healthcare startups",
+      "keyword_difficulty": "",
+      "target_volume": 0,
+      "published_date": "2026-03-15",
+      "word_count": 1348,
+      "status": "draft",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "fractional-cto",
+      "cluster_role": "support",
+      "internal_links": [
+        {
+          "target_id": 45,
+          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
+          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
+        },
+        {
+          "target_id": 75,
+          "anchor_text": "Fractional CTO for SaaS Startups: Scaling Your Platform Without the Full-Time Price Tag",
+          "url": "/blog/fractional_cto_for_saas_startups_scaling_your_platform_without_the_full_time_price_tag/"
+        },
+        {
+          "target_id": 50,
+          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
+          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
+        },
+        {
+          "target_id": 55,
+          "anchor_text": "How to Hire Developers for Your Startup: A Non-Technical Founder's Complete Guide",
+          "url": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide_2026/"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "title": "SAP BTP Side-by-Side Extension: Complete Working Example with Code",
+      "url_slug": "sap_btp_side_by_side_extension_complete_working_example_with_code",
+      "file": "./src/blog/posts/078_sap_btp_side_by_side_extension_complete_working_example_with_code.mdx",
+      "target_keyword": "sap btp side by side extension",
+      "keyword_difficulty": "0",
+      "target_volume": 0,
+      "published_date": "2026-02-15",
+      "word_count": 0,
+      "status": "draft",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "sap-clean-core",
+      "cluster_role": "support",
+      "internal_links": [
+        {
+          "target_id": 76,
+          "anchor_text": "SAP Clean Core Assessment Checklist: A Practical Framework for S/4HANA Migration",
+          "url": "/blog/sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration/"
+        },
+        {
+          "target_id": 66,
+          "anchor_text": "Legacy Software Modernization Strategy: A Practical Guide for NZ Businesses",
+          "url": "/blog/legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses/"
+        },
+        {
+          "target_id": 68,
+          "anchor_text": "Cloud Migration Checklist for Small Businesses: 2026 NZ Edition",
+          "url": "/blog/cloud-migration-checklist-small-business-2025-nz/"
+        },
+        {
+          "target_id": 81,
+          "anchor_text": "SAP Joule Custom Skills Development: Step-by-Step Tutorial for Beginners",
+          "url": "/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Technical Due Diligence Checklist for Angel Investors: Evaluating Pre-Seed Startups",
+      "url_slug": "technical_due_diligence_checklist_for_angel_investors_evaluating_pre_seed_startups",
+      "file": "./src/blog/posts/079_technical_due_diligence_checklist_for_angel_investors_evaluating_pre_seed_startups.mdx",
+      "target_keyword": "technical due diligence checklist angel investors",
+      "keyword_difficulty": "0",
+      "target_volume": 0,
+      "published_date": "2026-02-16",
+      "word_count": 1894,
+      "status": "draft",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "cto-leadership",
+      "cluster_role": "support",
+      "internal_links": [
+        {
+          "target_id": 1,
+          "anchor_text": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
+          "url": "/blog/cto-responsibilities-startup/"
+        },
+        {
+          "target_id": 12,
+          "anchor_text": "Technical Due Diligence Checklist for Startup Investors",
+          "url": "/blog/technical-due-diligence-checklist/"
+        },
+        {
+          "target_id": 49,
+          "anchor_text": "When to Hire Your First CTO: A Startup Founder's Timing Guide",
+          "url": "/blog/when_to_hire_your_first_cto_a_startup_founders_timing_guide/"
+        },
+        {
+          "target_id": 54,
+          "anchor_text": "Technical Co-Founder vs Fractional CTO: Which is Right for Your Startup?",
+          "url": "/blog/technical_co_founder_vs_fractional_cto_which_is_right_for_your_startup/"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "title": "SAP Joule Custom Skills Development: Step-by-Step Tutorial for Beginners",
+      "url_slug": "sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners",
+      "file": "./src/blog/posts/081_sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners.mdx",
+      "target_keyword": "sap joule custom skills development tutorial",
+      "keyword_difficulty": "0",
+      "target_volume": 0,
+      "published_date": "2026-03-23",
+      "word_count": 2500,
+      "status": "draft",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "sap-clean-core",
+      "cluster_role": "support",
+      "internal_links": [
+        {
+          "target_id": 76,
+          "anchor_text": "SAP Clean Core Assessment Checklist: A Practical Framework for S/4HANA Migration",
+          "url": "/blog/sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration/"
+        },
+        {
+          "target_id": 78,
+          "anchor_text": "SAP BTP Side-by-Side Extension: Complete Working Example with Code",
+          "url": "/blog/sap_btp_side_by_side_extension_complete_working_example_with_code/"
+        },
+        {
+          "target_id": 8,
+          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
+          "url": "/blog/best-ai-tools-for-business-2025/"
+        },
+        {
+          "target_id": 11,
+          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
+          "url": "/blog/what-is-custom-software-development-complete-guide/"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
+      "url_slug": "startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency",
+      "file": "./src/blog/posts/082_startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency.mdx",
+      "target_keyword": "startup runway calculator nz template",
+      "keyword_difficulty": "0",
+      "target_volume": 0,
+      "published_date": "2026-03-25",
+      "word_count": 2100,
+      "status": "draft",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "startup-funding",
+      "cluster_role": "support",
+      "internal_links": [
+        {
+          "target_id": 61,
+          "anchor_text": "The Complete Guide to NZ Startup Grants & Funding (2026 Edition with Application Tips)",
+          "url": "/blog/the_complete_guide_to_nz_startup_grants_funding_2025_edition_with_application_tips/"
+        },
+        {
+          "target_id": 64,
+          "anchor_text": "Startup Runway Calculator: How to Plan Your Cash Runway (NZ-Focused Template)",
+          "url": "/blog/startup_runway_calculator_how_to_plan_your_cash_runway_nz_focused_template/"
+        },
+        {
+          "target_id": 74,
+          "anchor_text": "Startup Cash Runway Calculator Template (Free Download): Plan Your Burn Rate in Minutes",
+          "url": "/blog/startup_cash_runway_calculator_template_free_download_plan_your_burn_rate_in_minutes/"
+        },
+        {
+          "target_id": 45,
+          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
+          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
+        },
+        {
+          "target_id": 50,
+          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
+          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
         }
       ]
     }

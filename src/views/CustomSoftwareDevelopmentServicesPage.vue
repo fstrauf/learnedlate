@@ -19,18 +19,26 @@
             technology designed specifically for you.
           </p>
           <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="mailto:hello@learnedlate.com?subject=Custom%20Software%20Services%20Consultation" 
-              class="inline-flex items-center justify-center bg-white text-gray-900 px-6 py-3 rounded-md font-medium hover:bg-gray-100"
+            <Button 
+              as-child
+              variant="secondary"
+              class="bg-white text-gray-900 hover:bg-gray-100"
             >
-              Schedule Free Consultation
-            </a>
-            <a 
-              href="#process" 
-              class="inline-flex items-center justify-center bg-white/10 border border-white/20 text-white px-6 py-3 rounded-md font-medium hover:bg-white/20"
+              <a 
+                href="mailto:hello@learnedlate.com?subject=Custom%20Software%20Services%20Consultation"
+              >
+                Schedule Free Consultation
+              </a>
+            </Button>
+            <Button 
+              as-child
+              variant="outline"
+              class="bg-white/10 border-white/20 text-white hover:bg-white/20 hover:text-white"
             >
-              View Our Process
-            </a>
+              <a href="#process">
+                View Our Process
+              </a>
+            </Button>
           </div>
         </div>
       </div>
@@ -168,42 +176,42 @@
             Custom Software vs Off-the-Shelf Solutions
           </h2>
           <div class="overflow-x-auto">
-            <table class="min-w-full bg-white border border-gray-200 rounded-xl overflow-hidden">
-              <thead class="bg-gray-100">
-                <tr>
-                  <th class="px-4 py-3 text-left text-gray-700 text-sm font-medium">Factor</th>
-                  <th class="px-4 py-3 text-left text-gray-700 text-sm font-medium">Custom Software</th>
-                  <th class="px-4 py-3 text-left text-gray-700 text-sm font-medium">Off-the-Shelf</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="border-t border-gray-200">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Feature Fit</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">100% relevant to your workflows</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">30-40% features typically used</td>
-                </tr>
-                <tr class="border-t border-gray-200 bg-gray-50">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Integration</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Built to connect with your stack</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Requires expensive middleware</td>
-                </tr>
-                <tr class="border-t border-gray-200">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Scalability</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Grows with your business</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Forces expensive migrations</td>
-                </tr>
-                <tr class="border-t border-gray-200 bg-gray-50">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Ownership</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Full IP ownership</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Ongoing licensing fees</td>
-                </tr>
-                <tr class="border-t border-gray-200">
-                  <td class="px-4 py-3 text-sm text-gray-700 font-medium">Support</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Direct access to developers</td>
-                  <td class="px-4 py-3 text-sm text-gray-700">Ticket queues and forums</td>
-                </tr>
-              </tbody>
-            </table>
+            <Table>
+              <TableHeader>
+                <TableRow>
+                  <TableHead>Factor</TableHead>
+                  <TableHead>Custom Software</TableHead>
+                  <TableHead>Off-the-Shelf</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                <TableRow>
+                  <TableCell class="font-medium">Feature Fit</TableCell>
+                  <TableCell>100% relevant to your workflows</TableCell>
+                  <TableCell>30-40% features typically used</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell class="font-medium">Integration</TableCell>
+                  <TableCell>Built to connect with your stack</TableCell>
+                  <TableCell>Requires expensive middleware</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell class="font-medium">Scalability</TableCell>
+                  <TableCell>Grows with your business</TableCell>
+                  <TableCell>Forces expensive migrations</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell class="font-medium">Ownership</TableCell>
+                  <TableCell>Full IP ownership</TableCell>
+                  <TableCell>Ongoing licensing fees</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell class="font-medium">Support</TableCell>
+                  <TableCell>Direct access to developers</TableCell>
+                  <TableCell>Ticket queues and forums</TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
           </div>
         </div>
       </div>
@@ -266,12 +274,17 @@
             no pressure, no obligation.
           </p>
           <div class="mt-8">
-            <a 
-              href="mailto:hello@learnedlate.com?subject=Custom%20Software%20Services%20Consultation" 
-              class="inline-flex items-center justify-center bg-white text-gray-900 px-8 py-3 rounded-md font-medium hover:bg-gray-100"
+            <Button 
+              as-child
+              variant="secondary"
+              class="bg-white text-gray-900 hover:bg-gray-100"
             >
-              Book Your Free Consultation
-            </a>
+              <a 
+                href="mailto:hello@learnedlate.com?subject=Custom%20Software%20Services%20Consultation"
+              >
+                Book Your Free Consultation
+              </a>
+            </Button>
             <p class="text-gray-400 text-sm mt-3">
               Join 50+ businesses who've transformed their operations with custom software
             </p>
@@ -284,6 +297,15 @@
 
 <script setup lang="ts">
 import SEOHead from '../components/SEOHead.vue'
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from '@/components/ui/table'
+import { Button } from '@/components/ui/button'
 </script>
 
 <style scoped>

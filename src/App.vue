@@ -35,13 +35,23 @@
                     </router-link>
                   </DropdownMenuItem>
                   <DropdownMenuItem as-child>
-                    <router-link to="/services#ai-accelerated-mvps" class="cursor-pointer">
+                    <router-link to="/mvp-development" class="cursor-pointer">
                       MVP Development
                     </router-link>
                   </DropdownMenuItem>
                   <DropdownMenuItem as-child>
-                    <router-link to="/services#fractional-cto" class="cursor-pointer">
-                      Fractional CTO & Architecture
+                    <router-link to="/fractional-cto" class="cursor-pointer">
+                      Fractional CTO
+                    </router-link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem as-child>
+                    <router-link to="/sap-solution-architecture" class="cursor-pointer">
+                      SAP Solution Architecture
+                    </router-link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem as-child>
+                    <router-link to="/sap-custom-development" class="cursor-pointer">
+                      SAP Custom Development
                     </router-link>
                   </DropdownMenuItem>
                 </DropdownMenuContent>
@@ -97,8 +107,10 @@
                 <div class="text-gray-400 text-xs uppercase tracking-wide mb-2 py-2">Services</div>
                 <router-link @click="closeMobileMenu" to="/services" class="block py-2 pl-4 hover:text-gray-300 hover:bg-gray-700 rounded-md">All Services</router-link>
                 <router-link @click="closeMobileMenu" to="/services/seo-automation" class="block py-2 pl-4 hover:text-gray-300 hover:bg-gray-700 rounded-md">SEO Automation</router-link>
-                <router-link @click="closeMobileMenu" to="/services#ai-accelerated-mvps" class="block py-2 pl-4 hover:text-gray-300 hover:bg-gray-700 rounded-md">MVP Development</router-link>
-                <router-link @click="closeMobileMenu" to="/services#fractional-cto" class="block py-2 pl-4 hover:text-gray-300 hover:bg-gray-700 rounded-md">Fractional CTO</router-link>
+                <router-link @click="closeMobileMenu" to="/mvp-development" class="block py-2 pl-4 hover:text-gray-300 hover:bg-gray-700 rounded-md">MVP Development</router-link>
+                <router-link @click="closeMobileMenu" to="/fractional-cto" class="block py-2 pl-4 hover:text-gray-300 hover:bg-gray-700 rounded-md">Fractional CTO</router-link>
+                <router-link @click="closeMobileMenu" to="/sap-solution-architecture" class="block py-2 pl-4 hover:text-gray-300 hover:bg-gray-700 rounded-md">SAP Architecture</router-link>
+                <router-link @click="closeMobileMenu" to="/sap-custom-development" class="block py-2 pl-4 hover:text-gray-300 hover:bg-gray-700 rounded-md">SAP Development</router-link>
               </div>
               <router-link @click="closeMobileMenu" to="/blog" class="block px-2 py-2 hover:text-gray-300 hover:bg-gray-700 rounded-md">Blog</router-link>
               <router-link @click="closeMobileMenu" to="/cv" class="block px-2 py-2 hover:text-gray-300 hover:bg-gray-700 rounded-md">CV</router-link>
@@ -111,13 +123,43 @@
       <router-view />
     </main>
     <footer class="bg-gray-200 text-gray-700 py-8 px-4 mt-auto">
-      <div class="container mx-auto max-w-4xl">
+      <div class="container mx-auto max-w-6xl">
+        <!-- SAP Services Section -->
+        <div class="mb-6">
+          <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider text-center mb-3">SAP Services</h3>
+          <!-- Desktop SAP Links -->
+          <nav class="hidden sm:flex flex-wrap justify-center gap-x-4 gap-y-1 mb-4 text-sm">
+            <router-link to="/sap-consulting-firms" class="hover:text-gray-900 hover:underline transition-colors">SAP Consulting Firms</router-link>
+            <router-link to="/sap-implementation-partner" class="hover:text-gray-900 hover:underline transition-colors">SAP Implementation Partner</router-link>
+            <router-link to="/sap-custom-development-services" class="hover:text-gray-900 hover:underline transition-colors">SAP Custom Development</router-link>
+            <router-link to="/sap-clean-core-extensions" class="hover:text-gray-900 hover:underline transition-colors">SAP Clean Core Extensions</router-link>
+            <router-link to="/sap-btp-consultant" class="hover:text-gray-900 hover:underline transition-colors">SAP BTP Consultant</router-link>
+            <router-link to="/sap-btp-consultant-new-zealand" class="hover:text-gray-900 hover:underline transition-colors">SAP BTP Consultant NZ</router-link>
+            <router-link to="/sap-joule-custom-skills-development" class="hover:text-gray-900 hover:underline transition-colors">SAP Joule Custom Skills</router-link>
+            <router-link to="/accenture-alternative-sap-consulting" class="hover:text-gray-900 hover:underline transition-colors">Accenture Alternative</router-link>
+            <router-link to="/sap-solution-architecture" class="hover:text-gray-900 hover:underline transition-colors">SAP Solution Architecture</router-link>
+            <router-link to="/sap-custom-development" class="hover:text-gray-900 hover:underline transition-colors">SAP Development</router-link>
+          </nav>
+          <!-- Mobile SAP Links -->
+          <nav class="sm:hidden grid grid-cols-2 gap-2 mb-4 text-sm text-center">
+            <router-link to="/sap-consulting-firms" class="hover:text-gray-900 hover:underline transition-colors">SAP Consulting</router-link>
+            <router-link to="/sap-implementation-partner" class="hover:text-gray-900 hover:underline transition-colors">Implementation</router-link>
+            <router-link to="/sap-custom-development-services" class="hover:text-gray-900 hover:underline transition-colors">Custom Development</router-link>
+            <router-link to="/sap-clean-core-extensions" class="hover:text-gray-900 hover:underline transition-colors">Clean Core</router-link>
+            <router-link to="/sap-btp-consultant" class="hover:text-gray-900 hover:underline transition-colors">BTP Consultant</router-link>
+            <router-link to="/sap-btp-consultant-new-zealand" class="hover:text-gray-900 hover:underline transition-colors">BTP NZ</router-link>
+            <router-link to="/sap-joule-custom-skills-development" class="hover:text-gray-900 hover:underline transition-colors">Joule Skills</router-link>
+            <router-link to="/accenture-alternative-sap-consulting" class="hover:text-gray-900 hover:underline transition-colors">Accenture Alt</router-link>
+          </nav>
+        </div>
+
+        <hr class="border-gray-300 my-6">
+
         <!-- Desktop Footer Navigation -->
         <nav class="hidden sm:flex flex-wrap justify-center gap-x-6 gap-y-2 mb-6">
           <router-link to="/" class="hover:text-gray-900 hover:underline transition-colors">Home</router-link>
           <router-link to="/projects" class="hover:text-gray-900 hover:underline transition-colors">Projects</router-link>
           <router-link to="/services" class="hover:text-gray-900 hover:underline transition-colors">Services</router-link>
-          <router-link to="/services/seo-automation" class="hover:text-gray-900 hover:underline transition-colors">SEO Automation</router-link>
           <router-link to="/blog" class="hover:text-gray-900 hover:underline transition-colors">Blog</router-link>
           <router-link to="/cv" class="hover:text-gray-900 hover:underline transition-colors">CV</router-link>
          <a href="https://x.com/learnedlate" target="_blank" rel="noopener noreferrer" class="hover:text-gray-900 hover:underline transition-colors">Twitter</a>
@@ -129,11 +171,10 @@
           <router-link to="/" class="hover:text-gray-900 hover:underline transition-colors">Home</router-link>
           <router-link to="/projects" class="hover:text-gray-900 hover:underline transition-colors">Projects</router-link>
           <router-link to="/services" class="hover:text-gray-900 hover:underline transition-colors">Services</router-link>
-          <router-link to="/services/seo-automation" class="hover:text-gray-900 hover:underline transition-colors">SEO Automation</router-link>
           <router-link to="/blog" class="hover:text-gray-900 hover:underline transition-colors">Blog</router-link>
           <router-link to="/cv" class="hover:text-gray-900 hover:underline transition-colors">CV</router-link>
          <a href="https://x.com/learnedlate" target="_blank" rel="noopener noreferrer" class="hover:text-gray-900 hover:underline transition-colors">Twitter</a>
-          <a href="mailto:hello@learnedlate.com" class="hover:text-gray-900 hover:underline transition-colors">Contact Me</a>
+          <a href="mailto:hello@learnedlate.com" class="hover:text-gray-900 hover:underline transition-colors col-span-2">Contact Me</a>
         </nav>
 
         <div class="text-center">

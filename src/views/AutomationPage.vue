@@ -30,7 +30,9 @@
           </div>
 
           <div class="mt-8">
-            <a href="https://calendar.notion.so/meet/florianstrauf/chat" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center bg-white text-gray-900 px-6 py-3 rounded-md font-medium hover:bg-gray-100">Get Your Free Automation Assessment</a>
+            <Button as-child size="lg" variant="secondary">
+              <a href="https://calendar.notion.so/meet/florianstrauf/chat" target="_blank" rel="noopener noreferrer">Get Your Free Automation Assessment</a>
+            </Button>
             <div class="text-gray-300 text-sm mt-2">15-minute call • 3 quick wins identified • No obligation</div>
           </div>
         </div>
@@ -168,6 +170,7 @@
 
 <script setup lang="ts">
 import SEOHead from '../components/SEOHead.vue'
+import { Button } from '@/components/ui/button'
 </script>
 
 <style scoped>
