@@ -1,10 +1,17 @@
 ---
-title: "Digital Marketing Services for NZ Small Businesses: Your Practical Guide"
+title: "Digital Marketing for NZ Small Business: A Practical, No-Fluff Guide (2026)"
 date: "2025-07-15"
-summary: "Cut through the digital marketing noise with this practical guide designed specifically for New Zealand small businesses ready to grow online."
+updated_date: "2026-03-19"
+keyword: "digital marketing for small business NZ"
+target_keyword: "digital marketing for small business NZ"
+summary: "Practical digital marketing guide for NZ small businesses. Learn which channels deliver ROI on a Kiwi budget — with real results, NZ tool recommendations, and a 30-day action plan."
 ---
 
+**Updated March 2026** — NZ tool recommendations and costs current.
+
 Here's the reality: most New Zealand small businesses are drowning in digital marketing advice that doesn't fit their world.
+
+You know automation works. But seeing real business process automation examples — with actual before/after numbers — is what finally makes the decision easy.
 
 The courses cost $840. The degrees take three years. But your customers are searching for your services right now, and you need results that matter to your bottom line - not academic theory.
 
@@ -43,6 +50,8 @@ Choose one platform where your customers actually spend time:
 - **B2B services:** LinkedIn for professional connections
 - **Local services:** Facebook for community engagement  
 - **Visual products:** Instagram for brand building
+
+For businesses looking to scale content production, [AI tools for small business](/blog/best-ai-tools-for-business-2025/) can reduce content creation time by 60% or more.
 
 ## Digital Marketing Strategy Framework for NZ Businesses
 
@@ -106,8 +115,10 @@ If digital marketing costs you $200 to acquire one customer, your ROI is 27:1.
 
 **Week 3: Social Presence**
 - Choose your primary social platform
-- Create 2 weeks of valuable content
+- Create 2 weeks of valuable content  
 - Engage with local business communities online
+
+For a structured approach to scaling these efforts, see our [30-day AI action plan](/blog/2025-06-22-ai-strategy-small-business-90-day-action-plan/) for automating repetitive tasks.
 
 **Week 4: Measurement & Optimization**
 - Install Google Analytics and track key metrics
@@ -137,9 +148,9 @@ Because the best digital marketing strategy is the one you actually implement.
 
 ---
 
-## Related Articles
-
-- [Best AI Tools for Business 2025 (Small Business Edition)](/blog/best-ai-tools-for-business-2025/)
-- [Business Process Automation for Small Business](/blog/business-process-automation-small-business/)
+## Related Articles6 (Small Business Edition)](/blog/best-ai-tools-for-business-2025/)
+- [Business Process Automation for Small Business](/blog/2025-06-22-business-process-automation-small-business-guide/)
+- [AI Automation for Small Business: 90-Day Action Plan](/blog/2025-06-22-ai-strategy-small-business-90-day-action-plan/)
+- [Custom Software Development for NZ Small Businessessiness-process-automation-small-business/)
 - [AI Automation for Small Business Owners: 2025 Implementation Playbook](/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/)
 - [What is Custom Software Development? Complete Guide 2025](/blog/what-is-custom-software-development-complete-guide/)

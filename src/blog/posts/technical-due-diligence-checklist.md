@@ -1,10 +1,17 @@
 ---
-title: "Technical Due Diligence Checklist for Startup Investors"
+title: "Technical Due Diligence Checklist: The 48-Hour Investor Framework (NZ Focus)"
 date: "2025-08-08"
-summary: "A comprehensive guide to evaluating startup technology stacks, identifying red flags, and conducting rapid technical assessments for investment decisions."
+updated_date: "2026-03-19"
+keyword: "technical due diligence checklist startup"
+target_keyword: "technical due diligence checklist startup"
+summary: "A practical 48-hour technical due diligence checklist for startup investors. Covers architecture red flags, team assessment, AI stack evaluation, and NZ-specific compliance — with scoring matrix included."
 ---
 
+**Updated March 2026** — NZ compliance and investment framework current.
+
 Your $500K investment decision shouldn't hinge on a founder's PowerPoint deck.
+
+Most technical due diligence frameworks assume you have weeks. This 48-hour checklist is built for NZ and APAC investors working on compressed timelines.
 
 While financial due diligence gets all the attention, technical due diligence often determines whether a startup can actually deliver on its promises. Yet most investors skip the technical assessment or delegate it to someone who's never built a scalable system.
 
@@ -505,10 +512,11 @@ Your 48 hours of technical due diligence might be the difference between funding
 
 ---
 
-*Ready to conduct comprehensive technical due diligence for your next startup investment? The key is combining systematic evaluation with deep technical expertise to identify both risks and opportunities that other investors overlook.*
-
-## Related Articles
-
+*ReWhat is a Fractional CTO? Complete Guide for New Zealand Startups](/blog/2025-06-22-what-is-fractional-cto-complete-guide/)
+- [CTO Responsibilities in a Startup: Stage-by-Stage Breakdown](/blog/cto-responsibilities-startup/)
+- [How to Choose a Software Development Company](/blog/how-to-choose-software-development-company/)
+- [Custom Software Development Cost: Complete Breakdown](/blog/custom-software-development-cost-breakdown/)
+- [Why Custom Software Projects Fail (And How to Avoid It)](/blog/2025-01-28-why-custom-software-projects-fail
 - [CTO Responsibilities in a Startup: Stage-by-Stage Breakdown](/blog/cto-responsibilities-startup/)
 - [Complete technical due diligence checklist for CTOs](/blog/2025-06-22-technical-due-diligence-checklist-cto-guide/)
 - [Fractional CTO services for investor due diligence](/blog/2025-06-22-what-is-fractional-cto-complete-guide/)

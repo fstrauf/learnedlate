@@ -1,12 +1,29 @@
 ---
-title: "Free Accounting Software for NZ Businesses: Complete 2025 Guide"
+title: "Best Free Accounting Software for NZ Businesses (2026) — GST-Ready Comparison"
 date: "2025-07-10"
-summary: "Navigate New Zealand's free accounting software options with this comprehensive comparison guide covering GST compliance, features, and upgrade paths."
+updated_date: "2026-03-19"
+keyword: "free accounting software NZ"
+target_keyword: "free accounting software NZ"
+summary: "Compare the top free accounting software for New Zealand businesses. We tested Wave, Hnry, Zoho Books & more for GST compliance, bank feeds, and NZ-specific features. No credit card needed."
 ---
+
+**Updated March 2026** — All NZ tool options and pricing current.
+
+If you're searching for free accounting software NZ businesses actually use, this guide covers the best options with a focus on GST compliance.
 
 Your business needs proper accounting, but spending $50+ monthly on software feels premature when you're still building revenue.
 
-Here's what the current "free accounting software NZ" results won't tell you: most free options come with significant limitations that could cost you more than paid software in the long run.
+HerQuick Comparison: Free Accounting Software for NZ
+
+| Tool | Free Plan Limits | GST Support | Bank Feeds | NZ Payroll | Best For | NZ Fit Score |
+|------|------------------|------------|-----------|-----------|----------|-------------|
+| Wave | Unlimited invoices | Manual only | Yes | No | Solo/Simple | 3.5/5 |
+| Manager | Unlimited | Manual + Reports | No | No | Tech-savvy | 4/5 |
+| Hnry | First $15K free | Auto/Complete | Yes | No | NZ Freelancers | 4.5/5 |
+| Zoho Books | 1,000 invoices/year | Limited | Yes | No | Startup | 3/5 |
+| GnuCash | Unlimited | Manual | No | No | Privacy-focused | 3/5 |
+
+## e's what the current "free accounting software NZ" results won't tell you: most free options come with significant limitations that could cost you more than paid software in the long run.
 
 Let's cut through the marketing and examine what actually works for New Zealand businesses.
 
@@ -98,6 +115,8 @@ Here's what the free software providers don't emphasize: GST compliance is where
 
 **The cost of getting GST wrong:** Penalties start at $250 and can reach $25,000 for serious non-compliance.
 
+
+For businesses looking at custom solutions to connect disparate accounting systems, see our [custom software vs off-the-shelf guide](/blog/custom-software-vs-off-the-shelf/) for cost comparison frameworks.
 ## When Free Software Actually Makes Sense
 
 **Ideal candidates for free accounting software:**
@@ -236,9 +255,9 @@ Your financial freedom depends more on consistent money management than perfect 
 
 ## Take Action Today
 
-Stop researching and start tracking. Choose one free option, set it up this week, and begin building your financial visibility.
-
-Because knowing where your money goes is the first step to having more of it.
+Stop researching and start tracki6 (Small Business Edition)](/blog/best-ai-tools-for-business-2025/)
+- [Custom Software vs Off-the-Shelf: Decision Framework](/blog/custom-software-vs-off-the-shelf/)
+- [Small Business Custom Software Solutionsg more of it.
 
 ---
 

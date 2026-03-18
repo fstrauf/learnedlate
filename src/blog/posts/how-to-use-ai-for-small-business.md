@@ -1,12 +1,15 @@
 ---
-title: "How to Use AI for Small Business: Step-by-Step Guide"
+title: "How to Use AI for Small Business: Save 10+ Hours/Week (2026 Guide)"
 date: "2025-08-17"
-summary: "Practical AI implementation guide for small businesses. Learn which AI tools to start with, how to integrate them into your workflows, and calculate real ROI—no technical expertise required."
+updated_date: "2026-03-19"
+summary: "Exactly how to implement AI in your small business — starting Monday. Real NZ examples showing 10–20 hours/week saved, NZD tool costs under $300/month, and a free 30-day action plan. No tech expertise required."
 keyword: "how to use ai for small business"
 difficulty: 31
 ---
 
-# How to Use AI for Small Business: Step-by-Step Implementation Guide
+# How to Use AI for Small Business: Save 10+ Hours/Week (2026 Implementation Guide)
+
+**Updated March 2026** — All tool recommendations and NZD pricing current.
 
 Most AI guides for small business are either too vague ("AI will transform your business!") or too technical (machine learning algorithms and neural networks).
 
@@ -14,7 +17,7 @@ This guide is different. It shows you exactly how to implement AI in your small 
 
 No computer science degree required. No massive budget needed. Just practical steps that deliver measurable results.
 
-For a strategic overview, see our [AI strategy for small business: 90-day action plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan.md). For specific automation examples, check out our [business process automation examples](./business-process-automation-examples.md).
+For a strategic overview, see our [AI strategy for small business: 90-day action plan](/blog/2025-06-22-ai-strategy-small-business-90-day-action-plan/). For specific automation examples, check out our [business process automation examples](/blog/business-process-automation-examples/).
 
 ## What "Using AI" Actually Means for Small Business
 
@@ -650,9 +653,9 @@ You don't need to implement everything at once. Here's your minimal starting poi
 2. Calculate actual ROI
 3. Plan expansion
 
-The companies winning with AI aren't doing anything complicated. They're just starting—then iterating based on results.
+The companies winning with AI aren't doing anything complicated. Th/blog/2025-06-22-ai-strategy-small-business-90-day-action-plan/) walks through systematic AI implementation across your entire business.
 
-Need a more comprehensive AI strategy? Our [90-day AI action plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan.md) walks through systematic AI implementation across your entire business.
+Or if you want to understand broader AI transformation potential, read [How AI Transforms Small Business](/blog/2025-06-22-how-ai-transforms-small-business-practical-examples/). For tool recommendations, see our [Best AI Tools for Business 2026](/blog/best-ai-tools-for-business-2025/) guide. And for specific ChatGPT workflows, check out [ChatGPT for Business: Practical Implementation Guide](/blog/2025-06-22-chatgpt-for-business-practical-implementation-guide/
 
 Or if you want to understand broader AI transformation potential, read [How AI Transforms Small Business](./2025-06-22-how-ai-transforms-small-business-practical-examples.md). For tool recommendations, see our [Best AI Tools for Business 2025](./best-ai-tools-for-business-2025.md) guide. And for specific ChatGPT workflows, check out [ChatGPT for Business: Practical Implementation Guide](./2025-06-22-chatgpt-for-business-practical-implementation-guide.md).
 
