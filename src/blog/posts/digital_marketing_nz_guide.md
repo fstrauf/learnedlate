@@ -1,17 +1,17 @@
 ---
-title: "Digital Marketing for NZ Small Business: A Practical, No-Fluff Guide (2026)"
+title: "Digital Marketing for Small Business NZ: 2026 Practical Guide (What Actually Works)"
 date: "2025-07-15"
 updated_date: "2026-03-19"
 keyword: "digital marketing for small business NZ"
 target_keyword: "digital marketing for small business NZ"
-summary: "Practical digital marketing guide for NZ small businesses. Learn which channels deliver ROI on a Kiwi budget — with real results, NZ tool recommendations, and a 30-day action plan."
+summary: "Digital marketing for NZ small businesses: which channels work on a Kiwi budget. Real results, NZD tool costs, local case studies & a free 30-day action plan. Updated March 2026."
 ---
 
 **Updated March 2026** — NZ tool recommendations and costs current.
 
-Here's the reality: most New Zealand small businesses are drowning in digital marketing advice that doesn't fit their world.
+*Guide written by Florian Strauf, NZ digital marketing specialist and Fractional CTO. [View profile →](/about)*
 
-You know automation works. But seeing real business process automation examples — with actual before/after numbers — is what finally makes the decision easy.
+Here's the reality: most New Zealand small businesses are drowning in digital marketing advice that doesn't fit their world.
 
 The courses cost $840. The degrees take three years. But your customers are searching for your services right now, and you need results that matter to your bottom line - not academic theory.
 
@@ -124,6 +124,40 @@ For a structured approach to scaling these efforts, see our [30-day AI action pl
 - Install Google Analytics and track key metrics
 - Monitor which content drives actual inquiries
 - Adjust strategy based on real performance data
+
+## Frequently Asked Questions
+
+**What digital marketing channels work best for NZ small businesses?**
+For most NZ small businesses, Google My Business (free) and local SEO deliver the highest ROI first. After that, email marketing and targeted Google Ads outperform social media for lead generation. Social media works best for brand awareness and community building, not direct sales.
+
+**How much should a NZ small business spend on digital marketing?**
+A common benchmark is 5–10% of revenue. For a business earning NZD $500K/year, that's $25K–$50K annually. Start with free channels (GMB, SEO) before paying for ads. NZD $500–$1,500/month in Google Ads is a reasonable starting budget for most local service businesses.
+
+**Is SEO or social media better for NZ businesses?**
+SEO typically wins for long-term ROI in NZ because search intent is higher (people actively looking for your service). Social media is better for building awareness and trust. Most successful NZ small businesses invest primarily in SEO and use social media to support it.
+
+**How long does digital marketing take to show results?**
+Google Ads: results within 1–2 weeks. SEO: meaningful results in 3–6 months. Email marketing: immediate for existing list, 3–6 months to build from scratch. The businesses getting the best ROI invest consistently for 12+ months.
+
+
+## NZ-Specific Digital Marketing Channels
+
+Most digital marketing guides are written for US or UK audiences. Here's what's different for NZ businesses:
+
+### Platforms Worth Your Attention in NZ
+- **TradeMe** — For product businesses or B2C services, TradeMe's audience is highly NZ-specific and purchasing-intent is high
+- **Neighbourly** — Effective for hyperlocal service businesses (trades, cleaning, childcare) within specific suburbs
+- **Stuff.co.nz** — Display advertising reaches a large NZ audience; best for brand campaigns rather than direct response
+- **LinkedIn NZ** — For B2B services targeting NZ businesses; smaller audience than US but higher relevance
+
+### NZ Digital Marketing Channel Comparison
+
+| Channel | Avg NZ CPC | Monthly Audience | Best For |
+|---------|-----------|-----------------|----------|
+| Google Search Ads | NZD $2–8 | 4M+ searches/day | High-intent local leads |
+| Facebook/Instagram | NZD $0.50–2 | 3M+ NZ users | Awareness, retargeting |
+| LinkedIn NZ | NZD $6–15 | 1M+ professionals | B2B lead generation |
+| TradeMe Ads | NZD $0.20–1 | 3.5M monthly | Product/local services |
 
 ## The Reality Check: What Digital Marketing Won't Do
 

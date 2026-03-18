@@ -1,16 +1,16 @@
 ---
-title: "Custom Software Development: A Complete Guide for New Zealand Businesses (2026)"
+title: "What is Custom Software Development? Complete Guide for NZ Businesses (2026)"
 date: "2025-08-09"
 updated_date: "2026-03-19"
-excerpt: "Custom software development for NZ businesses explained. Find out when to build vs buy, what it costs in NZD, and how to avoid the 5 mistakes that derail most projects — with real Auckland and Wellington examples."
-summary: "Custom software development for NZ businesses explained. Find out when to build vs buy, what it costs in NZD, and how to avoid the 5 mistakes that derail most projects — with real Auckland and Wellington examples."
+excerpt: "What is custom software development? It's software built specifically for your business — not off-the-shelf. Learn when to build vs buy, NZD costs, and the 5 mistakes NZ businesses must avoid."
+summary: "What is custom software development? It's software built specifically for your business — not off-the-shelf. Learn when to build vs buy, NZD costs, and the 5 mistakes NZ businesses must avoid."
 keyword: "custom software development New Zealand"
 difficulty: 12
 category: "Software"
 tags: ["Custom Software", "Development", "MVP", "Startups", "NZ Business"]
 ---
 
-# What is Custom Software Development for NZ Businesses?
+# What is Custom Software Development? (A Plain-English Guide for NZ Business Owners)
 
 **Updated March 2026** — NZ context and pricing current.
 
@@ -372,11 +372,30 @@ Ask yourself these questions:
    - If yes → proceed
    - If no → consider a [fractional CTO](/blog/2025-06-22-what-is-fractional-cto-complete-guide/) to guide the process
 
+## Frequently Asked Questions
+
+**What is the difference between custom and off-the-shelf software?**
+Off-the-shelf software (like Xero or Shopify) is built for thousands of companies and handles common use cases well. Custom software is built specifically for your business — your workflows, your integrations, your logic. Off-the-shelf is cheaper and faster; custom is the right choice when your process is your competitive advantage.
+
+**How much does custom software development cost in New Zealand?**
+NZ custom software typically costs NZD $15K–$40K for a simple MVP, $40K–$150K for a standard application, and $150K–$300K+ for complex enterprise systems. See our [full NZD pricing guide](/blog/custom-software-development-cost-breakdown/) for detailed breakdowns.
+
+**How long does it take to build custom software?**
+Simple MVPs take 4–8 weeks. Standard applications take 3–5 months. Complex systems take 5–12 months. Timeline depends heavily on requirements clarity and how frequently you provide feedback during development.
+
+**Who should I hire to build custom software?**
+Options include NZ-based agencies (most accountable, highest cost), freelancers (flexible, higher risk for complex projects), and offshore teams (cheapest, requires strong management). For most NZ businesses investing $50K+, a local or nearshore agency is the safest choice.
+
+**Is custom software worth it for small businesses?**
+For most small businesses, off-the-shelf tools are sufficient. Custom software becomes worth it when: your core process is your competitive advantage, you're spending 10+ hours/week on manual workarounds, or your industry has workflows that generic tools can't handle.
+
 ## Next Steps
 
 If you're considering custom software:
 
 **Step 1:** Map your current process. Where are the pain points?
+
+For NZ-specific pricing and timelines, see our [Custom Software Development Cost guide](/blog/custom-software-development-cost-breakdown/).
 
 **Step 2:** Calculate current costs (time, errors, missed opportunities).
 
@@ -393,6 +412,12 @@ Need help thinking through whether custom software makes sense for your situatio
 Or if you're ready to move forward, check out our [custom software packages](/blog/2025-04-05-custom-software-packages-nz/) designed specifically for NZ small businesses and startups.
 
 The key is starting smart—not starting big.
+
+## Is Custom Software Right for Your Business?
+
+Take our free 10-minute assessment and get a personalised recommendation.
+
+[Start the Assessment →](/contact)
 
 ---
 

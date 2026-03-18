@@ -1,11 +1,15 @@
 ---
-title: "Technical Due Diligence Checklist: The 48-Hour Investor Framework (NZ Focus)"
+title: "Technical Due Diligence Checklist for Startup Investors: 48-Hour Framework (2026)"
 date: "2025-08-08"
 updated_date: "2026-03-19"
 keyword: "technical due diligence checklist startup"
 target_keyword: "technical due diligence checklist startup"
-summary: "A practical 48-hour technical due diligence checklist for startup investors. Covers architecture red flags, team assessment, AI stack evaluation, and NZ-specific compliance — with scoring matrix included."
+summary: "Free technical due diligence checklist for startup investors. Evaluate any startup in 48 hours: architecture red flags, team assessment, AI stack, NZ compliance & scoring matrix. Download now."
 ---
+
+# Technical Due Diligence Checklist for Startup Investors (48-Hour Framework)
+
+*By Florian Strauf, Fractional CTO with 15+ years reviewing startup tech stacks for NZ and APAC investors. [View profile →](/about)*
 
 **Updated March 2026** — NZ compliance and investment framework current.
 
@@ -509,6 +513,22 @@ Technical due diligence isn't just about avoiding bad investments. It's about id
 The startups that win don't just solve customer problems—they solve them in ways that are technically difficult for competitors to replicate.
 
 Your 48 hours of technical due diligence might be the difference between funding the next unicorn and watching it get funded by someone else who recognized the technical opportunity you missed.
+For the CTO's perspective on evaluating a team's technical choices, see our [Technical Due Diligence Checklist: CTO's Complete Guide](/blog/2025-06-22-technical-due-diligence-checklist-cto-guide/).
+
+## Frequently Asked Questions
+
+**What is technical due diligence for a startup?**
+Technical due diligence is a structured assessment of a startup's technology, codebase, team, and infrastructure — conducted by investors or acquirers to identify risks and validate technical claims before committing capital.
+
+**How long does technical due diligence take?**
+A focused technical due diligence can be completed in 48 hours using this framework. Comprehensive assessments for later-stage deals typically take 1–2 weeks with access to code repositories and technical interviews.
+
+**What are the biggest red flags in technical due diligence?**
+The most critical red flags are: inability to explain architecture clearly, no disaster recovery plan, excessive technical debt with no remediation roadmap, a single technical lead with no documentation, and undisclosed security incidents.
+
+**Do I need a CTO to conduct technical due diligence?**
+No — but you need someone with hands-on development experience. Many NZ and APAC investors engage a fractional CTO specifically for technical due diligence reviews. See our [Fractional CTO guide](/blog/2025-06-22-what-is-fractional-cto-complete-guide/) for how this works.
+
 
 ---
 

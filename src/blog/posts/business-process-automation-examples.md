@@ -1,5 +1,5 @@
 ---
-title: "Business Process Automation Examples: 16 Real Cases With ROI Data (2026)"
+title: "16 Business Process Automation Examples: Real ROI Data for NZ Small Businesses (2026)"
 date: "2025-08-05"
 updated_date: "2026-03-19"
 excerpt: "See how 16 companies automated sales, HR, finance and operations — with exact time saved, costs, and ROI. Small business examples with NZD pricing included."
@@ -16,7 +16,7 @@ You know automation works. The question is: where do you actually start?
 
 Most business process automation guides throw around buzzwords like "digital transformation" without showing you what real companies actually automated. This article does the opposite. You'll see 16 concrete examples from real businesses, complete with before/after metrics, implementation details, and honest ROI numbers.
 
-LetSummary: 16 Automation Examples at a Glance
+## 16 Automation Examples at a Glance
 
 | # | Process | Time Saved | Cost | ROI | Category |
 |---|---------|-----------|------|-----|----------|
@@ -27,7 +27,7 @@ LetSummary: 16 Automation Examples at a Glance
 
 **Average payback period: 2-3 months**
 
-## 's skip the theory and jump straight into what's working. For a strategic approach to automation, see our [AI strategy for small business: 90-day action plan](/blog/2025-06-22-ai-strategy-small-business-90-day-action-plan/).
+## Let's Skip the Theory — Here's What's Actually Working For a strategic approach to automation, see our [AI strategy for small business: 90-day action plan](/blog/2025-06-22-ai-strategy-small-business-90-day-action-plan/).
 
 ## What Counts as Business Process Automation?
 
@@ -481,6 +481,26 @@ Need help thinking through your automation strategy? Our [90-day AI action plan]
 Or if you want to understand the fundamentals better, check out our [complete guide to business process automation](./2025-06-22-business-process-automation-small-business-guide.md). For hands-on guidance, see [simple automation workflows](./2025-08-01-simple-automation-workflows.md) and [how AI transforms small business](./2025-06-22-how-ai-transforms-small-business-practical-examples.md).
 
 The companies in this article aren't special. They just started. You can too.
+
+## Frequently Asked Questions
+
+**What is the easiest business process to automate first?**
+Start with a high-frequency, rule-based task you do daily — like lead capture to CRM entry, invoice reminders, or social media scheduling. Processes that take 15–30 minutes and happen 5+ times per week give the fastest visible ROI.
+
+**How much does business process automation cost for small business?**
+Most NZ small businesses start with tools costing NZD $50–300/month (Zapier, Make, or n8n). The 16 examples in this article average NZD $150/month in tool costs with ROI of 6–12x in the first year.
+
+**What tools do NZ businesses use for automation?**
+The most popular tools are Zapier (easiest to start), Make/Integromat (more powerful), Xero for accounting automation, and ActiveCampaign or HubSpot for sales/marketing sequences.
+
+**How long does it take to automate a business process?**
+Simple automations (single trigger → single action) take 1–2 hours to set up. Multi-step workflows with conditions and error handling typically take a day. The examples in this guide were all built in under a week.
+
+## Ready to Automate Your First Process?
+
+Our team helps NZ businesses identify and implement their highest-ROI automation in a free 30-minute discovery call.
+
+[Book Your Free Automation Audit →](/contact)
 
 ---
 
