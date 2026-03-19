@@ -35,6 +35,11 @@
                     </router-link>
                   </DropdownMenuItem>
                   <DropdownMenuItem as-child>
+                    <router-link to="/seo-automation" class="cursor-pointer">
+                      SEO Automation Package
+                    </router-link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem as-child>
                     <router-link to="/mvp-development" class="cursor-pointer">
                       MVP Development
                     </router-link>
@@ -42,6 +47,16 @@
                   <DropdownMenuItem as-child>
                     <router-link to="/fractional-cto" class="cursor-pointer">
                       Fractional CTO
+                    </router-link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem as-child>
+                    <router-link to="/automation" class="cursor-pointer">
+                      Automation
+                    </router-link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem as-child>
+                    <router-link to="/ai-implementation" class="cursor-pointer">
+                      AI Implementation
                     </router-link>
                   </DropdownMenuItem>
                   <DropdownMenuItem as-child>
@@ -106,9 +121,12 @@
               <div class="px-2">
                 <div class="text-gray-400 text-xs uppercase tracking-wide mb-2 py-2">Services</div>
                 <router-link @click="closeMobileMenu" to="/services" class="block py-2 pl-4 hover:text-gray-300 hover:bg-gray-700 rounded-md">All Services</router-link>
-                <router-link @click="closeMobileMenu" to="/services/seo-automation" class="block py-2 pl-4 hover:text-gray-300 hover:bg-gray-700 rounded-md">SEO Automation</router-link>
+                <router-link @click="closeMobileMenu" to="/services/seo-automation" class="block py-2 pl-4 hover:text-gray-300 hover:bg-gray-700 rounded-md">SEO Automation Systems</router-link>
+                <router-link @click="closeMobileMenu" to="/seo-automation" class="block py-2 pl-4 hover:text-gray-300 hover:bg-gray-700 rounded-md">SEO Automation Package</router-link>
                 <router-link @click="closeMobileMenu" to="/mvp-development" class="block py-2 pl-4 hover:text-gray-300 hover:bg-gray-700 rounded-md">MVP Development</router-link>
                 <router-link @click="closeMobileMenu" to="/fractional-cto" class="block py-2 pl-4 hover:text-gray-300 hover:bg-gray-700 rounded-md">Fractional CTO</router-link>
+                <router-link @click="closeMobileMenu" to="/automation" class="block py-2 pl-4 hover:text-gray-300 hover:bg-gray-700 rounded-md">Automation</router-link>
+                <router-link @click="closeMobileMenu" to="/ai-implementation" class="block py-2 pl-4 hover:text-gray-300 hover:bg-gray-700 rounded-md">AI Implementation</router-link>
                 <router-link @click="closeMobileMenu" to="/sap-solution-architecture" class="block py-2 pl-4 hover:text-gray-300 hover:bg-gray-700 rounded-md">SAP Architecture</router-link>
                 <router-link @click="closeMobileMenu" to="/sap-custom-development" class="block py-2 pl-4 hover:text-gray-300 hover:bg-gray-700 rounded-md">SAP Development</router-link>
               </div>
@@ -124,6 +142,40 @@
     </main>
     <footer class="bg-gray-200 text-gray-700 py-8 px-4 mt-auto">
       <div class="container mx-auto max-w-6xl">
+        <!-- Services Section -->
+        <div class="mb-6">
+          <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider text-center mb-3">Services</h3>
+          <nav class="hidden sm:flex flex-wrap justify-center gap-x-4 gap-y-1 mb-4 text-sm">
+            <router-link to="/mvp-development" class="hover:text-gray-900 hover:underline transition-colors">MVP Development</router-link>
+            <router-link to="/fractional-cto" class="hover:text-gray-900 hover:underline transition-colors">Fractional CTO</router-link>
+            <router-link to="/seo-automation" class="hover:text-gray-900 hover:underline transition-colors">SEO Automation Package</router-link>
+            <router-link to="/automation" class="hover:text-gray-900 hover:underline transition-colors">Automation</router-link>
+            <router-link to="/ai-implementation" class="hover:text-gray-900 hover:underline transition-colors">AI Implementation</router-link>
+          </nav>
+          <nav class="sm:hidden grid grid-cols-2 gap-2 mb-4 text-sm text-center">
+            <router-link to="/mvp-development" class="hover:text-gray-900 hover:underline transition-colors">MVP Development</router-link>
+            <router-link to="/fractional-cto" class="hover:text-gray-900 hover:underline transition-colors">Fractional CTO</router-link>
+            <router-link to="/seo-automation" class="hover:text-gray-900 hover:underline transition-colors">SEO Automation</router-link>
+            <router-link to="/automation" class="hover:text-gray-900 hover:underline transition-colors">Automation</router-link>
+            <router-link to="/ai-implementation" class="hover:text-gray-900 hover:underline transition-colors">AI Implementation</router-link>
+          </nav>
+        </div>
+
+        <hr class="border-gray-300 my-6">
+
+        <!-- Tools Section -->
+        <div class="mb-6">
+          <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider text-center mb-3">Tools</h3>
+          <nav class="flex flex-wrap justify-center gap-x-4 gap-y-1 text-sm">
+            <router-link to="/life-calendar" class="hover:text-gray-900 hover:underline transition-colors">Life Calendar</router-link>
+            <router-link to="/life-balance-visualizer" class="hover:text-gray-900 hover:underline transition-colors">Life Balance Visualizer</router-link>
+            <router-link to="/concentric-circles" class="hover:text-gray-900 hover:underline transition-colors">Bubble Biases</router-link>
+            <router-link to="/now" class="hover:text-gray-900 hover:underline transition-colors">Now</router-link>
+          </nav>
+        </div>
+
+        <hr class="border-gray-300 my-6">
+
         <!-- SAP Services Section -->
         <div class="mb-6">
           <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider text-center mb-3">SAP Services</h3>
@@ -163,7 +215,7 @@
           <router-link to="/blog" class="hover:text-gray-900 hover:underline transition-colors">Blog</router-link>
           <router-link to="/cv" class="hover:text-gray-900 hover:underline transition-colors">CV</router-link>
          <a href="https://x.com/learnedlate" target="_blank" rel="noopener noreferrer" class="hover:text-gray-900 hover:underline transition-colors">Twitter</a>
-          <a href="mailto:hello@learnedlate.com" class="hover:text-gray-900 hover:underline transition-colors">Contact Me</a>
+          <a :href="contactEmailHref" class="hover:text-gray-900 hover:underline transition-colors">Contact Me</a>
         </nav>
 
         <!-- Mobile Footer Navigation -->
@@ -174,7 +226,7 @@
           <router-link to="/blog" class="hover:text-gray-900 hover:underline transition-colors">Blog</router-link>
           <router-link to="/cv" class="hover:text-gray-900 hover:underline transition-colors">CV</router-link>
          <a href="https://x.com/learnedlate" target="_blank" rel="noopener noreferrer" class="hover:text-gray-900 hover:underline transition-colors">Twitter</a>
-          <a href="mailto:hello@learnedlate.com" class="hover:text-gray-900 hover:underline transition-colors col-span-2">Contact Me</a>
+          <a :href="contactEmailHref" class="hover:text-gray-900 hover:underline transition-colors col-span-2">Contact Me</a>
         </nav>
 
         <div class="text-center">
@@ -186,7 +238,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 import { ChevronDown, Menu, X } from 'lucide-vue-next'
 import {
   DropdownMenu,
@@ -207,6 +259,11 @@ const toggleMobileMenu = () => {
 const closeMobileMenu = () => {
   isMobileMenuOpen.value = false
 }
+
+const contactEmailHref = ref<string | undefined>(undefined)
+onMounted(() => {
+  contactEmailHref.value = 'mailto:hello@learnedlate.com'
+})
 
 // PostHog analytics is now handled via the plugin in main.ts
 </script>

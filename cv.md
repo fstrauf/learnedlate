@@ -8,35 +8,35 @@ florian@learnedlate.com | [Twitter](https://x.com/learnedlate) | [LinkedIn](http
 
 ## SUMMARY
 
-Strategic technology consultant and fractional CTO with a proven track record of leading teams and delivering complex software projects from concept to market. I partner with businesses to bridge the gap between their goals and technical execution, specializing in AI implementation, pragmatic software architecture, and optimizing development processes for speed and quality. My hands-on experience as a founder and CTO ensures the strategies I provide are grounded in current, practical experience.
+Solution architect, technical advisor, and former SAP employee with 20+ years of experience translating business needs into practical technology solutions. My background combines deep enterprise delivery experience with the last four years of hands-on work building products, leading teams, and working deeply with modern application stacks, data platforms, and AI-enabled systems. That recent experience keeps my advisory work grounded in the realities of how modern systems are scoped, built, integrated, and scaled. In parallel with product building, I have continued to advise businesses on solution direction, including ERP replacement scoping, build-vs-buy evaluation, effort estimation, architecture, and implementation planning.
 
 ## AREAS OF EXPERTISE
 
-- **Strategic Problem-Solving**: Pragmatic approach to solving complex technical challenges with an eye toward business outcomes.
-- **Technical Leadership & Team Efficiency**: Proven ability to lead technical teams, restructure development processes, and significantly improve productivity and product quality.
-- **AI-Accelerated Development**: Combining deep architectural experience with modern AI tools to deliver high-quality, scalable software faster and more cost-effectively than traditional methods.
-- **Rapid Prototyping & MVP Development**: Expert at transforming ideas into working prototypes by identifying essential features and stripping away unnecessary complexity.
-- **Process Optimization**: Implementing structured workflows, ticketing systems, and development methodologies that balance speed with quality.
-- **Full-Stack Technical Expertise**: Comfortable building across the entire stack—from frontend applications to complex backend systems, Python algorithms, and SQL optimizations.
+- **Solution Architecture & Business Alignment**: Strong track record of translating business requirements into pragmatic solution designs, roadmaps, and delivery plans.
+- **ERP Planning & Process Design**: Experience advising businesses on ERP direction, implementation planning, and aligning technology choices with operational needs.
+- **Data, Analytics & AI Advisory**: Able to connect data platforms, analytics, and AI opportunities to concrete business outcomes and practical implementation steps.
+- **Business and Technology Translation**: Combines deep technical expertise with strong business understanding, allowing me to work effectively with stakeholders, leadership teams, and delivery teams.
+- **Technical Leadership & Delivery Enablement**: Proven ability to lead teams, improve development processes, and raise execution quality without losing speed.
+- **AI & Modernization Opportunities**: Practical experience identifying where AI and automation can create real value inside products, workflows, and delivery teams.
+- **Hands-On Technical Depth**: Credible across architecture and implementation, from enterprise integrations and backend systems to frontend applications, data pipelines, and analytics.
 
 ## PROFESSIONAL EXPERIENCE
 
-### Principal Technical Advisor & Fractional CTO
+### Principal Technical Advisor & Solution Advisor
 **Independent Consultant | March 2025 - Present**
 
-Partnering with businesses as a fractional CTO and strategic advisor to provide hands-on technical leadership. My focus is on implementing pragmatic solutions that deliver immediate value while building sustainable, scalable systems for the future.
+Partnering with businesses as a strategic technology advisor. My focus is on helping leadership teams turn business needs into clear technical direction, with an emphasis on solution planning, ERP thinking, architecture, and pragmatic execution.
 
-**Core Offerings:**
-- **Software Strategy & Architecture:** Translating business needs into actionable technical roadmaps, breaking down complex projects, and providing realistic effort estimations.
-- **AI Implementation:** Identifying high-impact opportunities to integrate AI into existing workflows and products to boost efficiency and create new capabilities.
-- **Team Leadership & Process Optimization:** Establishing and refining agile development practices, setting up effective team structures, and mentoring developers to improve velocity and quality.
+**Relevant Advisory Work:**
+- Worked with New Zealand Packing and Kiwifruit Management Company in a solution advisory capacity to help shape ERP planning and align business needs with a practical implementation path.
+- Supported with ERP-related planning and solution thinking, helping translate operational requirements into clearer technical direction.
 
 ### Founder & Builder at [daystoexpiry.com](https://daystoexpiry.com)
 **2025 - Present**
 
-Days to Expiry began as a personal tool to better understand and optimize my own options income strategies and has grown into a niche SaaS with paying customers. I designed and built the entire platform end-to-end, from data ingestion to AI-assisted analytics.
+Built and operate a niche SaaS product from concept to paying customers. The platform demonstrates current, hands-on capability across product design, systems architecture, data processing, analytics, and AI-assisted workflows.
 
-The app ingests and parses broker statements, normalizes positions and trades, and presents them in a clear, options-focused view. On top of this, I’ve implemented AI-driven analysis that helps users evaluate, plan, and execute options income strategies based on their actual portfolio holdings.
+The application ingests and parses broker statements, normalizes positions and trades, and presents them in a clear, options-focused view. On top of this, I implemented AI-driven analysis to help users evaluate and plan options income strategies based on their actual portfolio holdings.
 
 **Key User Benefits Delivered:**
 
@@ -48,7 +48,7 @@ The app ingests and parses broker statements, normalizes positions and trades, a
 ### Founder & Builder at [Expensesorted.com](https://expensesorted.com)
 **2023 - Present**
 
-As a hands-on project to stay current with modern tech stacks, I founded and am building a personal finance tool that gives users full control over their data by using their own Google Sheet as a database. This venture serves as a practical application of my expertise in full-stack development, AI-powered automation, and user-centric design.
+Founded and continue to build a personal finance product designed around user control, privacy, and automation. This work keeps my technical skills current across modern full-stack development, data-driven workflows, AI-supported automation, and user-focused product design.
 
 **Key User Benefits Delivered:**
 - **Provides Complete Control & Privacy:** Gives users peace of mind by using their own Google Sheet as the database.
@@ -59,7 +59,7 @@ As a hands-on project to stay current with modern tech stacks, I founded and am 
 ### CTO at Forgd.com
 **Jan 2024 - March 2025**
 
-Led the technical vision and delivery of Forgd.com, a comprehensive platform for blockchain builders.
+Led the technical vision and delivery of Forgd.com, a platform serving blockchain builders, with responsibility spanning architecture, delivery, and team leadership.
 
 **Key Achievements:**
 - Built and scaled a robust platform from concept to over 1000 users in under 12 months.
@@ -70,7 +70,7 @@ Led the technical vision and delivery of Forgd.com, a comprehensive platform for
 ### Founder & CEO at Tokenomics DAO (acquired by Forgd.com)
 **2021 - 2024**
 
-Founded and led a tokenomics-focused community, producing thought leadership for web3 projects.
+Founded and led a consulting-led community business focused on tokenomics and strategic design for web3 projects.
 
 **Key Achievements:**
 - Built a community of 3,000+ members.
@@ -81,11 +81,12 @@ Founded and led a tokenomics-focused community, producing thought leadership for
 ### Solution Architect at SAP
 **2014 - 2021**
 
-Translated business requirements into custom product solutions for a wide range of industries.
+Translated business requirements into custom product solutions for a wide range of industries, working closely with stakeholders to move from initial concept through architecture and delivery.
 
 **Key Achievements:**
 - Led SAP's innovation strategy for blockchain adoption, including board-level proposals.
 - Designed custom solutions and led agile delivery teams through successful PoCs, pilots, and production implementations.
+- Helped bridge business priorities and technical execution for enterprise customers facing complex transformation initiatives.
 
 ### Development Consultant at SER Solutions Deutschland GmbH
 **2005 - 2014**
