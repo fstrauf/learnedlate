@@ -1,0 +1,34 @@
+# LearnedLate
+
+> Strategic technical consulting for New Zealand startups. Fractional CTO services, custom software development, and AI automation to accelerate growth.
+
+## Core Services
+
+- [Fractional CTO Services](https://www.learnedlate.com/fractional-cto-services/): Part-time CTO leadership for startups without full-time cost. Strategic technical guidance, team leadership, and investor-ready advisory.
+- [Custom Software Development](https://www.learnedlate.com/custom-software-development/): AI-accelerated development for NZ businesses. From concept to production in weeks, not months.
+- [MVP Development](https://www.learnedlate.com/mvp-development/): 8-week startup MVP builds. Validate your idea fast with a working product.
+- [AI Automation](https://www.learnedlate.com/ai-implementation/): Business process automation and AI integration to save 10+ hours per week.
+- [Technical Due Diligence](https://www.learnedlate.com/fractional-cto-services/): Investor-grade technical assessments for startups and VCs.
+
+## Key Resources
+
+- [Blog](https://www.learnedlate.com/blog/): 80+ articles on startup technology leadership, AI automation, and software development for NZ businesses
+- [What is a Fractional CTO? Complete Guide](https://www.learnedlate.com/blog/2025-06-22-what-is-fractional-cto-complete-guide/): Comprehensive guide to fractional CTO services in New Zealand
+- [Custom Software Development Guide](https://www.learnedlate.com/blog/what-is-custom-software-development-complete-guide/): When to build vs buy, NZD costs, and mistakes to avoid
+- [How to Build an MVP](https://www.learnedlate.com/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/): Step-by-step guide for startup founders
+- [Startup Runway Calculator](https://www.learnedlate.com/blog/startup_runway_calculator_nz_template/): Free NZD template to plan your cash runway
+- [Technical Due Diligence Checklist](https://www.learnedlate.com/blog/technical-due_diligence_checklist/): CTO's complete guide for investors and founders
+
+## About the Author
+
+[Florian Strauf](https://www.learnedlate.com/) is a fractional CTO and technical consultant based in Auckland, New Zealand. With experience across startups, enterprise, and Web3, he helps NZ businesses make smart technology decisions and build better software faster.
+
+## Contact
+
+- Email: hello@learnedlate.com
+- LinkedIn: https://linkedin.com/in/florianstrauf
+- Location: Auckland, New Zealand (serving NZ-wide)
+
+## Sitemap
+
+- [Sitemap](https://www.learnedlate.com/sitemap.xml)

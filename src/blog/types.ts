@@ -1,3 +1,8 @@
+export interface FAQItem {
+  question: string
+  answer: string
+}
+
 export interface BlogPost {
   title: string
   slug: string
@@ -13,4 +18,5 @@ export interface BlogPost {
   canonicalUrl?: string
   content?: string
   readingTime?: number
+  faqItems?: FAQItem[]
 }

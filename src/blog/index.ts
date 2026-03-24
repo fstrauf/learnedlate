@@ -1,6 +1,6 @@
 import articlesData from '../../articles.json'
-import type { BlogPost } from './types'
-export type { BlogPost }
+import type { BlogPost, FAQItem } from './types'
+export type { BlogPost, FAQItem }
 
 // Dynamically import all markdown files (client-side only)
 // This won't work during SSR, but that's OK - we load content client-side
@@ -129,13 +129,17 @@ export function loadPostContent(slug: string): BlogPost | undefined {
     const raw = modules[matchingPath]
     const { data, content } = parseMarkdown(raw)
     
+    // Parse FAQ items from frontmatter if present
+    const faqItems: FAQItem[] | undefined = data.frequentlyAskedQuestions || data.faq || undefined
+    
     return {
       ...post,
       excerpt: data.summary || data.excerpt || '',
       tags: data.tags || [],
       category: data.category || 'General',
       metaDescription: data.metaDescription || data.summary || data.excerpt || '',
-      content
+      content,
+      faqItems
     }
   }
   

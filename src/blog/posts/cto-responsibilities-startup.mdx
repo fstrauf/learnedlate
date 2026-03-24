@@ -1,25 +1,32 @@
 ---
-
 title: "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown (2026 Guide)"
 date: "2025-10-02"
+updated_date: "2026-03-25"
 summary: "What does a CTO do at a startup? This stage-by-stage breakdown covers CTO responsibilities from pre-product through scale — with time breakdowns, hiring guidance, and common mistakes to avoid."
 keyword: "cto responsibilities startup"
 difficulty: 0
+frequentlyAskedQuestions:
+  - question: "What are the main responsibilities of a startup CTO?"
+    answer: "At early stages: building the MVP, making technology choices, and validating technical feasibility. At growth stages: hiring and managing the engineering team, setting technical strategy, and managing technical debt. At scale: organisational leadership, technical vision, and representing technology to the board."
+  - question: "When should a startup hire a CTO?"
+    answer: "If you're a non-technical founder, consider a CTO (or fractional CTO) from day one for technical validation. If you have a technical co-founder, formalise the CTO role when you hire your 3rd–5th engineer and need someone focused on leadership rather than coding."
+  - question: "What is the difference between a CTO and VP of Engineering?"
+    answer: "A CTO focuses outward: technology vision, product architecture, investor/customer conversations. A VP of Engineering focuses inward: team management, delivery processes, hiring, execution. Early-stage startups need CTO skills; scaling companies often need both."
+  - question: "Can a non-technical founder be a CTO?"
+    answer: "Technically yes, but it's rare and difficult. The CTO needs credibility with engineers and the ability to make sound technical architecture decisions. Most non-technical founders are better served hiring a CTO or fractional CTO than taking the title themselves."
+  - question: "What does a fractional CTO do for a startup?"
+    answer: "A fractional CTO provides senior technical leadership part-time — typically 1–3 days per week. They handle architecture decisions, tech team hiring, investor technical questions, and vendor evaluation. Cost is NZD $5K–$15K/month versus $200K+ for a full-time hire."
 ---
 
 *By Florian Strauf, Fractional CTO | Updated March 2026. [View profile →](/about)*
 
-"What does a CTO actually do?"
+A CTO's responsibilities change dramatically depending on your startup's stage. At pre-product, they code 80% of the time. At scale with 50+ engineers, they're almost entirely strategic. According to [First Round Capital's 10-Year Founder Survey](https://review.firstround.com/), 46% of startup failures can be traced to team problems—understanding what your CTO should do at each stage prevents these issues.
 
-The answer changes dramatically depending on your stage. A CTO at a pre-product startup does something completely different than a CTO at a scaling company with 50 engineers.
+This guide breaks down exactly what a CTO does from pre-product through scale, with specific time allocations, common mistakes, and success metrics for each phase.
 
-Most founders get confused because they expect the CTO to do everything: write code, hire engineers, set strategy, fix servers, train the team. 
+---
 
-That's not realistic. At different stages, the CTO focuses on different things.
-
-Here's what actually matters at each stage.
-
-## Pre-Product Stage (Validating the idea)
+## What Does a CTO Do at the Pre-Product Stage?
 
 **Your situation:**
 - You have an idea and maybe a co-founder
@@ -28,25 +35,25 @@ Here's what actually matters at each stage.
 - You have 3-6 months of runway
 
 **What the CTO does:**
-- **Builds the MVP** (writes a lot of code)
-- **Validates technical feasibility** (can this actually be built?)
-- **Makes technology choices** (language, framework, architecture)
-- **Handles infrastructure** (hosting, databases, deployment)
+- **Builds the MVP** (writes a lot of code using frameworks like [React](https://react.dev/), [Node.js](https://nodejs.org/), or [Django](https://www.djangoproject.com/))
+- **Validates technical feasibility** (can this actually be built with current technology?)
+- **Makes technology choices** (language, framework, architecture—decisions informed by [ThoughtWorks Technology Radar](https://www.thoughtworks.com/radar))
+- **Handles infrastructure** (hosting on [AWS](https://aws.amazon.com/) or [Vercel](https://vercel.com/), databases like [PostgreSQL](https://www.postgresql.org/))
 - **Owns all tech decisions** (there's no "other engineer" to discuss with)
 
-**The CTO's focus:** Speed and learning, not perfection.
-
-You're trying to validate the business model. Technical decisions should enable that, not slow it down.
+**The CTO's focus:** Speed and learning, not perfection. You're trying to validate the business model. Technical decisions should enable that, not slow it down.
 
 **Time breakdown:** 80% coding, 15% learning/research, 5% strategy
 
-**CTO profile:** Usually a technical co-founder or early employee. Could be external fractional CTO but they need to write code.
+**CTO profile:** Usually a technical co-founder or early employee. Could be external [fractional CTO](/blog/2025-06-22-what-is-fractional-cto-complete-guide/) but they need to write code.
 
-**Biggest mistake:** Over-engineering the MVP. You don't need a perfect architecture. You need something that works fast enough to learn from customers.
+**Biggest mistake:** Over-engineering the MVP. You don't need [microservices](https://martinfowler.com/articles/microservices.html) or [Kubernetes](https://kubernetes.io/) yet. You need something that works fast enough to learn from customers. Research from [CB Insights](https://www.cbinsights.com/research/report/startup-failure-reasons-top/) shows that building something nobody wants is the #1 reason startups fail—don't let technical perfectionism delay validation.
 
 **Success metric:** Product ships and you learn something from users.
 
-## MVP to Product-Market Fit (0-12 months post-launch)
+---
+
+## What Changes When You Reach MVP to Product-Market Fit?
 
 **Your situation:**
 - You have a product and some early customers
@@ -55,50 +62,48 @@ You're trying to validate the business model. Technical decisions should enable 
 - You're trying to find what resonates with customers
 
 **What the CTO does:**
-- **Still writes code** (actively contributing, maybe 50% of their time)
-- **Leads technical direction** (architecture decisions, tech choices)
+- **Still writes code** (actively contributing, maybe 40% of their time)
+- **Leads technical direction** (architecture decisions, tech choices using [Architecture Decision Records](https://adr.github.io/))
 - **Mentors other engineers** (helping junior devs level up)
-- **Defines development process** (how the team ships code safely)
-- **Owns production** (if something breaks, it's on you)
+- **Defines development process** (how the team ships code safely with [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow) or [GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html))
+- **Owns production** (if something breaks, it's on you—use [PagerDuty](https://www.pagerduty.com/) or [Opsgenie](https://www.atlassian.com/software/opsgenie))
 - **Manages technical debt** (balancing speed with maintainability)
 
 **The CTO's focus:** Building a scalable foundation while moving fast.
 
-You're figuring out what your business is. Technical decisions should support rapid iteration without creating unmaintainable code.
-
 **Time breakdown:** 40% coding, 30% leadership/mentorship, 20% architecture/tech decisions, 10% operations
 
-**CTO profile:** Someone who can code and lead. Fractional CTO works here if experienced.
+**CTO profile:** Someone who can code and lead. [Fractional CTO](/blog/2025-06-22-what-is-fractional-cto-complete-guide/) works here if experienced.
 
-**Biggest mistake:** Optimizing prematurely. "We need to rewrite this in Rust" when you're still finding product-market fit. Also: writing code that's unmaintainable and becomes a liability when you hire more engineers.
+**Biggest mistake:** Optimizing prematurely. "We need to rewrite this in [Rust](https://www.rust-lang.org/)" when you're still finding product-market fit. Also: writing code that's unmaintainable and becomes a liability when you hire more engineers.
 
 **Success metric:** The team ships regularly. Code quality is good enough that new engineers don't despair. You have a technical roadmap that aligns with business roadmap.
 
-## Growth Stage (Post-PMF, building team, 3-30 engineers)
+---
+
+## How Do CTO Responsibilities Change During the Growth Stage?
 
 **Your situation:**
-- You've found product-market fit
-- You're hiring engineers (fast)
+- You've found product-market fit (validated by [Sean Ellis Test](https://www.growthhackers.com/blog/what-is-a-good-retention-rate) or similar)
+- You're hiring engineers fast
 - Your technology needs are getting more complex
 - You're scaling the team and processes
 - You have 12+ months of runway
 
 **What the CTO does:**
 - **Writes less code** (maybe 20-30% of their time)
-- **Builds the team** (hiring, onboarding, culture)
+- **Builds the team** (hiring, onboarding, culture—using [Greenhouse](https://www.greenhouse.io/) or [Lever](https://www.lever.co/))
 - **Defines technical strategy** (roadmap, architecture, technology decisions)
 - **Manages technical debt** (deciding when to refactor vs. ship)
 - **Represents technical needs to business** (what can we actually deliver?)
-- **Builds process and quality** (code review, testing, deployment)
+- **Builds process and quality** (code review with [GitHub](https://github.com/), testing with [Jest](https://jestjs.io/) or [pytest](https://docs.pytest.org/), deployment)
 - **Owns hiring and retention** (attracting engineers, keeping them happy)
 
 **The CTO's focus:** Building a scalable team and systems.
 
-At this stage, code quality matters because you're going to have 10+ engineers building on top of it. You also need to retain people and have clear technical direction.
-
 **Time breakdown:** 30% leadership/mentorship, 25% hiring/team building, 20% technical strategy, 15% architecture, 10% hands-on coding
 
-**CTO profile:** Someone who enjoys leadership and team building. Doesn't have to write code daily but needs to understand what's happening technically. Fractional CTO transitions to full-time here (or brought on full-time).
+**CTO profile:** Someone who enjoys leadership and team building. Doesn't have to write code daily but needs to understand what's happening technically. [Fractional CTO](/blog/2025-06-22-what-is-fractional-cto-complete-guide/) transitions to full-time here (or brought on full-time).
 
 **Biggest mistakes:**
 - Trying to do all the coding yourself (you become a bottleneck)
@@ -113,7 +118,9 @@ At this stage, code quality matters because you're going to have 10+ engineers b
 - Team morale is good
 - You're shipping regularly without bugs dominating the work
 
-## Scale Stage (Scaling beyond one team, 30+ engineers)
+---
+
+## What Does a CTO Do at the Scale Stage?
 
 **Your situation:**
 - You have multiple teams working on different components
@@ -124,18 +131,16 @@ At this stage, code quality matters because you're going to have 10+ engineers b
 
 **What the CTO does:**
 - **Almost no code** (maybe 5-10% or tactical deep dives)
-- **Leads technical strategy** (big architectural decisions)
+- **Leads technical strategy** (big architectural decisions using [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/) or similar frameworks)
 - **Manages multiple teams** (each with their own lead engineer/manager)
 - **Owns technical roadmap** (aligned with business strategy)
 - **Decides on technology choices** (new languages, frameworks, infrastructure)
 - **Manages performance and culture** (building technical culture)
 - **Represents tech to C-suite** (connecting technical decisions to business outcomes)
-- **Handles partnerships and compliance** (security, integration partners)
+- **Handles partnerships and compliance** (security with [SOC 2](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2), integration partners)
 - **Plans for the next phase** (IPO readiness, scale challenges, etc.)
 
 **The CTO's focus:** Strategic leadership and organizational design.
-
-At this scale, your job is making good big decisions and creating an environment where smart engineers make good decisions too.
 
 **Time breakdown:** 40% team leadership/management, 25% strategic planning, 15% meetings/partnerships, 10% hands-on technical depth, 10% culture/hiring
 
@@ -154,7 +159,9 @@ At this scale, your job is making good big decisions and creating an environment
 - Hiring and retention are strong
 - You're attracting senior engineers
 
-## The CTO's Responsibilities by Dimension
+---
+
+## What Are the Key CTO Responsibilities by Dimension?
 
 Use this table to understand what matters at your stage:
 
@@ -168,7 +175,9 @@ Use this table to understand what matters at your stage:
 | **Operations/Tools** | 0% | 0% | 10% | 15% |
 | **Culture/Mentoring** | 0% | 0% | 5% | 10% |
 
-## Common CTO Failures
+---
+
+## What Are the Most Common CTO Failures?
 
 **The code-only CTO**
 - Writes great code but won't mentor
@@ -195,7 +204,9 @@ Use this table to understand what matters at your stage:
 - Creates friction with business
 - Problem: Doesn't understand trade-offs required at each stage
 
-## What CTO Actually Means
+---
+
+## How Should the CTO Role Evolve?
 
 Here's the thing: "CTO" is a title that means wildly different things at different companies.
 
@@ -210,49 +221,43 @@ Before you hire a CTO (or become one), be clear:
 
 The best CTOs evolve with the company. They know that what worked at stage 1 won't work at stage 5.
 
-## The Stages of CTO Evolution
+### The Four Stages of CTO Evolution
 
 Most CTOs at successful startups follow this trajectory:
 
 **Stage 1: Builder** (Pre-product to MVP)
 - "I build the thing"
 - Role: Code-focused, architectural decisions
+- Tools: [VS Code](https://code.visualstudio.com/), [GitHub](https://github.com/), [Docker](https://www.docker.com/)
 
 **Stage 2: Leader** (PMF to Growth)
 - "I build the team and the thing"
 - Role: Balanced between code and leadership
+- Tools: [Slack](https://slack.com/), [Jira](https://www.atlassian.com/software/jira), [Notion](https://www.notion.so/)
 
 **Stage 3: Strategist** (Growth to Scale)
 - "I lead the team and align with business"
 - Role: People and strategy focused
+- Tools: [Lattice](https://lattice.com/), [Grafana](https://grafana.com/), [Tableau](https://www.tableau.com/)
 
 **Stage 4: Executive** (Scale and beyond)
 - "I represent technology to the business"
 - Role: C-suite strategic leadership
+- Tools: [Looker](https://looker.com/), [Databricks](https://www.databricks.com/), board decks
 
 Some CTOs thrive at stage 1 but struggle at stage 3. Some people love stage 2 and don't want to go further. Both are fine—you just need to know what stage you're at and who's right for that stage.
 
-## Finding the Right CTO for Your Stage
+---
 
-**Pre-product:** Someone technical who wants to build. Doesn't need management experience.
+## How Do You Find the Right CTO for Your Stage?
 
-**PMF to Growth:** Someone technical who enjoys mentorship and leadership. Should have managed engineers before.
+**Pre-product:** Someone technical who wants to build. Doesn't need management experience. Look for strong GitHub profiles, open source contributions, side projects.
 
-**Scale:** Someone with C-suite and large team experience. Should have managed multiple teams.
+**PMF to Growth:** Someone technical who enjoys mentorship and leadership. Should have managed engineers before. Look for previous lead or senior roles.
+
+**Scale:** Someone with C-suite and large team experience. Should have managed multiple teams. Look for VP or CTO experience at scaling companies.
 
 **At each transition:** You might need a different CTO. That's ok. Not everyone wants to lead 50 engineers.
-
-## The Bottom Line
-
-The CTO job isn't fixed. It evolves with your company.
-
-At pre-product, it's almost 100% engineering. At scale, it's almost 100% strategy and leadership.
-
-The best CTOs understand this and adapt. The worst ones try to do the pre-product job at a 50-person company (micromanaging code) or the scale job at an early startup (over-strategizing when speed matters).
-
-Know your stage. Know what CTO means for that stage. Hire someone who's good at that stage.
-
-And be prepared: whoever's right today might not be right in two years. Plan for that.
 
 ---
 
@@ -262,7 +267,7 @@ And be prepared: whoever's right today might not be right in two years. Plan for
 At early stages: building the MVP, making technology choices, and validating technical feasibility. At growth stages: hiring and managing the engineering team, setting technical strategy, and managing technical debt. At scale: organisational leadership, technical vision, and representing technology to the board.
 
 **When should a startup hire a CTO?**
-If you're a non-technical founder, consider a CTO (or fractional CTO) from day one for technical validation. If you have a technical co-founder, formalise the CTO role when you hire your 3rd–5th engineer and need someone focused on leadership rather than coding.
+If you're a non-technical founder, consider a CTO (or [fractional CTO](/blog/2025-06-22-what-is-fractional-cto-complete-guide/)) from day one for technical validation. If you have a technical co-founder, formalise the CTO role when you hire your 3rd–5th engineer and need someone focused on leadership rather than coding.
 
 **What is the difference between a CTO and VP of Engineering?**
 A CTO focuses outward: technology vision, product architecture, investor/customer conversations. A VP of Engineering focuses inward: team management, delivery processes, hiring, execution. Early-stage startups need CTO skills; scaling companies often need both.
@@ -273,17 +278,11 @@ Technically yes, but it's rare and difficult. The CTO needs credibility with eng
 **What does a fractional CTO do for a startup?**
 A fractional CTO provides senior technical leadership part-time — typically 1–3 days per week. They handle architecture decisions, tech team hiring, investor technical questions, and vendor evaluation. Cost is NZD $5K–$15K/month versus $200K+ for a full-time hire.
 
-For founder guidance on timing the CTO hire, see [When to Hire Your First CTO: A Startup Founder's Timing Guide](/blog/when_to_hire_your_first_cto_a_startup_founders_timing_guide/).
-
-### Related Reading
-- [How to Choose the Right CTO for Your Startup](/how-to-choose-cto-for-startup.mdx)
-- [What is a Fractional CTO? Complete Guide](/what-is-fractional-cto-complete-guide.md)
-- [Technical Due Diligence Checklist](/technical-due-diligence-checklist.md)
-- [Technical Risks Kill Startup Valuations](/technical-risks-kill-startup-valuations.md)
+---
 
 ## Not Sure If You Need a Full-Time CTO?
 
-A fractional CTO gives you senior technical leadership without the full-time cost.
+A [fractional CTO](/blog/2025-06-22-what-is-fractional-cto-complete-guide/) gives you senior technical leadership without the full-time cost.
 
 [Learn how fractional CTO services work →](/blog/2025-06-22-what-is-fractional-cto-complete-guide/)
 

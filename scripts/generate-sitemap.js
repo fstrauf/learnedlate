@@ -49,7 +49,8 @@ staticRoutes.forEach(route => {
 // Add article routes
 const publishedArticles = articles.filter(a => a.status === 'published')
 publishedArticles.forEach(article => {
-  const lastmod = article.published_date || today
+  // Use modified_date if available, otherwise fall back to published_date
+  const lastmod = article.modified_date || article.published_date || today
   sitemap += `  <url>
     <loc>${baseUrl}/blog/${article.url_slug}</loc>
     <lastmod>${lastmod}</lastmod>

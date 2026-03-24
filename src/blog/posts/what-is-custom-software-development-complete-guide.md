@@ -1,76 +1,89 @@
 ---
 title: "What is Custom Software Development? Complete Guide for NZ Businesses (2026)"
 date: "2025-08-09"
-updated_date: "2026-03-19"
+updated_date: "2026-03-25"
 excerpt: "What is custom software development? It's software built specifically for your business — not off-the-shelf. Learn when to build vs buy, NZD costs, and the 5 mistakes NZ businesses must avoid."
 summary: "What is custom software development? It's software built specifically for your business — not off-the-shelf. Learn when to build vs buy, NZD costs, and the 5 mistakes NZ businesses must avoid."
 keyword: "custom software development New Zealand"
 difficulty: 12
 category: "Software"
 tags: ["Custom Software", "Development", "MVP", "Startups", "NZ Business"]
+frequentlyAskedQuestions:
+  - question: "What is the difference between custom and off-the-shelf software?"
+    answer: "Off-the-shelf software (like Xero or Shopify) is built for thousands of companies and handles common use cases well. Custom software is built specifically for your business — your workflows, your integrations, your logic. Off-the-shelf is cheaper and faster; custom is the right choice when your process is your competitive advantage."
+  - question: "How much does custom software development cost in New Zealand?"
+    answer: "NZ custom software typically costs NZD $15K–$40K for a simple MVP, $40K–$150K for a standard application, and $150K–$300K+ for complex enterprise systems."
+  - question: "How long does it take to build custom software?"
+    answer: "Simple MVPs take 4–8 weeks. Standard applications take 3–5 months. Complex systems take 5–12 months. Timeline depends heavily on requirements clarity and how frequently you provide feedback during development."
+  - question: "Who should I hire to build custom software?"
+    answer: "Options include NZ-based agencies (most accountable, highest cost), freelancers (flexible, higher risk for complex projects), and offshore teams (cheapest, requires strong management). For most NZ businesses investing $50K+, a local or nearshore agency is the safest choice."
+  - question: "Is custom software worth it for small businesses?"
+    answer: "For most small businesses, off-the-shelf tools are sufficient. Custom software becomes worth it when: your core process is your competitive advantage, you're spending 10+ hours/week on manual workarounds, or your industry has workflows that generic tools can't handle."
 ---
 
 # What is Custom Software Development? (A Plain-English Guide for NZ Business Owners)
 
-**Updated March 2026** — NZ context and pricing current.
+**Updated March 2026** — NZ context, pricing, and AI development practices current.
 
-Custom software development is building software specifically for your business—not buying something off-the-shelf and hoping it fits.
+Custom software development is building software specifically for your business—not buying something off-the-shelf and hoping it fits. In New Zealand, custom software typically costs NZD $15,000-300,000+ depending on complexity, compared to off-the-shelf subscriptions that range from $50-500/month but may not handle your unique workflows.
 
-Think of it like this: off-the-shelf software is buying a suit from a department store. Custom software is getting one tailored. The department store suit is cheaper and faster. But if you're 6'5" with broad shoulders, nothing fits quite right. Custom makes sense.
+Think of it like this: off-the-shelf software is buying a suit from [The Warehouse](https://www.thewarehouse.co.nz/). Custom software is getting one tailored by an Auckland tailor. The department store suit is cheaper and faster. But if you're 6'5" with broad shoulders, nothing fits quite right. Custom makes sense when your business processes don't fit standard templates.
 
-The question isn't "what is it"—that's straightforward. The real question is: *when does it make sense for your business?*
+---
 
-Let's answer that.
+## What Is the Core Difference Between Custom and Off-the-Shelf Software?
 
-## Custom Software vs Off-the-Shelf: The Core Difference
+**Off-the-shelf software** (like [Xero](https://www.xero.com/nz), [Shopify](https://www.shopify.com/nz), or [HubSpot](https://www.hubspot.com)) is built for thousands of companies. It handles common use cases well. You subscribe, configure settings, and start using it.
 
-**Off-the-shelf software** (like Xero, Shopify, or HubSpot) is built for thousands of companies. It handles common use cases well. You subscribe, configure settings, and start using it.
-
-**Custom software** is built for one company—yours. It solves your specific workflow, integrates with your exact systems, and handles your unique business logic.
+**Custom software** is built for one company—yours. It solves your specific workflow, integrates with your exact systems like [MYOB](https://www.myob.com/nz) or [WorkflowMax](https://www.workflowmax.com/), and handles your unique business logic.
 
 Neither is "better." They solve different problems.
 
-## When Custom Software Actually Makes Sense
+---
 
-Most businesses don't need custom software. Off-the-shelf tools work fine for 90% of use cases.
+## When Does Custom Software Actually Make Sense?
+
+Most businesses don't need custom software. Off-the-shelf tools work fine for 90% of use cases, according to [Gartner research](https://www.gartner.com/en/newsroom/press-releases).
 
 But here are scenarios where custom becomes the smart choice:
 
-### 1. Your Core Process is Your Competitive Advantage
+### When Is Your Core Process Your Competitive Advantage?
 
 If your workflow is what differentiates you in the market, forcing it into generic software destroys your edge.
 
-**Example:** A Wellington logistics company had proprietary routing algorithms that cut delivery costs by 30%. No off-the-shelf tool supported their approach. Custom software let them operationalize their advantage.
+**Example:** A Wellington logistics company had proprietary routing algorithms that cut delivery costs by 30%. No off-the-shelf tool like [Trello](https://trello.com/) or [Asana](https://asana.com/) supported their approach. Custom software built with [Node.js](https://nodejs.org/) and [PostgreSQL](https://www.postgresql.org/) let them operationalize their advantage.
 
 **Rule of thumb:** If your process is what customers pay you for, it's probably worth custom software.
 
-### 2. You're Duct-Taping Multiple Tools Together
+### When Are You Duct-Taping Multiple Tools Together?
 
-One Xero account. Three Airtable bases. Five Zapier workflows. A Google Sheet that breaks monthly. Someone manually copying data between systems every morning.
+One [Xero](https://www.xero.com/nz) account. Three [Airtable](https://www.airtable.com/) bases. Five [Zapier](https://zapier.com/) workflows. A Google Sheet that breaks monthly. Someone manually copying data between systems every morning.
 
 When integration complexity exceeds the cost of custom software, it's time to build.
 
-**Auckland consulting firm example:** They used 7 different tools for client management. Staff spent 12 hours weekly copying data and reconciling discrepancies. Custom CRM cost NZD $45K to build. Payback period: 11 months from labor savings alone.
+**Auckland consulting firm example:** They used 7 different tools for client management. Staff spent 12 hours weekly copying data and reconciling discrepancies. Custom CRM built with [React](https://react.dev/) and [Firebase](https://firebase.google.com/) cost NZD $45K to build. Payback period: 11 months from labor savings alone.
 
-### 3. Off-the-Shelf Tools Don't Fit Your Industry
+### When Don't Off-the-Shelf Tools Fit Your Industry?
 
 Some industries have workflows that don't map to standard software categories.
 
-**Christchurch construction company:** Project management tools assumed linear workflows. Construction doesn't work that way—weather delays, permit waiting, subcontractor availability, material delays. Custom software modeled their reality.
+**Christchurch construction company:** Project management tools like [Monday.com](https://monday.com/) assumed linear workflows. Construction doesn't work that way—weather delays, permit waiting, subcontractor availability, material delays. Custom software built with [Django](https://www.djangoproject.com/) modeled their reality.
 
-### 4. You Need Specific Integrations or Data Requirements
+### When Do You Need Specific Integrations or Data Requirements?
 
 Compliance requirements, legacy system integration, or specific data handling can make off-the-shelf impossible.
 
-**Example:** Financial services firm needed client data to stay in New Zealand for regulatory reasons. Most SaaS tools use US/EU servers. Custom software deployed to local infrastructure solved it.
+**Example:** Financial services firm needed client data to stay in New Zealand for [Privacy Act 2020](https://www.legislation.govt.nz/act/public/2020/0031/latest/LMS23223.html) compliance. Most SaaS tools use US/EU servers. Custom software deployed to [Catalyst Cloud](https://catalystcloud.nz/) (NZ-based) solved it.
 
-### 5. You're Scaling and Off-the-Shelf Costs Are Exploding
+### When Are Off-the-Shelf Costs Exploding?
 
 Many SaaS tools charge per user or per transaction. At scale, this gets expensive fast.
 
-**Example:** E-commerce business processed 50K orders monthly. Their off-the-shelf order management system charged per order—NZD $4,500/month and climbing. Custom system cost NZD $60K to build, NZD $400/month to run. Break-even: 14 months.
+**Example:** E-commerce business processed 50K orders monthly. Their off-the-shelf order management system charged per order—NZD $4,500/month and climbing. Custom system built with [Next.js](https://nextjs.org/) and [AWS](https://aws.amazon.com/) cost NZD $60K to build, NZD $400/month to run. Break-even: 14 months.
 
-## When to Stick With Off-the-Shelf
+---
+
+## When Should You Stick With Off-the-Shelf Software?
 
 Before you jump into custom development, reality check:
 
@@ -83,48 +96,52 @@ Before you jump into custom development, reality check:
 
 Off-the-shelf tools are faster, cheaper upfront, and maintained by someone else. Use them until they genuinely constrain your growth.
 
-## What Does Custom Software Development Actually Involve?
+---
 
-Custom software isn't magic. It's a structured process:
+## What Does the Custom Software Development Process Actually Involve?
 
-### 1. Discovery & Requirements (2-4 weeks)
+Custom software isn't magic. It's a structured process based on methodologies like [Agile](https://www.agilealliance.org/) and [Scrum](https://www.scrum.org/):
+
+### Phase 1: Discovery & Requirements (2-4 weeks)
 
 You and the development team map out:
 - What problem you're solving
 - Who will use the software
 - What workflows it needs to support
-- What systems it integrates with
+- What systems it integrates with (like [Xero API](https://developer.xero.com/) or [Salesforce](https://www.salesforce.com/))
 - What data it handles
 
-This phase determines whether your project succeeds or fails. Unclear requirements = wasted time and money.
+This phase determines whether your project succeeds or fails. Unclear requirements = wasted time and money. Tools like [Miro](https://miro.com/) or [Figma](https://www.figma.com/) help visualize workflows.
 
-### 2. Design & Planning (1-3 weeks)
+### Phase 2: Design & Planning (1-3 weeks)
 
-Designers create mockups showing what the software looks like and how users navigate it. Developers plan the technical architecture—database structure, API design, tech stack selection.
+Designers create mockups in [Figma](https://www.figma.com/) or [Adobe XD](https://www.adobe.com/products/xd.html) showing what the software looks like and how users navigate it. Developers plan the technical architecture—database structure, API design, tech stack selection.
 
 Good design catches problems before code is written. Fixing issues in design is cheap. Fixing them in code is expensive.
 
-### 3. Development & Testing (6-16 weeks)
+### Phase 3: Development & Testing (6-16 weeks)
 
-Developers build the software in iterations. Best practice: release a minimal working version quickly (an MVP), then add features based on real usage.
+Developers build the software in iterations using frameworks like [React](https://react.dev/), [Vue](https://vuejs.org/), or [Angular](https://angular.io/). Best practice: release a minimal working version quickly (an [MVP](https://www.learnedlate.com/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/)), then add features based on real usage.
 
-Testing happens throughout. Automated tests catch bugs. User testing catches workflow issues.
+Testing happens throughout. Automated tests with [Jest](https://jestjs.io/) or [Cypress](https://www.cypress.io/) catch bugs. User testing catches workflow issues.
 
 This is where most of the cost sits.
 
-### 4. Deployment & Training (1-2 weeks)
+### Phase 4: Deployment & Training (1-2 weeks)
 
-Software goes live. Team gets trained. Data migrates from old systems.
+Software goes live on platforms like [Vercel](https://vercel.com/), [Railway](https://railway.app/), or [AWS](https://aws.amazon.com/). Team gets trained. Data migrates from old systems.
 
 Deployment plans reduce risk—start with a pilot group, fix issues, then roll out company-wide.
 
-### 5. Maintenance & Iteration (ongoing)
+### Phase 5: Maintenance & Iteration (ongoing)
 
 Software isn't "done" after launch. You'll fix bugs, add features, update for security, and adapt as your business changes.
 
-Budget 15-25% of initial development cost annually for maintenance.
+Budget 15-25% of initial development cost annually for maintenance. This aligns with [industry standards](https://www.gartner.com/en/newsroom/press-releases) from Gartner.
 
-## How Much Does Custom Software Development :
+---
+
+## How Much Does Custom Software Development Cost in New Zealand?
 
 | Project Type | Cost Range (NZD) | Timeline | Best For |
 |-------------|------------------|----------|----------|
@@ -136,19 +153,23 @@ Budget 15-25% of initial development cost annually for maintenance.
 
 For a detailed breakdown including ongoing costs and different complexity tiers, see our [complete custom software development cost guide](/blog/custom-software-development-cost-breakdown/).
 
-Want detailed cost breakdowns? Check our [complete MVP cost guide](/blog/2025-06-22-mvp-development-cost-breakdown-timeline-guide/) and [custom software cost breakdown](/blog/custom-software-development-cost-breakdown/
+### What Factors Drive Cost?
 
-But I can give you ranges based on complexity. For a detailed breakdown including ongoing costs and different complexity tiers, see our [complete custom software development cost guide](./custom-software-development-cost-breakdown.md).
+- **Features**: More features = more cost. Each screen, workflow, and integration adds time.
+- **Complexity**: Real-time features, offline capability, complex calculations cost more.
+- **Integrations**: Connecting to [Xero](https://www.xero.com/nz), [Salesforce](https://www.salesforce.com/), or legacy systems adds complexity.
+- **Design**: Custom UI/UX design vs. using component libraries like [Tailwind UI](https://tailwindui.com/) or [Material-UI](https://mui.com/).
+- **Tech stack**: Some technologies are faster to develop with than others.
 
-Want detailed cost breakdowns? Check our [complete MVP cost guide](/mvp-development-cost-breakdown-timeline-guide) and [custom software cost breakdown](/custom-software-development-cost-breakdown).
+---
 
-## Common Custom Software Development Mistakes (And How to Avoid Them)
+## What Are the Most Common Custom Software Mistakes?
 
 ### Mistake #1: Building Everything at Once
 
 **The problem:** You specify 50 features. Developers build for 9 months. You finally see the software. Half the features aren't what you needed.
 
-**The fix:** Start with an MVP. Build 5-8 core features. Use it. Learn. Then add more.
+**The fix:** Start with an [MVP](https://www.learnedlate.com/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/). Build 5-8 core features. Use it. Learn. Then add more. This follows the [Lean Startup](https://theleanstartup.com/) methodology from Eric Ries.
 
 ### Mistake #2: Skipping the Discovery Phase
 
@@ -160,11 +181,11 @@ Want detailed cost breakdowns? Check our [complete MVP cost guide](/mvp-developm
 
 **The problem:** You go with the cheapest quote. They miss deadlines, deliver buggy code, disappear when you need support.
 
-**The fix:** Price matters, but so does track record, communication, and expertise in your domain. Interview multiple firms. Check references. Look at their past work.
+**The fix:** Price matters, but so does track record, communication, and expertise in your domain. Interview multiple firms. Check references. Look at their past work on [GitHub](https://github.com/) or [Behance](https://www.behance.net/).
 
 ### Mistake #4: Not Planning for Maintenance
 
-**The problem:** You budget for development but not ongoing maintena/blog/2025-01-28-why-custom-software-projects-fail/pear. Features break when dependencies update.
+**The problem:** You budget for development but not ongoing maintenance. Features break when dependencies update.
 
 **The fix:** Budget 15-25% of initial cost annually. Maintenance isn't optional—it's the cost of owning software.
 
@@ -176,201 +197,60 @@ Want detailed cost breakdowns? Check our [complete MVP cost guide](/mvp-developm
 
 We've written extensively about [why custom software projects fail](./2025-01-28-why-custom-software-projects-fail.md)—worth reading before you start.
 
-## Custom Software Development Process: What to Expect
+---
 
-### The 8-Week MVP Timeline
-
-If you're building an MVP, here's a realistic timeline:
-
-**Weeks 1-2: Discovery & Design**
-- Requirements workshops
-- User research
-- Wireframes and mockups
-- Technical planning
-
-**Weeks 3-6: Core Development**
-- Backend development (database, APIs, business logic)
-- Frontend development (user interface)
-- Integration with external systems
-- Automated testing setup
-/blog/8-week-mvp-development-guide/
-**Weeks 7-8: Testing & Launch**
-- User acceptance testing
-- Bug fixes
-- Performance optimization
-- Deployment
-- Team training
-
-Some agencies promise faster. Be skeptical. Rushed development creates technical debt that costs more to fix later.
-
-Want the detailed version? Read our [8-week MVP development guide](./8-week-mvp-development-guide.md).
-
-## Technologies Used in Custom Software Development
+## What Technologies Are Used in Custom Software Development?
 
 You don't need to be technical to commission custom software. But understanding common tech helps you evaluate vendors:
 
 ### Backend Technologies (Server-Side Logic)
-- **Node.js**: Fast, scalable, JavaScript-based
-- **Python/Django**: Great for data-heavy applications
-- **Ruby on Rails**: Rapid development, mature ecosystem
-- **.NET/C#**: Enterprise-grade, Microsoft ecosystem
+- **[Node.js](https://nodejs.org/)**: Fast, scalable, JavaScript-based
+- **[Python](https://www.python.org/)/[Django](https://www.djangoproject.com/)**: Great for data-heavy applications
+- **[Ruby on Rails](https://rubyonrails.org/)**: Rapid development, mature ecosystem
+- **[.NET](https://dotnet.microsoft.com/)/C#**: Enterprise-grade, Microsoft ecosystem
 
 ### Frontend Technologies (User Interface)
-- **React**: Most popular, component-based, flexible
-- **Vue**: Simpler than React, easy to learn
-- **Angular**: Full-featured framework, TypeScript-based
+- **[React](https://react.dev/)**: Most popular, component-based, flexible
+- **[Vue.js](https://vuejs.org/)**: Simpler than React, easy to learn
+- **[Angular](https://angular.io/)**: Full-featured framework, TypeScript-based
 
 ### Databases
-- **PostgreSQL**: Powerful relational database
-- **MySQL**: Popular, well-supported
-- **MongoDB**: NoSQL, flexible data structure
-- **Firebase**: Real-time data, quick setup
+- **[PostgreSQL](https://www.postgresql.org/)**: Powerful relational database
+- **[MySQL](https://www.mysql.com/)**: Popular, well-supported
+- **[MongoDB](https://www.mongodb.com/)**: NoSQL, flexible data structure
+- **[Firebase](https://firebase.google.com/)**: Real-time data, quick setup
 
 ### Infrastructure
-- **AWS**: Most comprehensive cloud platform
-- **Google Cloud**: Strong data/AI capabilities
-- **Azure**: Microsoft ecosystem integration
-- **Heroku**: Simpler, managed hosting
+- **[AWS](https://aws.amazon.com/)**: Most comprehensive cloud platform
+- **[Google Cloud](https://cloud.google.com/)**: Strong data/AI capabilities
+- **[Azure](https://azure.microsoft.com/)**: Microsoft ecosystem integration
+- **[Vercel](https://vercel.com/)**: Simpler, managed hosting for frontend apps
 
 **What matters:** Your developer should choose tech based on your specific needs—not their personal preferences or the latest trend.
 
-## Custom Software vs Other Options
+---
 
-Let's compare the alternatives:
+## How Is AI Changing Custom Software Development?
 
-### Custom Software vs Off-the-Shelf
-- **Custom**: Higher upfront cost, perfect fit, ongoing maintenance responsibility
-- **Off-the-shelf**: Lower upfront cost, good enough fit, vendor handles maintenance
-
-**Best for custom:** Unique workflows, competitive differentiation, complex integrations
-
-### Custom Software vs No-Code Tools
-- **Custom**: More expensive, more flexible, better performance at scale
-- **No-code**: Cheaper, faster to build, limited customization, can hit sblog/custom-software-vs-off-the-shelf/
-
-**Best for custom:** Complex business logic, high transaction volume, specific security/compliance needs
-
-### Custom Software vs Spreadsheets/Manual Process
-- **Custom**: Upfront investment, error reduction, scales with growth
-- **Manual**: Zero upfront cost, high error rate, doesn't scale
-
-**Best for custom:** When manual process costs exceed NZD $30K annually in time/errors
-
-We have a detailed comparison in our [custom software vs off-the-shelf](/custom-software-vs-off-the-shelf) guide.
-
-## How to Choose a Custom Software Development Partner
-
-Choosing the right developer is more important than choosing the right technology.
-
-### Green Flags
-- Ask probing questions about your business
-- Push back on unrealistic requirements
-- Show you examples of similar projects
-- Provide clear project planning and timeline
-- Explain technical decisions in plain language
-- Have a structured development process
-- Offer post-launch support
-
-### Red Flags
-- Promise everything, no trade-off discussions
-- Can't show relevant past work
-- Communication is slow or unclear
-- Quote without understanding requirements
-- No testing or quality assurance process
-- No talk of maintenance or support
-
-**New Zealand context:** Local developers understand NZ business practices, work in your timezone, and can meet face-to-face. Offshore can be cheaper but adds communication complexity and timezone challenges.
-
-For a detailed guide, see [how to choose a software development company](/blog/how-to-choose-software-development-company/).
-
-## Custom Software for Small Businesses: Is It Worth It?
-
-Small businesses often assume custom software is only for enterprises. Not true.
-
-**Custom software makes sense for small businesses when:**
-
-1. Your process is complex enough that off-the-shelf doesn't fit
-2. You're spending significant time on manual work that could be automated
-3. You're integrating multiple tools in fragile ways
-4. You have a clear ROI calculation (time saved, errors reduced, revenue enabled)
-
-**Example:** A 12-person Auckland marketing agency built custom client reporting software for NZD $35K. Replaced 20 hours weekly of manual reporting. ROI: 8 months.
-
-Small businesses should start smaller—an MVP that automates one painful process. Prove the ROI. Then expand.
-
-Read more: [Small business custom software](/blog/2025-05-28-small-business-custom-software/)
-
-## What About AI and Custom Software Development?
-
-AI is changing how custom software gets built—and what's possible to build.
+AI is transforming how custom software gets built—and what's possible to build.
 
 ### AI in the Development Process
-- **Faster coding**: AI assistants help developers write code faster
-- **Automated testing**: AI generates test cases
+- **Faster coding**: AI assistants like [GitHub Copilot](https://github.com/features/copilot) help developers write code faster
+- **Automated testing**: AI generates test cases with tools like [CodiumAI](https://codium.ai/)
 - **Bug detection**: AI spots potential issues before they hit production
 
 **Impact:** Development costs dropping 20-40% for well-structured projects. Timelines compressing.
 
 ### AI in Your Custom Software
-- **Intelligent features**: Add recommendations, predictions, natural language interfaces
+- **Intelligent features**: Add recommendations, predictions, natural language interfaces using [OpenAI API](https://openai.com/api/)
 - **Automation**: Replace manual decisions with AI-driven logic
 - **Better user experience**: Personalization, smart search, chatbots
 
-**Example:** Christchurch logistics company added AI route optimization to custom fleet management system. Fuel costs down 18%.
-
-AI doesn't replace developers—it makes them more productive. And it unlocks features that were previously too expensive to build.
+**Example:** Christchurch logistics company added AI route optimization using [Google OR-Tools](https://developers.google.com/optimization) to custom fleet management system. Fuel costs down 18%.
 
 Read more about [AI's impact on custom software development](/blog/2025-02-25-ai-revolution-custom-software-nz/).
 
-## Custom Software Development in New Zealand
-
-New Zealand's software development market has unique characteristics:
-
-### Strengths
-- High-quality developers with strong English communication
-- Similar timezone to Australia (easy collaboration)
-- Strong startup ecosystem (practical, pragmatic builders)
-- Good understanding of SMB needs
-
-### Challenges
-- Smaller talent pool than US/UK
-- Higher rates than offshore options
-- Less specialization in niche technologies
-
-### Cost Comparison
-- **NZ developers**: NZD $100-$200/hour
-- **Australian developers**: NZD $120-$220/hour
-- **US developers**: NZD $160-$320/hour
-- **Eastern European**: NZD $50-$100/hour
-- **India/Philippines**: NZD $25-$60/hour
-
-**My take:** For most NZ businesses, local or Australian developers are worth the premium. Communication quality matters more than cost for complex projects.
-
-Looking for regional context? Check our [Auckland custom software guide](/blog/2025-03-18-auckland-startups-custom-software/).
-
-## Is Custom Software Right for Your Business?
-
-Ask yourself these questions:
-
-1. **Do off-the-shelf tools fail to handle your core workflow?**
-   - If yes → custom might make sense
-   - If no → stick with off-the-shelf
-
-2. **Can you clearly articulate what you need built?**
-   - If yes → proceed
-   - If no → work on requirements first
-
-3. **Do you have budget for both build AND maintenance?**
-   - If yes → proceed
-   - If no → look for cheaper alternatives
-
-4. **Is there a clear ROI in 12-24 months?**
-   - If yes → strong candidate for custom
-   - If no → probably not worth it yet
-
-5. **Do you have someone technical to manage the project?**
-   - If yes → proceed
-   - If no → consider a [fractional CTO](/blog/2025-06-22-what-is-fractional-cto-complete-guide/) to guide the process
+---
 
 ## Frequently Asked Questions
 
@@ -389,19 +269,19 @@ Options include NZ-based agencies (most accountable, highest cost), freelancers 
 **Is custom software worth it for small businesses?**
 For most small businesses, off-the-shelf tools are sufficient. Custom software becomes worth it when: your core process is your competitive advantage, you're spending 10+ hours/week on manual workarounds, or your industry has workflows that generic tools can't handle.
 
+---
+
 ## Next Steps
 
 If you're considering custom software:
 
 **Step 1:** Map your current process. Where are the pain points?
 
-For NZ-specific pricing and timelines, see our [Custom Software Development Cost guide](/blog/custom-software-development-cost-breakdown/).
-
 **Step 2:** Calculate current costs (time, errors, missed opportunities).
 
 **Step 3:** Get quotes from 3-4 development firms. Compare approach, not just price.
 
-**Step 4:** Start with the smallest version that delivers value—an MVP.
+**Step 4:** Start with the smallest version that delivers value—an [MVP](/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/).
 
 **Step 5:** Learn from real usage before building everything.
 
@@ -413,12 +293,6 @@ Or if you're ready to move forward, check out our [custom software packages](/bl
 
 The key is starting smart—not starting big.
 
-## Is Custom Software Right for Your Business?
-
-Take our free 10-minute assessment and get a personalised recommendation.
-
-[Start the Assessment →](/contact)
-
 ---
 
 ## Related Articles
@@ -429,3 +303,6 @@ Take our free 10-minute assessment and get a personalised recommendation.
 - [8-Week MVP Development Guide](/blog/8-week-mvp-development-guide/)
 - [How to Choose a Software Development Company (Buyer's Guide)](/blog/how-to-choose-software-development-company/)
 - [Custom Software vs Off-the-Shelf: Decision Framework](/blog/custom-software-vs-off-the-shelf/)
+- [What is a Fractional CTO? Complete Guide for New Zealand Startups](/blog/2025-06-22-what-is-fractional-cto-complete-guide/)
+- [How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide](/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/)
+- [AI Strategy for Small Business: 90-Day Action Plan](/blog/2025-06-22-ai-strategy-small-business-90-day-action-plan/)

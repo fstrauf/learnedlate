@@ -1,5 +1,8 @@
 <template>
   <div class="blog-post-page">
+    <!-- FAQ Schema for articles with frequentlyAskedQuestions frontmatter - injects JSON-LD structured data -->
+    <FAQSchema v-if="post?.faqItems && post.faqItems.length > 0" :items="post.faqItems" />
+    
     <SEOHead 
       v-if="post"
       :title="post.metaTitle || post.title"
@@ -45,6 +48,13 @@
           </span>
           <span class="hidden sm:inline text-gray-300">•</span>
           <time :datetime="post.publishDate" class="font-medium">{{ formatDate(post.publishDate) }}</time>
+          <span v-if="post.modifiedDate && post.modifiedDate !== post.publishDate" class="hidden sm:inline text-gray-300">•</span>
+          <span v-if="post.modifiedDate && post.modifiedDate !== post.publishDate" class="flex items-center space-x-1 font-medium text-green-700">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+            </svg>
+            <span>Updated {{ formatDate(post.modifiedDate) }}</span>
+          </span>
           <span class="hidden sm:inline text-gray-300">•</span>
           <span class="flex items-center space-x-1 font-medium">
             <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -218,6 +228,7 @@ import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { marked } from 'marked'
 import SEOHead from '../components/SEOHead.vue'
+import FAQSchema from '../components/FAQSchema.vue'
 import { loadPostContent, getBlogPostBySlug, allBlogPosts, type BlogPost } from '../blog'
 import { Button } from '@/components/ui/button'
 
