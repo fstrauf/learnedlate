@@ -81,17 +81,25 @@ Founded and led a consulting-led community business focused on tokenomics and st
 ### Solution Architect at SAP
 **2014 - 2021**
 
-Translated business requirements into custom product solutions for a wide range of industries, working closely with stakeholders to move from initial concept through architecture and delivery.
+Progressed through multiple roles at SAP, from Senior Consultant in Innovation to Solution Architect for Asset Intensive Industries and Innovation Centre Network Public Blockchain. Delivered complex enterprise solutions across multiple industries while leading innovation initiatives at board level.
 
 **Key Achievements:**
-- Led SAP's innovation strategy for blockchain adoption, including board-level proposals.
-- Designed custom solutions and led agile delivery teams through successful PoCs, pilots, and production implementations.
-- Helped bridge business priorities and technical execution for enterprise customers facing complex transformation initiatives.
+- **Blockchain & Innovation Leadership (2021)**: Created decentralized business strategy for SAP's adoption of emerging web3 technology. Delivered board-level proposals on crypto payments, token-based revenue streams, and making the SAP portfolio web3-ready. Evaluated token-based revenue streams to monetize beyond traditional license revenue. Led supply chain carbon use cases across German automotive industry and shaped decision-making on SAP's engagement in Catena-X and Gaia-X ecosystems.
+- **Asset Intensive Industries (2020-2021)**: Solution architecture  for Asset Intensive Industries as part of SAP Centre of Excellence. Drove feature and roadmap planning for product extensions. Developed GTM strategy as subject matter expert for Intelligent Asset Management (IAM).
+- **Innovative Business Solutions (2018-2020)**: Solution architecture for IBSO proposals. Developed Go-To-Market approaches for new markets/products, presenting at industry events. Supported presales in translating customer requirements into technology solutions. Acted as trusted advisor on innovation topics.
+- **Applied Technology Innovation (2014-2018)**: Led delivery teams for innovation projects, proof of concepts, and pilots transitioning to productive implementations. Provided technical sales support for intelligent asset management products. Served as service owner for IoT products (Connected Goods, Vehicle Insights). Built IoT Map applications integrating with ESRI, Leaflet, HERE Maps, and OpenStreetMap.
+- **Delivery Excellence**: Successfully led cloud customers out of escalation by analyzing and improving system performance. Safeguarded innovation projects as trusted advisor.
+- **Recognition**: SAP Catalyst / Fast Track awards: 2016, 2017, 2018, 2019.
 
 ### Development Consultant at SER Solutions Deutschland GmbH
 **2005 - 2014**
 
-Progressed from apprentice to development consultant, focusing on SAP integrations and enterprise content management. Architected and developed invoice processing workflows and built UX solutions with SAP Fiori and SAPUI5.
+Progressed from apprentice to Development Consultant, specializing in SAP ABAP development, workflow architecture, and enterprise content management integrations.
+
+**Key Achievements:**
+- **SAP FI/MM Invoice Processing (2012-2014)**: Architected and developed FI/MM Invoice processing workflow solutions. Delivered UX development with SAP Fiori, SAPUI5, and OData services. Built Web Dynpro ABAP and NetWeaver Portal solutions. Developed ABAP Object-Oriented solutions and SAP Business Workflow implementations.
+- **Product Management / Quality Management (2008-2012)**: Led internal consulting projects on J2EE application servers (JBoss, IBM WebSphere). Managed migration of existing customers to latest product generation.
+- **Apprenticeship (2005-2008)**: Completed apprenticeship as Development Consultant with project development across .NET, Java, and Visual Basic.
 
 ## EDUCATION
 
