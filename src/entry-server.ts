@@ -6,25 +6,25 @@ import articlesData from '../articles.json'
 
 const publishedArticles = articlesData.articles.filter(a => a.status === 'published')
 
-// Static routes to prerender
-export const staticRoutes = [
-  '/',
-  '/blog',
-  '/projects',
-  '/services',
-  '/cv',
-  '/sap-solution-architecture',
-  '/sap-custom-development',
-  '/mvp-development',
-  '/fractional-cto',
-  '/ai-implementation',
-  '/automation',
-  '/seo-automation',
-  '/now',
-  '/life-balance-visualizer',
-  '/life-calendar',
-  '/concentric-circles',
-]
+// Static routes to prerender - auto-generated from router config
+// Import routes and extract all non-parameterized paths
+import routes from './router/routes'
+
+// Extract static routes (paths without parameters like :slug)
+function extractStaticRoutes(routeList: typeof routes): string[] {
+  const paths: string[] = []
+  
+  for (const route of routeList) {
+    // Skip routes with parameters (e.g., /blog/:slug)
+    if (!route.path.includes(':')) {
+      paths.push(route.path)
+    }
+  }
+  
+  return paths
+}
+
+export const staticRoutes = extractStaticRoutes(routes)
 
 // Dynamic routes from articles
 export const articleRoutes = publishedArticles.map(a => `/blog/${a.url_slug}`)

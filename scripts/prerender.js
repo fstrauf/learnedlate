@@ -88,8 +88,20 @@ async function prerender() {
           .replace('<!--app-html-->', appHtml)
           .replace('<!--preload-links-->', preloadLinks)
 
-        // Inject head tags (already rendered as HTML string) before closing head tag
+        // Inject head tags - replace existing SEO tags with SSR-rendered ones
         if (headPayload.headTags) {
+          // Remove existing SEO meta tags from template (to avoid duplicates)
+          html = html.replace(/<title>.*?<\/title>/, '')
+          html = html.replace(/<meta name="title"[^>]*>/, '')
+          html = html.replace(/<meta name="description"[^>]*>/, '')
+          html = html.replace(/<meta property="og:title"[^>]*>/g, '')
+          html = html.replace(/<meta property="og:description"[^>]*>/g, '')
+          html = html.replace(/<meta property="og:url"[^>]*>/, '')
+          html = html.replace(/<meta property="twitter:title"[^>]*>/, '')
+          html = html.replace(/<meta property="twitter:description"[^>]*>/, '')
+          html = html.replace(/<link rel="canonical"[^>]*>/, '')
+          
+          // Insert SSR head tags before closing head
           html = html.replace('</head>', `    ${headPayload.headTags}\n  </head>`)
         }
 

@@ -171,7 +171,8 @@
           "anchor_text": "Best AI Tools for Business 2025",
           "url": "best-ai-tools-for-business-2025"
         }
-      ]
+      ],
+      "excerpt": "Full-time? Fractional? Advisor? Here's the framework for choosing the right technical leadership for your stage and situation. Learn which CTO model fits your startup's needs, budget, and growth stage."
     },
     {
       "id": 3,
@@ -215,7 +216,8 @@
           "anchor_text": "Using no-code tools for rapid MVP development",
           "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
         }
-      ]
+      ],
+      "excerpt": "No-code automation for small business: save 10+ hours/week without a developer. Compare Zapier vs Make vs n8n, see NZD pricing, and get a step-by-step starter guide. Works for any NZ business."
     },
     {
       "id": 4,
@@ -339,7 +341,8 @@
           "anchor_text": "Legacy Software Modernization Strategy: A Practical Guide for NZ Businesses",
           "url": "/blog/legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses/"
         }
-      ]
+      ],
+      "excerpt": "How to choose a custom software development company without getting burned. Includes the 5-step vetting process, 12 red-flag questions, NZ contract tips, and an agency comparison guide."
     },
     {
       "id": 7,
@@ -382,7 +385,8 @@
           "anchor_text": "Integrating AI tools into your custom software stack",
           "url": "/blog/best-ai-tools-for-business-2025/"
         }
-      ]
+      ],
+      "excerpt": "Stop guessing about build vs buy. Use this framework to decide whether custom software or off-the-shelf solutions will actually work for your startup or business."
     },
     {
       "id": 8,
@@ -505,7 +509,8 @@
           "anchor_text": "SAP Joule Custom Skills Development: Step-by-Step Tutorial for Beginners",
           "url": "/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/"
         }
-      ]
+      ],
+      "excerpt": "18 AI tools for small business — tested, ranked, and priced in NZD. From $0 to $300/month, find tools that save 10–30 hours/week without enterprise complexity. Includes NZ data sovereignty notes and real ROI data."
     },
     {
       "id": 9,
@@ -558,7 +563,8 @@
           "anchor_text": "AI Automation for Small Business Owners: 2025 Implementation Playbook",
           "url": "/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/"
         }
-      ]
+      ],
+      "excerpt": "How to use AI for your small business — step-by-step. Start saving 10+ hours/week from Monday: real NZ examples, tools under NZD $300/month, and a free 30-day action plan. No tech skills needed."
     },
     {
       "id": 10,
@@ -809,7 +815,8 @@
           "anchor_text": "Technical Due Diligence Checklist for Angel Investors: Evaluating Pre-Seed Startups",
           "url": "/blog/technical_due_diligence_checklist_for_angel_investors_evaluating_pre_seed_startups/"
         }
-      ]
+      ],
+      "excerpt": "Free technical due diligence checklist for startup investors. Evaluate any startup in 48 hours: architecture red flags, team assessment, AI stack, NZ compliance & scoring matrix. Download now."
     },
     {
       "id": 13,
@@ -847,7 +854,8 @@
           "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
           "url": "best-ai-tools-for-business-2025"
         }
-      ]
+      ],
+      "excerpt": "Everything New Zealand startups need to know about fractional CTO services - from cost savings to technical mentorship and AI-accelerated development."
     },
     {
       "id": 14,
@@ -909,7 +917,11 @@
       "published_date": "2025-08-05",
       "word_count": 1191,
       "status": "published",
-      "content_gaps_addressed": ["local compliance", "nz integrations", "industry-specific"],
+      "content_gaps_addressed": [
+        "local compliance",
+        "nz integrations",
+        "industry-specific"
+      ],
       "estimated_traffic_monthly": "50-100",
       "cluster": "business-operations",
       "cluster_role": "support",
@@ -982,7 +994,8 @@
           "anchor_text": "Acting and Iterating on Ideas",
           "url": "/blog/acting-and-iterating-on-ideas/"
         }
-      ]
+      ],
+      "excerpt": "De-risk your custom software project with an AI Feasibility Sprint. Get clarity on scope, timeline, and cost before investing in full development. 2-3 week validation process."
     },
     {
       "id": 17,
@@ -1183,7 +1196,8 @@
           "anchor_text": "What is Custom Software Development? Complete Guide 2025",
           "url": "/blog/what-is-custom-software-development-complete-guide/"
         }
-      ]
+      ],
+      "excerpt": "Digital marketing for NZ small businesses: which channels work on a Kiwi budget. Real results, NZD tool costs, local case studies & a free 30-day action plan. Updated March 2026."
     },
     {
       "id": 22,
@@ -1264,7 +1278,8 @@
           "anchor_text": "No Code Automation for Small Business: Guide & Tool Comparison",
           "url": "/blog/no-code-automation-for-small-business/"
         }
-      ]
+      ],
+      "excerpt": "Compare the top free accounting software for New Zealand businesses. We tested Wave, Hnry, Zoho Books & more for GST compliance, bank feeds, and NZ-specific features. No credit card needed."
     },
     {
       "id": 24,
@@ -2528,7 +2543,8 @@
           "anchor_text": "Part-Time CTO Hourly Rates in New Zealand: 2026 Market Guide",
           "url": "/blog/part-time-cto-hourly-rates-nz-2026-guide/"
         }
-      ]
+      ],
+      "excerpt": "Discover fractional CTO costs in 2025. Learn about hourly rates, monthly retainers, and what factors influence pricing. Includes NZ-specific rates and ROI breakdown."
     },
     {
       "id": 47,
@@ -2571,7 +2587,8 @@
           "anchor_text": "Fractional CTO pricing and cost considerations",
           "url": "/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide/"
         }
-      ]
+      ],
+      "excerpt": "Confused about interim CTO vs fractional CTO? Learn the key differences, when to hire each, and which option fits your startup's stage and needs."
     },
     {
       "id": 48,
@@ -2614,7 +2631,8 @@
           "anchor_text": "Software Development in Christchurch: Complete Guide for Local Businesses (2026)",
           "url": "/blog/software_development_in_christchurch_complete_guide_for_local_businesses_2026/"
         }
-      ]
+      ],
+      "excerpt": "Complete 2025 guide to software development costs in New Zealand. Hourly rates, project budgets, and pricing factors for Auckland, Wellington & Christchurch."
     },
     {
       "id": 49,
@@ -2677,7 +2695,8 @@
           "anchor_text": "Part-Time CTO Hourly Rates in New Zealand: 2026 Market Guide",
           "url": "/blog/part-time-cto-hourly-rates-nz-2026-guide/"
         }
-      ]
+      ],
+      "excerpt": "Learn exactly when to hire your first CTO. Signs you're ready, what to look for, and why timing matters for startup success."
     },
     {
       "id": 50,
@@ -2790,7 +2809,8 @@
           "anchor_text": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
           "url": "/blog/startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency/"
         }
-      ]
+      ],
+      "excerpt": "A practical, founder-tested guide to building your first MVP. Learn the step-by-step process to validate your idea quickly without wasting time or money."
     },
     {
       "id": 51,
@@ -2838,7 +2858,8 @@
           "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
           "url": "/blog/best-ai-tools-for-business-2025/"
         }
-      ]
+      ],
+      "excerpt": "A practical guide for small business owners to implement AI automation in 2025. Learn the phases, tools, and best practices to streamline operations."
     },
     {
       "id": 52,
@@ -2881,7 +2902,8 @@
           "anchor_text": "Software Development in Christchurch: Complete Guide for Local Businesses (2026)",
           "url": "/blog/software_development_in_christchurch_complete_guide_for_local_businesses_2026/"
         }
-      ]
+      ],
+      "excerpt": "A practical guide for Wellington businesses considering custom software in 2025. Learn costs, local advantages, and how to choose the right development partner."
     },
     {
       "id": 53,
@@ -2944,7 +2966,8 @@
           "anchor_text": "Part-Time CTO Hourly Rates in New Zealand: 2026 Market Guide",
           "url": "/blog/part-time-cto-hourly-rates-nz-2026-guide/"
         }
-      ]
+      ],
+      "excerpt": "Discover exactly what a fractional CTO does, from strategic planning to team leadership. Learn about key responsibilities and tangible deliverables you should expect."
     },
     {
       "id": 54,
@@ -3098,7 +3121,8 @@
           "anchor_text": "What is Custom Software Development? Complete Guide 2025",
           "url": "/blog/what-is-custom-software-development-complete-guide/"
         }
-      ]
+      ],
+      "excerpt": "Discover why healthcare startups need a fractional CTO with specialized expertise in compliance, security, and scalable health tech architecture."
     },
     {
       "id": 57,
@@ -3156,7 +3180,8 @@
           "anchor_text": "How Technical Risks Kill Startup Valuations (And How to Fix Them)",
           "url": "/blog/2025-06-22-technical-risks-kill-startup-valuations/"
         }
-      ]
+      ],
+      "excerpt": "Discover software development options in Christchurch NZ. Compare local agencies, remote teams, and fractional CTO services for your business needs."
     },
     {
       "id": 58,
@@ -3247,7 +3272,8 @@
           "anchor_text": "Product Management for Non-Technical Founders: A Practical Guide",
           "url": "/blog/product_management_for_non_technical_founders_a_practical_guide/"
         }
-      ]
+      ],
+      "excerpt": "Discover real MVP development costs for SaaS startups in 2026. Budget ranges from $15K-$150K+ with detailed breakdowns by approach, team type, and feature complexity."
     },
     {
       "id": 60,
@@ -3290,7 +3316,8 @@
           "anchor_text": "Product Management for Non-Technical Founders: A Practical Guide",
           "url": "/blog/product_management_for_non_technical_founders_a_practical_guide/"
         }
-      ]
+      ],
+      "excerpt": "Learn proven methods to validate your startup idea before writing code. Save time, money, and avoid building something nobody wants."
     },
     {
       "id": 61,
@@ -3338,7 +3365,8 @@
           "anchor_text": "New Zealand Startups: Your Complete Fractional CTO Guide",
           "url": "/blog/2025-06-22-nz-startups-fractional-cto-guide/"
         }
-      ]
+      ],
+      "excerpt": "Comprehensive 2025 guide to startup grants in New Zealand. Discover government funding, R&D grants, regional support, and expert application tips for Kiwi founders."
     },
     {
       "id": 62,
@@ -3391,7 +3419,8 @@
           "anchor_text": "No Code Automation for Small Business",
           "url": "/blog/no-code-automation-for-small-business/"
         }
-      ]
+      ],
+      "excerpt": "A practical framework for non-technical founders to choose the right tech stack for their startup—without getting lost in technical jargon."
     },
     {
       "id": 63,
@@ -3429,7 +3458,8 @@
           "anchor_text": "Product Management for Non-Technical Founders: A Practical Guide",
           "url": "/blog/product_management_for_non_technical_founders_a_practical_guide/"
         }
-      ]
+      ],
+      "excerpt": "A practical guide for non-technical founders on finding, evaluating, and hiring your first developer—without getting lost in jargon or making costly mistakes."
     },
     {
       "id": 64,
@@ -3467,7 +3497,8 @@
           "anchor_text": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
           "url": "/blog/startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency/"
         }
-      ]
+      ],
+      "excerpt": "Learn how to calculate and extend your startup runway with our NZ-focused calculator template. Includes local funding options and cost considerations."
     },
     {
       "id": 65,
@@ -3500,7 +3531,8 @@
           "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
           "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
         }
-      ]
+      ],
+      "excerpt": "Get a free, NZ-specific software development agreement template. Protect your IP, define deliverables, and avoid costly disputes with developers."
     },
     {
       "id": 66,
@@ -3558,7 +3590,8 @@
           "anchor_text": "SAP Joule Custom Skills Development: Step-by-Step Tutorial for Beginners",
           "url": "/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/"
         }
-      ]
+      ],
+      "excerpt": "A practical guide to legacy software modernization strategy for NZ businesses. Learn when to upgrade, approaches to take, and how to minimize risk."
     },
     {
       "id": 68,
@@ -3654,7 +3687,8 @@
           "anchor_text": "Product Management for Non-Technical Founders: A Practical Guide",
           "url": "/blog/product_management_for_non_technical_founders_a_practical_guide/"
         }
-      ]
+      ],
+      "excerpt": "Struggling to choose between a mobile app and web app for your startup? This guide breaks down the decision framework NZ founders need."
     },
     {
       "id": 70,
@@ -3717,7 +3751,8 @@
           "anchor_text": "Mobile App vs Web App: Which Should Your Startup Build First?",
           "url": "/blog/mobile_app_vs_web_app_which_should_your_startup_build_first/"
         }
-      ]
+      ],
+      "excerpt": "Learn how non-technical founders can effectively manage product development, prioritise features, and communicate with technical teams without writing code."
     },
     {
       "id": 71,
@@ -3750,7 +3785,8 @@
           "anchor_text": "The Non-Technical Founder's Complete Guide to Hiring Your First Developer",
           "url": "/blog/the_non_technical_founders_complete_guide_to_hiring_your_first_developer/"
         }
-      ]
+      ],
+      "excerpt": "A practical guide for NZ startup founders on finding, hiring, and retaining developers in New Zealand's competitive tech market."
     },
     {
       "id": 72,
@@ -3778,7 +3814,8 @@
           "anchor_text": "AI Automation for Small Business Owners: 2025 Implementation Playbook",
           "url": "/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/"
         }
-      ]
+      ],
+      "excerpt": "Discover how plumbers, electricians, and builders use AI automation to save 10+ hours weekly on admin, scheduling, and customer communication."
     },
     {
       "id": 73,
@@ -3854,7 +3891,8 @@
           "anchor_text": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
           "url": "/blog/startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency/"
         }
-      ]
+      ],
+      "excerpt": "Download our free startup cash runway calculator template. Plan your burn rate, forecast cash flow, and know exactly when you need to raise your next round."
     },
     {
       "id": 75,
@@ -3897,7 +3935,8 @@
           "anchor_text": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
           "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
         }
-      ]
+      ],
+      "excerpt": "Discover how SaaS startups can access senior technical leadership through a fractional CTO—scaling platforms strategically without the $200k+ full-time salary."
     },
     {
       "id": 76,
@@ -3935,7 +3974,8 @@
           "anchor_text": "SAP Joule Custom Skills Development: Step-by-Step Tutorial for Beginners",
           "url": "/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/"
         }
-      ]
+      ],
+      "excerpt": "A practical SAP Clean Core assessment checklist to evaluate your system readiness before S/4HANA migration. Includes technical, process, and governance criteria."
     },
     {
       "id": 77,
@@ -4011,7 +4051,8 @@
           "anchor_text": "SAP Joule Custom Skills Development: Step-by-Step Tutorial for Beginners",
           "url": "/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/"
         }
-      ]
+      ],
+      "excerpt": "Learn how to build a side-by-side extension on SAP BTP with a complete working example. Step-by-step guide with code samples."
     },
     {
       "id": 79,
@@ -4049,7 +4090,8 @@
           "anchor_text": "Technical Co-Founder vs Fractional CTO: Which is Right for Your Startup?",
           "url": "/blog/technical_co_founder_vs_fractional_cto_which_is_right_for_your_startup/"
         }
-      ]
+      ],
+      "excerpt": "A comprehensive technical due diligence checklist for angel investors evaluating pre-seed startups. Learn what to look for, red flags to avoid, and how to assess technical risk."
     },
     {
       "id": 81,
@@ -4087,7 +4129,8 @@
           "anchor_text": "What is Custom Software Development? Complete Guide 2025",
           "url": "/blog/what-is-custom-software-development-complete-guide/"
         }
-      ]
+      ],
+      "excerpt": "Learn how to build custom skills for SAP Joule with this beginner-friendly tutorial. Master AI capabilities, SAP BTP integration, and practical implementation."
     },
     {
       "id": 82,
@@ -4130,7 +4173,8 @@
           "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
           "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
         }
-      ]
+      ],
+      "excerpt": "A free NZD-focused startup runway calculator template. Track your burn rate, plan funding rounds, and avoid the cash crunch that kills 29% of Kiwi startups."
     }
   ]
 }

@@ -42,13 +42,146 @@
       "destination": "/blog/:slug.html"
     },
     {
-      "source": "/((?!api/|_next/|static/|public/|favicon.ico|robots.txt|sitemap.xml|sw.js|manifest.json|assets/|blog/).*)",
+      "source": "/now",
+      "destination": "/now.html"
+    },
+    {
+      "source": "/cv",
+      "destination": "/cv.html"
+    },
+    {
+      "source": "/services",
+      "destination": "/services.html"
+    },
+    {
+      "source": "/projects",
+      "destination": "/projects.html"
+    },
+    {
+      "source": "/fractional-cto",
+      "destination": "/fractional-cto.html"
+    },
+    {
+      "source": "/ai-implementation",
+      "destination": "/ai-implementation.html"
+    },
+    {
+      "source": "/automation",
+      "destination": "/automation.html"
+    },
+    {
+      "source": "/mvp-development",
+      "destination": "/mvp-development.html"
+    },
+    {
+      "source": "/seo-automation",
+      "destination": "/seo-automation.html"
+    },
+    {
+      "source": "/life-calendar",
+      "destination": "/life-calendar.html"
+    },
+    {
+      "source": "/life-balance-visualizer",
+      "destination": "/life-balance-visualizer.html"
+    },
+    {
+      "source": "/concentric-circles",
+      "destination": "/concentric-circles.html"
+    },
+    {
+      "source": "/sap-solution-architecture",
+      "destination": "/sap-solution-architecture.html"
+    },
+    {
+      "source": "/sap-custom-development",
+      "destination": "/sap-custom-development.html"
+    },
+    {
+      "source": "/sap-clean-core-extensions",
+      "destination": "/sap-clean-core-extensions.html"
+    },
+    {
+      "source": "/sap-implementation-partner",
+      "destination": "/sap-implementation-partner.html"
+    },
+    {
+      "source": "/sap-btp-consultant-new-zealand",
+      "destination": "/sap-btp-consultant-new-zealand.html"
+    },
+    {
+      "source": "/sap-consulting-firms",
+      "destination": "/sap-consulting-firms.html"
+    },
+    {
+      "source": "/sap-btp-consultant",
+      "destination": "/sap-btp-consultant.html"
+    },
+    {
+      "source": "/accenture-alternative-sap-consulting",
+      "destination": "/accenture-alternative-sap-consulting.html"
+    },
+    {
+      "source": "/sap-joule-custom-skills-development",
+      "destination": "/sap-joule-custom-skills-development.html"
+    },
+    {
+      "source": "/sap-custom-development-services",
+      "destination": "/sap-custom-development-services.html"
+    },
+    {
+      "source": "/services/seo-automation",
+      "destination": "/services/seo-automation.html"
+    },
+    {
+      "source": "/custom-software-development-company",
+      "destination": "/custom-software-development-company.html"
+    },
+    {
+      "source": "/custom-software-development-services",
+      "destination": "/custom-software-development-services.html"
+    },
+    {
+      "source": "/fractional-cto-services",
+      "destination": "/fractional-cto-services.html"
+    },
+    {
+      "source": "/mvp-development-services",
+      "destination": "/mvp-development-services.html"
+    },
+    {
+      "source": "/technical-co-founder-vs-fractional-cto",
+      "destination": "/technical-co-founder-vs-fractional-cto.html"
+    },
+    {
+      "source": "/toptal-alternative-fractional-cto-nz",
+      "destination": "/toptal-alternative-fractional-cto-nz.html"
+    },
+    {
+      "source": "/checkout-success",
+      "destination": "/checkout-success.html"
+    },
+    {
+      "source": "/checkout-cancel",
+      "destination": "/checkout-cancel.html"
+    },
+    {
+      "source": "/((?!api/|_next/|static/|public/|favicon.ico|robots.txt|sitemap.xml|sw.js|manifest.json|assets/|blog/|.*\\.html$).*)",
       "destination": "/index.html"
     }
   ],
   "headers": [
     {
       "source": "/blog/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/(.*\\.html)",
       "headers": [
         {
           "key": "Cache-Control",
