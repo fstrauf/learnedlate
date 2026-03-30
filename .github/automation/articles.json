@@ -1,104 +1,13 @@
 {
+  "nextArticleId": 84,
   "articles": [
     {
-      "cluster": "cto-leadership",
-      "cluster_role": "pillar",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/cto-responsibilities-startup.mdx",
-      "gsc": null,
       "id": 1,
-      "internal_links": [
-        {
-          "anchor_text": "How to Hire Developers for Your Startup: A Non-Technical Founder's Complete Guide",
-          "target_id": 55,
-          "url": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide/"
-        },
-        {
-          "anchor_text": "When to Hire Your First Developer: A Startup Founder's Timing & Readiness Guide",
-          "target_id": 58,
-          "url": "/blog/when_to_hire_your_first_developer_a_startup_founders_timing_readiness_guide/"
-        },
-        {
-          "anchor_text": "New Zealand Startups: Your Complete Fractional CTO Guide",
-          "target_id": 41,
-          "url": "/blog/2025-06-22-nz-startups-fractional-cto-guide/"
-        },
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "What Does a Fractional CTO Do Exactly? Roles, Responsibilities & Deliverables",
-          "target_id": 53,
-          "url": "/blog/what_does_a_fractional_cto_do_exactly_roles_responsibilities_deliverables/"
-        },
-        {
-          "anchor_text": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
-          "target_id": 56,
-          "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
-        },
-        {
-          "anchor_text": "Software Development in Christchurch: Complete Guide for Local Businesses (2026)",
-          "target_id": 57,
-          "url": "/blog/software_development_in_christchurch_complete_guide_for_local_businesses_2026/"
-        },
-        {
-          "anchor_text": "How to Choose the Right CTO for Your Startup",
-          "target_id": 2,
-          "url": "/blog/how-to-choose-cto-for-startup/"
-        },
-        {
-          "anchor_text": "Technical Due Diligence Checklist for Startup Investors",
-          "target_id": 12,
-          "url": "/blog/technical-due-diligence-checklist/"
-        },
-        {
-          "anchor_text": "Technical Due Diligence Checklist: CTO's Complete Guide",
-          "target_id": 32,
-          "url": "/blog/2025-06-22-technical-due-diligence-checklist-cto-guide/"
-        },
-        {
-          "anchor_text": "When to Hire Your First CTO: A Startup Founder's Timing Guide",
-          "target_id": 49,
-          "url": "/blog/when_to_hire_your_first_cto_a_startup_founders_timing_guide/"
-        },
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        },
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
-          "target_id": 8,
-          "url": "/blog/best-ai-tools-for-business-2025/"
-        },
-        {
-          "anchor_text": "How Much Does a Fractional CTO Cost in 2025? Complete Pricing Guide",
-          "target_id": 46,
-          "url": "/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide/"
-        },
-        {
-          "anchor_text": "The Non-Technical Founder's Complete Guide to Hiring Your First Developer",
-          "target_id": 63,
-          "url": "/blog/the_non_technical_founders_complete_guide_to_hiring_your_first_developer/"
-        },
-        {
-          "anchor_text": "Technical Due Diligence Checklist for Angel Investors: Evaluating Pre-Seed Startups",
-          "target_id": 79,
-          "url": "/blog/technical_due_diligence_checklist_for_angel_investors_evaluating_pre_seed_startups/"
-        }
-      ],
       "keyword_difficulty": "0",
-      "last_reviewed_at": "2026-03-19",
       "published_date": "2025-10-02",
-      "review_status": "reviewed",
       "status": "published",
       "target_keyword": "cto responsibilities startup",
       "target_volume": 0,
@@ -107,65 +16,10 @@
       "word_count": 1655
     },
     {
-      "cluster": "cto-leadership",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/how-to-choose-cto-for-startup.mdx",
-      "gsc": null,
       "id": 2,
-      "internal_links": [
-        {
-          "anchor_text": "How to Hire Developers for Your Startup: A Non-Technical Founder's Complete Guide",
-          "target_id": 55,
-          "url": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide/"
-        },
-        {
-          "anchor_text": "When to Hire Your First Developer: A Startup Founder's Timing & Readiness Guide",
-          "target_id": 58,
-          "url": "/blog/when_to_hire_your_first_developer_a_startup_founders_timing_readiness_guide/"
-        },
-        {
-          "anchor_text": "New Zealand Startups: Your Complete Fractional CTO Guide",
-          "target_id": 41,
-          "url": "/blog/2025-06-22-nz-startups-fractional-cto-guide/"
-        },
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "How Much Does a Fractional CTO Cost in 2025? Complete Pricing Guide",
-          "target_id": 46,
-          "url": "/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide/"
-        },
-        {
-          "anchor_text": "Interim CTO vs Fractional CTO: Which One Does Your Startup Need?",
-          "target_id": 47,
-          "url": "/blog/interim_cto_vs_fractional_cto_which_one_does_your_startup_need/"
-        },
-        {
-          "anchor_text": "What Does a Fractional CTO Do Exactly? Roles, Responsibilities & Deliverables",
-          "target_id": 53,
-          "url": "/blog/what_does_a_fractional_cto_do_exactly_roles_responsibilities_deliverables/"
-        },
-        {
-          "anchor_text": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
-          "target_id": 56,
-          "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
-        },
-        {
-          "anchor_text": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
-          "target_id": 1,
-          "url": "/blog/cto-responsibilities-startup/"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025",
-          "target_id": 8,
-          "url": "best-ai-tools-for-business-2025"
-        }
-      ],
       "keyword_difficulty": "0",
       "published_date": "2025-09-30",
       "status": "published",
@@ -176,44 +30,12 @@
       "word_count": 1477
     },
     {
-      "cluster": "ai-automation",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/no-code-automation-for-small-business.mdx",
-      "gsc": null,
       "id": 3,
-      "internal_links": [
-        {
-          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
-          "target_id": 8,
-          "url": "/blog/best-ai-tools-for-business-2025/"
-        },
-        {
-          "anchor_text": "How to Validate Your Startup Idea Without Writing a Single Line of Code",
-          "target_id": 60,
-          "url": "/blog/how_to_validate_your_startup_idea_without_writing_a_single_line_of_code/"
-        },
-        {
-          "anchor_text": "When to choose custom software development over no-code tools",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        },
-        {
-          "anchor_text": "Building complex applications with AI assistance",
-          "target_id": 44,
-          "url": "/blog/2025-01-15-building-complex-apps-with-ai/"
-        },
-        {
-          "anchor_text": "Using no-code tools for rapid MVP development",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        }
-      ],
       "keyword_difficulty": "0",
-      "last_reviewed_at": "2026-03-19",
       "published_date": "2025-09-28",
-      "review_status": "reviewed",
       "status": "published",
       "target_keyword": "no code automation for small businesses",
       "target_volume": 0,
@@ -222,35 +44,10 @@
       "word_count": 1337
     },
     {
-      "cluster": "ai-automation",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/ai-tools-for-business-automation.mdx",
-      "gsc": null,
       "id": 4,
-      "internal_links": [
-        {
-          "anchor_text": "AI Automation for Small Business Owners: 2025 Implementation Playbook",
-          "target_id": 51,
-          "url": "/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
-          "target_id": 8,
-          "url": "/blog/best-ai-tools-for-business-2025/"
-        },
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        },
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        }
-      ],
       "keyword_difficulty": "0",
       "published_date": "2025-09-26",
       "status": "published",
@@ -261,39 +58,12 @@
       "word_count": 1643
     },
     {
-      "cluster": "ai-automation",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/what-is-business-process-automation.mdx",
-      "gsc": null,
       "id": 5,
-      "internal_links": [
-        {
-          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
-          "target_id": 8,
-          "url": "/blog/best-ai-tools-for-business-2025/"
-        },
-        {
-          "anchor_text": "Real-world business process automation examples from NZ companies",
-          "target_id": 14,
-          "url": "/blog/business-process-automation-examples/"
-        },
-        {
-          "anchor_text": "AI-powered automation for complex business workflows",
-          "target_id": 44,
-          "url": "/blog/2025-01-15-building-complex-apps-with-ai/"
-        },
-        {
-          "anchor_text": "Custom software solutions for business automation",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        }
-      ],
       "keyword_difficulty": "0",
-      "last_reviewed_at": "2026-03-19",
       "published_date": "2025-09-24",
-      "review_status": "reviewed",
       "status": "published",
       "target_keyword": "what is business process automation",
       "target_volume": 0,
@@ -302,44 +72,12 @@
       "word_count": 1525
     },
     {
-      "cluster": "custom-software",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/how-to-choose-software-development-company.mdx",
-      "gsc": null,
       "id": 6,
-      "internal_links": [
-        {
-          "anchor_text": "Why Most Custom Software Projects Fail (And How AI Prevents It)",
-          "target_id": 43,
-          "url": "/blog/2025-01-28-why-custom-software-projects-fail/"
-        },
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
-          "target_id": 8,
-          "url": "/blog/best-ai-tools-for-business-2025/"
-        },
-        {
-          "anchor_text": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
-          "target_id": 1,
-          "url": "/blog/cto-responsibilities-startup/"
-        },
-        {
-          "anchor_text": "Legacy Software Modernization Strategy: A Practical Guide for NZ Businesses",
-          "target_id": 66,
-          "url": "/blog/legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses/"
-        }
-      ],
       "keyword_difficulty": "0",
-      "last_reviewed_at": "2026-03-19",
       "published_date": "2025-09-22",
-      "review_status": "reviewed",
       "status": "published",
       "target_keyword": "how to choose a custom software development company",
       "target_volume": 0,
@@ -348,40 +86,10 @@
       "word_count": 2132
     },
     {
-      "cluster": "custom-software",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/custom-software-vs-off-the-shelf.mdx",
-      "gsc": null,
       "id": 7,
-      "internal_links": [
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        },
-        {
-          "anchor_text": "Free Software Development Agreement Template",
-          "target_id": 65,
-          "url": "/blog/free_software_development_agreement_template_for_nz_startups_2025/"
-        },
-        {
-          "anchor_text": "Custom software for MVP development: when to build vs buy",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "AI-enhanced custom software development",
-          "target_id": 44,
-          "url": "/blog/2025-01-15-building-complex-apps-with-ai/"
-        },
-        {
-          "anchor_text": "Integrating AI tools into your custom software stack",
-          "target_id": 8,
-          "url": "/blog/best-ai-tools-for-business-2025/"
-        }
-      ],
       "keyword_difficulty": "0",
       "published_date": "2025-09-20",
       "status": "published",
@@ -392,130 +100,12 @@
       "word_count": 1811
     },
     {
-      "cluster": "ai-automation",
-      "cluster_role": "pillar",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/best-ai-tools-for-business-2025.md",
-      "gsc": {
-        "avg_position": 15.8,
-        "clicks": 0.0,
-        "ctr": 0.0,
-        "impressions": 127.0,
-        "last_synced": "2026-03-22T01:59:06Z",
-        "period_days": 90
-      },
       "id": 8,
-      "internal_links": [
-        {
-          "anchor_text": "AI strategy for small business: 90-day action plan",
-          "target_id": 42,
-          "url": "./2025-06-22-ai-strategy-small-business-90-day-action-plan.md"
-        },
-        {
-          "anchor_text": "How to Use AI for Small Business",
-          "target_id": 9,
-          "url": "./how-to-use-ai-for-small-business.md"
-        },
-        {
-          "anchor_text": "ChatGPT for Business: Practical Implementation Guide",
-          "target_id": 26,
-          "url": "./2025-06-22-chatgpt-for-business-practical-implementation-guide.md"
-        },
-        {
-          "anchor_text": "Simple Automation Workflows",
-          "target_id": 22,
-          "url": "./2025-08-01-simple-automation-workflows.md"
-        },
-        {
-          "anchor_text": "Building Complex Apps With AI",
-          "target_id": 44,
-          "url": "./2025-01-15-building-complex-apps-with-ai.md"
-        },
-        {
-          "anchor_text": "Using Obsidian and Cursor for Writing",
-          "target_id": 28,
-          "url": "./2025-05-12-using-obsidian-and-cursor-for-writing.md"
-        },
-        {
-          "anchor_text": "AI Automation for Small Business Owners: 2025 Implementation Playbook",
-          "target_id": 51,
-          "url": "/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/"
-        },
-        {
-          "anchor_text": "No Code Automation for Small Business: Guide & Tool Comparison",
-          "target_id": 3,
-          "url": "/blog/no-code-automation-for-small-business/"
-        },
-        {
-          "anchor_text": "AI Tools for Business Automation: The Complete Stack",
-          "target_id": 4,
-          "url": "/blog/ai-tools-for-business-automation/"
-        },
-        {
-          "anchor_text": "What is Business Process Automation? Complete Guide for SMBs",
-          "target_id": 5,
-          "url": "/blog/what-is-business-process-automation/"
-        },
-        {
-          "anchor_text": "15+ Business Process Automation Examples (Real Companies, Real Results)",
-          "target_id": 14,
-          "url": "/blog/business-process-automation-examples/"
-        },
-        {
-          "anchor_text": "Why Small Businesses Struggle with AI: The Real Reasons Behind Implementation Failure",
-          "target_id": 27,
-          "url": "/blog/2025-06-22-small-business-ai-confusion-why-no-one-using-effectively/"
-        },
-        {
-          "anchor_text": "How AI Transforms Small Business: 10 Practical Examples with Real ROI",
-          "target_id": 30,
-          "url": "/blog/2025-06-22-how-ai-transforms-small-business-practical-examples/"
-        },
-        {
-          "anchor_text": "Business Process Automation for Small Business: Complete Implementation Guide",
-          "target_id": 34,
-          "url": "/blog/2025-06-22-business-process-automation-small-business-guide/"
-        },
-        {
-          "anchor_text": "Bay of Plenty Businesses: Your AI Automation Opportunity",
-          "target_id": 35,
-          "url": "/blog/2025-06-22-bay-of-plenty-businesses-ai-automation/"
-        },
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
-          "target_id": 1,
-          "url": "/blog/cto-responsibilities-startup/"
-        },
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        },
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "Legacy Software Modernization Strategy: A Practical Guide for NZ Businesses",
-          "target_id": 66,
-          "url": "/blog/legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses/"
-        },
-        {
-          "anchor_text": "SAP Joule Custom Skills Development: Step-by-Step Tutorial for Beginners",
-          "target_id": 81,
-          "url": "/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/"
-        }
-      ],
       "keyword_difficulty": "82",
       "published_date": "2025-08-21",
-      "review_status": "in_review",
       "status": "published",
       "target_keyword": "best ai tools for business",
       "target_volume": 0,
@@ -524,61 +114,12 @@
       "word_count": 2868
     },
     {
-      "cluster": "ai-automation",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/how-to-use-ai-for-small-business.md",
-      "gsc": {
-        "avg_position": 8.6,
-        "clicks": 0.0,
-        "ctr": 0.0,
-        "impressions": 24.0,
-        "last_synced": "2026-03-22T01:59:06Z",
-        "period_days": 90
-      },
       "id": 9,
-      "internal_links": [
-        {
-          "anchor_text": "AI strategy for small business: 90-day action plan",
-          "target_id": 42,
-          "url": "./2025-06-22-ai-strategy-small-business-90-day-action-plan.md"
-        },
-        {
-          "anchor_text": "business process automation examples",
-          "target_id": 14,
-          "url": "./business-process-automation-examples.md"
-        },
-        {
-          "anchor_text": "How AI Transforms Small Business",
-          "target_id": 30,
-          "url": "./2025-06-22-how-ai-transforms-small-business-practical-examples.md"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025",
-          "target_id": 8,
-          "url": "./best-ai-tools-for-business-2025.md"
-        },
-        {
-          "anchor_text": "ChatGPT for Business: Practical Implementation Guide",
-          "target_id": 26,
-          "url": "./2025-06-22-chatgpt-for-business-practical-implementation-guide.md"
-        },
-        {
-          "anchor_text": "Building Complex Apps With AI",
-          "target_id": 44,
-          "url": "./2025-01-15-building-complex-apps-with-ai.md"
-        },
-        {
-          "anchor_text": "AI Automation for Small Business Owners: 2025 Implementation Playbook",
-          "target_id": 51,
-          "url": "/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/"
-        }
-      ],
       "keyword_difficulty": "31",
-      "last_reviewed_at": "2026-03-19",
       "published_date": "2025-08-17",
-      "review_status": "reviewed",
       "status": "published",
       "target_keyword": "how to use ai for small business",
       "target_volume": 0,
@@ -587,61 +128,12 @@
       "word_count": 2832
     },
     {
-      "cluster": "custom-software",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/custom-software-development-cost-breakdown.md",
-      "gsc": {
-        "avg_position": 9.3,
-        "clicks": 0.0,
-        "ctr": 0.0,
-        "impressions": 67.0,
-        "last_synced": "2026-03-22T01:59:06Z",
-        "period_days": 90
-      },
       "id": 10,
-      "internal_links": [
-        {
-          "anchor_text": "8-week MVP development guide",
-          "target_id": 18,
-          "url": "./8-week-mvp-development-guide.md"
-        },
-        {
-          "anchor_text": "MVP Development Cost Breakdown & Timeline Guide",
-          "target_id": 37,
-          "url": "./2025-06-22-mvp-development-cost-breakdown-timeline-guide.md"
-        },
-        {
-          "anchor_text": "complete guide to custom software development",
-          "target_id": 11,
-          "url": "./what-is-custom-software-development-complete-guide.md"
-        },
-        {
-          "anchor_text": "why custom software projects fail",
-          "target_id": 43,
-          "url": "./2025-01-28-why-custom-software-projects-fail.md"
-        },
-        {
-          "anchor_text": "fractional CTO service",
-          "target_id": 41,
-          "url": "./2025-06-22-nz-startups-fractional-cto-guide.md"
-        },
-        {
-          "anchor_text": "Custom Software Packages for NZ Businesses",
-          "target_id": 33,
-          "url": "./2025-04-05-custom-software-packages-nz.md"
-        },
-        {
-          "anchor_text": "Technical Due Diligence Checklist",
-          "target_id": 32,
-          "url": "./2025-06-22-technical-due-diligence-checklist-cto-guide.md"
-        }
-      ],
       "keyword_difficulty": "12",
-      "last_reviewed_at": "2026-03-19",
       "published_date": "2025-08-13",
-      "review_status": "reviewed",
       "status": "published",
       "target_keyword": "custom software development cost",
       "target_volume": 0,
@@ -650,161 +142,12 @@
       "word_count": 2945
     },
     {
-      "cluster": "custom-software",
-      "cluster_role": "pillar",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/what-is-custom-software-development-complete-guide.md",
-      "gsc": {
-        "avg_position": 22.8,
-        "clicks": 0.0,
-        "ctr": 0.0,
-        "impressions": 13.0,
-        "last_synced": "2026-03-22T01:59:06Z",
-        "period_days": 90
-      },
       "id": 11,
-      "internal_links": [
-        {
-          "anchor_text": "Software Development in Christchurch: Complete Guide for Local Businesses (2026)",
-          "target_id": 57,
-          "url": "/blog/software_development_in_christchurch_complete_guide_for_local_businesses_2026/"
-        },
-        {
-          "anchor_text": "complete custom software development cost guide",
-          "target_id": 10,
-          "url": "./custom-software-development-cost-breakdown.md"
-        },
-        {
-          "anchor_text": "why custom software projects fail",
-          "target_id": 43,
-          "url": "./2025-01-28-why-custom-software-projects-fail.md"
-        },
-        {
-          "anchor_text": "8-week MVP development guide",
-          "target_id": 18,
-          "url": "./8-week-mvp-development-guide.md"
-        },
-        {
-          "anchor_text": "fractional CTO",
-          "target_id": 45,
-          "url": "./2025-06-22-what-is-fractional-cto-complete-guide.md"
-        },
-        {
-          "anchor_text": "fractional CTO service",
-          "target_id": 41,
-          "url": "./2025-06-22-nz-startups-fractional-cto-guide.md"
-        },
-        {
-          "anchor_text": "custom software packages",
-          "target_id": 33,
-          "url": "./2025-04-05-custom-software-packages-nz.md"
-        },
-        {
-          "anchor_text": "MVP Development Cost Breakdown & Timeline Guide",
-          "target_id": 37,
-          "url": "./2025-06-22-mvp-development-cost-breakdown-timeline-guide.md"
-        },
-        {
-          "anchor_text": "Building Complex Apps With AI",
-          "target_id": 44,
-          "url": "./2025-01-15-building-complex-apps-with-ai.md"
-        },
-        {
-          "anchor_text": "Auckland Startups Custom Software Guide",
-          "target_id": 36,
-          "url": "./2025-03-18-auckland-startups-custom-software.md"
-        },
-        {
-          "anchor_text": "Small Business Custom Software Solutions",
-          "target_id": 25,
-          "url": "./2025-05-28-small-business-custom-software.md"
-        },
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "How to Choose a Software Development Company (Buyer's Guide)",
-          "target_id": 6,
-          "url": "/blog/how-to-choose-software-development-company/"
-        },
-        {
-          "anchor_text": "Custom Software vs Off-the-Shelf: Decision Framework for 2025",
-          "target_id": 7,
-          "url": "/blog/custom-software-vs-off-the-shelf/"
-        },
-        {
-          "anchor_text": "Custom Software Development in New Zealand: The AI Revolution",
-          "target_id": 39,
-          "url": "/blog/2025-02-25-ai-revolution-custom-software-nz/"
-        },
-        {
-          "anchor_text": "Software Development Costs in New Zealand: 2025 Pricing Guide",
-          "target_id": 48,
-          "url": "/blog/software_development_costs_in_new_zealand_2025_pricing_guide/"
-        },
-        {
-          "anchor_text": "Wellington Custom Software Development: 2025 Guide for Local Businesses",
-          "target_id": 52,
-          "url": "/blog/wellington_custom_software_development_2025_guide_for_local_businesses/"
-        },
-        {
-          "anchor_text": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
-          "target_id": 1,
-          "url": "/blog/cto-responsibilities-startup/"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
-          "target_id": 8,
-          "url": "/blog/best-ai-tools-for-business-2025/"
-        },
-        {
-          "anchor_text": "How Much Does a Fractional CTO Cost in 2025? Complete Pricing Guide",
-          "target_id": 46,
-          "url": "/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide/"
-        },
-        {
-          "anchor_text": "How to Hire Developers for Your Startup: A Non-Technical Founder's Complete Guide",
-          "target_id": 55,
-          "url": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide/"
-        },
-        {
-          "anchor_text": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
-          "target_id": 56,
-          "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
-        },
-        {
-          "anchor_text": "Software Development in Christchurch: Complete Guide for Local Businesses (2026)",
-          "target_id": 57,
-          "url": "/blog/software_development_in_christchurch_complete_guide_for_local_businesses_2026/"
-        },
-        {
-          "anchor_text": "How to Choose Your Tech Stack",
-          "target_id": 62,
-          "url": "/blog/how_to_choose_your_tech_stack_a_non_technical_founders_decision_framework/"
-        },
-        {
-          "anchor_text": "Free Software Development Agreement Template",
-          "target_id": 65,
-          "url": "/blog/free_software_development_agreement_template_for_nz_startups_2025/"
-        },
-        {
-          "anchor_text": "Legacy Software Modernization Strategy: A Practical Guide for NZ Businesses",
-          "target_id": 66,
-          "url": "/blog/legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses/"
-        },
-        {
-          "anchor_text": "Cloud Migration Checklist for Small Businesses: 2025 NZ Edition",
-          "target_id": 68,
-          "url": "/blog/cloud_migration_checklist_for_small_businesses_2025_nz_edition/"
-        }
-      ],
       "keyword_difficulty": "12",
-      "last_reviewed_at": "2026-03-19",
       "published_date": "2025-08-09",
-      "review_status": "reviewed",
       "status": "published",
       "target_keyword": "what is custom software development",
       "target_volume": 0,
@@ -813,51 +156,12 @@
       "word_count": 2381
     },
     {
-      "cluster": "cto-leadership",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/technical-due-diligence-checklist.md",
-      "gsc": {
-        "avg_position": 67.6,
-        "clicks": 0.0,
-        "ctr": 0.0,
-        "impressions": 2372.0,
-        "last_synced": "2026-03-22T01:59:06Z",
-        "period_days": 90
-      },
       "id": 12,
-      "internal_links": [
-        {
-          "anchor_text": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
-          "target_id": 1,
-          "url": "/blog/cto-responsibilities-startup/"
-        },
-        {
-          "anchor_text": "Complete technical due diligence checklist for CTOs",
-          "target_id": 32,
-          "url": "/blog/2025-06-22-technical-due-diligence-checklist-cto-guide/"
-        },
-        {
-          "anchor_text": "Fractional CTO services for investor due diligence",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "NZ startup technical due diligence expertise",
-          "target_id": 41,
-          "url": "/blog/2025-06-22-nz-startups-fractional-cto-guide/"
-        },
-        {
-          "anchor_text": "Technical Due Diligence Checklist for Angel Investors: Evaluating Pre-Seed Startups",
-          "target_id": 79,
-          "url": "/blog/technical_due_diligence_checklist_for_angel_investors_evaluating_pre_seed_startups/"
-        }
-      ],
       "keyword_difficulty": "",
-      "last_reviewed_at": "2026-03-19",
       "published_date": "2025-08-08",
-      "review_status": "reviewed",
       "status": "published",
       "target_keyword": "",
       "target_volume": 0,
@@ -866,35 +170,10 @@
       "word_count": 2591
     },
     {
-      "cluster": "fractional-cto",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/fractional-cto-guide-new-zealand.md",
-      "gsc": null,
       "id": 13,
-      "internal_links": [
-        {
-          "anchor_text": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
-          "target_id": 56,
-          "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
-        },
-        {
-          "anchor_text": "complete guide to fractional CTO services",
-          "target_id": 45,
-          "url": "./2025-06-22-what-is-fractional-cto-complete-guide.md"
-        },
-        {
-          "anchor_text": "New Zealand Startups: Your Complete Fractional CTO Guide",
-          "target_id": 41,
-          "url": "/blog/2025-06-22-nz-startups-fractional-cto-guide/"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
-          "target_id": 8,
-          "url": "best-ai-tools-for-business-2025"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-08-06",
       "status": "published",
@@ -905,56 +184,12 @@
       "word_count": 1845
     },
     {
-      "cluster": "ai-automation",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/business-process-automation-examples.md",
-      "gsc": {
-        "avg_position": 20.6,
-        "clicks": 0.0,
-        "ctr": 0.0,
-        "impressions": 57.0,
-        "last_synced": "2026-03-22T01:59:06Z",
-        "period_days": 90
-      },
       "id": 14,
-      "internal_links": [
-        {
-          "anchor_text": "AI strategy for small business: 90-day action plan",
-          "target_id": 42,
-          "url": "./2025-06-22-ai-strategy-small-business-90-day-action-plan.md"
-        },
-        {
-          "anchor_text": "complete guide to business process automation",
-          "target_id": 34,
-          "url": "./2025-06-22-business-process-automation-small-business-guide.md"
-        },
-        {
-          "anchor_text": "simple automation workflows",
-          "target_id": 22,
-          "url": "./2025-08-01-simple-automation-workflows.md"
-        },
-        {
-          "anchor_text": "how AI transforms small business",
-          "target_id": 30,
-          "url": "./2025-06-22-how-ai-transforms-small-business-practical-examples.md"
-        },
-        {
-          "anchor_text": "Automate Marketing, Automate Anything",
-          "target_id": 17,
-          "url": "./2025-08-01-automate-marketing-automate-anything.md"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
-          "target_id": 8,
-          "url": "/blog/best-ai-tools-for-business-2025/"
-        }
-      ],
       "keyword_difficulty": "7",
-      "last_reviewed_at": "2026-03-19",
       "published_date": "2025-08-05",
-      "review_status": "reviewed",
       "status": "published",
       "target_keyword": "business process automation examples",
       "target_volume": 0,
@@ -963,35 +198,10 @@
       "word_count": 2697
     },
     {
-      "cluster": "business-operations",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/crm_software_nz_blog_post.md",
-      "gsc": null,
       "id": 15,
-      "internal_links": [
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
-          "target_id": 8,
-          "url": "/blog/best-ai-tools-for-business-2025/"
-        },
-        {
-          "anchor_text": "Custom Software vs Off-the-Shelf: Decision Framework",
-          "target_id": 7,
-          "url": "/blog/custom-software-vs-off-the-shelf/"
-        },
-        {
-          "anchor_text": "Fractional CTO Services for New Zealand Startups",
-          "target_id": 13,
-          "url": "/blog/fractional-cto-guide-new-zealand/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-08-05",
       "status": "published",
@@ -1002,40 +212,10 @@
       "word_count": 1191
     },
     {
-      "cluster": "custom-software",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-01-08-ai-feasibility-sprint.md",
-      "gsc": null,
       "id": 16,
-      "internal_links": [
-        {
-          "anchor_text": "AI Strategy for Small Business: 90-Day Action Plan",
-          "target_id": 42,
-          "url": "./2025-06-22-ai-strategy-small-business-90-day-action-plan.md"
-        },
-        {
-          "anchor_text": "Building Complex Apps With AI",
-          "target_id": 44,
-          "url": "./2025-01-15-building-complex-apps-with-ai.md"
-        },
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide",
-          "target_id": 45,
-          "url": "./2025-06-22-what-is-fractional-cto-complete-guide.md"
-        },
-        {
-          "anchor_text": "Why Custom Software Projects Fail (And How to Avoid It)",
-          "target_id": 43,
-          "url": "./2025-01-28-why-custom-software-projects-fail.md"
-        },
-        {
-          "anchor_text": "Acting and Iterating on Ideas",
-          "target_id": 24,
-          "url": "./2025-07-08-acting-and-iterating-on-ideas.md"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-08-01",
       "status": "published",
@@ -1046,35 +226,10 @@
       "word_count": 1666
     },
     {
-      "cluster": "ai-automation",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-08-01-automate-marketing-automate-anything.md",
-      "gsc": null,
       "id": 17,
-      "internal_links": [
-        {
-          "anchor_text": "AI Strategy for Small Business: 90-Day Action Plan",
-          "target_id": 42,
-          "url": "./2025-06-22-ai-strategy-small-business-90-day-action-plan.md"
-        },
-        {
-          "anchor_text": "Business Process Automation Examples",
-          "target_id": 14,
-          "url": "./business-process-automation-examples.md"
-        },
-        {
-          "anchor_text": "Simple Automation Workflows",
-          "target_id": 22,
-          "url": "./2025-08-01-simple-automation-workflows.md"
-        },
-        {
-          "anchor_text": "ChatGPT for Business: Practical Implementation Guide",
-          "target_id": 26,
-          "url": "./2025-06-22-chatgpt-for-business-practical-implementation-guide.md"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-07-30",
       "status": "published",
@@ -1085,50 +240,10 @@
       "word_count": 250
     },
     {
-      "cluster": "mvp-development",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/8-week-mvp-development-guide.md",
-      "gsc": null,
       "id": 18,
-      "internal_links": [
-        {
-          "anchor_text": "complete guide to custom software development",
-          "target_id": 11,
-          "url": "./what-is-custom-software-development-complete-guide.md"
-        },
-        {
-          "anchor_text": "MVP development cost breakdown",
-          "target_id": 37,
-          "url": "./2025-06-22-mvp-development-cost-breakdown-timeline-guide.md"
-        },
-        {
-          "anchor_text": "fractional CTO services",
-          "target_id": 45,
-          "url": "./2025-06-22-what-is-fractional-cto-complete-guide.md"
-        },
-        {
-          "anchor_text": "Why Custom Software Projects Fail (And How to Avoid It)",
-          "target_id": 43,
-          "url": "./2025-01-28-why-custom-software-projects-fail.md"
-        },
-        {
-          "anchor_text": "Building Complex Apps with AI",
-          "target_id": 44,
-          "url": "./2025-01-15-building-complex-apps-with-ai.md"
-        },
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "MVP Development Cost for SaaS Startups: 2026 Budget Guide (With Real Examples)",
-          "target_id": 59,
-          "url": "/blog/mvp_development_cost_for_saas_startups_2026_budget_guide_with_real_examples/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-07-28",
       "status": "published",
@@ -1139,35 +254,10 @@
       "word_count": 2540
     },
     {
-      "cluster": "mindset-productivity",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-08-01-the-good-enough-mindset.md",
-      "gsc": null,
       "id": 19,
-      "internal_links": [
-        {
-          "anchor_text": "Make Space for Your Best Work",
-          "target_id": 38,
-          "url": "./2025-03-05-make-space-for-your-best-work.md"
-        },
-        {
-          "anchor_text": "Acting and Iterating on Ideas",
-          "target_id": 24,
-          "url": "./2025-07-08-acting-and-iterating-on-ideas.md"
-        },
-        {
-          "anchor_text": "AI Just Made You Twice as Fast",
-          "target_id": 31,
-          "url": "./2025-04-20-ai-just-made-you-twice-as-fast.md"
-        },
-        {
-          "anchor_text": "8-Week MVP Development Guide",
-          "target_id": 18,
-          "url": "./8-week-mvp-development-guide.md"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-07-25",
       "status": "published",
@@ -1178,35 +268,10 @@
       "word_count": 211
     },
     {
-      "cluster": "cto-leadership",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-07-22-technical-risks-kill-startup-valuations.md",
-      "gsc": null,
       "id": 20,
-      "internal_links": [
-        {
-          "anchor_text": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
-          "target_id": 1,
-          "url": "/blog/cto-responsibilities-startup/"
-        },
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founders Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "AI Strategy for Small Business: Cut Through the Hype",
-          "target_id": 42,
-          "url": "2025-06-22-ai-strategy-small-business-90-day-action-plan"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-07-22",
       "status": "published",
@@ -1217,41 +282,12 @@
       "word_count": 1717
     },
     {
-      "cluster": "business-operations",
-      "cluster_role": "pillar",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/digital_marketing_nz_guide.md",
-      "gsc": {
-        "avg_position": 9.5,
-        "clicks": 0.0,
-        "ctr": 0.0,
-        "impressions": 4.0,
-        "last_synced": "2026-03-22T01:59:06Z",
-        "period_days": 90
-      },
       "id": 21,
-      "internal_links": [
-        {
-          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
-          "target_id": 8,
-          "url": "/blog/best-ai-tools-for-business-2025/"
-        },
-        {
-          "anchor_text": "AI Automation for Small Business Owners: 2025 Implementation Playbook",
-          "target_id": 51,
-          "url": "/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/"
-        },
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        }
-      ],
       "keyword_difficulty": "",
-      "last_reviewed_at": "2026-03-19",
       "published_date": "2025-07-15",
-      "review_status": "reviewed",
       "status": "published",
       "target_keyword": "",
       "target_volume": 0,
@@ -1260,40 +296,10 @@
       "word_count": 776
     },
     {
-      "cluster": "ai-automation",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-08-01-simple-automation-workflows.md",
-      "gsc": null,
       "id": 22,
-      "internal_links": [
-        {
-          "anchor_text": "AI Strategy for Small Business: 90-Day Action Plan",
-          "target_id": 42,
-          "url": "./2025-06-22-ai-strategy-small-business-90-day-action-plan.md"
-        },
-        {
-          "anchor_text": "Business Process Automation Examples",
-          "target_id": 14,
-          "url": "./business-process-automation-examples.md"
-        },
-        {
-          "anchor_text": "Business Process Automation: Small Business Guide",
-          "target_id": 34,
-          "url": "./2025-06-22-business-process-automation-small-business-guide.md"
-        },
-        {
-          "anchor_text": "Automate Marketing, Automate Anything",
-          "target_id": 17,
-          "url": "./2025-08-01-automate-marketing-automate-anything.md"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025",
-          "target_id": 8,
-          "url": "./best-ai-tools-for-business-2025.md"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-07-12",
       "status": "published",
@@ -1304,45 +310,12 @@
       "word_count": 280
     },
     {
-      "cluster": "business-operations",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/free_accounting_software_nz_guide.md",
-      "gsc": {
-        "avg_position": 29.8,
-        "clicks": 0.0,
-        "ctr": 0.0,
-        "impressions": 336.0,
-        "last_synced": "2026-03-22T01:59:06Z",
-        "period_days": 90
-      },
       "id": 23,
-      "internal_links": [
-        {
-          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
-          "target_id": 8,
-          "url": "/blog/best-ai-tools-for-business-2025/"
-        },
-        {
-          "anchor_text": "Custom Software Development in New Zealand: The AI Revolution",
-          "target_id": 39,
-          "url": "/blog/2025-02-25-ai-revolution-custom-software-nz/"
-        },
-        {
-          "anchor_text": "Small Business Custom Software: No Longer Just for Enterprise",
-          "target_id": 25,
-          "url": "/blog/2025-05-28-small-business-custom-software/"
-        },
-        {
-          "anchor_text": "No Code Automation for Small Business: Guide & Tool Comparison",
-          "target_id": 3,
-          "url": "/blog/no-code-automation-for-small-business/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-07-10",
-      "review_status": "in_review",
       "status": "published",
       "target_keyword": "",
       "target_volume": 0,
@@ -1351,30 +324,10 @@
       "word_count": 1138
     },
     {
-      "cluster": "mindset-productivity",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-07-08-acting-and-iterating-on-ideas.md",
-      "gsc": null,
       "id": 24,
-      "internal_links": [
-        {
-          "anchor_text": "The Good Enough Mindset",
-          "target_id": 19,
-          "url": "./2025-08-01-the-good-enough-mindset.md"
-        },
-        {
-          "anchor_text": "Make Space for Your Best Work",
-          "target_id": 38,
-          "url": "./2025-03-05-make-space-for-your-best-work.md"
-        },
-        {
-          "anchor_text": "AI Feasibility Sprint",
-          "target_id": 16,
-          "url": "./2025-01-08-ai-feasibility-sprint.md"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-07-08",
       "status": "published",
@@ -1385,35 +338,10 @@
       "word_count": 209
     },
     {
-      "cluster": "custom-software",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-05-28-small-business-custom-software.md",
-      "gsc": null,
       "id": 25,
-      "internal_links": [
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide",
-          "target_id": 11,
-          "url": "./what-is-custom-software-development-complete-guide.md"
-        },
-        {
-          "anchor_text": "Custom Software Development Cost: Complete Breakdown",
-          "target_id": 10,
-          "url": "./custom-software-development-cost-breakdown.md"
-        },
-        {
-          "anchor_text": "Custom Software Packages for NZ Businesses",
-          "target_id": 33,
-          "url": "./2025-04-05-custom-software-packages-nz.md"
-        },
-        {
-          "anchor_text": "Business Process Automation: Small Business Guide",
-          "target_id": 34,
-          "url": "./2025-06-22-business-process-automation-small-business-guide.md"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-05-28",
       "status": "published",
@@ -1424,50 +352,10 @@
       "word_count": 1205
     },
     {
-      "cluster": "ai-automation",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-06-22-chatgpt-for-business-practical-implementation-guide.md",
-      "gsc": null,
       "id": 26,
-      "internal_links": [
-        {
-          "anchor_text": "AI confusion and implementation challenges",
-          "target_id": 27,
-          "url": "./2025-06-22-small-business-ai-confusion-why-no-one-using-effectively.md"
-        },
-        {
-          "anchor_text": "AI Strategy for Small Business",
-          "target_id": 42,
-          "url": "./2025-06-22-ai-strategy-small-business-90-day-action-plan.md"
-        },
-        {
-          "anchor_text": "How to Use AI for Small Business",
-          "target_id": 9,
-          "url": "./how-to-use-ai-for-small-business.md"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025",
-          "target_id": 8,
-          "url": "./best-ai-tools-for-business-2025.md"
-        },
-        {
-          "anchor_text": "How AI Transforms Small Business: Practical Examples",
-          "target_id": 30,
-          "url": "./2025-06-22-how-ai-transforms-small-business-practical-examples.md"
-        },
-        {
-          "anchor_text": "Speaking > Writing",
-          "target_id": 40,
-          "url": "./2025-02-10-speaking-vs-writing.md"
-        },
-        {
-          "anchor_text": "Automate Marketing, Automate Anything",
-          "target_id": 17,
-          "url": "./2025-08-01-automate-marketing-automate-anything.md"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-05-28",
       "status": "published",
@@ -1478,40 +366,10 @@
       "word_count": 2136
     },
     {
-      "cluster": "ai-automation",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-06-22-small-business-ai-confusion-why-no-one-using-effectively.md",
-      "gsc": null,
       "id": 27,
-      "internal_links": [
-        {
-          "anchor_text": "AI Strategy for Small Business: 90-Day Action Plan",
-          "target_id": 42,
-          "url": "./2025-06-22-ai-strategy-small-business-90-day-action-plan.md"
-        },
-        {
-          "anchor_text": "How to Use AI for Small Business: Step-by-Step Guide",
-          "target_id": 9,
-          "url": "./how-to-use-ai-for-small-business.md"
-        },
-        {
-          "anchor_text": "ChatGPT for Business: Practical Implementation Guide",
-          "target_id": 26,
-          "url": "./2025-06-22-chatgpt-for-business-practical-implementation-guide.md"
-        },
-        {
-          "anchor_text": "How AI Transforms Small Business: Practical Examples",
-          "target_id": 30,
-          "url": "./2025-06-22-how-ai-transforms-small-business-practical-examples.md"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
-          "target_id": 8,
-          "url": "/blog/best-ai-tools-for-business-2025/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-05-14",
       "status": "published",
@@ -1522,30 +380,10 @@
       "word_count": 2102
     },
     {
-      "cluster": "mindset-productivity",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-05-12-using-obsidian-and-cursor-for-writing.md",
-      "gsc": null,
       "id": 28,
-      "internal_links": [
-        {
-          "anchor_text": "Speaking vs Writing",
-          "target_id": 40,
-          "url": "./2025-02-10-speaking-vs-writing.md"
-        },
-        {
-          "anchor_text": "Make Space for Your Best Work",
-          "target_id": 38,
-          "url": "./2025-03-05-make-space-for-your-best-work.md"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025",
-          "target_id": 8,
-          "url": "./best-ai-tools-for-business-2025.md"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-05-12",
       "status": "published",
@@ -1556,50 +394,10 @@
       "word_count": 207
     },
     {
-      "cluster": "cto-leadership",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-06-22-technical-risks-kill-startup-valuations.md",
-      "gsc": null,
       "id": 29,
-      "internal_links": [
-        {
-          "anchor_text": "How to Hire Developers for Your Startup: A Non-Technical Founder's Complete Guide",
-          "target_id": 55,
-          "url": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide/"
-        },
-        {
-          "anchor_text": "When to Hire Your First Developer: A Startup Founder's Timing & Readiness Guide",
-          "target_id": 58,
-          "url": "/blog/when_to_hire_your_first_developer_a_startup_founders_timing_readiness_guide/"
-        },
-        {
-          "anchor_text": "why most custom software projects fail",
-          "target_id": 43,
-          "url": "./2025-01-28-why-custom-software-projects-fail.md"
-        },
-        {
-          "anchor_text": "technical due diligence checklist",
-          "target_id": 32,
-          "url": "./2025-06-22-technical-due-diligence-checklist-cto-guide.md"
-        },
-        {
-          "anchor_text": "AI Feasibility Sprint",
-          "target_id": 16,
-          "url": "./2025-01-08-ai-feasibility-sprint.md"
-        },
-        {
-          "anchor_text": "fractional CTO services",
-          "target_id": 45,
-          "url": "./2025-06-22-what-is-fractional-cto-complete-guide.md"
-        },
-        {
-          "anchor_text": "NZ startups guide",
-          "target_id": 41,
-          "url": "./2025-06-22-nz-startups-fractional-cto-guide.md"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-05-06",
       "status": "published",
@@ -1610,50 +408,10 @@
       "word_count": 1295
     },
     {
-      "cluster": "ai-automation",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-06-22-how-ai-transforms-small-business-practical-examples.md",
-      "gsc": null,
       "id": 30,
-      "internal_links": [
-        {
-          "anchor_text": "AI Strategy for Small Business: 90-Day Action Plan",
-          "target_id": 42,
-          "url": "./2025-06-22-ai-strategy-small-business-90-day-action-plan.md"
-        },
-        {
-          "anchor_text": "How to Use AI for Small Business: Step-by-Step Guide",
-          "target_id": 9,
-          "url": "./how-to-use-ai-for-small-business.md"
-        },
-        {
-          "anchor_text": "ChatGPT for Business: Practical Implementation Guide",
-          "target_id": 26,
-          "url": "./2025-06-22-chatgpt-for-business-practical-implementation-guide.md"
-        },
-        {
-          "anchor_text": "Business Process Automation Examples",
-          "target_id": 14,
-          "url": "./business-process-automation-examples.md"
-        },
-        {
-          "anchor_text": "Bay of Plenty Businesses: AI & Automation Guide",
-          "target_id": 35,
-          "url": "./2025-06-22-bay-of-plenty-businesses-ai-automation.md"
-        },
-        {
-          "anchor_text": "AI Automation for Small Business Owners: 2025 Implementation Playbook",
-          "target_id": 51,
-          "url": "/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
-          "target_id": 8,
-          "url": "/blog/best-ai-tools-for-business-2025/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-04-29",
       "status": "published",
@@ -1664,40 +422,10 @@
       "word_count": 1508
     },
     {
-      "cluster": "mindset-productivity",
-      "cluster_role": "pillar",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-04-20-ai-just-made-you-twice-as-fast.md",
-      "gsc": null,
       "id": 31,
-      "internal_links": [
-        {
-          "anchor_text": "AI Strategy for Small Business: 90-Day Action Plan",
-          "target_id": 42,
-          "url": "./2025-06-22-ai-strategy-small-business-90-day-action-plan.md"
-        },
-        {
-          "anchor_text": "How to Use AI for Small Business: Step-by-Step Guide",
-          "target_id": 9,
-          "url": "./how-to-use-ai-for-small-business.md"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025",
-          "target_id": 8,
-          "url": "./best-ai-tools-for-business-2025.md"
-        },
-        {
-          "anchor_text": "Speaking > Writing",
-          "target_id": 40,
-          "url": "./2025-02-10-speaking-vs-writing.md"
-        },
-        {
-          "anchor_text": "The Good Enough Mindset",
-          "target_id": 19,
-          "url": "./2025-08-01-the-good-enough-mindset.md"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-04-20",
       "status": "published",
@@ -1708,49 +436,12 @@
       "word_count": 223
     },
     {
-      "cluster": "cto-leadership",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-06-22-technical-due-diligence-checklist-cto-guide.md",
-      "gsc": null,
       "id": 32,
-      "internal_links": [
-        {
-          "anchor_text": "Fractional CTO guide",
-          "target_id": 45,
-          "url": "./2025-06-22-what-is-fractional-cto-complete-guide.md"
-        },
-        {
-          "anchor_text": "why custom software projects fail",
-          "target_id": 43,
-          "url": "./2025-01-28-why-custom-software-projects-fail.md"
-        },
-        {
-          "anchor_text": "Technical Risks That Kill Startup Valuations",
-          "target_id": 29,
-          "url": "./2025-06-22-technical-risks-kill-startup-valuations.md"
-        },
-        {
-          "anchor_text": "NZ Startups Fractional CTO Guide",
-          "target_id": 41,
-          "url": "./2025-06-22-nz-startups-fractional-cto-guide.md"
-        },
-        {
-          "anchor_text": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
-          "target_id": 1,
-          "url": "/blog/cto-responsibilities-startup/"
-        },
-        {
-          "anchor_text": "Technical Due Diligence Checklist for Angel Investors: Evaluating Pre-Seed Startups",
-          "target_id": 79,
-          "url": "/blog/technical_due_diligence_checklist_for_angel_investors_evaluating_pre_seed_startups/"
-        }
-      ],
       "keyword_difficulty": "",
-      "last_reviewed_at": "2026-03-19",
       "published_date": "2025-04-18",
-      "review_status": "reviewed",
       "status": "published",
       "target_keyword": "",
       "target_volume": 0,
@@ -1759,40 +450,10 @@
       "word_count": 2172
     },
     {
-      "cluster": "custom-software",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-04-05-custom-software-packages-nz.md",
-      "gsc": null,
       "id": 33,
-      "internal_links": [
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide",
-          "target_id": 11,
-          "url": "./what-is-custom-software-development-complete-guide.md"
-        },
-        {
-          "anchor_text": "Custom Software Development Cost: Complete Breakdown",
-          "target_id": 10,
-          "url": "./custom-software-development-cost-breakdown.md"
-        },
-        {
-          "anchor_text": "Small Business Custom Software Solutions",
-          "target_id": 25,
-          "url": "./2025-05-28-small-business-custom-software.md"
-        },
-        {
-          "anchor_text": "Auckland Startups Custom Software Guide",
-          "target_id": 36,
-          "url": "./2025-03-18-auckland-startups-custom-software.md"
-        },
-        {
-          "anchor_text": "New Zealand Startups: Your Complete Fractional CTO Guide",
-          "target_id": 41,
-          "url": "/blog/2025-06-22-nz-startups-fractional-cto-guide/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-04-05",
       "status": "published",
@@ -1803,50 +464,10 @@
       "word_count": 1811
     },
     {
-      "cluster": "ai-automation",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-06-22-business-process-automation-small-business-guide.md",
-      "gsc": null,
       "id": 34,
-      "internal_links": [
-        {
-          "anchor_text": "AI Strategy for Small Business: 90-Day Action Plan",
-          "target_id": 42,
-          "url": "./2025-06-22-ai-strategy-small-business-90-day-action-plan.md"
-        },
-        {
-          "anchor_text": "Business Process Automation Examples: Real Companies, Real Results",
-          "target_id": 14,
-          "url": "./business-process-automation-examples.md"
-        },
-        {
-          "anchor_text": "Simple Automation Workflows",
-          "target_id": 22,
-          "url": "./2025-08-01-simple-automation-workflows.md"
-        },
-        {
-          "anchor_text": "How to Use AI for Small Business",
-          "target_id": 9,
-          "url": "./how-to-use-ai-for-small-business.md"
-        },
-        {
-          "anchor_text": "Small Business Custom Software Solutions",
-          "target_id": 25,
-          "url": "./2025-05-28-small-business-custom-software.md"
-        },
-        {
-          "anchor_text": "AI Automation for Small Business Owners: 2025 Implementation Playbook",
-          "target_id": 51,
-          "url": "/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
-          "target_id": 8,
-          "url": "/blog/best-ai-tools-for-business-2025/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-04-03",
       "status": "published",
@@ -1857,40 +478,10 @@
       "word_count": 2572
     },
     {
-      "cluster": "ai-automation",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-06-22-bay-of-plenty-businesses-ai-automation.md",
-      "gsc": null,
       "id": 35,
-      "internal_links": [
-        {
-          "anchor_text": "AI Strategy for Small Business: 90-Day Action Plan",
-          "target_id": 42,
-          "url": "./2025-06-22-ai-strategy-small-business-90-day-action-plan.md"
-        },
-        {
-          "anchor_text": "How AI Transforms Small Business: Practical Examples",
-          "target_id": 30,
-          "url": "./2025-06-22-how-ai-transforms-small-business-practical-examples.md"
-        },
-        {
-          "anchor_text": "Business Process Automation Examples",
-          "target_id": 14,
-          "url": "./business-process-automation-examples.md"
-        },
-        {
-          "anchor_text": "Auckland Startups Custom Software Guide",
-          "target_id": 36,
-          "url": "./2025-03-18-auckland-startups-custom-software.md"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
-          "target_id": 8,
-          "url": "/blog/best-ai-tools-for-business-2025/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-03-25",
       "status": "published",
@@ -1901,45 +492,10 @@
       "word_count": 1337
     },
     {
-      "cluster": "custom-software",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-03-18-auckland-startups-custom-software.md",
-      "gsc": null,
       "id": 36,
-      "internal_links": [
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide",
-          "target_id": 11,
-          "url": "./what-is-custom-software-development-complete-guide.md"
-        },
-        {
-          "anchor_text": "Small Business Custom Software Solutions",
-          "target_id": 25,
-          "url": "./2025-05-28-small-business-custom-software.md"
-        },
-        {
-          "anchor_text": "Custom Software Packages for NZ Businesses",
-          "target_id": 33,
-          "url": "./2025-04-05-custom-software-packages-nz.md"
-        },
-        {
-          "anchor_text": "NZ Startups Fractional CTO Guide",
-          "target_id": 41,
-          "url": "./2025-06-22-nz-startups-fractional-cto-guide.md"
-        },
-        {
-          "anchor_text": "Wellington Custom Software Development Guide",
-          "target_id": 52,
-          "url": "/blog/wellington_custom_software_development_2025_guide_for_local_businesses"
-        },
-        {
-          "anchor_text": "Software Development in Christchurch: Complete Guide for Local Businesses (2026)",
-          "target_id": 57,
-          "url": "/blog/software_development_in_christchurch_complete_guide_for_local_businesses_2026/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-03-18",
       "status": "published",
@@ -1950,55 +506,10 @@
       "word_count": 1531
     },
     {
-      "cluster": "mvp-development",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-06-22-mvp-development-cost-breakdown-timeline-guide.md",
-      "gsc": null,
       "id": 37,
-      "internal_links": [
-        {
-          "anchor_text": "complete custom software development cost breakdown",
-          "target_id": 10,
-          "url": "./custom-software-development-cost-breakdown.md"
-        },
-        {
-          "anchor_text": "8-week MVP development guide",
-          "target_id": 18,
-          "url": "./8-week-mvp-development-guide.md"
-        },
-        {
-          "anchor_text": "why custom software projects fail",
-          "target_id": 43,
-          "url": "./2025-01-28-why-custom-software-projects-fail.md"
-        },
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide",
-          "target_id": 11,
-          "url": "./what-is-custom-software-development-complete-guide.md"
-        },
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide",
-          "target_id": 45,
-          "url": "./2025-06-22-what-is-fractional-cto-complete-guide.md"
-        },
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "Building Complex Apps With AI",
-          "target_id": 44,
-          "url": "2025-01-15-building-complex-apps-with-ai"
-        },
-        {
-          "anchor_text": "MVP Development Cost for SaaS Startups: 2026 Budget Guide (With Real Examples)",
-          "target_id": 59,
-          "url": "/blog/mvp_development_cost_for_saas_startups_2026_budget_guide_with_real_examples/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-03-12",
       "status": "published",
@@ -2009,30 +520,10 @@
       "word_count": 986
     },
     {
-      "cluster": "mindset-productivity",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-03-05-make-space-for-your-best-work.md",
-      "gsc": null,
       "id": 38,
-      "internal_links": [
-        {
-          "anchor_text": "The Good Enough Mindset",
-          "target_id": 19,
-          "url": "./2025-08-01-the-good-enough-mindset.md"
-        },
-        {
-          "anchor_text": "Acting and Iterating on Ideas",
-          "target_id": 24,
-          "url": "./2025-07-08-acting-and-iterating-on-ideas.md"
-        },
-        {
-          "anchor_text": "Using Obsidian and Cursor for Writing",
-          "target_id": 28,
-          "url": "./2025-05-12-using-obsidian-and-cursor-for-writing.md"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-03-05",
       "status": "published",
@@ -2043,40 +534,10 @@
       "word_count": 212
     },
     {
-      "cluster": "custom-software",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-02-25-ai-revolution-custom-software-nz.md",
-      "gsc": null,
       "id": 39,
-      "internal_links": [
-        {
-          "anchor_text": "AI Strategy for Small Business: 90-Day Action Plan",
-          "target_id": 42,
-          "url": "./2025-06-22-ai-strategy-small-business-90-day-action-plan.md"
-        },
-        {
-          "anchor_text": "Building Complex Apps with AI",
-          "target_id": 44,
-          "url": "./2025-01-15-building-complex-apps-with-ai.md"
-        },
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide",
-          "target_id": 11,
-          "url": "./what-is-custom-software-development-complete-guide.md"
-        },
-        {
-          "anchor_text": "Auckland Startups Custom Software Guide",
-          "target_id": 36,
-          "url": "./2025-03-18-auckland-startups-custom-software.md"
-        },
-        {
-          "anchor_text": "Why Most Custom Software Projects Fail (And How AI Prevents It)",
-          "target_id": 43,
-          "url": "/blog/2025-01-28-why-custom-software-projects-fail/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-02-25",
       "status": "published",
@@ -2087,40 +548,10 @@
       "word_count": 772
     },
     {
-      "cluster": "mindset-productivity",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-02-10-speaking-vs-writing.md",
-      "gsc": null,
       "id": 40,
-      "internal_links": [
-        {
-          "anchor_text": "ChatGPT for Business: Practical Implementation Guide",
-          "target_id": 26,
-          "url": "./2025-06-22-chatgpt-for-business-practical-implementation-guide.md"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025",
-          "target_id": 8,
-          "url": "./best-ai-tools-for-business-2025.md"
-        },
-        {
-          "anchor_text": "AI Just Made You Twice as Fast",
-          "target_id": 31,
-          "url": "./2025-04-20-ai-just-made-you-twice-as-fast.md"
-        },
-        {
-          "anchor_text": "Using Obsidian and Cursor for Writing",
-          "target_id": 28,
-          "url": "./2025-05-12-using-obsidian-and-cursor-for-writing.md"
-        },
-        {
-          "anchor_text": "Make Space for Your Best Work",
-          "target_id": 38,
-          "url": "./2025-03-05-make-space-for-your-best-work.md"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-02-10",
       "status": "published",
@@ -2131,85 +562,10 @@
       "word_count": 187
     },
     {
-      "cluster": "fractional-cto",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-06-22-nz-startups-fractional-cto-guide.md",
-      "gsc": null,
       "id": 41,
-      "internal_links": [
-        {
-          "anchor_text": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
-          "target_id": 56,
-          "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
-        },
-        {
-          "anchor_text": "kill startup valuations",
-          "target_id": 29,
-          "url": "./2025-06-22-technical-risks-kill-startup-valuations.md"
-        },
-        {
-          "anchor_text": "What is a Fractional CTO",
-          "target_id": 45,
-          "url": "./2025-06-22-what-is-fractional-cto-complete-guide.md"
-        },
-        {
-          "anchor_text": "technical due diligence checklist",
-          "target_id": 32,
-          "url": "./2025-06-22-technical-due-diligence-checklist-cto-guide.md"
-        },
-        {
-          "anchor_text": "Auckland Startups Custom Software Guide",
-          "target_id": 36,
-          "url": "./2025-03-18-auckland-startups-custom-software.md"
-        },
-        {
-          "anchor_text": "How Much Does a Fractional CTO Cost in 2025? Complete Pricing Guide",
-          "target_id": 46,
-          "url": "/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide/"
-        },
-        {
-          "anchor_text": "Interim CTO vs Fractional CTO: Which One Does Your Startup Need?",
-          "target_id": 47,
-          "url": "/blog/interim_cto_vs_fractional_cto_which_one_does_your_startup_need/"
-        },
-        {
-          "anchor_text": "How to Hire Developers for Your Startup: A Non-Technical Founder's Complete Guide",
-          "target_id": 55,
-          "url": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide/"
-        },
-        {
-          "anchor_text": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
-          "target_id": 1,
-          "url": "/blog/cto-responsibilities-startup/"
-        },
-        {
-          "anchor_text": "How to Choose the Right CTO for Your Startup",
-          "target_id": 2,
-          "url": "/blog/how-to-choose-cto-for-startup/"
-        },
-        {
-          "anchor_text": "The Complete Guide to NZ Startup Grants & Funding",
-          "target_id": 61,
-          "url": "/blog/the_complete_guide_to_nz_startup_grants_funding_2025_edition_with_application_tips/"
-        },
-        {
-          "anchor_text": "Startup Runway Calculator",
-          "target_id": 64,
-          "url": "/blog/startup_runway_calculator_how_to_plan_your_cash_runway_nz_focused_template/"
-        },
-        {
-          "anchor_text": "Free Software Development Agreement Template",
-          "target_id": 65,
-          "url": "/blog/free_software_development_agreement_template_for_nz_startups_2025/"
-        },
-        {
-          "anchor_text": "Cloud Migration Checklist for Small Businesses: 2025 NZ Edition",
-          "target_id": 68,
-          "url": "/blog/cloud_migration_checklist_for_small_businesses_2025_nz_edition/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-02-08",
       "status": "published",
@@ -2220,60 +576,10 @@
       "word_count": 2076
     },
     {
-      "cluster": "ai-automation",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-06-22-ai-strategy-small-business-90-day-action-plan.md",
-      "gsc": null,
       "id": 42,
-      "internal_links": [
-        {
-          "anchor_text": "ChatGPT for Business Implementation Guide",
-          "target_id": 26,
-          "url": "./2025-06-22-chatgpt-for-business-practical-implementation-guide.md"
-        },
-        {
-          "anchor_text": "step-by-step guide on how to use AI for small business",
-          "target_id": 9,
-          "url": "./how-to-use-ai-for-small-business.md"
-        },
-        {
-          "anchor_text": "how AI transforms small business operations",
-          "target_id": 30,
-          "url": "./2025-06-22-how-ai-transforms-small-business-practical-examples.md"
-        },
-        {
-          "anchor_text": "business process automation examples",
-          "target_id": 14,
-          "url": "./business-process-automation-examples.md"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025",
-          "target_id": 8,
-          "url": "./best-ai-tools-for-business-2025.md"
-        },
-        {
-          "anchor_text": "Building Complex Apps With AI",
-          "target_id": 44,
-          "url": "./2025-01-15-building-complex-apps-with-ai.md"
-        },
-        {
-          "anchor_text": "Business Process Automation: Small Business Guide",
-          "target_id": 34,
-          "url": "./2025-06-22-business-process-automation-small-business-guide.md"
-        },
-        {
-          "anchor_text": "Simple Automation Workflows",
-          "target_id": 22,
-          "url": "./2025-08-01-simple-automation-workflows.md"
-        },
-        {
-          "anchor_text": "AI Tools for Business Automation: The Complete Stack",
-          "target_id": 4,
-          "url": "/blog/ai-tools-for-business-automation/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-01-30",
       "status": "published",
@@ -2284,70 +590,10 @@
       "word_count": 814
     },
     {
-      "cluster": "custom-software",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-01-28-why-custom-software-projects-fail.md",
-      "gsc": null,
       "id": 43,
-      "internal_links": [
-        {
-          "anchor_text": "complete guide to custom software development",
-          "target_id": 11,
-          "url": "./what-is-custom-software-development-complete-guide.md"
-        },
-        {
-          "anchor_text": "MVP development cost breakdown guide",
-          "target_id": 37,
-          "url": "./2025-06-22-mvp-development-cost-breakdown-timeline-guide.md"
-        },
-        {
-          "anchor_text": "AI Feasibility Sprint",
-          "target_id": 16,
-          "url": "./2025-01-08-ai-feasibility-sprint.md"
-        },
-        {
-          "anchor_text": "fractional CTO services",
-          "target_id": 45,
-          "url": "./2025-06-22-what-is-fractional-cto-complete-guide.md"
-        },
-        {
-          "anchor_text": "technical due diligence checklist",
-          "target_id": 32,
-          "url": "./2025-06-22-technical-due-diligence-checklist-cto-guide.md"
-        },
-        {
-          "anchor_text": "8-Week MVP Development Guide",
-          "target_id": 18,
-          "url": "./8-week-mvp-development-guide.md"
-        },
-        {
-          "anchor_text": "Technical Risks That Kill Startup Valuations",
-          "target_id": 29,
-          "url": "./2025-06-22-technical-risks-kill-startup-valuations.md"
-        },
-        {
-          "anchor_text": "Custom Software Development Cost: Complete Breakdown 2025",
-          "target_id": 10,
-          "url": "/blog/custom-software-development-cost-breakdown/"
-        },
-        {
-          "anchor_text": "How to Choose a Software Development Company (Buyer's Guide)",
-          "target_id": 6,
-          "url": "/blog/how-to-choose-software-development-company/"
-        },
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "Legacy Software Modernization Strategy: A Practical Guide for NZ Businesses",
-          "target_id": 66,
-          "url": "/blog/legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-01-28",
       "status": "published",
@@ -2358,50 +604,10 @@
       "word_count": 1582
     },
     {
-      "cluster": "ai-automation",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-01-15-building-complex-apps-with-ai.md",
-      "gsc": null,
       "id": 44,
-      "internal_links": [
-        {
-          "anchor_text": "AI Strategy for Small Business: 90-Day Action Plan",
-          "target_id": 42,
-          "url": "./2025-06-22-ai-strategy-small-business-90-day-action-plan.md"
-        },
-        {
-          "anchor_text": "How to Use AI for Small Business: Step-by-Step Guide",
-          "target_id": 9,
-          "url": "./how-to-use-ai-for-small-business.md"
-        },
-        {
-          "anchor_text": "AI Feasibility Sprint",
-          "target_id": 16,
-          "url": "./2025-01-08-ai-feasibility-sprint.md"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025",
-          "target_id": 8,
-          "url": "./best-ai-tools-for-business-2025.md"
-        },
-        {
-          "anchor_text": "8-Week MVP Development Guide",
-          "target_id": 18,
-          "url": "./8-week-mvp-development-guide.md"
-        },
-        {
-          "anchor_text": "What is Custom Software Development?",
-          "target_id": 11,
-          "url": "./what-is-custom-software-development-complete-guide.md"
-        },
-        {
-          "anchor_text": "Why Custom Software Projects Fail (And How to Avoid It)",
-          "target_id": 43,
-          "url": "./2025-01-28-why-custom-software-projects-fail.md"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-01-15",
       "status": "published",
@@ -2412,160 +618,10 @@
       "word_count": 197
     },
     {
-      "cluster": "fractional-cto",
-      "cluster_role": "pillar",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/2025-06-22-what-is-fractional-cto-complete-guide.md",
-      "gsc": null,
       "id": 45,
-      "internal_links": [
-        {
-          "anchor_text": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
-          "target_id": 56,
-          "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
-        },
-        {
-          "anchor_text": "NZ Startups Fractional CTO Guide",
-          "target_id": 41,
-          "url": "./2025-06-22-nz-startups-fractional-cto-guide.md"
-        },
-        {
-          "anchor_text": "technical due diligence",
-          "target_id": 32,
-          "url": "./2025-06-22-technical-due-diligence-checklist-cto-guide.md"
-        },
-        {
-          "anchor_text": "technical risks that destroy valuations",
-          "target_id": 29,
-          "url": "./2025-06-22-technical-risks-kill-startup-valuations.md"
-        },
-        {
-          "anchor_text": "MVP development timeline guide",
-          "target_id": 37,
-          "url": "./2025-06-22-mvp-development-cost-breakdown-timeline-guide.md"
-        },
-        {
-          "anchor_text": "Why Custom Software Projects Fail",
-          "target_id": 43,
-          "url": "./2025-01-28-why-custom-software-projects-fail.md"
-        },
-        {
-          "anchor_text": "How Much Does a Fractional CTO Cost in 2025? Complete Pricing Guide",
-          "target_id": 46,
-          "url": "/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide/"
-        },
-        {
-          "anchor_text": "Interim CTO vs Fractional CTO: Which One Does Your Startup Need?",
-          "target_id": 47,
-          "url": "/blog/interim_cto_vs_fractional_cto_which_one_does_your_startup_need/"
-        },
-        {
-          "anchor_text": "What Does a Fractional CTO Do Exactly? Roles, Responsibilities & Deliverables",
-          "target_id": 53,
-          "url": "/blog/what_does_a_fractional_cto_do_exactly_roles_responsibilities_deliverables/"
-        },
-        {
-          "anchor_text": "Ultimate Guide to Fractional CTO Services in New Zealand",
-          "target_id": 13,
-          "url": "/blog/fractional-cto-guide-new-zealand/"
-        },
-        {
-          "anchor_text": "When to Hire Your First CTO: A Startup Founder's Timing Guide",
-          "target_id": 49,
-          "url": "/blog/when_to_hire_your_first_cto_a_startup_founders_timing_guide/"
-        },
-        {
-          "anchor_text": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
-          "target_id": 1,
-          "url": "/blog/cto-responsibilities-startup/"
-        },
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        },
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
-          "target_id": 8,
-          "url": "/blog/best-ai-tools-for-business-2025/"
-        },
-        {
-          "anchor_text": "Software Development in Christchurch: Complete Guide for Local Businesses (2026)",
-          "target_id": 57,
-          "url": "/blog/software_development_in_christchurch_complete_guide_for_local_businesses_2026/"
-        },
-        {
-          "anchor_text": "How to Hire Developers for Your Startup: A Non-Technical Founder's Complete Guide",
-          "target_id": 55,
-          "url": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide/"
-        },
-        {
-          "anchor_text": "When to Hire Your First Developer: A Startup Founder's Timing & Readiness Guide",
-          "target_id": 58,
-          "url": "/blog/when_to_hire_your_first_developer_a_startup_founders_timing_readiness_guide/"
-        },
-        {
-          "anchor_text": "How to Validate Your Startup Idea Without Writing a Single Line of Code",
-          "target_id": 60,
-          "url": "/blog/how_to_validate_your_startup_idea_without_writing_a_single_line_of_code/"
-        },
-        {
-          "anchor_text": "The Non-Technical Founder's Complete Guide to Hiring Your First Developer",
-          "target_id": 63,
-          "url": "/blog/the_non_technical_founders_complete_guide_to_hiring_your_first_developer/"
-        },
-        {
-          "anchor_text": "Technical Co-Founder vs Fractional CTO: Which is Right for Your Startup?",
-          "target_id": 54,
-          "url": "/blog/technical_co_founder_vs_fractional_cto_which_is_right_for_your_startup/"
-        },
-        {
-          "anchor_text": "The Complete Guide to NZ Startup Grants & Funding",
-          "target_id": 61,
-          "url": "/blog/the_complete_guide_to_nz_startup_grants_funding_2025_edition_with_application_tips/"
-        },
-        {
-          "anchor_text": "Startup Runway Calculator",
-          "target_id": 64,
-          "url": "/blog/startup_runway_calculator_how_to_plan_your_cash_runway_nz_focused_template/"
-        },
-        {
-          "anchor_text": "How to Choose Your Tech Stack",
-          "target_id": 62,
-          "url": "/blog/how_to_choose_your_tech_stack_a_non_technical_founders_decision_framework/"
-        },
-        {
-          "anchor_text": "Free Software Development Agreement Template",
-          "target_id": 65,
-          "url": "/blog/free_software_development_agreement_template_for_nz_startups_2025/"
-        },
-        {
-          "anchor_text": "Part-Time CTO Hourly Rates in New Zealand: 2026 Market Guide",
-          "target_id": 73,
-          "url": "/blog/part-time-cto-hourly-rates-nz-2026-guide/"
-        },
-        {
-          "anchor_text": "SAP Clean Core Assessment Checklist: A Practical Framework for S/4HANA Migration",
-          "target_id": 76,
-          "url": "/blog/sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration/"
-        },
-        {
-          "anchor_text": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
-          "target_id": 77,
-          "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
-        },
-        {
-          "anchor_text": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
-          "target_id": 82,
-          "url": "/blog/startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-01-15",
       "status": "published",
@@ -2576,60 +632,10 @@
       "word_count": 1955
     },
     {
-      "cluster": "fractional-cto",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./content/046_how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide.mdx",
-      "gsc": null,
       "id": 46,
-      "internal_links": [
-        {
-          "anchor_text": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
-          "target_id": 56,
-          "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
-        },
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "Interim CTO vs Fractional CTO: Which One Does Your Startup Need?",
-          "target_id": 47,
-          "url": "/blog/interim_cto_vs_fractional_cto_which_one_does_your_startup_need/"
-        },
-        {
-          "anchor_text": "What Does a Fractional CTO Do Exactly? Roles, Responsibilities & Deliverables",
-          "target_id": 53,
-          "url": "/blog/what_does_a_fractional_cto_do_exactly_roles_responsibilities_deliverables/"
-        },
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        },
-        {
-          "anchor_text": "Technical Co-Founder vs Fractional CTO: Which is Right for Your Startup?",
-          "target_id": 54,
-          "url": "/blog/technical_co_founder_vs_fractional_cto_which_is_right_for_your_startup/"
-        },
-        {
-          "anchor_text": "The Non-Technical Founder's Complete Guide to Hiring Your First Developer",
-          "target_id": 63,
-          "url": "/blog/the_non_technical_founders_complete_guide_to_hiring_your_first_developer/"
-        },
-        {
-          "anchor_text": "Part-Time CTO Hourly Rates in New Zealand: 2026 Market Guide",
-          "target_id": 73,
-          "url": "/blog/part-time-cto-hourly-rates-nz-2026-guide/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-10-04",
       "status": "published",
@@ -2640,40 +646,10 @@
       "word_count": 1394
     },
     {
-      "cluster": "fractional-cto",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./content/047_interim_cto_vs_fractional_cto_which_one_does_your_startup_need.mdx",
-      "gsc": null,
       "id": 47,
-      "internal_links": [
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "Technical Co-Founder vs Fractional CTO: Which is Right for Your Startup?",
-          "target_id": 54,
-          "url": "/blog/technical_co_founder_vs_fractional_cto_which_is_right_for_your_startup/"
-        },
-        {
-          "anchor_text": "When to hire your first CTO: timing considerations",
-          "target_id": 49,
-          "url": "/blog/when_to_hire_your_first_cto_a_startup_founders_timing_guide/"
-        },
-        {
-          "anchor_text": "How to choose the right CTO for your startup",
-          "target_id": 2,
-          "url": "/blog/how-to-choose-cto-for-startup/"
-        },
-        {
-          "anchor_text": "Fractional CTO pricing and cost considerations",
-          "target_id": 46,
-          "url": "/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-10-06",
       "status": "published",
@@ -2684,40 +660,10 @@
       "word_count": 1342
     },
     {
-      "cluster": "custom-software",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./content/048_software_development_costs_in_new_zealand_2025_pricing_guide.mdx",
-      "gsc": null,
       "id": 48,
-      "internal_links": [
-        {
-          "anchor_text": "custom software development cost breakdown",
-          "target_id": 10,
-          "url": "/blog/custom-software-development-cost-breakdown"
-        },
-        {
-          "anchor_text": "Wellington Custom Software Development Guide",
-          "target_id": 52,
-          "url": "/blog/wellington_custom_software_development_2025_guide_for_local_businesses"
-        },
-        {
-          "anchor_text": "Fractional CTO",
-          "target_id": 13,
-          "url": "/blog/fractional-cto-guide-new-zealand"
-        },
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        },
-        {
-          "anchor_text": "Software Development in Christchurch: Complete Guide for Local Businesses (2026)",
-          "target_id": 57,
-          "url": "/blog/software_development_in_christchurch_complete_guide_for_local_businesses_2026/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-10-08",
       "status": "published",
@@ -2728,60 +674,10 @@
       "word_count": 1304
     },
     {
-      "cluster": "fractional-cto",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./content/049_when_to_hire_your_first_cto_a_startup_founders_timing_guide.mdx",
-      "gsc": null,
       "id": 49,
-      "internal_links": [
-        {
-          "anchor_text": "How to Hire Developers for Your Startup: A Non-Technical Founder's Complete Guide",
-          "target_id": 55,
-          "url": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide/"
-        },
-        {
-          "anchor_text": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
-          "target_id": 56,
-          "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
-        },
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
-          "target_id": 1,
-          "url": "/blog/cto-responsibilities-startup/"
-        },
-        {
-          "anchor_text": "How Much Does a Fractional CTO Cost in 2025? Complete Pricing Guide",
-          "target_id": 46,
-          "url": "/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide/"
-        },
-        {
-          "anchor_text": "Technical Co-Founder vs Fractional CTO: Which is Right for Your Startup?",
-          "target_id": 54,
-          "url": "/blog/technical_co_founder_vs_fractional_cto_which_is_right_for_your_startup/"
-        },
-        {
-          "anchor_text": "The Non-Technical Founder's Complete Guide to Hiring Your First Developer",
-          "target_id": 63,
-          "url": "/blog/the_non_technical_founders_complete_guide_to_hiring_your_first_developer/"
-        },
-        {
-          "anchor_text": "Part-Time CTO Hourly Rates in New Zealand: 2026 Market Guide",
-          "target_id": 73,
-          "url": "/blog/part-time-cto-hourly-rates-nz-2026-guide/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-10-10",
       "status": "published",
@@ -2792,110 +688,10 @@
       "word_count": 1272
     },
     {
-      "cluster": "mvp-development",
-      "cluster_role": "pillar",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./content/050_how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide.mdx",
-      "gsc": null,
       "id": 50,
-      "internal_links": [
-        {
-          "anchor_text": "How to Hire Developers for Your Startup: A Non-Technical Founder's Complete Guide",
-          "target_id": 55,
-          "url": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide/"
-        },
-        {
-          "anchor_text": "When to Hire Your First Developer: A Startup Founder's Timing & Readiness Guide",
-          "target_id": 58,
-          "url": "/blog/when_to_hire_your_first_developer_a_startup_founders_timing_readiness_guide/"
-        },
-        {
-          "anchor_text": "MVP Development Cost Breakdown: Complete Timeline and Budget Guide",
-          "target_id": 37,
-          "url": "/blog/2025-06-22-mvp-development-cost-breakdown-timeline-guide/"
-        },
-        {
-          "anchor_text": "8-Week MVP Development: Why Speed Beats Perfection",
-          "target_id": 18,
-          "url": "/blog/8-week-mvp-development-guide/"
-        },
-        {
-          "anchor_text": "When to Hire Your First CTO: A Startup Founder's Timing Guide",
-          "target_id": 49,
-          "url": "/blog/when_to_hire_your_first_cto_a_startup_founders_timing_guide/"
-        },
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        },
-        {
-          "anchor_text": "Why Most Custom Software Projects Fail (And How AI Prevents It)",
-          "target_id": 43,
-          "url": "/blog/2025-01-28-why-custom-software-projects-fail/"
-        },
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
-          "target_id": 1,
-          "url": "/blog/cto-responsibilities-startup/"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
-          "target_id": 8,
-          "url": "/blog/best-ai-tools-for-business-2025/"
-        },
-        {
-          "anchor_text": "How Much Does a Fractional CTO Cost in 2025? Complete Pricing Guide",
-          "target_id": 46,
-          "url": "/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide/"
-        },
-        {
-          "anchor_text": "MVP Development Cost for SaaS Startups: 2026 Budget Guide (With Real Examples)",
-          "target_id": 59,
-          "url": "/blog/mvp_development_cost_for_saas_startups_2026_budget_guide_with_real_examples/"
-        },
-        {
-          "anchor_text": "How to Validate Your Startup Idea Without Writing a Single Line of Code",
-          "target_id": 60,
-          "url": "/blog/how_to_validate_your_startup_idea_without_writing_a_single_line_of_code/"
-        },
-        {
-          "anchor_text": "The Non-Technical Founder's Complete Guide to Hiring Your First Developer",
-          "target_id": 63,
-          "url": "/blog/the_non_technical_founders_complete_guide_to_hiring_your_first_developer/"
-        },
-        {
-          "anchor_text": "The Complete Guide to NZ Startup Grants & Funding",
-          "target_id": 61,
-          "url": "/blog/the_complete_guide_to_nz_startup_grants_funding_2025_edition_with_application_tips/"
-        },
-        {
-          "anchor_text": "Startup Runway Calculator",
-          "target_id": 64,
-          "url": "/blog/startup_runway_calculator_how_to_plan_your_cash_runway_nz_focused_template/"
-        },
-        {
-          "anchor_text": "How to Choose Your Tech Stack",
-          "target_id": 62,
-          "url": "/blog/how_to_choose_your_tech_stack_a_non_technical_founders_decision_framework/"
-        },
-        {
-          "anchor_text": "Product Management for Non-Technical Founders: A Practical Guide",
-          "target_id": 70,
-          "url": "/blog/product_management_for_non_technical_founders_a_practical_guide/"
-        },
-        {
-          "anchor_text": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
-          "target_id": 82,
-          "url": "/blog/startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-10-12",
       "status": "published",
@@ -2906,45 +702,10 @@
       "word_count": 1554
     },
     {
-      "cluster": "ai-automation",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./content/051_ai_automation_for_small_business_owners_2025_implementation_playbook.mdx",
-      "gsc": null,
       "id": 51,
-      "internal_links": [
-        {
-          "anchor_text": "Business Process Automation for Small Business: Complete Implementation Guide",
-          "target_id": 34,
-          "url": "/blog/2025-06-22-business-process-automation-small-business-guide/"
-        },
-        {
-          "anchor_text": "AI Strategy for Small Business: Cut Through the Hype with This 90-Day Action Plan",
-          "target_id": 42,
-          "url": "/blog/2025-06-22-ai-strategy-small-business-90-day-action-plan/"
-        },
-        {
-          "anchor_text": "AI Tools for Business Automation: The Complete Stack",
-          "target_id": 4,
-          "url": "/blog/ai-tools-for-business-automation/"
-        },
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
-          "target_id": 8,
-          "url": "/blog/best-ai-tools-for-business-2025/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-10-14",
       "status": "published",
@@ -2955,40 +716,10 @@
       "word_count": 1493
     },
     {
-      "cluster": "custom-software",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./content/052_wellington_custom_software_development_2025_guide_for_local_businesses.mdx",
-      "gsc": null,
       "id": 52,
-      "internal_links": [
-        {
-          "anchor_text": "Software Development in Christchurch: Complete Guide for Local Businesses (2026)",
-          "target_id": 57,
-          "url": "/blog/software_development_in_christchurch_complete_guide_for_local_businesses_2026/"
-        },
-        {
-          "anchor_text": "the real cost breakdown of custom software",
-          "target_id": 10,
-          "url": "/blog/custom-software-development-cost-breakdown"
-        },
-        {
-          "anchor_text": "fractional CTO",
-          "target_id": 13,
-          "url": "/blog/fractional-cto-guide-new-zealand"
-        },
-        {
-          "anchor_text": "What is Custom Software Development?",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide"
-        },
-        {
-          "anchor_text": "Software Development in Christchurch: Complete Guide for Local Businesses (2026)",
-          "target_id": 57,
-          "url": "/blog/software_development_in_christchurch_complete_guide_for_local_businesses_2026/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-10-16",
       "status": "published",
@@ -2999,60 +730,10 @@
       "word_count": 1180
     },
     {
-      "cluster": "fractional-cto",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
-      "estimated_trffic_monthly": "",
+      "estimated_traffic_monthly": "",
       "file": "./content/053_what_does_a_fractional_cto_do_exactly_roles_responsibilities_deliverables.mdx",
-      "gsc": null,
       "id": 53,
-      "internal_links": [
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "How Much Does a Fractional CTO Cost in 2025? Complete Pricing Guide",
-          "target_id": 46,
-          "url": "/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide/"
-        },
-        {
-          "anchor_text": "Interim CTO vs Fractional CTO: Which One Does Your Startup Need?",
-          "target_id": 47,
-          "url": "/blog/interim_cto_vs_fractional_cto_which_one_does_your_startup_need/"
-        },
-        {
-          "anchor_text": "When to Hire Your First CTO: A Startup Founder's Timing Guide",
-          "target_id": 49,
-          "url": "/blog/when_to_hire_your_first_cto_a_startup_founders_timing_guide/"
-        },
-        {
-          "anchor_text": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
-          "target_id": 1,
-          "url": "/blog/cto-responsibilities-startup/"
-        },
-        {
-          "anchor_text": "How to Choose the Right CTO for Your Startup",
-          "target_id": 2,
-          "url": "/blog/how-to-choose-cto-for-startup/"
-        },
-        {
-          "anchor_text": "Technical Co-Founder vs Fractional CTO: Which is Right for Your Startup?",
-          "target_id": 54,
-          "url": "/blog/technical_co_founder_vs_fractional_cto_which_is_right_for_your_startup/"
-        },
-        {
-          "anchor_text": "Product Management for Non-Technical Founders: A Practical Guide",
-          "target_id": 70,
-          "url": "/blog/product_management_for_non_technical_founders_a_practical_guide/"
-        },
-        {
-          "anchor_text": "Part-Time CTO Hourly Rates in New Zealand: 2026 Market Guide",
-          "target_id": 73,
-          "url": "/blog/part-time-cto-hourly-rates-nz-2026-guide/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2025-10-18",
       "status": "published",
@@ -3063,55 +744,10 @@
       "word_count": 2046
     },
     {
-      "cluster": "fractional-cto",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./content/054_technical_co_founder_vs_fractional_cto_which_is_right_for_your_startup_2026.mdx",
-      "gsc": null,
       "id": 54,
-      "internal_links": [
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "Interim CTO vs Fractional CTO: Which One Does Your Startup Need?",
-          "target_id": 47,
-          "url": "/blog/interim_cto_vs_fractional_cto_which_one_does_your_startup_need/"
-        },
-        {
-          "anchor_text": "How Much Does a Fractional CTO Cost in 2025? Complete Pricing Guide",
-          "target_id": 46,
-          "url": "/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide/"
-        },
-        {
-          "anchor_text": "When to Hire Your First CTO: A Startup Founder's Timing Guide",
-          "target_id": 49,
-          "url": "/blog/when_to_hire_your_first_cto_a_startup_founders_timing_guide/"
-        },
-        {
-          "anchor_text": "New Zealand Startups: Your Complete Fractional CTO Guide",
-          "target_id": 41,
-          "url": "/blog/2025-06-22-nz-startups-fractional-cto-guide/"
-        },
-        {
-          "anchor_text": "Technical Due Diligence Checklist: CTO's Complete Guide",
-          "target_id": 32,
-          "url": "/blog/2025-06-22-technical-due-diligence-checklist-cto-guide/"
-        },
-        {
-          "anchor_text": "Technical Due Diligence Checklist for Angel Investors: Evaluating Pre-Seed Startups",
-          "target_id": 79,
-          "url": "/blog/technical_due_diligence_checklist_for_angel_investors_evaluating_pre_seed_startups/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2026-01-20",
       "status": "published",
@@ -3122,50 +758,10 @@
       "word_count": 1616
     },
     {
-      "cluster": "cto-leadership",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./content/055_how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide_2026.mdx",
-      "gsc": null,
       "id": 55,
-      "internal_links": [
-        {
-          "anchor_text": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
-          "target_id": 1,
-          "url": "/blog/cto-responsibilities-startup/"
-        },
-        {
-          "anchor_text": "How to Choose the Right CTO for Your Startup",
-          "target_id": 2,
-          "url": "/blog/how-to-choose-cto-for-startup/"
-        },
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "When to Hire Your First CTO: A Startup Founder's Timing Guide",
-          "target_id": 49,
-          "url": "/blog/when_to_hire_your_first_cto_a_startup_founders_timing_guide/"
-        },
-        {
-          "anchor_text": "When to Hire Your First Developer: A Startup Founder's Timing & Readiness Guide",
-          "target_id": 58,
-          "url": "/blog/when_to_hire_your_first_developer_a_startup_founders_timing_readiness_guide/"
-        },
-        {
-          "anchor_text": "Product Management for Non-Technical Founders: A Practical Guide",
-          "target_id": 70,
-          "url": "/blog/product_management_for_non_technical_founders_a_practical_guide/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2026-01-22",
       "status": "published",
@@ -3176,40 +772,10 @@
       "word_count": 1786
     },
     {
-      "cluster": "fractional-cto",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./content/056_fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy_2026.mdx",
-      "gsc": null,
       "id": 56,
-      "internal_links": [
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "How Much Does a Fractional CTO Cost in 2025? Complete Pricing Guide",
-          "target_id": 46,
-          "url": "/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide/"
-        },
-        {
-          "anchor_text": "What Does a Fractional CTO Do Exactly? Roles, Responsibilities & Deliverables",
-          "target_id": 53,
-          "url": "/blog/what_does_a_fractional_cto_do_exactly_roles_responsibilities_deliverables/"
-        },
-        {
-          "anchor_text": "New Zealand Startups: Your Complete Fractional CTO Guide",
-          "target_id": 41,
-          "url": "/blog/2025-06-22-nz-startups-fractional-cto-guide/"
-        },
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2026-01-24",
       "status": "published",
@@ -3220,55 +786,10 @@
       "word_count": 1348
     },
     {
-      "cluster": "custom-software",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./content/057_software_development_in_christchurch_complete_guide_for_local_businesses_2026.mdx",
-      "gsc": null,
       "id": 57,
-      "internal_links": [
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        },
-        {
-          "anchor_text": "Wellington Custom Software Development: 2025 Guide for Local Businesses",
-          "target_id": 52,
-          "url": "/blog/wellington_custom_software_development_2025_guide_for_local_businesses/"
-        },
-        {
-          "anchor_text": "Auckland Startups: Custom Software on a Budget",
-          "target_id": 36,
-          "url": "/blog/2025-03-18-auckland-startups-custom-software/"
-        },
-        {
-          "anchor_text": "Software Development Costs in New Zealand: 2025 Pricing Guide",
-          "target_id": 48,
-          "url": "/blog/software_development_costs_in_new_zealand_2025_pricing_guide/"
-        },
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "Custom Software Development Cost: Complete Breakdown 2025",
-          "target_id": 10,
-          "url": "/blog/custom-software-development-cost-breakdown/"
-        },
-        {
-          "anchor_text": "How to Choose a Software Development Company (Buyer's Guide)",
-          "target_id": 6,
-          "url": "/blog/how-to-choose-software-development-company/"
-        },
-        {
-          "anchor_text": "How Technical Risks Kill Startup Valuations (And How to Fix Them)",
-          "target_id": 29,
-          "url": "/blog/2025-06-22-technical-risks-kill-startup-valuations/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2026-01-26",
       "status": "published",
@@ -3279,45 +800,10 @@
       "word_count": 1474
     },
     {
-      "cluster": "cto-leadership",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./content/058_when_to_hire_your_first_developer_a_startup_founders_timing_readiness_guide_2026.mdx",
-      "gsc": null,
       "id": 58,
-      "internal_links": [
-        {
-          "anchor_text": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
-          "target_id": 1,
-          "url": "/blog/cto-responsibilities-startup/"
-        },
-        {
-          "anchor_text": "When to Hire Your First CTO: A Startup Founder's Timing Guide",
-          "target_id": 49,
-          "url": "/blog/when_to_hire_your_first_cto_a_startup_founders_timing_guide/"
-        },
-        {
-          "anchor_text": "How to Hire Developers for Your Startup: A Non-Technical Founder's Complete Guide",
-          "target_id": 55,
-          "url": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide/"
-        },
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "8-Week MVP Development: Why Speed Beats Perfection",
-          "target_id": 18,
-          "url": "/blog/8-week-mvp-development-guide/"
-        },
-        {
-          "anchor_text": "How to Choose the Right CTO for Your Startup",
-          "target_id": 2,
-          "url": "/blog/how-to-choose-cto-for-startup/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2026-01-28",
       "status": "published",
@@ -3328,40 +814,10 @@
       "word_count": 1658
     },
     {
-      "cluster": "mvp-development",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./content/059_mvp_development_cost_for_saas_startups_2026_budget_guide_with_real_examples.mdx",
-      "gsc": null,
       "id": 59,
-      "internal_links": [
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
-          "target_id": 1,
-          "url": "/blog/cto-responsibilities-startup/"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
-          "target_id": 8,
-          "url": "/blog/best-ai-tools-for-business-2025/"
-        },
-        {
-          "anchor_text": "Product Management for Non-Technical Founders: A Practical Guide",
-          "target_id": 70,
-          "url": "/blog/product_management_for_non_technical_founders_a_practical_guide/"
-        }
-      ],
       "keyword_difficulty": "",
       "published_date": "2026-01-30",
       "status": "published",
@@ -3372,40 +828,10 @@
       "word_count": 1401
     },
     {
-      "cluster": "mvp-development",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./content/060_how_to_validate_your_startup_idea_without_writing_a_single_line_of_code.mdx",
-      "gsc": null,
       "id": 60,
-      "internal_links": [
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        },
-        {
-          "anchor_text": "No Code Automation for Small Business: Guide & Tool Comparison",
-          "target_id": 3,
-          "url": "/blog/no-code-automation-for-small-business/"
-        },
-        {
-          "anchor_text": "Startup Runway Calculator",
-          "target_id": 64,
-          "url": "/blog/startup_runway_calculator_how_to_plan_your_cash_runway_nz_focused_template/"
-        },
-        {
-          "anchor_text": "Product Management for Non-Technical Founders: A Practical Guide",
-          "target_id": 70,
-          "url": "/blog/product_management_for_non_technical_founders_a_practical_guide/"
-        }
-      ],
       "keyword_difficulty": "0",
       "published_date": "2026-02-01",
       "status": "published",
@@ -3416,45 +842,10 @@
       "word_count": 0
     },
     {
-      "cluster": "startup-funding",
-      "cluster_role": "pillar",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./content/061_the_complete_guide_to_nz_startup_grants_funding_2025_edition_with_application_tips.mdx",
-      "gsc": null,
       "id": 61,
-      "internal_links": [
-        {
-          "anchor_text": "How to Validate Your Startup Idea Without Writing a Single Line of Code",
-          "target_id": 60,
-          "url": "/blog/how_to_validate_your_startup_idea_without_writing_a_single_line_of_code/"
-        },
-        {
-          "anchor_text": "How to Build an MVP for Your Startup",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "Startup Runway Calculator",
-          "target_id": 64,
-          "url": "/blog/startup_runway_calculator_how_to_plan_your_cash_runway_nz_focused_template/"
-        },
-        {
-          "anchor_text": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
-          "target_id": 82,
-          "url": "/blog/startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency/"
-        },
-        {
-          "anchor_text": "New Zealand Startups: Your Complete Fractional CTO Guide",
-          "target_id": 41,
-          "url": "/blog/2025-06-22-nz-startups-fractional-cto-guide/"
-        }
-      ],
       "keyword_difficulty": "0",
       "published_date": "2026-02-03",
       "status": "published",
@@ -3465,50 +856,10 @@
       "word_count": 0
     },
     {
-      "cluster": "custom-software",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./content/062_how_to_choose_your_tech_stack_a_non_technical_founders_decision_framework.mdx",
-      "gsc": null,
       "id": 62,
-      "internal_links": [
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        },
-        {
-          "anchor_text": "How to Build an MVP for Your Startup",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "Custom Software vs Off-the-Shelf",
-          "target_id": 7,
-          "url": "/blog/custom-software-vs-off-the-shelf/"
-        },
-        {
-          "anchor_text": "How to Choose a Software Development Company",
-          "target_id": 6,
-          "url": "/blog/how-to-choose-software-development-company/"
-        },
-        {
-          "anchor_text": "Software Development Costs in New Zealand",
-          "target_id": 48,
-          "url": "/blog/software_development_costs_in_new_zealand_2025_pricing_guide/"
-        },
-        {
-          "anchor_text": "No Code Automation for Small Business",
-          "target_id": 3,
-          "url": "/blog/no-code-automation-for-small-business/"
-        }
-      ],
       "keyword_difficulty": "0",
       "published_date": "2026-02-05",
       "status": "published",
@@ -3519,35 +870,10 @@
       "word_count": 0
     },
     {
-      "cluster": "cto-leadership",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./content/063_the_non_technical_founders_complete_guide_to_hiring_your_first_developer.mdx",
-      "gsc": null,
       "id": 63,
-      "internal_links": [
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "How to Hire Developers for Your Startup: A Non-Technical Founder's Complete Guide",
-          "target_id": 55,
-          "url": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide_2026/"
-        },
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "Product Management for Non-Technical Founders: A Practical Guide",
-          "target_id": 70,
-          "url": "/blog/product_management_for_non_technical_founders_a_practical_guide/"
-        }
-      ],
       "keyword_difficulty": "0",
       "published_date": "2026-02-07",
       "status": "published",
@@ -3558,35 +884,10 @@
       "word_count": 0
     },
     {
-      "cluster": "startup-funding",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./content/064_startup_runway_calculator_how_to_plan_your_cash_runway_nz_focused_template.mdx",
-      "gsc": null,
       "id": 64,
-      "internal_links": [
-        {
-          "anchor_text": "The Complete Guide to NZ Startup Grants & Funding",
-          "target_id": 61,
-          "url": "/blog/the_complete_guide_to_nz_startup_grants_funding_2025_edition_with_application_tips/"
-        },
-        {
-          "anchor_text": "Planning your MVP development budget and timeline",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "Fractional CTO guidance on financial planning",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
-          "target_id": 82,
-          "url": "/blog/startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency/"
-        }
-      ],
       "keyword_difficulty": "0",
       "published_date": "2026-02-09",
       "status": "published",
@@ -3597,30 +898,10 @@
       "word_count": 0
     },
     {
-      "cluster": "custom-software",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./content/065_free_software_development_agreement_template_for_nz_startups_2025.mdx",
-      "gsc": null,
       "id": 65,
-      "internal_links": [
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        },
-        {
-          "anchor_text": "How to Build an MVP for Your Startup",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        }
-      ],
       "keyword_difficulty": "0",
       "published_date": "2026-02-11",
       "status": "published",
@@ -3631,55 +912,10 @@
       "word_count": 0
     },
     {
-      "cluster": "custom-software",
-      "cluster_role": "support",
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/066_legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses.mdx",
-      "gsc": null,
       "id": 66,
-      "internal_links": [
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        },
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "The AI Feasibility Sprint: De-risk Your Custom Software Project",
-          "target_id": 16,
-          "url": "/blog/the-ai-feasibility-sprint-de-risk-custom-software/"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
-          "target_id": 8,
-          "url": "/blog/best-ai-tools-for-business-2025/"
-        },
-        {
-          "anchor_text": "Cloud Migration Checklist for Small Businesses: 2025 NZ Edition",
-          "target_id": 68,
-          "url": "/blog/cloud_migration_checklist_for_small_businesses_2025_nz_edition/"
-        },
-        {
-          "anchor_text": "SAP Clean Core Assessment Checklist: A Practical Framework for S/4HANA Migration",
-          "target_id": 76,
-          "url": "/blog/sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration/"
-        },
-        {
-          "anchor_text": "SAP BTP Side-by-Side Extension: Complete Working Example with Code",
-          "target_id": 78,
-          "url": "/blog/sap_btp_side_by_side_extension_complete_working_example_with_code/"
-        },
-        {
-          "anchor_text": "SAP Joule Custom Skills Development: Step-by-Step Tutorial for Beginners",
-          "target_id": 81,
-          "url": "/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/"
-        }
-      ],
       "keyword_difficulty": "0",
       "published_date": "2026-02-13",
       "status": "published",
@@ -3690,596 +926,9 @@
       "word_count": 0
     },
     {
-      "cluster": "custom-software",
-      "cluster_role": "support",
-      "content_gaps_addressed": [],
-      "estimated_traffic_monthly": "",
-      "file": "./src/blog/posts/068_cloud_migration_checklist_for_small_businesses_2025_nz_edition.mdx",
-      "gsc": null,
-      "id": 68,
-      "internal_links": [
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        },
-        {
-          "anchor_text": "Legacy Software Modernization Strategy: A Practical Guide for NZ Businesses",
-          "target_id": 66,
-          "url": "/blog/legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses/"
-        },
-        {
-          "anchor_text": "How to Choose Your Tech Stack: A Non-Technical Founder's Decision Framework",
-          "target_id": 62,
-          "url": "/blog/how_to_choose_your_tech_stack_a_non_technical_founders_decision_framework/"
-        },
-        {
-          "anchor_text": "New Zealand Startups: Your Complete Fractional CTO Guide",
-          "target_id": 41,
-          "url": "/blog/2025-06-22-nz-startups-fractional-cto-guide/"
-        },
-        {
-          "anchor_text": "Software Development Costs in New Zealand: 2025 Pricing Guide",
-          "target_id": 48,
-          "url": "/blog/software_development_costs_in_new_zealand_2025_pricing_guide/"
-        },
-        {
-          "anchor_text": "SAP BTP Side-by-Side Extension: Complete Working Example with Code",
-          "target_id": 78,
-          "url": "/blog/sap_btp_side_by_side_extension_complete_working_example_with_code/"
-        }
-      ],
-      "keyword_difficulty": "0",
-      "published_date": "2026-02-17",
-      "status": "published",
-      "target_keyword": "cloud migration checklist for small business",
-      "target_volume": 0,
-      "title": "Cloud Migration Checklist for Small Businesses: 2026 NZ Edition",
-      "url_slug": "cloud_migration_checklist_for_small_businesses_2025_nz_edition",
-      "word_count": 1500
-    },
-    {
-      "cluster": "mvp-development",
-      "cluster_role": "support",
-      "content_gaps_addressed": [],
-      "estimated_traffic_monthly": "",
-      "file": "./content/069_mobile_app_vs_web_app_which_should_your_startup_build_first.mdx",
-      "gsc": null,
-      "id": 69,
-      "internal_links": [
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "MVP Development Cost Breakdown: Complete Timeline and Budget Guide",
-          "target_id": 37,
-          "url": "/blog/2025-06-22-mvp-development-cost-breakdown-timeline-guide/"
-        },
-        {
-          "anchor_text": "How to Validate Your Startup Idea Without Writing a Single Line of Code",
-          "target_id": 60,
-          "url": "/blog/how_to_validate_your_startup_idea_without_writing_a_single_line_of_code/"
-        },
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        },
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "Product Management for Non-Technical Founders: A Practical Guide",
-          "target_id": 70,
-          "url": "/blog/product_management_for_non_technical_founders_a_practical_guide/"
-        }
-      ],
-      "keyword_difficulty": "",
-      "published_date": "2026-02-19",
-      "status": "published",
-      "target_keyword": "mobile app vs web app for startup",
-      "target_volume": 0,
-      "title": "Mobile App vs Web App: Which Should Your Startup Build First?",
-      "url_slug": "mobile_app_vs_web_app_which_should_your_startup_build_first",
-      "word_count": 0
-    },
-    {
-      "cluster": "mvp-development",
-      "cluster_role": "support",
-      "content_gaps_addressed": [],
-      "estimated_traffic_monthly": "",
-      "file": "./content/070_product_management_for_non_technical_founders_a_practical_guide.mdx",
-      "gsc": null,
-      "id": 70,
-      "internal_links": [
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "How to Hire Developers for Your Startup: A Non-Technical Founder's Complete Guide",
-          "target_id": 55,
-          "url": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide_2026/"
-        },
-        {
-          "anchor_text": "MVP Development Cost for SaaS Startups: 2026 Budget Guide (With Real Examples)",
-          "target_id": 59,
-          "url": "/blog/mvp_development_cost_for_saas_startups_2026_budget_guide_with_real_examples/"
-        },
-        {
-          "anchor_text": "How to Validate Your Startup Idea Without Writing a Single Line of Code",
-          "target_id": 60,
-          "url": "/blog/how_to_validate_your_startup_idea_without_writing_a_single_line_of_code/"
-        },
-        {
-          "anchor_text": "How to Choose Your Tech Stack: A Non-Technical Founder's Decision Framework",
-          "target_id": 62,
-          "url": "/blog/how_to_choose_your_tech_stack_a_non_technical_founders_decision_framework/"
-        },
-        {
-          "anchor_text": "The Non-Technical Founder's Complete Guide to Hiring Your First Developer",
-          "target_id": 63,
-          "url": "/blog/the_non_technical_founders_complete_guide_to_hiring_your_first_developer/"
-        },
-        {
-          "anchor_text": "What Does a Fractional CTO Do Exactly? Roles, Responsibilities & Deliverables",
-          "target_id": 53,
-          "url": "/blog/what_does_a_fractional_cto_do_exactly_roles_responsibilities_deliverables/"
-        },
-        {
-          "anchor_text": "Technical Co-Founder vs Fractional CTO: Which is Right for Your Startup?",
-          "target_id": 54,
-          "url": "/blog/technical_co_founder_vs_fractional_cto_which_is_right_for_your_startup_2026/"
-        },
-        {
-          "anchor_text": "Mobile App vs Web App: Which Should Your Startup Build First?",
-          "target_id": 69,
-          "url": "/blog/mobile_app_vs_web_app_which_should_your_startup_build_first/"
-        }
-      ],
-      "keyword_difficulty": "",
-      "published_date": "2026-02-21",
-      "status": "published",
-      "target_keyword": "product management for non-technical founders",
-      "target_volume": 0,
-      "title": "Product Management for Non-Technical Founders: A Practical Guide",
-      "url_slug": "product_management_for_non_technical_founders_a_practical_guide",
-      "word_count": 1800
-    },
-    {
-      "cluster": "hiring",
-      "cluster_role": "support",
-      "content_gaps_addressed": [],
-      "estimated_traffic_monthly": "",
-      "file": "./src/blog/posts/071_how_to_hire_developers_in_new_zealand_a_startup_founders_complete_guide_to_the_local_tech_talent_market.mdx",
-      "gsc": null,
-      "id": 71,
-      "internal_links": [
-        {
-          "anchor_text": "How to Hire Developers for Your Startup: A Non-Technical Founder's Complete Guide",
-          "target_id": 55,
-          "url": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide/"
-        },
-        {
-          "anchor_text": "When to Hire Your First Developer: A Startup Founder's Timing & Readiness Guide",
-          "target_id": 58,
-          "url": "/blog/when_to_hire_your_first_developer_a_startup_founders_timing_readiness_guide/"
-        },
-        {
-          "anchor_text": "The Non-Technical Founder's Complete Guide to Hiring Your First Developer",
-          "target_id": 63,
-          "url": "/blog/the_non_technical_founders_complete_guide_to_hiring_your_first_developer/"
-        }
-      ],
-      "keyword_difficulty": "0",
-      "published_date": "2026-03-12",
-      "status": "published",
-      "target_keyword": "hire developers new zealand",
-      "target_volume": 0,
-      "title": "How to Hire Developers in New Zealand: A Startup Founder's Complete Guide to the Local Tech Talent Market",
-      "url_slug": "how_to_hire_developers_in_new_zealand_a_startup_founders_complete_guide_to_the_local_tech_talent_market",
-      "word_count": 176
-    },
-    {
-      "cluster": "ai-automation",
-      "cluster_role": "support",
-      "content_gaps_addressed": [],
-      "estimated_traffic_monthly": "",
-      "file": "./src/blog/posts/072_ai_automation_for_trades_businesses_how_plumbers_electricians_builders_are_saving_10_hours_a_week.mdx",
-      "gsc": null,
-      "id": 72,
-      "internal_links": [
-        {
-          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
-          "target_id": 8,
-          "url": "/blog/best-ai-tools-for-business-2025/"
-        },
-        {
-          "anchor_text": "AI Automation for Small Business Owners: 2025 Implementation Playbook",
-          "target_id": 51,
-          "url": "/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/"
-        }
-      ],
-      "keyword_difficulty": "0",
-      "published_date": "2026-03-13",
-      "status": "published",
-      "target_keyword": "ai automation trades business",
-      "target_volume": 0,
-      "title": "AI Automation for Trades Businesses: How Plumbers, Electricians & Builders Are Saving 10+ Hours a Week",
-      "url_slug": "ai_automation_for_trades_businesses_how_plumbers_electricians_builders_are_saving_10_hours_a_week",
-      "word_count": 147
-    },
-    {
-      "cluster": "fractional-cto",
-      "cluster_role": "support",
-      "content_gaps_addressed": [],
-      "estimated_traffic_monthly": "",
-      "file": "./src/blog/posts/073_part_time_cto_hourly_rates_in_new_zealand_2026_market_guide_for_startups.mdx",
-      "gsc": null,
-      "id": 73,
-      "internal_links": [
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "How Much Does a Fractional CTO Cost in 2025? Complete Pricing Guide",
-          "target_id": 46,
-          "url": "/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide/"
-        },
-        {
-          "anchor_text": "When to Hire Your First CTO: A Startup Founder's Timing Guide",
-          "target_id": 49,
-          "url": "/blog/when_to_hire_your_first_cto_a_startup_founders_timing_guide/"
-        },
-        {
-          "anchor_text": "What Does a Fractional CTO Do Exactly? Roles, Responsibilities & Deliverables",
-          "target_id": 53,
-          "url": "/blog/what_does_a_fractional_cto_do_exactly_roles_responsibilities_deliverables/"
-        },
-        {
-          "anchor_text": "How to Hire Developers for Your Startup: A Non-Technical Founder's Complete Guide",
-          "target_id": 55,
-          "url": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide/"
-        }
-      ],
-      "keyword_difficulty": "0",
-      "published_date": "2026-02-27",
-      "status": "published",
-      "target_keyword": "part time cto hourly rate nz",
-      "target_volume": 0,
-      "title": "Part-Time CTO Hourly Rates in New Zealand: 2026 Market Guide for Startups",
-      "url_slug": "part_time_cto_hourly_rates_in_new_zealand_2026_market_guide_for_startups",
-      "word_count": 181
-    },
-    {
-      "cluster": "startup-finance",
-      "cluster_role": "support",
-      "content_gaps_addressed": [],
-      "estimated_traffic_monthly": "",
-      "file": "./src/blog/posts/074_startup_cash_runway_calculator_template_free_download_plan_your_burn_rate_in_minutes.mdx",
-      "gsc": null,
-      "id": 74,
-      "internal_links": [
-        {
-          "anchor_text": "Startup Runway Calculator: How to Plan Your Cash Runway (NZ-Focused Template)",
-          "target_id": 64,
-          "url": "/blog/startup_runway_calculator_how_to_plan_your_cash_runway_nz_focused_template/"
-        },
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
-          "target_id": 82,
-          "url": "/blog/startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency/"
-        }
-      ],
-      "keyword_difficulty": "0",
-      "published_date": "2026-03-13",
-      "status": "published",
-      "target_keyword": "startup cash runway calculator",
-      "target_volume": 0,
-      "title": "Startup Cash Runway Calculator Template (Free Download): Plan Your Burn Rate in Minutes",
-      "url_slug": "startup_cash_runway_calculator_template_free_download_plan_your_burn_rate_in_minutes",
-      "word_count": 197
-    },
-    {
-      "cluster": "fractional-cto",
-      "cluster_role": "support",
-      "content_gaps_addressed": [],
-      "estimated_traffic_monthly": "",
-      "file": "./src/blog/posts/075_fractional_cto_for_saas_startups_scaling_your_platform_without_the_full_time_price_tag.mdx",
-      "gsc": null,
-      "id": 75,
-      "internal_links": [
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "How Much Does a Fractional CTO Cost in 2025? Complete Pricing Guide",
-          "target_id": 46,
-          "url": "/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide/"
-        },
-        {
-          "anchor_text": "What Does a Fractional CTO Do Exactly? Roles, Responsibilities & Deliverables",
-          "target_id": 53,
-          "url": "/blog/what_does_a_fractional_cto_do_exactly_roles_responsibilities_deliverables/"
-        },
-        {
-          "anchor_text": "How to Hire Developers in New Zealand: A Startup Founder's Complete Guide",
-          "target_id": 71,
-          "url": "/blog/how_to_hire_developers_in_new_zealand_a_startup_founders_complete_guide_to_the_local_tech_talent_market/"
-        },
-        {
-          "anchor_text": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
-          "target_id": 77,
-          "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
-        }
-      ],
-      "keyword_difficulty": "0",
-      "published_date": "2026-03-13",
-      "status": "published",
-      "target_keyword": "fractional cto saas startup",
-      "target_volume": 0,
-      "title": "Fractional CTO for SaaS Startups: Scaling Your Platform Without the Full-Time Price Tag",
-      "url_slug": "fractional_cto_for_saas_startups_scaling_your_platform_without_the_full_time_price_tag",
-      "word_count": 155
-    },
-    {
-      "cluster": "sap-clean-core",
-      "cluster_role": "pillar",
-      "content_gaps_addressed": [],
-      "estimated_traffic_monthly": "",
-      "file": "./src/blog/posts/076_sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration.mdx",
-      "gsc": null,
-      "id": 76,
-      "internal_links": [
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "SAP BTP Side-by-Side Extension: Complete Working Example with Code",
-          "target_id": 78,
-          "url": "/blog/sap_btp_side_by_side_extension_complete_working_example_with_code/"
-        },
-        {
-          "anchor_text": "Legacy Software Modernization Strategy: A Practical Guide for NZ Businesses",
-          "target_id": 66,
-          "url": "/blog/legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses/"
-        },
-        {
-          "anchor_text": "SAP Joule Custom Skills Development: Step-by-Step Tutorial for Beginners",
-          "target_id": 81,
-          "url": "/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/"
-        }
-      ],
-      "keyword_difficulty": "0",
-      "published_date": "2026-03-17",
-      "status": "draft",
-      "target_keyword": "sap clean core assessment checklist",
-      "target_volume": 0,
-      "title": "SAP Clean Core Assessment Checklist: A Practical Framework for S/4HANA Migration",
-      "url_slug": "sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration",
-      "word_count": 0
-    },
-    {
-      "cluster": "fractional-cto",
-      "cluster_role": "support",
-      "content_gaps_addressed": [],
-      "estimated_traffic_monthly": "",
-      "file": "./src/blog/posts/077_fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy.mdx",
-      "gsc": null,
-      "id": 77,
-      "internal_links": [
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "Fractional CTO for SaaS Startups: Scaling Your Platform Without the Full-Time Price Tag",
-          "target_id": 75,
-          "url": "/blog/fractional_cto_for_saas_startups_scaling_your_platform_without_the_full_time_price_tag/"
-        },
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "anchor_text": "How to Hire Developers for Your Startup: A Non-Technical Founder's Complete Guide",
-          "target_id": 55,
-          "url": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide_2026/"
-        }
-      ],
-      "keyword_difficulty": "",
-      "published_date": "2026-03-18",
-      "status": "draft",
-      "target_keyword": "fractional cto for healthcare startups",
-      "target_volume": 0,
-      "title": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
-      "url_slug": "fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy",
-      "word_count": 1348
-    },
-    {
-      "cluster": "sap-clean-core",
-      "cluster_role": "support",
-      "content_gaps_addressed": [],
-      "estimated_traffic_monthly": "",
-      "file": "./src/blog/posts/078_sap_btp_side_by_side_extension_complete_working_example_with_code.mdx",
-      "gsc": null,
-      "id": 78,
-      "internal_links": [
-        {
-          "anchor_text": "SAP Clean Core Assessment Checklist: A Practical Framework for S/4HANA Migration",
-          "target_id": 76,
-          "url": "/blog/sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration/"
-        },
-        {
-          "anchor_text": "Legacy Software Modernization Strategy: A Practical Guide for NZ Businesses",
-          "target_id": 66,
-          "url": "/blog/legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses/"
-        },
-        {
-          "anchor_text": "Cloud Migration Checklist for Small Businesses: 2026 NZ Edition",
-          "target_id": 68,
-          "url": "/blog/cloud-migration-checklist-small-business-2025-nz/"
-        },
-        {
-          "anchor_text": "SAP Joule Custom Skills Development: Step-by-Step Tutorial for Beginners",
-          "target_id": 81,
-          "url": "/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/"
-        }
-      ],
-      "keyword_difficulty": "0",
-      "published_date": "2026-03-19",
-      "status": "draft",
-      "target_keyword": "sap btp side by side extension",
-      "target_volume": 0,
-      "title": "SAP BTP Side-by-Side Extension: Complete Working Example with Code",
-      "url_slug": "sap_btp_side_by_side_extension_complete_working_example_with_code",
-      "word_count": 0
-    },
-    {
-      "cluster": "cto-leadership",
-      "cluster_role": "support",
-      "content_gaps_addressed": [],
-      "estimated_traffic_monthly": "",
-      "file": "./src/blog/posts/079_technical_due_diligence_checklist_for_angel_investors_evaluating_pre_seed_startups.mdx",
-      "gsc": null,
-      "id": 79,
-      "internal_links": [
-        {
-          "anchor_text": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
-          "target_id": 1,
-          "url": "/blog/cto-responsibilities-startup/"
-        },
-        {
-          "anchor_text": "Technical Due Diligence Checklist for Startup Investors",
-          "target_id": 12,
-          "url": "/blog/technical-due-diligence-checklist/"
-        },
-        {
-          "anchor_text": "When to Hire Your First CTO: A Startup Founder's Timing Guide",
-          "target_id": 49,
-          "url": "/blog/when_to_hire_your_first_cto_a_startup_founders_timing_guide/"
-        },
-        {
-          "anchor_text": "Technical Co-Founder vs Fractional CTO: Which is Right for Your Startup?",
-          "target_id": 54,
-          "url": "/blog/technical_co_founder_vs_fractional_cto_which_is_right_for_your_startup/"
-        }
-      ],
-      "keyword_difficulty": "0",
-      "published_date": "2026-03-20",
-      "status": "draft",
-      "target_keyword": "technical due diligence checklist angel investors",
-      "target_volume": 0,
-      "title": "Technical Due Diligence Checklist for Angel Investors: Evaluating Pre-Seed Startups",
-      "url_slug": "technical_due_diligence_checklist_for_angel_investors_evaluating_pre_seed_startups",
-      "word_count": 1894
-    },
-    {
-      "cluster": "sap-clean-core",
-      "cluster_role": "support",
-      "content_gaps_addressed": [],
-      "estimated_traffic_monthly": "",
-      "file": "./src/blog/posts/081_sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners.mdx",
-      "gsc": null,
-      "id": 81,
-      "internal_links": [
-        {
-          "anchor_text": "SAP Clean Core Assessment Checklist: A Practical Framework for S/4HANA Migration",
-          "target_id": 76,
-          "url": "/blog/sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration/"
-        },
-        {
-          "anchor_text": "SAP BTP Side-by-Side Extension: Complete Working Example with Code",
-          "target_id": 78,
-          "url": "/blog/sap_btp_side_by_side_extension_complete_working_example_with_code/"
-        },
-        {
-          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
-          "target_id": 8,
-          "url": "/blog/best-ai-tools-for-business-2025/"
-        },
-        {
-          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
-          "target_id": 11,
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        }
-      ],
-      "keyword_difficulty": "0",
-      "published_date": "2026-03-21",
-      "status": "draft",
-      "target_keyword": "sap joule custom skills development tutorial",
-      "target_volume": 0,
-      "title": "SAP Joule Custom Skills Development: Step-by-Step Tutorial for Beginners",
-      "url_slug": "sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners",
-      "word_count": 2500
-    },
-    {
-      "cluster": "startup-funding",
-      "cluster_role": "support",
-      "content_gaps_addressed": [],
-      "estimated_traffic_monthly": "",
-      "file": "./content/082_startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency.mdx",
-      "gsc": null,
-      "id": 82,
-      "internal_links": [
-        {
-          "anchor_text": "The Complete Guide to NZ Startup Grants & Funding (2026 Edition with Application Tips)",
-          "target_id": 61,
-          "url": "/blog/the_complete_guide_to_nz_startup_grants_funding_2025_edition_with_application_tips/"
-        },
-        {
-          "anchor_text": "Startup Runway Calculator: How to Plan Your Cash Runway (NZ-Focused Template)",
-          "target_id": 64,
-          "url": "/blog/startup_runway_calculator_how_to_plan_your_cash_runway_nz_focused_template/"
-        },
-        {
-          "anchor_text": "Startup Cash Runway Calculator Template (Free Download): Plan Your Burn Rate in Minutes",
-          "target_id": 74,
-          "url": "/blog/startup_cash_runway_calculator_template_free_download_plan_your_burn_rate_in_minutes/"
-        },
-        {
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "target_id": 45,
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "target_id": 50,
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        }
-      ],
-      "keyword_difficulty": "0",
-      "published_date": "2026-03-22",
-      "status": "draft",
-      "target_keyword": "startup runway calculator nz template",
-      "target_volume": 0,
-      "title": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
-      "url_slug": "startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency",
-      "word_count": 2100
-    },
-    {
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
       "file": "./content/067_api_integration_services_connecting_your_business_systems_seamlessly.mdx",
-      "gsc": null,
       "id": 67,
       "keyword_difficulty": "",
       "published_date": "2026-02-15",
@@ -4293,8 +942,175 @@
     {
       "content_gaps_addressed": [],
       "estimated_traffic_monthly": "",
+      "file": "./src/blog/posts/068_cloud_migration_checklist_for_small_businesses_2025_nz_edition.mdx",
+      "id": 68,
+      "keyword_difficulty": "0",
+      "published_date": "2026-02-17",
+      "status": "published",
+      "target_keyword": "cloud migration checklist for small business",
+      "target_volume": 0,
+      "title": "Cloud Migration Checklist for Small Businesses: 2026 NZ Edition",
+      "url_slug": "cloud_migration_checklist_for_small_businesses_2025_nz_edition",
+      "word_count": 1500
+    },
+    {
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "file": "./content/069_mobile_app_vs_web_app_which_should_your_startup_build_first.mdx",
+      "id": 69,
+      "keyword_difficulty": "",
+      "published_date": "2026-02-19",
+      "status": "published",
+      "target_keyword": "mobile app vs web app for startup",
+      "target_volume": 0,
+      "title": "Mobile App vs Web App: Which Should Your Startup Build First?",
+      "url_slug": "mobile_app_vs_web_app_which_should_your_startup_build_first",
+      "word_count": 0
+    },
+    {
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "file": "./content/070_product_management_for_non_technical_founders_a_practical_guide.mdx",
+      "id": 70,
+      "keyword_difficulty": "",
+      "published_date": "2026-02-21",
+      "status": "published",
+      "target_keyword": "product management for non-technical founders",
+      "target_volume": 0,
+      "title": "Product Management for Non-Technical Founders: A Practical Guide",
+      "url_slug": "product_management_for_non_technical_founders_a_practical_guide",
+      "word_count": 1800
+    },
+    {
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "file": "./src/blog/posts/071_how_to_hire_developers_in_new_zealand_a_startup_founders_complete_guide_to_the_local_tech_talent_market.mdx",
+      "id": 71,
+      "keyword_difficulty": "0",
+      "published_date": "2026-03-12",
+      "status": "published",
+      "target_keyword": "hire developers new zealand",
+      "target_volume": 0,
+      "title": "How to Hire Developers in New Zealand: A Startup Founder's Complete Guide to the Local Tech Talent Market",
+      "url_slug": "how_to_hire_developers_in_new_zealand_a_startup_founders_complete_guide_to_the_local_tech_talent_market",
+      "word_count": 176
+    },
+    {
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "file": "./src/blog/posts/072_ai_automation_for_trades_businesses_how_plumbers_electricians_builders_are_saving_10_hours_a_week.mdx",
+      "id": 72,
+      "keyword_difficulty": "0",
+      "published_date": "2026-03-13",
+      "status": "published",
+      "target_keyword": "ai automation trades business",
+      "target_volume": 0,
+      "title": "AI Automation for Trades Businesses: How Plumbers, Electricians & Builders Are Saving 10+ Hours a Week",
+      "url_slug": "ai_automation_for_trades_businesses_how_plumbers_electricians_builders_are_saving_10_hours_a_week",
+      "word_count": 147
+    },
+    {
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "file": "./src/blog/posts/073_part_time_cto_hourly_rates_in_new_zealand_2026_market_guide_for_startups.mdx",
+      "id": 73,
+      "keyword_difficulty": "0",
+      "published_date": "2026-02-27",
+      "status": "published",
+      "target_keyword": "part time cto hourly rate nz",
+      "target_volume": 0,
+      "title": "Part-Time CTO Hourly Rates in New Zealand: 2026 Market Guide for Startups",
+      "url_slug": "part_time_cto_hourly_rates_in_new_zealand_2026_market_guide_for_startups",
+      "word_count": 181
+    },
+    {
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "file": "./src/blog/posts/074_startup_cash_runway_calculator_template_free_download_plan_your_burn_rate_in_minutes.mdx",
+      "id": 74,
+      "keyword_difficulty": "0",
+      "published_date": "2026-03-13",
+      "status": "published",
+      "target_keyword": "startup cash runway calculator",
+      "target_volume": 0,
+      "title": "Startup Cash Runway Calculator Template (Free Download): Plan Your Burn Rate in Minutes",
+      "url_slug": "startup_cash_runway_calculator_template_free_download_plan_your_burn_rate_in_minutes",
+      "word_count": 197
+    },
+    {
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "file": "./src/blog/posts/075_fractional_cto_for_saas_startups_scaling_your_platform_without_the_full_time_price_tag.mdx",
+      "id": 75,
+      "keyword_difficulty": "0",
+      "published_date": "2026-03-13",
+      "status": "published",
+      "target_keyword": "fractional cto saas startup",
+      "target_volume": 0,
+      "title": "Fractional CTO for SaaS Startups: Scaling Your Platform Without the Full-Time Price Tag",
+      "url_slug": "fractional_cto_for_saas_startups_scaling_your_platform_without_the_full_time_price_tag",
+      "word_count": 155
+    },
+    {
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "file": "./src/blog/posts/076_sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration.mdx",
+      "id": 76,
+      "keyword_difficulty": "0",
+      "published_date": "2026-03-17",
+      "status": "draft",
+      "target_keyword": "sap clean core assessment checklist",
+      "target_volume": 0,
+      "title": "SAP Clean Core Assessment Checklist: A Practical Framework for S/4HANA Migration",
+      "url_slug": "sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration",
+      "word_count": 0
+    },
+    {
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "file": "./src/blog/posts/077_fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy.mdx",
+      "id": 77,
+      "keyword_difficulty": "",
+      "published_date": "2026-03-18",
+      "status": "draft",
+      "target_keyword": "fractional cto for healthcare startups",
+      "target_volume": 0,
+      "title": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
+      "url_slug": "fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy",
+      "word_count": 1348
+    },
+    {
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "file": "./src/blog/posts/078_sap_btp_side_by_side_extension_complete_working_example_with_code.mdx",
+      "id": 78,
+      "keyword_difficulty": "0",
+      "published_date": "2026-03-19",
+      "status": "draft",
+      "target_keyword": "sap btp side by side extension",
+      "target_volume": 0,
+      "title": "SAP BTP Side-by-Side Extension: Complete Working Example with Code",
+      "url_slug": "sap_btp_side_by_side_extension_complete_working_example_with_code",
+      "word_count": 0
+    },
+    {
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "file": "./src/blog/posts/079_technical_due_diligence_checklist_for_angel_investors_evaluating_pre_seed_startups.mdx",
+      "id": 79,
+      "keyword_difficulty": "0",
+      "published_date": "2026-03-20",
+      "status": "draft",
+      "target_keyword": "technical due diligence checklist angel investors",
+      "target_volume": 0,
+      "title": "Technical Due Diligence Checklist for Angel Investors: Evaluating Pre-Seed Startups",
+      "url_slug": "technical_due_diligence_checklist_for_angel_investors_evaluating_pre_seed_startups",
+      "word_count": 1894
+    },
+    {
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
       "file": "./content/080_fractional_cto_costs_in_new_zealand_2025_pricing_guide_for_nz_startups.mdx",
-      "gsc": null,
       "id": 80,
       "keyword_difficulty": "",
       "published_date": "2026-03-21",
@@ -4304,7 +1120,48 @@
       "title": "Fractional CTO Costs in New Zealand: 2025 Pricing Guide for NZ Startups",
       "url_slug": "fractional_cto_costs_in_new_zealand_2025_pricing_guide_for_nz_startups",
       "word_count": 1228
+    },
+    {
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "file": "./src/blog/posts/081_sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners.mdx",
+      "id": 81,
+      "keyword_difficulty": "0",
+      "published_date": "2026-03-21",
+      "status": "draft",
+      "target_keyword": "sap joule custom skills development tutorial",
+      "target_volume": 0,
+      "title": "SAP Joule Custom Skills Development: Step-by-Step Tutorial for Beginners",
+      "url_slug": "sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners",
+      "word_count": 2500
+    },
+    {
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "file": "./content/082_startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency.mdx",
+      "id": 82,
+      "keyword_difficulty": "0",
+      "published_date": "2026-03-22",
+      "status": "draft",
+      "target_keyword": "startup runway calculator nz template",
+      "target_volume": 0,
+      "title": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
+      "url_slug": "startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency",
+      "word_count": 2100
+    },
+    {
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "file": "./content/083_sap_clean_core.mdx",
+      "id": 83,
+      "keyword_difficulty": "6",
+      "published_date": "2026-03-26",
+      "status": "draft",
+      "target_keyword": "sap clean core",
+      "target_volume": 100,
+      "title": "SAP Clean Core: What It Is, Why It Matters, and How to Achieve It",
+      "url_slug": "sap-clean-core",
+      "word_count": 2202
     }
-  ],
-  "nextArticleId": 83
+  ]
 }

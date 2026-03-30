@@ -1,0 +1,182 @@
+---
+title: "SAP Clean Core: What It Is, Why It Matters, and How to Achieve It"
+description: "A practical guide to SAP Clean Core — what the concept means, why SAP is pushing it for S/4HANA, and the concrete steps your organisation should take to get there."
+date: "2026-03-26"
+tags: ["SAP", "Clean Core", "S/4HANA", "SAP BTP", "Enterprise Architecture", "Digital Transformation"]
+---
+
+# SAP Clean Core: What It Is, Why It Matters, and How to Achieve It
+
+If you've attended an SAP event in the past few years, you've heard the phrase. Consultants use it. SAP account executives champion it. Internal architects debate it. But for many organisations still running heavily customised ERP systems, **SAP Clean Core** remains an abstract ideal rather than a practical plan.
+
+This guide cuts through the noise. By the end, you'll understand exactly what Clean Core means, why SAP is pushing it so hard, the tradeoffs involved, and the concrete steps you can take to move in the right direction — whether you're planning an S/4HANA migration or already live and accumulating technical debt.
+
+## What Is SAP Clean Core?
+
+SAP Clean Core is a design philosophy and a set of practices aimed at keeping the SAP S/4HANA system core as close to the SAP standard as possible. The goal is to eliminate or significantly reduce custom modifications to SAP-owned objects — function modules, BAdIs, database tables, reports, and user exits — that have historically been used to tailor the system to business requirements.
+
+At its heart, Clean Core rests on five dimensions that SAP defines formally:
+
+| Dimension | What It Covers |
+|---|---|
+| **Processes** | Are you running SAP-standard processes, or heavily modified variants? |
+| **Data** | Is your data model aligned to SAP's standard objects, or full of custom Z-tables? |
+| **Integration** | Are you integrating via published, stable APIs rather than proprietary interfaces? |
+| **Extensions** | Are customisations built in sanctioned extension points, not core modifications? |
+| **Operations** | Can you upgrade and operate the system without regression-testing custom code? |
+
+A "clean" system scores well across all five dimensions. Most mature SAP landscapes are somewhere in the middle — standard in some areas, heavily customised in others.
+
+## Why Is SAP Pushing Clean Core?
+
+To understand the urgency behind Clean Core, you need to understand SAP's business model shift. SAP is moving from a perpetual-licence, on-premise product to a cloud-subscription model built around S/4HANA Cloud (both public and private editions). The economics of that model only work if SAP can deliver continuous innovation — quarterly updates, new AI features, regulatory patches — without breaking customer systems.
+
+That's nearly impossible when customers have thousands of custom modifications touching core SAP objects. Every upgrade becomes a major project. Every patch requires regression testing. The innovation velocity that SAP promises on stage simply cannot be delivered into environments that are frozen in place by technical debt.
+
+From the customer's perspective, the case for Clean Core is equally strong:
+
+- **Lower upgrade costs**: Systems with minimal modifications upgrade faster and cheaper.
+- **Faster time to value**: New SAP features land in your system without a six-month remediation project.
+- **Reduced operational risk**: Fewer custom objects mean fewer failure points and simpler support.
+- **AI readiness**: SAP Joule and embedded AI features assume clean data models and standard processes. Custom structures create blind spots.
+
+The counterargument — that standard SAP doesn't fit our business — is real. But it deserves scrutiny. Many "business requirements" that drove customisations in SAP ECC were workarounds for limitations that S/4HANA has since addressed in standard. Others represent genuine differentiators worth preserving. The challenge is knowing the difference.
+
+## The Clean Core Spectrum: It's Not Binary
+
+One of the most important things to understand is that Clean Core is not an on/off switch. It exists on a spectrum, and different parts of your system will sit at different points on that spectrum.
+
+SAP uses a traffic light model in its Clean Core tooling:
+
+- 🟢 **Green**: Standard objects, no modification, fully upgrade-safe
+- 🟡 **Amber**: Sanctioned extension points (BAdI implementations, ABAP Cloud APIs, RAP extensions) — customised but in a controlled way
+- 🔴 **Red**: Direct modifications to SAP-owned code, obsolete APIs, non-public database access
+
+The practical target for most organisations is not an entirely green system — that's rarely realistic for complex, multi-country ERP deployments. The target is eliminating red, managing amber carefully, and continuously moving more functionality to green over time.
+
+## How to Achieve Clean Core: A Practical Roadmap
+
+### Step 1: Assess Your Current State
+
+You can't fix what you haven't measured. SAP provides tooling to help:
+
+- **SAP Custom Code Migration app** (available in ABAP Test Cockpit / ABAP Cloud readiness tooling): Scans your custom code for usage of APIs that are not released for ABAP Cloud — a reliable proxy for "will this break or cause problems in a Clean Core environment?"
+- **SAP Readiness Check**: A self-service tool that generates a landscape report including custom code complexity, add-on compatibility, and simplification items.
+- **SAP LeanIX / Cloud ALM**: For larger transformation programmes, these tools help map custom code to business processes, so you understand what each modification actually does before deciding whether to keep, replace, or retire it.
+
+The output of this assessment should give you a clear picture of your red/amber/green split and — crucially — which business processes are driving the most technical debt.
+
+For a more detailed framework, see our [SAP Clean Core Assessment Checklist](/blog/sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration/).
+
+### Step 2: Classify Your Custom Objects
+
+Not all customisations are created equal. Once you've identified your custom objects, classify them:
+
+**Category A — Core differentiators**: Custom logic that genuinely provides competitive advantage and is deeply embedded in your business processes. These warrant careful engineering to preserve functionality while moving to clean extension patterns.
+
+**Category B — Standard workarounds**: Custom code written to fill gaps in older SAP versions that S/4HANA now covers in standard. Audit these against current S/4HANA functionality before investing in migration — many can simply be switched off.
+
+**Category C — Legacy workarounds**: Custom code nobody fully understands, maintained out of fear rather than business need. These are your biggest wins. Removing them reduces risk and complexity without losing any real business value.
+
+**Category D — Integrations and interfaces**: Custom BAPIs, RFCs, or IDocs connecting SAP to third-party systems. These need to move to published OData or REST APIs, but the priority depends on integration volume and criticality.
+
+### Step 3: Define Your Extension Strategy
+
+For the code you genuinely need to keep, SAP provides a structured hierarchy of extension options:
+
+**In-app extensions (ABAP Cloud)**  
+These run inside the S/4HANA system but only use SAP's released, stable API surface (C1-released objects). They're implemented using:
+- BAdI (Business Add-In) implementations
+- ABAP RESTful Application Programming Model (RAP) for custom business objects
+- Key User Extensibility tools in the Fiori launchpad (no ABAP required)
+
+In-app extensions are the right choice for logic that genuinely belongs inside the ERP — custom validation rules, field extensions, output control.
+
+**Side-by-side extensions (SAP BTP)**  
+For more complex requirements, the [side-by-side extension pattern](/blog/sap_btp_side_by_side_extension_complete_working_example_with_code/) moves custom logic entirely off the ERP and onto SAP BTP. The extension communicates with S/4HANA exclusively through public APIs.
+
+This approach is ideal for:
+- Complex approval workflows
+- Document management and collaboration
+- Customer-facing portals
+- Industry-specific calculations
+- AI/ML workloads
+
+Side-by-side extensions have zero impact on S/4HANA upgrades and can be developed, tested, and deployed independently.
+
+### Step 4: Prioritise by Business Impact and Risk
+
+With a full picture of your custom code landscape and a clear extension strategy, you can now build a remediation roadmap. Prioritise work based on two axes:
+
+1. **Business criticality**: How much does this process matter to daily operations?
+2. **Clean Core risk**: How problematic is the current implementation? (Direct core modifications rank highest risk.)
+
+High criticality + high risk = tackle first. Low criticality + low risk = schedule for later or accept the debt temporarily.
+
+Avoid the temptation to tackle everything at once. Clean Core remediation is a multi-year journey for most organisations. Momentum and consistency matter more than comprehensiveness.
+
+### Step 5: Govern Going Forward
+
+The hardest part of Clean Core is not cleaning up the past — it's preventing new technical debt from accumulating. This requires governance:
+
+- **Architecture review board**: All custom development proposals should be reviewed against Clean Core principles before approval.
+- **Mandatory tooling checks**: ABAP Test Cockpit should be integrated into your CI/CD pipeline and run against every code transport. Red findings should block promotion to production.
+- **Developer training**: ABAP developers trained on classic SAP may not be familiar with ABAP Cloud, RAP, or BTP development. Investment in upskilling is essential.
+- **Business process owners accountable for extensions**: When a business team requests a customisation, they should understand the long-term maintenance cost they're accepting. Transparency changes behaviour.
+
+## Common Objections — And How to Address Them
+
+**"Our business is too unique for standard SAP."**  
+Some of it may be. But this claim deserves rigorous testing. S/4HANA has evolved significantly since the ECC era. Many "unique" requirements from ten years ago are now standard features. Run the assessment before assuming you need custom code.
+
+**"We've already invested too much in our customisations."**  
+This is sunk cost fallacy territory. The question isn't what you've spent — it's what you'll continue to spend maintaining those customisations versus the cost of migrating to clean patterns. Upgrade after upgrade, the maintenance cost compounds.
+
+**"Our team doesn't know BTP or RAP."**  
+This is a real constraint, not an objection. It's also temporary. SAP Learning and the broader partner ecosystem have extensive resources for upskilling. Building this capability is a prerequisite for the cloud transition regardless.
+
+**"Clean Core will slow down our innovation."**  
+The opposite is true in the medium term. When your system is clean, you can consume SAP's quarterly innovation drops without a major regression cycle. Short-term investment in clean patterns pays back in long-term agility.
+
+## Clean Core and SAP AI: The Hidden Connection
+
+One dimension of Clean Core that doesn't get enough attention is its relationship to SAP's AI strategy. SAP Joule — the AI copilot embedded across SAP's cloud portfolio — operates on the assumption that your data and processes are aligned to SAP's standard model.
+
+When you have custom Z-tables storing data that should be in standard SAP structures, Joule can't see it. When you have custom approval processes outside the standard workflow engine, AI-driven process recommendations don't apply. When your integration landscape is a tangle of proprietary interfaces, event-driven AI use cases are blocked.
+
+Clean Core is, in a very real sense, the prerequisite for AI-ready SAP. As SAP embeds more AI capability into the core product, the gap between clean and customised systems will widen — not just on upgrade cost, but on the business value that organisations can extract from the platform.
+
+## Measuring Your Progress
+
+Clean Core progress should be tracked and reported like any other technology metric. Useful KPIs include:
+
+- **Custom code object count**: Are you reducing the number of custom objects over time?
+- **ABAP Test Cockpit red findings**: Is the count trending down?
+- **Released API usage rate**: What percentage of your custom code uses C1-released APIs?
+- **Upgrade effort hours**: Are upgrades getting faster as the system gets cleaner?
+- **BTP extension ratio**: What share of new developments are side-by-side rather than in-app modifications?
+
+None of these metrics in isolation tell the full story, but together they give a directional view of progress.
+
+## Getting Started: The First 90 Days
+
+If you're new to Clean Core and not sure where to begin, here's a practical 90-day starting point:
+
+**Days 1–30: Assess**  
+Run SAP Readiness Check and Custom Code Migration app across your landscape. Export the results. Get a factual count of your red/amber/green split. Most organisations are surprised by the numbers — usually in a sobering direction.
+
+**Days 31–60: Educate**  
+Run Clean Core workshops with your key stakeholders: IT leadership, ABAP developers, business process owners, and the migration programme team. Everyone needs to understand what Clean Core means for their role. Bring in an experienced SAP partner if you don't have internal expertise.
+
+**Days 61–90: Plan**  
+Using your assessment data and stakeholder input, build a prioritised remediation roadmap. Identify quick wins — Category C legacy workarounds that can be removed with minimal risk. Start one BTP side-by-side extension as a proof of concept. Establish the governance gates that will prevent new technical debt.
+
+The first 90 days won't make your system clean. But they'll give you a clear picture of where you stand and a credible plan for getting where you need to go.
+
+## Conclusion
+
+SAP Clean Core isn't a passing trend. It's the architectural foundation that SAP's entire cloud and AI strategy is built on. Organisations that invest in Clean Core now will find upgrades cheaper, innovation faster, and AI adoption smoother. Those that don't will face mounting technical debt, slower upgrade cycles, and an increasing gap between what SAP's platform can deliver and what their customised system can actually consume.
+
+The path to Clean Core is neither quick nor cheap. But it's directionally straightforward: assess what you have, classify what matters, choose the right extension pattern for everything that does, and govern rigorously going forward.
+
+Start with an honest assessment. The rest follows from there.

@@ -541,3 +541,7 @@ No — but you need someone with hands-on development experience. Many NZ and AP
 - [Complete technical due diligence checklist for CTOs](/blog/2025-06-22-technical-due-diligence-checklist-cto-guide/)
 - [Fractional CTO services for investor due diligence](/blog/2025-06-22-what-is-fractional-cto-complete-guide/)
 - [NZ startup technical due diligence expertise](/blog/2025-06-22-nz-startups-fractional-cto-guide/)
+
+## Related Articles
+
+- [Technical Due Diligence Checklist for Angel Investors: Evaluating Pre-Seed Startups](/blog/technical_due_diligence_checklist_for_angel_investors_evaluating_pre_seed_startups)

@@ -8,7 +8,7 @@ florian@learnedlate.com | [Twitter](https://x.com/learnedlate) | [LinkedIn](http
 
 ## SUMMARY
 
-Solution architect, technical advisor, and former SAP employee with 20+ years of experience translating business needs into practical technology solutions. My background combines deep enterprise delivery experience with the last four years of hands-on work building products, leading teams, and working deeply with modern application stacks, data platforms, and AI-enabled systems. That recent experience keeps my advisory work grounded in the realities of how modern systems are scoped, built, integrated, and scaled. In parallel with product building, I have continued to advise businesses on solution direction, including ERP replacement scoping, build-vs-buy evaluation, effort estimation, architecture, and implementation planning.
+Architect, software engineer, and former SAP employee with 20+ years of experience translating business needs into practical technology solutions. My background combines deep enterprise delivery experience with the last four years of hands-on work building products, leading teams, and working deeply with modern application stacks, data platforms, and AI-enabled systems. That recent experience keeps my advisory work grounded in the realities of how modern systems are scoped, built, integrated, and scaled. In parallel with product building, I have continued to advise businesses on solution direction, including ERP replacement scoping, build-vs-buy evaluation, effort estimation, architecture, and implementation planning.
 
 ## AREAS OF EXPERTISE
 
@@ -75,7 +75,7 @@ Founded and led a consulting-led community business focused on tokenomics and st
 **Key Achievements:**
 - Built a community of 3,000+ members.
 - Scaled a consulting business to 10+ contributors serving 15+ clients.
-- Developed a tokenomics design framework used by thousands of builders.
+- Developed a industry focused token launch SaaS for modelling supply demand curves of token launches
 - Successfully merged the business with Forgd.com.
 
 ### Solution Architect at SAP
@@ -108,4 +108,4 @@ Progressed from apprentice to Development Consultant, specializing in SAP ABAP d
 
 ## ADDITIONAL ACTIVITIES
 
-- **Writing**: Over 2,500 readers follow my writing at [LearnedLate](https://blog.learnedlate.com/).
+- **Writing**: Over 2,300 readers follow my writing at [LearnedLate](https://blog.learnedlate.com/).

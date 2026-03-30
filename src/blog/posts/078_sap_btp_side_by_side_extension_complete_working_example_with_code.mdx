@@ -3,6 +3,7 @@ title: "SAP BTP Side-by-Side Extension: Complete Working Example with Code"
 description: "Learn how to build a side-by-side extension on SAP BTP with a complete working example. Step-by-step guide with code samples."
 date: "2026-03-19"
 tags: ["SAP BTP", "Side-by-Side Extension", "SAP S/4HANA", "Cloud Foundry", "Clean Core"]
+canonical: "https://www.learnedlate.com/blog/sap_btp_side_by_side_extension_complete_working_example_with_code"
 ---
 
 # SAP BTP Side-by-Side Extension: Complete Working Example with Code
@@ -20,7 +21,7 @@ A side-by-side extension is an application that:
 - Extends core business processes without modifying the ERP
 - Can be developed, deployed, and upgraded independently
 
-This approach aligns perfectly with the [Clean Core methodology](TODO: link), ensuring your S/4HANA system remains stable, upgradeable, and free from custom code complications.
+This approach aligns perfectly with the [Clean Core methodology](/blog/sap_clean_core/), ensuring your S/4HANA system remains stable, upgradeable, and free from custom code complications.
 
 ## Architecture Overview
 
@@ -559,7 +560,7 @@ Authentication flows through SAP BTP's XSUAA service. Users must have appropriat
 
 ### 4. Event-Driven Extensions
 
-For production scenarios, consider the [Event Mesh](TODO: link) approach: S/4HANA publishes events when orders are created, and your extension consumes them asynchronously. This reduces coupling further.
+For production scenarios, consider the [SAP Event Mesh](https://help.sap.com/docs/SAP_EM) approach: S/4HANA publishes events when orders are created, and your extension consumes them asynchronously. This reduces coupling further and integrates well with [API integration services](/blog/api_integration_services_connecting_your_business_systems_seamlessly/) you may already have in place.
 
 ## Troubleshooting Common Issues
 
@@ -609,12 +610,17 @@ This working example demonstrates the practical reality of side-by-side extensio
 - **Scalability**: Scale the extension independently from core ERP resources
 - **Future-proofing**: Easier upgrades and maintenance
 
-The complete source code for this example is available in the [GitHub repository](TODO: link). For a deeper dive into Clean Core architecture, see our [SAP Clean Core Assessment Checklist](TODO: link).
+The patterns shown here apply broadly across extension types. For a deeper dive into Clean Core architecture, see our [SAP Clean Core: What It Is, Why It Matters, and How to Achieve It](/blog/sap_clean_core/) guide, and our [SAP Clean Core Assessment Checklist](/blog/sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration/) for evaluating your current landscape.
 
-If you're planning an S/4HANA migration and need guidance on extension strategy, [schedule a consultation](TODO: link) to discuss your specific requirements.
+If you're looking to add AI capabilities to your extensions, the [SAP Joule Custom Skills Development tutorial](/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/) shows how to build custom skills that work alongside BTP extensions.
+
+If you're planning an S/4HANA migration and need guidance on extension strategy, [schedule a consultation](/contact) to discuss your specific requirements.
 
 ## Related Articles
 
+- [SAP Clean Core: What It Is, Why It Matters, and How to Achieve It](/blog/sap_clean_core/)
 - [SAP Clean Core Assessment Checklist: A Practical Framework for S/4HANA Migration](/blog/sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration/)
+- [SAP Joule Custom Skills Development: Step-by-Step Tutorial for Beginners](/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/)
+- [API Integration Services: Connecting Your Business Systems Seamlessly](/blog/api_integration_services_connecting_your_business_systems_seamlessly/)
 - [Legacy Software Modernization Strategy: A Practical Guide for NZ Businesses](/blog/legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses/)
 - [Cloud Migration Checklist for Small Businesses: 2026 NZ Edition](/blog/cloud-migration-checklist-small-business-2025-nz/)
