@@ -6,6 +6,11 @@
   },
   "redirects": [
     {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "permanent": true
+    },
+    {
       "source": "/chat",
       "destination": "https://calendar.notion.so/meet/florianstrauf/chat",
       "permanent": true
@@ -43,127 +48,127 @@
     },
     {
       "source": "/now",
-      "destination": "/now.html"
+      "destination": "/now/index.html"
     },
     {
       "source": "/cv",
-      "destination": "/cv.html"
+      "destination": "/cv/index.html"
     },
     {
       "source": "/services",
-      "destination": "/services.html"
+      "destination": "/services/index.html"
     },
     {
       "source": "/projects",
-      "destination": "/projects.html"
+      "destination": "/projects/index.html"
     },
     {
       "source": "/fractional-cto",
-      "destination": "/fractional-cto.html"
+      "destination": "/fractional-cto/index.html"
     },
     {
       "source": "/ai-implementation",
-      "destination": "/ai-implementation.html"
+      "destination": "/ai-implementation/index.html"
     },
     {
       "source": "/automation",
-      "destination": "/automation.html"
+      "destination": "/automation/index.html"
     },
     {
       "source": "/mvp-development",
-      "destination": "/mvp-development.html"
+      "destination": "/mvp-development/index.html"
     },
     {
       "source": "/seo-automation",
-      "destination": "/seo-automation.html"
+      "destination": "/seo-automation/index.html"
     },
     {
       "source": "/life-calendar",
-      "destination": "/life-calendar.html"
+      "destination": "/life-calendar/index.html"
     },
     {
       "source": "/life-balance-visualizer",
-      "destination": "/life-balance-visualizer.html"
+      "destination": "/life-balance-visualizer/index.html"
     },
     {
       "source": "/concentric-circles",
-      "destination": "/concentric-circles.html"
+      "destination": "/concentric-circles/index.html"
     },
     {
       "source": "/sap-solution-architecture",
-      "destination": "/sap-solution-architecture.html"
+      "destination": "/sap-solution-architecture/index.html"
     },
     {
       "source": "/sap-custom-development",
-      "destination": "/sap-custom-development.html"
+      "destination": "/sap-custom-development/index.html"
     },
     {
       "source": "/sap-clean-core-extensions",
-      "destination": "/sap-clean-core-extensions.html"
+      "destination": "/sap-clean-core-extensions/index.html"
     },
     {
       "source": "/sap-implementation-partner",
-      "destination": "/sap-implementation-partner.html"
+      "destination": "/sap-implementation-partner/index.html"
     },
     {
       "source": "/sap-btp-consultant-new-zealand",
-      "destination": "/sap-btp-consultant-new-zealand.html"
+      "destination": "/sap-btp-consultant-new-zealand/index.html"
     },
     {
       "source": "/sap-consulting-firms",
-      "destination": "/sap-consulting-firms.html"
+      "destination": "/sap-consulting-firms/index.html"
     },
     {
       "source": "/sap-btp-consultant",
-      "destination": "/sap-btp-consultant.html"
+      "destination": "/sap-btp-consultant/index.html"
     },
     {
       "source": "/accenture-alternative-sap-consulting",
-      "destination": "/accenture-alternative-sap-consulting.html"
+      "destination": "/accenture-alternative-sap-consulting/index.html"
     },
     {
       "source": "/sap-joule-custom-skills-development",
-      "destination": "/sap-joule-custom-skills-development.html"
+      "destination": "/sap-joule-custom-skills-development/index.html"
     },
     {
       "source": "/sap-custom-development-services",
-      "destination": "/sap-custom-development-services.html"
+      "destination": "/sap-custom-development-services/index.html"
     },
     {
       "source": "/services/seo-automation",
-      "destination": "/services/seo-automation.html"
+      "destination": "/services/seo-automation/index.html"
     },
     {
       "source": "/custom-software-development-company",
-      "destination": "/custom-software-development-company.html"
+      "destination": "/custom-software-development-company/index.html"
     },
     {
       "source": "/custom-software-development-services",
-      "destination": "/custom-software-development-services.html"
+      "destination": "/custom-software-development-services/index.html"
     },
     {
       "source": "/fractional-cto-services",
-      "destination": "/fractional-cto-services.html"
+      "destination": "/fractional-cto-services/index.html"
     },
     {
       "source": "/mvp-development-services",
-      "destination": "/mvp-development-services.html"
+      "destination": "/mvp-development-services/index.html"
     },
     {
       "source": "/technical-co-founder-vs-fractional-cto",
-      "destination": "/technical-co-founder-vs-fractional-cto.html"
+      "destination": "/technical-co-founder-vs-fractional-cto/index.html"
     },
     {
       "source": "/toptal-alternative-fractional-cto-nz",
-      "destination": "/toptal-alternative-fractional-cto-nz.html"
+      "destination": "/toptal-alternative-fractional-cto-nz/index.html"
     },
     {
       "source": "/checkout-success",
-      "destination": "/checkout-success.html"
+      "destination": "/checkout-success/index.html"
     },
     {
       "source": "/checkout-cancel",
-      "destination": "/checkout-cancel.html"
+      "destination": "/checkout-cancel/index.html"
     },
     {
       "source": "/((?!api/|_next/|static/|public/|favicon.ico|robots.txt|sitemap.xml|sw.js|manifest.json|assets/|blog/|.*\\.html$).*)",

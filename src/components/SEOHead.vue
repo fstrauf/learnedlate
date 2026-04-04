@@ -43,10 +43,13 @@ const fullTitle = computed(() =>
 const canonicalUrl = computed(() => {
   // If URL prop is provided, use it
   if (props.url) {
-    return props.url.startsWith('http') ? props.url : `https://www.learnedlate.com${props.url}`
+    const url = props.url.startsWith('http') ? props.url : `https://www.learnedlate.com${props.url}`
+    // Remove trailing slash (except for root path)
+    return url.replace(/\/$/, '') || 'https://www.learnedlate.com'
   }
   // Otherwise, use the current route path
-  const path = route.path
+  // Remove trailing slash to match router paths (e.g., /projects instead of /projects/)
+  const path = route.path.replace(/\/$/, '') || '/'
   return `https://www.learnedlate.com${path}`
 })
 

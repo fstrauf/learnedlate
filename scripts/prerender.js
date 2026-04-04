@@ -47,26 +47,26 @@ async function prerender() {
 
     // Track results
     let successCount = 0
-    let skipCount = 0
     let failCount = 0
 
     for (const route of allRoutes) {
       try {
         // Determine output path
+        // Use folder structure with index.html for clean URLs (no .html extension)
         let outputPath
         if (route === '/') {
           outputPath = path.join(clientPath, 'index.html')
-          // Root index.html already exists from build
-          console.log(`  ⏭️  Skipping ${route} (already exists from build)`)
-          skipCount++
-          continue
         } else if (route === '/blog') {
           outputPath = path.join(clientPath, 'blog', 'index.html')
         } else if (route.startsWith('/blog/')) {
           const slug = route.replace('/blog/', '')
           outputPath = path.join(clientPath, 'blog', `${slug}.html`)
         } else {
-          outputPath = path.join(clientPath, `${route}.html`)
+          // Create folder structure: /route/index.html for clean URLs
+          // This matches the router paths (without trailing slash) 
+          // and avoids Vercel's trailing slash redirects
+          const routeName = route.replace(/^\//, '')
+          outputPath = path.join(clientPath, routeName, 'index.html')
         }
 
         // Ensure directory exists
@@ -109,6 +109,10 @@ async function prerender() {
         const hydrationScript = `<script>window.__INITIAL_STATE__=${JSON.stringify({ route }).replace(/</g, '\\u003c')}</script>`
         html = html.replace('</head>', `${hydrationScript}</head>`)
 
+        // Add Cloudflare email_off comments to prevent email obfuscation
+        // This prevents Cloudflare from rewriting mailto: links to /cdn-cgi/l/email-protection
+        html = addCloudflareEmailOffComments(html)
+
         // Write the file
         fs.writeFileSync(outputPath, html)
         const size = (fs.statSync(outputPath).size / 1024).toFixed(1)
@@ -127,7 +131,7 @@ async function prerender() {
     // Summary
     console.log(`\n✅ Prerendering complete!`)
     console.log(`   - ${successCount} routes rendered successfully`)
-    console.log(`   - ${skipCount} routes skipped (already exist)`)
+
     if (failCount > 0) {
       console.log(`   - ${failCount} routes failed`)
     }
@@ -142,6 +146,40 @@ async function prerender() {
     console.error(`\n❌ Prerendering failed:`, error)
     process.exit(1)
   }
+}
+
+/**
+ * Add Cloudflare email_off comments around email addresses to prevent obfuscation.
+ * Cloudflare's Email Address Obfuscation feature rewrites email addresses to use
+ * /cdn-cgi/l/email-protection endpoint, which causes 404 errors on Vercel.
+ * The <!--email_off--><!--/email_off--> comments tell Cloudflare to skip obfuscation.
+ */
+function addCloudflareEmailOffComments(html) {
+  // First, wrap all email addresses with Cloudflare email_off comments
+  // This prevents Cloudflare from rewriting them
+  // The pattern matches typical email formats
+  const emailPattern = /([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/g
+  
+  html = html.replace(emailPattern, (match, email, offset) => {
+    // Skip if already wrapped or if it's part of a URL path (not mailto)
+    const before = html.slice(Math.max(0, offset - 20), offset)
+    const after = html.slice(offset + match.length, offset + match.length + 20)
+    
+    // Skip if already wrapped in email_off comments
+    if (before.includes('<!--email_off-->') || after.includes('<!--/email_off-->')) {
+      return match
+    }
+    
+    // Skip if this looks like it's in a URL path (not an email address)
+    if (before.endsWith('/') || after.startsWith('/')) {
+      return match
+    }
+    
+    // Wrap with email_off comments
+    return `<!--email_off-->${email}<!--/email_off-->`
+  })
+  
+  return html
 }
 
 function renderPreloadLinks(modules, manifest) {
