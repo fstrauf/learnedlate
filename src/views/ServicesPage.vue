@@ -229,7 +229,7 @@
           class="bg-white text-gray-900 hover:bg-gray-100"
         >
           <a
-            href="mailto:hello@learnedlate.com"
+            href="mailto:hello@learnedlate.com" data-cfemail=""
             @click="handleContactClick"
           >
             Start a Conversation

@@ -20,7 +20,7 @@
           </p>
           <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-2 sm:px-4">
             <Button as-child size="lg" class="bg-white text-gray-900 hover:bg-gray-100">
-              <a href="mailto:hello@learnedlate.com">
+              <a href="mailto:hello@learnedlate.com" data-cfemail="">
                 Start a Conversation
               </a>
             </Button>
@@ -195,7 +195,7 @@
               <CardHeader>
                 <div class="text-sm text-gray-500 mb-2">January 15, 2024</div>
                 <CardTitle class="text-lg font-medium text-gray-900">
-                  <router-link to="/blog/when-to-hire-fractional-cto" class="hover:text-gray-700">
+                  <router-link to="/blog/when_to_hire_your_first_cto_a_startup_founders_timing_guide/" class="hover:text-gray-700">
                     When to Hire a Fractional CTO
                   </router-link>
                 </CardTitle>
@@ -210,7 +210,7 @@
               <CardHeader>
                 <div class="text-sm text-gray-500 mb-2">February 1, 2024</div>
                 <CardTitle class="text-lg font-medium text-gray-900">
-                  <router-link to="/blog/mvp-development-best-practices" class="hover:text-gray-700">
+                  <router-link to="/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/" class="hover:text-gray-700">
                     MVP Development Best Practices
                   </router-link>
                 </CardTitle>
@@ -225,7 +225,7 @@
               <CardHeader>
                 <div class="text-sm text-gray-500 mb-2">February 15, 2024</div>
                 <CardTitle class="text-lg font-medium text-gray-900">
-                  <router-link to="/blog/technical-due-diligence-checklist" class="hover:text-gray-700">
+                  <router-link to="/blog/technical-due-diligence-checklist/" class="hover:text-gray-700">
                     Technical Due Diligence Checklist
                   </router-link>
                 </CardTitle>
@@ -265,7 +265,7 @@
               </router-link>
             </Button>
             <Button as-child>
-              <a href="mailto:hello@learnedlate.com">
+              <a href="mailto:hello@learnedlate.com" data-cfemail="">
                 Get in Touch
               </a>
             </Button>

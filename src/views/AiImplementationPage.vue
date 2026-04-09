@@ -33,7 +33,7 @@
 
           <div class="mt-8">
             <Button as-child size="lg" variant="secondary">
-              <a href="mailto:hello@learnedlate.com?subject=AI%20Readiness%20Assessment">Get Your Free AI Readiness Assessment</a>
+              <a href="mailto:hello@learnedlate.com?subject=AI%20Readiness%20Assessment" data-cfemail="">Get Your Free AI Readiness Assessment</a>
             </Button>
             <div class="text-gray-300 text-sm mt-2">15-minute call • 3 immediate opportunities identified • No fluff</div>
           </div>
@@ -209,7 +209,7 @@
                 <li>30-day support</li>
               </ul>
               <div class="text-xs text-gray-500 mt-2">Expected result: 10+ hours/week saved</div>
-              <a href="mailto:hello@learnedlate.com?subject=AI%20Kickstart" class="inline-block mt-4 bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm hover:bg-gray-800">Start Kickstart →</a>
+              <a href="mailto:hello@learnedlate.com?subject=AI%20Kickstart" data-cfemail="" class="inline-block mt-4 bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm hover:bg-gray-800">Start Kickstart →</a>
             </div>
             <div class="bg-white border border-gray-200 rounded-xl p-5 relative">
               <div class="absolute -top-3 right-3 text-xs bg-gray-900 text-white px-2 py-1 rounded">BEST VALUE</div>
@@ -225,7 +225,7 @@
                 <li>ROI tracking dashboard</li>
               </ul>
               <div class="text-xs text-gray-500 mt-2">Expected result: 40+ hours/week saved</div>
-              <a href="mailto:hello@learnedlate.com?subject=AI%2090-Day%20Transformation" class="inline-block mt-4 bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm hover:bg-gray-800">Transform Now →</a>
+              <a href="mailto:hello@learnedlate.com?subject=AI%2090-Day%20Transformation" data-cfemail="" class="inline-block mt-4 bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm hover:bg-gray-800">Transform Now →</a>
             </div>
             <div class="bg-white border border-gray-200 rounded-xl p-5">
               <h3 class="font-medium text-gray-900">Enterprise AI</h3>
@@ -239,7 +239,7 @@
                 <li>Ongoing optimization</li>
               </ul>
               <div class="text-xs text-gray-500 mt-2">Expected result: 30–50% efficiency gain</div>
-              <a href="mailto:hello@learnedlate.com?subject=Enterprise%20AI" class="inline-block mt-4 bg-white text-gray-900 border border-gray-300 px-5 py-2.5 rounded-md text-sm hover:bg-gray-50">Let's Talk →</a>
+              <a href="mailto:hello@learnedlate.com?subject=Enterprise%20AI" data-cfemail="" class="inline-block mt-4 bg-white text-gray-900 border border-gray-300 px-5 py-2.5 rounded-md text-sm hover:bg-gray-50">Let's Talk →</a>
             </div>
           </div>
           <div class="mt-8 border border-gray-200 rounded-xl p-5 bg-white">
@@ -322,7 +322,7 @@
               <div>✓ ROI calculation for each</div>
               <div>✓ Implementation roadmap</div>
             </div>
-            <a href="mailto:hello@learnedlate.com?subject=AI%20Readiness%20Assessment" class="inline-block mt-4 bg-gray-900 text-white px-6 py-3 rounded-md font-medium hover:bg-gray-800">Book Your Free Assessment →</a>
+            <a href="mailto:hello@learnedlate.com?subject=AI%20Readiness%20Assessment" data-cfemail="" class="inline-block mt-4 bg-gray-900 text-white px-6 py-3 rounded-md font-medium hover:bg-gray-800">Book Your Free Assessment →</a>
             <p class="text-gray-500 text-sm mt-2">🔥 January Special: Free ChatGPT Team setup ($2,000 value) with any package</p>
           </div>
         </div>

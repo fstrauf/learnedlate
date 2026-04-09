@@ -43,7 +43,7 @@
 
           <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Button as-child size="lg" variant="secondary">
-              <a href="mailto:hello@learnedlate.com?subject=Fractional%20CTO%20Services%20Discussion">
+              <a href="mailto:hello@learnedlate.com?subject=Fractional%20CTO%20Services%20Discussion" data-cfemail="">
                 Schedule a Confidential Discussion
               </a>
             </Button>
@@ -465,7 +465,7 @@
               <div class="text-sm text-gray-300">✓ 100% money-back guarantee</div>
             </div>
             <Button as-child size="lg" variant="secondary">
-              <a href="mailto:hello@learnedlate.com?subject=Fractional%20CTO%20Services%20Discussion">
+              <a href="mailto:hello@learnedlate.com?subject=Fractional%20CTO%20Services%20Discussion" data-cfemail="">
                 Schedule Your Confidential Discussion →
               </a>
             </Button>

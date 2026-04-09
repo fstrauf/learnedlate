@@ -18,7 +18,7 @@
               
               <div class="flex flex-col sm:flex-row gap-3 mt-8">
                 <Button as-child size="lg" variant="secondary">
-                  <a href="mailto:hello@learnedlate.com?subject=Free%20SAP%20Consultation">Book a Free Consultation</a>
+                  <a href="mailto:hello@learnedlate.com?subject=Free%20SAP%20Consultation" data-cfemail="">Book a Free Consultation</a>
                 </Button>
                 <Button as-child size="lg" variant="outline" class="border-white/30 text-white hover:bg-white/10">
                   <a href="#comparison">See the Comparison</a>
@@ -272,7 +272,7 @@
           <p class="text-gray-400 mb-8">Join the companies who've made the switch from Accenture to independent consulting. Book your free 30-minute consultation—no pitch, just an honest assessment of whether we're the right fit for your project.</p>
           
           <Button as-child size="lg" variant="secondary">
-            <a href="mailto:hello@learnedlate.com?subject=Free%20SAP%20Consultation">Book Your Free Consultation</a>
+            <a href="mailto:hello@learnedlate.com?subject=Free%20SAP%20Consultation" data-cfemail="">Book Your Free Consultation</a>
           </Button>
           
           <p class="text-gray-500 text-sm mt-4">No obligation. No sales team. Just a senior SAP architect ready to talk through your project.</p>

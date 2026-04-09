@@ -36,7 +36,7 @@
 
           <div class="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
             <Button as-child size="lg" variant="secondary">
-              <a href="mailto:hello@learnedlate.com?subject=SAP%20Consulting%20Firms%20-%20Free%20Consultation">Book a Free 30-Minute Consultation</a>
+              <a href="mailto:hello@learnedlate.com?subject=SAP%20Consulting%20Firms%20-%20Free%20Consultation" data-cfemail="">Book a Free 30-Minute Consultation</a>
             </Button>
             <Button as-child size="lg" variant="outline" class="border-white text-white hover:bg-white/10">
               <a href="/projects">View Project Case Studies</a>
@@ -355,7 +355,7 @@
           <p class="text-gray-400 mb-8">Already have proposals from SAP consulting firms? I'll review your requirements and provide an independent assessment—including whether the scope and pricing align with what your project actually needs. No obligation, no sales pitch.</p>
           
           <Button as-child size="lg" variant="secondary">
-            <a href="mailto:hello@learnedlate.com?subject=SAP%20Consulting%20Firms%20-%20Free%20Consultation">Schedule Your Free Consultation</a>
+            <a href="mailto:hello@learnedlate.com?subject=SAP%20Consulting%20Firms%20-%20Free%20Consultation" data-cfemail="">Schedule Your Free Consultation</a>
           </Button>
           
           <p class="text-gray-500 text-sm mt-4">Available for projects starting next quarter | 100% confidential | No spam, ever</p>

@@ -19,7 +19,7 @@
           </p>
           <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary" as-child>
-              <a href="mailto:hello@learnedlate.com?subject=SAP%20Custom%20Development%20Scoping%20Call%20Request">
+              <a href="mailto:hello@learnedlate.com?subject=SAP%20Custom%20Development%20Scoping%20Call%20Request" data-cfemail="">
                 Book a Scoping Call
               </a>
             </Button>
@@ -273,7 +273,7 @@
           </p>
           <div class="mt-8">
             <Button size="lg" variant="secondary" as-child>
-              <a href="mailto:hello@learnedlate.com?subject=SAP%20Custom%20Development%20Scoping%20Call%20Request">
+              <a href="mailto:hello@learnedlate.com?subject=SAP%20Custom%20Development%20Scoping%20Call%20Request" data-cfemail="">
                 Book Your Scoping Call
               </a>
             </Button>

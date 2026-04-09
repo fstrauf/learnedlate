@@ -42,7 +42,7 @@
               If you encounter any issues with your download or have questions about using the package, don't hesitate to reach out.
             </p>
             <a
-              href="mailto:hello@learnedlate.com?subject=SEO%20Automation%20Package%20Support"
+              href="mailto:hello@learnedlate.com?subject=SEO%20Automation%20Package%20Support" data-cfemail=""
               class="inline-block w-full sm:w-auto px-8 py-3 border border-white text-white font-medium rounded-md hover:bg-white/10 transition-colors text-center"
             >
               Contact Support
@@ -176,7 +176,7 @@
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:hello@learnedlate.com?subject=Payment%20Error"
+              href="mailto:hello@learnedlate.com?subject=Payment%20Error" data-cfemail=""
               class="px-6 py-3 bg-white text-gray-900 font-medium rounded-md hover:bg-gray-100 transition-colors"
             >
               Contact Support

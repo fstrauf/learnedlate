@@ -29,6 +29,13 @@ export const projects: Project[] = [
     imageUrl: 'https://www.supplylah.com/og-image.png',
     projectUrl: 'https://www.supplylah.com/',
   }),
+  createProject({
+    id: 10,
+    title: 'Pageseeds',
+    description: 'Help more people find your business online. PageSeeds reviews your site, picks the next best work, and sends clear drafts and page plans each month so your visibility can grow over time.',
+    imageUrl: 'https://www.pageseeds.com/og-image.png',
+    projectUrl: 'https://www.pageseeds.com/',
+  }),
     createProject({
     id: 2,
     title: 'The Good Cup Coffee',

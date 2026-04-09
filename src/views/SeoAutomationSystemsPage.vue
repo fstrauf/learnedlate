@@ -23,7 +23,7 @@
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="mailto:hello@learnedlate.com"
+              href="mailto:hello@learnedlate.com" data-cfemail=""
               class="bg-white text-gray-900 px-6 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors duration-200 text-center"
             >
               Start a Conversation
@@ -239,7 +239,7 @@
           Let's talk about your site and how an automation system could grow your organic traffic.
         </p>
         <a 
-          href="mailto:hello@learnedlate.com"
+          href="mailto:hello@learnedlate.com" data-cfemail=""
           class="inline-block bg-gray-900 text-white px-8 py-3 rounded-md font-medium hover:bg-gray-800 transition-colors duration-200"
         >
           Start a Conversation

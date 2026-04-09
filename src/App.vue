@@ -215,7 +215,7 @@
           <router-link to="/blog" class="hover:text-gray-900 hover:underline transition-colors">Blog</router-link>
           <router-link to="/cv" class="hover:text-gray-900 hover:underline transition-colors">CV</router-link>
          <a href="https://x.com/learnedlate" target="_blank" rel="noopener noreferrer" class="hover:text-gray-900 hover:underline transition-colors">Twitter</a>
-          <a :href="contactEmailHref" class="hover:text-gray-900 hover:underline transition-colors">Contact Me</a>
+          <a :href="contactEmailHref" data-cfemail="" class="hover:text-gray-900 hover:underline transition-colors">Contact Me</a>
         </nav>
 
         <!-- Mobile Footer Navigation -->
@@ -226,7 +226,7 @@
           <router-link to="/blog" class="hover:text-gray-900 hover:underline transition-colors">Blog</router-link>
           <router-link to="/cv" class="hover:text-gray-900 hover:underline transition-colors">CV</router-link>
          <a href="https://x.com/learnedlate" target="_blank" rel="noopener noreferrer" class="hover:text-gray-900 hover:underline transition-colors">Twitter</a>
-          <a :href="contactEmailHref" class="hover:text-gray-900 hover:underline transition-colors col-span-2">Contact Me</a>
+          <a :href="contactEmailHref" data-cfemail="" class="hover:text-gray-900 hover:underline transition-colors col-span-2">Contact Me</a>
         </nav>
 
         <div class="text-center">

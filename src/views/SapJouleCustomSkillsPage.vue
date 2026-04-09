@@ -19,7 +19,7 @@
           </p>
           <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary" as-child>
-              <a href="mailto:hello@learnedlate.com?subject=SAP%20Joule%20Skills%20Assessment%20Request">
+              <a href="mailto:hello@learnedlate.com?subject=SAP%20Joule%20Skills%20Assessment%20Request" data-cfemail="">
                 Schedule a Joule Skills Assessment
               </a>
             </Button>
@@ -280,12 +280,12 @@
           </p>
           <div class="mt-8">
             <Button size="lg" variant="secondary" as-child>
-              <a href="mailto:hello@learnedlate.com?subject=SAP%20Joule%20Skills%20Consultation%20Request">
+              <a href="mailto:hello@learnedlate.com?subject=SAP%20Joule%20Skills%20Consultation%20Request" data-cfemail="">
                 Book Your Joule Skills Consultation
               </a>
             </Button>
             <p class="text-gray-400 text-sm mt-3">
-              Or email directly at <a href="mailto:florian@learnedlate.com" class="underline">florian@learnedlate.com</a>
+              Or email directly at <a href="mailto:florian@learnedlate.com" class="underline" data-cfemail="">florian@learnedlate.com</a>
             </p>
             <p class="text-gray-500 text-xs mt-2">Free consultation • Typically responds within 24 hours • NZ-based SAP consultant</p>
           </div>

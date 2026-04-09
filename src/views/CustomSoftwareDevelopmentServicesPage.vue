@@ -26,6 +26,7 @@
             >
               <a 
                 href="mailto:hello@learnedlate.com?subject=Custom%20Software%20Services%20Consultation"
+                data-cfemail=""
               >
                 Schedule Free Consultation
               </a>
@@ -281,6 +282,7 @@
             >
               <a 
                 href="mailto:hello@learnedlate.com?subject=Custom%20Software%20Services%20Consultation"
+                data-cfemail=""
               >
                 Book Your Free Consultation
               </a>

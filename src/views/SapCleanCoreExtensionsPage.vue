@@ -19,7 +19,7 @@
           </p>
           <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary" as-child>
-              <a href="mailto:hello@learnedlate.com?subject=SAP%20Clean%20Core%20Assessment%20Request">
+              <a href="mailto:hello@learnedlate.com?subject=SAP%20Clean%20Core%20Assessment%20Request" data-cfemail="">
                 Book Clean Core Assessment
               </a>
             </Button>
@@ -252,14 +252,14 @@
           </p>
           <div class="mt-8">
             <Button size="lg" variant="secondary" as-child>
-              <a href="mailto:hello@learnedlate.com?subject=SAP%20Clean%20Core%20Assessment%20Request">
+              <a href="mailto:hello@learnedlate.com?subject=SAP%20Clean%20Core%20Assessment%20Request" data-cfemail="">
                 Get Your Free Clean Core Assessment
               </a>
             </Button>
             <p class="text-gray-400 text-sm mt-3">
               No commitment required. Delivered by certified SAP BTP architects.
             </p>
-            <p class="text-gray-500 text-xs mt-2">Or email directly at <a href="mailto:florian@learnedlate.com" class="underline">florian@learnedlate.com</a></p>
+            <p class="text-gray-500 text-xs mt-2">Or email directly at <a href="mailto:florian@learnedlate.com" class="underline" data-cfemail="">florian@learnedlate.com</a></p>
           </div>
         </div>
       </div>

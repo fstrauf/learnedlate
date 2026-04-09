@@ -238,7 +238,8 @@ const route = useRoute()
 const isSSR = typeof window === 'undefined'
 
 // Try to load post data immediately for SSR
-const slug = route.params.slug as string
+// Normalize slug: remove trailing slashes for consistent lookup
+const slug = (route.params.slug as string).replace(/\/$/, '')
 const initialPostData = isSSR ? (getBlogPostBySlug(slug) ?? null) : null
 
 const loading = ref(!isSSR && !initialPostData)
@@ -349,7 +350,8 @@ const articleSchema = computed(() => {
 
 onMounted(async () => {
   try {
-    const slug = route.params.slug as string
+    // Normalize slug: remove trailing slashes for consistent lookup
+    const slug = (route.params.slug as string).replace(/\/$/, '')
     // Load full post content including markdown
     const postData = loadPostContent(slug)
     
@@ -371,9 +373,11 @@ watch(
   () => route.params.slug,
   (newSlug) => {
     if (!newSlug || typeof newSlug !== 'string') return
+    // Normalize slug: remove trailing slashes for consistent lookup
+    const normalizedSlug = newSlug.replace(/\/$/, '')
     loading.value = true
     error.value = null
-    const postData = loadPostContent(newSlug)
+    const postData = loadPostContent(normalizedSlug)
     if (postData) {
       post.value = postData
       // scroll to top on article change

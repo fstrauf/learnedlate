@@ -41,7 +41,7 @@
 
           <div class="mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <Button as-child size="lg" variant="secondary">
-              <a href="mailto:florian@learnedlate.com?subject=SAP%20BTP%20Consultant%20New%20Zealand%20-%20Discovery%20Call">
+              <a href="mailto:florian@learnedlate.com?subject=SAP%20BTP%20Consultant%20New%20Zealand%20-%20Discovery%20Call" data-cfemail="">
                 Book a Local Discovery Call
               </a>
             </Button>
@@ -293,12 +293,12 @@
           </p>
           <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <Button as-child size="lg" variant="secondary">
-              <a href="mailto:florian@learnedlate.com?subject=SAP%20BTP%20Consultant%20New%20Zealand%20-%20Discovery%20Call">
+              <a href="mailto:florian@learnedlate.com?subject=SAP%20BTP%20Consultant%20New%20Zealand%20-%20Discovery%20Call" data-cfemail="">
                 Book a Local Discovery Call
               </a>
             </Button>
             <Button as-child size="lg" variant="outline" class="border-white/30 text-white hover:bg-white/10 bg-transparent">
-              <a href="mailto:florian@learnedlate.com">
+              <a href="mailto:florian@learnedlate.com" data-cfemail="">
                 Prefer email? Contact florian@learnedlate.com
               </a>
             </Button>

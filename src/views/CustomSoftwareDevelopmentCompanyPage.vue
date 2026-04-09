@@ -19,7 +19,7 @@
           </p>
           <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Button as-child size="lg" variant="secondary">
-              <a href="mailto:hello@learnedlate.com?subject=Custom%20Software%20Development%20Discovery%20Call">
+              <a href="mailto:hello@learnedlate.com?subject=Custom%20Software%20Development%20Discovery%20Call" data-cfemail="">
                 Book a Free Discovery Call
               </a>
             </Button>
@@ -258,7 +258,7 @@
           </p>
           <div class="mt-8">
             <Button as-child size="lg" variant="secondary">
-              <a href="mailto:hello@learnedlate.com?subject=Custom%20Software%20Development%20Discovery%20Call">
+              <a href="mailto:hello@learnedlate.com?subject=Custom%20Software%20Development%20Discovery%20Call" data-cfemail="">
                 Book Your Free Discovery Call
               </a>
             </Button>
