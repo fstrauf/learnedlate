@@ -185,8 +185,6 @@ import LeadMagnetCapture from '../components/LeadMagnetCapture.vue'
 import {
   Card,
   CardContent,
-  CardHeader,
-  CardTitle,
 } from '@/components/ui/card'
 import {
   Users,

@@ -43,7 +43,7 @@
           id="message"
           v-model="form.message"
           placeholder="Tell us about your project or questions..."
-          rows="5"
+          :rows="5"
           required
           :disabled="isSubmitting"
         />

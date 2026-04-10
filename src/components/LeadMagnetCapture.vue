@@ -63,7 +63,7 @@ import {
 } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
-import { Download, Loader2, CheckCircle, FileText } from 'lucide-vue-next'
+import { Download, Loader2, CheckCircle } from 'lucide-vue-next'
 
 interface Props {
   title?: string
