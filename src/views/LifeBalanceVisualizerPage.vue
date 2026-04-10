@@ -5,7 +5,7 @@
       description="An interactive tool to visualize and explore the balance between future striving and present life enjoyment. Find your optimal life balance."
       url="/life-balance-visualizer/"
     />
-    <router-link to="/projects" class="text-blue-600 hover:text-blue-800 hover:underline mb-4 sm:mb-6 inline-block text-sm sm:text-base">&larr; Back to Projects</router-link>
+    <router-link to="/projects" class="text-amber-700 hover:text-amber-900 hover:underline mb-4 sm:mb-6 inline-block text-sm sm:text-base">&larr; Back to Projects</router-link>
     
     <h1 class="text-2xl sm:text-3xl font-bold text-center mb-6 sm:mb-8 text-gray-800">
       Life Balance Visualizer
@@ -107,7 +107,7 @@
             <span>💼 Businessman</span>
           </div>
           
-          <div class="relative w-full h-8 bg-gradient-to-r from-blue-200 via-green-200 to-red-200 rounded-full">
+          <div class="relative w-full h-8 bg-gradient-to-r from-gray-200 via-amber-200 to-red-200 rounded-full">
             <div 
               :class="`absolute top-0 h-8 w-4 ${zoneColor} rounded-full border-2 border-white shadow-lg transition-all duration-500`"
               :style="{ 
@@ -146,13 +146,13 @@
 
         <!-- Quick Stats -->
         <div class="mt-6 grid grid-cols-2 gap-4">
-          <div class="bg-blue-50 p-3 rounded">
-            <div class="text-sm text-blue-600 font-medium">Fisherman Qualities</div>
-            <div class="text-xl font-bold text-blue-800">
+          <div class="bg-amber-50 p-3 rounded">
+            <div class="text-sm text-amber-600 font-medium">Fisherman Qualities</div>
+            <div class="text-xl font-bold text-amber-800">
               {{ Math.max(0, Math.round((100 - overallBalance) / 2)) }}%
             </div>
           </div>
-          <div class="bg-red-50 p-3 rounded">
+          <div class="bg-gray-50 p-3 rounded">
             <div class="text-sm text-red-600 font-medium">Businessman Qualities</div>
             <div class="text-xl font-bold text-red-800">
               {{ Math.max(0, Math.round((100 + overallBalance) / 2)) }}%
@@ -167,45 +167,45 @@
       <h3 class="text-lg sm:text-xl font-semibold mb-4 text-gray-700">Rebalancing Suggestions</h3>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         <template v-if="balanceZone === 'businessman'">
-          <div class="p-4 bg-yellow-50 rounded border-l-4 border-yellow-400">
+          <div class="p-4 bg-gray-50 rounded border-l-4 border-gray-400">
             <h4 class="font-semibold text-yellow-800">Reduce Stress</h4>
             <p class="text-sm text-yellow-700">Consider delegating, saying no to commitments, or taking short breaks throughout the day.</p>
           </div>
-          <div class="p-4 bg-yellow-50 rounded border-l-4 border-yellow-400">
+          <div class="p-4 bg-gray-50 rounded border-l-4 border-gray-400">
             <h4 class="font-semibold text-yellow-800">Invest in Relationships</h4>
             <p class="text-sm text-yellow-700">Schedule regular family time and stick to it like an important meeting.</p>
           </div>
-          <div class="p-4 bg-yellow-50 rounded border-l-4 border-yellow-400">
+          <div class="p-4 bg-gray-50 rounded border-l-4 border-gray-400">
             <h4 class="font-semibold text-yellow-800">Present Moment</h4>
             <p class="text-sm text-yellow-700">Take some "retirement time" now - what small pleasures can you enjoy today?</p>
           </div>
         </template>
         
         <template v-if="balanceZone === 'fisherman'">
-          <div class="p-4 bg-orange-50 rounded border-l-4 border-orange-400">
-            <h4 class="font-semibold text-orange-800">Build Security</h4>
-            <p class="text-sm text-orange-700">Start with a small emergency fund - even $500 can make a difference.</p>
+          <div class="p-4 bg-amber-50 rounded border-l-4 border-amber-400">
+            <h4 class="font-semibold text-amber-800">Build Security</h4>
+            <p class="text-sm text-amber-700">Start with a small emergency fund - even $500 can make a difference.</p>
           </div>
-          <div class="p-4 bg-orange-50 rounded border-l-4 border-orange-400">
-            <h4 class="font-semibold text-orange-800">Future Planning</h4>
-            <p class="text-sm text-orange-700">Consider what "future you" needs and make small steps toward those goals.</p>
+          <div class="p-4 bg-amber-50 rounded border-l-4 border-amber-400">
+            <h4 class="font-semibold text-amber-800">Future Planning</h4>
+            <p class="text-sm text-amber-700">Consider what "future you" needs and make small steps toward those goals.</p>
           </div>
-          <div class="p-4 bg-orange-50 rounded border-l-4 border-orange-400">
-            <h4 class="font-semibold text-orange-800">Skill Investment</h4>
-            <p class="text-sm text-orange-700">Dedicate some time to maintaining or developing marketable skills.</p>
+          <div class="p-4 bg-amber-50 rounded border-l-4 border-amber-400">
+            <h4 class="font-semibold text-amber-800">Skill Investment</h4>
+            <p class="text-sm text-amber-700">Dedicate some time to maintaining or developing marketable skills.</p>
           </div>
         </template>
         
         <template v-if="balanceZone === 'balanced'">
-          <div class="p-4 bg-green-50 rounded border-l-4 border-green-400">
+          <div class="p-4 bg-gray-50 rounded border-l-4 border-gray-400">
             <h4 class="font-semibold text-green-800">Stay Aware</h4>
             <p class="text-sm text-green-700">Regularly check in with yourself - balance needs adjust with life changes.</p>
           </div>
-          <div class="p-4 bg-green-50 rounded border-l-4 border-green-400">
+          <div class="p-4 bg-gray-50 rounded border-l-4 border-gray-400">
             <h4 class="font-semibold text-green-800">Life Phases</h4>
             <p class="text-sm text-green-700">Remember that different life phases may require different balances.</p>
           </div>
-          <div class="p-4 bg-green-50 rounded border-l-4 border-green-400">
+          <div class="p-4 bg-gray-50 rounded border-l-4 border-gray-400">
             <h4 class="font-semibold text-green-800">Fine-tune</h4>
             <p class="text-sm text-green-700">Look for small optimizations rather than major overhauls.</p>
           </div>
@@ -275,19 +275,19 @@ const updateBalance = () => {
 watch(sliderValues, updateBalance, { deep: true, immediate: true });
 
 const zoneColor = computed(() => {
-  if (balanceZone.value === 'fisherman') return 'bg-blue-500';
-  if (balanceZone.value === 'businessman') return 'bg-red-500';
-  return 'bg-green-500';
+  if (balanceZone.value === 'fisherman') return 'bg-amber-500';
+  if (balanceZone.value === 'businessman') return 'bg-gray-700';
+  return 'bg-gray-500';
 });
 
 const zoneStyles = computed(() => {
   if (balanceZone.value === 'fisherman') {
-    return { bgColor: 'bg-blue-50', borderColor: 'border-blue-200' };
+    return { bgColor: 'bg-amber-50', borderColor: 'border-amber-200' };
   }
   if (balanceZone.value === 'businessman') {
-    return { bgColor: 'bg-red-50', borderColor: 'border-red-200' };
+    return { bgColor: 'bg-gray-50', borderColor: 'border-gray-200' };
   }
-  return { bgColor: 'bg-green-50', borderColor: 'border-green-200' };
+  return { bgColor: 'bg-gray-50', borderColor: 'border-gray-200' };
 });
 
 const zone = computed(() => {

@@ -59,11 +59,11 @@
               <ul class="space-y-3 text-gray-300">
                 <li class="flex items-start gap-3">
                   <span class="text-green-400 mt-1">✓</span>
-                  <span><a href="https://code.visualstudio.com" target="_blank" class="text-blue-300 hover:text-blue-200 underline">VS Code</a> — Free code editor (download if needed)</span>
+                  <span><a href="https://code.visualstudio.com" target="_blank" class="text-amber-300 hover:text-amber-200 underline">VS Code</a> — Free code editor (download if needed)</span>
                 </li>
                 <li class="flex items-start gap-3">
                   <span class="text-green-400 mt-1">✓</span>
-                  <span><a href="https://github.com/features/copilot" target="_blank" class="text-blue-300 hover:text-blue-200 underline">GitHub Copilot</a> — Free tier available for personal use</span>
+                  <span><a href="https://github.com/features/copilot" target="_blank" class="text-amber-300 hover:text-amber-200 underline">GitHub Copilot</a> — Free tier available for personal use</span>
                 </li>
               </ul>
             </div>
@@ -128,19 +128,19 @@
               <p class="text-gray-300 text-sm mb-4">After setup, your project folder includes:</p>
               <ul class="space-y-2 text-gray-300 text-sm">
                 <li class="flex items-start gap-2">
-                  <span class="text-blue-300">→</span>
+                  <span class="text-amber-300">→</span>
                   <span>Pre-built folder structure for organizing your SEO workflow</span>
                 </li>
                 <li class="flex items-start gap-2">
-                  <span class="text-blue-300">→</span>
+                  <span class="text-amber-300">→</span>
                   <span>4 prompts for keyword research, content creation, linking, and validation</span>
                 </li>
                 <li class="flex items-start gap-2">
-                  <span class="text-blue-300">→</span>
+                  <span class="text-amber-300">→</span>
                   <span>Automation tools powered by GitHub Copilot</span>
                 </li>
                 <li class="flex items-start gap-2">
-                  <span class="text-blue-300">→</span>
+                  <span class="text-amber-300">→</span>
                   <span>Complete documentation and examples</span>
                 </li>
               </ul>

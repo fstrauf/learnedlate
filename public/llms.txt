@@ -1,34 +1,92 @@
 # LearnedLate
 
-> Strategic technical consulting for New Zealand startups. Fractional CTO services, custom software development, and AI automation to accelerate growth.
+> AI Strategy-to-Execution Consultancy for New Zealand and Australian Mid-Market Businesses. Don't Get Left Behind by AI. Turn Strategy into Working Systems.
+
+## About
+
+LearnedLate helps NZ and Australian businesses move from AI confusion to measurable results. We provide end-to-end accountability—from initial readiness assessment through deployed, production-ready AI systems.
+
+**Our Difference:** We don't just advise. We build. We don't just code. We align. Most consultancies leave you with a PowerPoint. Most developers need detailed requirements. We bridge the gap.
 
 ## Core Services
 
-- [Fractional CTO Services](https://www.learnedlate.com/fractional-cto-services/): Part-time CTO leadership for startups without full-time cost. Strategic technical guidance, team leadership, and investor-ready advisory.
-- [Custom Software Development](https://www.learnedlate.com/custom-software-development/): AI-accelerated development for NZ businesses. From concept to production in weeks, not months.
-- [MVP Development](https://www.learnedlate.com/mvp-development/): 8-week startup MVP builds. Validate your idea fast with a working product.
-- [AI Automation](https://www.learnedlate.com/ai-implementation/): Business process automation and AI integration to save 10+ hours per week.
-- [Technical Due Diligence](https://www.learnedlate.com/fractional-cto-services/): Investor-grade technical assessments for startups and VCs.
+### AI Readiness Assessment
+Comprehensive four-dimension evaluation (People, Process, Technology, Data) that tells you exactly what you're ready for, what needs work, and where to start for maximum impact.
 
-## Key Resources
+- Scored assessment across 4 dimensions
+- Prioritized opportunity map
+- Written summary within 48 hours
+- NZ AI Advisory Pilot co-funding eligible (50% up to $15K)
+- Investment: $7.5K–$15K (NZ), $10K–$30K (AU)
 
-- [Blog](https://www.learnedlate.com/blog/): 80+ articles on startup technology leadership, AI automation, and software development for NZ businesses
-- [What is a Fractional CTO? Complete Guide](https://www.learnedlate.com/blog/2025-06-22-what-is-fractional-cto-complete-guide/): Comprehensive guide to fractional CTO services in New Zealand
-- [Custom Software Development Guide](https://www.learnedlate.com/blog/what-is-custom-software-development-complete-guide/): When to build vs buy, NZD costs, and mistakes to avoid
-- [How to Build an MVP](https://www.learnedlate.com/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/): Step-by-step guide for startup founders
-- [Startup Runway Calculator](https://www.learnedlate.com/blog/startup_runway_calculator_nz_template/): Free NZD template to plan your cash runway
-- [Technical Due Diligence Checklist](https://www.learnedlate.com/blog/technical-due_diligence_checklist/): CTO's complete guide for investors and founders
+### Agentic Workflow Implementation
+Deploy autonomous AI systems that handle complete business processes end-to-end—not just chatbots, but multi-step, decision-capable agents.
 
-## About the Author
+- Workflow mapping and pain point identification
+- 2-week prototype → 90-day pilot
+- Integration with existing systems
+- Continuous improvement built-in
 
-[Florian Strauf](https://www.learnedlate.com/) is a fractional CTO and technical consultant based in Auckland, New Zealand. With experience across startups, enterprise, and Web3, he helps NZ businesses make smart technology decisions and build better software faster.
+### Custom AI Development
+Tailored AI tools when off-the-shelf isn't enough. We build custom only when commercial solutions are demonstrably insufficient.
+
+- Specialized model training
+- Unique integration architectures
+- Deployment and monitoring
+- Scope discipline guaranteed
+
+### Full-Stack AI Delivery
+The complete journey from discovery through optimization. Single-point accountability from assessment to production.
+
+- Five-phase journey: Discover → Map → Plan → Build → Optimize
+- Same expertise from first conversation to production
+- Outcome-based measurement
+- Transparent reporting throughout
+
+## Who We Help
+
+- **Growing Teams (<50):** Focused AI workflow sprints, fast results, fixed price, NZ co-funding eligible
+- **Mid-Market (50–500):** Full assessment, strategy, and phased implementation—our primary focus
+- **Enterprise (500+):** Transformation programs with governance frameworks and multi-year roadmaps
+
+## Key Stats
+
+- 87% of NZ businesses use AI, but only 12% have scaled it effectively
+- 95% enterprise pilot failure rate (MIT NANDA 2025)
+- +47% ROI for early movers, -14% to -43% for late adopters
+- NZ AI Advisory Pilot: 50% co-funding available (up to $15K)
+
+## Resources
+
+- [Blog](https://learnedlate.com/blog/): Insights on AI adoption in ANZ
+- [AI Readiness Checklist](https://learnedlate.com/ai-readiness-checklist/): 15 questions every board should ask
+- [Case Studies](https://learnedlate.com/case-studies/): Real-world implementation results
 
 ## Contact
 
-- Email: hello@learnedlate.com
-- LinkedIn: https://linkedin.com/in/florianstrauf
-- Location: Auckland, New Zealand (serving NZ-wide)
+- **Book a Free AI Readiness Assessment:** https://learnedlate.com/contact/
+- **Email:** hello@learnedlate.com
+- **Location:** New Zealand & Australia
+- **Twitter:** https://x.com/learnedlate
+
+## Key Principles
+
+1. **Outcome-first:** Lead every engagement with business results, not technical capability
+2. **C-suite readable:** Every headline should be understood without technical background
+3. **Specificity:** Use numbers, timeframes, and dollar amounts—not vague claims
+4. **Honesty:** "If the answer is 'you don't need AI right now,' we'll tell you that too."
+5. **Dual fluency:** We speak both business and technical natively
 
 ## Sitemap
 
-- [Sitemap](https://www.learnedlate.com/sitemap.xml)
+- [Home](https://learnedlate.com/)
+- [Services](https://learnedlate.com/services/)
+- [AI Readiness Assessment](https://learnedlate.com/services/ai-readiness/)
+- [Agentic Workflows](https://learnedlate.com/services/agentic-workflows/)
+- [Custom AI Development](https://learnedlate.com/services/custom-ai-development/)
+- [Full-Stack Delivery](https://learnedlate.com/services/full-stack-delivery/)
+- [About](https://learnedlate.com/about/)
+- [Contact](https://learnedlate.com/contact/)
+- [Blog](https://learnedlate.com/blog/)
+- [Case Studies](https://learnedlate.com/case-studies/)
+- [Sitemap XML](https://learnedlate.com/sitemap.xml)

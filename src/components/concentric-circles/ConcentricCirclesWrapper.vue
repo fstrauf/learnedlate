@@ -6,7 +6,7 @@
       <Button 
         @click="toggleLabels"
         :variant="showLabels ? 'default' : 'secondary'"
-        :class="showLabels ? 'bg-blue-600 text-white hover:bg-blue-700' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'"
+        :class="showLabels ? 'bg-amber-600 text-white hover:bg-amber-700' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'"
       >
         {{ showLabels ? 'Hide' : 'Show' }} Labels
       </Button>
@@ -25,7 +25,7 @@
             :cy="0" 
             :r="circle.radius" 
             fill="none" 
-            :stroke="circle.id === focusedCircleId ? '#3B82F6' : circle.color" 
+            :stroke="circle.id === focusedCircleId ? '#D97706' : circle.color" 
             :stroke-width="(circle.id === focusedCircleId ? 1.5 : 1) / currentScale"  
           />
           <text 
@@ -34,7 +34,7 @@
             :y="-circle.radius - 5 / currentScale" 
             :font-size="10 / currentScale"
             text-anchor="middle"
-            :fill="(circle.id === focusedCircleId && !showLabels) || (circle.id === focusedCircleId && showLabels) ? '#2563EB' : '#334155'"
+            :fill="(circle.id === focusedCircleId && !showLabels) || (circle.id === focusedCircleId && showLabels) ? '#B45309' : '#334155'"
             :font-weight="(circle.id === focusedCircleId && !showLabels) || (circle.id === focusedCircleId && showLabels) ? 'bold' : 'normal'"
           >
             {{ getDynamicLabel(circle) }}

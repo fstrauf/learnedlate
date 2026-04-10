@@ -6,7 +6,7 @@
       url="/concentric-circles/"
     />
     <div class="container mx-auto px-2 sm:px-4 lg:px-6">
-      <router-link to="/projects" class="text-blue-600 hover:text-blue-800 hover:underline mb-4 sm:mb-6 inline-block text-sm sm:text-base">&larr; Back to Projects</router-link>
+      <router-link to="/projects" class="text-amber-700 hover:text-amber-900 hover:underline mb-4 sm:mb-6 inline-block text-sm sm:text-base">&larr; Back to Projects</router-link>
       <ConcentricCirclesWrapper />
     </div>
   </div>

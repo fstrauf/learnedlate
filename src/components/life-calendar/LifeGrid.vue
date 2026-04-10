@@ -255,13 +255,13 @@ const getItemClass = (itemIndex: number): string => {
   const state = itemStates.value[itemIndex - 1] || STATE_FUTURE; 
   switch (state) {
     case STATE_ELAPSED:
-      return 'bg-blue-800';
+      return 'bg-gray-800';
     case STATE_TIME_OFF:
-      return 'bg-green-400'; // Keep retirement and time off same color for now
+      return 'bg-amber-400'; // Keep retirement and time off same color for now
     case STATE_RUNWAY:
-      return 'bg-blue-400';
+      return 'bg-gray-400';
     case STATE_RETIREMENT:
-      return 'bg-green-400'; // Keep retirement and time off same color for now
+      return 'bg-amber-400'; // Keep retirement and time off same color for now
     case STATE_FUTURE:
     default:
       return 'bg-white';

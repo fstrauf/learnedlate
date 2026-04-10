@@ -15,7 +15,7 @@
         Your payment was cancelled. No charges have been made to your account.
       </p>
       <div class="space-x-4">
-        <router-link to="/" class="inline-block px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors">
+        <router-link to="/" class="inline-block px-6 py-2 bg-amber-600 hover:bg-amber-700 text-white font-medium rounded-lg transition-colors">
           Return Home
         </router-link>
       </div>
