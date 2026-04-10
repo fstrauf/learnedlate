@@ -1,252 +1,494 @@
 <template>
-  <div class="services-page overflow-x-hidden">
-    <SEOHead
-      title="Fractional CTO & AI Development Services"
-      description="Expert AI-accelerated development, fractional CTO services, SAP consulting, and technical due diligence for New Zealand businesses. Get your MVP built faster and smarter."
+  <div class="services-page">
+    <SEOHead 
+      title="Services – AI Strategy & Implementation | LearnedLate"
+      description="AI Readiness Assessment, Agentic Workflow Implementation, Custom AI Development, and Full-Stack AI Delivery for NZ & Australian mid-market businesses."
       url="/services"
+      type="website"
       :schema="servicesSchema"
     />
-
-    <section class="bg-gradient-to-r from-gray-50 to-gray-100 py-12 sm:py-16">
-              <div class="container mx-auto px-2 sm:px-4 lg:px-6">
+    
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-16 sm:py-24">
+      <div class="container mx-auto px-4 lg:px-6">
         <div class="max-w-4xl mx-auto text-center">
-          <h1 class="text-3xl sm:text-4xl md:text-5xl font-light text-gray-900 mb-6">
-            Strategic Technology Solutions That Drive Business Results
+          <h1 class="text-3xl sm:text-4xl md:text-5xl font-light mb-6 leading-tight">
+            Turn AI Strategy into Working Systems
           </h1>
-          <p class="text-lg sm:text-xl text-gray-600 mb-8 leading-relaxed px-2">
-            From SEO automation systems to AI-accelerated MVPs and fractional CTO work, I focus on engagements designed to deliver measurable ROI.
+          <p class="text-lg sm:text-xl text-gray-300 mb-8 leading-relaxed max-w-3xl mx-auto">
+            From initial readiness assessment through to deployed, production-ready AI systems—we provide end-to-end accountability without the handoff gaps.
           </p>
-          <div class="flex flex-wrap justify-center gap-3 sm:gap-4 text-sm text-gray-500 px-4">
-            <Badge variant="secondary">AI-Accelerated</Badge>
-            <Badge variant="secondary">New Zealand Based</Badge>
-            <Badge variant="secondary">Rapid Prototyping</Badge>
-            <Badge variant="secondary">Results Focused</Badge>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button as-child size="lg" variant="secondary">
+              <router-link to="/contact">
+                Book a Free AI Readiness Assessment
+              </router-link>
+            </Button>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="py-12 sm:py-16 bg-white">
-              <div class="container mx-auto px-2 sm:px-4 lg:px-6">
-        <div class="max-w-4xl mx-auto">
-          <div class="grid grid-cols-1 gap-8 sm:gap-12">
-
-            <!-- Pillar 1: SEO Automation Systems -->
-            <Card id="seo-automation" class="relative">
+    <!-- Service Cards Section -->
+    <section class="py-16 sm:py-20">
+      <div class="container mx-auto px-4 lg:px-6">
+        <div class="max-w-6xl mx-auto">
+          <div class="text-center mb-12">
+            <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-4">
+              Our Services
+            </h2>
+            <p class="text-gray-600 text-lg max-w-2xl mx-auto">
+              Four ways we help businesses move from AI confusion to measurable results
+            </p>
+          </div>
+          
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+            <!-- AI Readiness Assessment -->
+            <Card class="group hover:shadow-lg transition-shadow duration-300">
               <CardHeader>
-                <CardTitle class="text-xl sm:text-2xl font-light">SEO Automation Systems</CardTitle>
-              </CardHeader>
-              <CardContent class="space-y-4">
-                <p class="text-gray-600 leading-relaxed text-sm sm:text-base">
-                  Build SEO automation systems that use your existing content, Google Search Console data, and AI workflows to grow organic traffic. For developers and founders who treat SEO like an engineering system—not a marketing afterthought.
-                </p>
-                <div class="flex flex-wrap gap-2">
-                  <Badge variant="secondary">Git-based workflows</Badge>
-                  <Badge variant="secondary">GSC data pipelines</Badge>
-                  <Badge variant="secondary">AI content specs</Badge>
+                <div class="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-amber-200 transition-colors">
+                  <ClipboardCheck class="w-6 h-6 text-amber-600" />
                 </div>
+                <CardTitle class="text-xl">AI Readiness Assessment</CardTitle>
+                <CardDescription>
+                  Know where you stand before you invest
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p class="text-gray-600 mb-4">
+                  A comprehensive four-dimension evaluation (People, Process, Technology, Data) that gives you a clear picture of your organization's AI readiness and a prioritized opportunity map.
+                </p>
+                <ul class="space-y-2 text-sm text-gray-600">
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Scored assessment across 4 dimensions
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Prioritized opportunity map
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Written summary within 48 hours
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    NZ AI Advisory Pilot co-funding eligible
+                  </li>
+                </ul>
               </CardContent>
-              <CardFooter class="border-t border-gray-100 pt-4">
-                <Button as-child variant="outline">
-                  <router-link to="/services/seo-automation">Learn More About SEO Automation</router-link>
+              <CardFooter>
+                <Button as-child variant="outline" class="w-full">
+                  <router-link to="/services/ai-readiness">
+                    Learn More
+                  </router-link>
                 </Button>
               </CardFooter>
             </Card>
 
-            <!-- Pillar 2: AI-Accelerated MVPs & Internal Tools -->
-            <Card id="ai-accelerated-mvps" class="relative">
+            <!-- Agentic Workflow Implementation -->
+            <Card class="group hover:shadow-lg transition-shadow duration-300">
               <CardHeader>
-                <CardTitle class="text-xl sm:text-2xl font-light">AI-Accelerated MVPs & Internal Tools</CardTitle>
-              </CardHeader>
-              <CardContent class="space-y-4">
-                <p class="text-gray-600 leading-relaxed text-sm sm:text-base">
-                  You have a software idea but need to get to market quickly without sacrificing quality. I combine deep architectural experience with modern AI tools to build your market-ready MVP in as little as 8 weeks.
-                </p>
-                <div class="flex flex-wrap gap-2">
-                  <Badge variant="secondary">8-week MVP</Badge>
-                  <Badge variant="secondary">Full-stack development</Badge>
-                  <Badge variant="secondary">AI-accelerated</Badge>
+                <div class="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-amber-200 transition-colors">
+                  <Bot class="w-6 h-6 text-amber-600" />
                 </div>
+                <CardTitle class="text-xl">Agentic Workflow Implementation</CardTitle>
+                <CardDescription>
+                  Autonomous systems that handle complete business processes
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p class="text-gray-600 mb-4">
+                  Deploy AI agents that don't just assist—they take action. Multi-step, decision-capable systems that integrate with your existing tools and handle complete workflows end-to-end.
+                </p>
+                <ul class="space-y-2 text-sm text-gray-600">
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    End-to-end autonomous workflows
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Integration with existing systems
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    2-week prototype → 90-day pilot
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Continuous improvement built-in
+                  </li>
+                </ul>
               </CardContent>
-              <CardFooter class="border-t border-gray-100 pt-4">
-                <Button as-child variant="outline">
-                  <router-link to="/mvp-development">Learn More About MVP Development</router-link>
+              <CardFooter>
+                <Button as-child variant="outline" class="w-full">
+                  <router-link to="/services/agentic-workflows">
+                    Learn More
+                  </router-link>
                 </Button>
               </CardFooter>
             </Card>
 
-            <!-- Pillar 3: Solution Architecture & Fractional CTO -->
-            <Card id="fractional-cto" class="relative">
+            <!-- Custom AI Development -->
+            <Card class="group hover:shadow-lg transition-shadow duration-300">
               <CardHeader>
-                <CardTitle class="text-xl sm:text-2xl font-light">Fractional CTO</CardTitle>
-              </CardHeader>
-              <CardContent class="space-y-4">
-                <p class="text-gray-600 leading-relaxed text-sm sm:text-base">
-                  Strategic technology leadership for growing businesses. I provide the expertise of a full-time CTO on a fractional basis—perfect for scaling startups and established companies.
-                </p>
-                <div class="flex flex-wrap gap-2">
-                  <Badge variant="secondary">Technical roadmap</Badge>
-                  <Badge variant="secondary">Team leadership</Badge>
-                  <Badge variant="secondary">Investor readiness</Badge>
+                <div class="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-amber-200 transition-colors">
+                  <Code class="w-6 h-6 text-amber-600" />
                 </div>
+                <CardTitle class="text-xl">Custom AI Development</CardTitle>
+                <CardDescription>
+                  Tailored AI tools when off-the-shelf isn't enough
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p class="text-gray-600 mb-4">
+                  Specialized model training, unique integration requirements, or competitive differentiation needs. We build custom AI solutions when commercial options are demonstrably insufficient.
+                </p>
+                <ul class="space-y-2 text-sm text-gray-600">
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Specialized model training
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Unique integration architectures
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Deployment and monitoring
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Built only when justified
+                  </li>
+                </ul>
               </CardContent>
-              <CardFooter class="border-t border-gray-100 pt-4">
-                <Button as-child variant="outline">
-                  <router-link to="/fractional-cto">Learn More About Fractional CTO</router-link>
+              <CardFooter>
+                <Button as-child variant="outline" class="w-full">
+                  <router-link to="/services/custom-ai-development">
+                    Learn More
+                  </router-link>
                 </Button>
               </CardFooter>
             </Card>
 
-            <!-- SAP Solution Architecture -->
-            <Card id="sap-architecture" class="relative">
+            <!-- Full-Stack AI Delivery -->
+            <Card class="group hover:shadow-lg transition-shadow duration-300">
               <CardHeader>
-                <CardTitle class="text-xl sm:text-2xl font-light">SAP Solution Architecture</CardTitle>
-              </CardHeader>
-              <CardContent class="space-y-4">
-                <p class="text-gray-600 leading-relaxed text-sm sm:text-base">
-                  Strategic architecture services for SAP landscapes. S/4HANA transformation planning, system integration design, and architecture governance for enterprise systems.
-                </p>
-                <div class="flex flex-wrap gap-2">
-                  <Badge variant="secondary">S/4HANA</Badge>
-                  <Badge variant="secondary">System Integration</Badge>
-                  <Badge variant="secondary">Architecture Review</Badge>
+                <div class="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-amber-200 transition-colors">
+                  <Layers class="w-6 h-6 text-amber-600" />
                 </div>
+                <CardTitle class="text-xl">Full-Stack AI Delivery</CardTitle>
+                <CardDescription>
+                  End-to-end accountability. No handoff gaps.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p class="text-gray-600 mb-4">
+                  The complete journey from discovery through optimization. Single-point accountability from assessment through deployment, measurement, and continuous improvement.
+                </p>
+                <ul class="space-y-2 text-sm text-gray-600">
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Five-phase integrated approach
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Single-point accountability
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Outcome-based measurement
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Transparent reporting throughout
+                  </li>
+                </ul>
               </CardContent>
-              <CardFooter class="border-t border-gray-100 pt-4">
-                <Button as-child variant="outline">
-                  <router-link to="/sap-solution-architecture">Learn More About SAP Architecture</router-link>
+              <CardFooter>
+                <Button as-child variant="outline" class="w-full">
+                  <router-link to="/services/full-stack-delivery">
+                    Learn More
+                  </router-link>
                 </Button>
               </CardFooter>
             </Card>
-
-            <!-- SAP Custom Development -->
-            <Card id="sap-development" class="relative">
-              <CardHeader>
-                <CardTitle class="text-xl sm:text-2xl font-light">SAP Custom Development</CardTitle>
-              </CardHeader>
-              <CardContent class="space-y-4">
-                <p class="text-gray-600 leading-relaxed text-sm sm:text-base">
-                  Custom development services for SAP systems. ABAP programming, SAP Fiori apps, BTP extensions, and integration development.
-                </p>
-                <div class="flex flex-wrap gap-2">
-                  <Badge variant="secondary">ABAP</Badge>
-                  <Badge variant="secondary">Fiori/SAPUI5</Badge>
-                  <Badge variant="secondary">SAP BTP</Badge>
-                </div>
-              </CardContent>
-              <CardFooter class="border-t border-gray-100 pt-4">
-                <Button as-child variant="outline">
-                  <router-link to="/sap-custom-development">Learn More About SAP Development</router-link>
-                </Button>
-              </CardFooter>
-            </Card>
-
           </div>
         </div>
       </div>
     </section>
 
-    <section class="py-12 sm:py-16 bg-gray-50">
-              <div class="container mx-auto px-2 sm:px-4 lg:px-6">
-        <div class="max-w-4xl mx-auto">
-          <h2 class="text-2xl sm:text-3xl font-light text-center text-gray-900 mb-8 sm:mb-12">
-            Frequently Asked Questions
+    <!-- Five-Phase Journey Section -->
+    <section class="py-16 sm:py-20 bg-gray-50">
+      <div class="container mx-auto px-4 lg:px-6">
+        <div class="max-w-5xl mx-auto">
+          <div class="text-center mb-12">
+            <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-4">
+              Our Five-Phase Journey
+            </h2>
+            <p class="text-gray-600 text-lg">
+              From first conversation to production-ready AI systems
+            </p>
+          </div>
+          
+          <div class="relative">
+            <!-- Connecting line -->
+            <div class="hidden md:block absolute top-8 left-0 right-0 h-0.5 bg-gray-200" />
+            
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
+              <div class="relative text-center">
+                <div class="w-16 h-16 bg-amber-700 text-white rounded-full flex items-center justify-center mx-auto mb-4 relative z-10">
+                  <Search class="w-7 h-7" />
+                </div>
+                <h3 class="font-medium text-gray-900 mb-2">1. Discover</h3>
+                <p class="text-sm text-gray-600">Understand business objectives, constraints, and success criteria</p>
+              </div>
+              
+              <div class="relative text-center">
+                <div class="w-16 h-16 bg-amber-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 relative z-10">
+                  <Map class="w-7 h-7" />
+                </div>
+                <h3 class="font-medium text-gray-900 mb-2">2. Map</h3>
+                <p class="text-sm text-gray-600">Assess current state across People, Process, Technology, Data</p>
+              </div>
+              
+              <div class="relative text-center">
+                <div class="w-16 h-16 bg-amber-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 relative z-10">
+                  <FileText class="w-7 h-7" />
+                </div>
+                <h3 class="font-medium text-gray-900 mb-2">3. Plan</h3>
+                <p class="text-sm text-gray-600">Develop phased roadmap with clear milestones and decision gates</p>
+              </div>
+              
+              <div class="relative text-center">
+                <div class="w-16 h-16 bg-amber-400 text-gray-900 rounded-full flex items-center justify-center mx-auto mb-4 relative z-10">
+                  <Hammer class="w-7 h-7" />
+                </div>
+                <h3 class="font-medium text-gray-900 mb-2">4. Build</h3>
+                <p class="text-sm text-gray-600">Iterative development with continuous testing and feedback</p>
+              </div>
+              
+              <div class="relative text-center">
+                <div class="w-16 h-16 bg-amber-300 text-gray-900 rounded-full flex items-center justify-center mx-auto mb-4 relative z-10">
+                  <TrendingUp class="w-7 h-7" />
+                </div>
+                <h3 class="font-medium text-gray-900 mb-2">5. Optimize</h3>
+                <p class="text-sm text-gray-600">Monitor, measure, and continuously improve performance</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Engagement Models Section -->
+    <section class="py-16 sm:py-20">
+      <div class="container mx-auto px-4 lg:px-6">
+        <div class="max-w-5xl mx-auto">
+          <div class="text-center mb-12">
+            <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-4">
+              Engagement Models
+            </h2>
+            <p class="text-gray-600 text-lg">
+              Choose the approach that fits your needs
+            </p>
+          </div>
+          
+          <div class="overflow-x-auto">
+            <table class="w-full border-collapse">
+              <thead>
+                <tr class="border-b-2 border-gray-200">
+                  <th class="text-left py-4 px-4 font-medium text-gray-900">Model</th>
+                  <th class="text-left py-4 px-4 font-medium text-gray-900">Best For</th>
+                  <th class="text-left py-4 px-4 font-medium text-gray-900">Deliverables</th>
+                  <th class="text-left py-4 px-4 font-medium text-gray-900">Typical Duration</th>
+                </tr>
+              </thead>
+              <tbody class="text-sm">
+                <tr class="border-b border-gray-100">
+                  <td class="py-4 px-4 font-medium text-gray-900">Advisory-Only</td>
+                  <td class="py-4 px-4 text-gray-600">Organizations with strong internal technical teams who need strategic guidance</td>
+                  <td class="py-4 px-4 text-gray-600">Strategy documents, roadmaps, vendor evaluations, architecture reviews</td>
+                  <td class="py-4 px-4 text-gray-600">4–12 weeks</td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                  <td class="py-4 px-4 font-medium text-gray-900">Implementation-Only</td>
+                  <td class="py-4 px-4 text-gray-600">Organizations with clear requirements who need execution support</td>
+                  <td class="py-4 px-4 text-gray-600">Deployed systems, integrations, documentation, training</td>
+                  <td class="py-4 px-4 text-gray-600">8–16 weeks</td>
+                </tr>
+                <tr class="border-b border-gray-100 bg-amber-50">
+                  <td class="py-4 px-4 font-medium text-amber-900">Full-Stack Integrated ⭐</td>
+                  <td class="py-4 px-4 text-gray-700">Organizations wanting end-to-end accountability from strategy through deployment</td>
+                  <td class="py-4 px-4 text-gray-700">Everything from assessment to production with outcome guarantees</td>
+                  <td class="py-4 px-4 text-gray-700">12–26 weeks initial, then ongoing</td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                  <td class="py-4 px-4 font-medium text-gray-900">Ongoing Partnership</td>
+                  <td class="py-4 px-4 text-gray-600">Organizations building long-term AI capabilities with continuous improvement</td>
+                  <td class="py-4 px-4 text-gray-600">Retainer-based support, quarterly reviews, roadmap updates</td>
+                  <td class="py-4 px-4 text-gray-600">6+ months</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Audience Tiers Section -->
+    <section class="py-16 sm:py-20 bg-gray-50">
+      <div class="container mx-auto px-4 lg:px-6">
+        <div class="max-w-6xl mx-auto">
+          <div class="text-center mb-12">
+            <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-4">
+              Who We Help
+            </h2>
+            <p class="text-gray-600 text-lg">
+              Services tailored to your organization's size and maturity
+            </p>
+          </div>
+          
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Small Teams -->
+            <Card class="h-full">
+              <CardHeader>
+                <div class="text-sm font-medium text-amber-700 mb-2">Growing Teams</div>
+                <CardTitle class="text-xl">&lt; 50 Employees</CardTitle>
+              </CardHeader>
+              <CardContent class="space-y-4">
+                <p class="text-gray-600">
+                  Focused AI workflow sprints that deliver fast results without overwhelming your team.
+                </p>
+                <ul class="space-y-2 text-sm text-gray-600">
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Rapid workflow automation
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Fixed-price engagements
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Minimal disruption
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    NZ co-funding eligible
+                  </li>
+                </ul>
+                <div class="pt-4 border-t">
+                  <p class="text-sm text-gray-500">Typical engagement: $15K–$50K</p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <!-- Mid-Market -->
+            <Card class="h-full border-gray-300 ring-2 ring-gray-100">
+              <CardHeader>
+                <div class="flex items-center justify-between">
+                  <div class="text-sm font-medium text-amber-700 mb-2">Mid-Market</div>
+                  <Badge variant="secondary" class="bg-amber-100 text-amber-800">Primary Focus</Badge>
+                </div>
+                <CardTitle class="text-xl">50–500 Employees</CardTitle>
+              </CardHeader>
+              <CardContent class="space-y-4">
+                <p class="text-gray-600">
+                  Full AI readiness assessment, strategy development, and phased implementation tailored to your complexity.
+                </p>
+                <ul class="space-y-2 text-sm text-gray-600">
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Comprehensive readiness assessment
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Multi-phase implementation
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Change management support
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Integration with existing systems
+                  </li>
+                </ul>
+                <div class="pt-4 border-t">
+                  <p class="text-sm text-gray-500">Typical engagement: $50K–$250K</p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <!-- Enterprise -->
+            <Card class="h-full">
+              <CardHeader>
+                <div class="text-sm font-medium text-amber-700 mb-2">Enterprise</div>
+                <CardTitle class="text-xl">500+ Employees</CardTitle>
+              </CardHeader>
+              <CardContent class="space-y-4">
+                <p class="text-gray-600">
+                  Transformation programs with governance frameworks, multi-year roadmaps, and enterprise-grade security.
+                </p>
+                <ul class="space-y-2 text-sm text-gray-600">
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Enterprise governance frameworks
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Multi-year transformation roadmaps
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Compliance & security architecture
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
+                    Executive reporting & board updates
+                  </li>
+                </ul>
+                <div class="pt-4 border-t">
+                  <p class="text-sm text-gray-500">Typical engagement: $250K+</p>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 sm:py-20 bg-gray-900 text-white">
+      <div class="container mx-auto px-4 lg:px-6">
+        <div class="max-w-3xl mx-auto text-center">
+          <h2 class="text-2xl sm:text-3xl font-light mb-4">
+            Not Sure Where to Start?
           </h2>
-          <div class="space-y-3">
-            <Collapsible
-              v-for="(faq, index) in faqs"
-              :key="index"
-              v-model:open="openItems[index]"
-              class="bg-white rounded-lg shadow-sm border"
-            >
-              <CollapsibleTrigger class="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center hover:bg-gray-50 rounded-lg transition-colors duration-200 [&[data-state=open]>svg]:rotate-180">
-                <span class="font-medium text-gray-900 text-sm sm:text-base pr-2 text-left">{{ faq.question }}</span>
-                <ChevronDown class="w-5 h-5 text-gray-500 transition-transform duration-200 shrink-0" />
-              </CollapsibleTrigger>
-              <CollapsibleContent class="px-4 sm:px-6 pb-4">
-                <p class="text-gray-600 leading-relaxed text-sm sm:text-base">{{ faq.answer }}</p>
-              </CollapsibleContent>
-            </Collapsible>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="py-12 sm:py-16">
-              <div class="container mx-auto px-2 sm:px-4 lg:px-6">
-        <div class="max-w-4xl mx-auto text-center">
-          <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-6 sm:mb-8">
-            Serving New Zealand Businesses
-          </h2>
-          <p class="text-gray-600 mb-8 text-sm sm:text-base px-2">
-            Providing AI automation, development, and fractional CTO services across New Zealand's major business centers:
+          <p class="text-gray-300 mb-8 text-lg">
+            Book a free AI Readiness Assessment. We'll help you understand your current state and identify the highest-impact opportunities—no obligation, no pressure.
           </p>
-          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
-            <Card class="text-center border-0 shadow-sm">
-              <CardContent class="pt-6">
-                <div class="text-xl sm:text-2xl mb-2">🏙️</div>
-                <div class="font-medium text-gray-900 text-sm sm:text-base">Auckland</div>
-                <div class="text-xs sm:text-sm text-gray-500">Business Hub</div>
-              </CardContent>
-            </Card>
-            <Card class="text-center border-0 shadow-sm">
-              <CardContent class="pt-6">
-                <div class="text-xl sm:text-2xl mb-2">🏛️</div>
-                <div class="font-medium text-gray-900 text-sm sm:text-base">Wellington</div>
-                <div class="text-xs sm:text-sm text-gray-500">Capital City</div>
-              </CardContent>
-            </Card>
-            <Card class="text-center border-0 shadow-sm">
-              <CardContent class="pt-6">
-                <div class="text-xl sm:text-2xl mb-2">🏔️</div>
-                <div class="font-medium text-gray-900 text-sm sm:text-base">Christchurch</div>
-                <div class="text-xs sm:text-sm text-gray-500">South Island</div>
-              </CardContent>
-            </Card>
-            <Card class="text-center border-0 shadow-sm">
-              <CardContent class="pt-6">
-                <div class="text-xl sm:text-2xl mb-2">🌐</div>
-                <div class="font-medium text-gray-900 text-sm sm:text-base">Remote</div>
-                <div class="text-xs sm:text-sm text-gray-500">Nationwide</div>
-              </CardContent>
-            </Card>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button as-child size="lg" variant="secondary">
+              <router-link to="/contact">
+                Book a Free AI Readiness Assessment
+              </router-link>
+            </Button>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section class="py-12 sm:py-16 bg-gray-900 text-white">
-      <div class="container mx-auto px-2 sm:px-4 lg:px-6 text-center">
-        <h2 class="text-2xl sm:text-3xl font-light mb-6">
-          Have a Project in Mind?
-        </h2>
-        <p class="text-gray-300 mb-8 max-w-2xl mx-auto text-sm sm:text-base px-2">
-          Let's discuss how SEO automation, AI-accelerated development, or strategic technical leadership can help grow your business.
-        </p>
-        <Button
-          as-child
-          size="lg"
-          class="bg-white text-gray-900 hover:bg-gray-100"
-        >
-          <a
-            href="mailto:hello@learnedlate.com" data-cfemail=""
-            @click="handleContactClick"
-          >
-            Start a Conversation
-          </a>
-        </Button>
       </div>
     </section>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
-import { ChevronDown } from 'lucide-vue-next'
 import SEOHead from '../components/SEOHead.vue'
 import {
   Card,
   CardContent,
+  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
@@ -254,132 +496,73 @@ import {
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import {
-  Collapsible,
-  CollapsibleContent,
-  CollapsibleTrigger,
-} from '@/components/ui/collapsible'
+  ClipboardCheck,
+  Bot,
+  Code,
+  Layers,
+  Check,
+  Search,
+  Map,
+  FileText,
+  Hammer,
+  TrendingUp,
+} from 'lucide-vue-next'
 
-// FAQ data
-const faqs = [
-  {
-    question: "How does SEO automation work for developers?",
-    answer: "It's a system that treats SEO like an engineering problem. We connect your Git-based content repository with Google Search Console data, creating automated workflows that identify content improvements, generate specs using AI, and produce Git-ready edits. No manual keyword research or spreadsheet juggling—just a CLI-driven workflow that fits how you already work."
-  },
-  {
-    question: "How is 'AI-Accelerated Development' different from just using ChatGPT to code?",
-    answer: "It's the difference between having a powerful engine and having a skilled driver with a map. AI tools generate code quickly, but they lack strategic context. My service combines that speed with experienced architectural planning, quality control, and a focus on your business goals. This ensures the final product is not just built fast, but built right—scalable, secure, and ready for the market."
-  },
-  {
-    question: "What exactly is a fractional CTO and how does it work?",
-    answer: "A fractional CTO provides strategic technology leadership on a part-time or project basis. You get access to senior-level expertise without the full-time salary and equity commitment. I work with your team to develop technology strategy, make architectural decisions, guide technical hiring, and provide leadership during critical growth phases."
-  },
-  {
-    question: "How quickly can I get an MVP developed with your AI-accelerated approach?",
-    answer: "Most AI-powered MVPs can be developed in 1-3 months, which is often 30-50% faster than traditional methods. We start with a 1-2 week 'Feasibility & Prototype Sprint' to scope the project and create a clear roadmap, ensuring we build the right product from day one."
-  },
-  {
-    question: "What's included in a technical due diligence assessment?",
-    answer: "A comprehensive review covering code quality, architecture scalability, security posture, technical debt, team capabilities, and technology stack evaluation. You'll receive a detailed report with risk assessment, recommendations, and strategic guidance for technology decisions."
-  },
-  {
-    question: "Do you work with companies outside of Auckland?",
-    answer: "Absolutely! I serve clients across all of New Zealand including Wellington, Christchurch, and other regions. Many engagements are conducted remotely, with occasional in-person meetings as needed. I'm experienced in managing distributed teams and remote collaboration."
-  }
-]
-
-// FAQ state management with Collapsible - each item tracks its own state
-const openItems = ref<boolean[]>(new Array(faqs.length).fill(false))
-
-onMounted(() => {
-  // PostHog will automatically track page views
-})
-
-const handleContactClick = () => {
-  // PostHog will automatically track this click via autocapture
-}
-
-// Services schema markup
 const servicesSchema = [
   {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "SEO Automation Systems",
-    "description": "Build SEO automation systems that use your existing content, Google Search Console data, and AI workflows to grow organic traffic.",
+    "@id": "https://learnedlate.com/services/#service",
+    "serviceType": "AI Consulting",
     "provider": {
-      "@type": "Person",
-      "@id": "https://learnedlate.com/#person"
+      "@type": "Organization",
+      "name": "LearnedLate",
+      "url": "https://learnedlate.com"
     },
-    "areaServed": {
-      "@type": "Country",
-      "name": "New Zealand"
-    },
-    "serviceType": "SEO Consulting"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "AI-Accelerated Development",
-    "description": "Rapidly build and launch your Minimum Viable Product (MVP) or custom software using a combination of expert development oversight and AI-powered coding tools.",
-    "provider": {
-      "@type": "Person",
-      "@id": "https://learnedlate.com/#person"
-    },
-    "areaServed": {
-      "@type": "Country",
-      "name": "New Zealand"
-    },
-    "serviceType": "Software Development",
-    "offers": [
-       {
-        "@type": "Offer",
-        "name": "AI Feasibility & Prototype Sprint",
-        "price": "2500-5000",
-        "priceCurrency": "NZD"
+    "areaServed": [
+      {
+        "@type": "Country",
+        "name": "New Zealand"
       },
       {
-        "@type": "Offer",
-        "name": "AI-Powered MVP Build",
-        "price": "15000-50000",
-        "priceCurrency": "NZD"
+        "@type": "Country",
+        "name": "Australia"
       }
-    ]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Fractional CTO Services",
-    "description": "Part-time technology leadership and strategic guidance for startups and growing companies",
-    "provider": {
-      "@type": "Person",
-      "@id": "https://learnedlate.com/#person"
-    },
-    "areaServed": {
-      "@type": "Country",
-      "name": "New Zealand"
-    },
-    "serviceType": "Technology Consulting"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": faqs.map(faq => ({
-      "@type": "Question",
-      "name": faq.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": faq.answer
-      }
-    }))
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "AI Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "AI Readiness Assessment"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Agentic Workflow Implementation"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Custom AI Development"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Full-Stack AI Delivery"
+          }
+        }
+      ]
+    }
   }
 ]
 </script>
-
-<style scoped>
-.service-card {
-  transition: all 0.3s ease;
-}
-
-.service-card:hover {
-  transform: translateY(-2px);
-}
-</style>

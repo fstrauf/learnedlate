@@ -228,37 +228,37 @@
               <TableBody class="bg-white">
                 <TableRow class="border-b border-gray-200">
                   <TableCell class="px-4 py-3 font-medium">Senior architect leads project</TableCell>
-                  <TableCell class="px-4 py-3 text-center text-green-600 bg-emerald-50 font-medium">✓ Direct access</TableCell>
+                  <TableCell class="px-4 py-3 text-center text-amber-600 bg-amber-50 font-medium">✓ Direct access</TableCell>
                   <TableCell class="px-4 py-3 text-center text-yellow-600">⚠️ At a price</TableCell>
                   <TableCell class="px-4 py-3 text-center text-red-600">✗ Often unavailable</TableCell>
                 </TableRow>
                 <TableRow class="border-b border-gray-200">
                   <TableCell class="px-4 py-3 font-medium">Time to project start</TableCell>
-                  <TableCell class="px-4 py-3 text-center text-green-600 bg-emerald-50 font-medium">2-3 weeks</TableCell>
+                  <TableCell class="px-4 py-3 text-center text-amber-600 bg-amber-50 font-medium">2-3 weeks</TableCell>
                   <TableCell class="px-4 py-3 text-center text-red-600">3-6 months</TableCell>
                   <TableCell class="px-4 py-3 text-center text-green-600">2-4 weeks</TableCell>
                 </TableRow>
                 <TableRow class="border-b border-gray-200">
                   <TableCell class="px-4 py-3 font-medium">Fixed-price phase options</TableCell>
-                  <TableCell class="px-4 py-3 text-center text-green-600 bg-emerald-50 font-medium">✓ Available</TableCell>
+                  <TableCell class="px-4 py-3 text-center text-amber-600 bg-amber-50 font-medium">✓ Available</TableCell>
                   <TableCell class="px-4 py-3 text-center text-red-600">✗ Rare</TableCell>
                   <TableCell class="px-4 py-3 text-center text-yellow-600">⚠️ Sometimes</TableCell>
                 </TableRow>
                 <TableRow class="border-b border-gray-200">
                   <TableCell class="px-4 py-3 font-medium">S/4HANA migration experience</TableCell>
-                  <TableCell class="px-4 py-3 text-center text-green-600 bg-emerald-50 font-medium">✓ 50+ projects</TableCell>
+                  <TableCell class="px-4 py-3 text-center text-amber-600 bg-amber-50 font-medium">✓ 50+ projects</TableCell>
                   <TableCell class="px-4 py-3 text-center text-green-600">✓ Extensive</TableCell>
                   <TableCell class="px-4 py-3 text-center text-red-600">✗ Limited</TableCell>
                 </TableRow>
                 <TableRow class="border-b border-gray-200">
                   <TableCell class="px-4 py-3 font-medium">Mid-market pricing</TableCell>
-                  <TableCell class="px-4 py-3 text-center text-green-600 bg-emerald-50 font-medium">✓ 40% savings</TableCell>
+                  <TableCell class="px-4 py-3 text-center text-amber-600 bg-amber-50 font-medium">✓ 40% savings</TableCell>
                   <TableCell class="px-4 py-3 text-center text-red-600">✗ Premium rates</TableCell>
                   <TableCell class="px-4 py-3 text-center text-green-600">✓ Variable</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell class="px-4 py-3 font-medium rounded-bl-lg">ANZ-specific expertise</TableCell>
-                  <TableCell class="px-4 py-3 text-center text-green-600 bg-emerald-50 font-medium rounded-br-lg">✓ Purpose-built</TableCell>
+                  <TableCell class="px-4 py-3 text-center text-amber-600 bg-amber-50 font-medium rounded-br-lg">✓ Purpose-built</TableCell>
                   <TableCell class="px-4 py-3 text-center text-green-600">✓ Available</TableCell>
                   <TableCell class="px-4 py-3 text-center text-red-600">✗ Inconsistent</TableCell>
                 </TableRow>

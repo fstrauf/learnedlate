@@ -22,7 +22,6 @@
             <Button 
               as-child
               variant="secondary"
-              class="bg-white text-gray-900 hover:bg-gray-100"
             >
               <a 
                 href="mailto:hello@learnedlate.com?subject=Custom%20Software%20Services%20Consultation"
@@ -278,7 +277,6 @@
             <Button 
               as-child
               variant="secondary"
-              class="bg-white text-gray-900 hover:bg-gray-100"
             >
               <a 
                 href="mailto:hello@learnedlate.com?subject=Custom%20Software%20Services%20Consultation"

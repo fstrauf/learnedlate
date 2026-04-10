@@ -184,7 +184,7 @@
                   <TableHead class="px-4 py-3 text-center">Offshore</TableHead>
                   <TableHead class="px-4 py-3 text-center">Australian Partners</TableHead>
                   <TableHead class="px-4 py-3 text-center">Large SI NZ</TableHead>
-                  <TableHead class="px-4 py-3 text-center rounded-tr-lg bg-emerald-700">LearnedLate</TableHead>
+                  <TableHead class="px-4 py-3 text-center rounded-tr-lg bg-gray-800">LearnedLate</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody class="bg-white">
@@ -193,42 +193,42 @@
                   <TableCell class="px-4 py-3 text-center text-red-600">❌ Hours behind/ahead</TableCell>
                   <TableCell class="px-4 py-3 text-center text-yellow-600">⚠️ 2-3 hour difference</TableCell>
                   <TableCell class="px-4 py-3 text-center text-green-600">✅ NZ hours</TableCell>
-                  <TableCell class="px-4 py-3 text-center text-green-600 bg-emerald-50 font-medium">✅ NZ business hours</TableCell>
+                  <TableCell class="px-4 py-3 text-center text-amber-600 bg-amber-50 font-medium">✅ NZ business hours</TableCell>
                 </TableRow>
                 <TableRow class="border-b border-gray-200">
                   <TableCell class="px-4 py-3 font-medium">On-site Availability</TableCell>
                   <TableCell class="px-4 py-3 text-center text-red-600">❌ Not feasible</TableCell>
                   <TableCell class="px-4 py-3 text-center text-yellow-600">⚠️ Travel required</TableCell>
                   <TableCell class="px-4 py-3 text-center text-green-600">✅ Available</TableCell>
-                  <TableCell class="px-4 py-3 text-center text-green-600 bg-emerald-50 font-medium">✅ Auckland, Wellington, Christchurch</TableCell>
+                  <TableCell class="px-4 py-3 text-center text-amber-600 bg-amber-50 font-medium">✅ Auckland, Wellington, Christchurch</TableCell>
                 </TableRow>
                 <TableRow class="border-b border-gray-200">
                   <TableCell class="px-4 py-3 font-medium">BTP Specialisation</TableCell>
                   <TableCell class="px-4 py-3 text-center text-yellow-600">⚠️ Variable</TableCell>
                   <TableCell class="px-4 py-3 text-center text-yellow-600">⚠️ General SAP focus</TableCell>
                   <TableCell class="px-4 py-3 text-center text-yellow-600">⚠️ Broad teams</TableCell>
-                  <TableCell class="px-4 py-3 text-center text-green-600 bg-emerald-50 font-medium">✅ Deep BTP focus</TableCell>
+                  <TableCell class="px-4 py-3 text-center text-amber-600 bg-amber-50 font-medium">✅ Deep BTP focus</TableCell>
                 </TableRow>
                 <TableRow class="border-b border-gray-200">
                   <TableCell class="px-4 py-3 font-medium">SAP Insider Knowledge</TableCell>
                   <TableCell class="px-4 py-3 text-center text-red-600">❌ Rare</TableCell>
                   <TableCell class="px-4 py-3 text-center text-red-600">❌ Rare</TableCell>
                   <TableCell class="px-4 py-3 text-center text-yellow-600">⚠️ Uncommon</TableCell>
-                  <TableCell class="px-4 py-3 text-center text-green-600 bg-emerald-50 font-medium">✅ 7 years at SAP HQ</TableCell>
+                  <TableCell class="px-4 py-3 text-center text-amber-600 bg-amber-50 font-medium">✅ 7 years at SAP HQ</TableCell>
                 </TableRow>
                 <TableRow class="border-b border-gray-200">
                   <TableCell class="px-4 py-3 font-medium">Direct Access</TableCell>
                   <TableCell class="px-4 py-3 text-center text-red-600">❌ Through layers</TableCell>
                   <TableCell class="px-4 py-3 text-center text-red-600">❌ Account managers</TableCell>
                   <TableCell class="px-4 py-3 text-center text-yellow-600">⚠️ Junior teams</TableCell>
-                  <TableCell class="px-4 py-3 text-center text-green-600 bg-emerald-50 font-medium">✅ Work directly with expert</TableCell>
+                  <TableCell class="px-4 py-3 text-center text-amber-600 bg-amber-50 font-medium">✅ Work directly with expert</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell class="px-4 py-3 font-medium rounded-bl-lg">NZ Business Context</TableCell>
                   <TableCell class="px-4 py-3 text-center text-red-600">❌ Limited</TableCell>
                   <TableCell class="px-4 py-3 text-center text-yellow-600">⚠️ Some overlap</TableCell>
                   <TableCell class="px-4 py-3 text-center text-green-600">✅ Local knowledge</TableCell>
-                  <TableCell class="px-4 py-3 text-center text-green-600 bg-emerald-50 font-medium rounded-br-lg">✅ Based in NZ</TableCell>
+                  <TableCell class="px-4 py-3 text-center text-amber-600 bg-amber-50 font-medium rounded-br-lg">✅ Based in NZ</TableCell>
                 </TableRow>
               </TableBody>
             </Table>

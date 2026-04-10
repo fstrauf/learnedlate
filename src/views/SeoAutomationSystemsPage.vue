@@ -213,21 +213,19 @@
       </div>
     </section>
 
-    <!-- Read the Article CTA -->
+    <!-- Cross-link to AI Services -->
     <section class="py-12 sm:py-16 bg-gray-900 text-white">
       <div class="container mx-auto px-4 max-w-3xl text-center">
-        <h2 class="text-2xl sm:text-3xl font-light mb-4">Want the Details?</h2>
+        <h2 class="text-2xl sm:text-3xl font-light mb-4">Ready for AI-Powered Growth?</h2>
         <p class="text-gray-400 mb-6">
-          I wrote a deep dive into my entire SEO automation setup on Substack.
+          While SEO automation helps with content, agentic AI can transform your entire business operations. Explore our AI consulting services.
         </p>
-        <a 
-          href="https://blog.learnedlate.com/p/i-dont-think-content-seo-is-dead" 
-          target="_blank"
-          rel="noopener noreferrer"
+        <router-link 
+          to="/services/agentic-workflows"
           class="inline-block bg-white text-gray-900 px-6 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors duration-200"
         >
-          Read: "I don't think content SEO is dead" →
-        </a>
+          Explore Agentic Workflow Implementation →
+        </router-link>
       </div>
     </section>
 

@@ -166,34 +166,34 @@
                 <TableRow class="bg-gray-900">
                   <TableHead class="text-white">Aspect</TableHead>
                   <TableHead class="text-white">Traditional Modifications</TableHead>
-                  <TableHead class="text-white bg-emerald-700">Our Clean Core Approach</TableHead>
+                  <TableHead class="text-white bg-gray-800">Our Clean Core Approach</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
                 <TableRow>
                   <TableCell class="font-medium">Extension Location</TableCell>
                   <TableCell>Inside S/4HANA core</TableCell>
-                  <TableCell class="bg-emerald-50">Side-by-side on BTP</TableCell>
+                  <TableCell class="bg-amber-50">Side-by-side on BTP</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell class="font-medium">Upgrade Impact</TableCell>
                   <TableCell>High risk, extensive testing</TableCell>
-                  <TableCell class="bg-emerald-50">Minimal impact, isolated testing</TableCell>
+                  <TableCell class="bg-amber-50">Minimal impact, isolated testing</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell class="font-medium">SAP Compliance</TableCell>
                   <TableCell>Technical debt, audit flags</TableCell>
-                  <TableCell class="bg-emerald-50">Clean Core certified, audit-ready</TableCell>
+                  <TableCell class="bg-amber-50">Clean Core certified, audit-ready</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell class="font-medium">Future Flexibility</TableCell>
                   <TableCell>Locked into specific version</TableCell>
-                  <TableCell class="bg-emerald-50">Portable, cloud-native architecture</TableCell>
+                  <TableCell class="bg-amber-50">Portable, cloud-native architecture</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell class="font-medium">Development Speed</TableCell>
                   <TableCell>Months (core modification cycles)</TableCell>
-                  <TableCell class="bg-emerald-50">Weeks (agile BTP development)</TableCell>
+                  <TableCell class="bg-amber-50">Weeks (agile BTP development)</TableCell>
                 </TableRow>
               </TableBody>
             </Table>

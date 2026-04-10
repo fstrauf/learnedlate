@@ -1,7 +1,12 @@
 import type { RouteRecordRaw } from 'vue-router'
 import HomePage from '../views/HomePage.vue'
-import CvPage from '../views/CvPage.vue'
+import AboutPage from '../views/AboutPage.vue'
+import ContactPage from '../views/ContactPage.vue'
 import ServicesPage from '../views/ServicesPage.vue'
+import AiReadinessPage from '../views/AiReadinessPage.vue'
+import AgenticWorkflowsPage from '../views/AgenticWorkflowsPage.vue'
+import CustomAiDevelopmentPage from '../views/CustomAiDevelopmentPage.vue'
+import FullStackDeliveryPage from '../views/FullStackDeliveryPage.vue'
 import BlogPage from '../views/BlogPage.vue'
 import BlogPostPage from '../views/BlogPostPage.vue'
 import ProjectsPage from '../views/ProjectsPage.vue'
@@ -9,12 +14,16 @@ import LifeCalendarPage from '../views/LifeCalendarPage.vue'
 import ConcentricCirclesPage from '../views/ConcentricCirclesPage.vue'
 import LifeBalanceVisualizerPage from '../views/LifeBalanceVisualizerPage.vue'
 import NowPage from '../views/NowPage.vue'
+import CvPage from '../views/CvPage.vue'
+import CheckoutSuccessPage from '../views/CheckoutSuccessPage.vue'
+import CheckoutCancelPage from '../views/CheckoutCancelPage.vue'
+import AiReadinessChecklistPage from '../views/AiReadinessChecklistPage.vue'
+
+// Legacy pages - kept for SEO but removed from nav
 import AutomationPage from '../views/AutomationPage.vue'
 import MvpDevelopmentPage from '../views/MvpDevelopmentPage.vue'
 import FractionalCtoPage from '../views/FractionalCtoPage.vue'
 import AiImplementationPage from '../views/AiImplementationPage.vue'
-import CheckoutSuccessPage from '../views/CheckoutSuccessPage.vue'
-import CheckoutCancelPage from '../views/CheckoutCancelPage.vue'
 import SeoAutomationPage from '../views/SeoAutomationPage.vue'
 import SeoAutomationSystemsPage from '../views/SeoAutomationSystemsPage.vue'
 import CustomSoftwareDevelopmentCompanyPage from '../views/CustomSoftwareDevelopmentCompanyPage.vue'
@@ -35,29 +44,68 @@ import AccentureAlternativePage from '../views/AccentureAlternativePage.vue'
 import SapBtpConsultantPage from '../views/SapBtpConsultantPage.vue'
 
 const routes: RouteRecordRaw[] = [
+  // Core Pages
   {
     path: '/',
     name: 'Home',
     component: HomePage,
-    meta: { title: 'Home - Florian Strauf' }
+    meta: { title: 'LearnedLate – AI Strategy-to-Execution Consultancy | NZ & Australia' }
   },
   {
-    path: '/cv',
-    name: 'CV',
-    component: CvPage,
-    meta: { title: 'CV - Florian Strauf' }
+    path: '/about',
+    name: 'About',
+    component: AboutPage,
+    meta: { title: 'About – LearnedLate | AI Consultancy NZ & Australia' }
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: ContactPage,
+    meta: { title: 'Contact – Book a Free AI Readiness Assessment | LearnedLate' }
   },
   {
     path: '/services',
     name: 'Services',
     component: ServicesPage,
-    meta: { title: 'Services - Florian Strauf' }
+    meta: { title: 'Services – AI Strategy & Implementation | LearnedLate' }
   },
+  {
+    path: '/services/ai-readiness',
+    name: 'AiReadiness',
+    component: AiReadinessPage,
+    meta: { title: 'AI Readiness Assessment – Know Where You Stand | LearnedLate' }
+  },
+  {
+    path: '/services/agentic-workflows',
+    name: 'AgenticWorkflows',
+    component: AgenticWorkflowsPage,
+    meta: { title: 'Agentic Workflow Implementation – Autonomous AI Systems | LearnedLate' }
+  },
+  {
+    path: '/services/custom-ai-development',
+    name: 'CustomAiDevelopment',
+    component: CustomAiDevelopmentPage,
+    meta: { title: 'Custom AI Development – Tailored AI Solutions | LearnedLate' }
+  },
+  {
+    path: '/services/full-stack-delivery',
+    name: 'FullStackDelivery',
+    component: FullStackDeliveryPage,
+    meta: { title: 'Full-Stack AI Delivery – End-to-End Implementation | LearnedLate' }
+  },
+  {
+    path: '/ai-readiness-checklist',
+    name: 'AiReadinessChecklist',
+    component: AiReadinessChecklistPage,
+    meta: { title: 'AI Readiness Checklist – Free Download | LearnedLate' }
+  },
+  
+  // Content Pages
   {
     path: '/blog',
     name: 'Blog',
     component: BlogPage,
-    meta: { title: 'Blog - Florian Strauf' }
+    meta: { title: 'Blog – AI & Business Strategy Insights | LearnedLate' }
   },
   {
     path: '/blog/:slug',
@@ -66,183 +114,197 @@ const routes: RouteRecordRaw[] = [
     props: true,
     meta: {
       title: () => {
-        return 'Blog Post - Florian Strauf'
+        return 'Blog Post – LearnedLate'
       }
     }
   },
+  
+  // Tools (moved from main nav to footer only)
   {
     path: '/projects',
     name: 'Projects',
     component: ProjectsPage,
-    meta: { title: 'Projects - Florian Strauf' }
+    meta: { title: 'Projects – LearnedLate' }
   },
   {
     path: '/life-calendar',
     name: 'LifeCalendar',
     component: LifeCalendarPage,
-    meta: { title: 'Life Calendar - Florian Strauf' }
+    meta: { title: 'Life Calendar – LearnedLate' }
   },
   {
     path: '/concentric-circles',
     name: 'ConcentricCircles',
     component: ConcentricCirclesPage,
-    meta: { title: 'Bubble Biases - Florian Strauf' }
+    meta: { title: 'Bubble Biases – LearnedLate' }
   },
   {
     path: '/life-balance-visualizer',
     name: 'LifeBalanceVisualizer',
     component: LifeBalanceVisualizerPage,
-    meta: { title: 'Life Balance Visualizer - Florian Strauf' }
+    meta: { title: 'Life Balance Visualizer – LearnedLate' }
   },
   {
     path: '/now',
     name: 'Now',
     component: NowPage,
-    meta: { title: 'Now - Florian Strauf' }
+    meta: { title: 'Now – LearnedLate' }
   },
-  {
-    path: '/automation',
-    name: 'Automation',
-    component: AutomationPage,
-    meta: { title: 'Automation - Save 10+ Hours/Week' }
-  },
-  {
-    path: '/mvp-development',
-    name: 'MvpDevelopment',
-    component: MvpDevelopmentPage,
-    meta: { title: 'MVP Development - Launch Faster' }
-  },
-  {
-    path: '/fractional-cto',
-    name: 'FractionalCto',
-    component: FractionalCtoPage,
-    meta: { title: 'Fractional CTO - Senior Leadership' }
-  },
-  {
-    path: '/ai-implementation',
-    name: 'AiImplementation',
-    component: AiImplementationPage,
-    meta: { title: 'AI Implementation - Practical, Fast ROI' }
-  },
+  
+  // Checkout Pages
   {
     path: '/checkout-success',
     name: 'CheckoutSuccess',
     component: CheckoutSuccessPage,
-    meta: { title: 'Payment Successful - Florian Strauf' }
+    meta: { title: 'Payment Successful – LearnedLate' }
   },
   {
     path: '/checkout-cancel',
     name: 'CheckoutCancel',
     component: CheckoutCancelPage,
-    meta: { title: 'Payment Cancelled - Florian Strauf' }
+    meta: { title: 'Payment Cancelled – LearnedLate' }
+  },
+  
+  // Legacy Pages (kept for SEO, removed from nav)
+  {
+    path: '/cv',
+    name: 'CV',
+    component: AboutPage, // Redirect to About page
+    meta: { title: 'CV – LearnedLate' }
+  },
+  {
+    path: '/automation',
+    name: 'Automation',
+    component: AgenticWorkflowsPage, // Redirect to new page
+    meta: { title: 'Automation – LearnedLate' }
+  },
+  {
+    path: '/ai-implementation',
+    name: 'AiImplementation',
+    component: ServicesPage, // Redirect to services
+    meta: { title: 'AI Implementation – LearnedLate' }
+  },
+  {
+    path: '/mvp-development',
+    name: 'MvpDevelopment',
+    component: MvpDevelopmentPage,
+    meta: { title: 'MVP Development – LearnedLate' }
+  },
+  {
+    path: '/fractional-cto',
+    name: 'FractionalCto',
+    component: FractionalCtoPage,
+    meta: { title: 'Fractional CTO – LearnedLate' }
   },
   {
     path: '/seo-automation',
     name: 'SeoAutomation',
     component: SeoAutomationPage,
-    meta: { title: 'SEO Automation Package - Florian Strauf' }
+    meta: { title: 'SEO Automation Package – LearnedLate' }
   },
   {
     path: '/services/seo-automation',
     name: 'SeoAutomationSystems',
     component: SeoAutomationSystemsPage,
-    meta: { title: 'SEO Automation Systems - Florian Strauf' }
+    meta: { title: 'SEO Automation Systems – LearnedLate' }
   },
   {
     path: '/custom-software-development-company',
     name: 'CustomSoftwareDevelopmentCompany',
     component: CustomSoftwareDevelopmentCompanyPage,
-    meta: { title: 'Custom Software Development Company | NZ-Based Team' }
+    meta: { title: 'Custom Software Development Company | LearnedLate' }
   },
   {
     path: '/custom-software-development-services',
     name: 'CustomSoftwareDevelopmentServices',
     component: CustomSoftwareDevelopmentServicesPage,
-    meta: { title: 'Custom Software Development Services | From Idea to Launch' }
+    meta: { title: 'Custom Software Development Services | LearnedLate' }
   },
   {
     path: '/fractional-cto-services',
     name: 'FractionalCtoServices',
     component: FractionalCtoServicesPage,
-    meta: { title: 'Fractional CTO Services | Expert Tech Leadership for Startups' }
+    meta: { title: 'Fractional CTO Services | LearnedLate' }
   },
   {
     path: '/mvp-development-services',
     name: 'MvpDevelopmentServices',
     component: MvpDevelopmentServicesPage,
-    meta: { title: 'MVP Development Services | Build Your Startup MVP in 8 Weeks' }
+    meta: { title: 'MVP Development Services | LearnedLate' }
   },
   {
     path: '/technical-co-founder-vs-fractional-cto',
     name: 'TechnicalCofounderVsFractionalCto',
     component: TechnicalCofounderVsFractionalCtoPage,
-    meta: { title: 'Technical Co-Founder vs Fractional CTO: 2025 Guide for Startups' }
+    meta: { title: 'Technical Co-Founder vs Fractional CTO | LearnedLate' }
   },
   {
     path: '/toptal-alternative-fractional-cto-nz',
     name: 'ToptalAlternative',
     component: ToptalAlternativePage,
-    meta: { title: 'Best Toptal Alternative for Fractional CTO Services | LearnedLate' }
+    meta: { title: 'Toptal Alternative for Fractional CTO | LearnedLate' }
   },
+  
+  // SAP Pages (kept for SEO, removed from nav)
   {
     path: '/sap-solution-architecture',
     name: 'SapSolutionArchitecture',
     component: SapSolutionArchitecturePage,
-    meta: { title: 'SAP Solution Architecture Services | Enterprise System Design' }
+    meta: { title: 'SAP Solution Architecture | LearnedLate' }
   },
   {
     path: '/sap-custom-development',
     name: 'SapCustomDevelopment',
     component: SapCustomDevelopmentPage,
-    meta: { title: 'SAP Custom Development Services | ABAP, Fiori & BTP' }
+    meta: { title: 'SAP Custom Development | LearnedLate' }
   },
   {
     path: '/sap-clean-core-extensions',
     name: 'SapCleanCoreExtensions',
     component: SapCleanCoreExtensionsPage,
-    meta: { title: 'SAP Clean Core Extensions | BTP Side-by-Side Development Services' }
+    meta: { title: 'SAP Clean Core Extensions | LearnedLate' }
   },
   {
     path: '/sap-implementation-partner',
     name: 'SapImplementationPartner',
     component: SapImplementationPartnerPage,
-    meta: { title: 'SAP Implementation Partner ANZ | Senior Experts, 40% Savings | LearnedLate' }
+    meta: { title: 'SAP Implementation Partner | LearnedLate' }
   },
   {
     path: '/sap-btp-consultant-new-zealand',
     name: 'SapBtpConsultantNz',
     component: SapBtpConsultantNzPage,
-    meta: { title: 'SAP BTP Consultant New Zealand | Local Clean Core Expertise' }
+    meta: { title: 'SAP BTP Consultant New Zealand | LearnedLate' }
   },
   {
     path: '/sap-consulting-firms',
     name: 'SapConsultingFirms',
     component: SapConsultingFirmsPage,
-    meta: { title: 'SAP Consulting Firms: ANZ Expert at Big 4 Rates | LearnedLate' }
+    meta: { title: 'SAP Consulting Firms | LearnedLate' }
   },
   {
     path: '/sap-btp-consultant',
     name: 'SapBtpConsultant',
     component: SapBtpConsultantPage,
-    meta: { title: 'SAP BTP Consultant | Side-by-Side Extensions & Clean Core' }
+    meta: { title: 'SAP BTP Consultant | LearnedLate' }
   },
   {
     path: '/accenture-alternative-sap-consulting',
     name: 'AccentureAlternative',
     component: AccentureAlternativePage,
-    meta: { title: 'Accenture Alternative for SAP | 40-60% Cost Savings | learnedlate' }
+    meta: { title: 'Accenture Alternative for SAP | LearnedLate' }
   },
   {
     path: '/sap-joule-custom-skills-development',
     name: 'SapJouleCustomSkills',
     component: SapJouleCustomSkillsPage,
-    meta: { title: 'SAP Joule Custom Skills Development | AI Agent Implementation' }
+    meta: { title: 'SAP Joule Custom Skills | LearnedLate' }
   },
   {
     path: '/sap-custom-development-services',
     name: 'SapCustomDevelopmentServices',
     component: SapCustomDevelopmentServicesPage,
-    meta: { title: 'SAP Custom Development Services | Clean Core Extensions | ANZ' }
+    meta: { title: 'SAP Custom Development Services | LearnedLate' }
   },
 ]
 

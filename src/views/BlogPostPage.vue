@@ -43,7 +43,7 @@
       <!-- Article Header -->
       <header class="mb-12 sm:mb-16">
         <div class="flex flex-wrap items-center gap-2 sm:gap-3 text-sm text-gray-500 mb-6">
-          <span class="bg-gradient-to-r from-blue-100 to-indigo-100 text-blue-800 px-3 sm:px-4 py-2 rounded-full font-medium shadow-sm border border-blue-200">
+          <span class="bg-amber-50 text-amber-800 px-3 sm:px-4 py-2 rounded-full font-medium shadow-sm border border-amber-200">
             {{ post.category }}
           </span>
           <span class="hidden sm:inline text-gray-300">•</span>
@@ -115,13 +115,13 @@
                   prose-em:text-gray-800 prose-em:font-medium
                   prose-ul:my-8 prose-ul:space-y-2 prose-li:my-1 prose-li:text-gray-700 prose-li:leading-relaxed
                   prose-ol:my-8 prose-ol:space-y-2 prose-ol:list-decimal
-                  prose-blockquote:border-l-0 prose-blockquote:bg-gradient-to-r prose-blockquote:from-blue-50 prose-blockquote:to-indigo-50 prose-blockquote:px-8 prose-blockquote:py-6 prose-blockquote:my-8 prose-blockquote:italic prose-blockquote:text-gray-700 prose-blockquote:rounded-r-lg prose-blockquote:shadow-sm
+                  prose-blockquote:border-l-4 prose-blockquote:border-amber-400 prose-blockquote:bg-gray-50 prose-blockquote:px-8 prose-blockquote:py-6 prose-blockquote:my-8 prose-blockquote:italic prose-blockquote:text-gray-700 prose-blockquote:rounded-r-lg
                   prose-code:bg-gray-100 prose-code:px-2 prose-code:py-1 prose-code:rounded prose-code:text-sm prose-code:font-mono prose-code:text-gray-800 prose-code:border prose-code:border-gray-200
                   prose-pre:bg-gray-900 prose-pre:text-gray-100 prose-pre:p-6 prose-pre:rounded-xl prose-pre:overflow-x-auto prose-pre:shadow-lg prose-pre:border prose-pre:border-gray-700
                   prose-table:my-8 prose-table:shadow-sm prose-table:border prose-table:border-gray-200 prose-table:rounded-lg prose-table:overflow-hidden
                   prose-th:border prose-th:border-gray-300 prose-th:bg-gray-50 prose-th:px-6 prose-th:py-4 prose-th:font-semibold prose-th:text-gray-900
                   prose-td:border prose-td:border-gray-200 prose-td:px-6 prose-td:py-4 prose-td:text-gray-700
-                  prose-a:text-blue-600 prose-a:no-underline prose-a:font-medium hover:prose-a:text-blue-800 hover:prose-a:underline prose-a:decoration-2 prose-a:underline-offset-2
+                  prose-a:text-amber-700 prose-a:no-underline prose-a:font-medium hover:prose-a:text-amber-900 hover:prose-a:underline prose-a:decoration-2 prose-a:underline-offset-2
                   prose-img:rounded-lg prose-img:shadow-md prose-img:my-8">
         <div v-html="renderedContent" class="blog-content"></div>
       </div>
@@ -138,7 +138,7 @@
           <span 
             v-for="tag in post.tags" 
             :key="tag" 
-            class="bg-gradient-to-r from-blue-50 to-indigo-50 text-blue-700 px-4 py-2 rounded-full text-sm font-medium border border-blue-200 hover:from-blue-100 hover:to-indigo-100 hover:border-blue-300 transition-all duration-200 cursor-default shadow-sm"
+            class="bg-amber-50 text-amber-700 px-4 py-2 rounded-full text-sm font-medium border border-amber-200 hover:bg-amber-100 hover:border-amber-300 transition-all duration-200 cursor-default shadow-sm"
           >
             #{{ tag }}
           </span>
@@ -146,7 +146,7 @@
       </div>
 
       <!-- Author Bio -->
-      <div class="bg-gradient-to-br from-gray-50 via-white to-blue-50 rounded-2xl p-10 mb-16 border border-gray-200 shadow-sm">
+      <div class="bg-gradient-to-br from-gray-50 via-white to-gray-100 rounded-2xl p-10 mb-16 border border-gray-200 shadow-sm">
         <div class="flex items-start space-x-8">
           <img 
             src="/learndlate.png" 
@@ -164,7 +164,7 @@
             <div class="flex flex-wrap gap-4">
               <router-link 
                 to="/services" 
-                class="inline-flex items-center text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 px-6 py-3 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg group"
+                class="inline-flex items-center text-sm font-semibold text-white bg-amber-600 hover:bg-amber-700 px-6 py-3 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg group"
               >
                 View Services
                 <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -433,7 +433,7 @@ const shareArticle = () => {
   left: 0;
   width: 60px;
   height: 3px;
-  background: linear-gradient(135deg, #3b82f6, #1d4ed8, #7c3aed);
+  background: #f59e0b;
   border-radius: 2px;
   margin-bottom: 1rem;
 }
@@ -451,16 +451,15 @@ const shareArticle = () => {
   transform: translateY(-50%);
   width: 4px;
   height: 24px;
-  background: linear-gradient(135deg, #3b82f6, #7c3aed);
+  background: #f59e0b;
   border-radius: 2px;
 }
 
 /* Enhanced blockquote styling */
 .prose blockquote {
   position: relative;
-  border-left: 4px solid transparent;
-  background: linear-gradient(135deg, #eff6ff, #e0f2fe);
-  border-image: linear-gradient(135deg, #3b82f6, #0ea5e9) 1;
+  border-left: 4px solid #f59e0b;
+  background: #fffbeb;
 }
 
 .prose blockquote::before {
@@ -469,7 +468,7 @@ const shareArticle = () => {
   top: -8px;
   left: 16px;
   font-size: 4rem;
-  color: #3b82f6;
+  color: #f59e0b;
   font-family: 'Georgia', serif;
   font-weight: bold;
   opacity: 0.3;
@@ -492,19 +491,6 @@ const shareArticle = () => {
 
 .prose pre {
   box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  position: relative;
-}
-
-.prose pre::before {
-  content: '';
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  width: 12px;
-  height: 12px;
-  background: #ef4444;
-  border-radius: 50%;
-  box-shadow: 20px 0 0 #f59e0b, 40px 0 0 #22c55e;
 }
 
 .prose pre code {
@@ -514,7 +500,6 @@ const shareArticle = () => {
   box-shadow: none;
   font-size: 0.9rem;
   line-height: 1.6;
-  padding-top: 2rem;
 }
 
 /* Enhanced list styling */
@@ -530,7 +515,7 @@ const shareArticle = () => {
   top: 0.7rem;
   width: 6px;
   height: 6px;
-  background: linear-gradient(135deg, #3b82f6, #7c3aed);
+  background: #f59e0b;
   border-radius: 50%;
   transform: translateY(-50%);
 }
@@ -545,7 +530,7 @@ const shareArticle = () => {
   position: absolute;
   left: -2rem;
   top: 0.1rem;
-  background: linear-gradient(135deg, #3b82f6, #7c3aed);
+  background: #d97706;
   color: white;
   font-weight: bold;
   font-size: 0.8rem;
@@ -564,7 +549,7 @@ const shareArticle = () => {
 }
 
 .prose th {
-  background: linear-gradient(135deg, #f8fafc, #f1f5f9);
+  background: #f9fafb;
   position: relative;
 }
 
@@ -575,43 +560,27 @@ const shareArticle = () => {
   left: 0;
   right: 0;
   height: 2px;
-  background: linear-gradient(90deg, #3b82f6, #7c3aed);
+  background: #d97706;
 }
 
 .prose tr:hover {
-  background-color: #f8fafc;
-  transition: background-color 0.2s ease;
+  background-color: #f9fafb;
 }
 
-/* Enhanced link styling */
+/* Enhanced link styling - simplified per style guide */
 .prose a {
-  position: relative;
-  transition: all 0.3s ease;
+  color: #b45309;
+  text-decoration: underline;
 }
 
-.prose a::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background: linear-gradient(90deg, #3b82f6, #7c3aed);
-  transition: width 0.3s ease;
+.prose a:hover {
+  color: #78350f;
 }
 
-.prose a:hover::after {
-  width: 100%;
-}
-
-/* Image enhancements */
+/* Image styling - simplified per style guide */
 .prose img {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.prose img:hover {
-  transform: scale(1.02);
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  max-width: 100%;
+  height: auto;
 }
 
 /* Reading progress indicator (optional) */
@@ -627,22 +596,17 @@ const shareArticle = () => {
 
 .prose p:first-of-type {
   font-size: 1.2rem;
-  color: #4b5563;
+  color: #374151;
   font-weight: 400;
 }
 
-/* Enhanced strong and em styling */
+/* Strong and em styling - simplified per style guide */
 .prose strong {
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(124, 58, 237, 0.1));
-  padding: 2px 4px;
-  border-radius: 3px;
-  border-left: 3px solid #3b82f6;
+  font-weight: 600;
 }
 
 .prose em {
-  background: linear-gradient(135deg, rgba(124, 58, 237, 0.05), rgba(59, 130, 246, 0.05));
-  padding: 1px 3px;
-  border-radius: 2px;
+  font-style: italic;
 }
 
 /* Responsive enhancements */
@@ -702,13 +666,7 @@ const shareArticle = () => {
     font-size: 0.85rem;
   }
   
-  .prose pre::before {
-    top: 0.75rem;
-    left: 0.75rem;
-    width: 8px;
-    height: 8px;
-    box-shadow: 15px 0 0 #f59e0b, 30px 0 0 #22c55e;
-  }
+
   
   .prose ul > li,
   .prose ol > li {

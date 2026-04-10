@@ -5,6 +5,7 @@ import App from './App.vue'
 import { createRouter, createMemoryHistory, createWebHistory } from 'vue-router'
 import routes from './router/routes'
 import { usePostHog } from './plugins/posthog'
+import { initAutoTracking } from './composables/useAnalytics'
 
 // Environment check
 const isSSR = typeof window === 'undefined'
@@ -19,9 +20,10 @@ export function createApp() {
     routes,
   })
   
-  // Initialize PostHog only on client side
+  // Initialize PostHog and analytics only on client side
   if (!isSSR) {
     usePostHog()
+    initAutoTracking()
   }
   
   app.use(head)

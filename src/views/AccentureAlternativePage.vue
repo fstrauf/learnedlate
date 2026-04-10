@@ -67,11 +67,11 @@
         <div class="max-w-4xl mx-auto">
           <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-6 text-center">Why Companies Are Looking Beyond Accenture</h2>
           
-          <div class="bg-red-50 border border-red-100 rounded-xl p-6 mb-8">
+          <div class="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
             <p class="text-gray-700 text-lg">You're paying Accenture prices but getting junior consultants who need to "ramp up" on your dime. Projects drag on. Costs balloon. And every quarter, there's a new face on your team who needs to be brought up to speed—again.</p>
           </div>
           
-          <div class="bg-green-50 border border-green-100 rounded-xl p-6">
+          <div class="bg-amber-50 border border-amber-100 rounded-xl p-6">
             <p class="text-gray-700 text-lg"><strong>The alternative:</strong> What if you could work with the same senior SAP architect from day one? Someone who's been in the trenches, knows your industry, and doesn't need a 20-person team to deliver results? That's the independent consulting model.</p>
           </div>
           
@@ -192,41 +192,41 @@
                   <tr class="bg-gray-900 text-white">
                     <th class="text-left p-4 font-medium">Factor</th>
                     <th class="text-left p-4 font-medium">Accenture</th>
-                    <th class="text-left p-4 font-medium bg-green-900">Independent (learnedlate)</th>
+                    <th class="text-left p-4 font-medium bg-gray-800">Independent (learnedlate)</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr class="border-b border-gray-100">
                     <td class="p-4 font-medium text-gray-900">Who does the work</td>
                     <td class="p-4 text-gray-600">Junior teams + offshore</td>
-                    <td class="p-4 text-gray-900 bg-green-50 font-medium">Senior architect directly</td>
+                    <td class="p-4 text-gray-900 bg-amber-50 font-medium">Senior architect directly</td>
                   </tr>
                   <tr class="border-b border-gray-100">
                     <td class="p-4 font-medium text-gray-900">Team continuity</td>
                     <td class="p-4 text-gray-600">Rotating cast every quarter</td>
-                    <td class="p-4 text-gray-900 bg-green-50 font-medium">Same person start to finish</td>
+                    <td class="p-4 text-gray-900 bg-amber-50 font-medium">Same person start to finish</td>
                   </tr>
                   <tr class="border-b border-gray-100">
                     <td class="p-4 font-medium text-gray-900">Pricing model</td>
                     <td class="p-4 text-gray-600">Time & materials, billable hours</td>
-                    <td class="p-4 text-gray-900 bg-green-50 font-medium">Fixed fee, predictable cost</td>
+                    <td class="p-4 text-gray-900 bg-amber-50 font-medium">Fixed fee, predictable cost</td>
                   </tr>
                   <tr class="border-b border-gray-100">
                     <td class="p-4 font-medium text-gray-900">Response time</td>
                     <td class="p-4 text-gray-600">Account manager → escalation → consultant</td>
-                    <td class="p-4 text-gray-900 bg-green-50 font-medium">Direct Slack/text/phone</td>
+                    <td class="p-4 text-gray-900 bg-amber-50 font-medium">Direct Slack/text/phone</td>
                   </tr>
                   <tr>
                     <td class="p-4 font-medium text-gray-900">Typical project cost</td>
                     <td class="p-4 text-gray-600">$500K-$2M+ for mid-market SAP</td>
-                    <td class="p-4 text-gray-900 bg-green-50 font-medium">$150K-$600K for same scope</td>
+                    <td class="p-4 text-gray-900 bg-amber-50 font-medium">$150K-$600K for same scope</td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
           
-          <div class="mt-8 bg-blue-50 border border-blue-100 rounded-xl p-6">
+          <div class="mt-8 bg-amber-50 border border-amber-100 rounded-xl p-6">
             <h3 class="font-medium text-gray-900 mb-2">Switching from Accenture?</h3>
             <p class="text-gray-600">Already working with Accenture but considering a change? I offer seamless transition support to pick up where they left off—no need to start from scratch. Most mid-project transitions are completed within 1-2 weeks.</p>
           </div>

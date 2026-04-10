@@ -53,7 +53,7 @@ const cardWrapper = computed(() => {
 });
 
 // Define text colors to cycle through
-const placeholderTextColors = ['text-blue-600', 'text-orange-500'];
+const placeholderTextColors = ['text-amber-600', 'text-gray-600'];
 
 const placeholderTextColor = computed(() => {
   // Cycle through text colors based on cardIndex for visual alternation

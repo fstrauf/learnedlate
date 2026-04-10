@@ -149,7 +149,7 @@
                   <TableHead class="text-white">Factor</TableHead>
                   <TableHead class="text-white text-center">Large SI Partners</TableHead>
                   <TableHead class="text-white text-center">Freelance Marketplaces</TableHead>
-                  <TableHead class="text-white text-center bg-emerald-700">LearnedLate</TableHead>
+                  <TableHead class="text-white text-center bg-gray-800">LearnedLate</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
@@ -157,31 +157,31 @@
                   <TableCell class="font-medium">BTP Specialisation</TableCell>
                   <TableCell class="text-center">Generalist teams, junior resources</TableCell>
                   <TableCell class="text-center">Varying quality, not SAP-specific</TableCell>
-                  <TableCell class="text-center bg-emerald-50 font-medium">Deep CAP/RAP/Kyma expertise only</TableCell>
+                  <TableCell class="text-center bg-amber-50 font-medium">Deep CAP/RAP/Kyma expertise only</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell class="font-medium">SAP Insider Knowledge</TableCell>
                   <TableCell class="text-center">Some, but filtered through layers</TableCell>
                   <TableCell class="text-center">Unlikely</TableCell>
-                  <TableCell class="text-center bg-emerald-50 font-medium">Former SAP Custom Development architect</TableCell>
+                  <TableCell class="text-center bg-amber-50 font-medium">Former SAP Custom Development architect</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell class="font-medium">Direct Access</TableCell>
                   <TableCell class="text-center">Account managers, rotating staff</TableCell>
                   <TableCell class="text-center">Platform-mediated</TableCell>
-                  <TableCell class="text-center bg-emerald-50 font-medium">Direct consultant relationship</TableCell>
+                  <TableCell class="text-center bg-amber-50 font-medium">Direct consultant relationship</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell class="font-medium">Implementation Style</TableCell>
                   <TableCell class="text-center">Template-based, black box</TableCell>
                   <TableCell class="text-center">Inconsistent</TableCell>
-                  <TableCell class="text-center bg-emerald-50 font-medium">Collaborative, knowledge transfer</TableCell>
+                  <TableCell class="text-center bg-amber-50 font-medium">Collaborative, knowledge transfer</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell class="font-medium">Cost Structure</TableCell>
                   <TableCell class="text-center">High overhead, long contracts</TableCell>
                   <TableCell class="text-center">Hourly, transactional</TableCell>
-                  <TableCell class="text-center bg-emerald-50 font-medium">Project-based, transparent pricing</TableCell>
+                  <TableCell class="text-center bg-amber-50 font-medium">Project-based, transparent pricing</TableCell>
                 </TableRow>
               </TableBody>
             </Table>
