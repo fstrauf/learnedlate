@@ -14,6 +14,7 @@ import LifeCalendarPage from '../views/LifeCalendarPage.vue'
 import ConcentricCirclesPage from '../views/ConcentricCirclesPage.vue'
 import LifeBalanceVisualizerPage from '../views/LifeBalanceVisualizerPage.vue'
 import NowPage from '../views/NowPage.vue'
+import CvPage from '../views/CvPage.vue'
 import CheckoutSuccessPage from '../views/CheckoutSuccessPage.vue'
 import CheckoutCancelPage from '../views/CheckoutCancelPage.vue'
 import AiReadinessChecklistPage from '../views/AiReadinessChecklistPage.vue'
@@ -166,7 +167,7 @@ const routes: RouteRecordRaw[] = [
   {
     path: '/cv',
     name: 'CV',
-    component: AboutPage, // Redirect to About page
+    component: CvPage,
     meta: { title: 'CV – LearnedLate' }
   },
   {
