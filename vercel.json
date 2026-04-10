@@ -60,6 +60,10 @@
       "destination": "/services/index.html"
     },
     {
+      "source": "/case-studies",
+      "destination": "/case-studies/index.html"
+    },
+    {
       "source": "/projects",
       "destination": "/projects/index.html"
     },
