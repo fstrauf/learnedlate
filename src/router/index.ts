@@ -7,6 +7,10 @@ const DEFAULT_TITLE = 'Florian Strauf'
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  scrollBehavior() {
+    // Always scroll to top on navigation
+    return { top: 0 }
+  },
 })
 
 router.afterEach((to) => {
