@@ -70,7 +70,7 @@ export default defineConfig(({ isSsrBuild }) => ({
     open: true,
     proxy: {
       '/api': {
-        target: 'http://localhost:3020',
+        target: 'http://localhost:3060',
         changeOrigin: true,
       },
     },
