@@ -151,6 +151,7 @@
             <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Resources</h3>
             <nav class="flex flex-col gap-1 text-sm">
               <router-link to="/blog" class="hover:text-gray-900 hover:underline transition-colors">Blog</router-link>
+              <router-link to="/case-studies" class="hover:text-gray-900 hover:underline transition-colors">Case Studies</router-link>
               <router-link to="/ai-readiness-checklist" class="hover:text-gray-900 hover:underline transition-colors">Checklist</router-link>
             </nav>
           </div>

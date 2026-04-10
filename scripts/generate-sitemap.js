@@ -15,6 +15,7 @@ const today = new Date().toISOString().split('T')[0]
 const staticRoutes = [
   { path: '/', priority: '1.0', changefreq: 'weekly' },
   { path: '/blog', priority: '0.9', changefreq: 'weekly' },
+  { path: '/case-studies', priority: '0.8', changefreq: 'monthly' },
   { path: '/projects', priority: '0.8', changefreq: 'monthly' },
   { path: '/services', priority: '0.8', changefreq: 'monthly' },
   { path: '/cv', priority: '0.7', changefreq: 'monthly' },

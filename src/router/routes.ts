@@ -9,6 +9,7 @@ import CustomAiDevelopmentPage from '../views/CustomAiDevelopmentPage.vue'
 import FullStackDeliveryPage from '../views/FullStackDeliveryPage.vue'
 import BlogPage from '../views/BlogPage.vue'
 import BlogPostPage from '../views/BlogPostPage.vue'
+import CaseStudiesPage from '../views/CaseStudiesPage.vue'
 import ProjectsPage from '../views/ProjectsPage.vue'
 import LifeCalendarPage from '../views/LifeCalendarPage.vue'
 import ConcentricCirclesPage from '../views/ConcentricCirclesPage.vue'
@@ -115,6 +116,12 @@ const routes: RouteRecordRaw[] = [
         return 'Blog Post – LearnedLate'
       }
     }
+  },
+  {
+    path: '/case-studies',
+    name: 'CaseStudies',
+    component: CaseStudiesPage,
+    meta: { title: 'Case Studies – LearnedLate' }
   },
   
   // Tools (moved from main nav to footer only)
