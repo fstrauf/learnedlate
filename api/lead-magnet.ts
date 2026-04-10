@@ -43,7 +43,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       })
     }
 
-    const fromEmail = process.env.CONTACT_FROM_EMAIL || 'florian@learnedlate.com'
+    const fromEmail = process.env.CONTACT_FROM_EMAIL || 'florian@main.learnedlate.com'
+    const toEmail = process.env.CONTACT_TO_EMAIL || 'florian@learnedlate.com'
     const siteUrl = process.env.SITE_URL || 'https://learnedlate.com'
 
     // Determine download URL based on magnet
@@ -52,7 +53,31 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       downloadUrl = `${siteUrl}/ai-readiness-checklist.pdf`
     }
 
-    // Send email with download link
+    // Send notification email to admin
+    await resend.emails.send({
+      from: `LearnedLate <${fromEmail}>`,
+      to: [toEmail],
+      subject: `New Lead Magnet Download: ${magnetName}`,
+      html: `
+        <h2>New Lead Magnet Signup</h2>
+        <p><strong>Magnet:</strong> ${magnetName}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Source:</strong> ${source || 'website'}</p>
+        <p><strong>Time:</strong> ${new Date().toISOString()}</p>
+        <hr/>
+        <p>You may want to follow up with this lead.</p>
+      `,
+      text: `New Lead Magnet Signup
+
+Magnet: ${magnetName}
+Email: ${email}
+Source: ${source || 'website'}
+Time: ${new Date().toISOString()}
+
+You may want to follow up with this lead.`,
+    }).catch(err => console.error('[Admin Notification Error]', err))
+
+    // Send email with download link to subscriber
     const { data, error } = await resend.emails.send({
       from: `LearnedLate <${fromEmail}>`,
       to: [email],
