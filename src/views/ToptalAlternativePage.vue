@@ -20,7 +20,7 @@
                 save 40%, and work with a proven technology leader who understands the NZ startup ecosystem.
               </p>
               <div class="mt-8 flex flex-col sm:flex-row gap-4">
-                <Button as="a" href="mailto:hello@learnedlate.com?subject=Toptal%20Alternative%20-%20Discovery%20Call" data-cfemail="" size="lg" variant="secondary">
+                <Button as="a" href="/contact"  size="lg" variant="secondary">
                   Book Free Discovery Call
                 </Button>
                 <Button as-child size="lg" variant="outline" class="border-white/20 text-white hover:bg-white/20 hover:text-white bg-transparent">
@@ -307,7 +307,7 @@
             Available for NZ startups and businesses ready to move fast.
           </p>
           <div class="mt-8">
-            <Button as="a" href="mailto:hello@learnedlate.com?subject=Toptal%20Alternative%20-%20Discovery%20Call" data-cfemail="" size="lg" variant="secondary">
+            <Button as="a" href="/contact"  size="lg" variant="secondary">
               Book My Free Discovery Call
             </Button>
             <p class="text-gray-400 text-sm mt-3">Available this week • No platform fees • NZ-based</p>

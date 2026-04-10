@@ -31,7 +31,7 @@
 
           <div class="mt-8">
             <Button as-child size="lg" variant="secondary">
-              <a href="mailto:hello@learnedlate.com?subject=Fractional%20CTO%20Discussion" data-cfemail="">Schedule a Confidential Discussion</a>
+              <a href="/contact" >Schedule a Confidential Discussion</a>
             </Button>
             <div class="text-gray-300 text-sm mt-2">30-minute call • No obligation • NDA available</div>
           </div>
@@ -254,7 +254,7 @@
               <div class="text-sm text-gray-700">✓ 100% money‑back first month</div>
             </div>
             <Button as-child size="lg" class="mt-4 bg-gray-900 text-white hover:bg-gray-800">
-              <a href="mailto:hello@learnedlate.com?subject=Fractional%20CTO%20Discussion" data-cfemail="">Schedule Your Confidential Discussion →</a>
+              <a href="/contact" >Schedule Your Confidential Discussion →</a>
             </Button>
             <p class="text-gray-500 text-sm mt-2"><em>“Florian paid for himself in the first month by renegotiating our AWS contract and preventing a critical architecture mistake.”</em> — CEO, Series A HealthTech</p>
           </div>

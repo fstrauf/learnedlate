@@ -35,7 +35,7 @@
 
           <div class="mt-8">
             <Button as-child size="lg" variant="secondary">
-              <a href="mailto:hello@learnedlate.com?subject=SAP%20Custom%20Development%20Project" data-cfemail="">Discuss Your Development Needs</a>
+              <a href="/contact" >Discuss Your Development Needs</a>
             </Button>
           </div>
         </div>
@@ -195,7 +195,7 @@
           <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-4">Have a SAP Development Project?</h2>
           <p class="text-gray-600 mb-8">Whether you need a custom report, a Fiori app, or a complex integration, I can help. Let's discuss your requirements and timeline.</p>
           <Button as-child size="lg">
-            <a href="mailto:hello@learnedlate.com?subject=SAP%20Custom%20Development%20Project" data-cfemail="">Start Your Project</a>
+            <a href="/contact" >Start Your Project</a>
           </Button>
         </div>
       </div>

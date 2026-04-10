@@ -20,7 +20,7 @@
           </p>
           <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Button as-child variant="secondary">
-              <a href="mailto:hello@learnedlate.com?subject=Co-Founder%20vs%20Fractional%20CTO%20Consultation" data-cfemail="">
+              <a href="/contact" >
                 Book a Free 30-Min Consultation
               </a>
             </Button>
@@ -403,12 +403,12 @@
           </p>
           <div class="mt-8">
             <Button as-child size="lg" variant="secondary">
-              <a href="mailto:hello@learnedlate.com?subject=Co-Founder%20vs%20Fractional%20CTO%20Consultation" data-cfemail="">
+              <a href="/contact" >
                 Book Your Free Consultation
               </a>
             </Button>
             <p class="text-gray-400 text-sm mt-3">
-              Or email directly at <a href="mailto:florian@learnedlate.com" class="underline" data-cfemail="">florian@learnedlate.com</a>
+              Or email directly at <a href="/contact" class="underline" >florian@learnedlate.com</a>
             </p>
             <p class="text-gray-500 text-xs mt-2">No obligation • Typically responds within 24 hours • NZ-based</p>
           </div>

@@ -21,7 +21,7 @@
           </p>
           <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary" as-child>
-              <a href="mailto:florian@learnedlate.com?subject=SAP%20BTP%20Consultant%20-%20Discovery%20Call" data-cfemail="">
+              <a href="/contact" >
                 Book a Discovery Call
               </a>
             </Button>
@@ -245,12 +245,12 @@
           </p>
           <div class="mt-8">
             <Button size="lg" variant="secondary" as-child>
-              <a href="mailto:florian@learnedlate.com?subject=SAP%20BTP%20Consultant%20-%20Discovery%20Call" data-cfemail="">
+              <a href="/contact" >
                 Schedule Your Discovery Call
               </a>
             </Button>
             <p class="text-gray-400 text-sm mt-3">
-              Or email directly at <a href="mailto:florian@learnedlate.com" class="underline" data-cfemail="">florian@learnedlate.com</a>
+              Or email directly at <a href="/contact" class="underline" >florian@learnedlate.com</a>
             </p>
             <p class="text-gray-500 text-xs mt-2">Free 30-minute call • No obligation • Former SAP architect</p>
           </div>

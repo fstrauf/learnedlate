@@ -307,7 +307,7 @@
           </p>
           <div class="mt-8">
             <Button as-child size="lg" variant="secondary">
-              <a href="mailto:hello@learnedlate.com?subject=MVP%20Development%20Services%20Inquiry" data-cfemail="">Book Your Discovery Call</a>
+              <a href="/contact" >Book Your Discovery Call</a>
             </Button>
             <div class="mt-4 space-y-2 text-sm text-gray-400">
               <p>✓ No-obligation consultation</p>

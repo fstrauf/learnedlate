@@ -189,7 +189,7 @@
                 <li>Cloud deployment</li>
                 <li>30‑day support</li>
               </ul>
-              <a href="mailto:hello@learnedlate.com?subject=MVP%20Development%20Inquiry" data-cfemail="" class="inline-block mt-4 bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm hover:bg-gray-800">Get Started →</a>
+              <a href="/contact"  class="inline-block mt-4 bg-gray-900 text-white px-5 py-2.5 rounded-md text-sm hover:bg-gray-800">Get Started →</a>
             </div>
             <div class="border border-gray-200 rounded-xl p-5 bg-white">
               <h3 class="font-medium text-gray-900">Complex MVP</h3>
@@ -203,7 +203,7 @@
                 <li>Analytics setup</li>
                 <li>60‑day support</li>
               </ul>
-              <a href="mailto:hello@learnedlate.com?subject=Custom%20MVP%20Inquiry" data-cfemail="" class="inline-block mt-4 bg-white text-gray-900 border border-gray-300 px-5 py-2.5 rounded-md text-sm hover:bg-gray-50">Discuss Project →</a>
+              <a href="/contact"  class="inline-block mt-4 bg-white text-gray-900 border border-gray-300 px-5 py-2.5 rounded-md text-sm hover:bg-gray-50">Discuss Project →</a>
             </div>
           </div>
           <div class="mt-8 border border-gray-200 rounded-xl p-5 bg-white">

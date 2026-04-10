@@ -22,7 +22,7 @@
           </p>
           <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Button as-child size="lg" variant="secondary">
-              <a href="mailto:hello@learnedlate.com?subject=SAP%20Implementation%20Partner%20-%20Free%20SAP%20Assessment" data-cfemail="">
+              <a href="/contact" >
                 Book Free SAP Assessment
               </a>
             </Button>
@@ -354,7 +354,7 @@
           </p>
           <div class="mt-8">
             <Button as-child size="lg" variant="secondary">
-              <a href="mailto:hello@learnedlate.com?subject=SAP%20Implementation%20Partner%20-%20Book%20My%20Free%20Assessment" data-cfemail="">
+              <a href="/contact" >
                 Book My Free Assessment
               </a>
             </Button>

@@ -21,7 +21,7 @@
           </p>
           <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-2 sm:px-4">
             <Button as-child size="lg" variant="secondary">
-              <a href="mailto:hello@learnedlate.com?subject=SAP%20Solution%20Architecture%20Consultation" data-cfemail="">
+              <a href="/contact" >
                 Discuss Your SAP Project
               </a>
             </Button>
@@ -187,7 +187,7 @@
           <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-4">Ready to Optimize Your SAP Landscape?</h2>
           <p class="text-gray-600 mb-8">Whether you're planning an S/4HANA migration, need integration architecture, or want a second opinion on your current setup, I can help.</p>
           <Button as-child size="lg">
-            <a href="mailto:hello@learnedlate.com?subject=SAP%20Solution%20Architecture%20Consultation" data-cfemail="">Schedule a Consultation</a>
+            <a href="/contact" >Schedule a Consultation</a>
           </Button>
         </div>
       </div>
