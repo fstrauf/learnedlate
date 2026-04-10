@@ -180,7 +180,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { ref } from 'vue'
 import { ChevronDown, Menu, X } from 'lucide-vue-next'
 import {
   DropdownMenu,
