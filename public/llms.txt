@@ -1,47 +1,44 @@
 # LearnedLate
 
-> AI Strategy-to-Execution Consultancy for New Zealand and Australian Mid-Market Businesses. Don't Get Left Behind by AI. Turn Strategy into Working Systems.
+> AI readiness, workflow automation, and delivery support for New Zealand and Australian mid-market businesses.
 
 ## About
 
-LearnedLate helps NZ and Australian businesses move from AI confusion to measurable results. We provide end-to-end accountability—from initial readiness assessment through deployed, production-ready AI systems.
+LearnedLate helps NZ and Australian businesses identify the right first AI workflow, automate it, and expand with the same delivery partner when the work becomes more complex.
 
-**Our Difference:** We don't just advise. We build. We don't just code. We align. Most consultancies leave you with a PowerPoint. Most developers need detailed requirements. We bridge the gap.
+**Our Difference:** We keep the offer simple: start with readiness, automate one real workflow, and expand with the same team if the work proves valuable.
 
 ## Core Services
 
 ### AI Readiness Assessment
-Comprehensive four-dimension evaluation (People, Process, Technology, Data) that tells you exactly what you're ready for, what needs work, and where to start for maximum impact.
+Practical evaluation across people, process, technology, and data so you can choose the right first AI use case and the next step worth funding.
 
 - Scored assessment across 4 dimensions
-- Prioritized opportunity map
+- Prioritized use-case shortlist
+- Key risks and next-step recommendations
 - Written summary within 48 hours
-- NZ AI Advisory Pilot co-funding eligible (50% up to $15K)
-- Investment: $7.5K–$15K (NZ), $10K–$30K (AU)
 
-### Agentic Workflow Implementation
-Deploy autonomous AI systems that handle complete business processes end-to-end—not just chatbots, but multi-step, decision-capable agents.
+### AI Workflow Automation
+Automate one high-friction workflow, connect it to your existing systems, and pilot it in real operations.
 
 - Workflow mapping and pain point identification
-- 2-week prototype → 90-day pilot
 - Integration with existing systems
-- Continuous improvement built-in
+- Pilot, measurement, and rollout planning
 
 ### Custom AI Development
-Tailored AI tools when off-the-shelf isn't enough. We build custom only when commercial solutions are demonstrably insufficient.
+Specialist path for cases where standard tools are not enough. We recommend custom AI only when the integration, logic, or differentiation genuinely requires it.
 
-- Specialized model training
-- Unique integration architectures
-- Deployment and monitoring
-- Scope discipline guaranteed
+- Domain-specific logic
+- Hard integration problems
+- Narrow scoped delivery
+- Used only when justified
 
-### Full-Stack AI Delivery
-The complete journey from discovery through optimization. Single-point accountability from assessment to production.
+### Delivery Partnership
+For larger or more complex AI programs, LearnedLate stays involved from planning through rollout so context is not lost between strategy and delivery.
 
-- Five-phase journey: Discover → Map → Plan → Build → Optimize
-- Same expertise from first conversation to production
-- Outcome-based measurement
-- Transparent reporting throughout
+- Planning and sequencing across teams and systems
+- One accountable delivery partner
+- Operational follow-through after rollout
 
 ## Who We Help
 
@@ -64,7 +61,7 @@ The complete journey from discovery through optimization. Single-point accountab
 
 ## Contact
 
-- **Book a Free AI Readiness Assessment:** https://learnedlate.com/contact/
+- **Book an AI Readiness Assessment:** https://learnedlate.com/contact/
 - **Email:** hello@learnedlate.com
 - **Location:** New Zealand & Australia
 - **Twitter:** https://x.com/learnedlate
@@ -75,7 +72,7 @@ The complete journey from discovery through optimization. Single-point accountab
 2. **C-suite readable:** Every headline should be understood without technical background
 3. **Specificity:** Use numbers, timeframes, and dollar amounts—not vague claims
 4. **Honesty:** "If the answer is 'you don't need AI right now,' we'll tell you that too."
-5. **Dual fluency:** We speak both business and technical natively
+5. **Plain-language delivery:** Keep the offer clear, practical, and easy to buy
 
 ## Sitemap
 

@@ -1,29 +1,31 @@
 <template>
   <div class="full-stack-delivery-page">
     <SEOHead 
-      title="Full-Stack AI Delivery – End-to-End Implementation | LearnedLate"
-      description="Complete AI transformation from discovery through optimization. Single-point accountability from assessment to production. Serving NZ & Australian businesses."
+      title="Delivery Partnership – Keep Strategy and Delivery in One Team | LearnedLate"
+      description="For larger or more complex AI programs, LearnedLate stays involved from planning through rollout so context is not lost between strategy and delivery."
       url="/services/full-stack-delivery"
       type="website"
     />
     
     <!-- Hero Section -->
-    <section class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-16 sm:py-24">
-      <div class="container mx-auto px-4 lg:px-6">
+    <section class="relative isolate overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 text-white sm:py-24">
+      <div class="pointer-events-none absolute -left-20 -top-16 h-72 w-72 rounded-full bg-amber-500/20 blur-3xl" />
+      <div class="pointer-events-none absolute -right-20 bottom-0 h-64 w-64 rounded-full bg-white/10 blur-3xl" />
+      <div class="container relative mx-auto px-4 lg:px-6">
         <div class="max-w-4xl mx-auto text-center">
           <h1 class="text-3xl sm:text-4xl md:text-5xl font-light mb-6 leading-tight">
-            End-to-End Accountability. No Handoff Gaps.
+            Keep Strategy and Delivery in the Same Team
           </h1>
-          <p class="text-lg sm:text-xl text-green-100 mb-8 leading-relaxed max-w-3xl mx-auto">
-            The complete journey from discovery through optimization. Same expertise from your first conversation through production deployment and beyond.
+          <p class="text-lg sm:text-xl text-gray-100 mb-8 leading-relaxed max-w-3xl mx-auto">
+            For larger or more complex AI programs, we stay involved from planning through rollout so context is not lost between advisory, delivery, and operations.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button as-child size="lg" class="bg-white text-green-900 hover:bg-gray-100">
+            <Button as-child size="lg" variant="secondary">
               <router-link to="/contact">
-                Start with Discovery
+                Discuss Delivery Partnership
               </router-link>
             </Button>
-            <Button as-child size="lg" variant="outline" class="border-white bg-transparent text-white hover:bg-white hover:text-green-900">
+            <Button as-child size="lg" variant="outline" class="border-white bg-transparent text-white hover:bg-white hover:text-gray-900">
               <router-link to="/services">
                 View All Services
               </router-link>
@@ -33,245 +35,61 @@
       </div>
     </section>
 
-    <!-- Five Phases Detail Section -->
+    <!-- Fit Section -->
     <section class="py-16 sm:py-20">
       <div class="container mx-auto px-4 lg:px-6">
         <div class="max-w-5xl mx-auto">
           <div class="text-center mb-12">
             <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-4">
-              The Five-Phase Journey
+              This Model Fits When
             </h2>
             <p class="text-gray-600 text-lg max-w-2xl mx-auto">
-              Each phase has clear deliverables, timelines, and decision gates
+              Delivery partnership is for work that is too important or too interconnected to split across separate advisory and implementation teams.
             </p>
           </div>
-          
-          <div class="space-y-12">
-            <!-- Phase 1: Discover -->
-            <div class="flex flex-col md:flex-row gap-8">
-              <div class="md:w-1/3">
-                <div class="w-16 h-16 bg-amber-700 text-white rounded-full flex items-center justify-center mb-4 text-2xl font-bold">
-                  1
-                </div>
-                <h3 class="text-xl font-medium text-gray-900 mb-2">Discover</h3>
-                <p class="text-sm text-gray-500">1–2 weeks</p>
-              </div>
-              <div class="md:w-2/3">
-                <Card>
-                  <CardContent class="pt-6">
-                    <p class="text-gray-600 mb-4">
-                      Deep exploration of your business objectives, constraints, competitive landscape, and current pain points. We interview key stakeholders and review existing systems and processes.
-                    </p>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      <div>
-                        <h4 class="font-medium text-gray-900 text-sm mb-2">Key Activities</h4>
-                        <ul class="text-sm text-gray-600 space-y-1">
-                          <li>• Stakeholder interviews</li>
-                          <li>• Business objective mapping</li>
-                          <li>• Constraint identification</li>
-                          <li>• Competitive analysis</li>
-                        </ul>
-                      </div>
-                      <div>
-                        <h4 class="font-medium text-gray-900 text-sm mb-2">Deliverables</h4>
-                        <ul class="text-sm text-gray-600 space-y-1">
-                          <li>• Discovery summary document</li>
-                          <li>• Initial opportunity hypothesis</li>
-                          <li>• Success criteria definition</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="mt-4 pt-4 border-t">
-                      <p class="text-sm text-gray-500">
-                        <strong>Decision Gate:</strong> Proceed to assessment if there's a clear business case for AI investment
-                      </p>
-                    </div>
-                  </CardContent>
-                </Card>
-              </div>
-            </div>
 
-            <!-- Phase 2: Map -->
-            <div class="flex flex-col md:flex-row gap-8">
-              <div class="md:w-1/3">
-                <div class="w-16 h-16 bg-amber-600 text-white rounded-full flex items-center justify-center mb-4 text-2xl font-bold">
-                  2
-                </div>
-                <h3 class="text-xl font-medium text-gray-900 mb-2">Map</h3>
-                <p class="text-sm text-gray-500">2–3 weeks</p>
-              </div>
-              <div class="md:w-2/3">
-                <Card>
-                  <CardContent class="pt-6">
-                    <p class="text-gray-600 mb-4">
-                      Comprehensive assessment across the four dimensions of AI readiness: People, Process, Technology, and Data. This becomes the foundation for all subsequent planning.
-                    </p>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      <div>
-                        <h4 class="font-medium text-gray-900 text-sm mb-2">Key Activities</h4>
-                        <ul class="text-sm text-gray-600 space-y-1">
-                          <li>• Four-dimension assessment</li>
-                          <li>• Current state documentation</li>
-                          <li>• Gap analysis</li>
-                          <li>• Benchmark comparisons</li>
-                        </ul>
-                      </div>
-                      <div>
-                        <h4 class="font-medium text-gray-900 text-sm mb-2">Deliverables</h4>
-                        <ul class="text-sm text-gray-600 space-y-1">
-                          <li>• AI Readiness Report</li>
-                          <li>• Scored assessment</li>
-                          <li>• Gap remediation plan</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="mt-4 pt-4 border-t">
-                      <p class="text-sm text-gray-500">
-                        <strong>Decision Gate:</strong> Proceed to planning if readiness gaps can be addressed
-                      </p>
-                    </div>
-                  </CardContent>
-                </Card>
-              </div>
-            </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <Card class="h-full rounded-xl border border-gray-200 bg-white shadow-sm transition-shadow duration-300 hover:shadow-md">
+              <CardHeader>
+                <CardTitle class="text-lg">Multiple Systems</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p class="text-sm text-gray-600">The work depends on several systems, data sources, or operational handoffs staying aligned.</p>
+              </CardContent>
+            </Card>
 
-            <!-- Phase 3: Plan -->
-            <div class="flex flex-col md:flex-row gap-8">
-              <div class="md:w-1/3">
-                <div class="w-16 h-16 bg-amber-500 text-white rounded-full flex items-center justify-center mb-4 text-2xl font-bold">
-                  3
-                </div>
-                <h3 class="text-xl font-medium text-gray-900 mb-2">Plan</h3>
-                <p class="text-sm text-gray-500">2–4 weeks</p>
-              </div>
-              <div class="md:w-2/3">
-                <Card>
-                  <CardContent class="pt-6">
-                    <p class="text-gray-600 mb-4">
-                      Development of a phased implementation roadmap with clear milestones, resource requirements, and decision gates. Risk assessment and mitigation planning.
-                    </p>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      <div>
-                        <h4 class="font-medium text-gray-900 text-sm mb-2">Key Activities</h4>
-                        <ul class="text-sm text-gray-600 space-y-1">
-                          <li>• Opportunity prioritization</li>
-                          <li>• Phased roadmap development</li>
-                          <li>• Resource planning</li>
-                          <li>• Risk assessment</li>
-                        </ul>
-                      </div>
-                      <div>
-                        <h4 class="font-medium text-gray-900 text-sm mb-2">Deliverables</h4>
-                        <ul class="text-sm text-gray-600 space-y-1">
-                          <li>• Implementation roadmap</li>
-                          <li>• Resource plan & budget</li>
-                          <li>• Risk register</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="mt-4 pt-4 border-t">
-                      <p class="text-sm text-gray-500">
-                        <strong>Decision Gate:</strong> Proceed to build if roadmap is approved and resources committed
-                      </p>
-                    </div>
-                  </CardContent>
-                </Card>
-              </div>
-            </div>
+            <Card class="h-full rounded-xl border border-gray-200 bg-white shadow-sm transition-shadow duration-300 hover:shadow-md">
+              <CardHeader>
+                <CardTitle class="text-lg">Multiple Stakeholders</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p class="text-sm text-gray-600">The rollout affects more than one team, owner, or business unit and needs one delivery thread.</p>
+              </CardContent>
+            </Card>
 
-            <!-- Phase 4: Build -->
-            <div class="flex flex-col md:flex-row gap-8">
-              <div class="md:w-1/3">
-                <div class="w-16 h-16 bg-amber-400 text-gray-900 rounded-full flex items-center justify-center mb-4 text-2xl font-bold">
-                  4
-                </div>
-                <h3 class="text-xl font-medium text-gray-900 mb-2">Build</h3>
-                <p class="text-sm text-gray-500">8–16 weeks</p>
-              </div>
-              <div class="md:w-2/3">
-                <Card>
-                  <CardContent class="pt-6">
-                    <p class="text-gray-600 mb-4">
-                      Iterative development with continuous testing and stakeholder feedback. We build in working increments, not big-bang releases, with regular demos and adjustments.
-                    </p>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      <div>
-                        <h4 class="font-medium text-gray-900 text-sm mb-2">Key Activities</h4>
-                        <ul class="text-sm text-gray-600 space-y-1">
-                          <li>• Agile development sprints</li>
-                          <li>• Continuous integration</li>
-                          <li>• Stakeholder demos</li>
-                          <li>• User acceptance testing</li>
-                        </ul>
-                      </div>
-                      <div>
-                        <h4 class="font-medium text-gray-900 text-sm mb-2">Deliverables</h4>
-                        <ul class="text-sm text-gray-600 space-y-1">
-                          <li>• Working AI system</li>
-                          <li>• Technical documentation</li>
-                          <li>• Training materials</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="mt-4 pt-4 border-t">
-                      <p class="text-sm text-gray-500">
-                        <strong>Decision Gate:</strong> Proceed to optimization after successful UAT and go-live
-                      </p>
-                    </div>
-                  </CardContent>
-                </Card>
-              </div>
-            </div>
+            <Card class="h-full rounded-xl border border-gray-200 bg-white shadow-sm transition-shadow duration-300 hover:shadow-md">
+              <CardHeader>
+                <CardTitle class="text-lg">Critical Sequencing</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p class="text-sm text-gray-600">What happens first, what comes next, and what must be true before rollout matters as much as the build itself.</p>
+              </CardContent>
+            </Card>
 
-            <!-- Phase 5: Optimize -->
-            <div class="flex flex-col md:flex-row gap-8">
-              <div class="md:w-1/3">
-                <div class="w-16 h-16 bg-amber-300 text-gray-900 rounded-full flex items-center justify-center mb-4 text-2xl font-bold">
-                  5
-                </div>
-                <h3 class="text-xl font-medium text-gray-900 mb-2">Optimize</h3>
-                <p class="text-sm text-gray-500">Ongoing</p>
-              </div>
-              <div class="md:w-2/3">
-                <Card>
-                  <CardContent class="pt-6">
-                    <p class="text-gray-600 mb-4">
-                      Continuous monitoring, measurement against defined success criteria, and iterative improvement. Model retraining, performance tuning, and capability expansion.
-                    </p>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      <div>
-                        <h4 class="font-medium text-gray-900 text-sm mb-2">Key Activities</h4>
-                        <ul class="text-sm text-gray-600 space-y-1">
-                          <li>• Performance monitoring</li>
-                          <li>• Outcome measurement</li>
-                          <li>• Model retraining</li>
-                          <li>• Continuous improvement</li>
-                        </ul>
-                      </div>
-                      <div>
-                        <h4 class="font-medium text-gray-900 text-sm mb-2">Deliverables</h4>
-                        <ul class="text-sm text-gray-600 space-y-1">
-                          <li>• Monthly performance reports</li>
-                          <li>• Optimization recommendations</li>
-                          <li>• Quarterly business reviews</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="mt-4 pt-4 border-t">
-                      <p class="text-sm text-gray-500">
-                        <strong>Decision Gate:</strong> Expand scope, add capabilities, or transition to steady-state support
-                      </p>
-                    </div>
-                  </CardContent>
-                </Card>
-              </div>
-            </div>
+            <Card class="h-full rounded-xl border border-gray-200 bg-white shadow-sm transition-shadow duration-300 hover:shadow-md">
+              <CardHeader>
+                <CardTitle class="text-lg">One Accountable Partner</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p class="text-sm text-gray-600">You want the same team to hold context across planning, execution, and operational follow-through.</p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Single Point Accountability Section -->
+    <!-- Accountability Section -->
     <section class="py-16 sm:py-20 bg-gray-50">
       <div class="container mx-auto px-4 lg:px-6">
         <div class="max-w-4xl mx-auto text-center">
@@ -279,40 +97,40 @@
             <UserCheck class="w-8 h-8 text-amber-600" />
           </div>
           <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-4">
-            Single-Point Accountability
+            What We Stay Accountable For
           </h2>
           <p class="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
-            The biggest risk in AI projects isn't technology—it's handoffs. When strategy consultants pass to implementation teams who pass to IT, critical context is lost. With Full-Stack Delivery, you have one accountable partner from first conversation through production.
+            The value of this model is simple: context is preserved, trade-offs are made in one place, and rollout does not stall between teams.
           </p>
           
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
-            <Card>
+            <Card class="h-full rounded-xl border border-gray-200 bg-white shadow-sm transition-shadow duration-300 hover:shadow-md">
               <CardHeader>
-                <CardTitle class="text-base">Same Team, Start to Finish</CardTitle>
+                <CardTitle class="text-base">Planning and Sequencing</CardTitle>
               </CardHeader>
               <CardContent>
                 <p class="text-sm text-gray-600">
-                  The people who design your strategy are the same people who build and deploy it. No knowledge loss in handoffs.
+                  We stay responsible for the order of work, the dependencies, and the decisions that shape rollout.
                 </p>
               </CardContent>
             </Card>
-            <Card>
+            <Card class="h-full rounded-xl border border-gray-200 bg-white shadow-sm transition-shadow duration-300 hover:shadow-md">
               <CardHeader>
-                <CardTitle class="text-base">Outcome Commitment</CardTitle>
+                <CardTitle class="text-base">Delivery Across Teams and Systems</CardTitle>
               </CardHeader>
               <CardContent>
                 <p class="text-sm text-gray-600">
-                  We're accountable for business outcomes, not just deliverables. If it doesn't work in practice, we fix it.
+                  We keep the work moving across technical build, business process change, and operational rollout.
                 </p>
               </CardContent>
             </Card>
-            <Card>
+            <Card class="h-full rounded-xl border border-gray-200 bg-white shadow-sm transition-shadow duration-300 hover:shadow-md">
               <CardHeader>
-                <CardTitle class="text-base">Transparent Reporting</CardTitle>
+                <CardTitle class="text-base">Operational Follow-Through</CardTitle>
               </CardHeader>
               <CardContent>
                 <p class="text-sm text-gray-600">
-                  Regular, honest progress updates. If something's off track, you'll know immediately—and what we're doing about it.
+                  We stay involved long enough to see whether the work is operating as intended and what needs adjustment.
                 </p>
               </CardContent>
             </Card>
@@ -321,45 +139,45 @@
       </div>
     </section>
 
-    <!-- Outcome Commitment Section -->
+    <!-- Progression Section -->
     <section class="py-16 sm:py-20">
       <div class="container mx-auto px-4 lg:px-6">
         <div class="max-w-4xl mx-auto">
           <div class="text-center mb-12">
             <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-4">
-              Outcome Commitment
+              How Work Usually Progresses
             </h2>
             <p class="text-gray-600 text-lg">
-              Baseline → Measurement → Transparent Reporting
+              We keep the structure simple so delivery can stay clear.
             </p>
           </div>
           
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="text-center">
+            <div class="text-center rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-md">
               <div class="w-14 h-14 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <BarChart3 class="w-7 h-7 text-gray-600" />
               </div>
-              <h3 class="font-medium text-gray-900 mb-2">Baseline</h3>
+              <h3 class="font-medium text-gray-900 mb-2">Align</h3>
               <p class="text-sm text-gray-600">
-                We establish clear baseline metrics before any changes. You need to know where you started to measure real improvement.
+                We agree on the business objective, the scope, the sequence, and the success criteria.
               </p>
             </div>
-            <div class="text-center">
+            <div class="text-center rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-md">
               <div class="w-14 h-14 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <LineChart class="w-7 h-7 text-gray-600" />
               </div>
-              <h3 class="font-medium text-gray-900 mb-2">Measurement</h3>
+              <h3 class="font-medium text-gray-900 mb-2">Deliver</h3>
               <p class="text-sm text-gray-600">
-                We instrument everything that matters. Automated dashboards plus regular business reviews to track progress against goals.
+                We coordinate the build, the stakeholder decisions, and the operational rollout as one stream of work.
               </p>
             </div>
-            <div class="text-center">
+            <div class="text-center rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-md">
               <div class="w-14 h-14 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <FileText class="w-7 h-7 text-gray-600" />
               </div>
-              <h3 class="font-medium text-gray-900 mb-2">Transparent Reporting</h3>
+              <h3 class="font-medium text-gray-900 mb-2">Review and Extend</h3>
               <p class="text-sm text-gray-600">
-                Monthly reports showing exactly what's working, what's not, and what we're doing about it. No surprises.
+                We measure what changed, adjust what is not working, and decide whether the partnership should continue into the next phase.
               </p>
             </div>
           </div>
@@ -368,19 +186,21 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-16 sm:py-20 bg-gray-900 text-white">
-      <div class="container mx-auto px-4 lg:px-6">
+    <section class="relative isolate overflow-hidden py-16 sm:py-20 bg-gray-900 text-white">
+      <div class="pointer-events-none absolute -left-20 -top-10 h-72 w-72 rounded-full bg-amber-500/20 blur-3xl" />
+      <div class="pointer-events-none absolute -right-16 bottom-0 h-64 w-64 rounded-full bg-white/10 blur-3xl" />
+      <div class="container relative mx-auto px-4 lg:px-6">
         <div class="max-w-3xl mx-auto text-center">
           <h2 class="text-2xl sm:text-3xl font-light mb-4">
-            Ready for End-to-End AI Transformation?
+            Need One Team Across the Whole Program?
           </h2>
           <p class="text-gray-300 mb-8 text-lg">
-            Start with a free Discovery session. We'll explore your objectives, assess your readiness, and give you an honest opinion on whether Full-Stack Delivery makes sense for your situation.
+            We will tell you directly whether delivery partnership is the right fit or whether a simpler engagement is enough.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <Button as-child size="lg" variant="secondary">
               <router-link to="/contact">
-                Start with Discovery
+                Discuss Delivery Partnership
               </router-link>
             </Button>
             <Button as-child size="lg" variant="outline" class="border-white bg-transparent text-white hover:bg-white hover:text-gray-900">

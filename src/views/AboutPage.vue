@@ -1,27 +1,29 @@
 <template>
   <div class="about-page">
     <SEOHead 
-      title="About – LearnedLate | AI Strategy-to-Execution Consultancy"
-      description="LearnedLate helps NZ & Australian businesses move from AI confusion to measurable results. Strategy + Implementation. Business Fluency + Technical Depth."
+      title="About – LearnedLate | AI Readiness, Workflow Automation & Delivery Support"
+      description="LearnedLate helps ANZ mid-market teams identify the right first AI workflow, automate it, and expand with the same delivery partner."
       url="/about"
       type="website"
       :schema="aboutSchema"
     />
     
     <!-- Hero Section -->
-    <section class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-16 sm:py-24">
-      <div class="container mx-auto px-4 lg:px-6">
+    <section class="relative isolate overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 text-white sm:py-24">
+      <div class="pointer-events-none absolute -left-20 -top-16 h-72 w-72 rounded-full bg-amber-500/20 blur-3xl" />
+      <div class="pointer-events-none absolute -right-20 bottom-0 h-64 w-64 rounded-full bg-white/10 blur-3xl" />
+      <div class="container relative mx-auto px-4 lg:px-6">
         <div class="max-w-4xl mx-auto text-center">
           <h1 class="text-3xl sm:text-4xl md:text-5xl font-light mb-6 leading-tight">
-            Your AI Strategy-to-Execution Partner
+            Practical AI Support From Readiness to Rollout
           </h1>
           <p class="text-lg sm:text-xl text-gray-300 mb-8 leading-relaxed">
-            We don't just advise. We build. We don't just code. We align.
+            We help ANZ teams choose the right starting point, automate real workflows, and keep delivery grounded in business outcomes.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <Button as-child size="lg" variant="secondary">
               <router-link to="/contact">
-                Book a Free AI Readiness Assessment
+                Book an AI Readiness Assessment
               </router-link>
             </Button>
             <Button as-child size="lg" variant="outline" class="border-white bg-transparent text-white hover:bg-white hover:text-gray-900">
@@ -163,9 +165,9 @@
                 <Brain class="w-7 h-7 text-white" />
               </div>
               <div>
-                <h3 class="text-xl font-medium text-gray-900 mb-2">AI & Agentic Workflows</h3>
+                <h3 class="text-xl font-medium text-gray-900 mb-2">AI Readiness, Workflow Automation, and Delivery Partnership</h3>
                 <p class="text-gray-600">
-                  Today, we help businesses navigate the AI transition—combining strategic advisory with hands-on implementation. From readiness assessments to autonomous workflow deployment, we bridge the gap between AI potential and business reality.
+                  Today, we help teams identify the right first AI use case, automate high-friction workflows, and expand delivery with the same partner when the work becomes larger or more complex.
                 </p>
               </div>
             </div>
@@ -309,12 +311,12 @@
             Ready to Explore How We Can Help?
           </h2>
           <p class="text-gray-300 mb-8 text-lg">
-            Start with a free AI Readiness Assessment. No pressure, no obligation—just clarity on where you stand and what your options are.
+            Start with an AI Readiness Assessment and get a clear view of the best first use case, the key risks, and the next steps worth funding.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <Button as-child size="lg" variant="secondary">
               <router-link to="/contact">
-                Book a Free AI Readiness Assessment
+                Book an AI Readiness Assessment
               </router-link>
             </Button>
             <Button as-child size="lg" variant="outline" class="border-white bg-transparent text-white hover:bg-white hover:text-gray-900">
@@ -359,8 +361,8 @@ const aboutSchema = [
     "@type": "AboutPage",
     "@id": "https://learnedlate.com/about/#webpage",
     "url": "https://learnedlate.com/about",
-    "name": "About – LearnedLate | AI Strategy-to-Execution Consultancy",
-    "description": "LearnedLate helps NZ & Australian businesses move from AI confusion to measurable results. Strategy + Implementation. Business Fluency + Technical Depth.",
+    "name": "About – LearnedLate | AI Readiness, Workflow Automation & Delivery Support",
+    "description": "LearnedLate helps ANZ mid-market teams identify the right first AI workflow, automate it, and expand with the same delivery partner.",
     "inLanguage": "en-NZ",
     "isPartOf": {
       "@type": "WebSite",
@@ -377,7 +379,7 @@ const aboutSchema = [
       "@type": "ImageObject",
       "url": "https://learnedlate.com/learndlate.png"
     },
-    "description": "AI strategy-to-execution consultancy for NZ and Australian mid-market businesses",
+    "description": "AI readiness, workflow automation, and delivery support for NZ and Australian mid-market businesses",
     "areaServed": [
       {
         "@type": "Country",
@@ -390,9 +392,8 @@ const aboutSchema = [
     ],
     "serviceType": [
       "AI Readiness Assessment",
-      "Agentic Workflow Implementation",
-      "Custom AI Development",
-      "Full-Stack AI Delivery"
+      "AI Workflow Automation",
+      "Delivery Partnership"
     ]
   }
 ]

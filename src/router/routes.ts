@@ -48,7 +48,7 @@ const routes: RouteRecordRaw[] = [
     path: '/',
     name: 'Home',
     component: HomePage,
-    meta: { title: 'LearnedLate – AI Strategy-to-Execution Consultancy | NZ & Australia' }
+    meta: { title: 'LearnedLate – AI Readiness, Workflow Automation & Delivery Support | NZ & Australia' }
   },
   {
     path: '/about',
@@ -60,13 +60,13 @@ const routes: RouteRecordRaw[] = [
     path: '/contact',
     name: 'Contact',
     component: ContactPage,
-    meta: { title: 'Contact – Book a Free AI Readiness Assessment | LearnedLate' }
+    meta: { title: 'Contact – Start With an AI Readiness Assessment | LearnedLate' }
   },
   {
     path: '/services',
     name: 'Services',
     component: ServicesPage,
-    meta: { title: 'Services – AI Strategy & Implementation | LearnedLate' }
+    meta: { title: 'Services – AI Readiness, Workflow Automation & Delivery Partnership | LearnedLate' }
   },
   {
     path: '/services/ai-readiness',
@@ -78,19 +78,19 @@ const routes: RouteRecordRaw[] = [
     path: '/services/agentic-workflows',
     name: 'AgenticWorkflows',
     component: AgenticWorkflowsPage,
-    meta: { title: 'Agentic Workflow Implementation – Autonomous AI Systems | LearnedLate' }
+    meta: { title: 'AI Workflow Automation – Automate Real Business Processes | LearnedLate' }
   },
   {
     path: '/services/custom-ai-development',
     name: 'CustomAiDevelopment',
     component: CustomAiDevelopmentPage,
-    meta: { title: 'Custom AI Development – Tailored AI Solutions | LearnedLate' }
+    meta: { title: 'Custom AI Development – When Standard Tools Fall Short | LearnedLate' }
   },
   {
     path: '/services/full-stack-delivery',
     name: 'FullStackDelivery',
     component: FullStackDeliveryPage,
-    meta: { title: 'Full-Stack AI Delivery – End-to-End Implementation | LearnedLate' }
+    meta: { title: 'Delivery Partnership – Keep Strategy and Delivery in One Team | LearnedLate' }
   },
   {
     path: '/ai-readiness-checklist',

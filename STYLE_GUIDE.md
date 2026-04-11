@@ -4,6 +4,14 @@
 
 Competent and calm. Senior consultant, not growth-hacker.
 
+### Design Principles
+
+1. **Clarity over cleverness.** Layout and copy should be easy to scan in under 10 seconds.
+2. **Single focal action per section.** One primary CTA per section; secondary actions are supportive only.
+3. **Consistent rhythm.** Alternate white and `gray-50` content sections between dark hero and dark final CTA.
+4. **Subtle depth, not decoration.** Prefer border, contrast, and spacing over effects.
+5. **Calm confidence.** No hype UI patterns, novelty animations, or decorative visual noise.
+
 ---
 
 ## Color Palette
@@ -85,7 +93,7 @@ System fonts. Zero load time, native look on every platform.
 
 ```html
 <Button class="bg-amber-600 text-white hover:bg-amber-700">
-  Book a Free Assessment
+  Book an AI Readiness Assessment
 </Button>
 ```
 
@@ -117,6 +125,39 @@ System fonts. Zero load time, native look on every platform.
 - Primary CTAs use `bg-amber-600 hover:bg-amber-700`.
 - Do not use `bg-white text-orange-900` — use `variant="secondary"` instead.
 - Touch targets: minimum 44px height (already enforced globally).
+- Every interactive element must have a visible focus state:
+
+```html
+class="focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-600 focus-visible:ring-offset-2"
+```
+
+- Disabled state must be explicit and non-interactive:
+
+```html
+class="disabled:opacity-50 disabled:cursor-not-allowed"
+```
+
+---
+
+## Forms and Inputs
+
+### Input and Textarea
+
+- Use neutral surfaces with clear borders: `bg-white border-gray-300`.
+- Focus state should always use amber: `focus:border-amber-600 focus:ring-amber-600`.
+- Error state uses red only for validation: `border-red-500 text-red-600` with short helper text.
+
+### Labels and Help Text
+
+- Label: `text-sm font-medium text-gray-900`.
+- Help text: `text-sm text-gray-500`.
+- Error text: `text-sm text-red-600`.
+
+### Form Layout
+
+- Vertical spacing between fields: `space-y-4`.
+- Group related fields in cards only when needed for comprehension.
+- Keep forms to single-column on mobile; avoid two-column forms below `md`.
 
 ---
 
@@ -183,6 +224,14 @@ When cards need visual differentiation (e.g., problem/solution grids):
 
 Use only `amber-500`, `amber-600`, or `gray-300` for card border accents. Do not use red, blue, or purple borders except for explicit error states.
 
+### Radius and Shadow
+
+- Default card radius: `rounded-xl`.
+- Emphasis card radius: `rounded-2xl` (use sparingly for summary/CTA blocks).
+- Default shadow: none or `shadow-sm`.
+- Hover lift (interactive cards only): `hover:shadow-lg transition-shadow duration-300`.
+- Avoid combined shadow + ring + heavy border unless there is a specific state change reason.
+
 ---
 
 ## Icons
@@ -202,6 +251,59 @@ Use only `amber-500`, `amber-600`, or `gray-300` for card border accents. Do not
 | Between section title and content | `mb-8` or `mb-12` |
 | Card grid gap | `gap-6` |
 | Stack gap (vertical list of items) | `space-y-4` or `space-y-6` |
+
+### Content Width and Line Length
+
+- Long-form text blocks should sit in `max-w-3xl` or `max-w-4xl` containers.
+- Keep paragraph measure readable; avoid full-width prose across large displays.
+- Prefer additional vertical whitespace over extra visual separators.
+
+---
+
+## Pricing Blocks
+
+Use pricing sections that are easy to compare and easy to trust.
+
+- Section title should be literal: prefer **Pricing** over abstract labels.
+- Price display class: `text-3xl font-bold text-gray-900`.
+- Keep one short qualifier below the number (for example: "Typical range by complexity").
+- If pricing varies by market, keep card structure identical and vary only the values.
+- Include one concise note card only when needed for legal or market-specific caveats.
+- Avoid dense pricing prose under each card.
+
+Recommended card structure:
+
+```html
+<Card class="h-full">
+  <CardHeader>
+    <CardTitle>New Zealand</CardTitle>
+    <CardDescription>GST exclusive unless stated</CardDescription>
+  </CardHeader>
+  <CardContent>
+    <div class="text-3xl font-bold text-gray-900">$7,500 - $15,000</div>
+    <p class="text-sm text-gray-600 mt-2">Typical range by organization complexity</p>
+  </CardContent>
+</Card>
+```
+
+---
+
+## Interaction and Motion
+
+- Keep motion functional and minimal.
+- Default transition durations: `duration-200` for controls, `duration-300` for cards.
+- Prefer color and shadow transitions over transform-heavy motion.
+- Do not animate large content blocks on scroll by default.
+- Respect reduced-motion preferences for non-essential animation.
+
+```css
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+```
 
 ---
 
@@ -236,6 +338,17 @@ For custom sections (heroes, feature grids), use the Tailwind classes documented
 
 ---
 
+## Accessibility Baseline
+
+- Body text must meet WCAG AA contrast against its background.
+- Do not rely on color alone to communicate status.
+- Every form control requires an associated visible label.
+- Keyboard users must be able to reach all interactive controls in logical order.
+- Focus indicators must always be visible on links, buttons, and inputs.
+- Link text should be descriptive; avoid "click here".
+
+---
+
 ## What to Avoid
 
 1. **Gradient text or gradient decorative borders.** Use solid colors.
@@ -244,3 +357,5 @@ For custom sections (heroes, feature grids), use the Tailwind classes documented
 4. **Multiple shades of the same color on one element.** Pick one shade and commit.
 5. **Decorative complexity** (animated underlines, hover scale on images, macOS code block dots). Keep interactions simple: color change on hover, that's it.
 6. **Using both `orange-*` and `amber-*`.** They look nearly identical and create inconsistency. Amber only.
+7. **Hidden focus states.** Never remove outlines without replacing them with visible `focus-visible` styles.
+8. **Ambiguous CTA language.** Keep CTA labels explicit and action-oriented.

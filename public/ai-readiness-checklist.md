@@ -2,7 +2,7 @@
 
 **15 Questions Every Leadership Team Should Ask Before Investing in AI**
 
-LearnedLate — AI Strategy-to-Execution Consultancy | learnedlate.com
+LearnedLate — AI Readiness, Workflow Automation & Delivery Support | learnedlate.com
 
 ---
 
@@ -198,7 +198,7 @@ The gap between experimentation and transformation is where most organisations a
 
 ## Want to Go Deeper?
 
-This checklist gives you a snapshot. Our **free AI Readiness Assessment** gives you a scored evaluation across all four dimensions, a prioritised opportunity map, and specific recommendations — delivered in a 30-minute conversation with a written summary within 48 hours.
+This checklist gives you a snapshot. Our **AI Readiness Assessment** gives you a scored evaluation across all four dimensions, a prioritised opportunity map, and specific recommendations — delivered in a 30-minute conversation with a written summary within 48 hours.
 
 **Book your free assessment:** learnedlate.com/contact
 
@@ -206,6 +206,6 @@ No pressure, no obligation — just clarity on where you stand and what path for
 
 ---
 
-_LearnedLate — AI Strategy-to-Execution Consultancy_
+_LearnedLate — AI Readiness, Workflow Automation & Delivery Support_
 _Serving New Zealand & Australia_
 _learnedlate.com_

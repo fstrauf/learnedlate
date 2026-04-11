@@ -288,7 +288,7 @@ The best AI tool is the one you'll actually use. Start simple, prove ROI, then e
 
 Knowing which AI tools exist is just the first step. The real value comes from implementing them effectively in your specific business context.
 
-[Get a free AI readiness assessment](/ai-implementation) — I'll analyze your current processes and identify the top 3 AI opportunities that will save you 10+ hours per week.
+[Book an AI readiness assessment](/ai-implementation) — I'll analyze your current processes and identify the top 3 AI opportunities that will save you 10+ hours per week.
 
 ---
 

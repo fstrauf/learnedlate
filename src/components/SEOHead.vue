@@ -24,8 +24,8 @@ interface SEOProps {
 }
 
 const props = withDefaults(defineProps<SEOProps>(), {
-  title: 'LearnedLate – AI Strategy-to-Execution Consultancy | NZ & Australia',
-  description: "Don't Get Left Behind by AI. Turn Strategy into Working Systems. For NZ & Australian mid-market businesses ready to move from AI confusion to measurable results.",
+  title: 'LearnedLate – AI Readiness, Workflow Automation & Delivery Support | NZ & Australia',
+  description: 'LearnedLate helps ANZ mid-market teams identify the right first AI workflow, automate it, and expand with the same delivery partner.',
   image: '/learndlate.png',
   url: undefined, // Let it be computed from current route
   type: 'website',
@@ -60,7 +60,7 @@ const organizationSchema = {
     "@type": "ImageObject",
     "url": "https://learnedlate.com/learndlate.png"
   },
-  "description": "AI strategy-to-execution consultancy for New Zealand and Australian mid-market businesses",
+  "description": "AI readiness, workflow automation, and delivery support for New Zealand and Australian mid-market businesses",
   "areaServed": [
     {
       "@type": "Country",
@@ -73,9 +73,8 @@ const organizationSchema = {
   ],
   "serviceType": [
     "AI Readiness Assessment",
-    "Agentic Workflow Implementation",
-    "Custom AI Development",
-    "Full-Stack AI Delivery"
+    "AI Workflow Automation",
+    "Delivery Partnership"
   ],
   "email": "hello@learnedlate.com",
   "sameAs": [
@@ -90,7 +89,7 @@ useHead({
     { name: 'description', content: props.description },
     { name: 'robots', content: 'index, follow' },
     { name: 'author', content: 'LearnedLate' },
-    { name: 'keywords', content: 'AI consulting, AI readiness, agentic workflows, AI implementation, New Zealand, Australia, mid-market business, AI transformation' },
+    { name: 'keywords', content: 'AI consulting, AI readiness assessment, workflow automation, AI delivery partner, New Zealand, Australia, mid-market business' },
     
     // Open Graph
     { property: 'og:title', content: fullTitle },

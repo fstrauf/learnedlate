@@ -4,12 +4,12 @@
     <div class="sticky top-0 z-50 border-b border-gray-800 bg-gray-950/95 text-white backdrop-blur">
       <div class="container mx-auto flex flex-col items-center justify-between gap-2 px-4 py-2 sm:flex-row lg:px-6">
         <p class="text-center text-xs text-gray-200 sm:text-left sm:text-sm">
-          Don't Get Left Behind by AI
-          <span class="hidden text-gray-400 sm:inline"> | Free 30min readiness assessment</span>
+          AI readiness, workflow automation, and delivery support
+          <span class="hidden text-gray-400 sm:inline"> | Start with an AI readiness assessment</span>
         </p>
         <Button as-child size="sm" class="bg-amber-600 text-white hover:bg-amber-700 text-xs sm:text-sm">
           <router-link to="/contact">
-            Book a Free AI Readiness Assessment
+            Book an AI Readiness Assessment
           </router-link>
         </Button>
       </div>
@@ -50,17 +50,12 @@
                   </DropdownMenuItem>
                   <DropdownMenuItem as-child>
                     <router-link to="/services/agentic-workflows" class="cursor-pointer">
-                      Agentic Workflow Implementation
-                    </router-link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem as-child>
-                    <router-link to="/services/custom-ai-development" class="cursor-pointer">
-                      Custom AI Development
+                      AI Workflow Automation
                     </router-link>
                   </DropdownMenuItem>
                   <DropdownMenuItem as-child>
                     <router-link to="/services/full-stack-delivery" class="cursor-pointer">
-                      Full-Stack AI Delivery
+                      Delivery Partnership
                     </router-link>
                   </DropdownMenuItem>
                 </DropdownMenuContent>
@@ -116,9 +111,8 @@
                 <div class="mb-1 py-2 text-xs uppercase tracking-wide text-gray-400">Services</div>
                 <router-link @click="closeMobileMenu" to="/services" class="block rounded-md py-2 pl-4 text-sm text-gray-200 hover:bg-gray-700 hover:text-amber-200">All Services</router-link>
                 <router-link @click="closeMobileMenu" to="/services/ai-readiness" class="block rounded-md py-2 pl-4 text-sm text-gray-200 hover:bg-gray-700 hover:text-amber-200">AI Readiness Assessment</router-link>
-                <router-link @click="closeMobileMenu" to="/services/agentic-workflows" class="block rounded-md py-2 pl-4 text-sm text-gray-200 hover:bg-gray-700 hover:text-amber-200">Agentic Workflows</router-link>
-                <router-link @click="closeMobileMenu" to="/services/custom-ai-development" class="block rounded-md py-2 pl-4 text-sm text-gray-200 hover:bg-gray-700 hover:text-amber-200">Custom AI Development</router-link>
-                <router-link @click="closeMobileMenu" to="/services/full-stack-delivery" class="block rounded-md py-2 pl-4 text-sm text-gray-200 hover:bg-gray-700 hover:text-amber-200">Full-Stack Delivery</router-link>
+                <router-link @click="closeMobileMenu" to="/services/agentic-workflows" class="block rounded-md py-2 pl-4 text-sm text-gray-200 hover:bg-gray-700 hover:text-amber-200">AI Workflow Automation</router-link>
+                <router-link @click="closeMobileMenu" to="/services/full-stack-delivery" class="block rounded-md py-2 pl-4 text-sm text-gray-200 hover:bg-gray-700 hover:text-amber-200">Delivery Partnership</router-link>
               </div>
               <router-link @click="closeMobileMenu" to="/blog" class="block rounded-md px-3 py-2 text-sm text-gray-200 hover:bg-gray-700 hover:text-amber-200">Blog</router-link>
               <router-link @click="closeMobileMenu" to="/about" class="block rounded-md px-3 py-2 text-sm text-gray-200 hover:bg-gray-700 hover:text-amber-200">About</router-link>
@@ -140,9 +134,9 @@
             <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Services</h3>
             <nav class="flex flex-col gap-1 text-sm">
               <router-link to="/services/ai-readiness" class="hover:text-gray-900 hover:underline transition-colors">AI Readiness</router-link>
-              <router-link to="/services/agentic-workflows" class="hover:text-gray-900 hover:underline transition-colors">Agentic Workflows</router-link>
+              <router-link to="/services/agentic-workflows" class="hover:text-gray-900 hover:underline transition-colors">Workflow Automation</router-link>
+              <router-link to="/services/full-stack-delivery" class="hover:text-gray-900 hover:underline transition-colors">Delivery Partnership</router-link>
               <router-link to="/services/custom-ai-development" class="hover:text-gray-900 hover:underline transition-colors">Custom AI</router-link>
-              <router-link to="/services/full-stack-delivery" class="hover:text-gray-900 hover:underline transition-colors">Full-Stack</router-link>
             </nav>
           </div>
 

@@ -8,8 +8,10 @@
     />
     
     <!-- Hero Section -->
-    <section class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-16 sm:py-24">
-      <div class="container mx-auto px-4 lg:px-6">
+    <section class="relative isolate overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 text-white sm:py-24">
+      <div class="pointer-events-none absolute -left-20 -top-16 h-72 w-72 rounded-full bg-amber-500/20 blur-3xl" />
+      <div class="pointer-events-none absolute -right-20 bottom-0 h-64 w-64 rounded-full bg-white/10 blur-3xl" />
+      <div class="container relative mx-auto px-4 lg:px-6">
         <div class="max-w-4xl mx-auto text-center">
           <h1 class="text-3xl sm:text-4xl md:text-5xl font-light mb-6 leading-tight">
             AI Readiness Checklist
@@ -164,12 +166,12 @@
             Want a Comprehensive Assessment?
           </h2>
           <p class="text-gray-300 mb-8 text-lg">
-            Our professional AI Readiness Assessment goes far deeper than any checklist. Book a free assessment to get a scored evaluation and prioritized opportunity map.
+            Our AI Readiness Assessment goes far deeper than any checklist. Book the assessment to get a scored evaluation, a shortlist of use cases, and clear next steps.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <Button as-child size="lg" variant="secondary">
               <router-link to="/contact">
-                Book a Free AI Readiness Assessment
+                Book an AI Readiness Assessment
               </router-link>
             </Button>
           </div>
@@ -186,6 +188,7 @@ import {
   Card,
   CardContent,
 } from '@/components/ui/card'
+import { Button } from '@/components/ui/button'
 import {
   Users,
   Workflow,

@@ -1,8 +1,8 @@
 <template>
   <div class="contact-page">
     <SEOHead 
-      title="Contact – Get in Touch | LearnedLate"
-      description="Have a question or project in mind? Send us a message and we'll respond within 24 hours. Serving New Zealand & Australia."
+      title="Contact – Start With an AI Readiness Assessment | LearnedLate"
+      description="Tell us what workflow, process, or AI opportunity you want to improve. We respond within 24 hours. Serving New Zealand & Australia."
       url="/contact"
       type="website"
     />
@@ -15,8 +15,8 @@
             Get in Touch
           </h1>
           <p class="text-lg sm:text-xl text-gray-300 mb-8 leading-relaxed max-w-2xl mx-auto">
-            Have a question about AI readiness, or want to discuss your project? 
-            Send us a message and we'll respond within 24 hours.
+            Tell us what you are trying to improve, whether that is readiness, workflow automation, or a larger delivery program.
+            We will respond within 24 hours.
           </p>
         </div>
       </div>
@@ -96,8 +96,8 @@
                 What information should I include in my message?
               </AccordionTrigger>
               <AccordionContent class="text-gray-600 pb-4">
-                Helpful details include: your company size, industry, current technical setup, 
-                and what you're hoping to achieve with AI. The more context, the better we can help.
+                Helpful details include your company size, the workflow or process you want to improve,
+                the systems involved, and the result you want to achieve. The more context, the better we can help.
               </AccordionContent>
             </AccordionItem>
           </Accordion>

@@ -33,7 +33,7 @@
 
           <div class="mt-8">
             <Button as-child size="lg" variant="secondary">
-              <a href="/contact" >Get Your Free AI Readiness Assessment</a>
+              <a href="/contact" >Book an AI Readiness Assessment</a>
             </Button>
             <div class="text-gray-300 text-sm mt-2">15-minute call • 3 immediate opportunities identified • No fluff</div>
           </div>
@@ -314,7 +314,7 @@
           <h2 class="text-2xl sm:text-3xl font-light text-gray-900">Your competitors are already 3 months ahead</h2>
           <p class="text-gray-600 mt-2">Every week you wait is another 10+ hours lost, another $2,000 wasted on inefficiency</p>
           <div class="bg-gray-50 border border-gray-200 rounded-xl p-6 mt-6">
-            <h3 class="text-lg font-medium text-gray-900">Free AI Readiness Assessment</h3>
+            <h3 class="text-lg font-medium text-gray-900">AI Readiness Assessment</h3>
             <p class="text-gray-700 mt-1">15‑minute call to identify your top 3 AI opportunities</p>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left mt-3 text-sm text-gray-700">
               <div>✓ Current efficiency baseline</div>

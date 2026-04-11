@@ -1,21 +1,23 @@
 <template>
   <div class="custom-ai-development-page">
     <SEOHead 
-      title="Custom AI Development – Tailored AI Solutions | LearnedLate"
-      description="Specialized model training, unique integrations, and bespoke AI tools when off-the-shelf solutions aren't enough. Built only when justified."
+      title="Custom AI Development – When Standard Tools Fall Short | LearnedLate"
+      description="We recommend custom AI only when packaged tools cannot handle the integration, logic, or differentiation you actually need."
       url="/services/custom-ai-development"
       type="website"
     />
     
     <!-- Hero Section -->
-    <section class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-16 sm:py-24">
-      <div class="container mx-auto px-4 lg:px-6">
+    <section class="relative isolate overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 text-white sm:py-24">
+      <div class="pointer-events-none absolute -left-20 -top-16 h-72 w-72 rounded-full bg-amber-500/20 blur-3xl" />
+      <div class="pointer-events-none absolute -right-20 bottom-0 h-64 w-64 rounded-full bg-white/10 blur-3xl" />
+      <div class="container relative mx-auto px-4 lg:px-6">
         <div class="max-w-4xl mx-auto text-center">
           <h1 class="text-3xl sm:text-4xl md:text-5xl font-light mb-6 leading-tight">
-            Tailored AI Tools When Off-the-Shelf Isn't Enough
+            Use Custom AI Only When Standard Tools Fall Short
           </h1>
           <p class="text-lg sm:text-xl text-gray-100 mb-8 leading-relaxed max-w-3xl mx-auto">
-            Specialized model training, unique integration architectures, and competitive differentiation through custom AI capabilities.
+            We recommend custom development only when it gives you something packaged tools cannot: unique integration, proprietary logic, or genuine differentiation.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <Button as-child size="lg" variant="secondary">
@@ -33,68 +35,68 @@
       </div>
     </section>
 
-    <!-- When Custom Makes Sense -->
+    <!-- When Custom Fits -->
     <section class="py-16 sm:py-20">
       <div class="container mx-auto px-4 lg:px-6">
         <div class="max-w-5xl mx-auto">
           <div class="text-center mb-12">
             <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-4">
-              When Custom Development Is Appropriate
+              When Custom Development Is Worth It
             </h2>
             <p class="text-gray-600 text-lg max-w-2xl mx-auto">
-              We build custom only when commercial solutions are demonstrably insufficient
+              Custom should solve a specific gap, not become the default answer to every AI project.
             </p>
           </div>
           
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <Card class="h-full">
+            <Card class="h-full rounded-xl border border-gray-200 bg-white shadow-sm transition-shadow duration-300 hover:shadow-md">
               <CardHeader>
                 <GraduationCap class="w-8 h-8 text-amber-600 mb-3" />
-                <CardTitle class="text-lg">Specialized Model Training</CardTitle>
+                <CardTitle class="text-lg">Domain-Specific Logic</CardTitle>
               </CardHeader>
               <CardContent>
-                <p class="text-red-700 text-sm">
-                  Your domain requires deep expertise that generic models don't have—technical jargon, proprietary methodologies, or industry-specific reasoning patterns.
+                <p class="text-gray-600 text-sm">
+                  Your workflow depends on terminology, decision rules, or reasoning patterns that standard tools cannot handle reliably.
                 </p>
               </CardContent>
             </Card>
 
-            <Card class="h-full">
+            <Card class="h-full rounded-xl border border-gray-200 bg-white shadow-sm transition-shadow duration-300 hover:shadow-md">
               <CardHeader>
                 <Puzzle class="w-8 h-8 text-amber-600 mb-3" />
-                <CardTitle class="text-lg">Unique Integration Needs</CardTitle>
+                <CardTitle class="text-lg">Hard Integration Problems</CardTitle>
               </CardHeader>
               <CardContent>
                 <p class="text-gray-600 text-sm">
-                  Your technology stack or security requirements demand bespoke integration architectures that off-the-shelf tools can't accommodate.
+                  Your environment, security model, or system landscape cannot be covered cleanly by off-the-shelf products.
                 </p>
               </CardContent>
             </Card>
 
-            <Card class="h-full">
+            <Card class="h-full rounded-xl border border-gray-200 bg-white shadow-sm transition-shadow duration-300 hover:shadow-md">
               <CardHeader>
                 <Trophy class="w-8 h-8 text-amber-600 mb-3" />
-                <CardTitle class="text-lg">Competitive Differentiation</CardTitle>
+                <CardTitle class="text-lg">Real Differentiation</CardTitle>
               </CardHeader>
               <CardContent>
                 <p class="text-gray-600 text-sm">
-                  The AI capability itself is a core differentiator for your business—using the same tools as competitors would eliminate your advantage.
+                  The capability itself is strategically important enough that using the same tooling as everyone else would limit your advantage.
                 </p>
               </CardContent>
             </Card>
           </div>
 
           <!-- When NOT to build custom -->
-          <div class="mt-12 bg-gray-100 rounded-xl p-6 border border-gray-200">
+          <div class="mt-12 bg-gray-100 rounded-xl p-6 border border-gray-200 shadow-sm">
             <div class="flex items-start gap-4">
               <AlertTriangle class="w-8 h-8 text-gray-600 flex-shrink-0" />
               <div>
                 <h3 class="font-medium text-gray-900 mb-2">When We Won't Build Custom</h3>
                 <p class="text-gray-600 text-sm mb-3">
-                  If a commercial solution can solve your problem effectively, we'll tell you to use it. We're not interested in reinventing wheels or charging you for unnecessary development.
+                  If a commercial solution can solve the problem well enough, we will tell you to use it. We are not interested in reinventing wheels or charging you for unnecessary build work.
                 </p>
                 <p class="text-gray-600 text-sm">
-                  <strong>Our commitment:</strong> We'll only propose custom development when we can clearly demonstrate why off-the-shelf options won't work for your specific situation.
+                  <strong>Our commitment:</strong> We only recommend custom development when we can clearly show why standard tools are not enough for your situation.
                 </p>
               </div>
             </div>
@@ -103,182 +105,80 @@
       </div>
     </section>
 
-    <!-- Technical Depth Section -->
+    <!-- Scope Section -->
     <section class="py-16 sm:py-20 bg-gray-50">
       <div class="container mx-auto px-4 lg:px-6">
         <div class="max-w-5xl mx-auto">
           <div class="text-center mb-12">
             <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-4">
-              Technical Capabilities
+              How We Scope Custom Work
             </h2>
             <p class="text-gray-600 text-lg">
-              Full-stack custom AI development from model to monitoring
+              Keep the work narrow, justified, and tied to a specific operational result.
             </p>
           </div>
           
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Card class="h-full">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Card class="h-full rounded-xl border border-gray-200 bg-white shadow-sm transition-shadow duration-300 hover:shadow-md">
               <CardHeader>
                 <Network class="w-6 h-6 text-amber-600 mb-2" />
-                <CardTitle class="text-lg">Architecture</CardTitle>
+                <CardTitle class="text-lg">Prove the Gap</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul class="space-y-2 text-sm text-gray-600">
-                  <li class="flex items-start gap-2">
-                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
-                    Model selection and fine-tuning strategy
-                  </li>
-                  <li class="flex items-start gap-2">
-                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
-                    RAG (Retrieval-Augmented Generation) pipelines
-                  </li>
-                  <li class="flex items-start gap-2">
-                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
-                    Multi-modal system design
-                  </li>
-                  <li class="flex items-start gap-2">
-                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
-                    Scalable inference architectures
-                  </li>
-                </ul>
+                <p class="text-sm text-gray-600">
+                  We start by validating why standard tools fail on integration, control, or domain requirements.
+                </p>
               </CardContent>
             </Card>
 
-            <Card class="h-full">
+            <Card class="h-full rounded-xl border border-gray-200 bg-white shadow-sm transition-shadow duration-300 hover:shadow-md">
               <CardHeader>
                 <Plug class="w-6 h-6 text-amber-600 mb-2" />
-                <CardTitle class="text-lg">Integration</CardTitle>
+                <CardTitle class="text-lg">Define a Narrow Build</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul class="space-y-2 text-sm text-gray-600">
-                  <li class="flex items-start gap-2">
-                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
-                    API design and development
-                  </li>
-                  <li class="flex items-start gap-2">
-                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
-                    Legacy system connectivity
-                  </li>
-                  <li class="flex items-start gap-2">
-                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
-                    Real-time data pipelines
-                  </li>
-                  <li class="flex items-start gap-2">
-                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
-                    Authentication and access control
-                  </li>
-                </ul>
+                <p class="text-sm text-gray-600">
+                  The first scope is intentionally tight so value can be tested before the work expands.
+                </p>
               </CardContent>
             </Card>
 
-            <Card class="h-full">
-              <CardHeader>
-                <Rocket class="w-6 h-6 text-amber-600 mb-2" />
-                <CardTitle class="text-lg">Deployment</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul class="space-y-2 text-sm text-gray-600">
-                  <li class="flex items-start gap-2">
-                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
-                    Cloud and on-premise options
-                  </li>
-                  <li class="flex items-start gap-2">
-                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
-                    Containerization and orchestration
-                  </li>
-                  <li class="flex items-start gap-2">
-                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
-                    CI/CD for ML models
-                  </li>
-                  <li class="flex items-start gap-2">
-                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
-                    Performance optimization
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card class="h-full">
+            <Card class="h-full rounded-xl border border-gray-200 bg-white shadow-sm transition-shadow duration-300 hover:shadow-md">
               <CardHeader>
                 <Activity class="w-6 h-6 text-amber-600 mb-2" />
-                <CardTitle class="text-lg">Monitoring & Observability</CardTitle>
+                <CardTitle class="text-lg">Stage Delivery</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul class="space-y-2 text-sm text-gray-600">
-                  <li class="flex items-start gap-2">
-                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
-                    Model performance tracking
-                  </li>
-                  <li class="flex items-start gap-2">
-                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
-                    Drift detection and alerting
-                  </li>
-                  <li class="flex items-start gap-2">
-                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
-                    Usage analytics and cost monitoring
-                  </li>
-                  <li class="flex items-start gap-2">
-                    <Check class="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
-                    Automated retraining pipelines
-                  </li>
-                </ul>
+                <p class="text-sm text-gray-600">
+                  We use phased delivery and clear decision gates so the project stays aligned with value.
+                </p>
               </CardContent>
             </Card>
           </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Scope Discipline Section -->
-    <section class="py-16 sm:py-20">
-      <div class="container mx-auto px-4 lg:px-6">
-        <div class="max-w-4xl mx-auto text-center">
-          <div class="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-6">
-            <ShieldCheck class="w-8 h-8 text-amber-600" />
-          </div>
-          <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-4">
-            Scope Discipline
-          </h2>
-          <p class="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
-            Custom AI projects can expand indefinitely. We maintain strict discipline through clear success criteria, phased delivery, and regular scope reviews.
-          </p>
-          
-          <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
-            <div class="bg-gray-50 rounded-lg p-6">
-              <Target class="w-8 h-8 text-amber-600 mx-auto mb-3" />
-              <h3 class="font-medium text-gray-900 mb-2">Clear Success Criteria</h3>
-              <p class="text-sm text-gray-600">
-                Defined, measurable outcomes before development begins
-              </p>
-            </div>
-            <div class="bg-gray-50 rounded-lg p-6">
-              <Layers class="w-8 h-8 text-amber-600 mx-auto mb-3" />
-              <h3 class="font-medium text-gray-900 mb-2">Phased Delivery</h3>
-              <p class="text-sm text-gray-600">
-                Working increments with go/no-go decision gates
-              </p>
-            </div>
-            <div class="bg-gray-50 rounded-lg p-6">
-              <RefreshCw class="w-8 h-8 text-amber-600 mx-auto mb-3" />
-              <h3 class="font-medium text-gray-900 mb-2">Regular Reviews</h3>
-              <p class="text-sm text-gray-600">
-                Weekly check-ins to keep scope aligned with value
-              </p>
-            </div>
+          <div class="mt-8 rounded-2xl border border-gray-200 bg-white p-6 text-left shadow-sm">
+            <p class="text-sm font-medium text-gray-900">A good custom AI project should be able to answer three questions clearly:</p>
+            <ul class="mt-3 space-y-2 text-sm text-gray-600">
+              <li>1. What specific problem cannot be solved well enough with standard tools?</li>
+              <li>2. What result will make the build worthwhile?</li>
+              <li>3. What is the smallest useful version we can deliver first?</li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="py-16 sm:py-20 bg-gray-900 text-white">
-      <div class="container mx-auto px-4 lg:px-6">
+    <section class="relative isolate overflow-hidden py-16 sm:py-20 bg-gray-900 text-white">
+      <div class="pointer-events-none absolute -left-20 -top-10 h-72 w-72 rounded-full bg-amber-500/20 blur-3xl" />
+      <div class="pointer-events-none absolute -right-16 bottom-0 h-64 w-64 rounded-full bg-white/10 blur-3xl" />
+      <div class="container relative mx-auto px-4 lg:px-6">
         <div class="max-w-3xl mx-auto text-center">
           <h2 class="text-2xl sm:text-3xl font-light mb-4">
-            Think You Need Custom AI Development?
+            Think You May Need Custom AI?
           </h2>
           <p class="text-gray-300 mb-8 text-lg">
-            Let's discuss your requirements. We'll give you an honest assessment of whether custom development makes sense—or if there's a faster, cheaper path with existing tools.
+            We will give you a direct view on whether custom development is justified or whether there is a faster, simpler path with standard tools.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <Button as-child size="lg" variant="secondary">
@@ -314,12 +214,6 @@ import {
   AlertTriangle,
   Network,
   Plug,
-  Rocket,
   Activity,
-  Check,
-  ShieldCheck,
-  Target,
-  Layers,
-  RefreshCw,
 } from 'lucide-vue-next'
 </script>

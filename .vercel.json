@@ -1,0 +1,3 @@
+{
+  "devCommand": "echo 'API functions only - no frontend dev server'"
+}
