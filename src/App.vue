@@ -4,12 +4,11 @@
     <div class="sticky top-0 z-50 border-b border-gray-800 bg-gray-950/95 text-white backdrop-blur">
       <div class="container mx-auto flex flex-col items-center justify-between gap-2 px-4 py-2 sm:flex-row lg:px-6">
         <p class="text-center text-xs text-gray-200 sm:text-left sm:text-sm">
-          AI readiness, workflow automation, and delivery support
-          <span class="hidden text-gray-400 sm:inline"> | Start with an AI readiness assessment</span>
+          AI strategy, implementation, and engineering — one team, end to end
         </p>
         <Button as-child size="sm" class="bg-amber-600 text-white hover:bg-amber-700 text-xs sm:text-sm">
           <router-link to="/contact">
-            Book an AI Readiness Assessment
+            Get Started
           </router-link>
         </Button>
       </div>
@@ -29,50 +28,20 @@
             <!-- Desktop Navigation -->
             <div class="hidden lg:flex items-center space-x-7 text-sm text-gray-200">
               <router-link to="/" class="hover:text-amber-200 transition-colors">Home</router-link>
-              
-              <!-- Services Dropdown -->
-              <DropdownMenu>
-                <DropdownMenuTrigger class="flex items-center space-x-1 hover:text-amber-200 transition-colors py-2 outline-none focus:outline-none">
-                  <span>Services</span>
-                  <ChevronDown class="w-4 h-4" />
-                </DropdownMenuTrigger>
-                <DropdownMenuContent class="w-72">
-                  <DropdownMenuItem as-child>
-                    <router-link to="/services" class="cursor-pointer">
-                      All Services
-                    </router-link>
-                  </DropdownMenuItem>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuItem as-child>
-                    <router-link to="/services/ai-readiness" class="cursor-pointer">
-                      AI Readiness Assessment
-                    </router-link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem as-child>
-                    <router-link to="/services/agentic-workflows" class="cursor-pointer">
-                      AI Workflow Automation
-                    </router-link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem as-child>
-                    <router-link to="/services/full-stack-delivery" class="cursor-pointer">
-                      Delivery Partnership
-                    </router-link>
-                  </DropdownMenuItem>
-                </DropdownMenuContent>
-              </DropdownMenu>
-
-              <router-link to="/blog" class="hover:text-amber-200 transition-colors">Blog</router-link>
+              <router-link to="/services/strategy" class="hover:text-amber-200 transition-colors">Strategy</router-link>
+              <router-link to="/services/implementation" class="hover:text-amber-200 transition-colors">Implementation</router-link>
+              <router-link to="/services/engineering" class="hover:text-amber-200 transition-colors">Engineering</router-link>
               <router-link to="/about" class="hover:text-amber-200 transition-colors">About</router-link>
-              <router-link to="/contact" class="text-amber-200 hover:text-amber-100 transition-colors">Contact</router-link>
+              <router-link to="/contact" class="text-amber-200 hover:text-amber-100 transition-colors">Get Started</router-link>
             </div>
 
-            <!-- Tablet Navigation (simplified, no dropdown) -->
+            <!-- Tablet Navigation (simplified) -->
             <div class="hidden sm:flex lg:hidden space-x-6 text-sm text-gray-200">
               <router-link to="/" class="hover:text-amber-200 transition-colors">Home</router-link>
-              <router-link to="/services" class="hover:text-amber-200 transition-colors">Services</router-link>
-              <router-link to="/blog" class="hover:text-amber-200 transition-colors">Blog</router-link>
-              <router-link to="/about" class="hover:text-amber-200 transition-colors">About</router-link>
-              <router-link to="/contact" class="text-amber-200 hover:text-amber-100 transition-colors">Contact</router-link>
+              <router-link to="/services/strategy" class="hover:text-amber-200 transition-colors">Strategy</router-link>
+              <router-link to="/services/implementation" class="hover:text-amber-200 transition-colors">Implementation</router-link>
+              <router-link to="/services/engineering" class="hover:text-amber-200 transition-colors">Engineering</router-link>
+              <router-link to="/contact" class="text-amber-200 hover:text-amber-100 transition-colors">Get Started</router-link>
             </div>
 
             <!-- Mobile Menu Button -->
@@ -107,16 +76,12 @@
           >
             <div class="flex flex-col space-y-2">
               <router-link @click="closeMobileMenu" to="/" class="block rounded-md px-3 py-2 text-sm text-gray-200 hover:bg-gray-700 hover:text-amber-200">Home</router-link>
-              <div class="px-2">
-                <div class="mb-1 py-2 text-xs uppercase tracking-wide text-gray-400">Services</div>
-                <router-link @click="closeMobileMenu" to="/services" class="block rounded-md py-2 pl-4 text-sm text-gray-200 hover:bg-gray-700 hover:text-amber-200">All Services</router-link>
-                <router-link @click="closeMobileMenu" to="/services/ai-readiness" class="block rounded-md py-2 pl-4 text-sm text-gray-200 hover:bg-gray-700 hover:text-amber-200">AI Readiness Assessment</router-link>
-                <router-link @click="closeMobileMenu" to="/services/agentic-workflows" class="block rounded-md py-2 pl-4 text-sm text-gray-200 hover:bg-gray-700 hover:text-amber-200">AI Workflow Automation</router-link>
-                <router-link @click="closeMobileMenu" to="/services/full-stack-delivery" class="block rounded-md py-2 pl-4 text-sm text-gray-200 hover:bg-gray-700 hover:text-amber-200">Delivery Partnership</router-link>
-              </div>
-              <router-link @click="closeMobileMenu" to="/blog" class="block rounded-md px-3 py-2 text-sm text-gray-200 hover:bg-gray-700 hover:text-amber-200">Blog</router-link>
+              <router-link @click="closeMobileMenu" to="/services/strategy" class="block rounded-md px-3 py-2 text-sm text-gray-200 hover:bg-gray-700 hover:text-amber-200">Strategy</router-link>
+              <router-link @click="closeMobileMenu" to="/services/implementation" class="block rounded-md px-3 py-2 text-sm text-gray-200 hover:bg-gray-700 hover:text-amber-200">Implementation</router-link>
+              <router-link @click="closeMobileMenu" to="/services/engineering" class="block rounded-md px-3 py-2 text-sm text-gray-200 hover:bg-gray-700 hover:text-amber-200">Engineering</router-link>
               <router-link @click="closeMobileMenu" to="/about" class="block rounded-md px-3 py-2 text-sm text-gray-200 hover:bg-gray-700 hover:text-amber-200">About</router-link>
-              <router-link @click="closeMobileMenu" to="/contact" class="block rounded-md px-3 py-2 text-sm text-amber-200 hover:bg-gray-700 hover:text-amber-100">Contact</router-link>
+              <router-link @click="closeMobileMenu" to="/blog" class="block rounded-md px-3 py-2 text-sm text-gray-200 hover:bg-gray-700 hover:text-amber-200">Blog</router-link>
+              <router-link @click="closeMobileMenu" to="/contact" class="block rounded-md px-3 py-2 text-sm text-amber-200 hover:bg-gray-700 hover:text-amber-100">Get Started</router-link>
             </div>
           </div>
         </transition>
@@ -125,49 +90,47 @@
     <main class="flex-grow">
       <router-view />
     </main>
-    <footer class="bg-gray-200 text-gray-700 py-6 px-4 mt-auto">
+    <footer class="border-t border-white/10 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-8 px-4 mt-auto">
       <div class="container mx-auto max-w-6xl">
         <!-- Main Footer Grid -->
         <div class="grid grid-cols-2 md:grid-cols-3 gap-6 mb-6">
           <!-- Services -->
           <div>
-            <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Services</h3>
+            <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Services</h3>
             <nav class="flex flex-col gap-1 text-sm">
-              <router-link to="/services/ai-readiness" class="hover:text-gray-900 hover:underline transition-colors">AI Readiness</router-link>
-              <router-link to="/services/agentic-workflows" class="hover:text-gray-900 hover:underline transition-colors">Workflow Automation</router-link>
-              <router-link to="/services/full-stack-delivery" class="hover:text-gray-900 hover:underline transition-colors">Delivery Partnership</router-link>
-              <router-link to="/services/custom-ai-development" class="hover:text-gray-900 hover:underline transition-colors">Custom AI</router-link>
+              <router-link to="/services/strategy" class="text-gray-300 hover:text-amber-300 transition-colors">Strategy</router-link>
+              <router-link to="/services/implementation" class="text-gray-300 hover:text-amber-300 transition-colors">Implementation</router-link>
+              <router-link to="/services/engineering" class="text-gray-300 hover:text-amber-300 transition-colors">Engineering</router-link>
             </nav>
           </div>
 
           <!-- Resources -->
           <div>
-            <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Resources</h3>
+            <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Resources</h3>
             <nav class="flex flex-col gap-1 text-sm">
-              <router-link to="/blog" class="hover:text-gray-900 hover:underline transition-colors">Blog</router-link>
-              <router-link to="/case-studies" class="hover:text-gray-900 hover:underline transition-colors">Case Studies</router-link>
-              <router-link to="/ai-readiness-checklist" class="hover:text-gray-900 hover:underline transition-colors">Checklist</router-link>
+              <router-link to="/blog" class="text-gray-300 hover:text-amber-300 transition-colors">Blog</router-link>
+              <router-link to="/case-studies" class="text-gray-300 hover:text-amber-300 transition-colors">Case Studies</router-link>
+              <router-link to="/ai-readiness-checklist" class="text-gray-300 hover:text-amber-300 transition-colors">Checklist</router-link>
             </nav>
           </div>
 
           <!-- Company -->
           <div>
-            <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Company</h3>
+            <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Company</h3>
             <nav class="flex flex-col gap-1 text-sm">
-              <router-link to="/" class="hover:text-gray-900 hover:underline transition-colors">Home</router-link>
-              <router-link to="/about" class="hover:text-gray-900 hover:underline transition-colors">About</router-link>
-              <router-link to="/contact" class="hover:text-gray-900 hover:underline transition-colors">Contact</router-link>
-              <a href="https://x.com/learnedlate" target="_blank" rel="noopener noreferrer" class="hover:text-gray-900 hover:underline transition-colors">Twitter</a>
+              <router-link to="/" class="text-gray-300 hover:text-amber-300 transition-colors">Home</router-link>
+              <router-link to="/about" class="text-gray-300 hover:text-amber-300 transition-colors">About</router-link>
+              <router-link to="/contact" class="text-gray-300 hover:text-amber-300 transition-colors">Contact</router-link>
+              <a href="https://x.com/learnedlate" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-amber-300 transition-colors">Twitter</a>
             </nav>
           </div>
         </div>
 
-        <hr class="border-gray-300 my-4">
+        <hr class="border-white/10 my-4">
 
         <!-- Bottom Row -->
-        <div class="flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-gray-500">
+        <div class="flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-gray-400">
           <p>&copy; {{ new Date().getFullYear() }} LearnedLate. All rights reserved.</p>
-          <p>Serving New Zealand & Australia</p>
         </div>
       </div>
     </footer>
@@ -176,14 +139,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { ChevronDown, Menu, X } from 'lucide-vue-next'
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu'
+import { Menu, X } from 'lucide-vue-next'
 import { Button } from '@/components/ui/button'
 
 // Mobile menu state

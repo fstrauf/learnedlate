@@ -8,24 +8,31 @@ Competent and calm. Senior consultant, not growth-hacker.
 
 1. **Clarity over cleverness.** Layout and copy should be easy to scan in under 10 seconds.
 2. **Single focal action per section.** One primary CTA per section; secondary actions are supportive only.
-3. **Consistent rhythm.** Alternate white and `gray-50` content sections between dark hero and dark final CTA.
-4. **Subtle depth, not decoration.** Prefer border, contrast, and spacing over effects.
+3. **Consistent dark theme.** All sections use the same dark gradient foundation with translucent surfaces.
+4. **Subtle depth, not decoration.** Prefer translucent layers, borders, and spacing over flat colors or heavy effects.
 5. **Calm confidence.** No hype UI patterns, novelty animations, or decorative visual noise.
 
 ---
 
 ## Color Palette
 
-### Primary Colors
+### Background Foundation
 
 | Role | Tailwind Class | Hex | Usage |
 |------|---------------|-----|-------|
-| **Charcoal** (text, headings, hero backgrounds) | `gray-900` | `#111827` | Primary text, dark sections, hero gradients |
-| **Dark Gray** (secondary text) | `gray-700` | `#374151` | Body copy in light sections |
-| **Mid Gray** (tertiary text, captions) | `gray-500` | `#6B7280` | Muted text, timestamps, labels |
-| **Light Gray** (borders, dividers) | `gray-200` | `#E5E7EB` | Card borders, table lines, dividers |
-| **Off-White** (section backgrounds) | `gray-50` | `#F9FAFB` | Alternating section backgrounds |
-| **White** | `white` | `#FFFFFF` | Cards, primary backgrounds |
+| **Dark Gradient** | `bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900` | — | Primary page background, all sections |
+| **Dark Base** | `bg-gray-900` | `#111827` | Solid dark surfaces, card interiors |
+| **Dark Elevated** | `bg-gray-800` | `#1F2937` | Slightly elevated surfaces |
+
+### Translucent Surfaces
+
+| Role | Tailwind Class | Usage |
+|------|---------------|-------|
+| **Glass Card** | `bg-white/5` | Translucent card backgrounds |
+| **Glass Border** | `border-white/15` | Subtle borders on glass surfaces |
+| **Glass Hover** | `hover:bg-white/10` | Hover state for glass elements |
+| **Ambient Glow (Amber)** | `bg-amber-500/20` | Decorative gradient orbs |
+| **Ambient Glow (White)** | `bg-white/10` | Secondary decorative orbs |
 
 ### Brand Accent — Amber
 
@@ -33,24 +40,37 @@ Amber is the only brand accent. It matches the warm tones in the logo.
 
 | Role | Tailwind Class | Hex | Usage |
 |------|---------------|-----|-------|
-| **Accent Dark** | `amber-700` | `#B45309` | Accent text on white backgrounds, primary hover states |
-| **Accent** | `amber-600` | `#D97706` | Primary CTAs, icons, progress indicators |
-| **Accent Light** | `amber-500` | `#F59E0B` | Secondary accents, badges, card borders |
-| **Accent Subtle** | `amber-100` | `#FEF3C7` | Highlight backgrounds, badge fills |
+| **Accent Dark** | `amber-700` | `#B45309` | Hover states |
+| **Accent** | `amber-600` | `#D97706` | Primary CTAs, key icons |
+| **Accent Light** | `amber-500` | `#F59E0B` | Secondary accents, badges |
+| **Accent Subtle** | `amber-300` | `#FCD34D` | Checkmarks on dark backgrounds |
+| **Accent Muted** | `amber-200` | `#FDE68A` | Badge text, subtle highlights |
+| **Accent Background** | `amber-500/20` | — | Badge fills on dark backgrounds |
+
+### Text Colors (on Dark Backgrounds)
+
+| Role | Tailwind Class | Hex | Usage |
+|------|---------------|-----|-------|
+| **Headings** | `text-white` | `#FFFFFF` | All headings |
+| **Body** | `text-gray-300` | `#D1D5DB` | Primary body text |
+| **Muted** | `text-gray-400` | `#9CA3AF` | Secondary text, captions |
+| **Subtle** | `text-gray-500` | `#6B7280` | Timestamps, tertiary labels |
+| **Accent Text** | `text-amber-200` | `#FDE68A` | Highlighted labels |
+| **Accent Strong** | `text-amber-300` | `#FCD34D` | Icons, checkmarks |
 
 ### Semantic Colors (use sparingly)
 
 | Role | Tailwind Class | Usage |
 |------|---------------|-------|
-| **Success** | `green-600` / `green-500` | Checkmarks, positive metrics, "included" indicators |
-| **Error / Warning** | `red-600` / `red-500` | Destructive actions, failure stats, alerts |
+| **Success** | `text-amber-300` | Checkmarks, positive indicators (use amber, not green, on dark) |
+| **Error / Warning** | `red-500` / `red-400` | Destructive actions, alerts |
 
 ### Colors NOT to use
 
-- **Blue** (`blue-*`) — Removed. Was used inconsistently for links and blog gradients. Replace prose links with `amber-700`.
+- **Blue** (`blue-*`) — Removed. Was used inconsistently for links and blog gradients.
 - **Purple** (`purple-*`, `violet-*`) — Removed. Was used randomly for list bullets and gradients.
 - **Orange** (`orange-*`) — Removed. Overlapped with amber and created confusion. Amber is our accent.
-- **Emerald** (`emerald-*`) — Removed. Was used only in comparison tables. Use `green-600` for success states.
+- **Emerald/Green** for accents — On dark backgrounds, use `amber-300` for positive indicators instead.
 - **Teal / Cyan** — Never introduced, keep it that way.
 
 ---
@@ -69,21 +89,19 @@ System fonts. Zero load time, native look on every platform.
 
 | Element | Classes | Notes |
 |---------|---------|-------|
-| **Page Title (H1)** | `text-3xl sm:text-4xl md:text-5xl font-light` | Light weight for elegance. One per page. |
-| **Section Title (H2)** | `text-2xl sm:text-3xl font-light text-gray-900` | Light weight, consistent with H1. |
-| **Card Title (H3)** | `text-lg font-medium text-gray-900` or `text-xl font-medium` | Medium weight for contrast within cards. |
-| **Body Text** | `text-gray-700` (light bg) / `text-gray-300` (dark bg) | Default line-height via `leading-relaxed`. |
-| **Small / Caption** | `text-sm text-gray-500` | Labels, timestamps, supplementary info. |
+| **Page Title (H1)** | `text-3xl sm:text-4xl md:text-5xl font-light text-white` | Light weight for elegance. One per page. |
+| **Section Title (H2)** | `text-2xl sm:text-3xl font-light text-white` | Light weight, consistent with H1. |
+| **Card Title (H3)** | `text-lg font-medium text-white` or `text-xl font-medium text-white` | Medium weight for contrast within cards. |
+| **Body Text** | `text-gray-300` | Default line-height via `leading-relaxed`. |
+| **Small / Caption** | `text-sm text-gray-400` | Labels, timestamps, supplementary info. |
 | **Tiny** | `text-xs text-gray-500` | Disclaimers, fine print. |
 
-### Text on Dark Backgrounds
+### Uppercase Tracking
 
-| Role | Class |
-|------|-------|
-| Headings | `text-white` |
-| Body text | `text-gray-300` |
-| Muted text | `text-gray-400` |
-| Accent text | `text-amber-200` or `text-amber-300` |
+For small section labels:
+```
+class="text-xs uppercase tracking-[0.2em] text-gray-400"
+```
 
 ---
 
@@ -92,43 +110,45 @@ System fonts. Zero load time, native look on every platform.
 ### Primary CTA
 
 ```html
-<Button class="bg-amber-600 text-white hover:bg-amber-700">
+<Button 
+  size="lg" 
+  class="bg-amber-600 text-white hover:bg-amber-700"
+>
   Book an AI Readiness Assessment
 </Button>
 ```
 
-### Secondary / Outline
+### Outline on Dark
 
 ```html
-<Button variant="outline">
-  Learn More
+<Button 
+  variant="outline" 
+  size="lg"
+  class="border-white bg-transparent text-white hover:bg-white hover:text-gray-900"
+>
+  See How It Works
 </Button>
 ```
 
-### On Dark Backgrounds
+### Badge/Pill Style
 
 ```html
-<!-- Primary on dark -->
-<Button variant="secondary">
-  Primary Action
-</Button>
-
-<!-- Ghost on dark -->
-<Button variant="outline" class="border-white bg-transparent text-white hover:bg-white hover:text-gray-900">
-  Secondary Action
-</Button>
+<div class="inline-flex items-center gap-2 rounded-full bg-amber-500/20 px-4 py-2 text-sm text-amber-200">
+  <MapPin class="h-4 w-4" />
+  Serving New Zealand & Australia
+</div>
 ```
 
 ### Rules
 
 - One primary CTA per section maximum.
 - Primary CTAs use `bg-amber-600 hover:bg-amber-700`.
-- Do not use `bg-white text-orange-900` — use `variant="secondary"` instead.
+- Outline buttons on dark use `border-white bg-transparent` with `hover:bg-white hover:text-gray-900`.
 - Touch targets: minimum 44px height (already enforced globally).
 - Every interactive element must have a visible focus state:
 
 ```html
-class="focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-600 focus-visible:ring-offset-2"
+class="focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-600 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900"
 ```
 
 - Disabled state must be explicit and non-interactive:
@@ -141,45 +161,71 @@ class="disabled:opacity-50 disabled:cursor-not-allowed"
 
 ## Forms and Inputs
 
-### Input and Textarea
+### Input and Textarea (on Dark Backgrounds)
 
-- Use neutral surfaces with clear borders: `bg-white border-gray-300`.
-- Focus state should always use amber: `focus:border-amber-600 focus:ring-amber-600`.
-- Error state uses red only for validation: `border-red-500 text-red-600` with short helper text.
+```html
+<Input 
+  class="border-white/15 bg-white/5 text-white placeholder:text-gray-500 focus:border-amber-600 focus:ring-amber-600" 
+/>
+```
+
+- Background: `bg-white/5`
+- Border: `border-white/15`
+- Text: `text-white`
+- Placeholder: `placeholder:text-gray-500`
+- Focus: `focus:border-amber-600 focus:ring-amber-600`
 
 ### Labels and Help Text
 
-- Label: `text-sm font-medium text-gray-900`.
-- Help text: `text-sm text-gray-500`.
-- Error text: `text-sm text-red-600`.
+- Label: `text-sm font-medium text-white`
+- Help text: `text-sm text-gray-400`
+- Error text: `text-sm text-red-400`
 
 ### Form Layout
 
 - Vertical spacing between fields: `space-y-4`.
-- Group related fields in cards only when needed for comprehension.
+- Group related fields in translucent cards when needed.
 - Keep forms to single-column on mobile; avoid two-column forms below `md`.
 
 ---
 
 ## Layout Patterns
 
+### Page Background
+
+All pages use the same dark gradient foundation:
+
+```html
+<main class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 min-h-screen">
+  <!-- all content -->
+</main>
+```
+
 ### Hero Sections
 
 ```html
-<section class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-16 sm:py-24">
+<section class="relative isolate overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 text-white sm:py-24">
+  <!-- Ambient gradient orbs -->
+  <div class="pointer-events-none absolute -left-20 -top-16 h-72 w-72 rounded-full bg-amber-500/20 blur-3xl" />
+  <div class="pointer-events-none absolute -right-20 bottom-0 h-64 w-64 rounded-full bg-white/10 blur-3xl" />
+  
+  <!-- Content -->
+  <div class="container relative mx-auto px-4 lg:px-6">
+    <!-- ... -->
+  </div>
+</section>
 ```
 
-All hero sections use this same dark gradient. No variation.
+### Content Sections
 
-### Alternating Content Sections
+All content sections use the same dark gradient background. No alternating white/gray sections.
 
 ```
-Hero (dark gradient)
-↓ Content section (white bg, py-16 sm:py-20)
-↓ Content section (gray-50 bg, py-16 sm:py-20)
-↓ Content section (white bg)
+Hero (dark gradient with orbs)
+↓ Content section (dark gradient, py-16 sm:py-20)
+↓ Content section (dark gradient, py-16 sm:py-20)
 ↓ ...
-↓ Final CTA (dark gradient)
+↓ Final CTA (dark gradient with orbs)
 ```
 
 ### Container
@@ -200,37 +246,45 @@ Hero (dark gradient)
 
 ## Cards
 
-Use shadcn `Card` components consistently:
+### Glass Card (Primary)
+
+The standard card on dark backgrounds:
 
 ```html
-<Card class="h-full">
-  <CardHeader>
-    <Icon class="w-8 h-8 text-amber-600 mb-3" />
-    <CardTitle class="text-lg">Title</CardTitle>
-  </CardHeader>
-  <CardContent>
-    <p class="text-sm text-gray-600">Description</p>
-  </CardContent>
-</Card>
+<div class="rounded-2xl border border-white/15 bg-white/5 p-6 shadow-2xl backdrop-blur sm:p-8">
+  <p class="mb-4 text-xs uppercase tracking-[0.2em] text-gray-400">Section Label</p>
+  <!-- content -->
+</div>
+```
+
+### Feature Card (List Items)
+
+```html
+<div class="flex items-start gap-3 rounded-xl bg-gray-900/40 p-4">
+  <Check class="mt-0.5 h-5 w-5 flex-shrink-0 text-amber-300" />
+  <div>
+    <p class="text-sm font-medium text-white">Feature Title</p>
+    <p class="text-sm text-gray-300">Feature description</p>
+  </div>
+</div>
 ```
 
 ### Card Accents
 
-When cards need visual differentiation (e.g., problem/solution grids):
+When cards need visual differentiation:
 
 ```html
-<Card class="border-l-4 border-l-amber-500">
+<Card class="border-l-4 border-l-amber-500 bg-white/5">
 ```
 
-Use only `amber-500`, `amber-600`, or `gray-300` for card border accents. Do not use red, blue, or purple borders except for explicit error states.
+Use only `amber-500` or `amber-600` for card border accents on dark backgrounds.
 
 ### Radius and Shadow
 
-- Default card radius: `rounded-xl`.
-- Emphasis card radius: `rounded-2xl` (use sparingly for summary/CTA blocks).
-- Default shadow: none or `shadow-sm`.
-- Hover lift (interactive cards only): `hover:shadow-lg transition-shadow duration-300`.
-- Avoid combined shadow + ring + heavy border unless there is a specific state change reason.
+- Default card radius: `rounded-xl` or `rounded-2xl`.
+- Default shadow: `shadow-2xl` for glass cards.
+- Backdrop blur: `backdrop-blur` for glass effect.
+- Avoid combining heavy shadow with animated transforms.
 
 ---
 
@@ -238,7 +292,7 @@ Use only `amber-500`, `amber-600`, or `gray-300` for card border accents. Do not
 
 - Source: Lucide icons (already in use).
 - Size: `w-5 h-5` inline with text, `w-8 h-8` as card header icons.
-- Color: `text-amber-600` for accent icons, `text-gray-500` for neutral icons.
+- Color on dark: `text-amber-600` for accent icons, `text-amber-300` for checkmarks, `text-gray-400` for neutral icons.
 - Do not use colored icon backgrounds unless it's a key feature highlight.
 
 ---
@@ -247,9 +301,9 @@ Use only `amber-500`, `amber-600`, or `gray-300` for card border accents. Do not
 
 | Context | Value |
 |---------|-------|
-| Section vertical padding | `py-12 sm:py-16` or `py-16 sm:py-20` |
+| Section vertical padding | `py-16 sm:py-24` |
 | Between section title and content | `mb-8` or `mb-12` |
-| Card grid gap | `gap-6` |
+| Card grid gap | `gap-6` or `gap-8` |
 | Stack gap (vertical list of items) | `space-y-4` or `space-y-6` |
 
 ### Content Width and Line Length
@@ -260,12 +314,34 @@ Use only `amber-500`, `amber-600`, or `gray-300` for card border accents. Do not
 
 ---
 
+## Decorative Elements
+
+### Ambient Gradient Orbs
+
+Use sparingly for visual depth in hero sections:
+
+```html
+<!-- Amber orb -->
+<div class="pointer-events-none absolute -left-20 -top-16 h-72 w-72 rounded-full bg-amber-500/20 blur-3xl" />
+
+<!-- White orb -->
+<div class="pointer-events-none absolute -right-20 bottom-0 h-64 w-64 rounded-full bg-white/10 blur-3xl" />
+```
+
+Guidelines:
+- Position absolutely within a `relative isolate` container.
+- Use `pointer-events-none` to prevent interaction issues.
+- Keep opacity low (`/10` to `/20`) for subtlety.
+- Use `blur-3xl` for soft diffusion.
+
+---
+
 ## Pricing Blocks
 
 Use pricing sections that are easy to compare and easy to trust.
 
 - Section title should be literal: prefer **Pricing** over abstract labels.
-- Price display class: `text-3xl font-bold text-gray-900`.
+- Price display class: `text-3xl font-bold text-white`.
 - Keep one short qualifier below the number (for example: "Typical range by complexity").
 - If pricing varies by market, keep card structure identical and vary only the values.
 - Include one concise note card only when needed for legal or market-specific caveats.
@@ -274,16 +350,12 @@ Use pricing sections that are easy to compare and easy to trust.
 Recommended card structure:
 
 ```html
-<Card class="h-full">
-  <CardHeader>
-    <CardTitle>New Zealand</CardTitle>
-    <CardDescription>GST exclusive unless stated</CardDescription>
-  </CardHeader>
-  <CardContent>
-    <div class="text-3xl font-bold text-gray-900">$7,500 - $15,000</div>
-    <p class="text-sm text-gray-600 mt-2">Typical range by organization complexity</p>
-  </CardContent>
-</Card>
+<div class="rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur">
+  <p class="text-sm text-gray-400">New Zealand</p>
+  <p class="text-xs text-gray-500">GST exclusive unless stated</p>
+  <div class="mt-4 text-3xl font-bold text-white">$7,500 - $15,000</div>
+  <p class="mt-2 text-sm text-gray-400">Typical range by organization complexity</p>
+</div>
 ```
 
 ---
@@ -310,23 +382,40 @@ Recommended card structure:
 ## Comparison Tables
 
 ```html
-<TableHeader class="bg-gray-900 text-white">
+<div class="overflow-hidden rounded-2xl border border-white/15">
+  <table class="w-full">
+    <thead class="bg-gray-900/80">
+      <tr>
+        <th class="px-6 py-4 text-left text-white">Feature</th>
+        <th class="px-6 py-4 text-center text-amber-300">LearnedLate</th>
+        <th class="px-6 py-4 text-center text-gray-400">Others</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-white/10">
+      <tr class="bg-white/5">
+        <td class="px-6 py-4 text-gray-300">Feature name</td>
+        <td class="px-6 py-4 text-center text-amber-300">✓</td>
+        <td class="px-6 py-4 text-center text-gray-500">—</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 ```
 
-- Header row: `bg-gray-900 text-white`.
-- "Our" column highlight: `bg-amber-50 font-medium` — not emerald.
-- Status indicators: `text-green-600` for positive, `text-red-600` for negative, `text-amber-600` for partial.
-- Emoji indicators (✅ ❌ ⚠️) are acceptable in tables for scannability.
+- Header: `bg-gray-900/80` with `text-white`.
+- "Our" column highlight: `text-amber-300` — not emerald.
+- Status indicators: `text-amber-300` for positive, `text-red-400` for negative.
+- Row backgrounds: `bg-white/5` alternating with transparent.
 
 ---
 
 ## Blog / Prose Styles
 
-- Links: `text-amber-700 underline` with `hover:text-amber-900`. Not blue.
+- Links: `text-amber-300 underline` with `hover:text-amber-200`. Not blue.
 - No multi-color gradients on headings or decorative elements.
-- Blockquote left border: `border-amber-400` — solid color, not gradient.
-- Strong text: default `font-semibold`. No background highlight or left border treatment.
-- Code blocks: simple dark background, no macOS window dots decoration.
+- Blockquote left border: `border-amber-500` — solid color, not gradient.
+- Strong text: `text-white font-semibold` on dark backgrounds.
+- Code blocks: simple dark background (`bg-gray-900`), no macOS window dots decoration.
 
 ---
 
@@ -335,6 +424,8 @@ Recommended card structure:
 The oklch CSS variables in `style.css` handle shadcn component theming. Use semantic classes (`bg-background`, `text-foreground`, `bg-primary`) for shadcn primitives. Don't override with hardcoded colors.
 
 For custom sections (heroes, feature grids), use the Tailwind classes documented above.
+
+**Note:** This design system is built "dark-first" — the entire page uses dark gradients with translucent surfaces. There is no separate "light mode."
 
 ---
 
@@ -359,3 +450,5 @@ For custom sections (heroes, feature grids), use the Tailwind classes documented
 6. **Using both `orange-*` and `amber-*`.** They look nearly identical and create inconsistency. Amber only.
 7. **Hidden focus states.** Never remove outlines without replacing them with visible `focus-visible` styles.
 8. **Ambiguous CTA language.** Keep CTA labels explicit and action-oriented.
+9. **Light backgrounds.** The entire site uses dark gradients; no white or gray-50 section backgrounds.
+10. **Solid card backgrounds.** Prefer translucent glass cards (`bg-white/5`) over solid colors.

@@ -1,9 +1,9 @@
 <template>
   <div class="contact-form">
     <form v-if="!isSubmitted" @submit.prevent="handleSubmit" class="space-y-4">
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
         <div>
-          <Label for="name">Name *</Label>
+          <Label for="name" class="text-white">Name *</Label>
           <Input
             id="name"
             v-model="form.name"
@@ -11,10 +11,11 @@
             placeholder="Your name"
             required
             :disabled="isSubmitting"
+            class="mt-1 border-white/15 bg-white/5 text-white placeholder:text-gray-500 focus:border-amber-600 focus:ring-amber-600"
           />
         </div>
         <div>
-          <Label for="email">Email *</Label>
+          <Label for="email" class="text-white">Email *</Label>
           <Input
             id="email"
             v-model="form.email"
@@ -22,23 +23,25 @@
             placeholder="you@company.com"
             required
             :disabled="isSubmitting"
+            class="mt-1 border-white/15 bg-white/5 text-white placeholder:text-gray-500 focus:border-amber-600 focus:ring-amber-600"
           />
         </div>
       </div>
       
       <div>
-        <Label for="company">Company</Label>
+        <Label for="company" class="text-white">Company</Label>
         <Input
           id="company"
           v-model="form.company"
           type="text"
           placeholder="Your company (optional)"
           :disabled="isSubmitting"
+          class="mt-1 border-white/15 bg-white/5 text-white placeholder:text-gray-500 focus:border-amber-600 focus:ring-amber-600"
         />
       </div>
       
       <div>
-        <Label for="message">Message *</Label>
+        <Label for="message" class="text-white">Message *</Label>
         <Textarea
           id="message"
           v-model="form.message"
@@ -46,40 +49,41 @@
           :rows="5"
           required
           :disabled="isSubmitting"
+          class="mt-1 border-white/15 bg-white/5 text-white placeholder:text-gray-500 focus:border-amber-600 focus:ring-amber-600"
         />
       </div>
       
       <Button 
         type="submit" 
         :disabled="isSubmitting || !isValid"
-        class="w-full"
+        class="w-full bg-amber-600 text-white hover:bg-amber-700"
         size="lg"
       >
-        <Loader2 v-if="isSubmitting" class="w-4 h-4 mr-2 animate-spin" />
-        <Send v-else class="w-4 h-4 mr-2" />
+        <Loader2 v-if="isSubmitting" class="mr-2 h-4 w-4 animate-spin" />
+        <Send v-else class="mr-2 h-4 w-4" />
         {{ isSubmitting ? 'Sending...' : 'Send Message' }}
       </Button>
       
-      <p class="text-xs text-gray-500 text-center">
+      <p class="text-center text-xs text-gray-400">
         We'll respond within 24 hours. No spam, ever.
       </p>
     </form>
 
-    <div v-else class="text-center py-8">
-      <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-        <CheckCircle class="w-8 h-8 text-green-600" />
+    <div v-else class="py-8 text-center">
+      <div class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-amber-500/20">
+        <CheckCircle class="h-8 w-8 text-amber-300" />
       </div>
-      <h3 class="text-xl font-medium text-gray-900 mb-2">Message Sent!</h3>
-      <p class="text-gray-600 mb-6">
+      <h3 class="mb-2 text-xl font-medium text-white">Message Sent!</h3>
+      <p class="mb-6 text-gray-300">
         Thanks for reaching out. We'll get back to you within 24 hours.
       </p>
-      <Button @click="resetForm" variant="outline">
+      <Button @click="resetForm" variant="outline" class="border-white bg-transparent text-white hover:bg-white hover:text-gray-900">
         Send Another Message
       </Button>
     </div>
 
-    <div v-if="error" class="mt-4 p-4 bg-red-50 border border-red-200 rounded-lg">
-      <p class="text-red-700 text-sm">{{ error }}</p>
+    <div v-if="error" class="mt-4 rounded-lg border border-red-500/30 bg-red-500/10 p-4">
+      <p class="text-sm text-red-300">{{ error }}</p>
     </div>
   </div>
 </template>

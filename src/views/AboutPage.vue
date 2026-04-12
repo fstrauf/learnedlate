@@ -1,8 +1,8 @@
 <template>
   <div class="about-page">
     <SEOHead 
-      title="About – LearnedLate | AI Readiness, Workflow Automation & Delivery Support"
-      description="LearnedLate helps ANZ mid-market teams identify the right first AI workflow, automate it, and expand with the same delivery partner."
+      title="About – LearnedLate | AI Strategy, Implementation & Engineering"
+      description="We help teams turn AI from buzzword into business results. Strategy, implementation, and engineering from one team."
       url="/about"
       type="website"
       :schema="aboutSchema"
@@ -13,318 +13,84 @@
       <div class="pointer-events-none absolute -left-20 -top-16 h-72 w-72 rounded-full bg-amber-500/20 blur-3xl" />
       <div class="pointer-events-none absolute -right-20 bottom-0 h-64 w-64 rounded-full bg-white/10 blur-3xl" />
       <div class="container relative mx-auto px-4 lg:px-6">
-        <div class="max-w-4xl mx-auto text-center">
-          <h1 class="text-3xl sm:text-4xl md:text-5xl font-light mb-6 leading-tight">
-            Practical AI Support From Readiness to Rollout
+        <div class="mx-auto max-w-3xl text-center">
+          <h1 class="mb-6 text-3xl font-light leading-tight sm:text-4xl md:text-5xl">
+            About
           </h1>
-          <p class="text-lg sm:text-xl text-gray-300 mb-8 leading-relaxed">
-            We help ANZ teams choose the right starting point, automate real workflows, and keep delivery grounded in business outcomes.
+          <p class="mx-auto mb-8 max-w-2xl text-lg leading-relaxed text-gray-300 sm:text-xl">
+            We help teams go from AI interest to working systems — with one partner across strategy, implementation, and engineering.
           </p>
-          <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button as-child size="lg" variant="secondary">
-              <router-link to="/contact">
-                Book an AI Readiness Assessment
-              </router-link>
-            </Button>
-            <Button as-child size="lg" variant="outline" class="border-white bg-transparent text-white hover:bg-white hover:text-gray-900">
-              <router-link to="/services">
-                Explore Our Services
-              </router-link>
-            </Button>
-          </div>
         </div>
       </div>
     </section>
 
-    <!-- Philosophy Section -->
-    <section class="py-16 sm:py-20">
-      <div class="container mx-auto px-4 lg:px-6">
-        <div class="max-w-4xl mx-auto">
-          <div class="text-center mb-12">
-            <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-4">
-              Technology Serves Business Outcomes, Not Vice Versa
+    <!-- What We Believe -->
+    <section class="relative isolate overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 sm:py-20">
+      <div class="container relative mx-auto px-4 lg:px-6">
+        <div class="mx-auto max-w-3xl">
+          <div class="mb-10 text-center">
+            <h2 class="mb-4 text-2xl font-light text-white sm:text-3xl">
+              What we believe.
             </h2>
-            <p class="text-gray-600 text-lg">
-              We start with your business problem, not a vendor catalog.
-            </p>
           </div>
           
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <Card class="h-full">
-              <CardHeader>
-                <div class="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center mb-4">
-                  <Lightbulb class="w-6 h-6 text-amber-600" />
-                </div>
-                <CardTitle class="text-xl">Business-First Approach</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p class="text-gray-600">
-                  Every engagement starts with understanding your business objectives, constraints, and competitive landscape. We don't implement AI for the sake of it—we implement it when it drives measurable outcomes.
-                </p>
-              </CardContent>
-            </Card>
-            
-            <Card class="h-full">
-              <CardHeader>
-                <div class="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center mb-4">
-                  <Code class="w-6 h-6 text-amber-600" />
-                </div>
-                <CardTitle class="text-xl">Technical Depth</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p class="text-gray-600">
-                  We bring hands-on engineering expertise, not just PowerPoint recommendations. From solution architecture to deployment, we build systems that work in production, not just in demos.
-                </p>
-              </CardContent>
-            </Card>
-            
-            <Card class="h-full">
-              <CardHeader>
-                <div class="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center mb-4">
-                  <Target class="w-6 h-6 text-amber-600" />
-                </div>
-                <CardTitle class="text-xl">Outcome-Focused</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p class="text-gray-600">
-                  We define success metrics upfront and report against them transparently. If we can't define what success looks like, we won't take the engagement.
-                </p>
-              </CardContent>
-            </Card>
-            
-            <Card class="h-full">
-              <CardHeader>
-                <div class="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center mb-4">
-                  <Handshake class="w-6 h-6 text-amber-600" />
-                </div>
-                <CardTitle class="text-xl">True Partnership</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p class="text-gray-600">
-                  We work alongside your team, transferring knowledge and building internal capability. Our goal is to make ourselves unnecessary—not to create dependency.
-                </p>
-              </CardContent>
-            </Card>
+          <div class="space-y-4">
+            <div class="flex items-start gap-4 rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur">
+              <span class="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-amber-500/20 text-sm font-bold text-amber-300">1</span>
+              <p class="text-gray-300">AI changes how businesses operate. That's already happening.</p>
+            </div>
+            <div class="flex items-start gap-4 rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur">
+              <span class="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-amber-500/20 text-sm font-bold text-amber-300">2</span>
+              <p class="text-gray-300">Most companies need help going from interest to implementation.</p>
+            </div>
+            <div class="flex items-start gap-4 rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur">
+              <span class="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-amber-500/20 text-sm font-bold text-amber-300">3</span>
+              <p class="text-gray-300">Strategy without execution is wasted money.</p>
+            </div>
+            <div class="flex items-start gap-4 rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur">
+              <span class="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-amber-500/20 text-sm font-bold text-amber-300">4</span>
+              <p class="text-gray-300">The best results come from one team that handles planning, building, and rollout.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Background Journey Section -->
-    <section class="py-16 sm:py-20 bg-gray-50">
-      <div class="container mx-auto px-4 lg:px-6">
-        <div class="max-w-4xl mx-auto">
-          <div class="text-center mb-12">
-            <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-4">
-              From Software Development to AI Transformation
-            </h2>
-            <p class="text-gray-600 text-lg">
-              A journey spanning technical depth and business strategy
+    <!-- Founder Section -->
+    <section class="relative isolate overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 sm:py-20">
+      <div class="pointer-events-none absolute -left-20 top-1/2 h-64 w-64 -translate-y-1/2 rounded-full bg-amber-500/10 blur-3xl" />
+      <div class="container relative mx-auto px-4 lg:px-6">
+        <div class="mx-auto max-w-3xl">
+          <div class="rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur sm:p-8">
+            <h2 class="mb-4 text-xl font-medium text-white">Florian Strauf</h2>
+            <p class="mb-4 text-gray-300 leading-relaxed">
+              Software engineer turned solution architect turned AI consultant. Years building enterprise systems, cloud infrastructure, and integration architecture — now applied to helping teams adopt AI in ways that actually work in production. I speak both business and technical, so nothing gets lost between strategy and delivery.
             </p>
-          </div>
-          
-          <div class="space-y-8">
-            <div class="flex flex-col md:flex-row gap-6 items-start">
-              <div class="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center flex-shrink-0">
-                <Code class="w-7 h-7 text-white" />
-              </div>
-              <div>
-                <h3 class="text-xl font-medium text-gray-900 mb-2">Software Development</h3>
-                <p class="text-gray-600">
-                  Years building complex software systems across multiple industries. Deep expertise in full-stack development, cloud architecture, and enterprise integration. Understanding that code is a means to an end—solving real business problems.
-                </p>
-              </div>
-            </div>
-            
-            <div class="flex flex-col md:flex-row gap-6 items-start">
-              <div class="w-16 h-16 bg-gray-700 rounded-full flex items-center justify-center flex-shrink-0">
-                <Building class="w-7 h-7 text-white" />
-              </div>
-              <div>
-                <h3 class="text-xl font-medium text-gray-900 mb-2">Solution Architecture</h3>
-                <p class="text-gray-600">
-                  Designing enterprise-scale systems that integrate with complex legacy environments. SAP expertise, cloud migrations, and integration architecture. Learning that the best technical solution is the one the organization can actually adopt and maintain.
-                </p>
-              </div>
-            </div>
-            
-            <div class="flex flex-col md:flex-row gap-6 items-start">
-              <div class="w-16 h-16 bg-gray-600 rounded-full flex items-center justify-center flex-shrink-0">
-                <TrendingUp class="w-7 h-7 text-white" />
-              </div>
-              <div>
-                <h3 class="text-xl font-medium text-gray-900 mb-2">Business Strategy</h3>
-                <p class="text-gray-600">
-                  Working with C-suite leaders to align technology investments with business objectives. Understanding ROI, risk management, and organizational change. Recognizing that strategy without execution is meaningless.
-                </p>
-              </div>
-            </div>
-            
-            <div class="flex flex-col md:flex-row gap-6 items-start">
-              <div class="w-16 h-16 bg-amber-700 rounded-full flex items-center justify-center flex-shrink-0">
-                <Brain class="w-7 h-7 text-white" />
-              </div>
-              <div>
-                <h3 class="text-xl font-medium text-gray-900 mb-2">AI Readiness, Workflow Automation, and Delivery Partnership</h3>
-                <p class="text-gray-600">
-                  Today, we help teams identify the right first AI use case, automate high-friction workflows, and expand delivery with the same partner when the work becomes larger or more complex.
-                </p>
-              </div>
+            <div class="flex gap-4">
+              <a href="https://x.com/learnedlate" target="_blank" rel="noopener noreferrer" class="text-sm text-amber-300 hover:text-amber-200">Twitter</a>
+              <a href="https://blog.learnedlate.com" target="_blank" rel="noopener noreferrer" class="text-sm text-amber-300 hover:text-amber-200">Blog</a>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Dual Fluency Section -->
-    <section class="py-16 sm:py-20">
-      <div class="container mx-auto px-4 lg:px-6">
-        <div class="max-w-4xl mx-auto">
-          <div class="text-center mb-12">
-            <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-4">
-              Dual Fluency: Business + Technical
-            </h2>
-            <p class="text-gray-600 text-lg">
-              We speak both languages natively
-            </p>
-          </div>
-          
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="bg-gray-50 rounded-xl p-8">
-              <h3 class="text-xl font-medium text-gray-900 mb-4 flex items-center gap-2">
-                <Briefcase class="w-5 h-5 text-amber-600" />
-                Business Fluency
-              </h3>
-              <ul class="space-y-3 text-gray-600">
-                <li class="flex items-start gap-2">
-                  <Check class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                  C-suite and board-level communication
-                </li>
-                <li class="flex items-start gap-2">
-                  <Check class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                  ROI modeling and business case development
-                </li>
-                <li class="flex items-start gap-2">
-                  <Check class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                  Risk assessment and mitigation planning
-                </li>
-                <li class="flex items-start gap-2">
-                  <Check class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                  Change management and stakeholder alignment
-                </li>
-                <li class="flex items-start gap-2">
-                  <Check class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                  ANZ business context and regulatory awareness
-                </li>
-              </ul>
-            </div>
-            
-            <div class="bg-gray-50 rounded-xl p-8">
-              <h3 class="text-xl font-medium text-gray-900 mb-4 flex items-center gap-2">
-                <Cpu class="w-5 h-5 text-amber-600" />
-                Technical Depth
-              </h3>
-              <ul class="space-y-3 text-gray-600">
-                <li class="flex items-start gap-2">
-                  <Check class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                  AI/ML system architecture and implementation
-                </li>
-                <li class="flex items-start gap-2">
-                  <Check class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                  Enterprise integration and legacy modernization
-                </li>
-                <li class="flex items-start gap-2">
-                  <Check class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                  Cloud-native and hybrid deployment patterns
-                </li>
-                <li class="flex items-start gap-2">
-                  <Check class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                  Security, compliance, and governance frameworks
-                </li>
-                <li class="flex items-start gap-2">
-                  <Check class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                  Full-stack development and DevOps practices
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Geographic Focus -->
-    <section class="py-16 sm:py-20 bg-gray-50">
-      <div class="container mx-auto px-4 lg:px-6">
-        <div class="max-w-4xl mx-auto text-center">
-          <div class="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-6">
-            <MapPin class="w-8 h-8 text-amber-600" />
-          </div>
-          <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-4">
-            Based in New Zealand, Serving ANZ
-          </h2>
-          <p class="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
-            We understand the unique challenges facing New Zealand and Australian businesses—from skills shortages and geographic isolation to specific regulatory environments and government co-funding opportunities like the NZ AI Advisory Pilot.
-          </p>
-          <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto">
-            <div class="bg-white rounded-lg p-6 shadow-sm">
-              <div class="text-3xl font-bold text-amber-700 mb-2">87%</div>
-              <p class="text-sm text-gray-600">of NZ businesses use AI</p>
-            </div>
-            <div class="bg-white rounded-lg p-6 shadow-sm">
-              <div class="text-3xl font-bold text-amber-700 mb-2">12%</div>
-              <p class="text-sm text-gray-600">have scaled AI effectively</p>
-            </div>
-            <div class="bg-white rounded-lg p-6 shadow-sm">
-              <div class="text-3xl font-bold text-amber-700 mb-2">50%</div>
-              <p class="text-sm text-gray-600">gov co-funding available</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CV Download Section -->
-    <section class="py-12 sm:py-16">
-      <div class="container mx-auto px-4 lg:px-6">
-        <div class="max-w-2xl mx-auto text-center">
-          <h2 class="text-xl sm:text-2xl font-light text-gray-900 mb-4">
-            Detailed Background
-          </h2>
-          <p class="text-gray-600 mb-6">
-            Want the full professional history? Download the detailed CV.
-          </p>
-          <Button as-child variant="outline">
-            <a href="/Florian_Strauf_CV.pdf" target="_blank" rel="noopener noreferrer">
-              <FileText class="w-4 h-4 mr-2" />
-              Download CV (PDF)
-            </a>
-          </Button>
         </div>
       </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="py-16 sm:py-20 bg-gray-900 text-white">
-      <div class="container mx-auto px-4 lg:px-6">
-        <div class="max-w-3xl mx-auto text-center">
-          <h2 class="text-2xl sm:text-3xl font-light mb-4">
-            Ready to Explore How We Can Help?
+    <section class="relative isolate overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 sm:py-24">
+      <div class="pointer-events-none absolute -left-20 -top-10 h-72 w-72 rounded-full bg-amber-500/20 blur-3xl" />
+      <div class="container relative mx-auto px-4 lg:px-6">
+        <div class="mx-auto max-w-3xl text-center">
+          <h2 class="mb-4 text-2xl font-light text-white sm:text-3xl">
+            Let's figure out where AI fits.
           </h2>
-          <p class="text-gray-300 mb-8 text-lg">
-            Start with an AI Readiness Assessment and get a clear view of the best first use case, the key risks, and the next steps worth funding.
+          <p class="mb-8 text-lg text-gray-300">
+            Tell us what you're working on. We'll respond within 24 hours.
           </p>
-          <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button as-child size="lg" variant="secondary">
-              <router-link to="/contact">
-                Book an AI Readiness Assessment
-              </router-link>
-            </Button>
-            <Button as-child size="lg" variant="outline" class="border-white bg-transparent text-white hover:bg-white hover:text-gray-900">
-              <router-link to="/services">
-                Explore Services
-              </router-link>
-            </Button>
-          </div>
+          <Button as-child size="lg" class="bg-amber-600 text-white hover:bg-amber-700">
+            <router-link to="/contact">
+              Get Started
+            </router-link>
+          </Button>
         </div>
       </div>
     </section>
@@ -333,27 +99,7 @@
 
 <script setup lang="ts">
 import SEOHead from '../components/SEOHead.vue'
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import {
-  Lightbulb,
-  Code,
-  Target,
-  Handshake,
-  Building,
-  TrendingUp,
-  Brain,
-  Briefcase,
-  Cpu,
-  Check,
-  MapPin,
-  FileText,
-} from 'lucide-vue-next'
 
 const aboutSchema = [
   {
@@ -361,9 +107,9 @@ const aboutSchema = [
     "@type": "AboutPage",
     "@id": "https://learnedlate.com/about/#webpage",
     "url": "https://learnedlate.com/about",
-    "name": "About – LearnedLate | AI Readiness, Workflow Automation & Delivery Support",
-    "description": "LearnedLate helps ANZ mid-market teams identify the right first AI workflow, automate it, and expand with the same delivery partner.",
-    "inLanguage": "en-NZ",
+    "name": "About – LearnedLate | AI Strategy, Implementation & Engineering",
+    "description": "We help teams turn AI from buzzword into business results.",
+    "inLanguage": "en",
     "isPartOf": {
       "@type": "WebSite",
       "@id": "https://learnedlate.com/#website"
@@ -379,21 +125,11 @@ const aboutSchema = [
       "@type": "ImageObject",
       "url": "https://learnedlate.com/learndlate.png"
     },
-    "description": "AI readiness, workflow automation, and delivery support for NZ and Australian mid-market businesses",
-    "areaServed": [
-      {
-        "@type": "Country",
-        "name": "New Zealand"
-      },
-      {
-        "@type": "Country",
-        "name": "Australia"
-      }
-    ],
+    "description": "AI strategy, implementation, and engineering services",
     "serviceType": [
-      "AI Readiness Assessment",
-      "AI Workflow Automation",
-      "Delivery Partnership"
+      "AI Strategy",
+      "AI Implementation",
+      "AI Engineering"
     ]
   }
 ]

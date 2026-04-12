@@ -1,8 +1,8 @@
 <template>
   <div class="home-page">
     <SEOHead 
-      title="LearnedLate – AI Readiness, Workflow Automation & Delivery Support | NZ & Australia"
-      description="LearnedLate helps ANZ mid-market teams identify the right first AI workflow, automate it, and expand with the same delivery partner."
+      title="LearnedLate – AI Strategy, Implementation & Engineering"
+      description="Most AI initiatives die between the strategy deck and the first deploy. One team to assess, build, and launch."
       url="/"
       type="website"
       :schema="homeSchema"
@@ -13,253 +13,24 @@
       <div class="pointer-events-none absolute -left-20 -top-16 h-72 w-72 rounded-full bg-amber-500/20 blur-3xl" />
       <div class="pointer-events-none absolute -right-20 bottom-0 h-64 w-64 rounded-full bg-white/10 blur-3xl" />
       <div class="container relative mx-auto px-4 lg:px-6">
-        <div class="mx-auto grid max-w-5xl gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
-          <div class="text-center lg:text-left">
-            <div class="mb-6 inline-flex items-center gap-2 rounded-full bg-amber-500/20 px-4 py-2 text-sm text-amber-200">
-              <MapPin class="h-4 w-4" />
-              Serving New Zealand & Australia
-            </div>
-            <h1 class="mb-6 text-3xl font-light leading-tight sm:text-4xl md:text-5xl">
-              Turn AI Into One Working Business System.
-            </h1>
-            <p class="mx-auto mb-8 max-w-2xl text-lg leading-relaxed text-gray-300 lg:mx-0 lg:text-xl">
-              For ANZ mid-market teams that need a clear starting point, a practical first use case, and implementation support that reaches production.
-            </p>
-            <div class="flex flex-col justify-center gap-4 sm:flex-row lg:justify-start">
-              <Button 
-                as-child 
-                size="lg" 
-                class="bg-amber-600 text-white hover:bg-amber-700"
-                data-track='{"event":"cta_click","cta_text":"Book an AI Readiness Assessment","location":"hero","destination":"/contact"}'
-              >
-                <router-link to="/contact">
-                  Book an AI Readiness Assessment
-                </router-link>
-              </Button>
-              <Button 
-                as-child 
-                size="lg" 
-                variant="outline" 
-                class="border-white bg-transparent text-white hover:bg-white hover:text-gray-900"
-                data-track='{"event":"cta_click","cta_text":"See How It Works","location":"hero","destination":"/services"}'
-              >
-                <router-link to="/services">
-                  See How It Works
-                </router-link>
-              </Button>
-            </div>
-            <p class="mt-6 text-sm text-gray-400">
-              Assessment, automation, and delivery in one team.
-            </p>
-          </div>
-
-          <div class="rounded-2xl border border-white/15 bg-white/5 p-6 shadow-2xl backdrop-blur sm:p-8">
-            <p class="mb-4 text-xs uppercase tracking-[0.2em] text-gray-400">At a glance</p>
-            <div class="space-y-4">
-              <div class="flex items-start gap-3 rounded-xl bg-gray-900/40 p-4">
-                <Check class="mt-0.5 h-5 w-5 flex-shrink-0 text-amber-300" />
-                <div>
-                  <p class="text-sm font-medium text-white">Start with one clear use case</p>
-                  <p class="text-sm text-gray-300">Get a practical first step instead of a broad AI wishlist.</p>
-                </div>
-              </div>
-              <div class="flex items-start gap-3 rounded-xl bg-gray-900/40 p-4">
-                <Check class="mt-0.5 h-5 w-5 flex-shrink-0 text-amber-300" />
-                <div>
-                  <p class="text-sm font-medium text-white">Automate a real workflow</p>
-                  <p class="text-sm text-gray-300">Connect the work to your existing systems and pilot it in operations.</p>
-                </div>
-              </div>
-              <div class="flex items-start gap-3 rounded-xl bg-gray-900/40 p-4">
-                <Check class="mt-0.5 h-5 w-5 flex-shrink-0 text-amber-300" />
-                <div>
-                  <p class="text-sm font-medium text-white">Expand with the same team</p>
-                  <p class="text-sm text-gray-300">Keep planning, delivery, and rollout aligned when the work grows.</p>
-                </div>
-              </div>
-            </div>
-            <p class="mt-6 border-t border-white/15 pt-6 text-sm text-gray-300">
-              Built for mid-market leadership teams that want progress they can measure and actually operate.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Proof Strip -->
-    <section class="relative isolate overflow-hidden py-12 sm:py-16 bg-gray-50">
-      <div class="pointer-events-none absolute left-1/2 top-0 h-56 w-56 -translate-x-1/2 rounded-full bg-amber-100/60 blur-3xl" />
-      <div class="container mx-auto px-4 lg:px-6">
-        <div class="max-w-5xl mx-auto grid gap-4 md:grid-cols-3 relative">
-          <div class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-md">
-            <p class="text-sm font-medium text-gray-900">Start with readiness, not guesswork</p>
-            <p class="mt-2 text-sm text-gray-600">Know which use case to fund first and what needs to be true before you build.</p>
-          </div>
-          <div class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-md">
-            <p class="text-sm font-medium text-gray-900">Automate real work, not demos</p>
-            <p class="mt-2 text-sm text-gray-600">We design around your process, connect the right systems, and pilot in live operations.</p>
-          </div>
-          <div class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-md">
-            <p class="text-sm font-medium text-gray-900">Keep planning and delivery aligned</p>
-            <p class="mt-2 text-sm text-gray-600">The same team stays involved when the work needs broader rollout or ongoing support.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Services Preview Section -->
-    <section class="py-16 sm:py-20">
-      <div class="container mx-auto px-4 lg:px-6">
-        <div class="max-w-6xl mx-auto">
-          <div class="text-center mb-12">
-            <div class="mb-4 inline-flex items-center gap-2 rounded-full border border-amber-200 bg-amber-50 px-4 py-2 text-xs uppercase tracking-[0.2em] text-amber-700">
-              Pick your starting point
-            </div>
-            <h2 class="text-2xl sm:text-3xl md:text-4xl font-light text-gray-900 mb-4">
-              Three Ways We Help
-            </h2>
-            <p class="text-gray-600 text-lg max-w-2xl mx-auto">
-              Start with readiness, automate one workflow, or keep the same team involved through a broader rollout.
-            </p>
-          </div>
-
-          <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
-            <router-link to="/services/ai-readiness" class="group">
-              <Card class="h-full rounded-xl border border-gray-200 bg-white shadow-sm transition-shadow duration-300 group-hover:shadow-lg">
-                <CardHeader>
-                  <ClipboardCheck class="w-8 h-8 text-amber-600 mb-3" />
-                  <CardTitle class="text-xl">AI Readiness Assessment</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p class="text-gray-600 mb-4">
-                    Find the right first AI opportunity and leave with a practical next-step plan.
-                  </p>
-                  <p class="text-sm text-gray-500">
-                    Best when AI matters but the first priority is still unclear.
-                  </p>
-                </CardContent>
-              </Card>
-            </router-link>
-
-            <router-link to="/services/agentic-workflows" class="group">
-              <Card class="h-full rounded-xl border border-gray-200 bg-white shadow-sm transition-shadow duration-300 group-hover:shadow-lg">
-                <CardHeader>
-                  <Bot class="w-8 h-8 text-amber-600 mb-3" />
-                  <CardTitle class="text-xl">AI Workflow Automation</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p class="text-gray-600 mb-4">
-                    Automate one high-friction workflow and connect it to the systems your team already uses.
-                  </p>
-                  <p class="text-sm text-gray-500">
-                    Best when a specific process is slow, manual, or spread across tools.
-                  </p>
-                </CardContent>
-              </Card>
-            </router-link>
-
-            <router-link to="/services/full-stack-delivery" class="group">
-              <Card class="h-full rounded-xl border border-gray-200 bg-white shadow-sm transition-shadow duration-300 group-hover:shadow-lg">
-                <CardHeader>
-                  <Layers class="w-8 h-8 text-amber-600 mb-3" />
-                  <CardTitle class="text-xl">Delivery Partnership</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p class="text-gray-600 mb-4">
-                    Keep the same team involved from planning through rollout when the work is larger or more complex.
-                  </p>
-                  <p class="text-sm text-gray-500">
-                    Best when multiple teams, systems, or stages need to stay aligned.
-                  </p>
-                </CardContent>
-              </Card>
-            </router-link>
-          </div>
-
-          <div class="mt-8 rounded-2xl border border-amber-200 bg-amber-50 p-6 text-center shadow-sm">
-            <p class="text-sm font-medium text-gray-900">Need something more specialised?</p>
-            <p class="mt-2 text-sm text-gray-600">
-              We scope custom AI only when standard tools are not enough.
-              <router-link to="/services/custom-ai-development" class="text-amber-700 hover:underline">See when custom development makes sense.</router-link>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- How We Work -->
-    <section class="py-16 sm:py-20 bg-gray-50">
-      <div class="container mx-auto px-4 lg:px-6">
-        <div class="max-w-5xl mx-auto">
-          <div class="text-center mb-12">
-            <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-4">
-              How Work Usually Progresses
-            </h2>
-            <p class="text-gray-600 text-lg">
-              The path is simple: assess the right starting point, automate one workflow, then expand if it proves valuable.
-            </p>
-          </div>
-
-          <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
-            <div class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-md">
-              <div class="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-amber-100 text-amber-700 font-semibold">1</div>
-              <h3 class="text-lg font-medium text-gray-900 mb-2">Assess</h3>
-              <p class="text-sm text-gray-600">Use the readiness assessment to pick the best first use case and understand the conditions for success.</p>
-            </div>
-            <div class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-md">
-              <div class="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-amber-100 text-amber-700 font-semibold">2</div>
-              <h3 class="text-lg font-medium text-gray-900 mb-2">Automate</h3>
-              <p class="text-sm text-gray-600">Map one workflow, build the automation, connect the right systems, and pilot it in live operations.</p>
-            </div>
-            <div class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-md">
-              <div class="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-amber-100 text-amber-700 font-semibold">3</div>
-              <h3 class="text-lg font-medium text-gray-900 mb-2">Expand</h3>
-              <p class="text-sm text-gray-600">If the first workflow proves valuable, keep the same team involved as the work gets broader or more complex.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Final CTA Section -->
-    <section class="relative isolate overflow-hidden py-16 sm:py-20 bg-gray-900 text-white">
-      <div class="pointer-events-none absolute -left-20 -top-10 h-72 w-72 rounded-full bg-amber-500/20 blur-3xl" />
-      <div class="pointer-events-none absolute -right-16 bottom-0 h-64 w-64 rounded-full bg-white/10 blur-3xl" />
-      <div class="container relative mx-auto px-4 lg:px-6">
-        <div class="max-w-3xl mx-auto text-center">
-          <h2 class="text-2xl sm:text-3xl font-light mb-4">
-            Start With Clarity
-          </h2>
-          <p class="text-gray-300 mb-8 text-lg">
-            Book an AI Readiness Assessment and leave with a clearer first use case, the key risks, and the next steps worth funding.
+        <div class="mx-auto max-w-3xl text-center">
+          <p class="mb-3 text-sm font-medium uppercase tracking-widest text-amber-400">AI Strategy, Implementation & Engineering</p>
+          <h1 class="mb-6 text-3xl font-light leading-tight sm:text-4xl md:text-5xl">
+            Everyone has an AI strategy.<br class="hidden sm:inline" />
+            Almost nobody has a working system.
+          </h1>
+          <p class="mx-auto mb-8 max-w-2xl text-lg leading-relaxed text-gray-300 lg:text-xl">
+            Initiatives stall when strategy and delivery are split across teams. One partner from assessment to production — no handoffs, no pilot purgatory.
           </p>
-          <div class="mx-auto mb-8 max-w-2xl rounded-2xl border border-white/15 bg-white/5 p-6 text-left shadow-2xl backdrop-blur">
-            <p class="mb-3 text-xs uppercase tracking-[0.2em] text-gray-400">What you get</p>
-            <ul class="space-y-2 text-sm text-gray-200">
-              <li class="flex items-start gap-2">
-                <Check class="mt-0.5 h-4 w-4 flex-shrink-0 text-amber-300" />
-                Scored readiness view across people, process, technology, and data.
-              </li>
-              <li class="flex items-start gap-2">
-                <Check class="mt-0.5 h-4 w-4 flex-shrink-0 text-amber-300" />
-                A shortlist of high-value AI use cases.
-              </li>
-              <li class="flex items-start gap-2">
-                <Check class="mt-0.5 h-4 w-4 flex-shrink-0 text-amber-300" />
-                Clear next-step recommendation and risk view.
-              </li>
-            </ul>
-          </div>
-          
-          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <div class="flex flex-col justify-center gap-4 sm:flex-row">
             <Button 
               as-child 
               size="lg" 
               class="bg-amber-600 text-white hover:bg-amber-700"
-              data-track='{"event":"cta_click","cta_text":"Book an AI Readiness Assessment","location":"final_cta","destination":"/contact"}'
+              data-track='{"event":"cta_click","cta_text":"Get Started","location":"hero","destination":"/contact"}'
             >
               <router-link to="/contact">
-                Book an AI Readiness Assessment
+                Get Started
               </router-link>
             </Button>
             <Button 
@@ -267,16 +38,159 @@
               size="lg" 
               variant="outline" 
               class="border-white bg-transparent text-white hover:bg-white hover:text-gray-900"
-              data-track='{"event":"cta_click","cta_text":"Explore Services First","location":"final_cta","destination":"/services"}'
+              data-track='{"event":"cta_click","cta_text":"See how it works","location":"hero","destination":"#services"}'
             >
-              <router-link to="/services">
-                Explore Services First
-              </router-link>
+              <a href="#services">
+                See how it works
+              </a>
             </Button>
           </div>
-          <p class="mt-6 text-sm text-gray-500">
-            If the right answer is "not yet," we'll tell you that too.
+        </div>
+      </div>
+    </section>
+
+    <!-- Three Pillars Section -->
+    <section id="services" class="relative isolate overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 sm:py-24">
+      <div class="pointer-events-none absolute -right-20 top-1/3 h-72 w-72 rounded-full bg-white/5 blur-3xl" />
+      <div class="container relative mx-auto px-4 lg:px-6">
+        <div class="mx-auto max-w-6xl">
+          <div class="mb-12 text-center">
+            <p class="mb-4 text-xs uppercase tracking-[0.2em] text-gray-400">Our approach</p>
+            <h2 class="mb-4 text-2xl font-light text-white sm:text-3xl md:text-4xl">
+              Three ways we help.
+            </h2>
+          </div>
+
+          <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+            <router-link to="/services/strategy" class="group">
+              <div class="h-full rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur transition-all duration-300 hover:border-amber-500/30 hover:bg-white/10">
+                <ClipboardCheck class="mb-4 h-8 w-8 text-amber-500" />
+                <h3 class="mb-2 text-xl font-medium text-white">Strategy</h3>
+                <p class="mb-4 text-gray-300">
+                  Most companies don't know where to start with AI. We audit your operations, surface the highest-impact use cases, and give you a clear plan — not a 200-slide deck.
+                </p>
+                <p class="text-sm text-amber-300 group-hover:text-amber-200">Learn more &rarr;</p>
+              </div>
+            </router-link>
+
+            <router-link to="/services/implementation" class="group">
+              <div class="h-full rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur transition-all duration-300 hover:border-amber-500/30 hover:bg-white/10">
+                <Workflow class="mb-4 h-8 w-8 text-amber-500" />
+                <h3 class="mb-2 text-xl font-medium text-white">Implementation</h3>
+                <p class="mb-4 text-gray-300">
+                  Strategy without execution is expensive shelf-ware. We automate real workflows, connect your existing systems, and pilot in production — so you see results, not just recommendations.
+                </p>
+                <p class="text-sm text-amber-300 group-hover:text-amber-200">Learn more &rarr;</p>
+              </div>
+            </router-link>
+
+            <router-link to="/services/engineering" class="group">
+              <div class="h-full rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur transition-all duration-300 hover:border-amber-500/30 hover:bg-white/10">
+                <Code class="mb-4 h-8 w-8 text-amber-500" />
+                <h3 class="mb-2 text-xl font-medium text-white">Engineering</h3>
+                <p class="mb-4 text-gray-300">
+                  Off-the-shelf tools don't solve every problem. When standard tools fall short, we build custom AI solutions and provide ongoing engineering support. You get working software, not prototypes.
+                </p>
+                <p class="text-sm text-amber-300 group-hover:text-amber-200">Learn more &rarr;</p>
+              </div>
+            </router-link>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proof Story Section -->
+    <section class="relative isolate overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 sm:py-24">
+      <div class="pointer-events-none absolute -left-20 top-1/2 h-64 w-64 -translate-y-1/2 rounded-full bg-amber-500/10 blur-3xl" />
+      <div class="container relative mx-auto px-4 lg:px-6">
+        <div class="mx-auto max-w-4xl">
+          <div class="mb-10 text-center">
+            <p class="mb-4 text-xs uppercase tracking-[0.2em] text-gray-400">We build what we sell</p>
+            <h2 class="mb-4 text-2xl font-light text-white sm:text-3xl">
+              From manual process to automated system.
+            </h2>
+          </div>
+
+          <div class="rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur sm:p-8">
+            <p class="mb-4 text-gray-300 leading-relaxed">
+              We automated our own SEO pipeline — from keyword research to content generation to publishing — using the same approach we bring to client work.
+            </p>
+            <p class="mb-6 text-gray-300 leading-relaxed">
+              The result: <span class="font-medium text-white">200k+ search impressions</span> across multiple sites, <span class="font-medium text-white">$0 ad spend</span>, fully automated content workflows. The system became <a href="https://www.pageseeds.com/" target="_blank" rel="noopener noreferrer" class="text-amber-300 hover:text-amber-200 hover:underline">PageSeeds</a> — a product used by founders and small businesses to grow their search visibility.
+            </p>
+            <div class="flex flex-col gap-4 border-t border-white/15 pt-6 sm:flex-row sm:items-center sm:justify-between">
+              <p class="text-sm text-gray-400">
+                This is what we mean by implementation. Strategy → automation → working system.
+              </p>
+              <a href="https://blog.learnedlate.com/p/i-dont-think-content-seo-is-dead" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-sm text-amber-300 hover:text-amber-200 whitespace-nowrap">
+                Read the full story &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="relative isolate overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 sm:py-24">
+      <div class="pointer-events-none absolute -right-16 bottom-0 h-64 w-64 rounded-full bg-white/10 blur-3xl" />
+      <div class="container relative mx-auto px-4 lg:px-6">
+        <div class="mx-auto max-w-3xl">
+          <h2 class="mb-10 text-center text-2xl font-light text-white sm:text-3xl">
+            Frequently asked questions.
+          </h2>
+          
+          <div class="space-y-4">
+            <div class="rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur">
+              <h3 class="mb-2 text-base font-medium text-white">How is this different from a consulting engagement that ends with a slide deck?</h3>
+              <p class="text-sm text-gray-300">We build and ship. Every engagement includes implementation, not just recommendations. If it doesn't reach production, we haven't done our job.</p>
+            </div>
+            <div class="rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur">
+              <h3 class="mb-2 text-base font-medium text-white">What does it cost?</h3>
+              <p class="text-sm text-gray-300">It depends on scope. Strategy engagements start in the low thousands. Implementation and engineering are scoped per project. We'll give you a clear number after one conversation.</p>
+            </div>
+            <div class="rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur">
+              <h3 class="mb-2 text-base font-medium text-white">How long does a typical engagement take?</h3>
+              <p class="text-sm text-gray-300">Strategy: 1–2 weeks. Implementation: 2–6 weeks to a working pilot. Engineering: ongoing, scoped in sprints.</p>
+            </div>
+            <div class="rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur">
+              <h3 class="mb-2 text-base font-medium text-white">Do you replace our internal team or work alongside them?</h3>
+              <p class="text-sm text-gray-300">Alongside. We plug into your existing tools and processes. The goal is to leave your team more capable, not dependent.</p>
+            </div>
+            <div class="rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur">
+              <h3 class="mb-2 text-base font-medium text-white">What kind of companies do you work with?</h3>
+              <p class="text-sm text-gray-300">Mostly mid-market teams that know AI matters but need help making it work. We also work with smaller founder-led companies on specific automation projects.</p>
+            </div>
+            <div class="rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur">
+              <h3 class="mb-2 text-base font-medium text-white">What if we're not ready for AI yet?</h3>
+              <p class="text-sm text-gray-300">That's what the strategy assessment is for. If the answer is "not yet," we'll tell you that — and what to focus on first.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="relative isolate overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 sm:py-24">
+      <div class="pointer-events-none absolute -left-20 -top-10 h-72 w-72 rounded-full bg-amber-500/20 blur-3xl" />
+      <div class="container relative mx-auto px-4 lg:px-6">
+        <div class="mx-auto max-w-3xl text-center">
+          <h2 class="mb-4 text-2xl font-light text-white sm:text-3xl">
+            Let's figure out where AI fits.
+          </h2>
+          <p class="mb-8 text-lg text-gray-300">
+            Tell us what you're working on. We'll respond within 24 hours.
           </p>
+          <Button 
+            as-child 
+            size="lg" 
+            class="bg-amber-600 text-white hover:bg-amber-700"
+            data-track='{"event":"cta_click","cta_text":"Get Started","location":"final_cta","destination":"/contact"}'
+          >
+            <router-link to="/contact">
+              Get Started
+            </router-link>
+          </Button>
         </div>
       </div>
     </section>
@@ -285,19 +199,11 @@
 
 <script setup lang="ts">
 import SEOHead from '../components/SEOHead.vue'
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import {
-  MapPin,
-  Check,
   ClipboardCheck,
-  Bot,
-  Layers,
+  Workflow,
+  Code,
 } from 'lucide-vue-next'
 
 // Schema markup for homepage
@@ -308,8 +214,8 @@ const homeSchema = [
     "@id": "https://learnedlate.com/#website",
     "url": "https://learnedlate.com",
     "name": "LearnedLate",
-    "description": "AI readiness, workflow automation, and delivery support for New Zealand and Australian mid-market businesses",
-    "inLanguage": "en-NZ",
+    "description": "AI strategy, implementation, and engineering services",
+    "inLanguage": "en",
     "publisher": {
       "@type": "Organization",
       "@id": "https://learnedlate.com/#organization"
@@ -325,21 +231,11 @@ const homeSchema = [
       "@type": "ImageObject",
       "url": "https://learnedlate.com/learndlate.png"
     },
-    "description": "AI readiness, workflow automation, and delivery support for NZ and Australian mid-market businesses",
-    "areaServed": [
-      {
-        "@type": "Country",
-        "name": "New Zealand"
-      },
-      {
-        "@type": "Country",
-        "name": "Australia"
-      }
-    ],
+    "description": "AI strategy, implementation, and engineering services",
     "serviceType": [
-      "AI Readiness Assessment",
-      "AI Workflow Automation",
-      "Delivery Partnership"
+      "AI Strategy",
+      "AI Implementation",
+      "AI Engineering"
     ],
     "sameAs": [
       "https://x.com/learnedlate"

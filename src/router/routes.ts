@@ -2,11 +2,9 @@ import type { RouteRecordRaw } from 'vue-router'
 import HomePage from '../views/HomePage.vue'
 import AboutPage from '../views/AboutPage.vue'
 import ContactPage from '../views/ContactPage.vue'
-import ServicesPage from '../views/ServicesPage.vue'
-import AiReadinessPage from '../views/AiReadinessPage.vue'
-import AgenticWorkflowsPage from '../views/AgenticWorkflowsPage.vue'
-import CustomAiDevelopmentPage from '../views/CustomAiDevelopmentPage.vue'
-import FullStackDeliveryPage from '../views/FullStackDeliveryPage.vue'
+import StrategyPage from '../views/StrategyPage.vue'
+import ImplementationPage from '../views/ImplementationPage.vue'
+import EngineeringPage from '../views/EngineeringPage.vue'
 import BlogPage from '../views/BlogPage.vue'
 import BlogPostPage from '../views/BlogPostPage.vue'
 import CaseStudiesPage from '../views/CaseStudiesPage.vue'
@@ -48,49 +46,61 @@ const routes: RouteRecordRaw[] = [
     path: '/',
     name: 'Home',
     component: HomePage,
-    meta: { title: 'LearnedLate – AI Readiness, Workflow Automation & Delivery Support | NZ & Australia' }
+    meta: { title: 'LearnedLate – AI Strategy, Implementation & Engineering' }
   },
   {
     path: '/about',
     name: 'About',
     component: AboutPage,
-    meta: { title: 'About – LearnedLate | AI Consultancy NZ & Australia' }
+    meta: { title: 'About – LearnedLate | AI Strategy, Implementation & Engineering' }
   },
   {
     path: '/contact',
     name: 'Contact',
     component: ContactPage,
-    meta: { title: 'Contact – Start With an AI Readiness Assessment | LearnedLate' }
+    meta: { title: 'Get Started – LearnedLate | AI Strategy, Implementation & Engineering' }
+  },
+
+  // New service pillar pages
+  {
+    path: '/services/strategy',
+    name: 'Strategy',
+    component: StrategyPage,
+    meta: { title: 'Strategy – Find the Right Starting Point | LearnedLate' }
   },
   {
+    path: '/services/implementation',
+    name: 'Implementation',
+    component: ImplementationPage,
+    meta: { title: 'Implementation – Automate Real Workflows | LearnedLate' }
+  },
+  {
+    path: '/services/engineering',
+    name: 'Engineering',
+    component: EngineeringPage,
+    meta: { title: 'Engineering – Custom AI When Off-the-Shelf Falls Short | LearnedLate' }
+  },
+
+  // Redirects from old service URLs to new pillar pages
+  {
     path: '/services',
-    name: 'Services',
-    component: ServicesPage,
-    meta: { title: 'Services – AI Readiness, Workflow Automation & Delivery Partnership | LearnedLate' }
+    redirect: '/'
   },
   {
     path: '/services/ai-readiness',
-    name: 'AiReadiness',
-    component: AiReadinessPage,
-    meta: { title: 'AI Readiness Assessment – Know Where You Stand | LearnedLate' }
+    redirect: '/services/strategy'
   },
   {
     path: '/services/agentic-workflows',
-    name: 'AgenticWorkflows',
-    component: AgenticWorkflowsPage,
-    meta: { title: 'AI Workflow Automation – Automate Real Business Processes | LearnedLate' }
-  },
-  {
-    path: '/services/custom-ai-development',
-    name: 'CustomAiDevelopment',
-    component: CustomAiDevelopmentPage,
-    meta: { title: 'Custom AI Development – When Standard Tools Fall Short | LearnedLate' }
+    redirect: '/services/implementation'
   },
   {
     path: '/services/full-stack-delivery',
-    name: 'FullStackDelivery',
-    component: FullStackDeliveryPage,
-    meta: { title: 'Delivery Partnership – Keep Strategy and Delivery in One Team | LearnedLate' }
+    redirect: '/services/implementation'
+  },
+  {
+    path: '/services/custom-ai-development',
+    redirect: '/services/engineering'
   },
   {
     path: '/ai-readiness-checklist',
@@ -179,15 +189,11 @@ const routes: RouteRecordRaw[] = [
   },
   {
     path: '/automation',
-    name: 'Automation',
-    component: AgenticWorkflowsPage, // Redirect to new page
-    meta: { title: 'Automation – LearnedLate' }
+    redirect: '/services/implementation'
   },
   {
     path: '/ai-implementation',
-    name: 'AiImplementation',
-    component: ServicesPage, // Redirect to services
-    meta: { title: 'AI Implementation – LearnedLate' }
+    redirect: '/services/implementation'
   },
   {
     path: '/mvp-development',
