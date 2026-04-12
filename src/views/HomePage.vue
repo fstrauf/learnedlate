@@ -2,7 +2,7 @@
   <div class="home-page">
     <SEOHead 
       title="LearnedLate – AI Strategy, Implementation & Engineering"
-      description="Most AI initiatives die between the strategy deck and the first deploy. One team to assess, build, and launch."
+      description="AI is changing how businesses work. We help teams find where it matters and make it useful in the business."
       url="/"
       type="website"
       :schema="homeSchema"
@@ -14,13 +14,15 @@
       <div class="pointer-events-none absolute -right-20 bottom-0 h-64 w-64 rounded-full bg-white/10 blur-3xl" />
       <div class="container relative mx-auto px-4 lg:px-6">
         <div class="mx-auto max-w-3xl text-center">
-          <p class="mb-3 text-sm font-medium uppercase tracking-widest text-amber-400">AI Strategy, Implementation & Engineering</p>
+          <div class="mb-4 inline-flex items-center gap-2 rounded-full border border-amber-500/20 bg-amber-500/10 px-3 py-1 text-xs uppercase tracking-[0.2em] text-amber-200">
+            <span class="h-1.5 w-1.5 rounded-full bg-amber-300" />
+            AI Strategy, Implementation & Engineering
+          </div>
           <h1 class="mb-6 text-3xl font-light leading-tight sm:text-4xl md:text-5xl">
-            Everyone has an AI strategy.<br class="hidden sm:inline" />
-            Almost nobody has a working system.
+            Don't get <span class="text-amber-200">left behind</span>.
           </h1>
           <p class="mx-auto mb-8 max-w-2xl text-lg leading-relaxed text-gray-300 lg:text-xl">
-            Initiatives stall when strategy and delivery are split across teams. One partner from assessment to production — no handoffs, no pilot purgatory.
+            AI is changing how businesses work. The ones that learn to use it well will move faster, operate better, and pull ahead. We help you find where it matters and make it useful in your business.
           </p>
           <div class="flex flex-col justify-center gap-4 sm:flex-row">
             <Button 
@@ -55,9 +57,9 @@
       <div class="container relative mx-auto px-4 lg:px-6">
         <div class="mx-auto max-w-6xl">
           <div class="mb-12 text-center">
-            <p class="mb-4 text-xs uppercase tracking-[0.2em] text-gray-400">Our approach</p>
+            <p class="mb-4 text-xs uppercase tracking-[0.2em] text-amber-200">Our approach</p>
             <h2 class="mb-4 text-2xl font-light text-white sm:text-3xl md:text-4xl">
-              Three ways we help.
+              Three ways we <span class="text-amber-200">help</span>.
             </h2>
           </div>
 
@@ -67,7 +69,7 @@
                 <ClipboardCheck class="mb-4 h-8 w-8 text-amber-500" />
                 <h3 class="mb-2 text-xl font-medium text-white">Strategy</h3>
                 <p class="mb-4 text-gray-300">
-                  Most companies don't know where to start with AI. We audit your operations, surface the highest-impact use cases, and give you a clear plan — not a 200-slide deck.
+                  Most companies know AI matters but do not know where to start. We find the best places to use it and give you a clear plan.
                 </p>
                 <p class="text-sm text-amber-300 group-hover:text-amber-200">Learn more &rarr;</p>
               </div>
@@ -78,7 +80,7 @@
                 <Workflow class="mb-4 h-8 w-8 text-amber-500" />
                 <h3 class="mb-2 text-xl font-medium text-white">Implementation</h3>
                 <p class="mb-4 text-gray-300">
-                  Strategy without execution is expensive shelf-ware. We automate real workflows, connect your existing systems, and pilot in production — so you see results, not just recommendations.
+                  We turn slow, manual work into faster workflows by connecting the right tools to the systems you already use.
                 </p>
                 <p class="text-sm text-amber-300 group-hover:text-amber-200">Learn more &rarr;</p>
               </div>
@@ -89,7 +91,7 @@
                 <Code class="mb-4 h-8 w-8 text-amber-500" />
                 <h3 class="mb-2 text-xl font-medium text-white">Engineering</h3>
                 <p class="mb-4 text-gray-300">
-                  Off-the-shelf tools don't solve every problem. When standard tools fall short, we build custom AI solutions and provide ongoing engineering support. You get working software, not prototypes.
+                  When the standard tools are not enough, we build custom systems that fit your business and solve the gap.
                 </p>
                 <p class="text-sm text-amber-300 group-hover:text-amber-200">Learn more &rarr;</p>
               </div>
@@ -105,22 +107,22 @@
       <div class="container relative mx-auto px-4 lg:px-6">
         <div class="mx-auto max-w-4xl">
           <div class="mb-10 text-center">
-            <p class="mb-4 text-xs uppercase tracking-[0.2em] text-gray-400">We build what we sell</p>
+            <p class="mb-4 text-xs uppercase tracking-[0.2em] text-amber-200">We build what we sell</p>
             <h2 class="mb-4 text-2xl font-light text-white sm:text-3xl">
-              From manual process to automated system.
+              From manual process to <span class="text-amber-200">automated system</span>.
             </h2>
           </div>
 
-          <div class="rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur sm:p-8">
+          <div class="rounded-2xl border border-white/15 border-l-4 border-l-amber-500 bg-white/5 p-6 backdrop-blur sm:p-8">
             <p class="mb-4 text-gray-300 leading-relaxed">
-              We automated our own SEO pipeline — from keyword research to content generation to publishing — using the same approach we bring to client work.
+              We took our own slow SEO workflow and automated it from keyword research to content generation to publishing.
             </p>
             <p class="mb-6 text-gray-300 leading-relaxed">
-              The result: <span class="font-medium text-white">200k+ search impressions</span> across multiple sites, <span class="font-medium text-white">$0 ad spend</span>, fully automated content workflows. The system became <a href="https://www.pageseeds.com/" target="_blank" rel="noopener noreferrer" class="text-amber-300 hover:text-amber-200 hover:underline">PageSeeds</a> — a product used by founders and small businesses to grow their search visibility.
+              The result: <span class="font-medium text-amber-200">200k+ search impressions</span> across multiple sites, <span class="font-medium text-amber-200">$0 ad spend</span>, and a repeatable system. That system became <a href="https://www.pageseeds.com/" target="_blank" rel="noopener noreferrer" class="text-amber-300 hover:text-amber-200 hover:underline">PageSeeds</a> — a product used by founders and small businesses to grow their search visibility.
             </p>
             <div class="flex flex-col gap-4 border-t border-white/15 pt-6 sm:flex-row sm:items-center sm:justify-between">
               <p class="text-sm text-gray-400">
-                This is what we mean by implementation. Strategy → automation → working system.
+                This is the work: find the bottleneck, automate it, make it useful.
               </p>
               <a href="https://blog.learnedlate.com/p/i-dont-think-content-seo-is-dead" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-sm text-amber-300 hover:text-amber-200 whitespace-nowrap">
                 Read the full story &rarr;
@@ -137,7 +139,7 @@
       <div class="container relative mx-auto px-4 lg:px-6">
         <div class="mx-auto max-w-3xl">
           <h2 class="mb-10 text-center text-2xl font-light text-white sm:text-3xl">
-            Frequently asked questions.
+            Frequently asked <span class="text-amber-200">questions</span>.
           </h2>
           
           <div class="space-y-4">
@@ -176,7 +178,7 @@
       <div class="container relative mx-auto px-4 lg:px-6">
         <div class="mx-auto max-w-3xl text-center">
           <h2 class="mb-4 text-2xl font-light text-white sm:text-3xl">
-            Let's figure out where AI fits.
+            Let's figure out where AI <span class="text-amber-200">fits</span>.
           </h2>
           <p class="mb-8 text-lg text-gray-300">
             Tell us what you're working on. We'll respond within 24 hours.

@@ -47,6 +47,31 @@ Amber is the only brand accent. It matches the warm tones in the logo.
 | **Accent Muted** | `amber-200` | `#FDE68A` | Badge text, subtle highlights |
 | **Accent Background** | `amber-500/20` | — | Badge fills on dark backgrounds |
 
+### Signal Color Use
+
+Amber should behave like a signal system, not decoration.
+
+- Use amber to direct attention, not to fill space.
+- One amber moment per block is usually enough.
+- Prefer highlighting a key phrase, marker, stat, route, or label over coloring a whole component.
+- Most sections should remain primarily white, gray, and charcoal.
+- If everything is highlighted, nothing is highlighted.
+
+Good uses:
+
+- one highlighted phrase in a headline
+- a pill label or route marker
+- one key stat in a proof section
+- icons, step numbers, or key links
+- route-line graphics or waypoint dots in imagery
+
+Avoid:
+
+- large amber backgrounds behind full sections
+- multiple amber accents competing in the same card
+- using amber on every heading, border, and label at once
+- warm gradients beyond the existing subtle orb treatment
+
 ### Text Colors (on Dark Backgrounds)
 
 | Role | Tailwind Class | Hex | Usage |
@@ -102,6 +127,22 @@ For small section labels:
 ```
 class="text-xs uppercase tracking-[0.2em] text-gray-400"
 ```
+
+For signal labels or hero pills:
+```
+class="inline-flex items-center gap-2 rounded-full border border-amber-500/20 bg-amber-500/10 px-3 py-1 text-xs uppercase tracking-[0.2em] text-amber-200"
+```
+
+For inline headline emphasis:
+```
+<span class="text-amber-200">key phrase</span>
+```
+
+Rules:
+
+- Highlight only 1 to 3 words in a heading.
+- Use `text-amber-200` for emphasis, not full gradient text.
+- Do not highlight full sentences.
 
 ---
 
@@ -215,6 +256,8 @@ All pages use the same dark gradient foundation:
   </div>
 </section>
 ```
+
+Hero sections can include one subtle signal label above the heading and one emphasized phrase within the heading. Keep both restrained.
 
 ### Content Sections
 
@@ -333,6 +376,45 @@ Guidelines:
 - Use `pointer-events-none` to prevent interaction issues.
 - Keep opacity low (`/10` to `/20`) for subtlety.
 - Use `blur-3xl` for soft diffusion.
+
+### Wayfinding Motifs
+
+Use restrained navigation cues to reinforce the brand direction.
+
+Allowed motifs:
+
+- plotted route lines
+- waypoint dots
+- contour-line textures
+- directional overlays
+- map-like surfaces
+- signal markers
+
+Rules:
+
+- Keep them low contrast and secondary to the content.
+- Use amber only on the primary route, node, or decision point.
+- Prefer one clear route over many decorative lines.
+- These elements should support layout rhythm, not become illustrations by themselves.
+
+Suggested uses:
+
+- hero artwork and looping video backgrounds
+- section dividers or background textures
+- proof-story accents
+- strategy and implementation diagrams
+
+Do not introduce literal travel icons, cartoon maps, or game-style path graphics.
+
+### Imagery Direction
+
+Default visual direction: editorial wayfinding.
+
+- Premium, restrained, mostly grayscale imagery.
+- Amber used as a signal accent only.
+- Images should feel thoughtful, quiet, and useful.
+- Prefer real textures, maps, plotted paths, desks, notes, schematics, and system layouts over abstract AI clichés.
+- Never use robots, glowing brains, holograms, or cyberpunk visuals.
 
 ---
 
