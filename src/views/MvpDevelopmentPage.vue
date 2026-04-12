@@ -1,8 +1,8 @@
 <template>
   <div class="mvp-landing">
     <SEOHead
-      title="AI-Accelerated MVP Development - Launch in 8 Weeks"
-      description="Build your MVP 3x faster with AI-powered development and senior oversight. Transparent pricing, clear milestones, and launch-ready infrastructure."
+      title="AI-Accelerated MVP Development Services | Learned Late"
+      description="Transform your startup idea into a revenue-generating MVP in 8 weeks. AI-powered development with senior CTO oversight. Fixed pricing from $15K. NZ-based, serving APAC & global startups."
       url="/mvp-development"
     />
 
@@ -11,8 +11,8 @@
       <div class="container mx-auto px-4">
         <div class="max-w-5xl mx-auto text-center">
           <div class="inline-block text-xs tracking-wide uppercase bg-white/10 border border-white/20 px-3 py-1 rounded mb-4">AI-Accelerated Development</div>
-          <h1 class="text-3xl sm:text-4xl md:text-5xl font-light leading-tight">Launch Your MVP in 8 Weeks, Not 8 Months</h1>
-          <p class="text-gray-300 text-lg sm:text-xl mt-4">Build your product 3x faster with AI-powered development, while maintaining enterprise-grade quality</p>
+          <h1 class="text-3xl sm:text-4xl md:text-5xl font-light leading-tight">AI-Accelerated MVP Development: From Idea to Revenue in 8 Weeks</h1>
+          <p class="text-gray-300 text-lg sm:text-xl mt-4">Transform your startup concept into a market-ready product with our proven AI-powered development process. Senior CTO oversight ensures enterprise-grade quality at startup speed.</p>
 
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-6 text-left mt-8">
             <div class="bg-white/5 border border-white/10 rounded-xl p-4">
@@ -43,7 +43,8 @@
     <section class="py-12 sm:py-16 bg-white">
       <div class="container mx-auto px-4">
         <div class="max-w-5xl mx-auto">
-          <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-6">Traditional development is killing your startup</h2>
+          <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-6">Why Most Startup MVPs Fail (And How We Fix It)</h2>
+          <p class="text-gray-700 mb-6">The startup graveyard is filled with products that took too long to build, cost too much, and solved problems nobody cared about. Traditional development approaches prioritize perfection over speed—killing startups before they ever reach customers.</p>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div class="border border-gray-200 rounded-xl p-5">
               <h3 class="text-lg font-medium text-gray-900 mb-3">❌ The Old Way</h3>
@@ -56,7 +57,7 @@
               </ul>
             </div>
             <div class="border border-gray-200 rounded-xl p-5">
-              <h3 class="text-lg font-medium text-gray-900 mb-3">✅ The AI Way</h3>
+              <h3 class="text-lg font-medium text-gray-900 mb-3">✅ Our AI-Accelerated Approach</h3>
               <ul class="text-gray-700 text-sm space-y-1 list-disc list-inside">
                 <li>4–8 weeks to launch</li>
                 <li>$15K–$50K cost</li>
@@ -66,6 +67,9 @@
               </ul>
             </div>
           </div>
+          <div class="mt-6 bg-gray-50 border border-gray-200 rounded-xl p-5">
+            <p class="text-gray-700 text-sm">Our approach combines <a href="/fractional-cto-services" class="text-blue-600 hover:underline">fractional CTO expertise</a> with AI-accelerated development to deliver MVPs that validate your business model fast. Learn more about <a href="/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/" class="text-blue-600 hover:underline">building your first MVP</a> or explore our detailed <a href="/blog/8-week-mvp-development-guide/" class="text-blue-600 hover:underline">8-week development framework</a>.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -74,7 +78,8 @@
     <section class="py-12 sm:py-16 bg-gray-50" id="sprint">
       <div class="container mx-auto px-4">
         <div class="max-w-5xl mx-auto">
-          <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-6">From idea to launched product in 8 weeks</h2>
+          <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-6">Our Proven 8-Week MVP Development Process</h2>
+          <p class="text-gray-700 mb-6">We've refined this process across dozens of startup MVPs. Each phase builds on the previous, ensuring you have a working product at every stage—not just at the end.</p>
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             <div class="bg-white border border-gray-200 rounded-xl p-5">
               <h3 class="text-base font-medium text-gray-900">Week 1–2: Feasibility Sprint</h3>
@@ -120,7 +125,7 @@
 
           <div class="mt-8 bg-white border border-gray-200 rounded-xl p-6">
             <h3 class="text-lg font-medium text-gray-900 mb-2">🤖 The AI Acceleration Advantage</h3>
-            <p class="text-gray-700">We use AI to generate up to 80% of boilerplate code, then apply senior engineering expertise to ensure quality, security, and scalability. This isn't about cutting corners—it's about building smarter.</p>
+            <p class="text-gray-700">We use AI to generate up to 80% of boilerplate code, then apply senior engineering expertise to ensure quality, security, and scalability. This isn't about cutting corners—it's about building smarter. Our <a href="/ai-implementation" class="text-blue-600 hover:underline">AI implementation services</a> ensure you get the benefits without the risks.</p>
           </div>
         </div>
       </div>
@@ -130,29 +135,33 @@
     <section class="py-12 sm:py-16 bg-white">
       <div class="container mx-auto px-4">
         <div class="max-w-5xl mx-auto">
-          <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-6">MVPs that became real businesses</h2>
+          <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-6">Startup MVPs That Became Real Businesses</h2>
+          <p class="text-gray-700 mb-6">These aren't just prototypes—they're revenue-generating products that started with our 8-week MVP process. Each one validates the power of speed combined with strategic technical leadership.</p>
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div class="border border-gray-200 rounded-xl p-5">
               <h3 class="text-lg font-medium text-gray-900">ExpenseSorted</h3>
               <p class="text-sm text-gray-500">SaaS • FinTech</p>
               <p class="text-gray-700 text-sm mt-2">AI-powered expense tracking for freelancers</p>
               <div class="text-xs text-gray-700 mt-3 space-x-2"><span>⏱️ 6 weeks</span><span>💰 $8K MRR</span><span>👥 200+ users</span></div>
-              <a href="#" class="inline-block mt-3 text-sm text-gray-700 hover:text-gray-900">View Case Study →</a>
+              <a href="/projects" class="inline-block mt-3 text-sm text-blue-600 hover:underline">View Case Study →</a>
             </div>
             <div class="border border-gray-200 rounded-xl p-5">
               <h3 class="text-lg font-medium text-gray-900">TradeFlow</h3>
               <p class="text-sm text-gray-500">Marketplace • B2B</p>
               <p class="text-gray-700 text-sm mt-2">Construction materials trading platform</p>
               <div class="text-xs text-gray-700 mt-3 space-x-2"><span>⏱️ 8 weeks</span><span>💰 $2M GMV</span><span>👥 500+ users</span></div>
-              <a href="#" class="inline-block mt-3 text-sm text-gray-700 hover:text-gray-900">View Case Study →</a>
+              <a href="/projects" class="inline-block mt-3 text-sm text-blue-600 hover:underline">View Case Study →</a>
             </div>
             <div class="border border-gray-200 rounded-xl p-5">
               <h3 class="text-lg font-medium text-gray-900">CoachConnect</h3>
               <p class="text-sm text-gray-500">Marketplace • Wellness</p>
               <p class="text-gray-700 text-sm mt-2">Matching platform for fitness coaches</p>
               <div class="text-xs text-gray-700 mt-3 space-x-2"><span>⏱️ 7 weeks</span><span>💰 150 coaches</span><span>👥 1,200+ users</span></div>
-              <a href="#" class="inline-block mt-3 text-sm text-gray-700 hover:text-gray-900">View Case Study →</a>
+              <a href="/projects" class="inline-block mt-3 text-sm text-blue-600 hover:underline">View Case Study →</a>
             </div>
+          </div>
+          <div class="mt-6 text-center">
+            <p class="text-gray-600 text-sm">See more examples in our <a href="/projects" class="text-blue-600 hover:underline">project portfolio</a> or read our guide on <a href="/blog/mvp_development_cost_for_saas_startups_2026_budget_guide_with_real_examples/" class="text-blue-600 hover:underline">MVP development costs for SaaS startups</a>.</p>
           </div>
         </div>
       </div>
@@ -218,12 +227,13 @@
     <section class="py-12 sm:py-16 bg-white">
       <div class="container mx-auto px-4">
         <div class="max-w-5xl mx-auto">
-          <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-6">What makes our process different</h2>
+          <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-6">What Makes Our MVP Development Different</h2>
+          <p class="text-gray-700 mb-6">We're not just developers—we're startup builders who understand that your MVP isn't just code, it's a business validation tool. Our unique approach combines technical excellence with strategic business thinking.</p>
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            <div class="border border-gray-200 rounded-xl p-5"><h3 class="font-medium text-gray-900">AI‑Powered, Human‑Guided</h3><p class="text-gray-700 text-sm mt-2">AI handles repetitive coding; senior engineers ensure architecture, security, and scalability.</p></div>
-            <div class="border border-gray-200 rounded-xl p-5"><h3 class="font-medium text-gray-900">Revenue‑First Features</h3><p class="text-gray-700 text-sm mt-2">We only build features that drive acquisition, retention, or monetization.</p></div>
-            <div class="border border-gray-200 rounded-xl p-5"><h3 class="font-medium text-gray-900">Mobile‑First Always</h3><p class="text-gray-700 text-sm mt-2">Designed for mobile from day one, not as an afterthought.</p></div>
-            <div class="border border-gray-200 rounded-xl p-5"><h3 class="font-medium text-gray-900">Launch‑Ready Infrastructure</h3><p class="text-gray-700 text-sm mt-2">Automated deployments, monitoring, backups, and scaling built‑in.</p></div>
+            <div class="border border-gray-200 rounded-xl p-5"><h3 class="font-medium text-gray-900">AI‑Powered, Human‑Guided</h3><p class="text-gray-700 text-sm mt-2">AI handles repetitive coding; senior engineers ensure architecture, security, and scalability. Learn about our <a href="/custom-ai-development" class="text-blue-600 hover:underline">AI development approach</a>.</p></div>
+            <div class="border border-gray-200 rounded-xl p-5"><h3 class="font-medium text-gray-900">Revenue‑First Features</h3><p class="text-gray-700 text-sm mt-2">We only build features that drive acquisition, retention, or monetization. No vanity features.</p></div>
+            <div class="border border-gray-200 rounded-xl p-5"><h3 class="font-medium text-gray-900">Mobile‑First Always</h3><p class="text-gray-700 text-sm mt-2">Designed for mobile from day one, not as an afterthought. Read our comparison of <a href="/blog/mobile_app_vs_web_app_which_should_your_startup_build_first/" class="text-blue-600 hover:underline">mobile vs web apps for startups</a>.</p></div>
+            <div class="border border-gray-200 rounded-xl p-5"><h3 class="font-medium text-gray-900">Launch‑Ready Infrastructure</h3><p class="text-gray-700 text-sm mt-2">Automated deployments, monitoring, backups, and scaling built‑in from day one.</p></div>
           </div>
         </div>
       </div>
@@ -233,27 +243,27 @@
     <section class="py-12 sm:py-16 bg-gray-50">
       <div class="container mx-auto px-4">
         <div class="max-w-5xl mx-auto">
-          <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-6">Questions founders ask</h2>
+          <h2 class="text-2xl sm:text-3xl font-light text-gray-900 mb-6">Frequently Asked Questions About MVP Development</h2>
           <div class="space-y-3">
             <details class="bg-white border border-gray-200 rounded-xl p-4">
               <summary class="cursor-pointer font-medium text-gray-900">How is AI development different from regular development?</summary>
-              <p class="text-gray-700 mt-2">AI handles repetitive coding tasks—boilerplate, tests, CRUD—so we focus on architecture, UX, and business logic. Same quality, 3x faster.</p>
+              <p class="text-gray-700 mt-2">AI handles repetitive coding tasks—boilerplate, tests, CRUD—so we focus on architecture, UX, and business logic. Same quality, 3x faster. Read more about <a href="/blog/building-complex-apps-with-ai/" class="text-blue-600 hover:underline">building complex apps with AI</a>.</p>
             </details>
             <details class="bg-white border border-gray-200 rounded-xl p-4">
               <summary class="cursor-pointer font-medium text-gray-900">Will I own the code and IP?</summary>
-              <p class="text-gray-700 mt-2">Yes, 100%. You own all code, designs, and IP. Full GitHub access from day one.</p>
+              <p class="text-gray-700 mt-2">Yes, 100%. You own all code, designs, and IP. Full GitHub access from day one. We also provide documentation to help you understand the <a href="/blog/how_to_choose_your_tech_stack_a_non_technical_founders_decision_framework/" class="text-blue-600 hover:underline">tech stack choices</a> we make.</p>
             </details>
             <details class="bg-white border border-gray-200 rounded-xl p-4">
               <summary class="cursor-pointer font-medium text-gray-900">What if I need changes after launch?</summary>
-              <p class="text-gray-700 mt-2">Every project includes 30–60 days of post‑launch support for bug fixes. New features are available via retainer or hourly.</p>
+              <p class="text-gray-700 mt-2">Every project includes 30–60 days of post‑launch support for bug fixes. New features are available via our <a href="/fractional-cto-services" class="text-blue-600 hover:underline">fractional CTO retainer</a> or hourly development.</p>
             </details>
             <details class="bg-white border border-gray-200 rounded-xl p-4">
               <summary class="cursor-pointer font-medium text-gray-900">Can you work with my existing technical team?</summary>
-              <p class="text-gray-700 mt-2">Absolutely. We collaborate with in‑house teams for architecture, reviews, and modules while they focus on core business logic.</p>
+              <p class="text-gray-700 mt-2">Absolutely. We collaborate with in‑house teams for architecture, reviews, and modules while they focus on core business logic. See our guide on <a href="/blog/when_to_hire_your_first_cto_a_startup_founders_timing_guide/" class="text-blue-600 hover:underline">when to hire your first CTO</a>.</p>
             </details>
             <details class="bg-white border border-gray-200 rounded-xl p-4">
               <summary class="cursor-pointer font-medium text-gray-900">What tech stack do you use?</summary>
-              <p class="text-gray-700 mt-2">Typically Next.js + TypeScript, React Native for mobile, Node.js or Python backend, PostgreSQL, and AWS/Vercel deployment.</p>
+              <p class="text-gray-700 mt-2">Typically Next.js + TypeScript, React Native for mobile, Node.js or Python backend, PostgreSQL, and AWS/Vercel deployment. We choose based on your specific needs—read our <a href="/blog/how_to_choose_your_tech_stack_a_non_technical_founders_decision_framework/" class="text-blue-600 hover:underline">tech stack decision framework</a> to learn more.</p>
             </details>
           </div>
         </div>

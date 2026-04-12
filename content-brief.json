@@ -81,7 +81,10 @@
       35,
       42,
       44,
-      51
+      51,
+      88,
+      89,
+      91
     ],
     "business-operations": [
       15,
@@ -217,7 +220,7 @@
     "ai-automation": {
       "pillar_id": 8,
       "pillar_title": "Best AI Tools for Business 2025 (Small Business Edition)",
-      "support_count": 15,
+      "support_count": 16,
       "support_ids": [
         3,
         4,
@@ -233,7 +236,8 @@
         35,
         42,
         44,
-        51
+        51,
+        91
       ]
     },
     "business-operations": {
@@ -909,7 +913,7 @@
       },
       "ai-automation": {
         "pillar_id": 8,
-        "support_count": 15,
+        "support_count": 17,
         "support_ids": [
           3,
           4,
@@ -925,7 +929,9 @@
           35,
           42,
           44,
-          51
+          51,
+          88,
+          89
         ]
       },
       "mindset-productivity": {
@@ -971,7 +977,7 @@
       "cluster_summary": {
         "ai-automation": {
           "pillar_id": 8,
-          "support_count": 15,
+          "support_count": 16,
           "total_links_added_to_cluster": 12
         },
         "business-operations": {

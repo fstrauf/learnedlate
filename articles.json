@@ -4177,6 +4177,461 @@
         }
       ],
       "excerpt": "A free NZD-focused startup runway calculator template. Track your burn rate, plan funding rounds, and avoid the cash crunch that kills 29% of Kiwi startups."
+    },
+    {
+      "id": 84,
+      "title": "AI and Automation: What It Is, How It Works, and Where to Start in 2026",
+      "url_slug": "ai_and_automation",
+      "file": "./src/blog/posts/084_ai_and_automation.mdx",
+      "target_keyword": "ai and automation",
+      "keyword_difficulty": "17",
+      "target_volume": 9900,
+      "published_date": "2026-04-11",
+      "word_count": 2200,
+      "status": "published",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "ai-automation",
+      "cluster_role": "pillar",
+      "internal_links": [
+        {
+          "target_id": 51,
+          "anchor_text": "AI Automation for Small Business Owners: 2025 Implementation Playbook",
+          "url": "/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/"
+        },
+        {
+          "target_id": 72,
+          "anchor_text": "AI Automation for Trades Businesses",
+          "url": "/blog/ai_automation_for_trades_businesses_how_plumbers_electricians_builders_are_saving_10_hours_a_week/"
+        }
+      ],
+      "excerpt": "AI and automation explained in plain English. Understand the difference, real-world use cases, tools to start with today, and how to build a practical roadmap for your business."
+    },
+    {
+      "id": 85,
+      "title": "AI Chat Bot for Business: Complete Implementation Guide 2026",
+      "url_slug": "ai_chat_bot_for_business",
+      "file": "./src/blog/posts/085_ai_chat_bot_for_business.mdx",
+      "target_keyword": "ai chat bot for business",
+      "keyword_difficulty": "27",
+      "target_volume": 1300,
+      "published_date": "2026-04-10",
+      "word_count": 3156,
+      "status": "published",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "ai-automation",
+      "cluster_role": "support",
+      "internal_links": [
+        {
+          "target_id": 51,
+          "anchor_text": "AI Automation for Small Business Owners: 2025 Implementation Playbook",
+          "url": "/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/"
+        },
+        {
+          "target_id": 3,
+          "anchor_text": "No-Code Automation for Small Business: Guide & Tool Comparison",
+          "url": "/blog/no-code-automation-for-small-business/"
+        },
+        {
+          "target_id": 8,
+          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
+          "url": "/blog/best-ai-tools-for-business-2025/"
+        }
+      ],
+      "excerpt": "Everything you need to know about AI chat bots for business — from choosing the right platform to measuring ROI. Includes pricing, use cases, and a step-by-step implementation roadmap."
+    },
+    {
+      "id": 86,
+      "title": "AI for Small Business: A Practical Guide to Getting Started (2026)",
+      "url_slug": "ai_for_small_business",
+      "file": "./src/blog/posts/086_ai_for_small_business.mdx",
+      "target_keyword": "ai for small business",
+      "keyword_difficulty": "26",
+      "target_volume": 1600,
+      "published_date": "2026-04-09",
+      "word_count": 2875,
+      "status": "published",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "ai-automation",
+      "cluster_role": "support",
+      "internal_links": [
+        {
+          "target_id": 8,
+          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
+          "url": "/blog/best-ai-tools-for-business-2025/"
+        },
+        {
+          "target_id": 84,
+          "anchor_text": "AI and Automation: What It Is, How It Works, and Where to Start",
+          "url": "/blog/ai_and_automation/"
+        },
+        {
+          "target_id": 85,
+          "anchor_text": "AI Chat Bot for Business: Complete Implementation Guide",
+          "url": "/blog/ai_chat_bot_for_business/"
+        },
+        {
+          "target_id": 5,
+          "anchor_text": "What is Business Process Automation?",
+          "url": "/blog/what-is-business-process-automation/"
+        }
+      ],
+      "excerpt": "AI for small business explained simply. Learn what AI can do for your NZ business, which tools deliver the fastest ROI, and how to start without technical skills. Includes real examples and NZ pricing."
+    },
+    {
+      "id": 87,
+      "title": "AI Governance Strategy: A Practical Framework for NZ Startups (2026)",
+      "url_slug": "ai-governance-strategy",
+      "file": "./src/blog/posts/087_ai_governance_strategy.mdx",
+      "target_keyword": "ai governance strategy",
+      "keyword_difficulty": "21",
+      "target_volume": 1300,
+      "excerpt": "Build an AI governance strategy that balances innovation with risk management. Learn the essential components, implementation steps, and NZ-specific considerations for responsible AI adoption.",
+      "published_date": "2026-04-08",
+      "word_count": 3196,
+      "status": "published",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "ai-automation",
+      "cluster_role": "support",
+      "internal_links": [
+        {
+          "target_id": 8,
+          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
+          "url": "/blog/best-ai-tools-for-business-2025/"
+        },
+        {
+          "target_id": 86,
+          "anchor_text": "AI for Small Business: A Practical Guide to Getting Started",
+          "url": "/blog/ai-for-small-business/"
+        },
+        {
+          "target_id": 45,
+          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
+          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
+        },
+        {
+          "target_id": 1,
+          "anchor_text": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
+          "url": "/blog/cto-responsibilities-startup/"
+        },
+        {
+          "target_id": 84,
+          "anchor_text": "AI and Automation: What It Is, How It Works, and Where to Start",
+          "url": "/blog/ai_and_automation/"
+        },
+        {
+          "target_id": 85,
+          "anchor_text": "AI Chat Bot for Business: Complete Implementation Guide",
+          "url": "/blog/ai_chat_bot_for_business/"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Automation of Workflow: A Practical Guide for NZ Startups (2026)",
+      "url_slug": "automation-of-workflow",
+      "file": "./src/blog/posts/088_automation_of_workflow.mdx",
+      "target_keyword": "automation of workflow",
+      "keyword_difficulty": "25",
+      "target_volume": 3600,
+      "excerpt": "Discover how automation of workflow can transform your startup's efficiency. Learn practical implementation strategies, tool selection, and NZ-specific considerations for building automated business processes.",
+      "published_date": "2026-04-07",
+      "word_count": 3200,
+      "status": "published",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "ai-automation",
+      "cluster_role": "support",
+      "internal_links": [
+        {
+          "target_id": 8,
+          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
+          "url": "/blog/best-ai-tools-for-business-2025/"
+        },
+        {
+          "target_id": 84,
+          "anchor_text": "AI and Automation: What It Is, How It Works, and Where to Start",
+          "url": "/blog/ai_and_automation/"
+        },
+        {
+          "target_id": 3,
+          "anchor_text": "No Code Automation for Small Business: Guide & Tool Comparison",
+          "url": "/blog/no-code-automation-for-small-business/"
+        },
+        {
+          "target_id": 5,
+          "anchor_text": "What is Business Process Automation? Complete Guide for SMBs",
+          "url": "/blog/what-is-business-process-automation/"
+        },
+        {
+          "target_id": 45,
+          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
+          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
+        },
+        {
+          "target_id": 1,
+          "anchor_text": "CTO Responsibilities in a Startup: Stage-by-Stage Breakdown",
+          "url": "/blog/cto-responsibilities-startup/"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Business Ideas for AI: 25 Opportunities for NZ Startups and Small Businesses (2026)",
+      "url_slug": "business-ideas-for-ai",
+      "file": "./src/blog/posts/089_business_ideas_for_ai.mdx",
+      "target_keyword": "business ideas for ai",
+      "keyword_difficulty": "15",
+      "target_volume": 1000,
+      "excerpt": "Discover 25 practical business ideas for AI that NZ startups and small businesses can implement today. From AI-powered services to automation opportunities, learn which ideas have real market potential.",
+      "published_date": "2026-04-06",
+      "word_count": 4800,
+      "status": "published",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "ai-automation",
+      "cluster_role": "support",
+      "internal_links": [
+        {
+          "target_id": 8,
+          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
+          "url": "/blog/best-ai-tools-for-business-2025/"
+        },
+        {
+          "target_id": 51,
+          "anchor_text": "AI Automation for Small Business Owners: 2025 Implementation Playbook",
+          "url": "/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/"
+        },
+        {
+          "target_id": 50,
+          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
+          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
+        },
+        {
+          "target_id": 45,
+          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
+          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
+        },
+        {
+          "target_id": 88,
+          "anchor_text": "Automation of Workflow: A Practical Guide for NZ Startups (2026)",
+          "url": "/blog/automation-of-workflow/"
+        },
+        {
+          "target_id": 44,
+          "anchor_text": "AI Tools for Business Automation: The Complete Stack",
+          "url": "/blog/ai-tools-for-business-automation/"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "title": "AI Automation: The Complete 2026 Guide for Business Growth",
+      "url_slug": "ai-automation",
+      "file": "./src/blog/posts/090_ai_automation.mdx",
+      "target_keyword": "ai automation",
+      "keyword_difficulty": "22",
+      "target_volume": 9900,
+      "excerpt": "Discover how AI automation transforms business operations. Learn implementation strategies, top tools, real-world use cases, and ROI calculations for 2026.",
+      "published_date": "2026-04-05",
+      "word_count": 2600,
+      "status": "published",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "ai-automation",
+      "cluster_role": "support",
+      "internal_links": [
+        {
+          "target_id": 8,
+          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
+          "url": "/blog/best-ai-tools-for-business-2025/"
+        },
+        {
+          "target_id": 51,
+          "anchor_text": "AI Automation for Small Business Owners: 2025 Implementation Playbook",
+          "url": "/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/"
+        },
+        {
+          "target_id": 84,
+          "anchor_text": "AI and Automation: What It Is, How It Works, and Where to Start",
+          "url": "/blog/ai_and_automation/"
+        },
+        {
+          "target_id": 44,
+          "anchor_text": "AI Tools for Business Automation: The Complete Stack",
+          "url": "/blog/ai-tools-for-business-automation/"
+        },
+        {
+          "target_id": 3,
+          "anchor_text": "No-Code Automation for Small Business",
+          "url": "/blog/no-code-automation-for-small-business/"
+        },
+        {
+          "target_id": 72,
+          "anchor_text": "AI Automation for Trades Businesses",
+          "url": "/blog/ai_automation_for_trades_businesses_how_plumbers_electricians_builders_are_saving_10_hours_a_week/"
+        },
+        {
+          "target_id": 45,
+          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
+          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
+        },
+        {
+          "target_id": 50,
+          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
+          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "title": "AI in Automation: The Complete 2026 Guide for Business Transformation",
+      "url_slug": "091_ai_in_automation",
+      "file": "./src/blog/posts/091_ai_in_automation.mdx",
+      "target_keyword": "ai in automation",
+      "excerpt": "Discover how AI in automation is transforming business operations. Learn implementation strategies, top tools, real-world use cases, and ROI calculations for 2026.",
+      "keyword_difficulty": "22",
+      "target_volume": 9900,
+      "published_date": "2026-04-04",
+      "word_count": 2321,
+      "status": "published",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "ai-automation",
+      "cluster_role": "support",
+      "internal_links": [
+        {
+          "target_id": 90,
+          "anchor_text": "AI Automation: The Complete 2026 Guide for Business Growth",
+          "url": "/blog/090_ai_automation/"
+        },
+        {
+          "target_id": 4,
+          "anchor_text": "AI Tools for Business Automation: The Complete Stack",
+          "url": "/blog/ai-tools-for-business-automation/"
+        },
+        {
+          "target_id": 8,
+          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
+          "url": "/blog/best-ai-tools-for-business-2025/"
+        },
+        {
+          "target_id": 5,
+          "anchor_text": "Business Process Automation for Small Business",
+          "url": "/blog/what-is-business-process-automation/"
+        },
+        {
+          "target_id": 72,
+          "anchor_text": "AI Automation for Trades Businesses",
+          "url": "/blog/ai_automation_for_trades_businesses_how_plumbers_electricians_builders_are_saving_10_hours_a_week/"
+        },
+        {
+          "target_id": 45,
+          "anchor_text": "What is a Fractional CTO?",
+          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
+        },
+        {
+          "target_id": 50,
+          "anchor_text": "How to Build an MVP for Your Startup",
+          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "title": "AI Automation Job: The Complete 2026 Guide to Careers in Intelligent Automation",
+      "url_slug": "092_ai_automation_job",
+      "file": "./src/blog/posts/092_ai_automation_job.mdx",
+      "target_keyword": "ai automation job",
+      "excerpt": "Explore AI automation job opportunities in 2026. Learn about roles, required skills, salary expectations, and how to start or advance your career in AI automation.",
+      "keyword_difficulty": "12",
+      "target_volume": 5400,
+      "published_date": "2026-04-03",
+      "word_count": 2847,
+      "status": "published",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "ai-automation",
+      "cluster_role": "support",
+      "internal_links": [
+        {
+          "target_id": 90,
+          "anchor_text": "AI Automation: The Complete 2026 Guide for Business Growth",
+          "url": "/blog/090_ai_automation/"
+        },
+        {
+          "target_id": 91,
+          "anchor_text": "AI in Automation: The Complete 2026 Guide for Business Transformation",
+          "url": "/blog/091_ai_in_automation/"
+        },
+        {
+          "target_id": 4,
+          "anchor_text": "AI Tools for Business Automation: The Complete Stack",
+          "url": "/blog/ai-tools-for-business-automation/"
+        },
+        {
+          "target_id": 8,
+          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
+          "url": "/blog/best-ai-tools-for-business-2025/"
+        },
+        {
+          "target_id": 51,
+          "anchor_text": "AI Automation for Small Business Owners: 2025 Implementation Playbook",
+          "url": "/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Best AI Tool for Business: How to Choose the Right One in 2026",
+      "url_slug": "093_best_ai_tool_for_business",
+      "file": "./src/blog/posts/093_best_ai_tool_for_business.mdx",
+      "target_keyword": "best ai tool for business",
+      "excerpt": "Discover the best AI tool for your business needs. Compare top options by use case, budget, and implementation complexity to make the right choice.",
+      "keyword_difficulty": "5",
+      "target_volume": 1600,
+      "published_date": "2026-04-02",
+      "word_count": 2450,
+      "status": "published",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "ai-automation",
+      "cluster_role": "support",
+      "internal_links": [
+        {
+          "target_id": 8,
+          "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
+          "url": "/blog/best-ai-tools-for-business-2025/"
+        },
+        {
+          "target_id": 4,
+          "anchor_text": "AI Tools for Business Automation: The Complete Stack",
+          "url": "/blog/ai-tools-for-business-automation/"
+        },
+        {
+          "target_id": 3,
+          "anchor_text": "No Code Automation for Small Business: Guide & Tool Comparison",
+          "url": "/blog/no-code-automation-for-small-business/"
+        },
+        {
+          "target_id": 26,
+          "anchor_text": "ChatGPT for Business: Practical Implementation Guide",
+          "url": "/blog/2025-06-22-chatgpt-for-business-practical-implementation-guide/"
+        },
+        {
+          "target_id": 51,
+          "anchor_text": "AI Automation for Small Business Owners: 2025 Implementation Playbook",
+          "url": "/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/"
+        },
+        {
+          "target_id": 11,
+          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
+          "url": "/blog/what-is-custom-software-development-complete-guide/"
+        }
+      ]
     }
   ]
 }
