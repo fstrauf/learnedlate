@@ -9,8 +9,20 @@
     
     <!-- Hero Section -->
     <section class="relative isolate overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 text-white sm:py-24">
+      <!-- Ambient gradient orbs -->
       <div class="pointer-events-none absolute -left-20 -top-16 h-72 w-72 rounded-full bg-amber-500/20 blur-3xl" />
       <div class="pointer-events-none absolute -right-20 bottom-0 h-64 w-64 rounded-full bg-white/10 blur-3xl" />
+      
+      <!-- Background strategy image -->
+      <div class="pointer-events-none absolute inset-0 opacity-[0.15]">
+        <img 
+          src="/strategy.png" 
+          alt=""
+          class="h-full w-full object-cover"
+        />
+      </div>
+      <div class="pointer-events-none absolute inset-0 bg-gradient-to-b from-gray-900/50 via-gray-900/30 to-gray-900" />
+      
       <div class="container relative mx-auto px-4 lg:px-6">
         <div class="mx-auto max-w-3xl text-center">
           <div class="mb-4 inline-flex items-center gap-2 rounded-full border border-amber-500/20 bg-amber-500/10 px-3 py-1 text-xs uppercase tracking-[0.2em] text-amber-200">

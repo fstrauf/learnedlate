@@ -1,19 +1,5 @@
 <template>
   <div id="app">
-    <!-- Persistent CTA Bar -->
-    <div class="sticky top-0 z-50 border-b border-gray-800 bg-gray-950/95 text-white backdrop-blur">
-      <div class="container mx-auto flex flex-col items-center justify-between gap-2 px-4 py-2 sm:flex-row lg:px-6">
-        <p class="text-center text-xs text-gray-200 sm:text-left sm:text-sm">
-          AI strategy, implementation, and engineering — one team, end to end
-        </p>
-        <Button as-child size="sm" class="bg-amber-600 text-white hover:bg-amber-700 text-xs sm:text-sm">
-          <router-link to="/contact">
-            Get Started
-          </router-link>
-        </Button>
-      </div>
-    </div>
-
     <header class="border-b border-gray-800 bg-gray-900 text-white shadow-md">
       <nav class="container mx-auto px-4 py-3 lg:px-6">
         <div class="flex justify-between items-center">
