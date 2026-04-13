@@ -8,28 +8,30 @@ florian@learnedlate.com | [Twitter](https://x.com/learnedlate) | [LinkedIn](http
 
 ## SUMMARY
 
-Architect, software engineer, and former SAP employee with 20+ years of experience translating business needs into practical technology solutions. My background combines deep enterprise delivery experience with the last four years of hands-on work building products, leading teams, and working deeply with modern application stacks, data platforms, and AI-enabled systems. That recent experience keeps my advisory work grounded in the realities of how modern systems are scoped, built, integrated, and scaled. In parallel with product building, I have continued to advise businesses on solution direction, including ERP replacement scoping, build-vs-buy evaluation, effort estimation, architecture, and implementation planning.
+Former SAP Solution Architect and technology leader with 20+ years of experience across customer advisory, presales, solution architecture, and hands-on product building. I help translate business priorities into practical technology decisions, particularly where AI, automation, data, and custom software intersect. My background combines deep SAP and enterprise experience with recent hands-on work building and operating AI-enabled products and workflows, giving me both strategic and practical credibility. I have worked across executive advisory, build-vs-buy evaluation, GTM support, architecture planning, and the development of business cases for emerging technologies.
 
 ## AREAS OF EXPERTISE
 
-- **Solution Architecture & Business Alignment**: Strong track record of translating business requirements into pragmatic solution designs, roadmaps, and delivery plans.
-- **ERP Planning & Process Design**: Experience advising businesses on ERP direction, implementation planning, and aligning technology choices with operational needs.
-- **Data, Analytics & AI Advisory**: Able to connect data platforms, analytics, and AI opportunities to concrete business outcomes and practical implementation steps.
-- **Business and Technology Translation**: Combines deep technical expertise with strong business understanding, allowing me to work effectively with stakeholders, leadership teams, and delivery teams.
+- **AI Strategy, Use Case Discovery & Business Alignment**: Strong track record of translating business requirements into pragmatic AI, automation, and technology priorities.
+- **Build-vs-Buy Evaluation & Solution Architecture**: Experience assessing packaged platforms versus custom development and aligning decisions with operational needs.
+- **Customer Advisory & Executive Communication**: Credible with leadership teams, business stakeholders, and delivery teams when turning complex technical topics into clear decisions.
+- **Workflow Automation, Data & AI Implementation**: Able to connect automation, data platforms, and AI opportunities to concrete business outcomes and practical rollout paths.
+- **GTM Support, Thought Leadership & Innovation Programs**: Experience supporting go-to-market efforts, innovation initiatives, and customer-facing solution development.
 - **Technical Leadership & Delivery Enablement**: Proven ability to lead teams, improve development processes, and raise execution quality without losing speed.
-- **AI & Modernization Opportunities**: Practical experience identifying where AI and automation can create real value inside products, workflows, and delivery teams.
 - **Hands-On Technical Depth**: Credible across architecture and implementation, from enterprise integrations and backend systems to frontend applications, data pipelines, and analytics.
 
 ## PROFESSIONAL EXPERIENCE
 
-### Principal Technical Advisor & Solution Advisor
-**Independent Consultant | March 2025 - Present**
+### Founder, LearnedLate
+**Independent Advisor & Builder | March 2025 - Present**
 
-Partnering with businesses as a strategic technology advisor. My focus is on helping leadership teams turn business needs into clear technical direction, with an emphasis on solution planning, ERP thinking, architecture, and pragmatic execution.
+Building a consulting practice focused on practical AI strategy, workflow automation, and custom software for businesses that need a clearer starting point, a better process, or a custom build when packaged tools are not enough.
 
-**Relevant Advisory Work:**
-- Worked with New Zealand Packing and Kiwifruit Management Company in a solution advisory capacity to help shape ERP planning and align business needs with a practical implementation path.
-- Supported with ERP-related planning and solution thinking, helping translate operational requirements into clearer technical direction.
+**Relevant Work:**
+- Designed and operated an internal SEO workflow that automates keyword research, content generation, publishing, and iteration across owned sites, contributing to 200k+ search impressions with $0 ad spend.
+- Use this system as a live environment for testing AI-enabled workflows, content operations automation, and build-vs-buy decisions around standard tools versus custom software.
+- Developed an advisory approach around AI opportunity assessment, workflow redesign, and implementation planning, grounded in hands-on system building rather than theory.
+- Supported solution architecture work for New Zealand Packing and Kiwifruit Management Company, helping assess ERP direction, build-vs-buy tradeoffs, and where packaged platforms could be complemented by custom workflow and AI-enabled solutions.
 
 ### Founder & Builder at [daystoexpiry.com](https://daystoexpiry.com)
 **2025 - Present**
@@ -44,17 +46,6 @@ The application ingests and parses broker statements, normalizes positions and t
 - **AI-Assisted Trade Discovery:** Surfaces covered call, put-selling, and other income opportunities aligned with users’ holdings.
 - **Clear Performance Insight:** Visualizes income, risk, and drawdowns in an intuitive, portfolio-centric dashboard.
 - **Actionable Strategy Guidance:** Bridges the gap from “what do I hold?” to “what should I do next?” with portfolio-aware suggestions.
-
-### Founder & Builder at [Expensesorted.com](https://expensesorted.com)
-**2023 - Present**
-
-Founded and continue to build a personal finance product designed around user control, privacy, and automation. This work keeps my technical skills current across modern full-stack development, data-driven workflows, AI-supported automation, and user-focused product design.
-
-**Key User Benefits Delivered:**
-- **Provides Complete Control & Privacy:** Gives users peace of mind by using their own Google Sheet as the database.
-- **Saves Hours of Manual Effort:** Eliminates the need for manual data entry by automatically importing and categorizing bank transactions with an intelligent, AI-powered engine.
-- **Offers Clear Financial Insight:** Helps users instantly understand where their money goes with an intuitive, visual dashboard.
-- **Delivers Actionable Guidance:** Offers personalized, AI-driven suggestions and financial modeling to help users make smarter decisions.
 
 ### CTO at Forgd.com
 **Jan 2024 - March 2025**
@@ -81,13 +72,13 @@ Founded and led a consulting-led community business focused on tokenomics and st
 ### Solution Architect at SAP
 **2014 - 2021**
 
-Progressed through multiple roles at SAP, from Senior Consultant in Innovation to Solution Architect for Asset Intensive Industries and Innovation Centre Network Public Blockchain. Delivered complex enterprise solutions across multiple industries while leading innovation initiatives at board level.
+Progressed through multiple roles at SAP across innovation, presales, and solution architecture, from Senior Consultant in Innovation to Solution Architect for Asset Intensive Industries and Innovation Centre Network Public Blockchain. Delivered complex enterprise solutions across multiple industries while shaping GTM, customer advisory, and board-level innovation initiatives.
 
 **Key Achievements:**
-- **Blockchain & Innovation Leadership (2021)**: Created decentralized business strategy for SAP's adoption of emerging web3 technology. Delivered board-level proposals on crypto payments, token-based revenue streams, and making the SAP portfolio web3-ready. Evaluated token-based revenue streams to monetize beyond traditional license revenue. Led supply chain carbon use cases across German automotive industry and shaped decision-making on SAP's engagement in Catena-X and Gaia-X ecosystems.
-- **Asset Intensive Industries (2020-2021)**: Solution architecture  for Asset Intensive Industries as part of SAP Centre of Excellence. Drove feature and roadmap planning for product extensions. Developed GTM strategy as subject matter expert for Intelligent Asset Management (IAM).
-- **Innovative Business Solutions (2018-2020)**: Solution architecture for IBSO proposals. Developed Go-To-Market approaches for new markets/products, presenting at industry events. Supported presales in translating customer requirements into technology solutions. Acted as trusted advisor on innovation topics.
-- **Applied Technology Innovation (2014-2018)**: Led delivery teams for innovation projects, proof of concepts, and pilots transitioning to productive implementations. Provided technical sales support for intelligent asset management products. Served as service owner for IoT products (Connected Goods, Vehicle Insights). Built IoT Map applications integrating with ESRI, Leaflet, HERE Maps, and OpenStreetMap.
+- **Blockchain & Innovation Leadership (2021)**: Shaped SAP's strategy for emerging decentralized and AI-adjacent technologies, developing board-level proposals on crypto payments, token-based revenue models, and how new technologies could extend SAP's portfolio. Built business cases around new solution areas, translated complex technical concepts into executive decision material, and led supply chain carbon use cases across the German automotive industry, including SAP's engagement in Catena-X and Gaia-X.
+- **Asset Intensive Industries (2020-2021)**: Served as Solution Architect in the SAP Centre of Excellence for Asset Intensive Industries, connecting customer requirements to solution architecture, roadmap planning, and product extension strategy. Supported GTM planning as subject matter expert for Intelligent Asset Management (IAM), helping position solutions against industry needs and adoption opportunities.
+- **Innovative Business Solutions (2018-2020)**: Led solution architecture for IBSO proposals, translating customer challenges into solution options, business value narratives, and practical delivery approaches. Developed GTM approaches for new markets and products, supported presales engagements, and presented innovation topics at industry events.
+- **Applied Technology Innovation (2014-2018)**: Led delivery teams across innovation projects, proof of concepts, and pilots moving into productive use. Provided technical sales support for intelligent asset management offerings, owned IoT service areas, and worked across maps, connected asset, and data-driven use cases to turn new technologies into deployable customer solutions.
 - **Delivery Excellence**: Successfully led cloud customers out of escalation by analyzing and improving system performance. Safeguarded innovation projects as trusted advisor.
 - **Recognition**: SAP Catalyst / Fast Track awards: 2016, 2017, 2018, 2019.
 
