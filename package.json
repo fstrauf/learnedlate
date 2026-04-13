@@ -22,6 +22,7 @@
     "setup-hooks": "bash scripts/setup-hooks.sh"
   },
   "dependencies": {
+    "@microsoft/clarity": "^1.0.2",
     "@unhead/vue": "^2.0.10",
     "@vercel/node": "^5.5.15",
     "@vueuse/core": "^14.2.1",

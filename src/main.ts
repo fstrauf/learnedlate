@@ -5,6 +5,7 @@ import App from './App.vue'
 import { createRouter, createMemoryHistory, createWebHistory } from 'vue-router'
 import routes from './router/routes'
 import { usePostHog } from './plugins/posthog'
+import { useClarity } from './plugins/clarity'
 import { initAutoTracking } from './composables/useAnalytics'
 
 // Environment check
@@ -23,6 +24,7 @@ export function createApp() {
   // Initialize PostHog and analytics only on client side
   if (!isSSR) {
     usePostHog()
+    useClarity()
     initAutoTracking()
   }
   
