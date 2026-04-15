@@ -271,4 +271,4 @@ Auckland's startup ecosystem is more competitive than ever. The startups that wi
 *Ready to explore how custom software could accelerate your startup's growth? Start with a technical feasibility assessment to understand exactly what's possible within your budget and timeline.*
 - [New Zealand Startups: Your Complete Fractional CTO Guide](/blog/2025-06-22-nz-startups-fractional-cto-guide/)
 - [What is Custom Software Development? Complete Guide 2025](/blog/what-is-custom-software-development-complete-guide/)
-- [Software Development in Christchurch: Complete Guide for Local Businesses (2025)](/blog/software_development_in_christchurch_complete_guide_for_local_businesses_2025/)
+- [Software Development in Christchurch: Complete Guide for Local Businesses (2025)](/blog/software_development_in_christchurch_complete_guide_for_local_businesses_2026)

@@ -17,7 +17,7 @@
       <!-- Background hero image -->
       <div class="pointer-events-none absolute inset-0 opacity-[0.15]">
         <img 
-          src="/hero.png" 
+          src="/hero.webp" 
           alt=""
           class="h-full w-full object-cover"
         />
@@ -225,25 +225,25 @@ const homeSchema = [
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "@id": "https://learnedlate.com/#website",
-    "url": "https://learnedlate.com",
+    "@id": "https://www.learnedlate.com/#website",
+    "url": "https://www.learnedlate.com",
     "name": "LearnedLate",
     "description": "AI strategy, implementation, and engineering services",
     "inLanguage": "en",
     "publisher": {
       "@type": "Organization",
-      "@id": "https://learnedlate.com/#organization"
+      "@id": "https://www.learnedlate.com/#organization"
     }
   },
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "@id": "https://learnedlate.com/#organization",
+    "@id": "https://www.learnedlate.com/#organization",
     "name": "LearnedLate",
-    "url": "https://learnedlate.com",
+    "url": "https://www.learnedlate.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://learnedlate.com/learndlate.png"
+      "url": "https://www.learnedlate.com/learndlate.png"
     },
     "description": "AI strategy, implementation, and engineering services",
     "serviceType": [

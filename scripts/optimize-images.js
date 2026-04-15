@@ -20,8 +20,31 @@ const IMAGE_CONFIGS = {
     width: 200,  // Logo is displayed at max 40px (h-10), 200px is plenty for retina
     format: 'png',
     options: { compressionLevel: 9, adaptiveFiltering: true }
+  },
+  'hero.png': {
+    width: 1200,
+    format: 'webp',
+    output: 'hero.webp',
+    options: { quality: 85, effort: 6 }
+  },
+  'strategy.png': {
+    width: 1200,
+    format: 'webp',
+    output: 'strategy.webp',
+    options: { quality: 85, effort: 6 }
+  },
+  'implementation.png': {
+    width: 1200,
+    format: 'webp',
+    output: 'implementation.webp',
+    options: { quality: 85, effort: 6 }
+  },
+  'engineering.png': {
+    width: 1200,
+    format: 'webp',
+    output: 'engineering.webp',
+    options: { quality: 85, effort: 6 }
   }
-  // Add more images here as needed
 };
 
 async function optimizeImage(filename) {
@@ -32,6 +55,8 @@ async function optimizeImage(filename) {
   }
 
   const inputPath = path.join(ROOT_DIR, 'public', filename);
+  const outputFilename = config.output || filename;
+  const outputPath = path.join(ROOT_DIR, 'public', outputFilename);
   const backupPath = path.join(ROOT_DIR, 'public', `${filename}.backup`);
   
   try {
@@ -66,19 +91,19 @@ async function optimizeImage(filename) {
     }
     
     // Save optimized version
-    const tempPath = `${inputPath}.tmp`;
+    const tempPath = `${outputPath}.tmp`;
     await pipeline.toFile(tempPath);
     
-    // Replace original with optimized
-    await fs.rename(tempPath, inputPath);
+    // Move to final output path
+    await fs.rename(tempPath, outputPath);
     
     // Get new stats
-    const newStat = await fs.stat(inputPath);
+    const newStat = await fs.stat(outputPath);
     const newSize = newStat.size;
     const savings = originalSize - newSize;
     const savingsPercent = ((savings / originalSize) * 100).toFixed(1);
     
-    console.log(`✅ ${filename}`);
+    console.log(`✅ ${filename} → ${outputFilename}`);
     console.log(`   Original: ${(originalSize / 1024).toFixed(1)}KB`);
     console.log(`   Optimized: ${(newSize / 1024).toFixed(1)}KB`);
     console.log(`   Saved: ${(savings / 1024).toFixed(1)}KB (${savingsPercent}%)`);

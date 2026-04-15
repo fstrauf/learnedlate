@@ -40,6 +40,71 @@
       "source": "/blog/crm_software_nz_blog_post/",
       "destination": "/blog/crm-software-nz-guide-2025",
       "permanent": true
+    },
+    {
+      "source": "/blog/building-complex-apps-with-ai",
+      "destination": "/blog/2025-01-15-building-complex-apps-with-ai",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cloud_migration_checklist_for_small_businesses_2025_nz_edition",
+      "destination": "/blog/cloud-migration-checklist-small-business-2025-nz",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ai-strategy-small-business-90-day-action-plan",
+      "destination": "/blog/2025-06-22-ai-strategy-small-business-90-day-action-plan",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-fractional-cto-complete-guide",
+      "destination": "/blog/2025-06-22-what-is-fractional-cto-complete-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/why-custom-software-projects-fail",
+      "destination": "/blog/2025-01-28-why-custom-software-projects-fail",
+      "permanent": true
+    },
+    {
+      "source": "/blog/acting-and-iterating-on-ideas",
+      "destination": "/blog/2025-07-08-acting-and-iterating-on-ideas",
+      "permanent": true
+    },
+    {
+      "source": "/blog/nz-startups-fractional-cto-guide",
+      "destination": "/blog/2025-06-22-nz-startups-fractional-cto-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/technical-due-diligence-checklist-cto-guide",
+      "destination": "/blog/2025-06-22-technical-due-diligence-checklist-cto-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide_2026",
+      "destination": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/the-ai-feasibility-sprint-de-risk-custom-software",
+      "destination": "/blog/ai-feasibility-sprint",
+      "permanent": true
+    },
+    {
+      "source": "/blog/technical_co_founder_vs_fractional_cto_which_is_right_for_your_startup_2026",
+      "destination": "/blog/technical_co_founder_vs_fractional_cto_which_is_right_for_your_startup",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ai-for-small-business",
+      "destination": "/blog/ai_for_small_business",
+      "permanent": true
+    },
+    {
+      "source": "/blog/090_ai_automation",
+      "destination": "/blog/ai-automation",
+      "permanent": true
     }
   ],
   "rewrites": [

@@ -38,3 +38,10 @@ dist-ssr
 # Compiled API files
 api/*.js
 api/*.js.map
+
+# PageSeeds automation - generated artifacts
+.github/automation/artifacts/
+.github/automation/task_results/
+
+# Image optimization backups
+public/*.backup

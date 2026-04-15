@@ -50,10 +50,10 @@
           </h2>
           <p class="mb-6 text-gray-300">
             You can also reach us directly at 
-            <a href="mailto:hello@learnedlate.com" class="text-amber-300 hover:text-amber-200 hover:underline">hello@learnedlate.com</a>
+            <a href="mailto:hello@learnedlate.com" data-cfemail="" class="text-amber-300 hover:text-amber-200 hover:underline">hello@learnedlate.com</a>
           </p>
           <Button as-child variant="outline" class="border-white bg-transparent text-white hover:bg-white hover:text-gray-900">
-            <a href="mailto:hello@learnedlate.com">
+            <a href="mailto:hello@learnedlate.com" data-cfemail="">
               <Mail class="mr-2 h-4 w-4" />
               Send an Email
             </a>

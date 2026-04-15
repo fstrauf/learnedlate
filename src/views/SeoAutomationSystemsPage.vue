@@ -259,7 +259,7 @@ const seoSchema = [
     "description": "Build SEO automation systems that use your existing content, Google Search Console data, and AI workflows to grow organic traffic.",
     "provider": {
       "@type": "Person",
-      "@id": "https://learnedlate.com/#person"
+      "@id": "https://www.learnedlate.com/#person"
     },
     "areaServed": {
       "@type": "Country",

@@ -68,7 +68,7 @@
             </div>
           </div>
           <div class="mt-6 bg-gray-50 border border-gray-200 rounded-xl p-5">
-            <p class="text-gray-700 text-sm">Our approach combines <a href="/fractional-cto-services" class="text-blue-600 hover:underline">fractional CTO expertise</a> with AI-accelerated development to deliver MVPs that validate your business model fast. Learn more about <a href="/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/" class="text-blue-600 hover:underline">building your first MVP</a> or explore our detailed <a href="/blog/8-week-mvp-development-guide/" class="text-blue-600 hover:underline">8-week development framework</a>.</p>
+            <p class="text-gray-700 text-sm">Our approach combines <a href="/fractional-cto-services" class="text-blue-600 hover:underline">fractional CTO expertise</a> with AI-accelerated development to deliver MVPs that validate your business model fast. Learn more about <a href="/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide" class="text-blue-600 hover:underline">building your first MVP</a> or explore our detailed <a href="/blog/8-week-mvp-development-guide" class="text-blue-600 hover:underline">8-week development framework</a>.</p>
           </div>
         </div>
       </div>
@@ -161,7 +161,7 @@
             </div>
           </div>
           <div class="mt-6 text-center">
-            <p class="text-gray-600 text-sm">See more examples in our <a href="/projects" class="text-blue-600 hover:underline">project portfolio</a> or read our guide on <a href="/blog/mvp_development_cost_for_saas_startups_2026_budget_guide_with_real_examples/" class="text-blue-600 hover:underline">MVP development costs for SaaS startups</a>.</p>
+            <p class="text-gray-600 text-sm">See more examples in our <a href="/projects" class="text-blue-600 hover:underline">project portfolio</a> or read our guide on <a href="/blog/mvp_development_cost_for_saas_startups_2026_budget_guide_with_real_examples" class="text-blue-600 hover:underline">MVP development costs for SaaS startups</a>.</p>
           </div>
         </div>
       </div>
@@ -232,7 +232,7 @@
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             <div class="border border-gray-200 rounded-xl p-5"><h3 class="font-medium text-gray-900">AI‑Powered, Human‑Guided</h3><p class="text-gray-700 text-sm mt-2">AI handles repetitive coding; senior engineers ensure architecture, security, and scalability. Learn about our <a href="/custom-ai-development" class="text-blue-600 hover:underline">AI development approach</a>.</p></div>
             <div class="border border-gray-200 rounded-xl p-5"><h3 class="font-medium text-gray-900">Revenue‑First Features</h3><p class="text-gray-700 text-sm mt-2">We only build features that drive acquisition, retention, or monetization. No vanity features.</p></div>
-            <div class="border border-gray-200 rounded-xl p-5"><h3 class="font-medium text-gray-900">Mobile‑First Always</h3><p class="text-gray-700 text-sm mt-2">Designed for mobile from day one, not as an afterthought. Read our comparison of <a href="/blog/mobile_app_vs_web_app_which_should_your_startup_build_first/" class="text-blue-600 hover:underline">mobile vs web apps for startups</a>.</p></div>
+            <div class="border border-gray-200 rounded-xl p-5"><h3 class="font-medium text-gray-900">Mobile‑First Always</h3><p class="text-gray-700 text-sm mt-2">Designed for mobile from day one, not as an afterthought. Read our comparison of <a href="/blog/mobile_app_vs_web_app_which_should_your_startup_build_first" class="text-blue-600 hover:underline">mobile vs web apps for startups</a>.</p></div>
             <div class="border border-gray-200 rounded-xl p-5"><h3 class="font-medium text-gray-900">Launch‑Ready Infrastructure</h3><p class="text-gray-700 text-sm mt-2">Automated deployments, monitoring, backups, and scaling built‑in from day one.</p></div>
           </div>
         </div>
@@ -247,11 +247,11 @@
           <div class="space-y-3">
             <details class="bg-white border border-gray-200 rounded-xl p-4">
               <summary class="cursor-pointer font-medium text-gray-900">How is AI development different from regular development?</summary>
-              <p class="text-gray-700 mt-2">AI handles repetitive coding tasks—boilerplate, tests, CRUD—so we focus on architecture, UX, and business logic. Same quality, 3x faster. Read more about <a href="/blog/building-complex-apps-with-ai/" class="text-blue-600 hover:underline">building complex apps with AI</a>.</p>
+              <p class="text-gray-700 mt-2">AI handles repetitive coding tasks—boilerplate, tests, CRUD—so we focus on architecture, UX, and business logic. Same quality, 3x faster. Read more about <a href="/blog/2025-01-15-building-complex-apps-with-ai" class="text-blue-600 hover:underline">building complex apps with AI</a>.</p>
             </details>
             <details class="bg-white border border-gray-200 rounded-xl p-4">
               <summary class="cursor-pointer font-medium text-gray-900">Will I own the code and IP?</summary>
-              <p class="text-gray-700 mt-2">Yes, 100%. You own all code, designs, and IP. Full GitHub access from day one. We also provide documentation to help you understand the <a href="/blog/how_to_choose_your_tech_stack_a_non_technical_founders_decision_framework/" class="text-blue-600 hover:underline">tech stack choices</a> we make.</p>
+              <p class="text-gray-700 mt-2">Yes, 100%. You own all code, designs, and IP. Full GitHub access from day one. We also provide documentation to help you understand the <a href="/blog/how_to_choose_your_tech_stack_a_non_technical_founders_decision_framework" class="text-blue-600 hover:underline">tech stack choices</a> we make.</p>
             </details>
             <details class="bg-white border border-gray-200 rounded-xl p-4">
               <summary class="cursor-pointer font-medium text-gray-900">What if I need changes after launch?</summary>
@@ -259,11 +259,11 @@
             </details>
             <details class="bg-white border border-gray-200 rounded-xl p-4">
               <summary class="cursor-pointer font-medium text-gray-900">Can you work with my existing technical team?</summary>
-              <p class="text-gray-700 mt-2">Absolutely. We collaborate with in‑house teams for architecture, reviews, and modules while they focus on core business logic. See our guide on <a href="/blog/when_to_hire_your_first_cto_a_startup_founders_timing_guide/" class="text-blue-600 hover:underline">when to hire your first CTO</a>.</p>
+              <p class="text-gray-700 mt-2">Absolutely. We collaborate with in‑house teams for architecture, reviews, and modules while they focus on core business logic. See our guide on <a href="/blog/when_to_hire_your_first_cto_a_startup_founders_timing_guide" class="text-blue-600 hover:underline">when to hire your first CTO</a>.</p>
             </details>
             <details class="bg-white border border-gray-200 rounded-xl p-4">
               <summary class="cursor-pointer font-medium text-gray-900">What tech stack do you use?</summary>
-              <p class="text-gray-700 mt-2">Typically Next.js + TypeScript, React Native for mobile, Node.js or Python backend, PostgreSQL, and AWS/Vercel deployment. We choose based on your specific needs—read our <a href="/blog/how_to_choose_your_tech_stack_a_non_technical_founders_decision_framework/" class="text-blue-600 hover:underline">tech stack decision framework</a> to learn more.</p>
+              <p class="text-gray-700 mt-2">Typically Next.js + TypeScript, React Native for mobile, Node.js or Python backend, PostgreSQL, and AWS/Vercel deployment. We choose based on your specific needs—read our <a href="/blog/how_to_choose_your_tech_stack_a_non_technical_founders_decision_framework" class="text-blue-600 hover:underline">tech stack decision framework</a> to learn more.</p>
             </details>
           </div>
         </div>

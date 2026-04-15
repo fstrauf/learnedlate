@@ -16,7 +16,7 @@
       <!-- Background implementation image -->
       <div class="pointer-events-none absolute inset-0 opacity-[0.15]">
         <img 
-          src="/implementation.png" 
+          src="/implementation.webp" 
           alt=""
           class="h-full w-full object-cover"
         />

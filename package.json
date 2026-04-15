@@ -7,7 +7,7 @@
     "dev": "vite",
     "dev:api": "npx vercel dev --yes --listen 3060",
     "dev:stack": "concurrently \"pnpm dev\" \"pnpm dev:api\"",
-    "build": "node scripts/sync-article-meta.js && node scripts/generate-sitemap.js && node scripts/optimize-images.js && vue-tsc -b && pnpm run build:client && pnpm run build:server && pnpm run prerender && pnpm run build:api",
+    "build": "node scripts/sync-article-meta.js && node scripts/verify-links.js && node scripts/generate-sitemap.js && node scripts/optimize-images.js && vue-tsc -b && pnpm run build:client && pnpm run build:server && pnpm run prerender && pnpm run build:api",
     "build:api": "node scripts/build-api.js",
     "prebuild": "node scripts/generate-sitemap.js",
     "build:client": "vite build --outDir dist/client",
@@ -17,6 +17,7 @@
     "cv:pdf": "node scripts/cv-to-pdf.mjs",
     "checklist:pdf": "node scripts/checklist-to-pdf.mjs",
     "verify-prerender": "node scripts/verify-prerender.js",
+    "verify-links": "node scripts/verify-links.js",
     "preview": "vite preview",
     "type-check": "vue-tsc --noEmit",
     "setup-hooks": "bash scripts/setup-hooks.sh"

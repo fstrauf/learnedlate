@@ -277,12 +277,12 @@ const servicesSchema = [
   {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": "https://learnedlate.com/services/#service",
+    "@id": "https://www.learnedlate.com/services/#service",
     "serviceType": "AI Consulting",
     "provider": {
       "@type": "Organization",
       "name": "LearnedLate",
-      "url": "https://learnedlate.com"
+      "url": "https://www.learnedlate.com"
     },
     "areaServed": [
       {

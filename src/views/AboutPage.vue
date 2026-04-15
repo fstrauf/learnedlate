@@ -105,25 +105,25 @@ const aboutSchema = [
   {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    "@id": "https://learnedlate.com/about/#webpage",
-    "url": "https://learnedlate.com/about",
+    "@id": "https://www.learnedlate.com/about/#webpage",
+    "url": "https://www.learnedlate.com/about",
     "name": "About – LearnedLate | AI Strategy, Implementation & Engineering",
     "description": "We help teams turn AI from buzzword into business results.",
     "inLanguage": "en",
     "isPartOf": {
       "@type": "WebSite",
-      "@id": "https://learnedlate.com/#website"
+      "@id": "https://www.learnedlate.com/#website"
     }
   },
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "@id": "https://learnedlate.com/#organization",
+    "@id": "https://www.learnedlate.com/#organization",
     "name": "LearnedLate",
-    "url": "https://learnedlate.com",
+    "url": "https://www.learnedlate.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://learnedlate.com/learndlate.png"
+      "url": "https://www.learnedlate.com/learndlate.png"
     },
     "description": "AI strategy, implementation, and engineering services",
     "serviceType": [

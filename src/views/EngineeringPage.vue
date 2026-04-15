@@ -16,7 +16,7 @@
       <!-- Background engineering image -->
       <div class="pointer-events-none absolute inset-0 opacity-[0.15]">
         <img 
-          src="/engineering.png" 
+          src="/engineering.webp" 
           alt=""
           class="h-full w-full object-cover"
         />

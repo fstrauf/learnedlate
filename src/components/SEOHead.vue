@@ -39,26 +39,26 @@ const fullTitle = computed(() => props.title)
 const canonicalUrl = computed(() => {
   // If URL prop is provided, use it
   if (props.url) {
-    const url = props.url.startsWith('http') ? props.url : `https://learnedlate.com${props.url}`
+    const url = props.url.startsWith('http') ? props.url : `https://www.learnedlate.com${props.url}`
     // Remove trailing slash (except for root path)
-    return url.replace(/\/$/, '') || 'https://learnedlate.com'
+    return url.replace(/\/$/, '') || 'https://www.learnedlate.com'
   }
   // Otherwise, use the current route path
   // Remove trailing slash to match router paths (e.g., /projects instead of /projects/)
   const path = route.path.replace(/\/$/, '') || '/'
-  return `https://learnedlate.com${path}`
+  return `https://www.learnedlate.com${path}`
 })
 
 // Base organization schema
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "@id": "https://learnedlate.com/#organization",
+  "@id": "https://www.learnedlate.com/#organization",
   "name": "LearnedLate",
-  "url": "https://learnedlate.com",
+  "url": "https://www.learnedlate.com",
   "logo": {
     "@type": "ImageObject",
-    "url": "https://learnedlate.com/learndlate.png"
+    "url": "https://www.learnedlate.com/learndlate.png"
   },
   "description": "AI readiness, workflow automation, and delivery support for New Zealand and Australian mid-market businesses",
   "areaServed": [

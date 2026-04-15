@@ -69,17 +69,17 @@
             <h3 class="font-medium text-gray-900 mb-3">Related Reading</h3>
             <ul class="space-y-2 text-sm">
               <li>
-                <a href="/blog/what-does-a-fractional-cto-do-exactly-roles-responsibilities-deliverables" class="text-blue-600 hover:text-blue-800 hover:underline">
+                <a href="/blog/what_does_a_fractional_cto_do_exactly_roles_responsibilities_deliverables" class="text-blue-600 hover:text-blue-800 hover:underline">
                   What Does a Fractional CTO Do? Roles, Responsibilities & Deliverables
                 </a>
               </li>
               <li>
-                <a href="/blog/how-much-does-a-fractional-cto-cost-in-2025-complete-pricing-guide" class="text-blue-600 hover:text-blue-800 hover:underline">
+                <a href="/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide" class="text-blue-600 hover:text-blue-800 hover:underline">
                   Fractional CTO Costs in 2025: Complete Pricing Guide
                 </a>
               </li>
               <li>
-                <a href="/blog/technical-co-founder-vs-fractional-cto-which-is-right-for-your-startup-2026" class="text-blue-600 hover:text-blue-800 hover:underline">
+                <a href="/blog/technical_co_founder_vs_fractional_cto_which_is_right_for_your_startup" class="text-blue-600 hover:text-blue-800 hover:underline">
                   Technical Co-Founder vs Fractional CTO: Which Is Right for Your Startup?
                 </a>
               </li>
@@ -125,7 +125,7 @@
               technical due diligence, scaling your engineering team beyond 5 developers, or facing critical 
               architecture decisions that will impact your product for years.
             </p>
-            <a href="/blog/when-to-hire-your-first-cto-a-startup-founders-timing-guide" class="text-blue-600 hover:text-blue-800 text-sm hover:underline">
+            <a href="/blog/when_to_hire_your_first_cto_a_startup_founders_timing_guide" class="text-blue-600 hover:text-blue-800 text-sm hover:underline">
               Read: When to Hire Your First CTO — A Startup Founder's Timing Guide →
             </a>
           </div>
@@ -194,12 +194,12 @@
             <p>Not sure if a fractional CTO is right for you? Consider these alternatives:</p>
             <ul class="mt-2 space-y-1 list-disc list-inside">
               <li>
-                <a href="/blog/interim-cto-vs-fractional-cto-which-one-does-your-startup-need" class="text-blue-600 hover:text-blue-800 hover:underline">
+                <a href="/blog/interim_cto_vs_fractional_cto_which_one_does_your_startup_need" class="text-blue-600 hover:text-blue-800 hover:underline">
                   Interim CTO vs Fractional CTO: Which One Does Your Startup Need?
                 </a>
               </li>
               <li>
-                <a href="/blog/technical-co-founder-vs-fractional-cto-which-is-right-for-your-startup-2026" class="text-blue-600 hover:text-blue-800 hover:underline">
+                <a href="/blog/technical_co_founder_vs_fractional_cto_which_is_right_for_your_startup" class="text-blue-600 hover:text-blue-800 hover:underline">
                   Technical Co-Founder vs Fractional CTO
                 </a>
               </li>
@@ -261,11 +261,11 @@
           <div class="mt-6 p-4 bg-blue-50 rounded-lg border border-blue-100 text-sm">
             <p class="text-gray-700">
               <strong>New Zealand Pricing:</strong> These rates reflect the local NZ market. 
-              <a href="/blog/fractional-cto-costs-in-new-zealand-2025-pricing-guide-for-nz-startups" class="text-blue-600 hover:text-blue-800 hover:underline">
+              <a href="/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide" class="text-blue-600 hover:text-blue-800 hover:underline">
                 See our complete NZ pricing guide
               </a> 
               or 
-              <a href="/blog/part-time-cto-hourly-rates-in-new-zealand-2026-market-guide-for-startups" class="text-blue-600 hover:text-blue-800 hover:underline">
+              <a href="/blog/part-time-cto-hourly-rates-nz-2026-guide" class="text-blue-600 hover:text-blue-800 hover:underline">
                 compare part-time CTO hourly rates
               </a>.
             </p>
@@ -335,16 +335,16 @@
           <div class="mt-8 p-6 bg-white rounded-xl border border-gray-200">
             <h3 class="font-medium text-gray-900 mb-3">More Resources on Fractional CTOs</h3>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
-              <a href="/blog/fractional-cto-for-saas-startups-scaling-your-platform-without-the-full-time-price-tag" class="text-blue-600 hover:text-blue-800 hover:underline">
+              <a href="/blog/fractional_cto_for_saas_startups_scaling_your_platform_without_the_full_time_price_tag" class="text-blue-600 hover:text-blue-800 hover:underline">
                 Fractional CTO for SaaS Startups
               </a>
-              <a href="/blog/fractional-cto-for-healthcare-startups-compliance-tech-stack-growth-strategy-2026" class="text-blue-600 hover:text-blue-800 hover:underline">
+              <a href="/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy" class="text-blue-600 hover:text-blue-800 hover:underline">
                 Fractional CTO for Healthcare Startups
               </a>
-              <a href="/blog/how-to-hire-developers-for-your-startup-a-non-technical-founders-complete-guide-2026" class="text-blue-600 hover:text-blue-800 hover:underline">
+              <a href="/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide" class="text-blue-600 hover:text-blue-800 hover:underline">
                 How to Hire Developers (Non-Technical Founder's Guide)
               </a>
-              <a href="/blog/how-to-choose-your-tech-stack-a-non-technical-founders-decision-framework" class="text-blue-600 hover:text-blue-800 hover:underline">
+              <a href="/blog/how_to_choose_your_tech_stack_a_non_technical_founders_decision_framework" class="text-blue-600 hover:text-blue-800 hover:underline">
                 How to Choose Your Tech Stack
               </a>
             </div>

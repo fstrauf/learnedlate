@@ -55,13 +55,13 @@ For larger or more complex AI programs, LearnedLate stays involved from planning
 
 ## Resources
 
-- [Blog](https://learnedlate.com/blog/): Insights on AI adoption in ANZ
-- [AI Readiness Checklist](https://learnedlate.com/ai-readiness-checklist/): 15 questions every board should ask
-- [Case Studies](https://learnedlate.com/case-studies/): Real-world implementation results
+- [Blog](https://www.learnedlate.com/blog/): Insights on AI adoption in ANZ
+- [AI Readiness Checklist](https://www.learnedlate.com/ai-readiness-checklist/): 15 questions every board should ask
+- [Case Studies](https://www.learnedlate.com/case-studies/): Real-world implementation results
 
 ## Contact
 
-- **Book an AI Readiness Assessment:** https://learnedlate.com/contact/
+- **Book an AI Readiness Assessment:** https://www.learnedlate.com/contact/
 - **Email:** hello@learnedlate.com
 - **Location:** New Zealand & Australia
 - **Twitter:** https://x.com/learnedlate
@@ -76,14 +76,14 @@ For larger or more complex AI programs, LearnedLate stays involved from planning
 
 ## Sitemap
 
-- [Home](https://learnedlate.com/)
-- [Services](https://learnedlate.com/services/)
-- [AI Readiness Assessment](https://learnedlate.com/services/ai-readiness/)
-- [Agentic Workflows](https://learnedlate.com/services/agentic-workflows/)
-- [Custom AI Development](https://learnedlate.com/services/custom-ai-development/)
-- [Full-Stack Delivery](https://learnedlate.com/services/full-stack-delivery/)
-- [About](https://learnedlate.com/about/)
-- [Contact](https://learnedlate.com/contact/)
-- [Blog](https://learnedlate.com/blog/)
-- [Case Studies](https://learnedlate.com/case-studies/)
-- [Sitemap XML](https://learnedlate.com/sitemap.xml)
+- [Home](https://www.learnedlate.com/)
+- [Services](https://www.learnedlate.com/services/)
+- [AI Readiness Assessment](https://www.learnedlate.com/services/ai-readiness/)
+- [Agentic Workflows](https://www.learnedlate.com/services/agentic-workflows/)
+- [Custom AI Development](https://www.learnedlate.com/services/custom-ai-development/)
+- [Full-Stack Delivery](https://www.learnedlate.com/services/full-stack-delivery/)
+- [About](https://www.learnedlate.com/about/)
+- [Contact](https://www.learnedlate.com/contact/)
+- [Blog](https://www.learnedlate.com/blog/)
+- [Case Studies](https://www.learnedlate.com/case-studies/)
+- [Sitemap XML](https://www.learnedlate.com/sitemap.xml)

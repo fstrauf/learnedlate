@@ -16,7 +16,7 @@
       <!-- Background strategy image -->
       <div class="pointer-events-none absolute inset-0 opacity-[0.15]">
         <img 
-          src="/strategy.png" 
+          src="/strategy.webp" 
           alt=""
           class="h-full w-full object-cover"
         />

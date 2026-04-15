@@ -45,7 +45,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     const fromEmail = process.env.CONTACT_FROM_EMAIL || 'florian@main.learnedlate.com'
     const toEmail = process.env.CONTACT_TO_EMAIL || 'florian@learnedlate.com'
-    const siteUrl = process.env.SITE_URL || 'https://learnedlate.com'
+    const siteUrl = process.env.SITE_URL || 'https://www.learnedlate.com'
 
     // Determine download URL based on magnet
     let downloadUrl = `${siteUrl}/ai-readiness-checklist.pdf`

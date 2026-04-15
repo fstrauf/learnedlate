@@ -265,46 +265,46 @@ const blogSchema = [
   {
     "@context": "https://schema.org",
     "@type": "Blog",
-    "@id": "https://learnedlate.com/blog#blog",
-    "url": "https://learnedlate.com/blog",
+    "@id": "https://www.learnedlate.com/blog#blog",
+    "url": "https://www.learnedlate.com/blog",
     "name": "AI Strategy & Business Technology Blog",
     "description": "Practical guides on AI readiness assessment, workflow automation implementation, and technology strategy for New Zealand and Australian mid-market businesses",
     "publisher": {
       "@type": "Organization",
-      "@id": "https://learnedlate.com/#organization"
+      "@id": "https://www.learnedlate.com/#organization"
     },
     "inLanguage": "en-NZ",
     "blogPost": posts.value.map(post => ({
       "@type": "BlogPosting",
-      "@id": `https://learnedlate.com/blog/${post.slug}#article`,
+      "@id": `https://www.learnedlate.com/blog/${post.slug}#article`,
       "headline": post.title,
       "description": post.excerpt,
-      "url": `https://learnedlate.com/blog/${post.slug}`,
+      "url": `https://www.learnedlate.com/blog/${post.slug}`,
       "datePublished": post.publishDate,
       "author": {
         "@type": "Person",
-        "@id": "https://learnedlate.com/#person"
+        "@id": "https://www.learnedlate.com/#person"
       },
       "publisher": {
         "@type": "Organization",
-        "@id": "https://learnedlate.com/#organization"
+        "@id": "https://www.learnedlate.com/#organization"
       }
     }))
   },
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://learnedlate.com/blog#webpage",
-    "url": "https://learnedlate.com/blog",
+    "@id": "https://www.learnedlate.com/blog#webpage",
+    "url": "https://www.learnedlate.com/blog",
     "name": "AI Strategy & Business Technology Blog",
     "description": "Practical guides on AI readiness assessment, workflow automation implementation, and technology strategy for New Zealand and Australian mid-market businesses",
     "isPartOf": {
       "@type": "WebSite",
-      "@id": "https://learnedlate.com/#website"
+      "@id": "https://www.learnedlate.com/#website"
     },
     "about": {
       "@type": "Organization",
-      "@id": "https://learnedlate.com/#organization"
+      "@id": "https://www.learnedlate.com/#organization"
     }
   }
 ]
