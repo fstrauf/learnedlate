@@ -180,6 +180,19 @@
       </div>
     </section>
 
+    <!-- Related SAP Service -->
+    <section class="py-12 sm:py-16 bg-white border-t border-gray-100">
+      <div class="container mx-auto px-4">
+        <div class="max-w-3xl mx-auto text-center">
+          <h2 class="text-xl sm:text-2xl font-light text-gray-900 mb-3">Need Development, Not Architecture?</h2>
+          <p class="text-gray-600 mb-6">If you're past the planning phase and need ABAP, Fiori, or BTP development, see the custom development offering.</p>
+          <Button as-child size="lg" variant="outline">
+            <router-link to="/sap-custom-development">SAP Custom Development</router-link>
+          </Button>
+        </div>
+      </div>
+    </section>
+
     <!-- CTA Section -->
     <section class="py-12 sm:py-16 bg-gray-50">
       <div class="container mx-auto px-4">

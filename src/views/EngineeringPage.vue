@@ -171,6 +171,30 @@
       </div>
     </section>
 
+    <!-- Related Services -->
+    <section class="relative isolate overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 sm:py-20">
+      <div class="container relative mx-auto px-4 lg:px-6">
+        <div class="mx-auto max-w-5xl">
+          <div class="mb-10 text-center">
+            <p class="mb-4 text-xs uppercase tracking-[0.2em] text-amber-200">Also available</p>
+            <h2 class="mb-4 text-2xl font-light text-white sm:text-3xl">
+              Related <span class="text-amber-200">services</span>.
+            </h2>
+          </div>
+          <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+            <router-link to="/mvp-development" class="group rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur transition-colors hover:bg-white/10">
+              <h3 class="mb-2 text-lg font-medium text-white group-hover:text-amber-200 transition-colors">MVP Development</h3>
+              <p class="text-sm text-gray-300">AI-accelerated prototyping and build for startups that need to move fast.</p>
+            </router-link>
+            <router-link to="/sap-custom-development" class="group rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur transition-colors hover:bg-white/10">
+              <h3 class="mb-2 text-lg font-medium text-white group-hover:text-amber-200 transition-colors">SAP Custom Development</h3>
+              <p class="text-sm text-gray-300">ABAP, Fiori, and BTP extensions for teams running on SAP.</p>
+            </router-link>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- CTA Section -->
     <section class="relative isolate overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 sm:py-24">
       <div class="pointer-events-none absolute -left-20 -top-10 h-72 w-72 rounded-full bg-amber-500/20 blur-3xl" />

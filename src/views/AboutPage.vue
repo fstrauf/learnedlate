@@ -69,6 +69,7 @@
             <div class="flex gap-4">
               <a href="https://x.com/learnedlate" target="_blank" rel="noopener noreferrer" class="text-sm text-amber-300 hover:text-amber-200">Twitter</a>
               <a href="https://blog.learnedlate.com" target="_blank" rel="noopener noreferrer" class="text-sm text-amber-300 hover:text-amber-200">Blog</a>
+              <router-link to="/now" class="text-sm text-amber-300 hover:text-amber-200">Now</router-link>
             </div>
           </div>
         </div>

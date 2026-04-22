@@ -188,6 +188,19 @@
       </div>
     </section>
 
+    <!-- Related SAP Service -->
+    <section class="py-12 sm:py-16 bg-gray-50 border-t border-gray-100">
+      <div class="container mx-auto px-4">
+        <div class="max-w-3xl mx-auto text-center">
+          <h2 class="text-xl sm:text-2xl font-light text-gray-900 mb-3">Need Architecture First?</h2>
+          <p class="text-gray-600 mb-6">If you're planning an S/4HANA migration or need integration strategy before development starts, see the solution architecture offering.</p>
+          <Button as-child size="lg" variant="outline">
+            <router-link to="/sap-solution-architecture">SAP Solution Architecture</router-link>
+          </Button>
+        </div>
+      </div>
+    </section>
+
     <!-- CTA -->
     <section class="py-12 sm:py-16 bg-white">
       <div class="container mx-auto px-4">

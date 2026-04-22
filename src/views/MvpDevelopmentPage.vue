@@ -270,6 +270,17 @@
       </div>
     </section>
 
+    <!-- Related Service -->
+    <section class="py-12 sm:py-16 bg-gray-50 border-t border-gray-100">
+      <div class="container mx-auto px-4">
+        <div class="max-w-3xl mx-auto text-center">
+          <h2 class="text-xl sm:text-2xl font-light text-gray-900 mb-3">Beyond the MVP</h2>
+          <p class="text-gray-600 mb-6">If you need ongoing custom engineering, AI integrations, or full-stack application development, see our engineering services.</p>
+          <a href="/services/engineering" class="inline-block bg-gray-900 text-white px-6 py-3 rounded-md font-medium hover:bg-gray-800">Engineering Services</a>
+        </div>
+      </div>
+    </section>
+
     <!-- Final CTA -->
     <section class="py-12 sm:py-16 bg-white">
       <div class="container mx-auto px-4">

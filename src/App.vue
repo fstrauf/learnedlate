@@ -106,6 +106,7 @@
             <nav class="flex flex-col gap-1 text-sm">
               <router-link to="/" class="text-gray-300 hover:text-amber-300 transition-colors">Home</router-link>
               <router-link to="/about" class="text-gray-300 hover:text-amber-300 transition-colors">About</router-link>
+              <router-link to="/now" class="text-gray-300 hover:text-amber-300 transition-colors">Now</router-link>
               <router-link to="/contact" class="text-gray-300 hover:text-amber-300 transition-colors">Contact</router-link>
               <a href="https://x.com/learnedlate" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-amber-300 transition-colors">Twitter</a>
             </nav>
