@@ -85,8 +85,26 @@ async function prerender() {
 
         // Inject the app HTML and head tags into the template
         let html = template
-          .replace('<!--app-html-->', appHtml)
-          .replace('<!--preload-links-->', preloadLinks)
+
+        // Replace the <div id="app">...</div> block with SSR-rendered appHtml
+        // The client build template contains the home page content; we replace it entirely
+        const appStart = html.indexOf('<div id="app">')
+        const noscriptStart = html.indexOf('<noscript>')
+        if (appStart !== -1 && noscriptStart !== -1) {
+          html = html.substring(0, appStart) + appHtml + html.substring(noscriptStart)
+        } else if (appStart !== -1) {
+          // Fallback: replace from <div id="app"> to the closing </div> before </body>
+          const bodyEnd = html.lastIndexOf('</body>')
+          const appEnd = html.lastIndexOf('</div>', bodyEnd)
+          if (appEnd !== -1) {
+            html = html.substring(0, appStart) + appHtml + html.substring(appEnd + 6)
+          }
+        }
+
+        // Inject preload links before </head>
+        if (preloadLinks) {
+          html = html.replace('</head>', `${preloadLinks}</head>`)
+        }
 
         // Inject head tags - replace existing SEO tags with SSR-rendered ones
         if (headPayload.headTags) {

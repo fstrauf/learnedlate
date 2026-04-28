@@ -1,112 +1,111 @@
+import matter from 'gray-matter'
 import articlesData from '../../articles.json'
-import type { BlogPost, FAQItem } from './types'
-export type { BlogPost, FAQItem }
+import type { BlogPost, FAQItem, HowToData, Citation } from './types'
+export type { BlogPost, FAQItem, HowToData, Citation }
 
 // Dynamically import all markdown files (client-side only)
-// This won't work during SSR, but that's OK - we load content client-side
 let postModules: Record<string, string> | null = null
 
 function getPostModules(): Record<string, string> {
   if (postModules) return postModules
-  
-  // This only runs on client
-  if (typeof window !== 'undefined') {
-    // @ts-ignore - import.meta.glob is a Vite feature
-    const modules = import.meta.glob(['./posts/*.md', './posts/*.mdx'], { 
-      query: '?raw', 
-      import: 'default',
-      eager: true 
-    }) as Record<string, string>
-    postModules = modules
-    return modules
-  }
-  
-  return {}
+
+  // @ts-ignore - import.meta.glob is a Vite feature
+  const modules = import.meta.glob(['./posts/*.md', './posts/*.mdx'], {
+    query: '?raw',
+    import: 'default',
+    eager: true
+  }) as Record<string, string>
+  postModules = modules
+  return modules
 }
 
-// Parse frontmatter and content from markdown
-export function parseMarkdown(raw: string): { data: Record<string, any>, content: string } {
-  const lines = raw.split('\n')
-  const frontmatterEnd = lines.findIndex((line, index) => index > 0 && line.trim() === '---')
-  
-  if (frontmatterEnd === -1) {
-    return { data: {}, content: raw }
+// Parse frontmatter and content from markdown using gray-matter
+export function parseMarkdown(raw: string): { data: Record<string, any>; content: string } {
+  const parsed = matter(raw)
+  return { data: parsed.data, content: parsed.content }
+}
+
+// Merge a base BlogPost with frontmatter data and markdown content
+export function mergePostWithFrontmatter(
+  post: BlogPost,
+  data: Record<string, any>,
+  content: string
+): BlogPost {
+  const faqItems: FAQItem[] | undefined = data.frequentlyAskedQuestions || data.faq || undefined
+  const howTo: HowToData | undefined = data.howTo || undefined
+  const citations: Citation[] | undefined = data.citations || undefined
+
+  return {
+    ...post,
+    excerpt: data.summary || data.excerpt || post.excerpt || '',
+    description: data.description || post.metaDescription || '',
+    tags: data.tags || [],
+    category: data.category || post.category || 'General',
+    metaDescription:
+      data.metaDescription || data.summary || data.excerpt || data.description || post.metaDescription || '',
+    canonicalUrl: data.canonical || data.canonicalUrl || post.canonicalUrl,
+    modifiedDate: data.updated_date || data.lastModified || data.modifiedDate || post.modifiedDate,
+    lastModified: data.lastModified || data.updated_date || data.modifiedDate || post.modifiedDate,
+    ogImage: data.ogImage || data.image || post.ogImage,
+    image: data.image || data.ogImage || post.ogImage,
+    author: data.author || post.author,
+    readingTime: data.readingTime || post.readingTime,
+    content,
+    faqItems,
+    faq: faqItems,
+    howTo,
+    citations
   }
-
-  const frontmatterLines = lines.slice(1, frontmatterEnd)
-  const content = lines.slice(frontmatterEnd + 1).join('\n').trim()
-
-  const data: Record<string, any> = {}
-  
-  frontmatterLines.forEach(line => {
-    const [key, ...valueParts] = line.split(':')
-    if (key && valueParts.length > 0) {
-      let value = valueParts.join(':').trim()
-      
-      // Remove quotes if present
-      if ((value.startsWith('"') && value.endsWith('"')) || 
-          (value.startsWith("'") && value.endsWith("'"))) {
-        value = value.slice(1, -1)
-      }
-      
-      // Parse arrays
-      if (value.startsWith('[') && value.endsWith(']')) {
-        const arrayValue = value.slice(1, -1).split(',').map(item => 
-          item.trim().replace(/^["']|["']$/g, '')
-        )
-        data[key.trim()] = arrayValue
-      } else {
-        data[key.trim()] = value
-      }
-    }
-  })
-
-  return { data, content }
 }
 
 // Extract slug from file path
 function extractSlugFromPath(filePath: string): string {
   const base = filePath.split('/').pop()?.replace(/\.(md|mdx)$/i, '') || ''
-  
-  // Check for date prefix pattern (YYYY-MM-DD-slug)
+
+  // Remove date prefix (YYYY-MM-DD-slug)
   const dateMatch = base.match(/^\d{4}-\d{2}-\d{2}-(.+)$/)
   if (dateMatch) {
     return dateMatch[1]
   }
-  
+
+  // Remove numeric prefix (046_slug)
+  const numMatch = base.match(/^\d+_(.+)$/)
+  if (numMatch) {
+    return numMatch[1]
+  }
+
   return base
 }
 
 // Get published articles
-const publishedArticles = articlesData.articles.filter(a => a.status === 'published')
+const publishedArticles = articlesData.articles.filter((a: any) => a.status === 'published')
 
 // Create blog posts list (metadata only - content loaded separately)
 export const allBlogPosts: BlogPost[] = publishedArticles
-  .map(article => {
-    // Calculate reading time (average 200 words per minute)
+  .map((article: any) => {
     const readingTime = article.word_count ? Math.ceil(article.word_count / 200) : 5
-    
+
     return {
       title: article.title,
       slug: article.url_slug,
       excerpt: article.meta_description || article.excerpt || '',
       publishDate: article.published_date || '2025-01-01',
-      modifiedDate: (article as any).modified_date,
+      modifiedDate: article.modified_date,
       author: 'Florian Strauf',
-      tags: [], // Loaded with content
+      tags: [],
       category: 'General',
       metaDescription: article.meta_description || '',
       metaTitle: article.meta_title,
       ogImage: article.og_image,
       canonicalUrl: article.canonical_url,
-      content: '', // Loaded separately
+      content: '',
       readingTime
     }
   })
-  .sort((a, b) => new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime())
+  .sort((a: BlogPost, b: BlogPost) => new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime())
 
 // Create a lookup map for quick access
-const blogPostMap = new Map(allBlogPosts.map(p => [p.slug, p]))
+const blogPostMap = new Map(allBlogPosts.map((p: BlogPost) => [p.slug, p]))
 
 // Get blog post by slug (without content)
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
@@ -117,58 +116,45 @@ export function getBlogPostBySlug(slug: string): BlogPost | undefined {
 export function loadPostContent(slug: string): BlogPost | undefined {
   const post = getBlogPostBySlug(slug)
   if (!post) return undefined
-  
-  // Try to find the markdown file
+
   const modules = getPostModules()
-  const matchingPath = Object.keys(modules).find(path => {
+  const matchingPath = Object.keys(modules).find((path) => {
     const pathSlug = extractSlugFromPath(path)
     return pathSlug === slug
   })
-  
+
   if (matchingPath) {
     const raw = modules[matchingPath]
     const { data, content } = parseMarkdown(raw)
-    
-    // Parse FAQ items from frontmatter if present
-    const faqItems: FAQItem[] | undefined = data.frequentlyAskedQuestions || data.faq || undefined
-    
-    return {
-      ...post,
-      excerpt: data.summary || data.excerpt || '',
-      tags: data.tags || [],
-      category: data.category || 'General',
-      metaDescription: data.metaDescription || data.summary || data.excerpt || '',
-      content,
-      faqItems
-    }
+    return mergePostWithFrontmatter(post, data, content)
   }
-  
+
   return post
 }
 
 // Get posts by category
 export function getBlogPostsByCategory(category: string): BlogPost[] {
-  return allBlogPosts.filter(post => 
-    post.category.toLowerCase() === category.toLowerCase()
+  return allBlogPosts.filter(
+    (post: BlogPost) => post.category.toLowerCase() === category.toLowerCase()
   )
 }
 
 // Get posts by tag
 export function getBlogPostsByTag(tag: string): BlogPost[] {
-  return allBlogPosts.filter(post => 
-    post.tags.some(postTag => postTag.toLowerCase() === tag.toLowerCase())
+  return allBlogPosts.filter((post: BlogPost) =>
+    post.tags.some((postTag: string) => postTag.toLowerCase() === tag.toLowerCase())
   )
 }
 
 // Get all unique categories
 export function getAllCategories(): string[] {
-  const categories = allBlogPosts.map(post => post.category)
+  const categories = allBlogPosts.map((post: BlogPost) => post.category)
   return [...new Set(categories)].sort()
 }
 
 // Get all unique tags
 export function getAllTags(): string[] {
-  const tags = allBlogPosts.flatMap(post => post.tags)
+  const tags = allBlogPosts.flatMap((post: BlogPost) => post.tags)
   return [...new Set(tags)].sort()
 }
 

@@ -2,33 +2,41 @@
   <div class="blog-post-page">
     <!-- FAQ Schema for articles with frequentlyAskedQuestions frontmatter - injects JSON-LD structured data -->
     <FAQSchema v-if="post?.faqItems && post.faqItems.length > 0" :items="post.faqItems" />
-    
-    <SEOHead 
+
+    <!-- HowTo Schema for articles with howTo frontmatter - injects JSON-LD structured data -->
+    <HowToSchema
+      v-if="post?.howTo?.steps && post.howTo.steps.length > 0"
+      :name="post.howTo.name || post.title"
+      :description="post.howTo.description || post.metaDescription || postDescription"
+      :steps="post.howTo.steps"
+    />
+
+    <SEOHead
       v-if="post"
       :title="post.metaTitle || post.title"
       :description="post.metaDescription || postDescription"
-      :url="`/blog/${post.slug}`"
-      :image="post.ogImage || '/learndlate.png'"
+      :url="post.canonicalUrl || `/blog/${post.slug}`"
+      :image="post.ogImage || post.image || '/learndlate.png'"
       type="article"
       :article="{
         publishedTime: post.publishDate,
         modifiedTime: post.modifiedDate || post.publishDate,
-        author: 'Florian Strauf',
+        author: post.author || 'Florian Strauf',
         section: post.category,
         tags: post.tags
       }"
       :schema="articleSchema"
     />
-    
+
     <div v-if="loading" class="min-h-screen flex items-center justify-center">
       <div class="text-gray-500">Loading...</div>
     </div>
-    
+
     <div v-else-if="error" class="min-h-screen flex items-center justify-center">
       <div class="text-red-500">{{ error }}</div>
     </div>
-    
-          <article v-else-if="post" class="max-w-4xl mx-auto px-2 sm:px-4 lg:px-6 py-12 sm:py-16">
+
+    <article v-else-if="post" class="max-w-4xl mx-auto px-2 sm:px-4 lg:px-6 py-12 sm:py-16">
       <!-- Breadcrumbs -->
       <nav class="mb-6 sm:mb-8">
         <ol class="flex flex-wrap items-center gap-1 sm:gap-2 text-sm text-gray-500">
@@ -63,11 +71,11 @@
             <span>{{ post.readingTime }} min read</span>
           </span>
         </div>
-        
+
         <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6 sm:mb-8 tracking-tight">
           {{ post.title }}
         </h1>
-        
+
         <p class="text-lg sm:text-xl md:text-2xl text-gray-600 leading-relaxed mb-8 sm:mb-12 max-w-4xl font-light">
           {{ post.excerpt }}
         </p>
@@ -75,19 +83,19 @@
         <!-- Author Info -->
         <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 py-6 sm:py-8 border-t border-b border-gray-200 bg-gradient-to-r from-gray-50 to-white rounded-lg px-2 sm:px-4 lg:px-6">
           <div class="flex items-center space-x-3 sm:space-x-4">
-            <img 
-              src="/learndlate.png" 
-              alt="Florian Strauf" 
+            <img
+              src="/learndlate.png"
+              :alt="post.author || 'Florian Strauf'"
               class="w-12 h-12 sm:w-14 sm:h-14 rounded-full object-cover ring-2 sm:ring-4 ring-white shadow-lg flex-shrink-0"
               loading="lazy"
             >
             <div>
-              <div class="font-semibold text-gray-900 text-base sm:text-lg">Florian Strauf</div>
+              <div class="font-semibold text-gray-900 text-base sm:text-lg">{{ post.author || 'Florian Strauf' }}</div>
               <div class="text-sm text-gray-600 font-medium">Fractional CTO & Technical Consultant</div>
             </div>
           </div>
           <div class="flex justify-center sm:justify-end">
-            <Button 
+            <Button
               @click="shareArticle"
               variant="outline"
               size="icon"
@@ -103,7 +111,7 @@
       </header>
 
       <!-- Article Content -->
-      <div class="prose prose-lg sm:prose-xl prose-slate max-w-none mb-12 sm:mb-16 
+      <div class="prose prose-lg sm:prose-xl prose-slate max-w-none mb-12 sm:mb-16
                   prose-headings:font-normal prose-headings:tracking-tight
                   prose-h1:text-3xl sm:prose-h1:text-4xl lg:prose-h1:text-5xl prose-h1:mb-6 sm:prose-h1:mb-8 prose-h1:font-bold prose-h1:text-gray-900 prose-h1:leading-tight
                   prose-h2:text-2xl sm:prose-h2:text-3xl prose-h2:mt-12 sm:prose-h2:mt-16 prose-h2:mb-6 sm:prose-h2:mb-8 prose-h2:font-semibold prose-h2:text-gray-900 prose-h2:border-b-0 prose-h2:pb-0 prose-h2:leading-tight
@@ -126,6 +134,15 @@
         <div v-html="renderedContent" class="blog-content"></div>
       </div>
 
+      <!-- Visible HowTo Section -->
+      <ArticleHowTo v-if="post.howTo?.steps && post.howTo.steps.length > 0" :how-to="post.howTo" />
+
+      <!-- Visible FAQ Section -->
+      <ArticleFAQ v-if="post.faqItems && post.faqItems.length > 0" :items="post.faqItems" />
+
+      <!-- Visible Citations Section -->
+      <ArticleCitations v-if="post.citations && post.citations.length > 0" :citations="post.citations" />
+
       <!-- Tags -->
       <div v-if="post.tags.length > 0" class="mb-16">
         <h3 class="text-lg font-semibold text-gray-900 mb-6 flex items-center">
@@ -135,9 +152,9 @@
           Related Topics
         </h3>
         <div class="flex flex-wrap gap-3">
-          <span 
-            v-for="tag in post.tags" 
-            :key="tag" 
+          <span
+            v-for="tag in post.tags"
+            :key="tag"
             class="bg-amber-50 text-amber-700 px-4 py-2 rounded-full text-sm font-medium border border-amber-200 hover:bg-amber-100 hover:border-amber-300 transition-all duration-200 cursor-default shadow-sm"
           >
             #{{ tag }}
@@ -148,22 +165,22 @@
       <!-- Author Bio -->
       <div class="bg-gradient-to-br from-gray-50 via-white to-gray-100 rounded-2xl p-10 mb-16 border border-gray-200 shadow-sm">
         <div class="flex items-start space-x-8">
-          <img 
-            src="/learndlate.png" 
-            alt="Florian Strauf" 
+          <img
+            src="/learndlate.png"
+            :alt="post.author || 'Florian Strauf'"
             class="w-24 h-24 rounded-full object-cover flex-shrink-0 ring-4 ring-white shadow-lg"
             loading="lazy"
           >
           <div class="flex-1">
-            <h3 class="text-2xl font-semibold text-gray-900 mb-3">About Florian Strauf</h3>
+            <h3 class="text-2xl font-semibold text-gray-900 mb-3">About {{ post.author || 'Florian Strauf' }}</h3>
             <p class="text-gray-700 leading-relaxed mb-6 text-lg">
-              Experienced fractional CTO and technical consultant helping New Zealand startups and businesses 
-              accelerate their technology initiatives. Specializing in MVP development, technical due diligence, 
+              Experienced fractional CTO and technical consultant helping New Zealand startups and businesses
+              accelerate their technology initiatives. Specializing in MVP development, technical due diligence,
               and strategic technology guidance.
             </p>
             <div class="flex flex-wrap gap-4">
-              <router-link 
-                to="/services" 
+              <router-link
+                to="/services"
                 class="inline-flex items-center text-sm font-semibold text-white bg-amber-600 hover:bg-amber-700 px-6 py-3 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg group"
               >
                 View Services
@@ -171,8 +188,8 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                 </svg>
               </router-link>
-              <router-link 
-                to="/cv" 
+              <router-link
+                to="/cv"
                 class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 bg-white hover:bg-gray-50 px-6 py-3 rounded-lg border border-gray-300 hover:border-gray-400 transition-all duration-200 shadow-sm hover:shadow-md"
               >
                 Experience
@@ -193,8 +210,8 @@
           Related Articles
         </h2>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <article 
-            v-for="relatedPost in relatedPosts" 
+          <article
+            v-for="relatedPost in relatedPosts"
             :key="relatedPost.slug"
             class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-200"
           >
@@ -205,8 +222,8 @@
                 <span>{{ relatedPost.readingTime }} min read</span>
               </div>
               <h3 class="text-lg font-medium text-gray-900 mb-3">
-                <router-link 
-                  :to="`/blog/${relatedPost.slug}`" 
+                <router-link
+                  :to="`/blog/${relatedPost.slug}`"
                   class="hover:text-gray-700 transition-colors duration-200"
                 >
                   {{ relatedPost.title }}
@@ -229,20 +246,25 @@ import { useRoute } from 'vue-router'
 import { marked } from 'marked'
 import SEOHead from '../components/SEOHead.vue'
 import FAQSchema from '../components/FAQSchema.vue'
-import { loadPostContent, getBlogPostBySlug, allBlogPosts, type BlogPost } from '../blog'
+import HowToSchema from '../components/HowToSchema.vue'
+import ArticleFAQ from '../components/ArticleFAQ.vue'
+import ArticleHowTo from '../components/ArticleHowTo.vue'
+import ArticleCitations from '../components/ArticleCitations.vue'
+import { loadPostContent, allBlogPosts, type BlogPost } from '../blog'
+import { buildPostDescription } from '../blog/utils'
+import { buildArticleSchema } from '../blog/schema'
 import { Button } from '@/components/ui/button'
 
 const route = useRoute()
 
-// Check if we're running in SSR context
-const isSSR = typeof window === 'undefined'
-
-// Try to load post data immediately for SSR
 // Normalize slug: remove trailing slashes for consistent lookup
 const slug = (route.params.slug as string).replace(/\/$/, '')
-const initialPostData = isSSR ? (getBlogPostBySlug(slug) ?? null) : null
 
-const loading = ref(!isSSR && !initialPostData)
+// Load full post content immediately (synchronous thanks to eager glob imports)
+const loadedPost = loadPostContent(slug)
+const initialPostData = loadedPost ?? null
+
+const loading = ref(false)
 const error = ref<string | null>(null)
 const post = ref<BlogPost | null>(initialPostData)
 
@@ -260,7 +282,7 @@ const renderedContent = computed(() => {
 
 const relatedPosts = computed(() => {
   if (!post.value) return []
-  
+
   return allBlogPosts
     .filter(p => p.slug !== post.value!.slug && p.category === post.value!.category)
     .slice(0, 3)
@@ -269,83 +291,12 @@ const relatedPosts = computed(() => {
 // Computed property for SEO-safe description with fallback
 const postDescription = computed(() => {
   if (!post.value) return ''
-  // Use excerpt if available and not empty
-  if (post.value.excerpt && post.value.excerpt.trim()) {
-    return post.value.excerpt
-  }
-  // Generate from content if available (first 160 chars)
-  if (post.value.content) {
-    const text = post.value.content
-      .replace(/<[^>]*>/g, '')  // Remove HTML tags
-      .replace(/[#*_`\[\]]/g, '')  // Remove markdown syntax
-      .replace(/\s+/g, ' ')  // Normalize whitespace
-      .trim()
-    return text.length > 160 ? text.substring(0, 157) + '...' : text
-  }
-  return ''
+  return buildPostDescription(post.value)
 })
 
 const articleSchema = computed(() => {
   if (!post.value) return []
-  
-  return [
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "@id": `https://www.learnedlate.com/blog/${post.value.slug}#article`,
-      "headline": post.value.title,
-      "description": postDescription.value,
-      "image": "https://www.learnedlate.com/learndlate.png",
-      "author": {
-        "@type": "Person",
-        "@id": "https://www.learnedlate.com/#person",
-        "name": "Florian Strauf"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "@id": "https://www.learnedlate.com/#organization"
-      },
-      "datePublished": post.value.publishDate,
-      "dateModified": post.value.modifiedDate || post.value.publishDate,
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": `https://www.learnedlate.com/blog/${post.value.slug}`
-      },
-      "articleSection": post.value.category,
-      "keywords": post.value.tags.join(", "),
-             "wordCount": Math.ceil((post.value.content || '').replace(/<[^>]*>/g, '').split(' ').length),
-      "timeRequired": `PT${post.value.readingTime}M`,
-      "inLanguage": "en-NZ",
-      "isPartOf": {
-        "@type": "Blog",
-        "@id": "https://www.learnedlate.com/blog#blog"
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.learnedlate.com"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Blog",
-          "item": "https://www.learnedlate.com/blog"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": post.value.title,
-          "item": `https://www.learnedlate.com/blog/${post.value.slug}`
-        }
-      ]
-    }
-  ]
+  return buildArticleSchema(post.value, postDescription.value)
 })
 
 onMounted(async () => {
@@ -354,7 +305,7 @@ onMounted(async () => {
     const slug = (route.params.slug as string).replace(/\/$/, '')
     // Load full post content including markdown
     const postData = loadPostContent(slug)
-    
+
     if (postData) {
       post.value = postData
     } else {
@@ -614,12 +565,12 @@ const shareArticle = () => {
   .prose {
     font-size: 1rem;
   }
-  
+
   .prose h2::before {
     width: 40px;
     height: 2px;
   }
-  
+
   .prose blockquote::before {
     font-size: 3rem;
   }
@@ -630,60 +581,60 @@ const shareArticle = () => {
     font-size: 0.95rem;
     line-height: 1.7;
   }
-  
+
   .prose h1 {
     font-size: 2.5rem;
   }
-  
+
   .prose h2 {
     font-size: 2rem;
     margin-top: 3rem;
   }
-  
+
   .prose h3 {
     font-size: 1.5rem;
     margin-top: 2rem;
     padding-left: 0.75rem;
   }
-  
+
   .prose h3::before {
     width: 3px;
     height: 20px;
   }
-  
+
   .prose blockquote {
     padding: 1rem 1.5rem;
     margin: 1.5rem 0;
   }
-  
+
   .prose blockquote::before {
     font-size: 2.5rem;
     left: 12px;
   }
-  
+
   .prose pre {
     padding: 1rem;
     font-size: 0.85rem;
   }
-  
 
-  
+
+
   .prose ul > li,
   .prose ol > li {
     margin: 0.5rem 0;
   }
-  
+
   .prose ol > li::before {
     width: 1.25rem;
     height: 1.25rem;
     font-size: 0.7rem;
     left: -1.75rem;
   }
-  
+
   .prose table {
     font-size: 0.9rem;
   }
-  
+
   .prose th,
   .prose td {
     padding: 0.75rem;
@@ -694,27 +645,27 @@ const shareArticle = () => {
   .prose {
     font-size: 0.9rem;
   }
-  
+
   .prose h1 {
     font-size: 2rem;
   }
-  
+
   .prose h2 {
     font-size: 1.75rem;
   }
-  
+
   .prose h3 {
     font-size: 1.25rem;
   }
-  
+
   .prose p:first-of-type {
     font-size: 1rem;
   }
-  
+
   .prose blockquote {
     padding: 0.75rem 1rem;
   }
-  
+
   .prose pre {
     padding: 0.75rem;
   }
@@ -726,27 +677,27 @@ const shareArticle = () => {
     font-size: 12pt;
     line-height: 1.6;
   }
-  
+
   .prose h2::before,
   .prose h3::before {
     display: none;
   }
-  
+
   .prose blockquote::before {
     display: none;
   }
-  
+
   .prose pre::before {
     display: none;
   }
-  
+
   .prose a::after {
     display: none;
   }
-  
+
   .prose img {
     max-width: 100% !important;
     height: auto !important;
   }
 }
-</style> 
+</style>
