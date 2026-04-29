@@ -11,9 +11,9 @@ author: "Florian Strauf"
 
 New Zealand's startup ecosystem is booming. From Auckland's fintech scene to Wellington's creative tech hub, Kiwi entrepreneurs are building world-class companies. But there's a problem that's holding many of them back: the tech talent shortage.
 
-With senior developers commanding $120,000-180,000+ annually and experienced CTOs even more scarce, many promising startups face an impossible choice: compromise on technical leadership or burn through runway trying to compete for talent with deep-pocketed multinational companies. Poor technical decisions early on can [kill startup valuations](./2025-06-22-technical-risks-kill-startup-valuations.md) later.
+With senior developers commanding $120,000-180,000+ annually and experienced CTOs even more scarce, many promising startups face an impossible choice: compromise on technical leadership or burn through runway trying to compete for talent with deep-pocketed multinational companies. Poor technical decisions early on can [kill startup valuations](./2025-06-22-technical-risks-kill-startup-valuations) later.
 
-Smart New Zealand founders are choosing a third option: fractional CTOs. For a complete overview, see [What is a Fractional CTO](./2025-06-22-what-is-fractional-cto-complete-guide.md). Here's why this model is perfectly suited to the unique challenges and opportunities of building a tech company in Aotearoa.
+Smart New Zealand founders are choosing a third option: fractional CTOs. For a complete overview, see [What is a Fractional CTO](./2025-06-22-what-is-fractional-cto-complete-guide). Here's why this model is perfectly suited to the unique challenges and opportunities of building a tech company in Aotearoa.
 
 ## The New Zealand Startup Landscape in 2025
 
@@ -356,7 +356,7 @@ As New Zealand's startup ecosystem continues to mature, the companies that succe
 
 The choice isn't between good technical leadership and affordable technical leadership—it's about finding the right model that provides both. For most New Zealand startups, that model is fractional technical leadership that grows with the company and adapts to its changing needs.
 
-For assessing your technical foundation, see our [technical due diligence checklist](./2025-06-22-technical-due-diligence-checklist-cto-guide.md) and understand the [technical risks that can impact valuations](./2025-06-22-technical-risks-kill-startup-valuations.md).
+For assessing your technical foundation, see our [technical due diligence checklist](./2025-06-22-technical-due-diligence-checklist-cto-guide) and understand the [technical risks that can impact valuations](./2025-06-22-technical-risks-kill-startup-valuations).
 
 **The New Zealand Advantage**:
 - Access to global talent pool through remote work normalization
@@ -371,10 +371,10 @@ New Zealand startups that embrace fractional technical leadership today will bui
 
 ## Related Articles
 
-- [What is a Fractional CTO? Complete Guide](./2025-06-22-what-is-fractional-cto-complete-guide.md)
-- [Technical Due Diligence Checklist: CTO Guide](./2025-06-22-technical-due-diligence-checklist-cto-guide.md)
-- [Technical Risks That Kill Startup Valuations](./2025-06-22-technical-risks-kill-startup-valuations.md)
-- [Auckland Startups Custom Software Guide](./2025-03-18-auckland-startups-custom-software.md)
+- [What is a Fractional CTO? Complete Guide](./2025-06-22-what-is-fractional-cto-complete-guide)
+- [Technical Due Diligence Checklist: CTO Guide](./2025-06-22-technical-due-diligence-checklist-cto-guide)
+- [Technical Risks That Kill Startup Valuations](./2025-06-22-technical-risks-kill-startup-valuations)
+- [Auckland Startups Custom Software Guide](./2025-03-18-auckland-startups-custom-software)
 
 ---
 

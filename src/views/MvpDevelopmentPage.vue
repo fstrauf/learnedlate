@@ -125,7 +125,7 @@
 
           <div class="mt-8 bg-white border border-gray-200 rounded-xl p-6">
             <h3 class="text-lg font-medium text-gray-900 mb-2">🤖 The AI Acceleration Advantage</h3>
-            <p class="text-gray-700">We use AI to generate up to 80% of boilerplate code, then apply senior engineering expertise to ensure quality, security, and scalability. This isn't about cutting corners—it's about building smarter. Our <a href="/ai-implementation" class="text-blue-600 hover:underline">AI implementation services</a> ensure you get the benefits without the risks.</p>
+            <p class="text-gray-700">We use AI to generate up to 80% of boilerplate code, then apply senior engineering expertise to ensure quality, security, and scalability. This isn't about cutting corners—it's about building smarter. Our <a href="/services/implementation" class="text-blue-600 hover:underline">AI implementation services</a> ensure you get the benefits without the risks.</p>
           </div>
         </div>
       </div>

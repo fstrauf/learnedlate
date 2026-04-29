@@ -16,7 +16,7 @@ Eight weeks. That's how long it should take to go from idea to paying customers.
 
 Here's how to make it happen.
 
-For context on what custom software development entails, see our [complete guide to custom software development](./what-is-custom-software-development-complete-guide.md). To understand costs, review our [MVP development cost breakdown](./2025-06-22-mvp-development-cost-breakdown-timeline-guide.md).
+For context on what custom software development entails, see our [complete guide to custom software development](./what-is-custom-software-development-complete-guide). To understand costs, review our [MVP development cost breakdown](./2025-06-22-mvp-development-cost-breakdown-timeline-guide).
 
 ## Why 8 Weeks Changes Everything
 
@@ -500,7 +500,7 @@ Maximize local talent advantages:
 - Founder focuses on customer development and business strategy
 - Budget: $20,000-35,000 for 8-week sprint
 
-Learn more about [fractional CTO services](./2025-06-22-what-is-fractional-cto-complete-guide.md) and how they can accelerate your MVP development.
+Learn more about [fractional CTO services](./2025-06-22-what-is-fractional-cto-complete-guide) and how they can accelerate your MVP development.
 
 ### Tools and Services Budget
 
@@ -547,9 +547,9 @@ The question is whether you can afford not to.
 
 - [MVP Development Cost for SaaS Startups: 2025 Budget Guide](/blog/mvp_development_cost_for_saas_startups_2026_budget_guide_with_real_examples)
 - [What is Custom Software Development? Complete Guide](/blog/what-is-custom-software-development-complete-guide/)
-- [MVP Development Cost Breakdown & Timeline Guide](./2025-06-22-mvp-development-cost-breakdown-timeline-guide.md)
-- [Why Custom Software Projects Fail (And How to Avoid It)](./2025-01-28-why-custom-software-projects-fail.md)
-- [Building Complex Apps with AI](./2025-01-15-building-complex-apps-with-ai.md)
+- [MVP Development Cost Breakdown & Timeline Guide](./2025-06-22-mvp-development-cost-breakdown-timeline-guide)
+- [Why Custom Software Projects Fail (And How to Avoid It)](./2025-01-28-why-custom-software-projects-fail)
+- [Building Complex Apps with AI](./2025-01-15-building-complex-apps-with-ai)
 
 ---
 

@@ -278,7 +278,7 @@ Most AI tools work well in NZ, but consider data sovereignty for sensitive infor
 
 **If you want systematic implementation:** Follow our [90-day AI strategy](/blog/2025-06-22-ai-strategy-small-business-90-day-action-plan/) to roll out AI tools across your business methodically.
 
-Or learn the fundamentals first: [How to Use AI for Small Business](/blog/how-to-use-ai-for-small-business). For specific ChatGPT workflows, see [ChatGPT for Business: Practical Implementation Guide](/blog/2025-06-22-chatgpt-for-business-practical-implementation-guide.md).
+Or learn the fundamentals first: [How to Use AI for Small Business](/blog/how-to-use-ai-for-small-business). For specific ChatGPT workflows, see [ChatGPT for Business: Practical Implementation Guide](/blog/2025-06-22-chatgpt-for-business-practical-implementation-guide).
 
 The best AI tool is the one you'll actually use. Start simple, prove ROI, then expand.
 
@@ -288,7 +288,7 @@ The best AI tool is the one you'll actually use. Start simple, prove ROI, then e
 
 Knowing which AI tools exist is just the first step. The real value comes from implementing them effectively in your specific business context.
 
-[Book an AI readiness assessment](/ai-implementation) — I'll analyze your current processes and identify the top 3 AI opportunities that will save you 10+ hours per week.
+[Book an AI readiness assessment](/services/implementation) — I'll analyze your current processes and identify the top 3 AI opportunities that will save you 10+ hours per week.
 
 ---
 

@@ -670,7 +670,7 @@ The companies winning with AI aren't doing anything complicated. Th/blog/2025-06
 
 Or if you want to understand broader AI transformation potential, read [How AI Transforms Small Business](/blog/2025-06-22-how-ai-transforms-small-business-practical-examples/). For tool recommendations, see our [Best AI Tools for Business 2026](/blog/best-ai-tools-for-business-2025/) guide. And for specific ChatGPT workflows, check out [ChatGPT for Business: Practical Implementation Guide](/blog/2025-06-22-chatgpt-for-business-practical-implementation-guide/
 
-Or if you want to understand broader AI transformation potential, read [How AI Transforms Small Business](./2025-06-22-how-ai-transforms-small-business-practical-examples.md). For tool recommendations, see our [Best AI Tools for Business 2025](./best-ai-tools-for-business-2025.md) guide. And for specific ChatGPT workflows, check out [ChatGPT for Business: Practical Implementation Guide](./2025-06-22-chatgpt-for-business-practical-implementation-guide.md).
+Or if you want to understand broader AI transformation potential, read [How AI Transforms Small Business](./2025-06-22-how-ai-transforms-small-business-practical-examples). For tool recommendations, see our [Best AI Tools for Business 2025](./best-ai-tools-for-business-2025) guide. And for specific ChatGPT workflows, check out [ChatGPT for Business: Practical Implementation Guide](./2025-06-22-chatgpt-for-business-practical-implementation-guide).
 
 The key is starting simple and building from there. You don't need to be an AI expert—you just need to take the first step.
 
@@ -680,12 +680,12 @@ For a curated list of the best AI tools available in 2026, see [Best AI Tools fo
 
 ## Related Articles
 
-- [AI Strategy for Small Business: 90-Day Action Plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan.md)
-- [Best AI Tools for Business 2025](./best-ai-tools-for-business-2025.md)
-- [ChatGPT for Business: Practical Implementation Guide](./2025-06-22-chatgpt-for-business-practical-implementation-guide.md)
-- [Building Complex Apps With AI](./2025-01-15-building-complex-apps-with-ai.md)
-- [Business Process Automation Examples](./business-process-automation-examples.md)
-- [How AI Transforms Small Business: Practical Examples](./2025-06-22-how-ai-transforms-small-business-practical-examples.md)
+- [AI Strategy for Small Business: 90-Day Action Plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan)
+- [Best AI Tools for Business 2025](./best-ai-tools-for-business-2025)
+- [ChatGPT for Business: Practical Implementation Guide](./2025-06-22-chatgpt-for-business-practical-implementation-guide)
+- [Building Complex Apps With AI](./2025-01-15-building-complex-apps-with-ai)
+- [Business Process Automation Examples](./business-process-automation-examples)
+- [How AI Transforms Small Business: Practical Examples](./2025-06-22-how-ai-transforms-small-business-practical-examples)
 - [AI Strategy for Small Business: Cut Through the Hype with This 90-Day Action Plan](/blog/2025-06-22-ai-strategy-small-business-90-day-action-plan/)
 - [AI Automation for Small Business Owners: 2025 Implementation Playbook](/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/)
 - [Best AI Tools for Business 2025 (Small Business Edition)](/blog/best-ai-tools-for-business-2025/)

@@ -8,7 +8,7 @@ The statistics are sobering: **68% of custom software projects fail to deliver o
 
 After working with dozens of businesses on custom software projects, I've seen the same failure patterns repeat over and over. But here's what's changed: AI tools now allow us to identify and prevent these failures before they happen.
 
-For a better understanding of what custom software development entails, read our [complete guide to custom software development](./what-is-custom-software-development-complete-guide.md).
+For a better understanding of what custom software development entails, read our [complete guide to custom software development](./what-is-custom-software-development-complete-guide).
 
 ## The Five Fatal Flaws That Kill Custom Software Projects
 
@@ -86,7 +86,7 @@ For a better understanding of what custom software development entails, read our
 
 **Real Example:** Healthcare startup budgeted $80k for 6-month custom software project. Actual delivery: $140k over 14 months, with reduced functionality.
 
-For detailed cost planning, see our [MVP development cost breakdown guide](./2025-06-22-mvp-development-cost-breakdown-timeline-guide.md).
+For detailed cost planning, see our [MVP development cost breakdown guide](./2025-06-22-mvp-development-cost-breakdown-timeline-guide).
 
 **How AI Prevents This:**
 - **Predictive project modeling** based on thousands of similar projects
@@ -189,7 +189,7 @@ Before starting any custom software project, AI-assisted technical due diligence
 - AI analysis identified 3 integration points that would require custom API development
 - Compliance framework mapping revealed 12 regulatory requirements that would impact architecture
 - Performance modeling showed database design needed optimization for complex billing queries
-- [Technical risk assessment](/blog/posts/2025-06-22-technical-risks-kill-startup-valuations/) revealed potential scalability constraints
+- [Technical risk assessment](/blog/2025-06-22-technical-risks-kill-startup-valuations/) revealed potential scalability constraints
 
 **Week 3-4: Rapid Prototyping**
 - Working prototype demonstrated core workflows
@@ -239,21 +239,21 @@ Even with AI assistance, some projects are too risky:
 
 ## The Bottom Line: Risk is Optional
 
-Custom software project failure isn't inevitable—it's preventable. The combination of AI-assisted development and proper risk management transforms custom software from a high-risk investment to a predictable business tool. An [AI Feasibility Sprint](./2025-01-08-ai-feasibility-sprint.md) is one of the most effective ways to prevent these failures.
+Custom software project failure isn't inevitable—it's preventable. The combination of AI-assisted development and proper risk management transforms custom software from a high-risk investment to a predictable business tool. An [AI Feasibility Sprint](./2025-01-08-ai-feasibility-sprint) is one of the most effective ways to prevent these failures.
 
 The most expensive software project isn't the one that costs $100k—it's the one that fails to deliver value. With AI-powered risk prevention, that's a problem you can avoid entirely.
 
-For ongoing technical leadership and risk management, consider our [fractional CTO services](./2025-06-22-what-is-fractional-cto-complete-guide.md) or review our [technical due diligence checklist](./2025-06-22-technical-due-diligence-checklist-cto-guide.md).
+For ongoing technical leadership and risk management, consider our [fractional CTO services](./2025-06-22-what-is-fractional-cto-complete-guide) or review our [technical due diligence checklist](./2025-06-22-technical-due-diligence-checklist-cto-guide).
 
 ---
 
 ## Related Articles
 
-- [What is Custom Software Development? Complete Guide](./what-is-custom-software-development-complete-guide.md)
-- [MVP Development Cost Breakdown & Timeline Guide](./2025-06-22-mvp-development-cost-breakdown-timeline-guide.md)
-- [8-Week MVP Development Guide](./8-week-mvp-development-guide.md)
-- [Technical Due Diligence Checklist](./2025-06-22-technical-due-diligence-checklist-cto-guide.md)
-- [Technical Risks That Kill Startup Valuations](./2025-06-22-technical-risks-kill-startup-valuations.md)
+- [What is Custom Software Development? Complete Guide](./what-is-custom-software-development-complete-guide)
+- [MVP Development Cost Breakdown & Timeline Guide](./2025-06-22-mvp-development-cost-breakdown-timeline-guide)
+- [8-Week MVP Development Guide](./8-week-mvp-development-guide)
+- [Technical Due Diligence Checklist](./2025-06-22-technical-due-diligence-checklist-cto-guide)
+- [Technical Risks That Kill Startup Valuations](./2025-06-22-technical-risks-kill-startup-valuations)
 
 ---
 

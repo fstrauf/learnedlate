@@ -34,7 +34,7 @@ Read the full post on our blog: [https://blog.learnedlate.com/p/the-good-enough-
 
 ## Related Articles
 
-- [Make Space for Your Best Work](./2025-03-05-make-space-for-your-best-work.md)
-- [Acting and Iterating on Ideas](./2025-07-08-acting-and-iterating-on-ideas.md)
-- [AI Just Made You Twice as Fast](./2025-04-20-ai-just-made-you-twice-as-fast.md)
-- [8-Week MVP Development Guide](./8-week-mvp-development-guide.md)
+- [Make Space for Your Best Work](./2025-03-05-make-space-for-your-best-work)
+- [Acting and Iterating on Ideas](./2025-07-08-acting-and-iterating-on-ideas)
+- [AI Just Made You Twice as Fast](./2025-04-20-ai-just-made-you-twice-as-fast)
+- [8-Week MVP Development Guide](./8-week-mvp-development-guide)

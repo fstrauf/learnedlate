@@ -28,7 +28,7 @@ The AI Feasibility Sprint solves this problem by giving you complete clarity on 
 
 ## What Is an AI Feasibility Sprint?
 
-A 2-3 week intensive validation process that uses AI tools to rapidly assess, prototype, and validate your custom software concept before major development begins. This approach specifically addresses [the common failure patterns that kill most custom software projects](/blog/why-custom-software-projects-fail/) and helps you avoid the [technical risks that can destroy startup valuations](/blog/technical-risks-kill-startup-valuations/).
+A 2-3 week intensive validation process that uses AI tools to rapidly assess, prototype, and validate your custom software concept before major development begins. This approach specifically addresses [the common failure patterns that kill most custom software projects](/blog/2025-01-28-why-custom-software-projects-fail/) and helps you avoid the [technical risks that can destroy startup valuations](/blog/2025-07-22-technical-risks-kill-startup-valuations/).
 
 ### Week 1: Technical Architecture and Risk Assessment
 - **AI-powered system analysis** of existing technology infrastructure  
@@ -96,7 +96,7 @@ Project delivered exactly on the revised timeline and budget. Client avoided the
 - **Working prototypes** with real functionality in days, not weeks
 - **Automated integration testing** with actual systems
 - **Specific risk modeling** for your exact technology stack and requirements
-- **Comprehensive technical risk assessment** that prevents [the architectural failures that kill projects](/blog/why-custom-software-projects-fail/)
+- **Comprehensive technical risk assessment** that prevents [the architectural failures that kill projects](/blog/2025-01-28-why-custom-software-projects-fail/)
 
 ## The Five Critical Questions Every Feasibility Sprint Answers
 
@@ -278,7 +278,7 @@ Organizations that use AI Feasibility Sprints gain significant advantages:
 
 ## The Bottom Line
 
-Custom software development is risky, with [technical risks that can destroy startup valuations](/blog/technical-risks-kill-startup-valuations/) if not properly managed. AI Feasibility Sprints make it predictable. Whether you're a startup founder planning your [MVP development cost](/blog/mvp_development_cost_for_saas_startups_2026_budget_guide_with_real_examples/) or an established business considering [custom software vs off-the-shelf solutions](/blog/custom-software-vs-off-the-shelf/), the feasibility sprint provides the clarity you need to make informed decisions.
+Custom software development is risky, with [technical risks that can destroy startup valuations](/blog/2025-07-22-technical-risks-kill-startup-valuations/) if not properly managed. AI Feasibility Sprints make it predictable. Whether you're a startup founder planning your [MVP development cost](/blog/mvp_development_cost_for_saas_startups_2026_budget_guide_with_real_examples/) or an established business considering [custom software vs off-the-shelf solutions](/blog/custom-software-vs-off-the-shelf/), the feasibility sprint provides the clarity you need to make informed decisions.
 
 For the cost of a few days of development work, you get complete clarity on what you're building, what it will cost, how long it will take, and whether it will actually solve your business problems.
 
@@ -290,10 +290,10 @@ The question isn't whether you can afford a feasibility sprint. The question is 
 
 - [How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide](/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/)
 - [MVP Development Cost for SaaS Startups: 2026 Budget Guide](/blog/mvp_development_cost_for_saas_startups_2026_budget_guide_with_real_examples/)
-- [What is a Fractional CTO? Complete Guide for New Zealand Startups](/blog/what-is-fractional-cto-complete-guide/)
-- [Why Custom Software Projects Fail (And How to Avoid It)](/blog/why-custom-software-projects-fail/)
+- [What is a Fractional CTO? Complete Guide for New Zealand Startups](/blog/2025-06-22-what-is-fractional-cto-complete-guide/)
+- [Why Custom Software Projects Fail (And How to Avoid It)](/blog/2025-01-28-why-custom-software-projects-fail/)
 - [Custom Software vs Off-the-Shelf: Making the Right Choice](/blog/custom-software-vs-off-the-shelf/)
-- [Technical Risks That Kill Startup Valuations](/blog/technical-risks-kill-startup-valuations/)
+- [Technical Risks That Kill Startup Valuations](/blog/2025-07-22-technical-risks-kill-startup-valuations/)
 
 ---
 

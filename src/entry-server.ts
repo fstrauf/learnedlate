@@ -16,9 +16,14 @@ function extractStaticRoutes(routeList: typeof routes): string[] {
   
   for (const route of routeList) {
     // Skip routes with parameters (e.g., /blog/:slug)
-    if (!route.path.includes(':')) {
-      paths.push(route.path)
+    if (route.path.includes(':')) {
+      continue
     }
+    // Skip redirect-only routes — they should not be prerendered as standalone pages
+    if ('redirect' in route) {
+      continue
+    }
+    paths.push(route.path)
   }
   
   return paths

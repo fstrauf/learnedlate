@@ -16,7 +16,8 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const ROOT_DIR = path.join(__dirname, '..')
 
-const checkAll = process.argv.includes('--all')
+// Always check markdown files (was behind --all flag, now default)
+const checkAll = true
 
 // ─────────────────────────────────────────────────────────────
 // 1. Load valid article slugs from articles.json
@@ -66,11 +67,14 @@ function scanVueFiles() {
       }
     }
 
-    // Check mailto links without data-cfemail
+      // Check mailto links without email_off protection
     let m
     while ((m = mailtoAnchorPattern.exec(content)) !== null) {
+      const anchorStart = m.index
       const anchorTag = m[0]
-      if (!anchorTag.includes('data-cfemail=""')) {
+      // Look for email_off comment within 30 chars before the anchor
+      const before = content.slice(Math.max(0, anchorStart - 30), anchorStart)
+      if (!before.includes('<!--email_off-->')) {
         console.error(`❌ Unprotected mailto link in ${relativePath}: ${anchorTag}`)
         hasError = true
       }
@@ -79,7 +83,7 @@ function scanVueFiles() {
 }
 
 // ─────────────────────────────────────────────────────────────
-// 3. Scan markdown files for /blog/ links
+// 3. Scan markdown files for /blog/ links and .md extensions
 // ─────────────────────────────────────────────────────────────
 function scanMarkdownFiles() {
   const postsDir = path.join(ROOT_DIR, 'src', 'blog', 'posts')
@@ -90,11 +94,13 @@ function scanMarkdownFiles() {
     .map(f => path.join(postsDir, f))
 
   const mdLinkPattern = /\]\(\/blog\/([^\s\)]+)\)/g
+  const relativeMdLinkPattern = /\]\(\.\/([^\s\)]+\.md)\)/g
 
   for (const file of files) {
     const content = fs.readFileSync(file, 'utf-8')
     const relativePath = path.relative(ROOT_DIR, file)
 
+    // Check absolute /blog/ links
     let match
     while ((match = mdLinkPattern.exec(content)) !== null) {
       const rawSlug = match[1]
@@ -104,33 +110,151 @@ function scanMarkdownFiles() {
         hasError = true
       }
     }
+
+    // Check relative ./filename.md links
+    let mdMatch
+    while ((mdMatch = relativeMdLinkPattern.exec(content)) !== null) {
+      console.error(`❌ Link with .md extension in ${relativePath}: ./${mdMatch[1]}`)
+      hasError = true
+    }
+  }
+}
+
+// ─────────────────────────────────────────────────────────────
+// 3b. Check markdown files for .md extensions in links (always run)
+// ─────────────────────────────────────────────────────────────
+function checkMdExtensions() {
+  const postsDir = path.join(ROOT_DIR, 'src', 'blog', 'posts')
+  if (!fs.existsSync(postsDir)) return
+
+  const files = fs.readdirSync(postsDir)
+    .filter(f => f.endsWith('.md') || f.endsWith('.mdx'))
+    .map(f => path.join(postsDir, f))
+
+  const mdExtPattern = /\]\(([^\s\)]+\.md)\)/g
+
+  for (const file of files) {
+    const content = fs.readFileSync(file, 'utf-8')
+    const relativePath = path.relative(ROOT_DIR, file)
+
+    let match
+    while ((match = mdExtPattern.exec(content)) !== null) {
+      console.error(`❌ Link with .md extension in ${relativePath}: ${match[1]}`)
+      hasError = true
+    }
+  }
+}
+
+// ─────────────────────────────────────────────────────────────
+// 3c. Check all markdown files are registered in articles.json
+// ─────────────────────────────────────────────────────────────
+function checkArticlesJsonCoverage() {
+  const postsDir = path.join(ROOT_DIR, 'src', 'blog', 'posts')
+  if (!fs.existsSync(postsDir)) return
+
+  const registeredFiles = new Set(
+    articlesData.articles
+      .filter(a => a.file)
+      .map(a => path.basename(a.file))
+  )
+
+  const files = fs.readdirSync(postsDir)
+    .filter(f => f.endsWith('.md') || f.endsWith('.mdx'))
+
+  for (const file of files) {
+    if (!registeredFiles.has(file)) {
+      console.error(`❌ Blog post not registered in articles.json: src/blog/posts/${file}`)
+      hasError = true
+    }
+  }
+}
+
+// ─────────────────────────────────────────────────────────────
+// 4. Check sitemap does not include redirect-only routes
+// ─────────────────────────────────────────────────────────────
+function checkSitemapRedirects() {
+  const routesPath = path.join(ROOT_DIR, 'src', 'router', 'routes.ts')
+  const sitemapPath = path.join(ROOT_DIR, 'scripts', 'generate-sitemap.js')
+
+  if (!fs.existsSync(routesPath) || !fs.existsSync(sitemapPath)) return
+
+  const routesContent = fs.readFileSync(routesPath, 'utf-8')
+  const sitemapContent = fs.readFileSync(sitemapPath, 'utf-8')
+
+  // Extract redirect routes from routes.ts
+  const redirectPattern = /\{\s*path:\s*['"]([^'"]+)['"]\s*,\s*redirect:\s*['"]([^'"]+)['"]\s*\}/g
+  const redirectRoutes = new Map()
+  let rm
+  while ((rm = redirectPattern.exec(routesContent)) !== null) {
+    redirectRoutes.set(rm[1], rm[2])
+  }
+
+  // Extract static routes from generate-sitemap.js
+  const staticRoutePattern = /\{\s*path:\s*['"]([^'"]+)['"]/g
+  let sm
+  while ((sm = staticRoutePattern.exec(sitemapContent)) !== null) {
+    const routePath = sm[1]
+    if (redirectRoutes.has(routePath)) {
+      console.error(`❌ Redirect route found in sitemap staticRoutes: ${routePath} -> ${redirectRoutes.get(routePath)}`)
+      hasError = true
+    }
+  }
+}
+
+// ─────────────────────────────────────────────────────────────
+// 5. Check blog post canonical URLs match their slugs
+// ─────────────────────────────────────────────────────────────
+function checkCanonicalMismatch() {
+  const postsDir = path.join(ROOT_DIR, 'src', 'blog', 'posts')
+  if (!fs.existsSync(postsDir)) return
+
+  const files = fs.readdirSync(postsDir)
+    .filter(f => f.endsWith('.md') || f.endsWith('.mdx'))
+    .map(f => path.join(postsDir, f))
+
+  for (const file of files) {
+    const content = fs.readFileSync(file, 'utf-8')
+    const relativePath = path.relative(ROOT_DIR, file)
+
+    // Extract frontmatter
+    const fmMatch = content.match(/^---\n([\s\S]*?)\n---/)
+    if (!fmMatch) continue
+
+    const canonicalMatch = fmMatch[1].match(/^canonical:\s*["']?(.+?)["']?$/m)
+    if (!canonicalMatch) continue
+
+    const canonical = canonicalMatch[1].trim()
+    const article = articlesData.articles.find(a => a.file && a.file.includes(path.basename(file)))
+    if (!article) continue
+
+    const expectedCanonical = `https://www.learnedlate.com/blog/${article.url_slug}`
+    if (canonical !== expectedCanonical) {
+      console.error(`❌ Canonical mismatch in ${relativePath}`)
+      console.error(`   Frontmatter: ${canonical}`)
+      console.error(`   Expected:    ${expectedCanonical}`)
+      hasError = true
+    }
   }
 }
 
 // ─────────────────────────────────────────────────────────────
 // Run checks
 // ─────────────────────────────────────────────────────────────
-if (checkAll) {
-  console.log('Verifying internal blog links (Vue + markdown) and mailto protection...\n')
-} else {
-  console.log('Verifying internal blog links in Vue files and mailto protection...\n')
-}
+console.log('Verifying internal blog links (Vue + markdown), mailto protection, sitemap, and canonicals...\n')
 
 scanVueFiles()
+checkSitemapRedirects()
+checkCanonicalMismatch()
+checkMdExtensions()
+checkArticlesJsonCoverage()
 if (checkAll) {
   scanMarkdownFiles()
 }
 
 if (hasError) {
   console.error('\n❌ Link verification failed. Please fix the issues above.')
-  if (!checkAll) {
-    console.error('   (Run with --all to also check markdown files)')
-  }
   process.exit(1)
 } else {
-  console.log('✅ All checked links are valid and mailto links are protected.')
-  if (!checkAll) {
-    console.log('   (Run with --all to also check markdown files)')
-  }
+  console.log('✅ All checked links are valid, mailto links are protected, sitemap and canonicals are consistent.')
   process.exit(0)
 }

@@ -72,7 +72,7 @@ if ! node scripts/verify-links.js; then
     exit 1
 fi
 
-echo "✅ Link verification passed!"
+echo "✅ Link, sitemap, and canonical verification passed!"
 
 # ─────────────────────────────────────────────────────────────
 # 4. TypeScript type check
@@ -94,4 +94,4 @@ HOOK
 chmod +x "$HOOKS_DIR/pre-commit"
 
 echo "✅ Git hooks installed successfully!"
-echo "   - pre-commit: Runs canonical-URL, link-verification, and TypeScript checks before each commit"
+echo "   - pre-commit: Runs canonical-URL, link-verification, sitemap/redirect consistency, canonical-mismatch, and TypeScript checks before each commit"

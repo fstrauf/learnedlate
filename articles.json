@@ -512,7 +512,7 @@
           "url": "/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/"
         }
       ],
-      "excerpt": "18 AI tools for small business — tested, ranked, and priced in NZD. From $0 to $300/month, find tools that save 10–30 hours/week without enterprise complexity. Includes NZ data sovereignty notes and real ROI data."
+      "excerpt": "18 AI tools for small business \u2014 tested, ranked, and priced in NZD. From $0 to $300/month, find tools that save 10\u201330 hours/week without enterprise complexity. Includes NZ data sovereignty notes and real ROI data."
     },
     {
       "id": 9,
@@ -566,7 +566,7 @@
           "url": "/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/"
         }
       ],
-      "excerpt": "How to use AI for your small business — step-by-step. Start saving 10+ hours/week from Monday: real NZ examples, tools under NZD $300/month, and a free 30-day action plan. No tech skills needed."
+      "excerpt": "How to use AI for your small business \u2014 step-by-step. Start saving 10+ hours/week from Monday: real NZ examples, tools under NZD $300/month, and a free 30-day action plan. No tech skills needed."
     },
     {
       "id": 10,
@@ -3422,7 +3422,7 @@
           "url": "/blog/no-code-automation-for-small-business/"
         }
       ],
-      "excerpt": "A practical framework for non-technical founders to choose the right tech stack for their startup—without getting lost in technical jargon."
+      "excerpt": "A practical framework for non-technical founders to choose the right tech stack for their startup\u2014without getting lost in technical jargon."
     },
     {
       "id": 63,
@@ -3461,7 +3461,7 @@
           "url": "/blog/product_management_for_non_technical_founders_a_practical_guide/"
         }
       ],
-      "excerpt": "A practical guide for non-technical founders on finding, evaluating, and hiring your first developer—without getting lost in jargon or making costly mistakes."
+      "excerpt": "A practical guide for non-technical founders on finding, evaluating, and hiring your first developer\u2014without getting lost in jargon or making costly mistakes."
     },
     {
       "id": 64,
@@ -3938,7 +3938,7 @@
           "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
         }
       ],
-      "excerpt": "Discover how SaaS startups can access senior technical leadership through a fractional CTO—scaling platforms strategically without the $200k+ full-time salary."
+      "excerpt": "Discover how SaaS startups can access senior technical leadership through a fractional CTO\u2014scaling platforms strategically without the $200k+ full-time salary."
     },
     {
       "id": 76,
@@ -4239,7 +4239,7 @@
           "url": "/blog/best-ai-tools-for-business-2025/"
         }
       ],
-      "excerpt": "Everything you need to know about AI chat bots for business — from choosing the right platform to measuring ROI. Includes pricing, use cases, and a step-by-step implementation roadmap."
+      "excerpt": "Everything you need to know about AI chat bots for business \u2014 from choosing the right platform to measuring ROI. Includes pricing, use cases, and a step-by-step implementation roadmap."
     },
     {
       "id": 86,
@@ -4632,6 +4632,60 @@
           "url": "/blog/what-is-custom-software-development-complete-guide/"
         }
       ]
+    },
+    {
+      "id": 94,
+      "title": "SAP Clean Core: What It Is, Why It Matters, and How to Achieve It",
+      "url_slug": "sap_clean_core",
+      "file": "./src/blog/posts/083_sap_clean_core.mdx",
+      "target_keyword": "sap clean core",
+      "keyword_difficulty": "0",
+      "target_volume": 0,
+      "published_date": "2026-03-26",
+      "word_count": 2217,
+      "status": "published",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "sap-clean-core",
+      "cluster_role": "pillar",
+      "internal_links": [],
+      "excerpt": "A practical guide to SAP Clean Core \u2014 what the concept means, why SAP is pushing it for S/4HANA, and the concrete steps your organisation should take to get there."
+    },
+    {
+      "id": 95,
+      "title": "API Integration Services: Connecting Your Business Systems Seamlessly",
+      "url_slug": "api_integration_services_connecting_your_business_systems_seamlessly",
+      "file": "./src/blog/posts/067_api_integration_services_connecting_your_business_systems_seamlessly.mdx",
+      "target_keyword": "api integration services",
+      "keyword_difficulty": "0",
+      "target_volume": 0,
+      "published_date": "2026-02-15",
+      "word_count": 1504,
+      "status": "published",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "api-integration",
+      "cluster_role": "pillar",
+      "internal_links": [],
+      "excerpt": "Discover how API integration services help NZ businesses connect systems, automate workflows, and eliminate data silos. A practical guide for startups and growing companies."
+    },
+    {
+      "id": 96,
+      "title": "Fractional CTO Costs in New Zealand: 2025 Pricing Guide for NZ Startups",
+      "url_slug": "fractional_cto_costs_in_new_zealand_2025_pricing_guide_for_nz_startups",
+      "file": "./src/blog/posts/080_fractional_cto_costs_in_new_zealand_2025_pricing_guide_for_nz_startups.mdx",
+      "target_keyword": "fractional cto costs new zealand",
+      "keyword_difficulty": "0",
+      "target_volume": 0,
+      "published_date": "2026-03-21",
+      "word_count": 1210,
+      "status": "published",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "fractional-cto",
+      "cluster_role": "support",
+      "internal_links": [],
+      "excerpt": "Discover 2025 fractional CTO costs in New Zealand. Complete pricing guide for NZ startups, including hourly rates, monthly retainers, and factors affecting pricing."
     }
   ]
 }

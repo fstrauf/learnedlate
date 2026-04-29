@@ -31,6 +31,6 @@ Read the full post on our blog: [https://blog.learnedlate.com/p/make-space-for-y
 
 ## Related Articles
 
-- [The Good Enough Mindset](./2025-08-01-the-good-enough-mindset.md)
-- [Acting and Iterating on Ideas](./2025-07-08-acting-and-iterating-on-ideas.md)
-- [Using Obsidian and Cursor for Writing](./2025-05-12-using-obsidian-and-cursor-for-writing.md)
+- [The Good Enough Mindset](./2025-08-01-the-good-enough-mindset)
+- [Acting and Iterating on Ideas](./2025-07-08-acting-and-iterating-on-ideas)
+- [Using Obsidian and Cursor for Writing](./2025-05-12-using-obsidian-and-cursor-for-writing)

@@ -29,6 +29,6 @@ Read the full post on our blog: [https://blog.learnedlate.com/p/acting-and-itera
 
 ## Related Articles
 
-- [The Good Enough Mindset](./2025-08-01-the-good-enough-mindset.md)
-- [Make Space for Your Best Work](./2025-03-05-make-space-for-your-best-work.md)
-- [AI Feasibility Sprint](./2025-01-08-ai-feasibility-sprint.md)
+- [The Good Enough Mindset](./2025-08-01-the-good-enough-mindset)
+- [Make Space for Your Best Work](./2025-03-05-make-space-for-your-best-work)
+- [AI Feasibility Sprint](./2025-01-08-ai-feasibility-sprint)

@@ -25,7 +25,7 @@ frequentlyAskedQuestions:
 
 A fractional CTO is an experienced technology executive who provides strategic technical leadership to multiple companies on a part-time basis—typically 10-30 hours per month instead of 40+ hours per week. You get C-level expertise without the NZD $350,000+ annual cost of a full-time hire.
 
-For New Zealand startups, this model is particularly valuable given the limited local pool of experienced CTOs and the high cost of senior technical talent in markets like Auckland and Wellington. Whether you're preparing for [technical due diligence](./2025-06-22-technical-due-diligence-checklist-cto-guide.md) or navigating [CTO responsibilities at different stages](./cto-responsibilities-startup.md), a fractional CTO provides the expertise you need, scaled to your actual requirements.
+For New Zealand startups, this model is particularly valuable given the limited local pool of experienced CTOs and the high cost of senior technical talent in markets like Auckland and Wellington. Whether you're preparing for [technical due diligence](./2025-06-22-technical-due-diligence-checklist-cto-guide) or navigating [CTO responsibilities at different stages](./cto-responsibilities-startup), a fractional CTO provides the expertise you need, scaled to your actual requirements.
 
 ---
 
@@ -41,7 +41,7 @@ The fractional CTO model emerged from a simple reality validated by [McKinsey re
 
 - **Option A**: No technical leadership (risky and limiting)
 - **Option B**: Full-time hire too early (expensive and potentially premature)
-- **Option C**: Promote a developer to CTO (often leads to management mistakes and [technical risks that destroy valuations](./2025-06-22-technical-risks-kill-startup-valuations.md))
+- **Option C**: Promote a developer to CTO (often leads to management mistakes and [technical risks that destroy valuations](./2025-06-22-technical-risks-kill-startup-valuations))
 
 Fractional CTOs provide **Option D**: Strategic technical leadership scaled to your actual needs and budget.
 
@@ -96,7 +96,7 @@ Fractional CTOs can start immediately—no 3-6 month recruitment process, no neg
 I've seen startups gain 2-4 months of development time by engaging a fractional CTO instead of going through traditional hiring. Tools like [Rippling](https://www.rippling.com/) or [Deel](https://www.deel.com/) can get a fractional CTO operational in days, not months.
 
 Time saved often translates to:
-- Earlier product launches (see our [MVP development timeline guide](./2025-06-22-mvp-development-cost-breakdown-timeline-guide.md))
+- Earlier product launches (see our [MVP development timeline guide](./2025-06-22-mvp-development-cost-breakdown-timeline-guide))
 - Faster market validation using methodologies from [The Lean Startup](https://theleanstartup.com/) by Eric Ries
 - Reduced runway burn
 - Competitive advantages that compound
@@ -111,7 +111,7 @@ If you're a non-technical founder, the value goes beyond cost savings. Data from
 
 **Architecture Insurance**: Prevent costly technical debt by making smart architecture decisions early using patterns from [Martin Fowler](https://martinfowler.com/)'s architecture guides.
 
-**Investor Confidence**: [Due diligence](./2025-06-22-technical-due-diligence-checklist-cto-guide.md) becomes smoother when you have proper technical leadership in place.
+**Investor Confidence**: [Due diligence](./2025-06-22-technical-due-diligence-checklist-cto-guide) becomes smoother when you have proper technical leadership in place.
 
 ---
 
@@ -125,7 +125,7 @@ If you're a non-technical founder, the value goes beyond cost savings. Data from
 - Monthly architecture reviews using [Architecture Decision Records (ADRs)](https://adr.github.io/)
 - Quarterly technical roadmap planning
 - Ad-hoc guidance on major technical decisions
-- Support during fundraising and [technical due diligence](./2025-06-22-technical-due-diligence-checklist-cto-guide.md)
+- Support during fundraising and [technical due diligence](./2025-06-22-technical-due-diligence-checklist-cto-guide)
 
 **Investment**: $5,000-8,000/month
 
@@ -310,11 +310,11 @@ Unlike consultants who deliver specific projects, fractional CTOs integrate as e
 
 ## Related Articles
 
-- [NZ Startups Fractional CTO Guide](./2025-06-22-nz-startups-fractional-cto-guide.md)
-- [Technical Due Diligence Checklist: CTO Guide](./2025-06-22-technical-due-diligence-checklist-cto-guide.md)
-- [Technical Risks That Kill Startup Valuations](./2025-06-22-technical-risks-kill-startup-valuations.md)
-- [MVP Development Cost Breakdown & Timeline Guide](./2025-06-22-mvp-development-cost-breakdown-timeline-guide.md)
-- [Why Custom Software Projects Fail](./2025-01-28-why-custom-software-projects-fail.md)
+- [NZ Startups Fractional CTO Guide](./2025-06-22-nz-startups-fractional-cto-guide)
+- [Technical Due Diligence Checklist: CTO Guide](./2025-06-22-technical-due-diligence-checklist-cto-guide)
+- [Technical Risks That Kill Startup Valuations](./2025-06-22-technical-risks-kill-startup-valuations)
+- [MVP Development Cost Breakdown & Timeline Guide](./2025-06-22-mvp-development-cost-breakdown-timeline-guide)
+- [Why Custom Software Projects Fail](./2025-01-28-why-custom-software-projects-fail)
 - [CTO Responsibilities in a Startup: Stage-by-Stage Breakdown](/blog/cto-responsibilities-startup/)
 - [How Much Does a Fractional CTO Cost in 2025? Complete Pricing Guide](/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide/)
 - [What Does a Fractional CTO Do Exactly? Roles, Responsibilities & Deliverables](/blog/what_does_a_fractional_cto_do_exactly_roles_responsibilities_deliverables/)

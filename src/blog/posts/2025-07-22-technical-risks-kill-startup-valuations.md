@@ -314,4 +314,4 @@ Your technical architecture is your most important business asset. Invest in it 
 - [CTO Responsibilities in a Startup: Stage-by-Stage Breakdown](/blog/cto-responsibilities-startup/)
 - [How to Build an MVP for Your Startup: A Founders Step-by-Step Guide](/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/)
 - [What is a Fractional CTO? Complete Guide for New Zealand Startups](/blog/2025-06-22-what-is-fractional-cto-complete-guide/)
-- [Technical Due Diligence Checklist for Startup Investors](/blog/technical-due-diligence-checklist-startup-investors/)
+- [Technical Due Diligence Checklist for Startup Investors](/blog/technical-due-diligence-checklist/)

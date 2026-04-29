@@ -36,6 +36,6 @@ Curious about what else I'm working on? [Check out my now page](/now) to see my 
 
 ## Related Articles
 
-- [Speaking vs Writing](./2025-02-10-speaking-vs-writing.md)
-- [Make Space for Your Best Work](./2025-03-05-make-space-for-your-best-work.md)
-- [Best AI Tools for Business 2025](./best-ai-tools-for-business-2025.md)
+- [Speaking vs Writing](./2025-02-10-speaking-vs-writing)
+- [Make Space for Your Best Work](./2025-03-05-make-space-for-your-best-work)
+- [Best AI Tools for Business 2025](./best-ai-tools-for-business-2025)

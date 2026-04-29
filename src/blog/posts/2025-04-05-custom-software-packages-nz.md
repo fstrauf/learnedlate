@@ -6,7 +6,7 @@ summary: "Clear pricing tiers and service packages for AI-accelerated custom sof
 
 The biggest barrier to custom software adoption isn't technical complexity—it's pricing uncertainty. Traditional custom development comes with vague estimates, scope creep, and budget surprises.
 
-AI-accelerated development changes this entirely. We can now offer fixed-price packages with predictable outcomes, making custom software as accessible as any other business investment. This approach specifically addresses [why most custom software projects fail](/blog/posts/2025-01-28-why-custom-software-projects-fail/).
+AI-accelerated development changes this entirely. We can now offer fixed-price packages with predictable outcomes, making custom software as accessible as any other business investment. This approach specifically addresses [why most custom software projects fail](/blog/2025-01-28-why-custom-software-projects-fail/).
 
 ## The Problem with Traditional Custom Software Pricing
 
@@ -27,10 +27,10 @@ AI-accelerated development changes this entirely. We can now offer fixed-price p
 With AI tools handling code generation, testing, and architecture optimization, we can deliver custom software with the predictability of off-the-shelf solutions.
 
 ### The Fixed-Price Advantage:
-- **No scope creep:** Comprehensive requirements analysis through [AI Feasibility Sprints](/blog/posts/2025-01-08-ai-feasibility-sprint/)
+- **No scope creep:** Comprehensive requirements analysis through [AI Feasibility Sprints](/blog/ai-feasibility-sprint/)
 - **No surprise costs:** All complexity identified during feasibility phase
 - **No timeline uncertainty:** AI-assisted project management with accurate predictions
-- **No technical debt:** AI-powered code review prevents [technical risks that kill valuations](/blog/posts/2025-06-22-technical-risks-kill-startup-valuations/)
+- **No technical debt:** AI-powered code review prevents [technical risks that kill valuations](/blog/2025-06-22-technical-risks-kill-startup-valuations/)
 
 ## Package 1: Essential Business Automation ($25,000)
 
@@ -361,10 +361,10 @@ Choose your package, eliminate your biggest operational bottlenecks, and start o
 
 ## Related Articles
 
-- [What is Custom Software Development? Complete Guide](./what-is-custom-software-development-complete-guide.md)
-- [Custom Software Development Cost: Complete Breakdown](./custom-software-development-cost-breakdown.md)
-- [Small Business Custom Software Solutions](./2025-05-28-small-business-custom-software.md)
-- [Auckland Startups Custom Software Guide](./2025-03-18-auckland-startups-custom-software.md)
+- [What is Custom Software Development? Complete Guide](./what-is-custom-software-development-complete-guide)
+- [Custom Software Development Cost: Complete Breakdown](./custom-software-development-cost-breakdown)
+- [Small Business Custom Software Solutions](./2025-05-28-small-business-custom-software)
+- [Auckland Startups Custom Software Guide](./2025-03-18-auckland-startups-custom-software)
 
 ---
 

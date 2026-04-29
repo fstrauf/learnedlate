@@ -14,13 +14,13 @@ Most Auckland startups face a classic catch-22:
 
 - **Generic software** doesn't fit their unique business model
 - **Custom development** seems too expensive for startup budgets
-- **Technical debt** from workarounds kills their ability to scale and [destroys startup valuations](/blog/posts/2025-06-22-technical-risks-kill-startup-valuations/)
+- **Technical debt** from workarounds kills their ability to scale and [destroys startup valuations](/blog/2025-06-22-technical-risks-kill-startup-valuations/)
 
 Meanwhile, their competitors who invest in proper software architecture are scaling faster, operating more efficiently, and attracting better talent.
 
 ## AI Has Rewritten the Rules
 
-What used to require $100k+ and 12+ months can now be delivered for $20k-40k in 2-4 months. This puts custom software squarely within reach of seed-stage startups. Our [Custom Software Development Packages](/blog/posts/2025-04-05-custom-software-packages-nz/) are specifically designed for this new reality.
+What used to require $100k+ and 12+ months can now be delivered for $20k-40k in 2-4 months. This puts custom software squarely within reach of seed-stage startups. Our [Custom Software Development Packages](/blog/2025-04-05-custom-software-packages-nz/) are specifically designed for this new reality.
 
 ### The New Economics for Auckland Startups:
 
@@ -260,10 +260,10 @@ Auckland's startup ecosystem is more competitive than ever. The startups that wi
 
 ## Related Articles
 
-- [What is Custom Software Development? Complete Guide](./what-is-custom-software-development-complete-guide.md)
-- [Small Business Custom Software Solutions](./2025-05-28-small-business-custom-software.md)
-- [Custom Software Packages for NZ Businesses](./2025-04-05-custom-software-packages-nz.md)
-- [NZ Startups Fractional CTO Guide](./2025-06-22-nz-startups-fractional-cto-guide.md)
+- [What is Custom Software Development? Complete Guide](./what-is-custom-software-development-complete-guide)
+- [Small Business Custom Software Solutions](./2025-05-28-small-business-custom-software)
+- [Custom Software Packages for NZ Businesses](./2025-04-05-custom-software-packages-nz)
+- [NZ Startups Fractional CTO Guide](./2025-06-22-nz-startups-fractional-cto-guide)
 - [Wellington Custom Software Development Guide](/blog/wellington_custom_software_development_2025_guide_for_local_businesses) — Regional comparison for NZ businesses considering development locations
 
 ---

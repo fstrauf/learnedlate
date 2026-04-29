@@ -476,9 +476,9 @@ You've seen 15+ real examples. You know the ROI is there. The question is: which
 
 My suggestion: Start with something that frustrates you daily. Something that takes 30 minutes and happens 5+ times per week. That's your entry point.
 
-Need help thinking through your automation strategy? Our [90-day AI action plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan.md) walks you through identifying opportunities, selecting tools, and implementing workflows that actually work.
+Need help thinking through your automation strategy? Our [90-day AI action plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan) walks you through identifying opportunities, selecting tools, and implementing workflows that actually work.
 
-Or if you want to understand the fundamentals better, check out our [complete guide to business process automation](./2025-06-22-business-process-automation-small-business-guide.md). For hands-on guidance, see [simple automation workflows](./2025-08-01-simple-automation-workflows.md) and [how AI transforms small business](./2025-06-22-how-ai-transforms-small-business-practical-examples.md).
+Or if you want to understand the fundamentals better, check out our [complete guide to business process automation](./2025-06-22-business-process-automation-small-business-guide). For hands-on guidance, see [simple automation workflows](./2025-08-01-simple-automation-workflows) and [how AI transforms small business](./2025-06-22-how-ai-transforms-small-business-practical-examples).
 
 The companies in this article aren't special. They just started. You can too.
 
@@ -506,9 +506,9 @@ Our team helps NZ businesses identify and implement their highest-ROI automation
 
 ## Related Articles
 
-- [AI Strategy for Small Business: 90-Day Action Plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan.md)
-- [Business Process Automation: Small Business Guide](./2025-06-22-business-process-automation-small-business-guide.md)
-- [Simple Automation Workflows](./2025-08-01-simple-automation-workflows.md)
-- [How AI Transforms Small Business: Practical Examples](./2025-06-22-how-ai-transforms-small-business-practical-examples.md)
-- [Automate Marketing, Automate Anything](./2025-08-01-automate-marketing-automate-anything.md)
+- [AI Strategy for Small Business: 90-Day Action Plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan)
+- [Business Process Automation: Small Business Guide](./2025-06-22-business-process-automation-small-business-guide)
+- [Simple Automation Workflows](./2025-08-01-simple-automation-workflows)
+- [How AI Transforms Small Business: Practical Examples](./2025-06-22-how-ai-transforms-small-business-practical-examples)
+- [Automate Marketing, Automate Anything](./2025-08-01-automate-marketing-automate-anything)
 - [Best AI Tools for Business 2025 (Small Business Edition)](/blog/best-ai-tools-for-business-2025/)

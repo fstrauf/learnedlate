@@ -9,7 +9,7 @@ author: "Florian Strauf"
 
 ### Automate Marketing, Automate Anything
 
-You can automate marketing and other complex tasks by creating your own personal AI agent. This is done by connecting an AI like Claude to external applications and services using extensions, which allows the AI to perform powerful, automated workflows. For broader automation context, see our [Business Process Automation Guide](/blog/posts/2025-06-22-business-process-automation-small-business-guide/).
+You can automate marketing and other complex tasks by creating your own personal AI agent. This is done by connecting an AI like Claude to external applications and services using extensions, which allows the AI to perform powerful, automated workflows. For broader automation context, see our [Business Process Automation Guide](/blog/2025-06-22-business-process-automation-small-business-guide/).
 
 An AI agent is the combination of an AI, extensions (or MCPs), and a structured, step-by-step workflow. Here are a couple of examples of what you can do with it:
 
@@ -37,7 +37,7 @@ Read the full post on our blog: [https://blog.learnedlate.com/p/automate-marketi
 
 ## Related Articles
 
-- [AI Strategy for Small Business: 90-Day Action Plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan.md)
-- [Business Process Automation Examples](./business-process-automation-examples.md)
-- [Simple Automation Workflows](./2025-08-01-simple-automation-workflows.md)
-- [ChatGPT for Business: Practical Implementation Guide](./2025-06-22-chatgpt-for-business-practical-implementation-guide.md)
+- [AI Strategy for Small Business: 90-Day Action Plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan)
+- [Business Process Automation Examples](./business-process-automation-examples)
+- [Simple Automation Workflows](./2025-08-01-simple-automation-workflows)
+- [ChatGPT for Business: Practical Implementation Guide](./2025-06-22-chatgpt-for-business-practical-implementation-guide)

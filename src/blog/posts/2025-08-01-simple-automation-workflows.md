@@ -11,7 +11,7 @@ author: "Florian Strauf"
 
 Workflows are the routines and systems you use to get things done. They define what you do and when you do it. Refining and improving them is key to growing your business and a great way to do that is through automation. After all, things that happen automatically are cheap and quick. Automating your workflows can therefore massively improve business outcomes, giving you an edge over the competition.
 
-Workflow automation is the process of setting up an automated system to perform tasks that you would otherwise do manually. For comprehensive guidance, see our [Business Process Automation Guide](/blog/posts/2025-06-22-business-process-automation-small-business-guide/). You need to set up a system that can carry out every required task, in the right order, at the correct time.
+Workflow automation is the process of setting up an automated system to perform tasks that you would otherwise do manually. For comprehensive guidance, see our [Business Process Automation Guide](/blog/2025-06-22-business-process-automation-small-business-guide/). You need to set up a system that can carry out every required task, in the right order, at the correct time.
 
 **Key Components of Workflow Automation:**
 
@@ -26,8 +26,8 @@ Read the full post on our blog: [https://blog.learnedlight.com/p/simple-automati
 
 ## Related Articles
 
-- [AI Strategy for Small Business: 90-Day Action Plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan.md)
-- [Business Process Automation Examples](./business-process-automation-examples.md)
-- [Business Process Automation: Small Business Guide](./2025-06-22-business-process-automation-small-business-guide.md)
-- [Automate Marketing, Automate Anything](./2025-08-01-automate-marketing-automate-anything.md)
-- [Best AI Tools for Business 2025](./best-ai-tools-for-business-2025.md)
+- [AI Strategy for Small Business: 90-Day Action Plan](./2025-06-22-ai-strategy-small-business-90-day-action-plan)
+- [Business Process Automation Examples](./business-process-automation-examples)
+- [Business Process Automation: Small Business Guide](./2025-06-22-business-process-automation-small-business-guide)
+- [Automate Marketing, Automate Anything](./2025-08-01-automate-marketing-automate-anything)
+- [Best AI Tools for Business 2025](./best-ai-tools-for-business-2025)

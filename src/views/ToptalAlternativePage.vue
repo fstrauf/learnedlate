@@ -24,7 +24,7 @@
                   Book Free Discovery Call
                 </Button>
                 <Button as-child size="lg" variant="outline" class="border-white/20 text-white hover:bg-white/20 hover:text-white bg-transparent">
-                  <router-link to="/services">View CTO Services</router-link>
+                  <router-link to="/">View CTO Services</router-link>
                 </Button>
               </div>
             </div>

@@ -15,7 +15,7 @@ Most articles give you useless ranges like "$10,000 to $500,000" without explain
 
 After building dozens of MVPs and helping startups navigate the build-vs-buy decision, I've learned that the real cost of MVP development isn't just money—it's time, opportunity cost, and the risk of building the wrong thing entirely.
 
-This guide breaks down the actual costs of MVP development in 2025, including the hidden expenses most founders miss, realistic timelines based on complexity, and decision frameworks for choosing the right approach for your situation. For a broader understanding of custom software costs, see our [complete custom software development cost breakdown](./custom-software-development-cost-breakdown.md).
+This guide breaks down the actual costs of MVP development in 2025, including the hidden expenses most founders miss, realistic timelines based on complexity, and decision frameworks for choosing the right approach for your situation. For a broader understanding of custom software costs, see our [complete custom software development cost breakdown](./custom-software-development-cost-breakdown).
 
 ## The Real Cost of MVP Development in 2025
 
@@ -164,7 +164,7 @@ The key to successful MVP development isn't minimizing cost—it's maximizing le
 
 5. **Value Time Over Money**: In most cases, paying more for faster, higher-quality development is the optimal trade-off.
 
-For a practical guide to executing your MVP, see our [8-week MVP development guide](./8-week-mvp-development-guide.md). To understand common pitfalls, read about [why custom software projects fail](./2025-01-28-why-custom-software-projects-fail.md).
+For a practical guide to executing your MVP, see our [8-week MVP development guide](./8-week-mvp-development-guide). To understand common pitfalls, read about [why custom software projects fail](./2025-01-28-why-custom-software-projects-fail).
 
 **Final Cost Reality Check**:
 - Budget 50-100% more than initial estimates for post-launch iteration
@@ -184,8 +184,8 @@ Remember: You're not just building software—you're buying information about yo
 - [What is Custom Software Development? Complete Guide](/blog/what-is-custom-software-development-complete-guide/)
 - [Custom Software Development Cost: Complete Breakdown](/blog/custom-software-development-cost-breakdown/)
 - [8-Week MVP Development Guide](/blog/8-week-mvp-development-guide/)
-- [Why Custom Software Projects Fail (And How to Avoid It)](./2025-01-28-why-custom-software-projects-fail.md)
-- [What is a Fractional CTO? Complete Guide](./2025-06-22-what-is-fractional-cto-complete-guide.md)
+- [Why Custom Software Projects Fail (And How to Avoid It)](./2025-01-28-why-custom-software-projects-fail)
+- [What is a Fractional CTO? Complete Guide](./2025-06-22-what-is-fractional-cto-complete-guide)
 
 ---
 

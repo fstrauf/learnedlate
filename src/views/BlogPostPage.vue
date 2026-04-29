@@ -180,7 +180,7 @@
             </p>
             <div class="flex flex-wrap gap-4">
               <router-link
-                to="/services"
+                to="/"
                 class="inline-flex items-center text-sm font-semibold text-white bg-amber-600 hover:bg-amber-700 px-6 py-3 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg group"
               >
                 View Services

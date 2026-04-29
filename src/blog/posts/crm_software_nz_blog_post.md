@@ -237,7 +237,7 @@ If you're considering a CRM implementation and want to ensure you make the right
 - **Team training** and change management
 - **Ongoing technical advisory** services
 
-[**Book a free 30-minute consultation**](mailto:hello@learnedlate.com){data-cfemail=""} to discuss your CRM requirements and get expert guidance on the best path forward for your business.
+<!--email_off--><a href="mailto:hello@learnedlate.com"><strong>Book a free 30-minute consultation</strong></a><!--/email_off--> to discuss your CRM requirements and get expert guidance on the best path forward for your business.
 
 ---
 

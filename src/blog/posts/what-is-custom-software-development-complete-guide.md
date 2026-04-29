@@ -195,7 +195,7 @@ For a detailed breakdown including ongoing costs and different complexity tiers,
 
 **The fix:** Ruthlessly prioritize. Separate "must-have" from "nice-to-have." Build must-haves first. Add nice-to-haves only after validating with real users.
 
-We've written extensively about [why custom software projects fail](./2025-01-28-why-custom-software-projects-fail.md)—worth reading before you start.
+We've written extensively about [why custom software projects fail](./2025-01-28-why-custom-software-projects-fail)—worth reading before you start.
 
 ---
 

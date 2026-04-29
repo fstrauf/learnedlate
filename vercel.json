@@ -97,8 +97,18 @@
       "permanent": true
     },
     {
-      "source": "/blog/ai-for-small-business",
-      "destination": "/blog/ai_for_small_business",
+      "source": "/services",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-implementation",
+      "destination": "/services/implementation",
+      "permanent": true
+    },
+    {
+      "source": "/automation",
+      "destination": "/services/implementation",
       "permanent": true
     },
     {
@@ -121,10 +131,6 @@
       "destination": "/cv/index.html"
     },
     {
-      "source": "/services",
-      "destination": "/services/index.html"
-    },
-    {
       "source": "/case-studies",
       "destination": "/case-studies/index.html"
     },
@@ -135,14 +141,6 @@
     {
       "source": "/fractional-cto",
       "destination": "/fractional-cto/index.html"
-    },
-    {
-      "source": "/ai-implementation",
-      "destination": "/ai-implementation/index.html"
-    },
-    {
-      "source": "/automation",
-      "destination": "/automation/index.html"
     },
     {
       "source": "/mvp-development",

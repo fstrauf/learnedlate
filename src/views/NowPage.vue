@@ -46,7 +46,7 @@
             <div>
               <h2 class="text-xl font-medium text-gray-900 mb-3">Open for Engagements</h2>
               <p class="mb-3">
-                Currently accepting new clients for <router-link to="/fractional-cto" class="text-amber-700 hover:underline font-medium">fractional CTO</router-link> and <router-link to="/ai-implementation" class="text-amber-700 hover:underline font-medium">AI consulting</router-link> engagements.
+                Currently accepting new clients for <router-link to="/fractional-cto" class="text-amber-700 hover:underline font-medium">fractional CTO</router-link> and <router-link to="/services/implementation" class="text-amber-700 hover:underline font-medium">AI consulting</router-link> engagements.
               </p>
               <p class="text-gray-600">
                 I help New Zealand startups and businesses with strategic technical leadership, AI implementation, and practical solutions that drive measurable results.

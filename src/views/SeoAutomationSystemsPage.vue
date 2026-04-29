@@ -29,7 +29,7 @@
               Start a Conversation
             </a>
             <router-link 
-              to="/services" 
+              to="/" 
               class="border border-white text-white px-6 py-3 rounded-md font-medium hover:bg-white hover:text-gray-900 transition-colors duration-200 text-center"
             >
               View All Services
