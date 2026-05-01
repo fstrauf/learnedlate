@@ -1,12 +1,21 @@
 ---
-title: "SAP BTP Side-by-Side Extension: Complete Working Example with Code"
-description: "Learn how to build a side-by-side extension on SAP BTP with a complete working example. Step-by-step guide with code samples."
+title: "SAP BTP Side-by-Side Extension: Working Example"
+
+faq:
+  - question: "What is a side-by-side extension in SAP BTP?"
+    answer: "A side-by-side extension is an application that runs independently on SAP BTP and communicates with S/4HANA through public APIs, extending core business processes without modifying the ERP system."
+  - question: "How does SAP BTP integrate with S/4HANA?"
+    answer: "SAP BTP integrates with S/4HANA through public APIs such as OData, REST, or SOAP, allowing external applications to read and write data while keeping the core system untouched."
+  - question: "What is the MTA build tool used for in SAP BTP?"
+    answer: "The MTA (Multi-Target Application) build tool packages applications and their dependencies into a deployable archive for SAP BTP Cloud Foundry or Kyma runtime environments."
+  - question: "Do side-by-side extensions affect S/4HANA upgrades?"
+    answer: "No, side-by-side extensions do not affect S/4HANA upgrades because they run externally on SAP BTP and avoid direct modifications to the core system, preserving upgrade paths."
+description: "Build a SAP BTP side-by-side extension with our complete working example and code. Step-by-step guide to extend S/4HANA without modifying core."
 date: "2026-03-19"
 tags: ["SAP BTP", "Side-by-Side Extension", "SAP S/4HANA", "Cloud Foundry", "Clean Core"]
 canonical: "https://www.learnedlate.com/blog/sap_btp_side_by_side_extension_complete_working_example_with_code"
 ---
-
-Side-by-side extensions are the cornerstone of SAP's Clean Core strategy. Rather than modifying your core S/4HANA system directly—a practice that creates upgrade headaches and technical debt—you build complementary applications that run separately on SAP BTP while integrating seamlessly with your ERP.
+Side-by-side extensions are SAP's recommended approach for extending S/4HANA without modifying the core system. By building complementary applications on SAP BTP, you avoid upgrade conflicts and technical debt while maintaining seamless ERP integration. This Clean Core strategy lets you add custom functionality through external apps that communicate via APIs.
 
 This guide walks through a complete working example: a custom sales order approval application built as a side-by-side extension. By the end, you'll have production-ready code patterns you can adapt for your own projects.
 
