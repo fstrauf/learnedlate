@@ -6,6 +6,7 @@
       "file": "src/blog/posts/cto-responsibilities-startup.mdx",
       "id": 1,
       "keyword_difficulty": "0",
+      "page_type": "hub",
       "published_date": "2025-10-02",
       "status": "published",
       "target_keyword": "cto responsibilities startup",
@@ -84,6 +85,7 @@
       "file": "src/blog/posts/how-to-choose-software-development-company.mdx",
       "id": 6,
       "keyword_difficulty": "0",
+      "page_type": "hub",
       "published_date": "2025-09-22",
       "status": "published",
       "target_keyword": "how to choose a custom software development company",
@@ -150,6 +152,7 @@
       },
       "id": 9,
       "keyword_difficulty": "31",
+      "page_type": "hub",
       "published_date": "2025-08-17",
       "status": "published",
       "target_keyword": "how to use ai for small business",
@@ -172,11 +175,12 @@
       },
       "id": 10,
       "keyword_difficulty": "12",
+      "page_type": "hub",
       "published_date": "2025-08-13",
       "status": "published",
       "target_keyword": "custom software development cost",
       "target_volume": 0,
-      "title": "Custom Software Development Cost NZ: 2026 Pricing Guide ($15K–$300K+)",
+      "title": "Custom Software Development Cost NZ: 2026 Pricing Guide ($15K\u2013$300K+)",
       "url_slug": "custom-software-development-cost-breakdown",
       "word_count": 3437
     },
@@ -194,6 +198,7 @@
       },
       "id": 11,
       "keyword_difficulty": "12",
+      "page_type": "hub",
       "published_date": "2025-08-09",
       "status": "published",
       "target_keyword": "what is custom software development",
@@ -216,6 +221,7 @@
       },
       "id": 12,
       "keyword_difficulty": "",
+      "page_type": "hub",
       "published_date": "2025-08-08",
       "status": "published",
       "target_keyword": "automated code quality assessment tools comparison technical due diligence",
@@ -252,6 +258,7 @@
       },
       "id": 14,
       "keyword_difficulty": "7",
+      "page_type": "hub",
       "published_date": "2026-04-22",
       "status": "published",
       "target_keyword": "business process automation examples",
@@ -266,12 +273,13 @@
       "file": "src/blog/posts/crm_software_nz_blog_post.mdx",
       "id": 15,
       "keyword_difficulty": "",
+      "page_type": "hub",
       "published_date": "2026-04-23",
       "status": "published",
       "target_keyword": "",
       "target_volume": 0,
       "title": "CRM Software NZ: Complete Guide for Kiwi Businesses",
-      "url_slug": "crm_software_nz_blog_post",
+      "url_slug": "crm-software-nz-blog-post",
       "word_count": 1258
     },
     {
@@ -316,6 +324,7 @@
       },
       "id": 18,
       "keyword_difficulty": "",
+      "page_type": "hub",
       "published_date": "2025-07-28",
       "status": "published",
       "target_keyword": "mvp development in 8 weeks",
@@ -371,7 +380,7 @@
       "target_keyword": "",
       "target_volume": 0,
       "title": "Digital Marketing for Small Business NZ: 2026 Guide",
-      "url_slug": "digital_marketing_nz_guide",
+      "url_slug": "digital-marketing-nz-guide",
       "word_count": 1345
     },
     {
@@ -406,8 +415,8 @@
       "status": "published",
       "target_keyword": "accounting tools",
       "target_volume": 0,
-      "title": "Best Free Accounting Software for NZ Businesses (2026) — GST-Ready Comparison",
-      "url_slug": "free_accounting_software_nz_guide",
+      "title": "Best Free Accounting Software for NZ Businesses (2026) \u2014 GST-Ready Comparison",
+      "url_slug": "free-accounting-software-nz-guide",
       "word_count": 1404
     },
     {
@@ -536,6 +545,7 @@
       "file": "src/blog/posts/2025-06-22-technical-due-diligence-checklist-cto-guide.mdx",
       "id": 32,
       "keyword_difficulty": "",
+      "page_type": "hub",
       "published_date": "2025-04-18",
       "status": "published",
       "target_keyword": "",
@@ -678,6 +688,7 @@
       },
       "id": 41,
       "keyword_difficulty": "",
+      "page_type": "hub",
       "published_date": "2025-02-08",
       "status": "published",
       "target_keyword": "fractional cto nz",
@@ -769,7 +780,7 @@
       "target_keyword": "how much does a fractional CTO cost",
       "target_volume": 0,
       "title": "How Much Does a Fractional CTO Cost in 2025? Complete Pricing Guide",
-      "url_slug": "how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide",
+      "url_slug": "how-much-does-a-fractional-cto-cost-in-2025-complete-pricing-guide",
       "word_count": 1547
     },
     {
@@ -783,7 +794,7 @@
       "target_keyword": "interim CTO vs fractional CTO",
       "target_volume": 0,
       "title": "Interim CTO vs Fractional CTO: Which One Does Your Startup Need?",
-      "url_slug": "interim_cto_vs_fractional_cto_which_one_does_your_startup_need",
+      "url_slug": "interim-cto-vs-fractional-cto-which-one-does-your-startup-need",
       "word_count": 1549
     },
     {
@@ -800,7 +811,7 @@
       "target_keyword": "software development cost New Zealand",
       "target_volume": 0,
       "title": "Software Development Cost New Zealand: 2025 Pricing Guide",
-      "url_slug": "software_development_costs_in_new_zealand_2025_pricing_guide",
+      "url_slug": "software-development-costs-in-new-zealand-2025-pricing-guide",
       "word_count": 1853
     },
     {
@@ -817,7 +828,7 @@
       "target_keyword": "when to hire first CTO startup",
       "target_volume": 0,
       "title": "When to Hire First CTO Startup: A Founder's Timing Guide",
-      "url_slug": "when_to_hire_your_first_cto_a_startup_founders_timing_guide",
+      "url_slug": "when-to-hire-your-first-cto-a-startup-founders-timing-guide",
       "word_count": 1597
     },
     {
@@ -827,6 +838,7 @@
       "id": 50,
       "keyword_difficulty": "",
       "last_reviewed_at": "2026-04-22T22:24:52.299995+00:00",
+      "page_type": "hub",
       "published_date": "2025-10-12",
       "review_count": 1,
       "review_status": "reviewed",
@@ -834,7 +846,7 @@
       "target_keyword": "how to build an MVP for a startup",
       "target_volume": 0,
       "title": "How to Build an MVP for a Startup: A Founder's Step-by-Step Guide",
-      "url_slug": "how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide",
+      "url_slug": "how-to-build-an-mvp-for-your-startup-a-founders-step-by-step-guide",
       "word_count": 2072
     },
     {
@@ -848,7 +860,7 @@
       "target_keyword": "AI automation for small business owners",
       "target_volume": 0,
       "title": "AI Automation for Small Business Owners: 2025 Implementation Playbook",
-      "url_slug": "ai_automation_for_small_business_owners_2025_implementation_playbook",
+      "url_slug": "ai-automation-for-small-business-owners-2025-implementation-playbook",
       "word_count": 1541
     },
     {
@@ -870,7 +882,7 @@
       "target_keyword": "Wellington custom software development",
       "target_volume": 0,
       "title": "Wellington Custom Software Development: 2025 Guide for Local Businesses",
-      "url_slug": "wellington_custom_software_development_2025_guide_for_local_businesses",
+      "url_slug": "wellington-custom-software-development-2025-guide-for-local-businesses",
       "word_count": 1233
     },
     {
@@ -879,12 +891,13 @@
       "file": "src/blog/posts/053_what_does_a_fractional_cto_do_exactly_roles_responsibilities_deliverables.mdx",
       "id": 53,
       "keyword_difficulty": "",
+      "page_type": "hub",
       "published_date": "2025-10-18",
       "status": "published",
       "target_keyword": "what does a fractional CTO do exactly",
       "target_volume": 0,
       "title": "What Does a Fractional CTO Do Exactly? Roles, Responsibilities & Deliverables",
-      "url_slug": "what_does_a_fractional_cto_do_exactly_roles_responsibilities_deliverables",
+      "url_slug": "what-does-a-fractional-cto-do-exactly-roles-responsibilities-deliverables",
       "word_count": 2201
     },
     {
@@ -898,7 +911,7 @@
       "target_keyword": "technical co-founder vs fractional CTO",
       "target_volume": 0,
       "title": "Technical Co-Founder vs Fractional CTO: Which is Right for Your Startup?",
-      "url_slug": "technical_co_founder_vs_fractional_cto_which_is_right_for_your_startup_2026",
+      "url_slug": "technical-co-founder-vs-fractional-cto-which-is-right-for-your-startup-2026",
       "word_count": 1672
     },
     {
@@ -915,7 +928,7 @@
       "target_keyword": "how to hire developers for startup non-technical founder",
       "target_volume": 0,
       "title": "How to Hire Developers for Startup Non-Technical Founder: Complete 2026 Guide",
-      "url_slug": "how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide_2026",
+      "url_slug": "how-to-hire-developers-for-your-startup-a-non-technical-founders-complete-guide-2026",
       "word_count": 1901
     },
     {
@@ -929,7 +942,7 @@
       "target_keyword": "fractional CTO for healthcare startups",
       "target_volume": 0,
       "title": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
-      "url_slug": "fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy_2026",
+      "url_slug": "fractional-cto-for-healthcare-startups-compliance-tech-stack-growth-strategy-2026",
       "word_count": 1331
     },
     {
@@ -939,6 +952,7 @@
       "id": 57,
       "keyword_difficulty": "",
       "last_reviewed_at": "2026-04-22T22:20:08.921902+00:00",
+      "page_type": "hub",
       "published_date": "2026-01-26",
       "review_count": 1,
       "review_status": "reviewed",
@@ -946,7 +960,7 @@
       "target_keyword": "software development Christchurch New Zealand",
       "target_volume": 0,
       "title": "Software Development Christchurch New Zealand: Complete Guide for Local Businesses (2026)",
-      "url_slug": "software_development_in_christchurch_complete_guide_for_local_businesses_2026",
+      "url_slug": "software-development-in-christchurch-complete-guide-for-local-businesses-2026",
       "word_count": 1935
     },
     {
@@ -960,7 +974,7 @@
       "target_keyword": "when to hire first developer startup",
       "target_volume": 0,
       "title": "When to Hire Your First Developer: A Startup Founder's Timing & Readiness Guide",
-      "url_slug": "when_to_hire_your_first_developer_a_startup_founders_timing_readiness_guide_2026",
+      "url_slug": "when-to-hire-your-first-developer-a-startup-founders-timing-readiness-guide-2026",
       "word_count": 1661
     },
     {
@@ -974,7 +988,7 @@
       "target_keyword": "MVP development cost for SaaS startup",
       "target_volume": 0,
       "title": "MVP Development Cost for SaaS Startups: 2026 Budget Guide (With Real Examples)",
-      "url_slug": "mvp_development_cost_for_saas_startups_2026_budget_guide_with_real_examples",
+      "url_slug": "mvp-development-cost-for-saas-startups-2026-budget-guide-with-real-examples",
       "word_count": 1513
     },
     {
@@ -988,7 +1002,7 @@
       "target_keyword": "how to validate startup idea without coding",
       "target_volume": 0,
       "title": "How to Validate Your Startup Idea Without Writing a Single Line of Code",
-      "url_slug": "how_to_validate_your_startup_idea_without_writing_a_single_line_of_code",
+      "url_slug": "how-to-validate-your-startup-idea-without-writing-a-single-line-of-code",
       "word_count": 1727
     },
     {
@@ -997,12 +1011,13 @@
       "file": "src/blog/posts/061_the_complete_guide_to_nz_startup_grants_funding_2025_edition_with_application_tips.mdx",
       "id": 61,
       "keyword_difficulty": "0",
+      "page_type": "hub",
       "published_date": "2026-02-03",
       "status": "published",
       "target_keyword": "",
       "target_volume": 0,
       "title": "The Complete Guide to NZ Startup Grants & Funding (2026 Edition with Application Tips)",
-      "url_slug": "the_complete_guide_to_nz_startup_grants_funding_2025_edition_with_application_tips",
+      "url_slug": "the-complete-guide-to-nz-startup-grants-funding-2025-edition-with-application-tips",
       "word_count": 2798
     },
     {
@@ -1016,7 +1031,7 @@
       "target_keyword": "",
       "target_volume": 0,
       "title": "How to Choose Your Tech Stack: A Non-Technical Founder's Decision Framework",
-      "url_slug": "how_to_choose_your_tech_stack_a_non_technical_founders_decision_framework",
+      "url_slug": "how-to-choose-your-tech-stack-a-non-technical-founders-decision-framework",
       "word_count": 1722
     },
     {
@@ -1025,12 +1040,13 @@
       "file": "src/blog/posts/063_the_non_technical_founders_complete_guide_to_hiring_your_first_developer.mdx",
       "id": 63,
       "keyword_difficulty": "0",
+      "page_type": "hub",
       "published_date": "2026-02-07",
       "status": "published",
       "target_keyword": "",
       "target_volume": 0,
       "title": "The Non-Technical Founder's Complete Guide to Hiring Your First Developer",
-      "url_slug": "the_non_technical_founders_complete_guide_to_hiring_your_first_developer",
+      "url_slug": "the-non-technical-founders-complete-guide-to-hiring-your-first-developer",
       "word_count": 1531
     },
     {
@@ -1044,7 +1060,7 @@
       "target_keyword": "",
       "target_volume": 0,
       "title": "Startup Runway Calculator: How to Plan Your Cash Runway (NZ-Focused Template)",
-      "url_slug": "startup_runway_calculator_how_to_plan_your_cash_runway_nz_focused_template",
+      "url_slug": "startup-runway-calculator-how-to-plan-your-cash-runway-nz-focused-template",
       "word_count": 1467
     },
     {
@@ -1058,7 +1074,7 @@
       "target_keyword": "",
       "target_volume": 0,
       "title": "Free Software Development Agreement Template for NZ Startups (2026)",
-      "url_slug": "free_software_development_agreement_template_for_nz_startups_2025",
+      "url_slug": "free-software-development-agreement-template-for-nz-startups-2025",
       "word_count": 2209
     },
     {
@@ -1072,7 +1088,7 @@
       "target_keyword": "legacy software modernization strategy",
       "target_volume": 0,
       "title": "Legacy Software Modernization Strategy: NZ Guide",
-      "url_slug": "legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses",
+      "url_slug": "legacy-software-modernization-strategy-a-practical-guide-for-nz-businesses",
       "word_count": 1415
     },
     {
@@ -1086,7 +1102,7 @@
       "target_keyword": "",
       "target_volume": 0,
       "title": "API Integration Services: Connecting Your Business Systems Seamlessly",
-      "url_slug": "api_integration_services_connecting_your_business_systems_seamlessly",
+      "url_slug": "api-integration-services-connecting-your-business-systems-seamlessly",
       "word_count": 1467
     },
     {
@@ -1100,7 +1116,7 @@
       "target_keyword": "cloud migration checklist for small business",
       "target_volume": 0,
       "title": "Cloud Migration Checklist for Small Business NZ 2026",
-      "url_slug": "cloud_migration_checklist_for_small_businesses_2025_nz_edition",
+      "url_slug": "cloud-migration-checklist-for-small-businesses-2025-nz-edition",
       "word_count": 1457
     },
     {
@@ -1114,7 +1130,7 @@
       "target_keyword": "mobile app vs web app for startup",
       "target_volume": 0,
       "title": "Mobile App vs Web App: Which Should Your Startup Build First?",
-      "url_slug": "mobile_app_vs_web_app_which_should_your_startup_build_first",
+      "url_slug": "mobile-app-vs-web-app-which-should-your-startup-build-first",
       "word_count": 1265
     },
     {
@@ -1123,12 +1139,13 @@
       "file": "src/blog/posts/070_product_management_for_non_technical_founders_a_practical_guide.mdx",
       "id": 70,
       "keyword_difficulty": "",
+      "page_type": "hub",
       "published_date": "2026-02-21",
       "status": "published",
       "target_keyword": "product management for non-technical founders",
       "target_volume": 0,
       "title": "Product Management for Non-Technical Founders: A Practical Guide",
-      "url_slug": "product_management_for_non_technical_founders_a_practical_guide",
+      "url_slug": "product-management-for-non-technical-founders-a-practical-guide",
       "word_count": 2249
     },
     {
@@ -1142,7 +1159,7 @@
       "target_keyword": "hire developers new zealand",
       "target_volume": 0,
       "title": "How to Hire Developers in New Zealand (2026)",
-      "url_slug": "how_to_hire_developers_in_new_zealand_a_startup_founders_complete_guide_to_the_local_tech_talent_market",
+      "url_slug": "how-to-hire-developers-in-new-zealand-a-startup-founders-complete-guide-to-the-local-tech-talent-market",
       "word_count": 1631
     },
     {
@@ -1164,7 +1181,7 @@
       "target_keyword": "ai automation trades business",
       "target_volume": 0,
       "title": "AI Automation for Trades Businesses: How Plumbers, Electricians & Builders Are Saving 10+ Hours a Week",
-      "url_slug": "ai_automation_for_trades_businesses_how_plumbers_electricians_builders_are_saving_10_hours_a_week",
+      "url_slug": "ai-automation-for-trades-businesses-how-plumbers-electricians-builders-are-saving-10-hours-a-week",
       "word_count": 1153
     },
     {
@@ -1178,7 +1195,7 @@
       "target_keyword": "part time cto hourly rate nz",
       "target_volume": 0,
       "title": "Part-Time CTO Hourly Rates NZ 2026 | Startup Guide",
-      "url_slug": "part_time_cto_hourly_rates_in_new_zealand_2026_market_guide_for_startups",
+      "url_slug": "part-time-cto-hourly-rates-in-new-zealand-2026-market-guide-for-startups",
       "word_count": 1725
     },
     {
@@ -1200,7 +1217,7 @@
       "target_keyword": "startup cash runway calculator",
       "target_volume": 0,
       "title": "Startup Cash Runway Calculator (Free Template)",
-      "url_slug": "startup_cash_runway_calculator_template_free_download_plan_your_burn_rate_in_minutes",
+      "url_slug": "startup-cash-runway-calculator-template-free-download-plan-your-burn-rate-in-minutes",
       "word_count": 1586
     },
     {
@@ -1214,7 +1231,7 @@
       "target_keyword": "fractional cto saas startup",
       "target_volume": 0,
       "title": "Fractional CTO for SaaS Startups: Scale Without $200k+",
-      "url_slug": "fractional_cto_for_saas_startups_scaling_your_platform_without_the_full_time_price_tag",
+      "url_slug": "fractional-cto-for-saas-startups-scaling-your-platform-without-the-full-time-price-tag",
       "word_count": 1898
     },
     {
@@ -1228,7 +1245,7 @@
       "target_keyword": "sap clean core assessment checklist",
       "target_volume": 0,
       "title": "SAP Clean Core Assessment Checklist: A Practical Framework for S/4HANA Migration",
-      "url_slug": "sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration",
+      "url_slug": "sap-clean-core-assessment-checklist-a-practical-framework-for-s4hana-migration",
       "word_count": 1205
     },
     {
@@ -1242,7 +1259,7 @@
       "target_keyword": "fractional cto for healthcare startups",
       "target_volume": 0,
       "title": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
-      "url_slug": "fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy",
+      "url_slug": "fractional-cto-for-healthcare-startups-compliance-tech-stack-growth-strategy",
       "word_count": 1749
     },
     {
@@ -1251,12 +1268,13 @@
       "file": "src/blog/posts/078_sap_btp_side_by_side_extension_complete_working_example_with_code.mdx",
       "id": 78,
       "keyword_difficulty": "0",
+      "page_type": "hub",
       "published_date": "2026-03-19",
       "status": "published",
       "target_keyword": "sap btp side by side extension",
       "target_volume": 0,
       "title": "SAP BTP Side-by-Side Extension: Working Example",
-      "url_slug": "sap_btp_side_by_side_extension_complete_working_example_with_code",
+      "url_slug": "sap-btp-side-by-side-extension-complete-working-example-with-code",
       "word_count": 2022
     },
     {
@@ -1265,12 +1283,13 @@
       "file": "src/blog/posts/079_technical_due_diligence_checklist_for_angel_investors_evaluating_pre_seed_startups.mdx",
       "id": 79,
       "keyword_difficulty": "0",
+      "page_type": "hub",
       "published_date": "2026-03-20",
       "status": "published",
       "target_keyword": "technical due diligence checklist angel investors",
       "target_volume": 0,
       "title": "Technical Due Diligence Checklist for Angel Investors",
-      "url_slug": "technical_due_diligence_checklist_for_angel_investors_evaluating_pre_seed_startups",
+      "url_slug": "technical-due-diligence-checklist-for-angel-investors-evaluating-pre-seed-startups",
       "word_count": 2457
     },
     {
@@ -1284,7 +1303,7 @@
       "target_keyword": "",
       "target_volume": 0,
       "title": "Fractional CTO Costs in New Zealand: 2025 Pricing Guide for NZ Startups",
-      "url_slug": "fractional_cto_costs_in_new_zealand_2025_pricing_guide_for_nz_startups",
+      "url_slug": "fractional-cto-costs-in-new-zealand-2025-pricing-guide-for-nz-startups",
       "word_count": 1207
     },
     {
@@ -1298,7 +1317,7 @@
       "target_keyword": "sap joule custom skills development tutorial",
       "target_volume": 0,
       "title": "SAP Joule Custom Skills: Beginner Tutorial (2026)",
-      "url_slug": "sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners",
+      "url_slug": "sap-joule-custom-skills-development-step-by-step-tutorial-for-beginners",
       "word_count": 1593
     },
     {
@@ -1312,7 +1331,7 @@
       "target_keyword": "startup runway calculator nz template",
       "target_volume": 0,
       "title": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
-      "url_slug": "startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency",
+      "url_slug": "startup-runway-calculator-nz-template-plan-your-cash-runway-with-local-currency",
       "word_count": 1647
     },
     {
@@ -1321,6 +1340,7 @@
       "file": "src/blog/posts/083_sap_clean_core.mdx",
       "id": 83,
       "keyword_difficulty": "6",
+      "page_type": "hub",
       "published_date": "2026-03-26",
       "status": "published",
       "target_keyword": "sap clean core",
@@ -1349,6 +1369,7 @@
       "file": "src/blog/posts/085_ai_chat_bot_for_business.mdx",
       "id": 85,
       "keyword_difficulty": "27",
+      "page_type": "hub",
       "published_date": "2026-04-10",
       "status": "published",
       "target_keyword": "ai chat bot for business",
@@ -1363,6 +1384,7 @@
       "file": "src/blog/posts/086_ai_for_small_business.mdx",
       "id": 86,
       "keyword_difficulty": "26",
+      "page_type": "hub",
       "published_date": "2026-04-09",
       "status": "published",
       "target_keyword": "ai for small business",
@@ -1377,6 +1399,7 @@
       "file": "src/blog/posts/087_ai_governance_strategy.mdx",
       "id": 87,
       "keyword_difficulty": "21",
+      "page_type": "hub",
       "published_date": "2026-04-08",
       "status": "published",
       "target_keyword": "ai governance strategy",
@@ -1391,6 +1414,7 @@
       "file": "src/blog/posts/088_automation_of_workflow.mdx",
       "id": 88,
       "keyword_difficulty": "25",
+      "page_type": "hub",
       "published_date": "2026-04-07",
       "status": "published",
       "target_keyword": "automation of workflow",
@@ -1405,6 +1429,7 @@
       "file": "src/blog/posts/089_business_ideas_for_ai.mdx",
       "id": 89,
       "keyword_difficulty": "15",
+      "page_type": "hub",
       "published_date": "2026-04-06",
       "status": "published",
       "target_keyword": "business ideas for ai",
@@ -1433,6 +1458,7 @@
       "file": "src/blog/posts/091_ai_in_automation.mdx",
       "id": 91,
       "keyword_difficulty": "22",
+      "page_type": "hub",
       "published_date": "2026-04-04",
       "status": "published",
       "target_keyword": "ai in automation",
@@ -1455,6 +1481,7 @@
       },
       "id": 92,
       "keyword_difficulty": "5",
+      "page_type": "hub",
       "published_date": "2026-04-03",
       "status": "published",
       "target_keyword": "ai automation job",
@@ -1469,6 +1496,7 @@
       "file": "src/blog/posts/093_best_ai_tool_for_business.mdx",
       "id": 93,
       "keyword_difficulty": "5",
+      "page_type": "hub",
       "published_date": "2026-04-02",
       "status": "published",
       "target_keyword": "best ai tool for business",

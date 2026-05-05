@@ -1,10 +1,21 @@
 ---
-title: "SAP Clean Core: What It Is, Why It Matters, and How to Achieve It"
-description: "A practical guide to SAP Clean Core — what the concept means, why SAP is pushing it for S/4HANA, and the concrete steps your organisation should take to get there."
+title: "SAP Clean Core: What It Means & How to Adopt It"
+
+faq:
+  - question: "What is SAP Clean Core?"
+    answer: "SAP Clean Core is a design philosophy and set of practices aimed at keeping the SAP S/4HANA system core as close to the SAP standard as possible, minimizing custom code and simplifying upgrades."
+  - question: "Why is SAP pushing Clean Core?"
+    answer: "SAP is pushing Clean Core to help organizations reduce maintenance costs, accelerate innovation, and ensure smoother transitions to future SAP releases."
+  - question: "How do I migrate to SAP Clean Core?"
+    answer: "Migration involves moving toward standard SAP functionality, reducing customizations, and following a concrete path whether planning an S/4HANA migration or already live."
+  - question: "What are the benefits of Clean Core for my business?"
+    answer: "Benefits include lower maintenance costs, faster innovation, simpler upgrades, and reduced technical debt in your ERP landscape."
+  - question: "Does Clean Core require moving to SAP S/4HANA?"
+    answer: "Clean Core is designed for S/4HANA and helps organizations transition away from heavily customised legacy ERP systems."
+description: "Learn what SAP Clean Core means for your ERP strategy. Discover the real benefits, migration path, and concrete steps to simplify your SAP landscape."
 date: "2026-03-26"
 tags: ["SAP", "Clean Core", "S/4HANA", "SAP BTP", "Enterprise Architecture", "Digital Transformation"]
 ---
-
 If you've attended an SAP event in the past few years, you've heard the phrase. Consultants use it. SAP account executives champion it. Internal architects debate it. But for many organisations still running heavily customised ERP systems, **SAP Clean Core** remains an abstract ideal rather than a practical plan.
 
 This guide cuts through the noise. By the end, you'll understand exactly what Clean Core means, why SAP is pushing it so hard, the tradeoffs involved, and the concrete steps you can take to move in the right direction — whether you're planning an S/4HANA migration or already live and accumulating technical debt.
@@ -64,7 +75,7 @@ You can't fix what you haven't measured. SAP provides tooling to help:
 
 The output of this assessment should give you a clear picture of your red/amber/green split and — crucially — which business processes are driving the most technical debt.
 
-For a more detailed framework, see our [SAP Clean Core Assessment Checklist](/blog/sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration/).
+For a more detailed framework, see our [SAP Clean Core Assessment Checklist](/blog/sap-clean-core-assessment-checklist-a-practical-framework-for-s4hana-migration/).
 
 ### Step 2: Classify Your Custom Objects
 
@@ -91,7 +102,7 @@ These run inside the S/4HANA system but only use SAP's released, stable API surf
 In-app extensions are the right choice for logic that genuinely belongs inside the ERP — custom validation rules, field extensions, output control.
 
 **Side-by-side extensions (SAP BTP)**  
-For more complex requirements, the [side-by-side extension pattern](/blog/sap_btp_side_by_side_extension_complete_working_example_with_code/) moves custom logic entirely off the ERP and onto SAP BTP. The extension communicates with S/4HANA exclusively through public APIs.
+For more complex requirements, the [side-by-side extension pattern](/blog/sap-btp-side-by-side-extension-complete-working-example-with-code/) moves custom logic entirely off the ERP and onto SAP BTP. The extension communicates with S/4HANA exclusively through public APIs.
 
 This approach is ideal for:
 - Complex approval workflows
