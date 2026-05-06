@@ -1,5 +1,5 @@
 ---
-title: "SAP Clean Core Assessment Checklist S/4HANA Migration"
+title: "SAP Clean Core Assessment Checklist: A Practical Framework for S/4HANA Migration"
 
 faq:
   - question: "What is a SAP Clean Core assessment?"
@@ -12,17 +12,19 @@ faq:
     answer: "Governance criteria typically cover process standardisation, compliance requirements, change management protocols, and documentation standards."
   - question: "How long does a SAP Clean Core assessment typically take?"
     answer: "The duration varies by system complexity, but most assessments span several weeks to a few months when following a practical framework."
-description: "Use this SAP Clean Core assessment checklist to evaluate S/4HANA readiness. Covers technical debt, process gaps, and governance criteria."
+description: "A practical SAP Clean Core assessment checklist for evaluating S/4HANA migration readiness. Covers technical debt, process gaps, governance criteria, and scoring framework to reduce project risk."
 date: "2026-03-17"
 tags: ["SAP", "S/4HANA", "Clean Core", "Enterprise Architecture", "Digital Transformation"]
 ---
-A SAP Clean Core assessment checklist evaluates your system readiness for S/4HANA migration by identifying technical debt, process gaps, and governance issues. It covers custom code analysis, data quality checks, process standardisation, and compliance criteria to help prevent project delays.
+# SAP Clean Core Assessment Checklist: A Practical Framework for S/4HANA Migration
+
+A SAP Clean Core assessment checklist evaluates your system readiness for S/4HANA migration by identifying technical debt, process gaps, and governance issues. It covers custom code analysis, data quality checks, process standardisation, and compliance criteria to help prevent project delays. This framework has been refined through multiple enterprise transformations and is designed to give programme managers, enterprise architects, and SAP basis teams a shared language for readiness.
 
 In this article, I'll share a practical framework I've developed through years of leading S/4HANA transformations. Whether you're preparing for a greenfield implementation, brownfield conversion, or selective data transition, this checklist will help you establish a solid foundation.
 
 ## What Is a Clean Core Assessment?
 
-A Clean Core assessment evaluates your existing SAP landscape against the principles of the Clean Core approach. SAP introduced the Clean Core philosophy to help organisations maintain a stable, upgradable system core while enabling innovation through side-by-side extensions and cloud services. If you're new to the concept, start with [SAP Clean Core: What It Is, Why It Matters, and How to Achieve It](/blog/sap-clean-core/) for a thorough grounding before diving into this checklist.
+A Clean Core assessment evaluates your existing SAP landscape against the principles of the Clean Core approach. SAP introduced the Clean Core philosophy to help organisations maintain a stable, upgradable system core while enabling innovation through side-by-side extensions and cloud services. If you're new to the concept, start with [SAP Clean Core: What It Is, Why It Matters, and How to Achieve It](/blog/sap_clean_core/) for a thorough grounding before diving into this checklist. Understanding the philosophy behind Clean Core will make each section of this checklist more actionable.
 
 The assessment examines three critical dimensions:
 
@@ -30,7 +32,7 @@ The assessment examines three critical dimensions:
 - **Process standardisation**: Alignment with SAP standard processes versus custom workflows
 - **Governance maturity**: Change management, documentation practices, and compliance frameworks
 
-Without this baseline understanding, migration projects often encounter scope creep, budget overruns, and delayed go-live dates.
+Without this baseline understanding, migration projects often encounter scope creep, budget overruns, and delayed go-live dates. Organisations that skip a formal assessment typically discover critical gaps during the realise phase, when remediation is exponentially more expensive.
 
 ## The Clean Core Assessment Checklist
 
@@ -88,6 +90,7 @@ Without this baseline understanding, migration projects often encounter scope cr
 - [ ] Define target landscape (single tenant vs. multi-tenant)
 - [ ] Plan sandbox, development, quality, and production environments
 - [ ] Assess SAP BTP requirements for extensions and integrations
+- [ ] Review integration architecture against modern API-first patterns. For a broader view on connecting systems, see [API Integration Services: Connecting Your Business Systems Seamlessly](/blog/api_integration_services_connecting_your_business_systems_seamlessly/)
 - [ ] Document release and transport management approach
 - [ ] Plan for continuous innovation and quarterly upgrades
 
@@ -99,7 +102,7 @@ Without this baseline understanding, migration projects often encounter scope cr
 - [ ] Document in-app extensibility requirements
 - [ ] Assess third-party add-ons and their S/4HANA compatibility
 
-For organisations planning to move custom logic off the core, [SAP BTP Side-by-Side Extension: Complete Working Example with Code](/blog/sap-btp-side-by-side-extension-complete-working-example-with-code/) shows exactly how to structure a BTP extension project end to end.
+For organisations planning to move custom logic off the core, [SAP BTP Side-by-Side Extension: Complete Working Example with Code](/blog/sap_btp_side_by_side_extension_complete_working_example_with_code/) shows exactly how to structure a BTP extension project end to end.
 
 #### 8. AI and Automation Readiness
 
@@ -111,7 +114,7 @@ As S/4HANA deployments increasingly leverage embedded AI features, it is worth a
 - [ ] Document data quality requirements for AI-assisted process optimisation
 - [ ] Evaluate readiness to adopt SAP Build Process Automation
 
-If you plan to extend your S/4HANA investment with AI-assisted capabilities, [SAP Joule Custom Skills Development: Step-by-Step Tutorial for Beginners](/blog/sap-joule-custom-skills-development-step-by-step-tutorial-for-beginners/) explains how to build custom Joule skills on top of BTP.
+If you plan to extend your S/4HANA investment with AI-assisted capabilities, [SAP Joule Custom Skills Development: Step-by-Step Tutorial for Beginners](/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/) explains how to build custom Joule skills on top of BTP.
 
 ## Scoring Your Assessment
 
@@ -123,7 +126,7 @@ Once you've worked through the checklist, score each section on a scale of 1-5:
 | 3 | Moderate complexity | Plan for remediation during migration |
 | 4-5 | Clean and ready | Proceed with migration planning |
 
-A total score below 20 suggests significant preparation work is needed. Scores between 20-30 indicate moderate readiness with some targeted remediation required. Above 30, you're in good shape to proceed with migration planning.
+A total score below 20 suggests significant preparation work is needed. Scores between 20-30 indicate moderate readiness with some targeted remediation required. Above 30, you're in good shape to proceed with migration planning. If your score is low, don't panic—many organisations start here. The key is to use the results to build a prioritised roadmap rather than attempting to fix everything at once.
 
 ## Common Pitfalls to Avoid
 
@@ -136,6 +139,8 @@ Based on my experience with S/4HANA transformations, here are the most common mi
 **Overlooking integration complexity**: Point-to-point integrations are the silent killers of S/4HANA projects. Modernise your integration architecture before migration.
 
 **Failing to document business rationale**: Every customisation should have a documented business justification. If you can't explain why it exists, it probably shouldn't.
+
+**Neglecting cloud readiness**: S/4HANA is increasingly deployed in cloud or hybrid models. Assess your infrastructure, network latency, and security posture early. If you're also migrating non-SAP workloads, the principles in Cloud Migration Checklist for Small Business NZ 2026 offer a useful parallel framework for broader cloud readiness.
 
 ## Building Your Clean Core Roadmap
 
@@ -151,12 +156,14 @@ A thorough **SAP Clean Core assessment** isn't a box-ticking exercise—it's the
 
 The checklist above provides a starting point, but every organisation is unique. If you're planning an S/4HANA migration and need guidance on your Clean Core assessment, reach out to discuss how I can help evaluate your readiness and develop a tailored migration strategy.
 
-Remember: the goal isn't perfection—it's understanding. A realistic assessment of your current state, warts and all, will serve you better than optimistic assumptions that unravel during implementation.
+Remember: the goal isn't perfection—it's understanding. A realistic assessment of your current state, warts and all, will serve you better than optimistic assumptions that unravel during implementation. The organisations that succeed with S/4HANA are those that treat the Clean Core assessment as a living document—revisited at key milestones, updated as remediation completes, and shared across technical and business stakeholders.
 
 ---
 
 ## Related Articles
 
-- [SAP Clean Core: What It Is, Why It Matters, and How to Achieve It](/blog/sap-clean-core/)
-- [SAP BTP Side-by-Side Extension: Complete Working Example with Code](/blog/sap-btp-side-by-side-extension-complete-working-example-with-code/)
-- [SAP Joule Custom Skills Development: Step-by-Step Tutorial for Beginners](/blog/sap-joule-custom-skills-development-step-by-step-tutorial-for-beginners/)
+- [SAP Clean Core: What It Is, Why It Matters, and How to Achieve It](/blog/sap_clean_core/)
+- [SAP BTP Side-by-Side Extension: Complete Working Example with Code](/blog/sap_btp_side_by_side_extension_complete_working_example_with_code/)
+- [SAP Joule Custom Skills Development: Step-by-Step Tutorial for Beginners](/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/)
+- [API Integration Services: Connecting Your Business Systems Seamlessly](/blog/api_integration_services_connecting_your_business_systems_seamlessly/)
+- Cloud Migration Checklist for Small Business NZ 2026
