@@ -15,7 +15,10 @@ faq:
 description: "Learn what SAP Clean Core means for your ERP strategy. Discover the real benefits, migration path, and concrete steps to simplify your SAP landscape."
 date: "2026-03-26"
 tags: ["SAP", "Clean Core", "S/4HANA", "SAP BTP", "Enterprise Architecture", "Digital Transformation"]
+canonical: "https://www.learnedlate.com/blog/sap_clean_core"
 ---
+SAP Clean Core is a strategy to keep your SAP ERP system lean, modern, and upgrade-ready by moving custom code to extensions and using standard functionality. It reduces technical debt, simplifies cloud migration, and ensures your core system stays stable while innovations happen on the edge.
+
 If you've attended an SAP event in the past few years, you've heard the phrase. Consultants use it. SAP account executives champion it. Internal architects debate it. But for many organisations still running heavily customised ERP systems, **SAP Clean Core** remains an abstract ideal rather than a practical plan.
 
 This guide cuts through the noise. By the end, you'll understand exactly what Clean Core means, why SAP is pushing it so hard, the tradeoffs involved, and the concrete steps you can take to move in the right direction — whether you're planning an S/4HANA migration or already live and accumulating technical debt.
@@ -77,6 +80,8 @@ The output of this assessment should give you a clear picture of your red/amber/
 
 For a more detailed framework, see our [SAP Clean Core Assessment Checklist](/blog/sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration/).
 
+If you're also evaluating broader legacy system risks beyond SAP, our [legacy software modernization strategy guide](/blog/legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses/) provides a complementary framework for non-SAP environments.
+
 ### Step 2: Classify Your Custom Objects
 
 Not all customisations are created equal. Once you've identified your custom objects, classify them:
@@ -102,7 +107,7 @@ These run inside the S/4HANA system but only use SAP's released, stable API surf
 In-app extensions are the right choice for logic that genuinely belongs inside the ERP — custom validation rules, field extensions, output control.
 
 **Side-by-side extensions (SAP BTP)**  
-For more complex requirements, the [side-by-side extension pattern](/blog/sap_btp_side_by_side_extension_complete_working_example_with_code/) moves custom logic entirely off the ERP and onto SAP BTP. The extension communicates with S/4HANA exclusively through public APIs.
+For more complex requirements, the [side-by-side extension pattern](/blog/sap_btp_side_by_side_extension_complete_working_example_with_code/) moves custom logic entirely off the ERP and onto SAP BTP. The extension communicates with S/4HANA exclusively through public APIs. If you're new to API-based integrations, our [API integration services guide](/blog/api_integration_services_connecting_your_business_systems_seamlessly/) explains the fundamentals that underpin this architecture.
 
 This approach is ideal for:
 - Complex approval workflows
@@ -110,8 +115,9 @@ This approach is ideal for:
 - Customer-facing portals
 - Industry-specific calculations
 - AI/ML workloads
+- Cloud-native extensions that need independent scaling
 
-Side-by-side extensions have zero impact on S/4HANA upgrades and can be developed, tested, and deployed independently.
+Side-by-side extensions have zero impact on S/4HANA upgrades and can be developed, tested, and deployed independently. For organisations also moving non-SAP workloads to the cloud, our [cloud migration checklist for small businesses](/blog/cloud_migration_checklist_for_small_businesses_2025_nz_edition/) covers the broader infrastructure considerations.
 
 ### Step 4: Prioritise by Business Impact and Risk
 
@@ -149,7 +155,7 @@ The opposite is true in the medium term. When your system is clean, you can cons
 
 ## Clean Core and SAP AI: The Hidden Connection
 
-One dimension of Clean Core that doesn't get enough attention is its relationship to SAP's AI strategy. SAP Joule — the AI copilot embedded across SAP's cloud portfolio — operates on the assumption that your data and processes are aligned to SAP's standard model.
+One dimension of Clean Core that doesn't get enough attention is its relationship to SAP's AI strategy. [SAP Joule](/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/) — the AI copilot embedded across SAP's cloud portfolio — operates on the assumption that your data and processes are aligned to SAP's standard model.
 
 When you have custom Z-tables storing data that should be in standard SAP structures, Joule can't see it. When you have custom approval processes outside the standard workflow engine, AI-driven process recommendations don't apply. When your integration landscape is a tangle of proprietary interfaces, event-driven AI use cases are blocked.
 
