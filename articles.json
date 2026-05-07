@@ -4704,6 +4704,42 @@
       "cluster_role": "support",
       "internal_links": [],
       "excerpt": "Complete 2026 guide to AI consultant salaries. Compare earnings by experience level, location, and specialization. Includes freelance rate benchmarks and NZ-specific data."
+    },
+    {
+      "id": 98,
+      "title": "AI Consultant Certification: Top 2026 Credentials",
+      "url_slug": "098_ai_consultant_certification",
+      "file": "./src/blog/posts/098_ai_consultant_certification.mdx",
+      "target_keyword": "ai consultant certification",
+      "keyword_difficulty": "0",
+      "target_volume": 590,
+      "published_date": "2026-05-04",
+      "word_count": 258,
+      "status": "published",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "ai-automation",
+      "cluster_role": "support",
+      "internal_links": [],
+      "excerpt": "Compare the best AI consultant certifications for 2026. See costs, time commitments, and ROI to choose credentials that advance your consulting career."
+    },
+    {
+      "id": 99,
+      "title": "AI Readiness Assessment: A Practical Framework for Evaluating Your Organisation",
+      "url_slug": "099_ai_readiness_assessment",
+      "file": "./src/blog/posts/099_ai_readiness_assessment.mdx",
+      "target_keyword": "ai readiness assessment",
+      "keyword_difficulty": "0",
+      "target_volume": 590,
+      "published_date": "2026-05-03",
+      "word_count": 222,
+      "status": "published",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "ai-automation",
+      "cluster_role": "support",
+      "internal_links": [],
+      "excerpt": "A practical AI readiness assessment framework for organisations of any size. Evaluate strategy, data, technology, talent, culture, and governance before investing in AI."
     }
   ]
 }

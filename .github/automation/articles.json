@@ -1550,7 +1550,7 @@
       "id": 95,
       "keyword_difficulty": "12",
       "published_date": "2026-05-04",
-      "status": "draft",
+      "status": "published",
       "target_keyword": "ai consultant certification",
       "target_volume": 880,
       "title": "AI Consultant Certification: The Complete 2026 Guide to Credentials That Matter",
@@ -1564,7 +1564,7 @@
       "id": 96,
       "keyword_difficulty": "15",
       "published_date": "2026-05-03",
-      "status": "draft",
+      "status": "published",
       "target_keyword": "ai readiness assessment",
       "target_volume": 590,
       "title": "AI Readiness Assessment: A Practical Framework for Evaluating Your Organisation",
@@ -1572,5 +1572,5 @@
       "word_count": 1810
     }
   ],
-  "nextArticleId": 97
+  "nextArticleId": 98
 }
