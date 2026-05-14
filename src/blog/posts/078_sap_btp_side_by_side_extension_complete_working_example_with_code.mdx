@@ -1,5 +1,5 @@
 ---
-title: "SAP BTP Side-by-Side Extension: Full Working Example"
+title: "SAP BTP Side-by-Side Extension: Complete CAP + Node.js + React Working Example"
 faq:
   - question: "What is a side-by-side extension in SAP BTP?"
     answer: "A side-by-side extension is an application that runs independently on SAP BTP and communicates with S/4HANA through public APIs, extending core business processes without modifying the ERP system."
@@ -13,7 +13,7 @@ faq:
     answer: "You can use Node.js, Java, Python, or Go for the backend, and React, Angular, or SAP UI5 for the frontend. The example in this guide uses Node.js with CAP and React with TypeScript."
   - question: "How do you handle authentication between SAP BTP and S/4HANA?"
     answer: "Authentication is handled through SAP BTP's XSUAA service and the Destination service, which securely manages OAuth 2.0 tokens and SAML assertions for S/4HANA connectivity."
-description: "SAP BTP side-by-side extension guide with complete working example, source code, and step-by-step deployment. Extend S/4HANA with CAP and Node.js."
+description: "Build a production-ready SAP BTP side-by-side extension with CAP, Node.js, and React. Complete working example with source code, MTA deployment config, and S/4HANA integration patterns."
 date: "2026-03-19"
 tags: ["SAP BTP", "Side-by-Side Extension", "SAP S/4HANA", "Cloud Foundry", "Clean Core", "CAP", "Node.js", "React"]
 canonical: "https://www.learnedlate.com/blog/sap_btp_side_by_side_extension_complete_working_example_with_code"
@@ -35,9 +35,11 @@ The architecture follows SAP's recommended three-tier pattern: a React frontend 
 
 If you're planning or executing an S/4HANA migration, extension strategy is one of the highest-impact decisions you'll make. Organisations that move custom code into side-by-side extensions report faster upgrades, lower testing overhead, and clearer separation between SAP-delivered functionality and custom business logic. The [SAP Clean Core Assessment Checklist](/blog/sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration/) provides a practical framework for evaluating which of your current extensions should be rebuilt using this pattern.
 
+For teams weighing different modernisation paths, our [Legacy Software Modernization Strategy](/blog/legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses/) guide compares rewrite, refactor, and extend options with real-world decision criteria.
+
 Unlike in-app extensions that modify S/4HANA directly through BAdIs or enhancements, side-by-side extensions run independently on SAP BTP. This means you can deploy updates to your extension multiple times per day without scheduling S/4HANA downtime or regression-testing core functionality. For teams moving from traditional ABAP development, this represents a fundamental shift in how custom solutions are delivered and maintained.
 
-## What Is a Side-by-Side Extension?
+## Core Characteristics of a Side-by-Side Extension
 
 A side-by-side extension is an application that:
 
@@ -47,6 +49,8 @@ A side-by-side extension is an application that:
 - Can be developed, deployed, and upgraded independently
 
 This approach aligns perfectly with the [Clean Core methodology](/blog/sap_clean_core/), ensuring your S/4HANA system remains stable, upgradeable, and free from custom code complications.
+
+Unlike in-app extensions that modify S/4HANA directly through BAdIs or enhancements, side-by-side extensions run independently on SAP BTP. This means you can deploy updates to your extension multiple times per day without scheduling S/4HANA downtime or regression-testing core functionality. For teams moving from traditional ABAP development, this represents a fundamental shift in how custom solutions are delivered and maintained.
 
 ## Architecture Overview
 
@@ -79,7 +83,7 @@ Before starting, ensure you have:
 - S/4HANA Cloud system with appropriate communication arrangements
 - Basic familiarity with Node.js and React
 
-## Step 1: Set Up the Backend Service
+## Step 1: Set Up the CAP Backend Service
 
 Create a new directory for your project and initialise the Node.js application:
 
@@ -366,7 +370,7 @@ resources:
       path: ./xs-security.json
 ```
 
-## Step 3: Build the React Frontend
+## Step 3: Build the React Frontend with TypeScript
 
 Create a simple React application for the UI:
 
@@ -546,7 +550,7 @@ function App() {
 export default App;
 ```
 
-## Step 4: Deploy and Test
+## Step 4: Build, Deploy, and Test on Cloud Foundry
 
 Build and deploy the application:
 
@@ -575,7 +579,7 @@ Side-by-side extensions eliminate this trade-off entirely. Because they run on S
 
 For organisations planning an S/4HANA migration, this architectural choice is critical. Our [SAP Clean Core Assessment Checklist](/blog/sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration/) provides a practical framework for evaluating whether your current extensions should be rebuilt as side-by-side applications.
 
-## Key Patterns and Best Practices
+## Key Patterns and Best Practices for SAP BTP Extensions
 
 Through this example, several important patterns emerge:
 
@@ -595,7 +599,9 @@ Authentication flows through SAP BTP's XSUAA service. Users must have appropriat
 
 For production scenarios, consider the [SAP Event Mesh](https://help.sap.com/docs/SAP_EM) approach: S/4HANA publishes events when orders are created, and your extension consumes them asynchronously. This reduces coupling further and integrates well with [API integration services](/blog/api_integration_services_connecting_your_business_systems_seamlessly/) you may already have in place. Event-driven architectures also improve resilience—your extension can process events even when S/4HANA is temporarily unavailable.
 
-## Troubleshooting Common Issues
+If you're building extensions that include AI capabilities, the [SAP Joule Custom Skills Development tutorial](/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/) shows how to integrate conversational AI into BTP applications.
+
+## Troubleshooting Common Deployment Issues
 
 ### Destination Not Found
 
@@ -639,13 +645,13 @@ Verify your communication arrangement in S/4HANA:
 This working example demonstrates the practical reality of side-by-side extensions on SAP BTP. By keeping your core clean and extending through external applications, you gain:
 
 - **Independence**: Deploy updates without S/4HANA downtime
-- **Flexibility**: Use modern languages and frameworks
+- **Flexibility**: Use modern languages and frameworks like Node.js, React, and CAP
 - **Scalability**: Scale the extension independently from core ERP resources
-- **Future-proofing**: Easier upgrades and maintenance
+- **Future-proofing**: Easier upgrades and maintenance through API-first integration
 
 The patterns shown here apply broadly across extension types. For a deeper dive into Clean Core architecture, see our [SAP Clean Core: What It Is, Why It Matters, and How to Achieve It](/blog/sap_clean_core/) guide, and our [SAP Clean Core Assessment Checklist](/blog/sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration/) for evaluating your current landscape.
 
-If you're looking to add AI capabilities to your extensions, the [SAP Joule Custom Skills Development tutorial](/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/) shows how to build custom skills that work alongside BTP extensions.
+If you're looking to add AI capabilities to your extensions, the [SAP Joule Custom Skills Development tutorial](/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/) shows how to build custom skills that work alongside BTP applications.
 
 If you're planning an S/4HANA migration and need guidance on extension strategy, [schedule a consultation](/contact) to discuss your specific requirements.
 
@@ -657,5 +663,6 @@ If you're planning an S/4HANA migration and need guidance on extension strategy,
 - [API Integration Services: Connecting Your Business Systems Seamlessly](/blog/api_integration_services_connecting_your_business_systems_seamlessly/)
 - [Legacy Software Modernization Strategy: A Practical Guide for NZ Businesses](/blog/legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses/)
 - [Cloud Migration Checklist for Small Businesses: 2026 NZ Edition](/blog/cloud-migration-checklist-small-business-2025-nz/)
-- SAP BTP vs Traditional ABAP Development: Choosing the Right Approach
-- Understanding SAP BTP Services: A Comprehensive Overview
+- [How to Choose Your Tech Stack: A Non-Technical Founder's Decision Framework](/blog/how_to_choose_your_tech_stack_a_non_technical_founders_decision_framework/)
+- [Legacy Software Modernization Strategy: A Practical Guide for NZ Businesses](/blog/legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses/)
+- [Cloud Migration Checklist for Small Businesses: 2026 NZ Edition](/blog/cloud-migration-checklist-small-business-2025-nz/)
