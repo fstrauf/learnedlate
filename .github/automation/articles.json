@@ -1634,7 +1634,35 @@
       "title": "AI Readiness Assessment: A Practical Framework for Evaluating Your Organisation",
       "url_slug": "ai-readiness-assessment",
       "word_count": 1810
+    },
+    {
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "file": "./src/blog/posts/100_ai_development_services.mdx",
+      "id": 97,
+      "keyword_difficulty": "12",
+      "published_date": "2026-05-17",
+      "status": "published",
+      "target_keyword": "ai development services",
+      "target_volume": 2900,
+      "title": "AI Development Services: A Practical Guide for Business Leaders in 2026",
+      "url_slug": "ai-development-services",
+      "word_count": 2303
+    },
+    {
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "file": "./src/blog/posts/100_generative_ai_development_services.mdx",
+      "id": 98,
+      "keyword_difficulty": "13",
+      "published_date": "2026-05-16",
+      "status": "published",
+      "target_keyword": "generative ai development services",
+      "target_volume": 1000,
+      "title": "Generative AI Development Services: What to Expect in 2026",
+      "url_slug": "generative-ai-development-services",
+      "word_count": 1796
     }
   ],
-  "nextArticleId": 97
+  "nextArticleId": 99
 }

@@ -4740,6 +4740,42 @@
       "cluster_role": "support",
       "internal_links": [],
       "excerpt": "A practical AI readiness assessment framework for organisations of any size. Evaluate strategy, data, technology, talent, culture, and governance before investing in AI."
+    },
+    {
+      "id": 100,
+      "title": "AI Development Services: A Practical Guide for Business Leaders in 2026",
+      "url_slug": "100_ai_development_services",
+      "file": "./src/blog/posts/100_ai_development_services.mdx",
+      "target_keyword": "ai development services",
+      "keyword_difficulty": "0",
+      "target_volume": 0,
+      "published_date": "2026-05-17",
+      "word_count": 2557,
+      "status": "published",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "ai-automation",
+      "cluster_role": "support",
+      "internal_links": [],
+      "excerpt": "A practical 2026 guide to AI development services: what they include, typical costs, how to choose a provider, and when custom development beats off-the-shelf tools."
+    },
+    {
+      "id": 101,
+      "title": "Generative AI Development Services: What to Expect in 2026",
+      "url_slug": "100_generative_ai_development_services",
+      "file": "./src/blog/posts/100_generative_ai_development_services.mdx",
+      "target_keyword": "generative ai development services",
+      "keyword_difficulty": "0",
+      "target_volume": 0,
+      "published_date": "2026-05-16",
+      "word_count": 2064,
+      "status": "published",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "ai-automation",
+      "cluster_role": "support",
+      "internal_links": [],
+      "excerpt": "What generative AI development services include, how to evaluate providers, and what to budget for a production deployment in 2026."
     }
   ]
 }
