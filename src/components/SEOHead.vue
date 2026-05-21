@@ -76,7 +76,6 @@ const organizationSchema = {
     "AI Workflow Automation",
     "Delivery Partnership"
   ],
-  "email": "hello@learnedlate.com",
   "sameAs": [
     "https://x.com/learnedlate"
   ]

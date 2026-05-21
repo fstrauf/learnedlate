@@ -173,30 +173,58 @@ async function prerender() {
  * The <!--email_off--><!--/email_off--> comments tell Cloudflare to skip obfuscation.
  */
 function addCloudflareEmailOffComments(html) {
-  // First, wrap all email addresses with Cloudflare email_off comments
-  // This prevents Cloudflare from rewriting them
-  // The pattern matches typical email formats
+  const protectedRegions = []
+  let counter = 0
+
+  // Protect <script> blocks (JSON-LD, hydration data, etc.)
+  // so we don't inject HTML comments into valid JavaScript/JSON
+  html = html.replace(/<script\b[\s\S]*?<\/script>/gi, (match) => {
+    const placeholder = `__SCRIPT_PLACEHOLDER_${counter++}__`
+    protectedRegions.push({ placeholder, content: match })
+    return placeholder
+  })
+
+  // Protect existing email_off regions so we don't double-wrap
+  html = html.replace(/<!--email_off-->[\s\S]*?<!--\/email_off-->/gi, (match) => {
+    const placeholder = `__EMAILOFF_PLACEHOLDER_${counter++}__`
+    protectedRegions.push({ placeholder, content: match })
+    return placeholder
+  })
+
+  // Wrap remaining email addresses with Cloudflare email_off comments
   const emailPattern = /([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/g
-  
   html = html.replace(emailPattern, (match, email, offset) => {
-    // Skip if already wrapped or if it's part of a URL path (not mailto)
-    const before = html.slice(Math.max(0, offset - 20), offset)
-    const after = html.slice(offset + match.length, offset + match.length + 20)
-    
-    // Skip if already wrapped in email_off comments
-    if (before.includes('<!--email_off-->') || after.includes('<!--/email_off-->')) {
+    const before = html.slice(Math.max(0, offset - 40), offset)
+    const after = html.slice(offset + match.length, offset + match.length + 10)
+
+    // Skip if inside a mailto: URL (href attribute or plain text)
+    if (before.includes('mailto:')) {
       return match
     }
-    
-    // Skip if this looks like it's in a URL path (not an email address)
-    if (before.endsWith('/') || after.startsWith('/')) {
+
+    // Skip if inside an HTML tag attribute value
+    // (e.g. href="...", data-email="...", etc.)
+    const lastOpen = html.lastIndexOf('<', offset)
+    const lastClose = html.lastIndexOf('>', offset)
+    if (lastOpen > lastClose) {
       return match
     }
-    
+
+    // Skip if followed immediately by a path separator
+    // (part of a URL path, not a standalone email)
+    if (after.startsWith('/')) {
+      return match
+    }
+
     // Wrap with email_off comments
     return `<!--email_off-->${email}<!--/email_off-->`
   })
-  
+
+  // Restore protected regions in reverse order
+  for (const { placeholder, content } of protectedRegions.reverse()) {
+    html = html.replace(placeholder, () => content)
+  }
+
   return html
 }
 
