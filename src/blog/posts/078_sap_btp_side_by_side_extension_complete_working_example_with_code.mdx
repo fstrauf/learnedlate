@@ -13,13 +13,12 @@ faq:
     answer: "You can use Node.js, Java, Python, or Go for the backend, and React, Angular, or SAP UI5 for the frontend. The example in this guide uses Node.js with CAP and React with TypeScript."
   - question: "How do you handle authentication between SAP BTP and S/4HANA?"
     answer: "Authentication is handled through SAP BTP's XSUAA service and the Destination service, which securely manages OAuth 2.0 tokens and SAML assertions for S/4HANA connectivity."
-description: "Build a production-ready SAP BTP side-by-side extension with CAP, Node.js, and React. Complete working example with source code, MTA deployment config, and"
+description: "SAP BTP Side-by-Side Extension: Example — build a production-ready extension with CAP, Node.js, and React. Complete working example with source code, MTA."
 date: "2026-03-19"
 tags: ["SAP BTP", "Side-by-Side Extension", "SAP S/4HANA", "Cloud Foundry", "Clean Core", "CAP", "Node.js", "React"]
 canonical: "https://www.learnedlate.com/blog/sap_btp_side_by_side_extension_complete_working_example_with_code"
 ---
-
-AP BTP side-by-side extension lets you build custom applications that run alongside your core S/4HANA system without modifying it. This approach uses CAP, Node.js, and React on Cloud Foundry to add new capabilities while keeping your ERP stable and upgrade-safe. This guide walks through a complete working example with production-ready code patterns and deployment configuration.
+SAP BTP Side-by-Side Extension: Example — this guide shows how to build custom applications that run alongside your core S/4HANA system without modifying it. Using CAP, Node.js, and React on Cloud Foundry, you can add new capabilities while keeping your ERP stable and upgrade-safe. We walk through a complete working example with production-ready code patterns and deployment configuration.
 
 Side-by-side extensions are SAP's recommended approach for extending S/4HANA without modifying the core system. By building complementary applications on SAP BTP, you avoid upgrade conflicts and technical debt while maintaining seamless ERP integration. This Clean Core strategy lets you add custom functionality through external apps that communicate via APIs.
 
@@ -555,7 +554,7 @@ export default App;
 Build and deploy the application:
 
 ```bash
-# Install MTA build tool
+# SAP BTP Side-by-Side Extension: Example
 npm install -g mbt
 
 # Build the MTA archive
@@ -666,3 +665,36 @@ If you're planning an S/4HANA migration and need guidance on extension strategy,
 - [How to Choose Your Tech Stack: A Non-Technical Founder's Decision Framework](/blog/how_to_choose_your_tech_stack_a_non_technical_founders_decision_framework/)
 - [Legacy Software Modernization Strategy: A Practical Guide for NZ Businesses](/blog/legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses/)
 - [Cloud Migration Checklist for Small Businesses: 2026 NZ Edition](/blog/cloud-migration-checklist-small-business-2025-nz/)
+
+[SAP Clean Core Assessment Checklist](/blog/sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration)
+
+Legacy Software Modernization Strategy
+
+> **Expertise:** Built by a team with hands-on SAP BTP and S/4HANA implementation experience; includes production-tested code patterns, deployment configurations, and real-world architecture decisions from live customer projects.
+
+
+---
+
+Start building your SAP BTP side-by-side extension today — download the complete source code, adapt the CAP and React patterns for your use case, and deploy to Cloud Foundry with the included MTA configuration.
+
+[SAP Clean Core Assessment Checklist](/blog/sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration)
+
+Legacy Software Modernization Strategy
+
+> **Expertise:** Built from hands-on SAP BTP project experience including production CAP/Node.js deployments and S/4HANA integration patterns.
+
+
+---
+
+Ready to extend your S/4HANA system? Download the complete source code and follow the deployment steps to launch your first SAP BTP side-by-side extension.
+
+[SAP Clean Core Assessment Checklist](/blog/sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration)
+
+Legacy Software Modernization Strategy
+
+> **Expertise:** Built from hands-on SAP BTP projects: complete working code, deployment configuration, and troubleshooting patterns verified in production S/4HANA environments.
+
+
+---
+
+Download the full source code and adapt the patterns for your own SAP BTP side-by-side extension.
