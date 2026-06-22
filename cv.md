@@ -8,7 +8,7 @@ florian@learnedlate.com | [Twitter](https://x.com/learnedlate) | [LinkedIn](http
 
 ## SUMMARY
 
-Former SAP Solution Architect and technology leader with 20+ years of experience across customer advisory, presales, solution architecture, and hands-on product building. I help translate business priorities into practical technology decisions, particularly where AI, automation, data, and custom software intersect. My background combines deep SAP and enterprise experience with recent hands-on work building and operating AI-enabled products and workflows, giving me both strategic and practical credibility. I have worked across executive advisory, build-vs-buy evaluation, GTM support, architecture planning, and the development of business cases for emerging technologies.
+Former SAP Solution Architect and technology leader with 20+ years of experience across enterprise advisory, presales, solution architecture, and hands-on product building. I help translate business priorities into practical technology decisions, particularly where AI, automation, data, and custom software intersect. My background combines deep SAP and enterprise experience with recent hands-on work building and operating AI-enabled products and workflows, giving me both strategic and practical credibility. I have worked across executive advisory, build-vs-buy evaluation, GTM support, architecture planning, and the development of business cases for emerging technologies.
 
 ## AREAS OF EXPERTISE
 
@@ -28,10 +28,10 @@ Former SAP Solution Architect and technology leader with 20+ years of experience
 Building a consulting practice focused on practical AI strategy, workflow automation, and custom software for businesses that need a clearer starting point, a better process, or a custom build when packaged tools are not enough.
 
 **Relevant Work:**
+- Supported solution architecture work for New Zealand Packing and Kiwifruit Management Company, helping assess ERP direction, build-vs-buy tradeoffs. Architected and implemented a production-ready ArcGIS integration, proving the viability of mapping complex spatial data into core business workflows.
 - Designed and operated an internal SEO workflow that automates keyword research, content generation, publishing, and iteration across owned sites, contributing to 200k+ search impressions with $0 ad spend.
 - Use this system as a live environment for testing AI-enabled workflows, content operations automation, and build-vs-buy decisions around standard tools versus custom software.
 - Developed an advisory approach around AI opportunity assessment, workflow redesign, and implementation planning, grounded in hands-on system building rather than theory.
-- Supported solution architecture work for New Zealand Packing and Kiwifruit Management Company, helping assess ERP direction, build-vs-buy tradeoffs, and where packaged platforms could be complemented by custom workflow and AI-enabled solutions.
 
 ### Founder & Builder at [daystoexpiry.com](https://daystoexpiry.com)
 **2025 - Present**
@@ -78,8 +78,8 @@ Progressed through multiple roles at SAP across innovation, presales, and soluti
 - **Global Ports & Critical Infrastructure**: Led and supported solution architecture for major port authorities and terminal operators, including APM Terminals, Port of Rotterdam, Port of Hamburg, and Port of Singapore. Worked on TOS modernisation, container planning and loading optimisation, and end‑to‑end port digitalisation initiatives across IoT, maps, and data‑driven decision support.
 - **Blockchain & Innovation Leadership (2021)**: Shaped SAP's strategy for emerging decentralized and AI-adjacent technologies, developing board-level proposals on crypto payments, token-based revenue models, and how new technologies could extend SAP's portfolio. Built business cases around new solution areas, translated complex technical concepts into executive decision material, and led supply chain carbon use cases across the German automotive industry, including SAP's engagement in Catena-X and Gaia-X.
 - **Asset Intensive Industries (2020-2021)**: Served as Solution Architect in the SAP Centre of Excellence for Asset Intensive Industries, connecting customer requirements to solution architecture, roadmap planning, and product extension strategy. Supported GTM planning as subject matter expert for Intelligent Asset Management (IAM), helping position solutions against industry needs and adoption opportunities.
-- **Innovative Business Solutions (2018-2020)**: Led solution architecture for IBSO proposals, translating customer challenges into solution options, business value narratives, and practical delivery approaches. Developed GTM approaches for new markets and products, supported presales engagements, and presented innovation topics at industry events.
-- **Applied Technology Innovation (2014-2018)**: Led delivery teams across innovation projects, proof of concepts, and pilots moving into productive use. Provided technical sales support for intelligent asset management offerings, owned IoT service areas, and worked across maps, connected asset, and data-driven use cases to turn new technologies into deployable customer solutions.
+- **Innovative Business Solutions (2018-2020)**: Architected custom solution blueprints for complex enterprise requirements where standard SAP core software required advanced extensions. Translated customer challenges into solution options, business value narratives, and practical delivery approaches. Developed GTM approaches for new markets and products, supported presales engagements, and presented innovation topics at industry events.
+- **Applied Technology Innovation (2014-2018)**: Led technical delivery teams from initial Proof of Concept (PoC) through to live production cloud environments, specializing in IoT, spatial/mapping integrations, and data-driven architectures. Provided technical sales support for intelligent asset management offerings, owned IoT service areas, and worked across maps, connected asset, and data-driven use cases to turn new technologies into deployable customer solutions.
 - **Delivery Excellence**: Successfully led cloud customers out of escalation by analyzing and improving system performance. Safeguarded innovation projects as trusted advisor.
 - **Recognition**: SAP Catalyst / Fast Track awards: 2016, 2017, 2018, 2019.
 
