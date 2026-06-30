@@ -8,7 +8,9 @@ florian@learnedlate.com | [Twitter](https://x.com/learnedlate) | [LinkedIn](http
 
 ## SUMMARY
 
-Former SAP Solution Architect and senior engineer with 20+ years of experience designing, architecting, building and delivering software. I help translate business priorities into technology, particularly where AI, automation, data, and custom software intersect. My background combines deep SAP and enterprise experience with hands-on work building and operating products and workflows, giving me both strategic and practical credibility. My recent work focuses on agentic AI and LLM systems, while my enterprise background gives me the context to integrate modern AI into existing SAP/ERP environments. 
+**Solution Architect & AI Strategist | SAP BTP · Business AI · LLM Systems**
+
+Senior solution architect with deep SAP DNA and 20+ years designing, architecting, and delivering enterprise software. Recent focus on LLM/RAG systems, agentic workflows, and production AI pipelines. Combines strategic board-level advisory with hands-on engineering credibility to integrate modern AI into complex SAP/ERP environments.
 
 
 ## AREAS OF EXPERTISE
@@ -24,17 +26,30 @@ Former SAP Solution Architect and senior engineer with 20+ years of experience d
 
 ## PROFESSIONAL EXPERIENCE
 
-### Founder, LearnedLate
-**Forward Deployed Engineer & Builder | March 2025 - Present**
+### Solution Architect at SAP
+**2014 - 2021**
 
-Work directly with businesses to prototype, build, and operate solutions.
+Progressed through senior solution architect roles, delivering complex enterprise solutions across industries while shaping customer advisory and board-level innovation initiatives.
+
+- **Solution Architect, Custom Development (2020–2021)**: Senior Solution Architect in the SAP Centre of Excellence, connecting customer requirements to solution architecture, roadmap planning, and product extension strategy for Intelligent Asset Management.
+- **Board-level innovation leadership (2021)**: Shaped SAP’s strategy for emerging AI-adjacent and decentralised technologies; built board-level proposals on crypto payments, token-based revenue models, and supply-chain carbon use cases across the German automotive industry, including Catena-X and Gaia-X.
+- **Enterprise client delivery**: Served as trusted advisor to Fortune Global 100 / Fortune 500 organisations, including APM Terminals, Port of Hamburg, and Port of Singapore, owning solution architecture from concept through production and support handover.
+- **Innovation & proof-of-concepts**: As part of SAP’s innovation team, built proof-of-concepts with enterprise customers that integrated modern technologies into their existing infrastructure. With the Port of Rotterdam, rapidly developed and demonstrated value that supported a large deal and helped win the contract.
+- **Applied technology innovation (2014-2020)**: Led technical delivery teams from PoC to live production cloud environments, specialising in IoT, spatial/mapping integrations, data-driven architectures, and custom SAP extensions.
+- **Delivery excellence**: Led cloud customers out of escalation by analysing and improving system performance; recognised with SAP Catalyst / Fast Track awards in 2016, 2017, 2018, and 2019.
+- **Bridge to SAP Business AI**: Subsequent AI engineering experience (LLM/RAG, agentic workflows, production pipelines) positions me to architect SAP's Business AI and Joule integrations.
+
+### AI Consulting Practice — [LearnedLate](https://blog.learnedlate.com/)
+**Forward Deployed AI Engineer | March 2025 - Present**
+
+Deliver LLM implementations and ArcGIS integrations for enterprise clients, from discovery through production handover.
 
 - Built and run an agentic SEO workflow that automates keyword research, content generation, cannibalisation checks, publishing, and iteration across owned and client sites — currently driving 600,000+ search impressions and thousands of organic clicks with no ad spend.
 - Use Rust (rig) and Python AI pipelines as a live environment for testing RAG, retrieval tuning, content operations automation, and practical build-vs-custom decisions.
 - Supported solution architecture for New Zealand Packing and Kiwifruit Management Company, assessing ERP direction and integration trade-offs, and delivered a production-ready ArcGIS integration that mapped complex spatial data into core business workflows.
 - Run structured discovery, rapid prototyping, implementation, and handover for client engagements, with clear documentation and runbooks for ongoing support.
 
-### Founder & Builder at [daystoexpiry.com](https://daystoexpiry.com)
+### Builder at [daystoexpiry.com](https://daystoexpiry.com)
 **2025 - Present**
 
 Built and operate a niche SaaS product from concept to paying customers, iterating continuously based on early-user feedback.
@@ -47,32 +62,12 @@ Built and operate a niche SaaS product from concept to paying customers, iterati
 ### CTO at Forgd.com
 **Jan 2024 - March 2025**
 
-Led the technical vision and delivery of a platform serving blockchain builders, spanning architecture, delivery, and team leadership.
+Led technical vision and delivery of the Forgd platform from concept to 1,000+ users in under 12 months, growing the team from 4 to 14 engineers. Introduced AI-assisted development workflows and owned architecture, release governance, and production support.
 
-- Shipped the platform from concept to 1,000+ users in under 12 months, owning architecture, release governance, and production support.
-- Grew and led a technical team from 4 to 14 developers while maintaining high velocity and clear delivery phases.
-- Introduced AI-assisted development workflows and code-generation patterns that improved team throughput and consistency.
-- Architected complex data systems, including economic modelling algorithms in Python and big-data integrations.
-
-### Founder & CEO at Tokenomics DAO (acquired by Forgd.com)
+### Tokenomics DAO (acquired by Forgd.com)
 **2021 - 2024**
 
-Founded and led a consulting-led community business focused on tokenomics and strategic design for web3 projects.
-
-- Built a community of 3,000+ members and scaled a consulting team to 10+ contributors serving 15+ clients.
-- Developed a token-launch SaaS for modelling supply/demand curves and ran the business through acquisition by Forgd.com.
-
-### Solution Architect at SAP
-**2014 - 2021**
-
-Progressed through innovation, presales, and solution architecture roles, delivering complex enterprise solutions across industries while shaping customer advisory and board-level innovation initiatives.
-
-- **Innovation & proof-of-concepts**: As part of SAP’s innovation team, built proof-of-concepts with enterprise customers that integrated modern technologies into their existing infrastructure. With the Port of Rotterdam, rapidly developed and demonstrated value that supported a large deal and helped win the contract.
-- **Enterprise client delivery**: Served as trusted advisor to Fortune Global 100 / Fortune 500 organisations, including APM Terminals, Port of Hamburg, and Port of Singapore, owning solution architecture from concept through production and support handover.
-- **Innovation leadership (2021)**: Shaped SAP’s strategy for emerging decentralised and AI-adjacent technologies; built board-level proposals on crypto payments, token-based revenue models, and supply-chain carbon use cases across the German automotive industry, including Catena-X and Gaia-X.
-- **Asset intensive industries (2020-2021)**: Solution Architect in the SAP Centre of Excellence, connecting customer requirements to solution architecture, roadmap planning, and product extension strategy for Intelligent Asset Management.
-- **Applied technology innovation (2014-2020)**: Led technical delivery teams from PoC to live production cloud environments, specialising in IoT, spatial/mapping integrations, data-driven architectures, and custom SAP extensions.
-- **Delivery excellence**: Led cloud customers out of escalation by analysing and improving system performance; recognised with SAP Catalyst / Fast Track awards in 2016, 2017, 2018, and 2019.
+Built and led a 3,000-member consulting community and token-launch SaaS for modelling supply/demand curves, running the business through acquisition by Forgd.com.
 
 ### Development Consultant at SER Solutions Deutschland GmbH
 **2005 - 2014**
