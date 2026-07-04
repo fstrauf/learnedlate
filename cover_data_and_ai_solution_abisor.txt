@@ -1,0 +1,4 @@
+After seven years at SAP as a Solution Architect, I spent four years exploring and building as a software engineer, startup CTO and Forward Deployed Engineer working on AI systems: RAG pipelines, agentic workflows, and LLM integrations.
+
+I've seen what AI can do at a startup scale. What brings me back to SAP is the curiosity to see, how this fundamental change can play out in the enterprise.
+

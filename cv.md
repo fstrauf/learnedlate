@@ -31,6 +31,13 @@ A high-velocity, forward-deployed Solutions Architect and former CTO with over 2
 - Use Rust (rig) and Python AI pipelines as a live environment for testing RAG, retrieval tuning, content operations automation, and practical build-vs-custom decisions.
 - Design custom visual identities and technical roadmaps for enterprise AI transformation projects.
 
+### Founder & Builder, Days to Expiry
+**Options Income SaaS | 2025 – Present**
+
+- Founded and built a niche options-income SaaS from concept to a small base of ~10 paying users, demonstrating end-to-end product delivery from broker-statement ingestion to AI-assisted trade analytics.
+- Parsed and normalized broker statements into a structured, options-focused portfolio view, then layered on AI-driven analysis to help users evaluate covered-call, put-selling, and other income strategies against their actual holdings.
+- Iterated continuously based on early-user feedback; while the venture remained modest in scale, it provided hands-on validation of rapid MVP delivery, RAG-based market analysis, and production monitoring in a regulated-adjacent domain.
+
 ### CTO & Technical Co-Founder
 **Web3 / Crypto Startup (Acquired) | 2021 – 2024**
 
