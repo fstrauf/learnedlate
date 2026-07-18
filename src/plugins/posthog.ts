@@ -12,34 +12,10 @@ export function usePostHog() {
   posthog.init(apiKey, {
     api_host: host,
     person_profiles: 'identified_only',
-    // Respect local dev: don't send from localhost/127.0.0.1
-    capture_pageview: false, // we'll capture manually via router to ensure SPA navs are tracked
+    // Autocapture disabled to reduce PostHog event volume/cost
+    capture_pageview: false,
     capture_pageleave: false,
-    loaded: (ph) => {
-      // Capture initial load
-      try {
-        ph.capture('$pageview')
-      } catch {
-        // noop
-      }
-    },
   })
-
-  // Best-effort pageleave when tab hidden or unloading
-  if (typeof document !== 'undefined') {
-    const handler = () => {
-      try {
-        posthog.capture('$pageleave')
-      } catch {
-        // noop
-      }
-    }
-    document.addEventListener('visibilitychange', () => {
-      if (document.visibilityState === 'hidden') handler()
-    })
-    window.addEventListener('pagehide', handler)
-    window.addEventListener('beforeunload', handler)
-  }
 
   return { posthog }
 }
