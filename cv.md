@@ -22,14 +22,14 @@ A high-velocity, forward-deployed Solutions Architect and former CTO with over 2
 
 ## Selected Professional Experience
 
-### Forward-Deployed AI Architect / Consultant
-**Independent Practice / AI Consulting | 2024 – Present**
+### Independent AI Automation Engineer & Product Builder
+**Learned Late / Independent Practice | 2024 – Present**
 
-- Act as an embedded forward-deployed engineer for clients, rapidly translating ambiguous business demands into functional AI architectures and automation systems.
-- Built and operate an agentic SEO workflow that automates keyword research, content generation, cannibalisation checks, publishing, and iteration — currently driving 600,000+ search impressions and thousands of organic clicks with no ad spend.
-- Delivered a production-ready ArcGIS integration for New Zealand Packing and Kiwifruit Management Company, mapping complex spatial data into core business workflows.
-- Use Rust (rig) and Python AI pipelines as a live environment for testing RAG, retrieval tuning, content operations automation, and practical build-vs-custom decisions.
-- Design custom visual identities and technical roadmaps for enterprise AI transformation projects.
+- Designed, built, and operate production AI automation systems and agentic workflows from ambiguous requirements, rapidly turning ideas into measurable results. Focus on LLM/RAG pipelines, task orchestration, and complex data integrations across modern and legacy systems.
+- Built and run a fully agentic SEO workflow automating keyword research, content generation, cannibalisation analysis, publishing, and performance-driven iteration — currently generating 600,000+ monthly search impressions and thousands of organic clicks with zero ad spend.
+- Delivered a production-ready ArcGIS spatial data integration for the New Zealand Kiwifruit industry, mapping complex geospatial datasets into core operational business workflows.
+- Developed and maintain live Rust (rig) + Python AI pipelines as a rapid experimentation environment for RAG retrieval tuning, content operations automation, build-vs-buy decisions, and agentic tool orchestration.
+- Create technical roadmaps, system architectures, and visual strategy assets to support AI transformation initiatives for businesses and my own product initiatives.
 
 ### Founder & Builder, Days to Expiry
 **Options Income SaaS | 2025 – Present**
