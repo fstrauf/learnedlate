@@ -1,5 +1,6 @@
 ---
-title: "SAP BTP Side-by-Side Extension: Example"
+title: "In-Depth Guide to SAP BTP Side-by-Side Extension with Code Examples"
+robots: "index, follow"
 faq:
   - question: "What is a side-by-side extension in SAP BTP?"
     answer: "A side-by-side extension is an application that runs independently on SAP BTP and communicates with S/4HANA through public APIs, extending core business processes without modifying the ERP system."
@@ -13,12 +14,12 @@ faq:
     answer: "You can use Node.js, Java, Python, or Go for the backend, and React, Angular, or SAP UI5 for the frontend. The example in this guide uses Node.js with CAP and React with TypeScript."
   - question: "How do you handle authentication between SAP BTP and S/4HANA?"
     answer: "Authentication is handled through SAP BTP's XSUAA service and the Destination service, which securely manages OAuth 2.0 tokens and SAML assertions for S/4HANA connectivity."
-description: "Learn how to build a SAP BTP Side-by-Side Extension: Example with CAP, Node.js, and React. Complete working example with source code and deployment steps."
+description: "Explore a comprehensive guide on SAP BTP Side-by-Side Extensions with CAP and Node.js, featuring detailed code examples and deployment strategies."
 date: "2026-03-19"
 tags: ["SAP BTP", "Side-by-Side Extension", "SAP S/4HANA", "Cloud Foundry", "Clean Core", "CAP", "Node.js", "React"]
 canonical: "https://www.learnedlate.com/blog/sap_btp_side_by_side_extension_complete_working_example_with_code"
 ---
-SAP BTP Side-by-Side Extension: Example — this guide shows how to build a custom app that runs next to your S/4HANA system. You will use CAP, Node.js, and React on Cloud Foundry. The result is a working example with code and deployment steps you can follow.
+Delve into the world of SAP BTP Side-by-Side Extensions with this in-depth guide. Designed for developers and IT professionals, this article walks you through building robust extensions using CAP, Node.js, and React. Discover practical code examples, learn effective deployment practices, and unlock the full potential of your SAP infrastructure.
 
 Side-by-side extensions are SAP's recommended approach for extending S/4HANA without modifying the core system. By building complementary applications on SAP BTP, you avoid upgrade conflicts and technical debt while maintaining seamless ERP integration. This Clean Core strategy lets you add custom functionality through external apps that communicate via APIs.
 
@@ -554,7 +555,7 @@ export default App;
 Build and deploy the application:
 
 ```bash
-# SAP BTP Side-by-Side Extension: Example
+# In-Depth Guide to SAP BTP Side-by-Side Extension
 npm install -g mbt
 
 # Build the MTA archive
