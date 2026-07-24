@@ -211,7 +211,7 @@
     <section class="py-12 sm:py-20 bg-gray-900 text-white">
       <div class="container mx-auto px-4 max-w-3xl text-center">
         <h2 class="text-3xl font-light mb-6">Ready to Automate Your SEO?</h2>
-        <p class="text-gray-400 mb-8 text-lg font-light">Get started for just $49 and start optimizing your blog today.</p>
+        <p class="text-gray-400 mb-8 text-lg font-light">Get started for just $199 and start optimizing your blog today.</p>
         <div class="max-w-xs mx-auto">
           <CheckoutButton />
         </div>

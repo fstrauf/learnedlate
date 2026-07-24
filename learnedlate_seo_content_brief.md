@@ -1,4 +1,14 @@
-# Learned Late - SEO Content Brief
+# SUPERSEDED — legacy SEO content brief
+
+> **Status:** `legacy_harvest_only`  
+> **Superseded by:** [`.github/automation/project.md`](.github/automation/project.md)  
+> **Do not use** for PageSeeds keyword research, theme extraction, or new content planning.  
+> Active planned clusters (2026): Getting Started With AI, Workflow Automation, Practical AI Implementation, Custom AI vs Standard Tools, optional Regional ANZ — see project.md.  
+> Soft clusters for audits are produced by PageSeeds (`cannibalization_clusters.json`), not this file.
+
+---
+
+# Learned Late - SEO Content Brief (archive)
 
 ## Topic
 Learned Late - CTO Services, Custom Software & AI Automation for NZ Startups

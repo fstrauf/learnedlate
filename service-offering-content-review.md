@@ -1,8 +1,17 @@
+# SUPERSEDED — historical review (pre three-pillar site)
+
+> **Status:** Archive. This document reviewed the **old four-package** model (AI Readiness / Agentic Workflows / Custom AI / Full-Stack Delivery).  
+> **Live site now:** Strategy / Implementation / Engineering (see `src/views/*Page.vue` + redirects in `routes.ts`).  
+> **Active GTM brief:** [`.github/automation/project.md`](.github/automation/project.md)  
+> Keep for decision history only; do not use for PageSeeds or new content.
+
+---
+
 # Service Offering Content Review
 
 ## Scope
 
-This review covers the active AI service offering shown in site navigation and primary service routes:
+This review covers the **former** AI service offering (historical):
 
 - Home: `src/views/HomePage.vue`
 - Services hub: `src/views/ServicesPage.vue`

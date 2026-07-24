@@ -1,4 +1,7 @@
 {
+  "_status": "legacy_harvest_only",
+  "_superseded_by": ".github/automation/project.md",
+  "_note": "Historical article inventory from pre-2026 GTM (fractional CTO / MVP / custom software). Do not use for PageSeeds keyword research or new content planning. Active planned clusters live in project.md. Soft cannibalization clusters are produced by PageSeeds as cannibalization_clusters.json.",
   "topic": "Learned Late - CTO Services, Custom Software & AI Automation for NZ Startups",
   "target_audience": "Startup founders, small business owners, and tech leaders in New Zealand",
   "goals": [

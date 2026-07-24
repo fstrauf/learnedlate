@@ -1,89 +1,96 @@
 # LearnedLate
 
-> AI readiness, workflow automation, and delivery support for New Zealand and Australian mid-market businesses.
+> AI Strategy, Implementation & Engineering for mid-market and founder-led teams — with practical experience serving New Zealand and Australian businesses.
 
 ## About
 
-LearnedLate helps NZ and Australian businesses identify the right first AI workflow, automate it, and expand with the same delivery partner when the work becomes more complex.
+LearnedLate helps businesses figure out where AI matters, fix slow manual work, and build systems that actually get used. Strategy, implementation, and engineering in one team — every engagement ships work, not recommendations alone.
 
-**Our Difference:** We keep the offer simple: start with readiness, automate one real workflow, and expand with the same team if the work proves valuable.
+**Our difference:** One partner from first move through automation and custom build when off-the-shelf tools are not enough. Honest about when not to build custom.
 
 ## Core Services
 
-### AI Readiness Assessment
-Practical evaluation across people, process, technology, and data so you can choose the right first AI use case and the next step worth funding.
+### Strategy
+Find where AI is worth using and get a clear first move — not a pile of options.
 
-- Scored assessment across 4 dimensions
-- Prioritized use-case shortlist
-- Key risks and next-step recommendations
-- Written summary within 48 hours
+- Shortlist of best opportunities
+- Readiness view (what is ready and what is not)
+- Main risks and blockers
+- Clear next steps
+- Typical engagement: about 1–2 weeks; starts in the low thousands
 
-### AI Workflow Automation
-Automate one high-friction workflow, connect it to your existing systems, and pilot it in real operations.
+→ https://www.learnedlate.com/services/strategy
 
-- Workflow mapping and pain point identification
+### Implementation
+Automate slow manual work and multi-system workflows so your team is not doing it by hand.
+
+- Workflow mapping and pain-point identification
+- Automation of repetitive work
 - Integration with existing systems
-- Pilot, measurement, and rollout planning
+- Pilot, measurement, and rollout support
+- Typical pilot path: about 2–6 weeks (scoped per project)
 
-### Custom AI Development
-Specialist path for cases where standard tools are not enough. We recommend custom AI only when the integration, logic, or differentiation genuinely requires it.
+→ https://www.learnedlate.com/services/implementation
 
-- Domain-specific logic
-- Hard integration problems
-- Narrow scoped delivery
-- Used only when justified
+### Engineering
+When the tool you need does not exist, we build it — only when standard tools are not enough.
 
-### Delivery Partnership
-For larger or more complex AI programs, LearnedLate stays involved from planning through rollout so context is not lost between strategy and delivery.
+- Custom AI-enabled systems
+- Full-stack applications
+- Business-specific AI behaviour
+- Ongoing engineering support in sprints
 
-- Planning and sequencing across teams and systems
-- One accountable delivery partner
-- Operational follow-through after rollout
+→ https://www.learnedlate.com/services/engineering
 
 ## Who We Help
 
-- **Growing Teams (<50):** Focused AI workflow sprints, fast results, fixed price, NZ co-funding eligible
-- **Mid-Market (50–500):** Full assessment, strategy, and phased implementation—our primary focus
-- **Enterprise (500+):** Transformation programs with governance frameworks and multi-year roadmaps
+- **Mid-market (~50–500):** Primary focus — teams that know AI matters but need a practical path
+- **Founder-led / smaller ops:** Specific automation or build projects with a clear bottleneck
 
-## Key Stats
+## Geographic Scope
 
-- 87% of NZ businesses use AI, but only 12% have scaled it effectively
-- 95% enterprise pilot failure rate (MIT NANDA 2025)
-- +47% ROI for early movers, -14% to -43% for late adopters
-- NZ AI Advisory Pilot: 50% co-funding available (up to $15K)
+Service market includes New Zealand and Australian mid-market (ANZ). Public positioning leads with the AI service ladder, not geography.
+
+## Key Proof
+
+- Built and productized own SEO workflow → **PageSeeds**; **200k+ search impressions** across sites with **$0 ad spend**
+- Build what we sell; plain-language strategy plus hands-on delivery
 
 ## Resources
 
-- [Blog](https://www.learnedlate.com/blog/): Insights on AI adoption in ANZ
-- [AI Readiness Checklist](https://www.learnedlate.com/ai-readiness-checklist/): 15 questions every board should ask
-- [Case Studies](https://www.learnedlate.com/case-studies/): Real-world implementation results
+- [Blog](https://www.learnedlate.com/blog/): Practical AI, automation, and implementation
+- [AI Readiness Checklist](https://www.learnedlate.com/ai-readiness-checklist/): Free 15-question checklist (People / Process / Technology / Data)
+- [Case Studies](https://www.learnedlate.com/case-studies/): Real-world results
+- [SEO Automation Package](https://www.learnedlate.com/seo-automation/): $199 one-time digital product (secondary offer)
 
 ## Contact
 
-- **Book an AI Readiness Assessment:** https://www.learnedlate.com/contact/
-- **Email:** hello@learnedlate.com
+- **Get Started:** https://www.learnedlate.com/contact/
+- **Email:** hello@learnedlate.com (typically within 24 hours)
 - **Location:** New Zealand & Australia
 - **Twitter:** https://x.com/learnedlate
 
 ## Key Principles
 
-1. **Outcome-first:** Lead every engagement with business results, not technical capability
-2. **C-suite readable:** Every headline should be understood without technical background
-3. **Specificity:** Use numbers, timeframes, and dollar amounts—not vague claims
-4. **Honesty:** "If the answer is 'you don't need AI right now,' we'll tell you that too."
-5. **Plain-language delivery:** Keep the offer clear, practical, and easy to buy
+1. **Outcome-first:** Business results, not AI theatre
+2. **Implementation over advice:** Strategy without execution is wasted money
+3. **Build-vs-buy honesty:** Use standard tools when they solve the problem
+4. **Plain language:** No consultant jargon or hype
+5. **Specificity:** Clear next steps, timeframes, and scoped delivery
 
-## Sitemap
+## Sitemap (primary)
 
 - [Home](https://www.learnedlate.com/)
-- [Services](https://www.learnedlate.com/services/)
-- [AI Readiness Assessment](https://www.learnedlate.com/services/ai-readiness/)
-- [Agentic Workflows](https://www.learnedlate.com/services/agentic-workflows/)
-- [Custom AI Development](https://www.learnedlate.com/services/custom-ai-development/)
-- [Full-Stack Delivery](https://www.learnedlate.com/services/full-stack-delivery/)
+- [Strategy](https://www.learnedlate.com/services/strategy)
+- [Implementation](https://www.learnedlate.com/services/implementation)
+- [Engineering](https://www.learnedlate.com/services/engineering)
 - [About](https://www.learnedlate.com/about/)
 - [Contact](https://www.learnedlate.com/contact/)
 - [Blog](https://www.learnedlate.com/blog/)
 - [Case Studies](https://www.learnedlate.com/case-studies/)
+- [AI Readiness Checklist](https://www.learnedlate.com/ai-readiness-checklist/)
 - [Sitemap XML](https://www.learnedlate.com/sitemap.xml)
+
+## Legacy note
+
+Older service URLs (AI Readiness Assessment, Agentic Workflows, Custom AI Development, Full-Stack Delivery package names) redirect to the three pillars above. Fractional CTO, MVP, and SAP landings may still exist for SEO harvest but are not primary GTM.

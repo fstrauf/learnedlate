@@ -1,4 +1,17 @@
+# SUPERSEDED — do not use for PageSeeds or public positioning
 
+> **Status:** Historical strategy / messaging research draft.  
+> **Superseded by:** [`.github/automation/project.md`](.github/automation/project.md) (single source of truth for GTM, SEO clusters, ICPs, voice, and do-not-pursue rules).  
+> **Why retained:** Internal research archive only.  
+> **Conflicts with project.md (do not reintroduce):**
+> - Geography-first ANZ hero positioning
+> - Multi-tier small / mid-market / enterprise packaging as primary public story
+> - "Agentic" / "pilot purgatory" / "digital transformation" consultant phrasing
+> - Older four-package service model vs Strategy / Implementation / Engineering
+>
+> PageSeeds and site copy must follow **project.md**, not this file.
+
+---
 
 # Website Messaging & Value Proposition Redesign for LearnedLate.com
 
