@@ -1,0 +1,149 @@
+---
+title: "Intelligent Process Automation: Complete Guide"
+description: "Intelligent process automation for operators: IPA vs RPA and BPA, when it pays off, a 90-day rollout plan, and NZ cost and risk checks."
+slug: "intelligent-process-automation"
+date: "2026-07-23"
+status: "published"
+keyword: "intelligent process automation"
+target_keyword: "intelligent process automation"
+summary: "Practical intelligent process automation guide for founders and ops leaders—RPA vs IPA, decision criteria, tooling stack, 90-day plan, and when to stop automating."
+---
+
+# Intelligent Process Automation: Complete Guide
+
+Intelligent process automation (IPA) is the combination of classic process automation with AI judgment: rules and bots handle the repetitive path, while models classify documents, extract fields, route exceptions, and recommend next steps. If you are evaluating intelligent process automation for a New Zealand startup or mid-market team, this guide focuses on when IPA earns its keep—not vendor slides.
+
+Most SERP definitions stop at “RPA + AI.” Operators need something else: which workflows actually absorb model error, what a realistic pilot looks like in 90 days, and how IPA relates to the [business process automation](/blog/2025-06-22-business-process-automation-small-business-guide) work you may already have running.
+
+## What intelligent process automation actually is
+
+Think of three layers that stack:
+
+1. **Workflow orchestration** — triggers, approvals, SLAs, and handoffs (the process map).
+2. **Deterministic automation** — RPA, scripts, and API integrations for stable, high-volume steps.
+3. **Cognitive components** — classification, extraction, summarisation, prediction, and agent-style tools for variable inputs.
+
+Intelligent process automation is what you get when layer 3 is *productised inside* the process, not bolted on as a chat demo. A good IPA flow still has a human-in-the-loop for high-risk decisions; it just removes the copy-paste tax before that decision.
+
+### IPA vs RPA vs BPA (plain language)
+
+| Approach | Strength | Weakness | Best fit |
+|----------|----------|----------|----------|
+| **BPA** | End-to-end process design | Can stay manual or semi-manual | Redesigning how work should flow |
+| **RPA** | Fast wins on stable UI tasks | Breaks when screens or exceptions change | Legacy systems with no API |
+| **IPA** | Handles messy inputs + judgment assists | Needs data quality, monitoring, governance | Document-heavy, exception-rich work |
+
+If your problem is “nobody agrees what the process is,” start with BPA and [concrete automation examples](/blog/business-process-automation-examples/). If your problem is “the process is clear but inputs are messy,” IPA is the right conversation.
+
+## Where IPA creates real ROI
+
+From fractional CTO work with NZ founders, IPA tends to pay off in four patterns:
+
+### 1. Document-heavy intake
+Invoices, insurance forms, supplier packs, RFPs, compliance packs. Models extract fields; rules validate; humans only see exceptions. Time savings show up as fewer FTE hours *and* faster cycle time.
+
+### 2. Multi-system reconciliation
+Finance and ops still live across Xero, banks, CRMs, and spreadsheets. IPA is not magic glue—API-first integrations beat screen scraping—but classification + matching models reduce the “where did this row come from?” tax.
+
+### 3. Customer ops triage
+Tickets, emails, and chat transcripts classified by intent, urgency, and product area. Autoreplies for the top 20% of repetitive cases; smart routing for the rest. Pair with your broader [AI automation](/blog/ai-automation/) roadmap so you do not build a one-off bot island.
+
+### 4. Internal knowledge routing
+Policies, runbooks, and SOPs retrieved at the moment of work. This is often more valuable than a public chatbot because the audience is trained and the corpus is smaller.
+
+**Red flag:** if the process owner cannot list the top five exception types, you do not have an IPA project—you have a discovery project. Budget discovery first.
+
+## A decision checklist before you buy tooling
+
+Use this before a vendor demo:
+
+1. **Volume** — At least dozens of cases per week on the target workflow (ideally hundreds). Low volume rarely repays model + integration cost.
+2. **Variability** — Inputs vary enough that pure rules fail, but not so much that every case is unique.
+3. **Cost of error** — Can you tolerate a defined error rate with human review? Payment execution and clinical decisions need tighter gates than lead routing.
+4. **System access** — Prefer APIs and webhooks over brittle UI bots. If the only path is RPA against a flaky desktop app, price in maintenance.
+5. **Owner** — Named process owner + technical owner. IPA without owners becomes shadow IT.
+6. **Data rights** — Customer data, employee data, and model training policies (especially under NZ Privacy Act expectations).
+
+Score each 1–5. If total is under 18, fix process and data readiness before IPA spend. Your [AI readiness](/blog/099_ai_readiness_assessment) work should gate large automation programmes.
+
+## Reference architecture (keep it boring)
+
+A durable IPA stack for a small or mid team usually looks like:
+
+- **System of record** — CRM, ERP, or ticketing as the source of truth.
+- **Orchestration** — workflow engine or iPaaS (Make, n8n, Workato, or native cloud workflows).
+- **Cognitive services** — document AI, classification models, optional LLM for summarisation with structured outputs.
+- **Human review UI** — queues with audit trail, not Slack DMs.
+- **Observability** — success rate, exception rate, latency, cost per case, model drift signals.
+- **Security** — least privilege, secrets management, retention limits.
+
+Avoid starting with a multi-agent “autonomous company” narrative. Start with one measurable path: *input → extract/classify → validate → write back → exception queue*.
+
+## 90-day pilot plan
+
+### Days 1–15: pick one workflow
+Map the as-is process. Count volume, cycle time, and exception rate. Choose a workflow with a single owner and a clear success metric (e.g. “reduce invoice touch time 40% without increasing error rate”).
+
+### Days 16–45: build the thin slice
+Integrate systems. Add extraction/classification with confidence thresholds. Route low-confidence items to humans. Log every decision. Ship to a pilot group, not the whole company.
+
+### Days 46–75: measure and harden
+Compare pilot vs control. Fix the top exception clusters. Add monitoring and a rollback path. Document failure modes for auditors and customers.
+
+### Days 76–90: decide scale / stop / pivot
+Scale only if metric moved and owners stay engaged. Stop if maintenance cost exceeds savings. Pivot if the bottleneck was process design, not cognition—then return to [workflow automation](/blog/automation-of-workflow/) fundamentals.
+
+## Cost model (honest ranges)
+
+Ballpark for a first production IPA workflow in a small NZ organisation:
+
+| Cost bucket | Low | Typical | Notes |
+|-------------|-----|---------|-------|
+| Discovery + process design | NZD $3k | $8–15k | Often under-scoped |
+| Integration build | $5k | $15–40k | Explodes with legacy UIs |
+| Model/API run costs | $50/mo | $300–2k/mo | Volume driven |
+| Ongoing ops (0.1–0.3 FTE) | — | Always | Monitoring + exception coaching |
+
+If a vendor promises full autonomous ops for a flat low monthly fee with no integration line item, treat it as marketing.
+
+## Risks and controls
+
+- **Silent failure** — Models can be confidently wrong. Require confidence thresholds and sampling audits.
+- **Process fossilisation** — Automating a bad process locks waste in. Redesign first when steps exist only for legacy reasons.
+- **Shadow agents** — Staff pasting customer data into consumer AI tools. Provide sanctioned tooling and training.
+- **Vendor lock-in** — Prefer portable process definitions and exportable logs.
+- **Change fatigue** — IPA changes jobs. Plan communication with the people whose desks you are “optimising.”
+
+## How this fits your existing automation journey
+
+Intelligent process automation is not a replacement for basics. Sequence typically looks like:
+
+1. Clarify the process (BPA thinking).
+2. Automate stable digital steps (integrations, [no-code automation](/blog/no-code-automation-for-small-business/) where appropriate).
+3. Add cognitive components only where variability kills rules (IPA).
+4. Expand to multi-workflow programmes once one pilot is boringly reliable.
+
+Teams that skip to agents usually rebuild steps 1–2 under emergency conditions later.
+
+## FAQ
+
+### Is intelligent process automation the same as RPA?
+No. RPA is primarily deterministic bots. IPA includes AI components for perception and judgment assist. Many real deployments combine both.
+
+### Do small businesses need IPA?
+Only if they have enough volume and messy inputs. Many SMEs get more ROI from simpler [AI tools for business automation](/blog/ai-tools-for-business-automation/) and clean APIs before full IPA programmes.
+
+### How is IPA different from “AI automation” marketing?
+“AI automation” is a broad umbrella. Intelligent process automation is narrower: AI inside a governed process with systems of record, SLAs, and exception handling—not a standalone chatbot.
+
+### What skills do we need in-house?
+A process owner, someone who can integrate systems, and a person accountable for model quality (even part-time). Pure prompt engineering without process ownership fails.
+
+### When should we hire help?
+When the pilot needs production integrations, security review, or multi-system design beyond one Zap. Fractional technical leadership is often enough for the first workflow; you do not need a full AI lab.
+
+## Next step
+
+Pick one document-heavy or triage-heavy workflow, score it with the checklist above, and run a 90-day pilot with a single success metric. If you want a second pair of eyes on whether IPA is the right lever—or whether process design and simpler automation should come first—start with a short technical readiness conversation rather than a tool bake-off.
+
+Intelligent process automation works when it is treated as operations engineering with AI components, not as a magic layer that makes broken processes disappear.

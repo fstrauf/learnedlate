@@ -4776,6 +4776,54 @@
       "cluster_role": "support",
       "internal_links": [],
       "excerpt": "What generative AI development services include, how to evaluate providers, and what to budget for a production deployment in 2026."
+    },
+    {
+      "content_gaps_addressed": [],
+      "content_hash": "10bfb038d5dde9a766ea9f8437b0170b805a1bea3b2913d612024e1879dc6f6f",
+      "estimated_traffic_monthly": "",
+      "file": "./src/blog/posts/101_intelligent_process_automation.mdx",
+      "id": 99,
+      "keyword_difficulty": "23",
+      "last_edited_at": "2026-07-24T19:32:15.091294280+00:00",
+      "published_date": "2026-07-23",
+      "status": "published",
+      "target_keyword": "intelligent process automation",
+      "target_volume": 210,
+      "title": "Intelligent Process Automation: Complete Guide",
+      "url_slug": "intelligent-process-automation",
+      "word_count": 1438
+    },
+    {
+      "content_gaps_addressed": [],
+      "content_hash": "5fb215ea4e8cb3277cee035beb8b39d6a75e17f639101b94f9288410fd68b54e",
+      "estimated_traffic_monthly": "",
+      "file": "./src/blog/posts/102_ai_automation_training.mdx",
+      "id": 100,
+      "keyword_difficulty": "1",
+      "last_edited_at": "2026-07-25T07:08:47.520477656+00:00",
+      "published_date": "2026-07-25",
+      "status": "published",
+      "target_keyword": "ai automation training",
+      "target_volume": 110,
+      "title": "AI Automation Training: Complete Guide",
+      "url_slug": "ai-automation-training",
+      "word_count": 882
+    },
+    {
+      "content_gaps_addressed": [],
+      "content_hash": "86449cd0e69949a172346d7f3285b08d1400b78e5eedb972723871f5056d908c",
+      "estimated_traffic_monthly": "",
+      "file": "./src/blog/posts/102_intelligent_robotic_process_automation.mdx",
+      "id": 101,
+      "keyword_difficulty": "1",
+      "last_edited_at": "2026-07-25T07:08:47.520275323+00:00",
+      "published_date": "2026-07-25",
+      "status": "published",
+      "target_keyword": "intelligent robotic process automation",
+      "target_volume": 110,
+      "title": "Intelligent Robotic Process Automation: Complete Guide",
+      "url_slug": "intelligent-robotic-process-automation",
+      "word_count": 1213
     }
   ]
 }

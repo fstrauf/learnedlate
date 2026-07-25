@@ -1,0 +1,145 @@
+---
+title: "Intelligent Robotic Process Automation: Complete Guide"
+description: "Intelligent robotic process automation: IRPA vs RPA and IPA, when bots need AI judgment, a 90-day pilot plan, and NZ risk checks."
+slug: "intelligent-robotic-process-automation"
+date: "2026-07-25"
+status: "published"
+keyword: "intelligent robotic process automation"
+target_keyword: "intelligent robotic process automation"
+summary: "Practical guide to intelligent robotic process automation for operators—RPA vs IRPA, decision criteria, architecture, pilot plan, and when pure bots are enough."
+---
+
+# Intelligent Robotic Process Automation: Complete Guide
+
+Intelligent robotic process automation (IRPA) is RPA extended with AI perception and judgment: bots still click, type, and move data, but models classify documents, extract fields, and route exceptions when the UI path is no longer purely deterministic. If you are evaluating intelligent robotic process automation for a New Zealand startup or mid-market ops team, this guide focuses on when AI-assisted bots earn their keep—not vendor demos.
+
+Classic RPA thrives on stable screens and rules. IRPA is the answer when volume is high *and* inputs are messy. For the broader AI-in-process framing without the bot layer, see our [intelligent process automation](/blog/intelligent-process-automation/) guide and the [AI in automation](/blog/091_ai_in_automation) overview.
+
+## What intelligent robotic process automation is
+
+RPA automates *actions* in software UIs and APIs. Intelligent robotic process automation adds *cognition* before or during those actions:
+
+1. **Sense** — OCR, document AI, email classification, image checks.
+2. **Decide** — confidence scores, rules, optional LLM structured outputs.
+3. **Act** — RPA steps, API calls, queue updates.
+4. **Escalate** — human-in-the-loop when confidence is low or risk is high.
+
+If step 1–2 never fail, you do not need IRPA—you need ordinary RPA or [workflow automation](/blog/automation-of-workflow/).
+
+### IRPA vs RPA vs IPA
+
+| Approach | Core idea | Best when |
+|----------|-----------|-----------|
+| **RPA** | Deterministic bots on UIs/APIs | Stable screens, clear rules |
+| **IRPA** | Bots + AI for messy inputs | High volume + variable documents/tickets |
+| **IPA** | Process + AI judgment (often API-first) | Systems of record with integrations |
+
+IRPA is not a synonym for “any AI automation.” It specifically keeps a *robotic* execution layer. Many modern stacks skip brittle UI bots and integrate via API—that is often better when APIs exist. Prefer APIs; use IRPA when the only door into a system is a UI or a document pile.
+
+## Where IRPA creates ROI
+
+From fractional CTO work with NZ operators, IRPA pays off in four patterns:
+
+### 1. Invoice and claims intake
+PDFs and photos arrive in every layout. Models extract vendor, amount, GST, and due date; bots post to Xero or ERP; exceptions go to a queue. Savings show up as cycle time and FTE hours, not vanity bot counts.
+
+### 2. Legacy portal work
+Banks, insurers, and government portals still require human-like navigation. Bots handle login and form fill; AI reads confirmation screens and attachments. Price maintenance high—portals change.
+
+### 3. Shared inbox triage
+Classify intent, extract account numbers, draft replies, update CRM. Autocomplete the boring path; humans keep relationship and edge cases. Pair with your broader [AI automation](/blog/ai-automation/) programme so IRPA is not a one-off island.
+
+### 4. Onboarding packs
+Employee or customer packs with mixed documents. IRPA checks completeness, extracts IDs, and opens tickets only when something is missing.
+
+**Red flag:** if you cannot list the top five exception types, you have a discovery project, not an IRPA build.
+
+## Decision checklist before buying bots + AI
+
+Score each 1–5:
+
+1. **Volume** — dozens to hundreds of cases per week on one workflow.
+2. **UI stability** — screens change rarely enough that bot maintenance is affordable.
+3. **API alternative** — if a clean API exists, prefer it over UI bots.
+4. **Error cost** — can you tolerate defined error rates with human review?
+5. **Data rights** — Privacy Act expectations for customer/employee data in model pipelines.
+6. **Owner** — named process owner + technical owner for bot health.
+
+Under 18 total: fix process design and data quality first. Use an [AI readiness assessment](/blog/099_ai_readiness_assessment) before a large IRPA programme.
+
+## Reference architecture (boring on purpose)
+
+- **Orchestrator** — schedules bots, retries, SLAs.
+- **RPA runtime** — UI and API automation with secrets vault.
+- **Cognitive services** — document AI, classifiers, optional LLM with structured JSON outputs.
+- **Human review queue** — audit trail, not Slack DMs.
+- **Observability** — success rate, exception rate, cost per case, bot break rate after UI changes.
+- **Security** — least privilege, credential rotation, retention limits.
+
+Avoid “autonomous company” narratives. Ship one path: *document or ticket → extract/classify → bot action → exception queue*.
+
+## 90-day pilot plan
+
+### Days 1–15: pick one workflow
+Map as-is steps, volume, cycle time, and exception rate. Choose a single success metric (e.g. “cut invoice touch time 40% without raising error rate”).
+
+### Days 16–45: thin slice
+Build extraction + bot path with confidence thresholds. Pilot with a small group. Log every decision.
+
+### Days 46–75: harden
+Compare pilot vs control. Fix top exception clusters. Add monitoring and rollback.
+
+### Days 76–90: scale / stop / pivot
+Scale only if the metric moved and owners stay engaged. Stop if bot break-fix cost exceeds savings. Pivot to API integration if the UI is the real bottleneck.
+
+## Cost model (honest ranges)
+
+| Bucket | Low | Typical | Notes |
+|--------|-----|---------|-------|
+| Discovery | NZD $3k | $8–15k | Under-scoped often |
+| Bot + AI build | $8k | $20–50k | Portal complexity drives cost |
+| Run costs | $100/mo | $500–3k/mo | Licenses + model APIs |
+| Maintenance | 0.1–0.4 FTE | Always | UI changes break bots |
+
+If a vendor promises “set and forget” UI bots with zero maintenance, treat it as marketing.
+
+## Risks and controls
+
+- **Silent wrong actions** — confident models + powerful bots are dangerous. Require confidence gates and sampling audits.
+- **Bot break storms** — UI updates can fail an entire queue overnight. Monitor first, then scale.
+- **Shadow credentials** — shared logins in bot farms. Use proper service accounts.
+- **Process fossilisation** — automating a bad process locks waste in. Redesign first when steps exist only for legacy reasons.
+- **Change fatigue** — IRPA changes jobs. Plan communication with the people whose desks you optimise.
+
+## How this fits your automation journey
+
+1. Clarify the process ([business process automation](/blog/2025-06-22-business-process-automation-small-business-guide) thinking).
+2. Prefer APIs and [no-code automation](/blog/no-code-automation-for-small-business/) for digital systems.
+3. Add classic RPA only where UI is unavoidable.
+4. Add intelligence (IRPA) only where variability kills pure rules.
+5. Expand after one boringly reliable pilot.
+
+Teams that jump to multi-agent IRPA usually rebuild steps 1–3 under emergency conditions later.
+
+## FAQ
+
+### Is intelligent robotic process automation the same as RPA?
+No. RPA is deterministic bots. IRPA adds AI for perception and judgment assist on top of robotic actions.
+
+### Do small businesses need IRPA?
+Only with enough volume and messy inputs. Many SMEs get more from simpler [AI tools for business automation](/blog/ai-tools-for-business-automation/) and clean integrations first.
+
+### How is IRPA different from intelligent process automation?
+IPA is the broader process-plus-AI pattern, often API-first. IRPA specifically keeps a robotic execution layer for UIs and scripted actions.
+
+### What skills do we need?
+A process owner, someone who can maintain bots, and a person accountable for model quality—even part-time. Pure prompt work without process ownership fails.
+
+### When should we hire help?
+When production integrations, security review, or multi-system design exceed one Zap-style workflow. Fractional technical leadership is often enough for the first pilot.
+
+## Next step
+
+Pick one document-heavy or portal-heavy workflow, score it with the checklist, and run a 90-day pilot with a single success metric. If the bottleneck is process design—not cognition—start there before buying more bots.
+
+Intelligent robotic process automation works when treated as operations engineering with AI components, not as magic robots that make broken processes disappear.
