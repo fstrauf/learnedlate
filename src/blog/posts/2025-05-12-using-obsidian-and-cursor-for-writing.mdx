@@ -1,85 +1,123 @@
 ---
-title: "Using Obsidian & Cursor for Better Writing"
-
-faq:
-  - question: "Can Cursor edit my Obsidian notes directly?"
-    answer: "Yes — open your Obsidian vault folder in Cursor and the AI can read, edit, and draft alongside your existing markdown notes."
-  - question: "Is my note data private when using AI?"
-    answer: "Both tools work with plain local text files; review each tool's AI data settings to control what is sent to models."
-  - question: "Do I need coding experience to use Cursor for writing?"
-    answer: "No — Cursor's AI chat and inline suggestions work on any text file, including markdown notes."
-description: "Combine Obsidian and Cursor for AI-powered writing. This step-by-step workflow shows how to draft, summarize, and edit with your notes as AI context."
+title: "Obsidian + Cursor Writing Workflow (2026)"
+description: "Use Obsidian and Cursor together for AI writing: open your vault, ground drafts in your notes, and ship clearer articles without losing your voice."
 date: "2025-05-12"
-summary: "Learn how to combine Obsidian's note-taking power with Cursor's AI capabilities for enhanced writing workflows. Discover practical ways to leverage AI for contextual writing assistance."
+summary: "A practical workflow for combining Obsidian notes with Cursor AI so drafts stay grounded in your own research, voice, and source material."
 category: "Writing & Tools"
 tags: ["Obsidian", "Cursor", "AI Writing", "Note Taking", "Writing Tools"]
 author: "Florian Strauf"
----
-# # Using Obsidian and Cursor for Better Writing: A Step-by-Step Workflow Guide
-
-Obsidian and Cursor create a powerful AI workflow by combining personal knowledge management with intelligent editing. This setup lets you reference your notes while drafting, turning fragmented ideas into polished articles faster. You'll learn how to open your Obsidian vault in Cursor, give the AI context from your notes, and draft, summarize, and edit with it.
-
-## Why Combine Obsidian and Cursor?
-
-## Setting Up the Workflow
-
-## Practical AI Writing Use Cases
-
-## What's Next: AI-Assisted Notes
-
-Obsidian and Cursor create a powerful AI workflow by combining personal knowledge management with intelligent editing. This setup lets you reference your notes directly while drafting content, turning fragmented ideas into polished articles faster. In this guide, you'll learn a step-by-step workflow to set up and use both tools together.
-
-**Tool Overview:**
-
-* **Cursor:** AI-powered code editor with deep AI integration. Allows interaction with AI models like ChatGPT, Claude, and R1. Provides visual suggestions with red for removal and green for addition.
-
-* **Obsidian:** Markdown-based note-taking tool that syncs with iCloud Drive, uses simple text files, and works across Mac and iPhone.
-
-**Practical Workflow:**
-
-* **Open Obsidian notes in Cursor** to leverage AI for writing and editing tasks
-* **Provide context** to AI interactions using your existing notes
-* **Use AI for summarizing** notes and performing advanced spell-checking
-* **Draft content** like social media posts with AI assistance
-
-**Future Vision:** AI as an ever-improving source of advice that integrates with personal notes, accesses calendar and social media, and provides contextual insights while maintaining data privacy.
-
-Explore "Copilot for Obsidian" as an additional AI writing assistant tool.
-
-Read the full post on our blog: [https://blog.learnedlate.com/p/using-obsidian-and-cursor-for-writing](https://blog.learnedlate.com/p/using-obsidian-and-cursor-for-writing)
-
-Curious about what else I'm working on? [Check out my now page](/now) to see my current projects and focus areas.
-
+target_keyword: "obsidian cursor writing"
+faq:
+  - question: "Can Cursor edit my Obsidian notes directly?"
+    answer: "Yes. Open your Obsidian vault folder as a project in Cursor and the AI can read, edit, and draft against your existing markdown notes like any other workspace files."
+  - question: "Is my note data private when using AI?"
+    answer: "Both tools work with plain local text files. Check Cursor model and privacy settings (and any cloud sync you use for Obsidian) so you know what leaves your machine."
+  - question: "Do I need coding experience to use Cursor for writing?"
+    answer: "No. Cursor works on any text or markdown file. Treat it like an AI editor for notes and drafts; you do not need to write software to benefit."
+  - question: "Why use Cursor instead of only Copilot for Obsidian?"
+    answer: "In-vault plugins are convenient for short edits. Cursor is stronger when you want multi-file context, larger rewrites, and a full editor workflow across an entire vault or article series."
 ---
 
-# Related Articles
+# Obsidian and Cursor for Better Writing: A Step-by-Step Workflow
 
-- [Speaking vs Writing](./2025-02-10-speaking-vs-writing)
-- [Make Space for Your Best Work](./2025-03-05-make-space-for-your-best-work)
-- [Best AI Tools for Business 2025](./best-ai-tools-for-business-2025)
-- speaking versus writing
-- [speaking versus writing](/blog/2025-02-10-speaking-vs-writing)
+Obsidian stores your notes as plain markdown. Cursor is an AI editor that can read those files as context while you draft. Used together, they turn a personal knowledge base into a writing system: less blank-page friction, more continuity with what you already know, and drafts that sound like you instead of a generic model.
 
-[Speaking vs Writing](/blog/2025-02-10-speaking-vs-writing)
+I run this setup for long-form posts and technical articles. The workflow below is the practical version — setup, daily loop, and the failure modes that waste time.
 
-[Make Space for Your Best Work](/blog/2025-03-05-make-space-for-your-best-work)
+## Why combine Obsidian and Cursor?
 
-[Best AI Tools for Business 2025](/blog/best-ai-tools-for-business-2025)
+Most AI writing fails in one of two ways: the model invents structure you did not ask for, or it ignores the details you already researched. Obsidian is where those details live — quotes, outlines, meeting notes, half-finished arguments. Cursor is where you turn that material into a shippable draft without copy-pasting fragments into a chat window.
 
-> **Expertise:** Florian Strauf is a writer and productivity enthusiast who explores AI-powered workflows for content creation.
+The combination works because:
 
+- **Your notes stay the source of truth.** AI suggests; you decide.
+- **Context is local and multi-file.** You can point the model at a folder, not one pasted blob.
+- **Markdown stays portable.** No proprietary lock-in between tools.
+- **Editing is visual.** Diff-style suggestions make it easier to accept only the parts that improve the draft.
+
+If you only need light completions inside a single note, a vault plugin can be enough. When you are restructuring an article, merging research, or rewriting for clarity across sections, Cursor earns its place.
+
+## Setting up the workflow
+
+### 1. Keep Obsidian as the vault home
+
+Continue capturing ideas, research, and outlines in Obsidian as usual. Prefer short atomic notes for facts and longer “draft” notes for posts in progress. Consistent filenames and folders help Cursor (and you) find material later.
+
+### 2. Open the vault in Cursor
+
+In Cursor, open the same folder Obsidian uses as the vault root. You now have one filesystem both tools share. Leave Obsidian open for graph/search if you like; use Cursor when you are in drafting or rewrite mode.
+
+### 3. Ground the AI in the right notes
+
+Before asking for a full draft, attach or reference:
+
+- The outline or brief
+- Supporting research notes
+- Any prior draft of the same piece
+- Style or voice notes if you keep them
+
+A short instruction beats a vague “write an article.” Example: “Rewrite the intro to 50 words, keep the thesis from `outline.md`, and do not invent product claims.”
+
+### 4. Draft in markdown, review in diffs
+
+Ask Cursor to expand sections one at a time rather than generating the entire post in one shot. Review every suggestion. Reject fluent but empty paragraphs. Keep examples and numbers that came from your notes.
+
+### 5. Return the finished draft to your publish path
+
+When the MDX or markdown is ready, commit or publish through your normal site pipeline. Optionally paste a final summary back into Obsidian so the vault stays current.
+
+## Practical AI writing use cases
+
+### Summarize research before you draft
+
+Select a set of notes and ask for a bullet synthesis: claims, open questions, and contradictions. Use that as the spine of the outline instead of starting from a model’s generic structure.
+
+### Turn speaking into writing
+
+If you dictate or dump rough voice notes into the vault, use Cursor to clean structure while preserving phrasing that sounds like you. Pair this with [Speaking vs Writing](/blog/2025-02-10-speaking-vs-writing) if you are deciding which medium fits the idea first.
+
+### Edit for clarity without flattening voice
+
+Prompt for “cut filler, keep first-person examples” rather than “make this more professional.” Professional-by-default prompts often erase the operator detail that makes a post useful.
+
+### Build social and newsletter variants
+
+Once the long piece is solid, ask for a short LinkedIn post or email intro *from the same file*. That keeps messaging aligned and avoids rewriting from memory.
+
+### Compare tools in context
+
+When evaluating other assistants, keep the same vault workflow so comparisons are fair. For a broader stack view, see [Best AI Tools for Business 2025](/blog/best-ai-tools-for-business-2025) and treat this Obsidian + Cursor loop as the writing-specific path.
+
+## A simple daily loop
+
+1. **Capture** in Obsidian during the day (links, quotes, half thoughts).
+2. **Cluster** once: move related notes under a draft folder or link them.
+3. **Open the draft folder in Cursor** when you have a 30–60 minute block.
+4. **Expand one section**, review, commit mentally (or in git).
+5. **Stop with a next-action note** at the top of the file so tomorrow’s session starts warm.
+
+Protect deep work time the same way you would for non-AI writing. Tools do not replace focus — see [Make Space for Your Best Work](/blog/2025-03-05-make-space-for-your-best-work) if calendar noise is the real bottleneck.
+
+## Common mistakes
+
+- **Empty section headings.** Do not leave H2s with no body; models and readers both bounce.
+- **One-shot full articles.** Quality drops and voice washes out. Section-by-section wins.
+- **No source notes attached.** You get confident prose with weak grounding.
+- **Duplicating the Substack version poorly.** If a longer post lives on Substack, the site version should be a complete, self-contained guide — not a teaser with broken related-link soup.
+- **Ignoring privacy settings.** Treat client and strategy notes carefully when models send context to the cloud.
+
+## What's next
+
+Once the basic loop feels natural, layer in:
+
+- Templates for briefs and outlines in the vault
+- A fixed “voice” note you attach to every rewrite
+- Light automation only after the manual workflow is stable — random AI agents usually add noise before they add speed
+
+Obsidian remains the memory. Cursor remains the focused editor. Together they are less about “AI writing for you” and more about **writing with your own archive in the room**.
+
+> **Expertise:** Florian Strauf writes about AI-assisted workflows for founders and operators, and uses this Obsidian + Cursor setup for shipping technical and long-form content.
 
 ---
 
-Want more writing workflows? Subscribe to the newsletter for weekly tips. Curious about what else I'm working on? Check out my now page to see my current projects and focus areas.
-
-[Speaking vs Writing](/blog/2025-02-10-speaking-vs-writing)
-
-> **Expertise:** **Tool Overview:**
-
-* **Cursor:** AI-powered code editor with deep AI integration. Allows interaction with AI models like ChatGPT, Claude, and R1. Provides visual suggestions with red for removal and green for addition. I use it daily to draft and edit articles against my Obsidian notes — the workflow below is the exact setup I run for my own writing.
-
-
----
-
-Want the complete walkthrough? Read the full step-by-step guide: [Using Obsidian and Cursor for Better Writing](https://blog.learnedlate.com/p/using-obsidian-and-cursor-for-writing) — or explore the related articles below to keep improving your writing workflow.
+Want more practical writing and AI workflows? Browse related posts above, or check [what I am focused on now](/now).
