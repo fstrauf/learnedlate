@@ -106,7 +106,7 @@
     },
     {
       "id": 2,
-      "title": "How to Choose the Right CTO for Your Startup",
+      "title": "How to Hire a CTO for Your Startup (2026)",
       "url_slug": "how-to-choose-cto-for-startup",
       "file": "./src/blog/posts/how-to-choose-cto-for-startup.mdx",
       "target_keyword": "how to hire a cto",
@@ -172,7 +172,8 @@
           "url": "best-ai-tools-for-business-2025"
         }
       ],
-      "excerpt": "Full-time? Fractional? Advisor? Here's the framework for choosing the right technical leadership for your stage and situation. Learn which CTO model fits your startup's needs, budget, and growth stage."
+      "excerpt": "Find and hire a CTO for your startup: compare full-time, fractional, and advisor models by stage, budget, and what technical leadership you actually need.",
+      "meta_description": "Find and hire a CTO for your startup: compare full-time, fractional, and advisor models by stage, budget, and what technical leadership you actually need."
     },
     {
       "id": 3,
@@ -1169,7 +1170,7 @@
     },
     {
       "id": 21,
-      "title": "Digital Marketing Services for NZ Small Businesses: Your Practical Guide",
+      "title": "Digital Marketing NZ for Small Business (2026)",
       "url_slug": "digital_marketing_nz_guide",
       "file": "./src/blog/posts/digital_marketing_nz_guide.mdx",
       "target_keyword": "",
@@ -1199,7 +1200,8 @@
           "url": "/blog/what-is-custom-software-development-complete-guide/"
         }
       ],
-      "excerpt": "Digital marketing for NZ small businesses: which channels work on a Kiwi budget. Real results, NZD tool costs, local case studies & a free 30-day action plan. Updated March 2026."
+      "excerpt": "Practical digital marketing NZ playbook for small businesses: local SEO, focused social, and content that wins customers without a big agency budget.",
+      "meta_description": "Practical digital marketing NZ playbook for small businesses: local SEO, focused social, and content that wins customers without a big agency budget."
     },
     {
       "id": 22,
@@ -1452,7 +1454,7 @@
     },
     {
       "id": 28,
-      "title": "Using Obsidian and Cursor for Writing",
+      "title": "Obsidian + Cursor Writing Workflow (2026)",
       "url_slug": "2025-05-12-using-obsidian-and-cursor-for-writing",
       "file": "./src/blog/posts/2025-05-12-using-obsidian-and-cursor-for-writing.mdx",
       "target_keyword": "",
@@ -1481,7 +1483,9 @@
           "anchor_text": "Best AI Tools for Business 2025",
           "url": "./best-ai-tools-for-business-2025.md"
         }
-      ]
+      ],
+      "meta_description": "Use Obsidian and Cursor together for AI writing: open your vault, ground drafts in your notes, and ship clearer articles without losing your voice.",
+      "excerpt": "Use Obsidian and Cursor together for AI writing: open your vault, ground drafts in your notes, and ship clearer articles without losing your voice."
     },
     {
       "id": 29,
