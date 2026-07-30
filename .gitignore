@@ -1,6 +1,4 @@
 
-.github/automation
-
 # Logs
 logs
 *.log
@@ -32,16 +30,15 @@ dist-ssr
 *.sw?
 .vercel
 
-# Automation data - do not commit
-.github/automation/
+# PageSeeds automation: ignore generated artifacts; track shared operator brief
+.github/automation/*
+!.github/automation/project.md
+.github/automation/artifacts/
+.github/automation/task_results/
 
 # Compiled API files
 api/*.js
 api/*.js.map
-
-# PageSeeds automation - generated artifacts
-.github/automation/artifacts/
-.github/automation/task_results/
 
 # Image optimization backups
 public/*.backup
