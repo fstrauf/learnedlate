@@ -1,6 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { staticRoutes } from './sitemap-routes.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -11,23 +12,6 @@ const articles = articlesData.articles
 
 const baseUrl = 'https://www.learnedlate.com'
 const today = new Date().toISOString().split('T')[0]
-
-const staticRoutes = [
-  { path: '/', priority: '1.0', changefreq: 'weekly' },
-  { path: '/blog', priority: '0.9', changefreq: 'weekly' },
-  { path: '/case-studies', priority: '0.8', changefreq: 'monthly' },
-  { path: '/projects', priority: '0.8', changefreq: 'monthly' },
-  { path: '/cv', priority: '0.7', changefreq: 'monthly' },
-  { path: '/mvp-development', priority: '0.8', changefreq: 'monthly' },
-  { path: '/fractional-cto', priority: '0.8', changefreq: 'monthly' },
-  { path: '/seo-automation', priority: '0.8', changefreq: 'monthly' },
-  { path: '/sap-solution-architecture', priority: '0.7', changefreq: 'monthly' },
-  { path: '/sap-custom-development', priority: '0.7', changefreq: 'monthly' },
-  { path: '/now', priority: '0.7', changefreq: 'weekly' },
-  { path: '/life-balance-visualizer', priority: '0.6', changefreq: 'monthly' },
-  { path: '/life-calendar', priority: '0.6', changefreq: 'monthly' },
-  { path: '/concentric-circles', priority: '0.6', changefreq: 'monthly' },
-]
 
 let sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

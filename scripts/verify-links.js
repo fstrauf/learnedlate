@@ -11,6 +11,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { staticRoutes, MONEY_PATHS } from './sitemap-routes.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -174,12 +175,9 @@ function checkArticlesJsonCoverage() {
 // ─────────────────────────────────────────────────────────────
 function checkSitemapRedirects() {
   const routesPath = path.join(ROOT_DIR, 'src', 'router', 'routes.ts')
-  const sitemapPath = path.join(ROOT_DIR, 'scripts', 'generate-sitemap.js')
-
-  if (!fs.existsSync(routesPath) || !fs.existsSync(sitemapPath)) return
+  if (!fs.existsSync(routesPath)) return
 
   const routesContent = fs.readFileSync(routesPath, 'utf-8')
-  const sitemapContent = fs.readFileSync(sitemapPath, 'utf-8')
 
   // Extract redirect routes from routes.ts
   const redirectPattern = /\{\s*path:\s*['"]([^'"]+)['"]\s*,\s*redirect:\s*['"]([^'"]+)['"]\s*\}/g
@@ -189,20 +187,30 @@ function checkSitemapRedirects() {
     redirectRoutes.set(rm[1], rm[2])
   }
 
-  // Extract static routes from generate-sitemap.js
-  const staticRoutePattern = /\{\s*path:\s*['"]([^'"]+)['"]/g
-  let sm
-  while ((sm = staticRoutePattern.exec(sitemapContent)) !== null) {
-    const routePath = sm[1]
-    if (redirectRoutes.has(routePath)) {
-      console.error(`❌ Redirect route found in sitemap staticRoutes: ${routePath} -> ${redirectRoutes.get(routePath)}`)
+  for (const route of staticRoutes) {
+    if (redirectRoutes.has(route.path)) {
+      console.error(`❌ Redirect route found in sitemap staticRoutes: ${route.path} -> ${redirectRoutes.get(route.path)}`)
       hasError = true
     }
   }
 }
 
 // ─────────────────────────────────────────────────────────────
-// 5. Check blog post canonical URLs match their slugs
+// 5. Check sitemap includes GTM money URLs (prevents list drift)
+// ─────────────────────────────────────────────────────────────
+function checkSitemapMoneyUrls() {
+  const staticPaths = new Set(staticRoutes.map(r => r.path))
+
+  for (const moneyPath of MONEY_PATHS) {
+    if (!staticPaths.has(moneyPath)) {
+      console.error(`❌ GTM money URL missing from sitemap staticRoutes: ${moneyPath}`)
+      hasError = true
+    }
+  }
+}
+
+// ─────────────────────────────────────────────────────────────
+// 6. Check blog post canonical URLs match their slugs
 // ─────────────────────────────────────────────────────────────
 function checkCanonicalMismatch() {
   const postsDir = path.join(ROOT_DIR, 'src', 'blog', 'posts')
@@ -244,6 +252,7 @@ console.log('Verifying internal blog links (Vue + markdown), mailto protection, 
 
 scanVueFiles()
 checkSitemapRedirects()
+checkSitemapMoneyUrls()
 checkCanonicalMismatch()
 checkMdExtensions()
 checkArticlesJsonCoverage()
