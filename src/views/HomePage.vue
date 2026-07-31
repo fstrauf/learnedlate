@@ -136,9 +136,9 @@
               <p class="text-sm text-gray-400">
                 This is the work: find the bottleneck, automate it, make it useful.
               </p>
-              <a href="https://blog.learnedlate.com/p/i-dont-think-content-seo-is-dead" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-sm text-amber-300 hover:text-amber-200 whitespace-nowrap">
+              <router-link to="/blog" class="inline-flex items-center gap-1 text-sm text-amber-300 hover:text-amber-200 whitespace-nowrap">
                 Read the full story &rarr;
-              </a>
+              </router-link>
             </div>
           </div>
         </div>
