@@ -33,6 +33,7 @@ dist-ssr
 # PageSeeds automation: ignore generated artifacts; track shared operator brief
 .github/automation/*
 !.github/automation/project.md
+!.github/automation/inventory_prune_plan.md
 .github/automation/artifacts/
 .github/automation/task_results/
 

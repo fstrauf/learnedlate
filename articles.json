@@ -751,11 +751,6 @@
           "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
         },
         {
-          "target_id": 57,
-          "anchor_text": "Software Development in Christchurch: Complete Guide for Local Businesses (2026)",
-          "url": "/blog/software_development_in_christchurch_complete_guide_for_local_businesses_2026/"
-        },
-        {
           "target_id": 62,
           "anchor_text": "How to Choose Your Tech Stack",
           "url": "/blog/how_to_choose_your_tech_stack_a_non_technical_founders_decision_framework/"
@@ -2500,16 +2495,6 @@
           "target_id": 76,
           "anchor_text": "SAP Clean Core Assessment Checklist: A Practical Framework for S/4HANA Migration",
           "url": "/blog/sap_clean_core_assessment_checklist_a_practical_framework_for_s4hana_migration/"
-        },
-        {
-          "target_id": 77,
-          "anchor_text": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
-          "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
-        },
-        {
-          "target_id": 82,
-          "anchor_text": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
-          "url": "/blog/startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency/"
         }
       ],
       "excerpt": "A fractional CTO is an experienced technology executive who provides strategic technical leadership to multiple companies on a part-time basis. Learn how NZ startups can access C-level expertise for NZD $60K-150K annually instead of $350K+ for full-time."
@@ -2835,11 +2820,6 @@
           "target_id": 70,
           "anchor_text": "Product Management for Non-Technical Founders: A Practical Guide",
           "url": "/blog/product_management_for_non_technical_founders_a_practical_guide/"
-        },
-        {
-          "target_id": 82,
-          "anchor_text": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
-          "url": "/blog/startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency/"
         }
       ],
       "excerpt": "A practical, founder-tested guide to building your first MVP. Learn the step-by-step process to validate your idea quickly without wasting time or money."
@@ -2928,11 +2908,6 @@
           "target_id": 11,
           "anchor_text": "What is Custom Software Development?",
           "url": "/blog/what-is-custom-software-development-complete-guide"
-        },
-        {
-          "target_id": 57,
-          "anchor_text": "Software Development in Christchurch: Complete Guide for Local Businesses (2026)",
-          "url": "/blog/software_development_in_christchurch_complete_guide_for_local_businesses_2026/"
         }
       ],
       "excerpt": "A practical guide for Wellington businesses considering custom software in 2025. Learn costs, local advantages, and how to choose the right development partner."
@@ -3347,11 +3322,6 @@
           "url": "/blog/startup_runway_calculator_how_to_plan_your_cash_runway_nz_focused_template/"
         },
         {
-          "target_id": 82,
-          "anchor_text": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
-          "url": "/blog/startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency/"
-        },
-        {
           "target_id": 41,
           "anchor_text": "New Zealand Startups: Your Complete Fractional CTO Guide",
           "url": "/blog/2025-06-22-nz-startups-fractional-cto-guide/"
@@ -3482,11 +3452,6 @@
           "target_id": 45,
           "anchor_text": "Fractional CTO guidance on financial planning",
           "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "target_id": 82,
-          "anchor_text": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
-          "url": "/blog/startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency/"
         }
       ],
       "excerpt": "Learn how to calculate and extend your startup runway with our NZ-focused calculator template. Includes local funding options and cost considerations."
@@ -3854,40 +3819,6 @@
       "excerpt": "Part time CTO hourly rate NZ: $150-$350/hr for Auckland, Wellington & Christchurch startups. Budget smarter with our fractional CTO guide."
     },
     {
-      "id": 74,
-      "title": "Startup Cash Runway Calculator Template (Free Download): Plan Your Burn Rate in Minutes",
-      "url_slug": "startup_cash_runway_calculator_template_free_download_plan_your_burn_rate_in_minutes",
-      "file": "./src/blog/posts/074_startup_cash_runway_calculator_template_free_download_plan_your_burn_rate_in_minutes.mdx",
-      "target_keyword": "startup cash runway calculator",
-      "keyword_difficulty": "0",
-      "target_volume": 0,
-      "published_date": "2026-03-13",
-      "word_count": 197,
-      "status": "published",
-      "content_gaps_addressed": [],
-      "estimated_traffic_monthly": "",
-      "cluster": "startup-finance",
-      "cluster_role": "support",
-      "internal_links": [
-        {
-          "target_id": 64,
-          "anchor_text": "Startup Runway Calculator: How to Plan Your Cash Runway (NZ-Focused Template)",
-          "url": "/blog/startup_runway_calculator_how_to_plan_your_cash_runway_nz_focused_template/"
-        },
-        {
-          "target_id": 50,
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        },
-        {
-          "target_id": 82,
-          "anchor_text": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
-          "url": "/blog/startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency/"
-        }
-      ],
-      "excerpt": "Download our free startup cash runway calculator template. Plan your burn rate, forecast cash flow, and know exactly when you need to raise your next round."
-    },
-    {
       "id": 75,
       "title": "Fractional CTO for SaaS Startups: Scaling Your Platform Without the Full-Time Price Tag",
       "url_slug": "fractional_cto_for_saas_startups_scaling_your_platform_without_the_full_time_price_tag",
@@ -4125,50 +4056,6 @@
         }
       ],
       "excerpt": "Learn how to build custom skills for SAP Joule with this beginner-friendly tutorial. Master AI capabilities, SAP BTP integration, and practical implementation."
-    },
-    {
-      "id": 82,
-      "title": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
-      "url_slug": "startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency",
-      "file": "./src/blog/posts/082_startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency.mdx",
-      "target_keyword": "startup runway calculator nz template",
-      "keyword_difficulty": "0",
-      "target_volume": 0,
-      "published_date": "2025-12-27",
-      "word_count": 2100,
-      "status": "published",
-      "content_gaps_addressed": [],
-      "estimated_traffic_monthly": "",
-      "cluster": "startup-funding",
-      "cluster_role": "support",
-      "internal_links": [
-        {
-          "target_id": 61,
-          "anchor_text": "The Complete Guide to NZ Startup Grants & Funding (2026 Edition with Application Tips)",
-          "url": "/blog/the_complete_guide_to_nz_startup_grants_funding_2025_edition_with_application_tips/"
-        },
-        {
-          "target_id": 64,
-          "anchor_text": "Startup Runway Calculator: How to Plan Your Cash Runway (NZ-Focused Template)",
-          "url": "/blog/startup_runway_calculator_how_to_plan_your_cash_runway_nz_focused_template/"
-        },
-        {
-          "target_id": 74,
-          "anchor_text": "Startup Cash Runway Calculator Template (Free Download): Plan Your Burn Rate in Minutes",
-          "url": "/blog/startup_cash_runway_calculator_template_free_download_plan_your_burn_rate_in_minutes/"
-        },
-        {
-          "target_id": 45,
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "target_id": 50,
-          "anchor_text": "How to Build an MVP for Your Startup: A Founder's Step-by-Step Guide",
-          "url": "/blog/how_to_build_an_mvp_for_your_startup_a_founders_step_by_step_guide/"
-        }
-      ],
-      "excerpt": "A free NZD-focused startup runway calculator template. Track your burn rate, plan funding rounds, and avoid the cash crunch that kills 29% of Kiwi startups."
     },
     {
       "id": 84,
@@ -4766,7 +4653,8 @@
       "title": "Intelligent Process Automation: Complete Guide",
       "url_slug": "intelligent-process-automation",
       "word_count": 1438,
-      "excerpt": "Practical intelligent process automation guide for founders and ops leaders—RPA vs IPA, decision criteria, tooling stack, 90-day plan, and when to stop automating."
+      "excerpt": "Practical intelligent process automation guide for founders and ops leaders—RPA vs IPA, decision criteria, tooling stack, 90-day plan, and when to stop automating.",
+      "internal_links": []
     },
     {
       "content_gaps_addressed": [],
@@ -4783,7 +4671,8 @@
       "title": "AI Automation Training: Complete Guide",
       "url_slug": "ai-automation-training",
       "word_count": 882,
-      "excerpt": "Practical AI automation training guide for NZ operators—skills ladder, 30-day plan, tool stack, and how to turn training into production workflows."
+      "excerpt": "Practical AI automation training guide for NZ operators—skills ladder, 30-day plan, tool stack, and how to turn training into production workflows.",
+      "internal_links": []
     },
     {
       "content_gaps_addressed": [],
@@ -4800,7 +4689,8 @@
       "title": "Intelligent Robotic Process Automation: Complete Guide",
       "url_slug": "intelligent-robotic-process-automation",
       "word_count": 1213,
-      "excerpt": "Practical guide to intelligent robotic process automation for operators—RPA vs IRPA, decision criteria, architecture, pilot plan, and when pure bots are enough."
+      "excerpt": "Practical guide to intelligent robotic process automation for operators—RPA vs IRPA, decision criteria, architecture, pilot plan, and when pure bots are enough.",
+      "internal_links": []
     }
   ]
 }
