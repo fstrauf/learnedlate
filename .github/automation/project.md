@@ -344,7 +344,30 @@ Product mention stance: **RECOMMENDED** when it adds natural value (LearnedLate 
 
 ---
 
-*Last updated: 2026-07-30*  
+## Host strategy (www vs Substack)
+
+| Decision | Rule |
+|----------|------|
+| SEO host of record | **www.learnedlate.com** |
+| Substack role | Newsletter + distribution; may keep full copies |
+| New SEO content | No Substack-only SEO-first posts without a www twin planned the same cycle |
+| Mass 301 Substack → www | Out of scope (fragile + newsletter risk). Revisit only after www equals/beats Substack on the pilot |
+| Substack rel=canonical to www | Do not depend on (platform self-canonicals) |
+| Pilot | Obsidian + Cursor only |
+| Soft CTA | Optional one block on pilot MDX → /ai-readiness-checklist or /contact |
+
+**Preferred Obsidian www URL:** `https://www.learnedlate.com/blog/2025-05-12-using-obsidian-and-cursor-for-writing` (date-prefixed slug; non-date slug 404s today; #3 may attach full body / change later).
+
+**Weekly SEO reports:** Note host click/impression split for **www** vs **blog.learnedlate.com** (domain GSC property).
+
+**Manual owner follow-up (not blocking code merge):** On the Substack Obsidian post, add a top note "Full guide also on www…" linking to the preferred Obsidian www URL above.
+
+Chrome on www should own blog navigation (internal `/blog`, not external Substack as the default product-site blog link).
+
+---
+
+*Last updated: 2026-08-01*  
+*2026-08-01: Host strategy (www vs Substack) — www is SEO host of record; pilot Obsidian + soft CTA; no mass 301s.*  
 *2026-07-30: machine-parseable Search Keywords + Content Clusters (ACTIVE service ladder, LEGACY CTO/SAP).*  
 *Source of truth for PageSeeds: this file only*  
 *Next review: when positioning, services, or major site messaging changes*

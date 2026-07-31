@@ -33,7 +33,7 @@
             <div>
               <h2 class="text-xl font-medium text-gray-900 mb-3">Writing & Sharing</h2>
               <p>
-                Writing weekly about technology, AI implementation, and business strategy at <router-link to="/blog" class="text-amber-700 hover:underline font-medium">blog.learnedlate.com</router-link>. Focus areas include:
+                Writing weekly about technology, AI implementation, and business strategy at <router-link to="/blog" class="text-amber-700 hover:underline font-medium">www.learnedlate.com/blog</router-link>. Focus areas include:
               </p>
               <ul class="list-disc list-inside mt-2 ml-2 space-y-1 text-gray-600">
                 <li>Practical AI tools for small businesses</li>
