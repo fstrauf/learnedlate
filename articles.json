@@ -779,7 +779,7 @@
     },
     {
       "id": 12,
-      "title": "Technical Due Diligence Checklist for Startup Investors",
+      "title": "Technical Due Diligence Checklist: 48-Hour Investor Guide",
       "url_slug": "technical-due-diligence-checklist",
       "file": "./src/blog/posts/technical-due-diligence-checklist.mdx",
       "target_keyword": "",
@@ -1170,7 +1170,7 @@
     },
     {
       "id": 21,
-      "title": "Digital Marketing NZ for Small Business (2026)",
+      "title": "Digital Marketing NZ: Small Business Guide (2026)",
       "url_slug": "digital_marketing_nz_guide",
       "file": "./src/blog/posts/digital_marketing_nz_guide.mdx",
       "target_keyword": "",
@@ -1200,8 +1200,8 @@
           "url": "/blog/what-is-custom-software-development-complete-guide/"
         }
       ],
-      "excerpt": "Practical digital marketing NZ playbook for small businesses: local SEO, focused social, and content that wins customers without a big agency budget.",
-      "meta_description": "Practical digital marketing NZ playbook for small businesses: local SEO, focused social, and content that wins customers without a big agency budget."
+      "excerpt": "Digital marketing NZ guide for small business: local SEO, social that converts, and a 30-day plan that wins customers without agency fees.",
+      "meta_description": "Digital marketing NZ guide for small business: local SEO, social that converts, and a 30-day plan that wins customers without agency fees."
     },
     {
       "id": 22,
