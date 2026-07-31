@@ -293,7 +293,9 @@ describe('resolvePostModulePath', () => {
     ).toContain('073_part_time_cto_hourly_rates')
   })
 
-  it('returns undefined for non-match', () => {
+  it('returns undefined for non-match (loadPostContent fail-closed contract)', () => {
+    // loadPostContent returns undefined when resolvePostModulePath is undefined —
+    // never an empty metadata shell (see src/blog/index.ts).
     expect(resolvePostModulePath('does-not-exist-anywhere', paths)).toBeUndefined()
   })
 

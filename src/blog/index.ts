@@ -109,7 +109,9 @@ export function getBlogPostBySlug(slug: string): BlogPost | undefined {
   return blogPostMap.get(slug)
 }
 
-// Load full post content including markdown
+// Load full post content including markdown.
+// Fail-closed: if catalog has the slug but no MDX resolves, return undefined
+// so BlogPostPage shows "Post not found" instead of an empty metadata shell.
 export function loadPostContent(slug: string): BlogPost | undefined {
   const post = getBlogPostBySlug(slug)
   if (!post) return undefined
@@ -117,13 +119,13 @@ export function loadPostContent(slug: string): BlogPost | undefined {
   const modules = getPostModules()
   const matchingPath = resolvePostModulePath(slug, Object.keys(modules))
 
-  if (matchingPath) {
-    const raw = modules[matchingPath]
-    const { data, content } = parseMarkdown(raw)
-    return mergePostWithFrontmatter(post, data, content)
+  if (!matchingPath) {
+    return undefined
   }
 
-  return post
+  const raw = modules[matchingPath]
+  const { data, content } = parseMarkdown(raw)
+  return mergePostWithFrontmatter(post, data, content)
 }
 
 // Get posts by category

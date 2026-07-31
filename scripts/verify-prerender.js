@@ -10,6 +10,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { MONEY_PATHS } from './sitemap-routes.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -44,6 +45,22 @@ staticPages.forEach(page => {
     errors.push(`Missing: ${page}`)
   } else {
     success.push(`✅ ${page}`)
+  }
+})
+
+// GTM money URLs must be prerendered as dist HTML (sitemap advertises them)
+MONEY_PATHS.forEach((moneyPath) => {
+  // /services/strategy → dist/client/services/strategy/index.html
+  // /contact → dist/client/contact/index.html
+  const candidates = [
+    path.join(distPath, moneyPath.slice(1), 'index.html'),
+    path.join(distPath, `${moneyPath.slice(1)}.html`)
+  ]
+  const found = candidates.find((p) => fs.existsSync(p))
+  if (!found) {
+    errors.push(`Missing money URL prerender: ${moneyPath} (expected ${candidates[0]})`)
+  } else {
+    success.push(`✅ money ${moneyPath} → ${path.relative(distPath, found)}`)
   }
 })
 

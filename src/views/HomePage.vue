@@ -137,7 +137,7 @@
                 This is the work: find the bottleneck, automate it, make it useful.
               </p>
               <router-link to="/blog" class="inline-flex items-center gap-1 text-sm text-amber-300 hover:text-amber-200 whitespace-nowrap">
-                Read the full story &rarr;
+                Browse the blog &rarr;
               </router-link>
             </div>
           </div>

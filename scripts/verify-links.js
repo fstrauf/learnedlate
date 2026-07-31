@@ -197,6 +197,7 @@ function checkSitemapRedirects() {
 
 // ─────────────────────────────────────────────────────────────
 // 5. Check sitemap includes GTM money URLs (prevents list drift)
+//    Assert both source SSOT (staticRoutes) and public/sitemap.xml locs.
 // ─────────────────────────────────────────────────────────────
 function checkSitemapMoneyUrls() {
   const staticPaths = new Set(staticRoutes.map(r => r.path))
@@ -204,6 +205,26 @@ function checkSitemapMoneyUrls() {
   for (const moneyPath of MONEY_PATHS) {
     if (!staticPaths.has(moneyPath)) {
       console.error(`❌ GTM money URL missing from sitemap staticRoutes: ${moneyPath}`)
+      hasError = true
+    }
+  }
+
+  // Deploy artifact: public/sitemap.xml must list money URLs as <loc>
+  const sitemapPath = path.join(ROOT_DIR, 'public', 'sitemap.xml')
+  if (!fs.existsSync(sitemapPath)) {
+    console.error(`❌ public/sitemap.xml missing — run generate-sitemap before verify-links`)
+    hasError = true
+    return
+  }
+
+  const sitemapXml = fs.readFileSync(sitemapPath, 'utf-8')
+  const locs = [...sitemapXml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m => m[1].trim())
+  const locSet = new Set(locs)
+
+  for (const moneyPath of MONEY_PATHS) {
+    const expected = `https://www.learnedlate.com${moneyPath}`
+    if (!locSet.has(expected)) {
+      console.error(`❌ GTM money URL missing from public/sitemap.xml: ${expected}`)
       hasError = true
     }
   }
