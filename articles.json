@@ -43,7 +43,7 @@
           "url": "/blog/what_does_a_fractional_cto_do_exactly_roles_responsibilities_deliverables/"
         },
         {
-          "target_id": 56,
+          "target_id": 77,
           "anchor_text": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
           "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
         },
@@ -157,7 +157,7 @@
           "url": "/blog/what_does_a_fractional_cto_do_exactly_roles_responsibilities_deliverables/"
         },
         {
-          "target_id": 56,
+          "target_id": 77,
           "anchor_text": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
           "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
         },
@@ -746,7 +746,7 @@
           "url": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide/"
         },
         {
-          "target_id": 56,
+          "target_id": 77,
           "anchor_text": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
           "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
         },
@@ -838,7 +838,7 @@
       "cluster_role": "support",
       "internal_links": [
         {
-          "target_id": 56,
+          "target_id": 77,
           "anchor_text": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
           "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
         },
@@ -2086,7 +2086,7 @@
       "cluster_role": "support",
       "internal_links": [
         {
-          "target_id": 56,
+          "target_id": 77,
           "anchor_text": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
           "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
         },
@@ -2367,7 +2367,7 @@
       "cluster_role": "pillar",
       "internal_links": [
         {
-          "target_id": 56,
+          "target_id": 77,
           "anchor_text": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
           "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
         },
@@ -2531,7 +2531,7 @@
       "cluster_role": "support",
       "internal_links": [
         {
-          "target_id": 56,
+          "target_id": 77,
           "anchor_text": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
           "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
         },
@@ -2688,7 +2688,7 @@
           "url": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide/"
         },
         {
-          "target_id": 56,
+          "target_id": 77,
           "anchor_text": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
           "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
         },
@@ -3113,50 +3113,6 @@
         }
       ],
       "excerpt": "Learn how to hire developers for startup non-technical founder teams. A complete 2026 guide to vetting, interviewing, and onboarding tech talent without."
-    },
-    {
-      "id": 56,
-      "title": "Fractional CTO for Healthcare Startups: Compliance, Tech Stack & Growth Strategy",
-      "url_slug": "fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy",
-      "file": "./src/blog/posts/056_fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy_2026.mdx",
-      "target_keyword": "fractional CTO for healthcare startups",
-      "keyword_difficulty": "",
-      "target_volume": 0,
-      "published_date": "2026-01-24",
-      "word_count": 1348,
-      "status": "published",
-      "content_gaps_addressed": [],
-      "estimated_traffic_monthly": "",
-      "cluster": "fractional-cto",
-      "cluster_role": "support",
-      "internal_links": [
-        {
-          "target_id": 45,
-          "anchor_text": "What is a Fractional CTO? Complete Guide for New Zealand Startups",
-          "url": "/blog/2025-06-22-what-is-fractional-cto-complete-guide/"
-        },
-        {
-          "target_id": 46,
-          "anchor_text": "How Much Does a Fractional CTO Cost in 2025? Complete Pricing Guide",
-          "url": "/blog/how_much_does_a_fractional_cto_cost_in_2025_complete_pricing_guide/"
-        },
-        {
-          "target_id": 53,
-          "anchor_text": "What Does a Fractional CTO Do Exactly? Roles, Responsibilities & Deliverables",
-          "url": "/blog/what_does_a_fractional_cto_do_exactly_roles_responsibilities_deliverables/"
-        },
-        {
-          "target_id": 41,
-          "anchor_text": "New Zealand Startups: Your Complete Fractional CTO Guide",
-          "url": "/blog/2025-06-22-nz-startups-fractional-cto-guide/"
-        },
-        {
-          "target_id": 11,
-          "anchor_text": "What is Custom Software Development? Complete Guide 2025",
-          "url": "/blog/what-is-custom-software-development-complete-guide/"
-        }
-      ],
-      "excerpt": "Discover why healthcare startups need a fractional CTO with specialized expertise in compliance, security, and scalable health tech architecture."
     },
     {
       "id": 57,
@@ -4704,24 +4660,6 @@
       "cluster_role": "pillar",
       "internal_links": [],
       "excerpt": "Discover how API integration services help NZ businesses connect systems, automate workflows, and eliminate data silos. A practical guide for startups and growing companies."
-    },
-    {
-      "id": 96,
-      "title": "Fractional CTO Costs in New Zealand: 2025 Pricing Guide for NZ Startups",
-      "url_slug": "fractional_cto_costs_in_new_zealand_2025_pricing_guide_for_nz_startups",
-      "file": "./src/blog/posts/080_fractional_cto_costs_in_new_zealand_2025_pricing_guide_for_nz_startups.mdx",
-      "target_keyword": "fractional cto costs new zealand",
-      "keyword_difficulty": "0",
-      "target_volume": 0,
-      "published_date": "2026-03-21",
-      "word_count": 1210,
-      "status": "published",
-      "content_gaps_addressed": [],
-      "estimated_traffic_monthly": "",
-      "cluster": "fractional-cto",
-      "cluster_role": "support",
-      "internal_links": [],
-      "excerpt": "Discover 2025 fractional CTO costs in New Zealand. Complete pricing guide for NZ startups, including hourly rates, monthly retainers, and factors affecting pricing."
     },
     {
       "id": 97,
