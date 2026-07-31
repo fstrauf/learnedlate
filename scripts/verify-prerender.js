@@ -19,8 +19,6 @@ const articlesPath = path.join(__dirname, '..', 'articles.json')
 
 /** Minimum character length of body text inside .blog-content to count as non-empty */
 const MIN_BODY_CHARS = 80
-/** Fail if fewer than this fraction of published posts pass the body gate */
-const MIN_PASS_RATE = 0.9
 
 // Check if dist folder exists
 if (!fs.existsSync(distPath)) {
@@ -139,20 +137,6 @@ console.log(`   - Total files verified: ${success.length}`)
 console.log(`   - Body gate pass: ${bodyPass.length}`)
 console.log(`   - Body gate fail: ${bodyFail.length}`)
 
-const bodyChecked = bodyPass.length + bodyFail.length
-const passRate = bodyChecked > 0 ? bodyPass.length / bodyChecked : 0
-const minRequired = Math.ceil(articles.length * MIN_PASS_RATE)
-
-if (bodyFail.length > 0) {
-  console.error(`\n⚠️  Empty or thin blog bodies:`)
-  bodyFail.slice(0, 15).forEach((f) =>
-    console.error(`      ❌ ${f.urlSlug}: ${f.reason}`)
-  )
-  if (bodyFail.length > 15) {
-    console.error(`      ... and ${bodyFail.length - 15} more`)
-  }
-}
-
 let failed = false
 
 if (errors.length > 0) {
@@ -165,14 +149,17 @@ if (errors.length > 0) {
   failed = true
 }
 
-if (bodyPass.length < minRequired) {
-  console.error(
-    `\n❌ Body-length gate FAILED: ${bodyPass.length}/${articles.length} published posts have non-trivial body (need ≥ ${minRequired} = ${Math.round(MIN_PASS_RATE * 100)}%)`
+// Hard fail: any published post with empty/thin body (or missing file counted above)
+if (bodyFail.length > 0) {
+  console.error(`\n❌ Body-length gate FAILED: empty/thin bodies not allowed`)
+  console.error(`   - ${bodyFail.length}/${articles.length} published posts failed`)
+  bodyFail.forEach((f) =>
+    console.error(`      ❌ ${f.urlSlug}: ${f.reason}`)
   )
   failed = true
 } else {
   console.log(
-    `\n✅ Body-length gate passed: ${bodyPass.length}/${articles.length} (≥ ${Math.round(MIN_PASS_RATE * 100)}%)`
+    `\n✅ Body-length gate passed: ${bodyPass.length}/${articles.length} published posts have non-trivial body`
   )
 }
 
@@ -183,5 +170,4 @@ if (failed) {
 console.log(`\n✅ All files prerendered successfully!`)
 console.log(`   - ${articles.length} blog posts`)
 console.log(`   - ${staticPages.length + 1} static pages`)
-console.log(`   - pass rate: ${(passRate * 100).toFixed(1)}%`)
 console.log('\n✅ Prerender verification PASSED')

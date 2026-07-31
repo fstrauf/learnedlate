@@ -513,7 +513,7 @@
           "url": "/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/"
         }
       ],
-      "excerpt": "18 AI tools for small business \u2014 tested, ranked, and priced in NZD. From $0 to $300/month, find tools that save 10\u201330 hours/week without enterprise complexity. Includes NZ data sovereignty notes and real ROI data."
+      "excerpt": "18 AI tools for small business — tested, ranked, and priced in NZD. From $0 to $300/month, find tools that save 10–30 hours/week without enterprise complexity. Includes NZ data sovereignty notes and real ROI data."
     },
     {
       "id": 9,
@@ -567,7 +567,7 @@
           "url": "/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/"
         }
       ],
-      "excerpt": "How to use AI for your small business \u2014 step-by-step. Start saving 10+ hours/week from Monday: real NZ examples, tools under NZD $300/month, and a free 30-day action plan. No tech skills needed."
+      "excerpt": "How to use AI for your small business — step-by-step. Start saving 10+ hours/week from Monday: real NZ examples, tools under NZD $300/month, and a free 30-day action plan. No tech skills needed."
     },
     {
       "id": 10,
@@ -949,7 +949,8 @@
           "anchor_text": "Fractional CTO Services for New Zealand Startups",
           "url": "/blog/fractional-cto-guide-new-zealand/"
         }
-      ]
+      ],
+      "excerpt": "Discover the best CRM software for NZ businesses in 2025. Compare HubSpot, Pipedrive, Zoho & Salesforce with local GST compliance, Xero integration & industry-specific features."
     },
     {
       "id": 16,
@@ -1036,7 +1037,8 @@
           "anchor_text": "ChatGPT for Business: Practical Implementation Guide",
           "url": "./2025-06-22-chatgpt-for-business-practical-implementation-guide.md"
         }
-      ]
+      ],
+      "excerpt": "A short, actionable guide to automating your marketing and other tasks by creating a personal AI agent using extensions and structured workflows."
     },
     {
       "id": 18,
@@ -1128,7 +1130,8 @@
           "anchor_text": "8-Week MVP Development Guide",
           "url": "/blog/8-week-mvp-development-guide/"
         }
-      ]
+      ],
+      "excerpt": "Learn how the 'good enough mindset' helps you find functional solutions without chasing perfection. Master the art of breaking down problems and prioritizing working solutions over perfect ones."
     },
     {
       "id": 20,
@@ -1166,7 +1169,8 @@
           "anchor_text": "AI Strategy for Small Business: Cut Through the Hype",
           "url": "2025-06-22-ai-strategy-small-business-90-day-action-plan"
         }
-      ]
+      ],
+      "excerpt": "How technical debt and poor software architecture decisions destroy startup valuations, and why proper custom software development is crucial from day one."
     },
     {
       "id": 21,
@@ -1244,7 +1248,8 @@
           "anchor_text": "Best AI Tools for Business 2025",
           "url": "./best-ai-tools-for-business-2025.md"
         }
-      ]
+      ],
+      "excerpt": "Learn the basics of workflow automation to improve your business's productivity and efficiency. This guide covers the essential components and benefits of automating your routines and systems."
     },
     {
       "id": 23,
@@ -1316,7 +1321,8 @@
           "anchor_text": "AI Feasibility Sprint",
           "url": "/blog/ai-feasibility-sprint/"
         }
-      ]
+      ],
+      "excerpt": "Learn why quick action beats endless planning. Discover practical strategies for rapid iteration, time-limited decision making, and embracing progress over perfection in development."
     },
     {
       "id": 25,
@@ -1354,7 +1360,8 @@
           "anchor_text": "Business Process Automation: Small Business Guide",
           "url": "./2025-06-22-business-process-automation-small-business-guide.md"
         }
-      ]
+      ],
+      "excerpt": "Breaking down the $80k barrier with AI tools. Real examples of $20k-$40k custom solutions and ROI calculator for small business software investment."
     },
     {
       "id": 26,
@@ -1407,7 +1414,8 @@
           "anchor_text": "Automate Marketing, Automate Anything",
           "url": "./2025-08-01-automate-marketing-automate-anything.md"
         }
-      ]
+      ],
+      "excerpt": "Stop experimenting and start implementing. This comprehensive guide shows exactly how to integrate ChatGPT into your business operations with proven workflows, templates, and ROI measurement."
     },
     {
       "id": 27,
@@ -1450,7 +1458,8 @@
           "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
           "url": "/blog/best-ai-tools-for-business-2025/"
         }
-      ]
+      ],
+      "excerpt": "Despite the hype, most small businesses aren't using AI effectively. This deep dive reveals the real barriers to AI adoption and provides a practical framework for overcoming them."
     },
     {
       "id": 28,
@@ -1538,7 +1547,8 @@
           "anchor_text": "NZ startups guide",
           "url": "/blog/2025-06-22-nz-startups-fractional-cto-guide/"
         }
-      ]
+      ],
+      "excerpt": "Technical debt and poor architecture decisions can destroy startup valuations. Learn how to identify, quantify, and fix technical risks before they impact your next funding round."
     },
     {
       "id": 30,
@@ -1591,7 +1601,8 @@
           "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
           "url": "/blog/best-ai-tools-for-business-2025/"
         }
-      ]
+      ],
+      "excerpt": "Real examples of how small businesses are using AI to save time, reduce costs, and improve customer experience. Includes implementation details, costs, and measurable results."
     },
     {
       "id": 31,
@@ -1634,7 +1645,8 @@
         }
       ],
       "cluster": "mindset-productivity",
-      "cluster_role": "pillar"
+      "cluster_role": "pillar",
+      "excerpt": "Discover how AI is dramatically increasing productivity across professions and learn actionable strategies to leverage this productivity multiplier while adapting to changing work landscapes."
     },
     {
       "id": 32,
@@ -1682,7 +1694,8 @@
           "anchor_text": "Technical Due Diligence Checklist for Angel Investors: Evaluating Pre-Seed Startups",
           "url": "/blog/technical_due_diligence_checklist_for_angel_investors_evaluating_pre_seed_startups/"
         }
-      ]
+      ],
+      "excerpt": "Comprehensive technical due diligence checklist for investors and acquirers. Covers code quality, architecture, security, team assessment, and risk evaluation with practical frameworks."
     },
     {
       "id": 33,
@@ -1725,7 +1738,8 @@
           "anchor_text": "New Zealand Startups: Your Complete Fractional CTO Guide",
           "url": "/blog/2025-06-22-nz-startups-fractional-cto-guide/"
         }
-      ]
+      ],
+      "excerpt": "Clear pricing tiers and service packages for AI-accelerated custom software development, designed specifically for New Zealand small businesses and startups."
     },
     {
       "id": 34,
@@ -1778,7 +1792,8 @@
           "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
           "url": "/blog/best-ai-tools-for-business-2025/"
         }
-      ]
+      ],
+      "excerpt": "Transform your business operations with practical automation strategies. Step-by-step guide to identifying, implementing, and scaling business process automation for maximum ROI."
     },
     {
       "id": 35,
@@ -1821,7 +1836,8 @@
           "anchor_text": "Best AI Tools for Business 2025 (Small Business Edition)",
           "url": "/blog/best-ai-tools-for-business-2025/"
         }
-      ]
+      ],
+      "excerpt": "How Bay of Plenty businesses are gaining competitive advantages through AI automation. Local case studies, implementation strategies, and opportunities specific to the BOP region."
     },
     {
       "id": 36,
@@ -1869,7 +1885,8 @@
           "anchor_text": "Software Development in Christchurch: Complete Guide for Local Businesses (2026)",
           "url": "/blog/software_development_in_christchurch_complete_guide_for_local_businesses_2026/"
         }
-      ]
+      ],
+      "excerpt": "Local case studies and success stories showing how Auckland startups build custom software solutions on startup budgets, from MVP to full product development."
     },
     {
       "id": 37,
@@ -1927,7 +1944,8 @@
           "anchor_text": "MVP Development Cost for SaaS Startups: 2026 Budget Guide (With Real Examples)",
           "url": "/blog/mvp_development_cost_for_saas_startups_2026_budget_guide_with_real_examples/"
         }
-      ]
+      ],
+      "excerpt": "Detailed breakdown of MVP development costs, timelines, and budget planning. Includes real project examples, cost optimization strategies, and how to avoid common expensive mistakes."
     },
     {
       "id": 38,
@@ -1960,7 +1978,8 @@
           "anchor_text": "Using Obsidian and Cursor for Writing",
           "url": "./2025-05-12-using-obsidian-and-cursor-for-writing.md"
         }
-      ]
+      ],
+      "excerpt": "Learn five practical strategies to maximize productivity and create more free time: blocking distractions, speaking instead of typing, managing curiosity, creating mental space, and prioritizing peak hours."
     },
     {
       "id": 39,
@@ -2003,7 +2022,8 @@
           "anchor_text": "Why Most Custom Software Projects Fail (And How AI Prevents It)",
           "url": "/blog/2025-01-28-why-custom-software-projects-fail/"
         }
-      ]
+      ],
+      "excerpt": "How AI is making custom software development affordable for small businesses in New Zealand, with 60% cost reductions and accelerated timelines."
     },
     {
       "id": 40,
@@ -2046,7 +2066,8 @@
           "anchor_text": "Make Space for Your Best Work",
           "url": "./2025-03-05-make-space-for-your-best-work.md"
         }
-      ]
+      ],
+      "excerpt": "Discover why speaking is 3x faster than typing when communicating with AI. Learn practical speech-to-text tools and techniques to boost your AI productivity."
     },
     {
       "id": 41,
@@ -2134,7 +2155,8 @@
           "anchor_text": "Cloud Migration Checklist for Small Businesses: 2025 NZ Edition",
           "url": "/blog/cloud-migration-checklist-small-business-2025-nz/"
         }
-      ]
+      ],
+      "excerpt": "Why New Zealand startups are turning to fractional CTOs for technical leadership. Includes local market insights, cost comparisons, and how to find the right fractional CTO in Auckland, Wellington, and Christchurch."
     },
     {
       "id": 42,
@@ -2197,7 +2219,8 @@
           "anchor_text": "AI Tools for Business Automation: The Complete Stack",
           "url": "/blog/ai-tools-for-business-automation"
         }
-      ]
+      ],
+      "excerpt": "Every business needs an AI strategy, but most don't know where to start. This practical 90-day plan shows exactly how to evaluate, implement, and scale AI in your business with measurable ROI."
     },
     {
       "id": 43,
@@ -2270,7 +2293,8 @@
           "anchor_text": "Legacy Software Modernization Strategy: A Practical Guide for NZ Businesses",
           "url": "/blog/legacy_software_modernization_strategy_a_practical_guide_for_nz_businesses/"
         }
-      ]
+      ],
+      "excerpt": "Technical risk assessment and mitigation strategies for custom software projects, showing how AI-assisted architecture review prevents the common failures that kill projects."
     },
     {
       "id": 44,
@@ -2323,7 +2347,8 @@
           "anchor_text": "Why Custom Software Projects Fail (And How to Avoid It)",
           "url": "/blog/2025-01-28-why-custom-software-projects-fail/"
         }
-      ]
+      ],
+      "excerpt": "Learn four proven strategies for using AI to build complex applications: solid rules and context, task scoping, modularization, and comprehensive testing."
     },
     {
       "id": 45,
@@ -2486,7 +2511,8 @@
           "anchor_text": "Startup Runway Calculator (NZ Template): Plan Your Cash Runway with Local Currency",
           "url": "/blog/startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency/"
         }
-      ]
+      ],
+      "excerpt": "A fractional CTO is an experienced technology executive who provides strategic technical leadership to multiple companies on a part-time basis. Learn how NZ startups can access C-level expertise for NZD $60K-150K annually instead of $350K+ for full-time."
     },
     {
       "id": 46,
@@ -3031,7 +3057,8 @@
           "anchor_text": "Technical Due Diligence Checklist for Angel Investors: Evaluating Pre-Seed Startups",
           "url": "/blog/technical_due_diligence_checklist_for_angel_investors_evaluating_pre_seed_startups/"
         }
-      ]
+      ],
+      "excerpt": "Struggling to decide between a technical co-founder vs fractional CTO? This guide breaks down costs, equity, commitment, and when each option makes sense."
     },
     {
       "id": 55,
@@ -3084,7 +3111,8 @@
           "anchor_text": "Product Management for Non-Technical Founders: A Practical Guide",
           "url": "/blog/product_management_for_non_technical_founders_a_practical_guide/"
         }
-      ]
+      ],
+      "excerpt": "Learn how to hire developers for startup non-technical founder teams. A complete 2026 guide to vetting, interviewing, and onboarding tech talent without."
     },
     {
       "id": 56,
@@ -3235,7 +3263,8 @@
           "anchor_text": "How to Choose the Right CTO for Your Startup",
           "url": "/blog/how-to-choose-cto-for-startup/"
         }
-      ]
+      ],
+      "excerpt": "Learn when to hire first developer startup with proven readiness signals, preparation steps, and costly mistakes to avoid. Updated for 2026."
     },
     {
       "id": 59,
@@ -3426,7 +3455,7 @@
           "url": "/blog/no-code-automation-for-small-business/"
         }
       ],
-      "excerpt": "A practical framework for non-technical founders to choose the right tech stack for their startup\u2014without getting lost in technical jargon."
+      "excerpt": "A practical framework for non-technical founders to choose the right tech stack for their startup—without getting lost in technical jargon."
     },
     {
       "id": 63,
@@ -3465,7 +3494,7 @@
           "url": "/blog/product_management_for_non_technical_founders_a_practical_guide/"
         }
       ],
-      "excerpt": "A practical guide for non-technical founders on finding, evaluating, and hiring your first developer\u2014without getting lost in jargon or making costly mistakes."
+      "excerpt": "A practical guide for non-technical founders on finding, evaluating, and hiring your first developer—without getting lost in jargon or making costly mistakes."
     },
     {
       "id": 64,
@@ -3645,7 +3674,8 @@
           "anchor_text": "SAP BTP Side-by-Side Extension: Complete Working Example with Code",
           "url": "/blog/sap_btp_side_by_side_extension_complete_working_example_with_code/"
         }
-      ]
+      ],
+      "excerpt": "Small business cloud migration checklist NZ 2026: 6 essential steps for a secure, compliant transition. Follow our proven guide to migrate with confidence."
     },
     {
       "id": 69,
@@ -3864,7 +3894,8 @@
           "anchor_text": "How to Hire Developers for Your Startup: A Non-Technical Founder's Complete Guide",
           "url": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide/"
         }
-      ]
+      ],
+      "excerpt": "Part time CTO hourly rate NZ: $150-$350/hr for Auckland, Wellington & Christchurch startups. Budget smarter with our fractional CTO guide."
     },
     {
       "id": 74,
@@ -3942,7 +3973,7 @@
           "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
         }
       ],
-      "excerpt": "Discover how SaaS startups can access senior technical leadership through a fractional CTO\u2014scaling platforms strategically without the $200k+ full-time salary."
+      "excerpt": "Discover how SaaS startups can access senior technical leadership through a fractional CTO—scaling platforms strategically without the $200k+ full-time salary."
     },
     {
       "id": 76,
@@ -4019,7 +4050,8 @@
           "anchor_text": "How to Hire Developers for Your Startup: A Non-Technical Founder's Complete Guide",
           "url": "/blog/how_to_hire_developers_for_your_startup_a_non_technical_founders_complete_guide/"
         }
-      ]
+      ],
+      "excerpt": "A 2026 guide to hiring a fractional CTO for healthcare startups: HIPAA technical safeguards, FHIR interoperability, FDA SaMD pathways, compliant tech stacks, and growth strategies from MVP to enterprise."
     },
     {
       "id": 78,
@@ -4243,7 +4275,7 @@
           "url": "/blog/best-ai-tools-for-business-2025/"
         }
       ],
-      "excerpt": "Everything you need to know about AI chat bots for business \u2014 from choosing the right platform to measuring ROI. Includes pricing, use cases, and a step-by-step implementation roadmap."
+      "excerpt": "Everything you need to know about AI chat bots for business — from choosing the right platform to measuring ROI. Includes pricing, use cases, and a step-by-step implementation roadmap."
     },
     {
       "id": 86,
@@ -4653,7 +4685,7 @@
       "cluster": "sap-clean-core",
       "cluster_role": "pillar",
       "internal_links": [],
-      "excerpt": "A practical guide to SAP Clean Core \u2014 what the concept means, why SAP is pushing it for S/4HANA, and the concrete steps your organisation should take to get there."
+      "excerpt": "A practical guide to SAP Clean Core — what the concept means, why SAP is pushing it for S/4HANA, and the concrete steps your organisation should take to get there."
     },
     {
       "id": 95,
@@ -4795,7 +4827,8 @@
       "target_volume": 210,
       "title": "Intelligent Process Automation: Complete Guide",
       "url_slug": "intelligent-process-automation",
-      "word_count": 1438
+      "word_count": 1438,
+      "excerpt": "Practical intelligent process automation guide for founders and ops leaders—RPA vs IPA, decision criteria, tooling stack, 90-day plan, and when to stop automating."
     },
     {
       "content_gaps_addressed": [],
@@ -4811,7 +4844,8 @@
       "target_volume": 110,
       "title": "AI Automation Training: Complete Guide",
       "url_slug": "ai-automation-training",
-      "word_count": 882
+      "word_count": 882,
+      "excerpt": "Practical AI automation training guide for NZ operators—skills ladder, 30-day plan, tool stack, and how to turn training into production workflows."
     },
     {
       "content_gaps_addressed": [],
@@ -4827,7 +4861,8 @@
       "target_volume": 110,
       "title": "Intelligent Robotic Process Automation: Complete Guide",
       "url_slug": "intelligent-robotic-process-automation",
-      "word_count": 1213
+      "word_count": 1213,
+      "excerpt": "Practical guide to intelligent robotic process automation for operators—RPA vs IRPA, decision criteria, architecture, pilot plan, and when pure bots are enough."
     }
   ]
 }
