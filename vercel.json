@@ -120,6 +120,16 @@
       "source": "/blog/090_ai_automation",
       "destination": "/blog/ai-automation",
       "permanent": true
+    },
+    {
+      "source": "/blog/startup_cash_runway_calculator_template_free_download_plan_your_burn_rate_in_minutes",
+      "destination": "/blog/startup_runway_calculator_how_to_plan_your_cash_runway_nz_focused_template",
+      "permanent": true
+    },
+    {
+      "source": "/blog/startup_runway_calculator_nz_template_plan_your_cash_runway_with_local_currency",
+      "destination": "/blog/startup_runway_calculator_how_to_plan_your_cash_runway_nz_focused_template",
+      "permanent": true
     }
   ],
   "rewrites": [
