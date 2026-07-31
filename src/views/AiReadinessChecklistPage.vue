@@ -1,8 +1,8 @@
 <template>
   <div class="ai-readiness-checklist-page">
     <SEOHead 
-      title="AI Readiness Checklist – Free Download | LearnedLate"
-      description="Free AI Readiness Checklist: 15 questions every board should ask. Assess your organization's readiness for AI adoption."
+      title="AI Readiness Checklist (Free) | Board-Ready Download"
+      description="Free AI readiness checklist: 15 board-ready questions to assess people, process, tech, and data before you invest in AI."
       url="/ai-readiness-checklist"
       type="website"
     />

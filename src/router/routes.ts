@@ -106,7 +106,7 @@ const routes: RouteRecordRaw[] = [
     path: '/ai-readiness-checklist',
     name: 'AiReadinessChecklist',
     component: AiReadinessChecklistPage,
-    meta: { title: 'AI Readiness Checklist – Free Download | LearnedLate' }
+    meta: { title: 'AI Readiness Checklist (Free) | Board-Ready Download' }
   },
   
   // Content Pages
