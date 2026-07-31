@@ -1,7 +1,23 @@
 import matter from 'gray-matter'
 import articlesData from '../../articles.json'
 import type { BlogPost, FAQItem, HowToData, Citation } from './types'
+// Pure slug matchers — single source of truth in slug-match.ts
+import {
+  extractSlugFromPath,
+  basenameStem,
+  canonicalizeSlug,
+  SLUG_ALIAS_MAP,
+  resolvePostModulePath
+} from './slug-match'
+
 export type { BlogPost, FAQItem, HowToData, Citation }
+export {
+  extractSlugFromPath,
+  basenameStem,
+  canonicalizeSlug,
+  SLUG_ALIAS_MAP,
+  resolvePostModulePath
+}
 
 // Dynamically import all markdown files (client-side only)
 let postModules: Record<string, string> | null = null
@@ -58,25 +74,6 @@ export function mergePostWithFrontmatter(
   }
 }
 
-// Extract slug from file path
-function extractSlugFromPath(filePath: string): string {
-  const base = filePath.split('/').pop()?.replace(/\.(md|mdx)$/i, '') || ''
-
-  // Remove date prefix (YYYY-MM-DD-slug)
-  const dateMatch = base.match(/^\d{4}-\d{2}-\d{2}-(.+)$/)
-  if (dateMatch) {
-    return dateMatch[1]
-  }
-
-  // Remove numeric prefix (046_slug)
-  const numMatch = base.match(/^\d+_(.+)$/)
-  if (numMatch) {
-    return numMatch[1]
-  }
-
-  return base
-}
-
 // Get published articles
 const publishedArticles = articlesData.articles.filter((a: any) => a.status === 'published')
 
@@ -118,10 +115,7 @@ export function loadPostContent(slug: string): BlogPost | undefined {
   if (!post) return undefined
 
   const modules = getPostModules()
-  const matchingPath = Object.keys(modules).find((path) => {
-    const pathSlug = extractSlugFromPath(path)
-    return pathSlug === slug
-  })
+  const matchingPath = resolvePostModulePath(slug, Object.keys(modules))
 
   if (matchingPath) {
     const raw = modules[matchingPath]
