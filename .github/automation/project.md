@@ -366,7 +366,16 @@ Chrome on www should own blog navigation (internal `/blog`, not external Substac
 
 ---
 
+## Cannibal merges (production)
+
+- Cannibal merges are **production only** when permanent redirects land in **tracked** root `vercel.json` (deploy path on Vercel).
+- `.github/automation/redirects.csv` is **local automation output**, gitignored, and is **not** a deploy path — do not treat CSV rows as live redirects until promoted into `vercel.json`.
+- Losers must be unpublished/removed from root `articles.json` **and** their MDX deleted so sitemap generation and prerender stop emitting them.
+
+---
+
 *Last updated: 2026-08-01*  
+*2026-08-01: Cannibal merges process — tracked vercel.json only; losers out of articles.json + MDX.*  
 *2026-08-01: Host strategy (www vs Substack) — www is SEO host of record; pilot Obsidian + soft CTA; no mass 301s.*  
 *2026-07-30: machine-parseable Search Keywords + Content Clusters (ACTIVE service ladder, LEGACY CTO/SAP).*  
 *Source of truth for PageSeeds: this file only*  
