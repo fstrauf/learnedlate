@@ -202,7 +202,39 @@ function checkSitemapRedirects() {
 }
 
 // ─────────────────────────────────────────────────────────────
-// 5. Check blog post canonical URLs match their slugs
+// 5. Check sitemap includes GTM money URLs (prevents list drift)
+// ─────────────────────────────────────────────────────────────
+function checkSitemapMoneyUrls() {
+  const sitemapPath = path.join(ROOT_DIR, 'scripts', 'generate-sitemap.js')
+  if (!fs.existsSync(sitemapPath)) return
+
+  const requiredMoneyPaths = [
+    '/services/strategy',
+    '/services/implementation',
+    '/services/engineering',
+    '/contact',
+    '/ai-readiness-checklist',
+    '/about',
+  ]
+
+  const sitemapContent = fs.readFileSync(sitemapPath, 'utf-8')
+  const staticRoutePattern = /\{\s*path:\s*['"]([^'"]+)['"]/g
+  const staticPaths = new Set()
+  let sm
+  while ((sm = staticRoutePattern.exec(sitemapContent)) !== null) {
+    staticPaths.add(sm[1])
+  }
+
+  for (const moneyPath of requiredMoneyPaths) {
+    if (!staticPaths.has(moneyPath)) {
+      console.error(`❌ GTM money URL missing from sitemap staticRoutes: ${moneyPath}`)
+      hasError = true
+    }
+  }
+}
+
+// ─────────────────────────────────────────────────────────────
+// 6. Check blog post canonical URLs match their slugs
 // ─────────────────────────────────────────────────────────────
 function checkCanonicalMismatch() {
   const postsDir = path.join(ROOT_DIR, 'src', 'blog', 'posts')
@@ -244,6 +276,7 @@ console.log('Verifying internal blog links (Vue + markdown), mailto protection, 
 
 scanVueFiles()
 checkSitemapRedirects()
+checkSitemapMoneyUrls()
 checkCanonicalMismatch()
 checkMdExtensions()
 checkArticlesJsonCoverage()
