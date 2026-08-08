@@ -513,7 +513,7 @@
           "url": "/blog/sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners/"
         }
       ],
-      "excerpt": "18 AI tools for small business — tested, ranked, and priced in NZD. From $0 to $300/month, find tools that save 10–30 hours/week without enterprise complexity. Includes NZ data sovereignty notes and real ROI data."
+      "excerpt": "18 AI tools for small business \u2014 tested, ranked, and priced in NZD. From $0 to $300/month, find tools that save 10\u201330 hours/week without enterprise complexity. Includes NZ data sovereignty notes and real ROI data."
     },
     {
       "id": 9,
@@ -567,7 +567,7 @@
           "url": "/blog/ai_automation_for_small_business_owners_2025_implementation_playbook/"
         }
       ],
-      "excerpt": "How to use AI for your small business — step-by-step. Start saving 10+ hours/week from Monday: real NZ examples, tools under NZD $300/month, and a free 30-day action plan. No tech skills needed."
+      "excerpt": "How to use AI for your small business \u2014 step-by-step. Start saving 10+ hours/week from Monday: real NZ examples, tools under NZD $300/month, and a free 30-day action plan. No tech skills needed."
     },
     {
       "id": 10,
@@ -3381,7 +3381,7 @@
           "url": "/blog/no-code-automation-for-small-business/"
         }
       ],
-      "excerpt": "A practical framework for non-technical founders to choose the right tech stack for their startup—without getting lost in technical jargon."
+      "excerpt": "A practical framework for non-technical founders to choose the right tech stack for their startup\u2014without getting lost in technical jargon."
     },
     {
       "id": 63,
@@ -3420,7 +3420,7 @@
           "url": "/blog/product_management_for_non_technical_founders_a_practical_guide/"
         }
       ],
-      "excerpt": "A practical guide for non-technical founders on finding, evaluating, and hiring your first developer—without getting lost in jargon or making costly mistakes."
+      "excerpt": "A practical guide for non-technical founders on finding, evaluating, and hiring your first developer\u2014without getting lost in jargon or making costly mistakes."
     },
     {
       "id": 64,
@@ -3860,7 +3860,7 @@
           "url": "/blog/fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy/"
         }
       ],
-      "excerpt": "Discover how SaaS startups can access senior technical leadership through a fractional CTO—scaling platforms strategically without the $200k+ full-time salary."
+      "excerpt": "Discover how SaaS startups can access senior technical leadership through a fractional CTO\u2014scaling platforms strategically without the $200k+ full-time salary."
     },
     {
       "id": 76,
@@ -4118,7 +4118,7 @@
           "url": "/blog/best-ai-tools-for-business-2025/"
         }
       ],
-      "excerpt": "Everything you need to know about AI chat bots for business — from choosing the right platform to measuring ROI. Includes pricing, use cases, and a step-by-step implementation roadmap."
+      "excerpt": "Everything you need to know about AI chat bots for business \u2014 from choosing the right platform to measuring ROI. Includes pricing, use cases, and a step-by-step implementation roadmap."
     },
     {
       "id": 86,
@@ -4528,7 +4528,7 @@
       "cluster": "sap-clean-core",
       "cluster_role": "pillar",
       "internal_links": [],
-      "excerpt": "A practical guide to SAP Clean Core — what the concept means, why SAP is pushing it for S/4HANA, and the concrete steps your organisation should take to get there."
+      "excerpt": "A practical guide to SAP Clean Core \u2014 what the concept means, why SAP is pushing it for S/4HANA, and the concrete steps your organisation should take to get there."
     },
     {
       "id": 95,
@@ -4653,7 +4653,7 @@
       "title": "Intelligent Process Automation: Complete Guide",
       "url_slug": "intelligent-process-automation",
       "word_count": 1438,
-      "excerpt": "Practical intelligent process automation guide for founders and ops leaders—RPA vs IPA, decision criteria, tooling stack, 90-day plan, and when to stop automating.",
+      "excerpt": "Practical intelligent process automation guide for founders and ops leaders\u2014RPA vs IPA, decision criteria, tooling stack, 90-day plan, and when to stop automating.",
       "internal_links": []
     },
     {
@@ -4671,7 +4671,7 @@
       "title": "AI Automation Training: Complete Guide",
       "url_slug": "ai-automation-training",
       "word_count": 882,
-      "excerpt": "Practical AI automation training guide for NZ operators—skills ladder, 30-day plan, tool stack, and how to turn training into production workflows.",
+      "excerpt": "Practical AI automation training guide for NZ operators\u2014skills ladder, 30-day plan, tool stack, and how to turn training into production workflows.",
       "internal_links": []
     },
     {
@@ -4689,8 +4689,103 @@
       "title": "Intelligent Robotic Process Automation: Complete Guide",
       "url_slug": "intelligent-robotic-process-automation",
       "word_count": 1213,
-      "excerpt": "Practical guide to intelligent robotic process automation for operators—RPA vs IRPA, decision criteria, architecture, pilot plan, and when pure bots are enough.",
+      "excerpt": "Practical guide to intelligent robotic process automation for operators\u2014RPA vs IRPA, decision criteria, architecture, pilot plan, and when pure bots are enough.",
       "internal_links": []
+    },
+    {
+      "id": 102,
+      "title": "AI Workflow Automation: Practical Guide for Business 2026",
+      "url_slug": "ai-workflow-automation",
+      "file": "./src/blog/posts/103_ai_workflow_automation.mdx",
+      "target_keyword": "ai workflow automation",
+      "keyword_difficulty": "0",
+      "target_volume": 0,
+      "published_date": "2026-08-01",
+      "word_count": 1297,
+      "status": "published",
+      "meta_title": "AI Workflow Automation: Practical Guide for Business 2026",
+      "meta_description": "AI workflow automation for operators: where models fit in real processes, a 30-day pilot plan, tool stack choices, and when not to automate.",
+      "canonical_url": "https://www.learnedlate.com/blog/ai-workflow-automation",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "Getting started with AI",
+      "cluster_role": "primary"
+    },
+    {
+      "id": 103,
+      "title": "First AI Use Case: How to Pick One That Ships",
+      "url_slug": "first-ai-use-case",
+      "file": "./src/blog/posts/104_first_ai_use_case.mdx",
+      "target_keyword": "first ai use case",
+      "keyword_difficulty": "0",
+      "target_volume": 0,
+      "published_date": "2026-08-01",
+      "word_count": 1007,
+      "status": "published",
+      "meta_title": "First AI Use Case: How to Pick One That Ships",
+      "meta_description": "Choose your first AI use case with a scorecard: volume, data access, risk, and owner. Includes pilot plan, anti-patterns, and NZ mid-market examples.",
+      "canonical_url": "https://www.learnedlate.com/blog/first-ai-use-case",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "Getting started with AI",
+      "cluster_role": "primary"
+    },
+    {
+      "id": 104,
+      "title": "AI Build vs Buy: A Practical Decision Framework for Business",
+      "url_slug": "ai-build-vs-buy",
+      "file": "./src/blog/posts/105_ai_build_vs_buy.mdx",
+      "target_keyword": "ai build vs buy",
+      "keyword_difficulty": "0",
+      "target_volume": 0,
+      "published_date": "2026-08-07",
+      "word_count": 1389,
+      "status": "published",
+      "meta_title": "AI Build vs Buy: A Practical Decision Framework for Business",
+      "meta_description": "Decide when to buy off-the-shelf AI, assemble a stack, or build custom. Includes a scorecard, cost traps, and mid-market examples with a 30-day test plan.",
+      "canonical_url": "https://www.learnedlate.com/blog/ai-build-vs-buy",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "Getting started with AI",
+      "cluster_role": "primary"
+    },
+    {
+      "id": 105,
+      "title": "AI Implementation Partner: What Good Looks Like (and When You Need One)",
+      "url_slug": "ai-implementation-partner",
+      "file": "./src/blog/posts/105_ai_implementation_partner.mdx",
+      "target_keyword": "ai implementation partner",
+      "keyword_difficulty": "0",
+      "target_volume": 0,
+      "published_date": "2026-08-07",
+      "word_count": 1111,
+      "status": "published",
+      "meta_title": "AI Implementation Partner: What Good Looks Like (and When You Need One)",
+      "meta_description": "Hire an AI implementation partner for delivery, not decks. Scope, selection criteria, red flags, and a 90-day engagement model for mid-market teams.",
+      "canonical_url": "https://www.learnedlate.com/blog/ai-implementation-partner",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "Getting started with AI",
+      "cluster_role": "primary"
+    },
+    {
+      "id": 106,
+      "title": "AI Readiness Assessment: A Practical Framework for Evaluating Your Organisation",
+      "url_slug": "ai-readiness-assessment",
+      "file": "./src/blog/posts/099_ai_readiness_assessment.mdx",
+      "target_keyword": "ai readiness assessment",
+      "keyword_difficulty": "15",
+      "target_volume": 590,
+      "published_date": "2026-05-03",
+      "word_count": 1810,
+      "status": "published",
+      "meta_title": "AI Readiness Assessment: A Practical Framework for Evaluating Your Organisation",
+      "meta_description": "Assess AI readiness across strategy, data, tech, talent, culture, and governance for organizational success.",
+      "canonical_url": "https://www.learnedlate.com/blog/ai-readiness-assessment",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "Getting started with AI",
+      "cluster_role": "primary"
     }
   ]
 }

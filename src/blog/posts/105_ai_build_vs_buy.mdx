@@ -1,0 +1,152 @@
+---
+title: "AI Build vs Buy: A Practical Decision Framework for Business"
+description: "Decide when to buy off-the-shelf AI, assemble a stack, or build custom. Includes a scorecard, cost traps, and mid-market examples with a 30-day test plan."
+slug: "ai-build-vs-buy"
+date: "2026-08-07"
+status: "published"
+keyword: "ai build vs buy"
+target_keyword: "ai build vs buy"
+summary: "A practical AI build vs buy framework for operators—when SaaS is enough, when custom is justified, and how to test the decision without a multi-year programme."
+faq:
+  - question: "What does AI build vs buy mean?"
+    answer: "AI build vs buy is the choice between buying ready-made AI products, configuring a stack of tools, or building custom models and workflows for a specific process. Most mid-market teams should start with buy or assemble before build."
+  - question: "When should a business build custom AI?"
+    answer: "Build custom when the workflow is a durable competitive edge, data is proprietary and locked in your systems, off-the-shelf tools fail the same test twice, and you have an owner who can run a 90-day delivery slice."
+  - question: "Is it cheaper to buy AI tools than build?"
+    answer: "Buy is usually cheaper in year one for standard tasks (summarisation, support triage, drafting). Custom wins only when the process runs often enough that licence sprawl, manual workarounds, or missed edge cases cost more than a focused build."
+  - question: "What is the biggest AI build vs buy mistake?"
+    answer: "Starting with a platform or model choice before mapping the workflow, success metric, and error cost. The second-biggest is building a chatbot when a form, rule, or existing SaaS feature would do."
+  - question: "How do I test AI build vs buy quickly?"
+    answer: "Run a 30-day thin slice on one workflow: baseline volume and error rate, try the best buy option with human review, score fit, then only open a custom build if buy fails for clear, documented reasons."
+---
+
+ (2026)
+
+**AI build vs buy** is not a technology argument. It is an operating decision: do you rent capability that already works for thousands of companies, stitch a few tools around a process, or invest in software that only your data and constraints can justify?
+
+Most mid-market and founder-led teams (including NZ and ANZ operators) get this wrong in one of two ways. They **buy** five AI seats and never change the process—so nothing ships. Or they **build** a custom stack for a problem that ChatGPT, a CRM add-on, or a workflow tool already solved last year.
+
+This guide is the operator path: a scorecard, cost traps, and a 30-day test that forces a decision without a multi-year programme.
+
+## What “build” and “buy” actually mean in AI
+
+| Path | What you get | You own | Typical fit |
+|------|----------------|---------|-------------|
+| **Buy** | SaaS AI feature or vertical product (CRM copilot, support bot, OCR inbox) | Configuration, prompts, process ownership | Standard work, shared industry patterns |
+| **Assemble** | 2–4 tools + automation glue (no custom model training) | Integrations, permissions, failure handling | Multi-system handoffs with clear rules |
+| **Build** | Custom app, model fine-tune, or deep integration into your systems of record | Code, data pipelines, evals, change management | Proprietary process, unique data, durable edge |
+
+“Build” rarely means training a foundation model. In practice it means **software that encodes your workflow**: intake, extraction, routing, decision support, and write-back—with evaluation and human review.
+
+If you are still choosing a first process, pair this article with [how to pick a first AI use case](/blog/first-ai-use-case) and a light [AI readiness assessment](/blog/ai-readiness-assessment).
+
+## The build vs buy scorecard (use it on one workflow)
+
+Score each criterion **1–5**. Prefer **buy** if total ≤ 12; **assemble** if 13–18; only open **build** if ≥ 19 *and* buy failed a real pilot.
+
+| Criterion | Low (buy-friendly) | High (build-friendly) |
+|-----------|--------------------|------------------------|
+| **Process uniqueness** | Industry-standard | Specific to your operating model |
+| **Data access** | Lives in one SaaS tool | Spread across ERP, email, files, legacy systems |
+| **Volume × value** | Occasional / low cost of delay | Daily, high cost of delay or error |
+| **Error recoverability** | Human can fix easily | Needs structured review + audit trail |
+| **Integration depth** | Copy-paste or export OK | Must write back to systems of record |
+| **Switching cost later** | Easy to replace vendor | Process will be core for 3+ years |
+| **Team ownership** | No internal owner | Named owner with 4–8 hrs/week |
+
+**Rule of thumb:** if you cannot name the workflow, the baseline metric, and the owner, you are not ready to build—and often not ready to buy either. Fix ownership first.
+
+## When buying wins (and you should stop arguing)
+
+Buy when:
+
+1. **The job is generic.** Summarising meetings, drafting emails, first-pass support replies, simple document Q&A.
+2. **The data already sits in the product.** CRM copilots beat a custom bot that cannot see deal stages.
+3. **You need learning speed, not differentiation.** Your edge is not “we also have a chatbot.”
+4. **Compliance is lighter than you think.** Many vendors already handle retention, SSO, and audit logs better than a two-person build team.
+
+**Buy trap:** stacking overlapping tools (three writing assistants, two meeting bots) without retiring manual steps. Cost is not the licence—it is context switching and “which tool did we use last time?”
+
+## When assemble is the real answer
+
+Most serious **AI workflow automation** sits here: extract from email → classify → open ticket → draft reply → human approve → write CRM note. You are not training models; you are **putting models inside a process**. See [AI workflow automation](/blog/ai-workflow-automation) for the pilot shape.
+
+Assemble when:
+
+- Two or more systems must talk
+- Rules cover 70%+ of cases; AI handles the messy middle
+- You can ship a thin slice in 30 days without a data lake project
+
+## When custom build is justified
+
+Build only when **all** of these are true:
+
+1. **Off-the-shelf failed for the same reasons twice** (documented: missing fields, latency, no write-back, wrong ontology—not “the demo felt weak”).
+2. **The workflow is a durable edge** (pricing, underwriting, ops scheduling, specialised compliance)—not “we want our own GPT.”
+3. **Data is proprietary and messy in a way only you understand.**
+4. **You can fund 90 days of focused delivery** with an owner, not a committee.
+
+Custom is not a prestige project. It is expensive software with evals, monitoring, and change management. If you need delivery help, bring in an implementation partner who ships write-back and handover—not strategy decks alone—or expand capacity only after a thin slice proves the gap.
+
+## Cost model that prevents fantasy budgets
+
+| Cost bucket | Buy | Assemble | Build |
+|-------------|-----|----------|-------|
+| Year-1 licences | Medium | Medium–high | Low–medium |
+| Integration / glue | Low | Medium | High |
+| Prompt + eval ops | Low | Medium | High |
+| Change management | Medium | Medium | High |
+| Switching cost later | Medium | Medium | High |
+
+**Hidden buy cost:** per-seat sprawl and “AI features” nobody uses.  
+**Hidden build cost:** evals, guardrails, on-call for model drift, and rewrites when the vendor API changes.
+
+Run a **unit economics check**: (hours saved × fully loaded hourly cost × adoption rate) − (tool + delivery + review time). If the math only works at 100% adoption, the design is wrong.
+
+## A 30-day test (before any multi-year roadmap)
+
+**Days 1–5 — Baseline**  
+Map the workflow. Count volume, cycle time, error rate. Write the success metric in one sentence.
+
+**Days 6–15 — Best buy / assemble slice**  
+Implement the thinnest path with **human-in-the-loop**. No custom model training. Measure precision/recall on 50–100 real cases.
+
+**Days 16–25 — Score the gap**  
+List every failure: missing data, wrong action, no write-back, latency, policy. Tag each as *tool limitation* vs *process problem*.
+
+**Days 26–30 — Decide**  
+- Failures are process/ownership → fix process; stay on buy  
+- Failures are tool limits and scorecard ≥ 19 → open a **scoped** build (one workflow, one system of record)  
+- Unclear owner or no baseline → kill the project; do not “build to learn” without a metric
+
+## Decision table: pick a path in one meeting
+
+| Situation | Path | Next step |
+|-----------|------|-----------|
+| Support replies already in helpdesk AI | Buy | Turn on + QA sample weekly |
+| Invoice fields across email + ERP | Assemble | Extract → validate → post |
+| Unique quoting rules + proprietary history | Build (after buy fail) | 90-day thin app + eval set |
+| “We need an AI strategy deck” | Neither | Run readiness + first use case first |
+| LEGACY vanity chatbot for the homepage | Do not build | Pick a real ops workflow |
+
+## Anti-patterns (kill these early)
+
+1. **Platform first.** Choosing a vector DB or agent framework before the workflow exists.  
+2. **Build to “own the IP”** when the IP is a prompt and a checkbox.  
+3. **Buy five tools** to avoid deciding which process matters.  
+4. **Custom model training** for a problem solved by retrieval + good forms.  
+5. **No kill criteria.** If you cannot state when you will stop, you will fund drift forever.
+
+## How this fits a practical AI ladder
+
+1. [AI readiness assessment](/blog/ai-readiness-assessment) — skills, data, governance  
+2. [First AI use case](/blog/first-ai-use-case) — one workflow that can ship  
+3. **AI build vs buy** (this page) — buy / assemble / build on that workflow  
+4. [AI workflow automation](/blog/ai-workflow-automation) — put the model in the process  
+5. Implementation partner only when delivery capacity is the bottleneck
+
+## Bottom line
+
+**Default to buy or assemble.** Escalate to build only when a real pilot proved the gap, the process is durable, and an owner will live with the software. AI build vs buy is a product decision with a scorecard—not a branding exercise about “our own model.”
+
+If you want a second pair of hands after the scorecard points to assemble or a narrow build, use a partner who implements workflows end-to-end, not one who only delivers strategy slides.

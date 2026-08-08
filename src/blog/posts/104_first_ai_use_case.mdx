@@ -1,0 +1,135 @@
+---
+title: "First AI Use Case: How to Pick One That Ships"
+description: "Choose your first AI use case with a scorecard: volume, data access, risk, and owner. Includes pilot plan, anti-patterns, and NZ mid-market examples."
+slug: "first-ai-use-case"
+date: "2026-08-01"
+status: "published"
+keyword: "first ai use case"
+target_keyword: "first ai use case"
+summary: "A practical scorecard for picking the first AI use case—avoid demo traps, run a 30-day pilot, and connect to readiness and workflow automation."
+faq:
+  - question: "What is a good first AI use case?"
+    answer: "A good first AI use case is a real, repeated workflow with measurable volume, available data, an owner, and recoverable errors under human review—not a flashy chat demo with no baseline metrics."
+  - question: "How do I choose my first AI project?"
+    answer: "Score candidates on volume, data quality, error cost, integration access, and business owner. Pick the highest score that a single team can pilot in 30 days without a programme office."
+  - question: "What first AI use cases fail most often?"
+    answer: "Company-wide chatbots with no process owner, fully autonomous decisions on high-stakes outcomes, and tools bought before the process is mapped all fail more often than narrow intake or triage pilots."
+  - question: "How long should a first AI pilot take?"
+    answer: "Plan a 30-day thin slice with a baseline, human-in-the-loop, and a kill/scale decision. Stretching pilots for months usually means scope or ownership is wrong."
+  - question: "Do I need an AI readiness assessment first?"
+    answer: "A lightweight readiness pass helps when data, skills, or governance are unknown. If one workflow already has clean data and a willing owner, you can pilot in parallel with a light readiness check."
+---
+
+# First AI Use Case: How to Pick One That Actually Ships
+
+Your **first AI use case** should not be “we installed ChatGPT.” It should be one painful, repeated workflow where a model can classify, extract, or draft—and a human still owns the risky bits. This guide gives a scorecard, anti-patterns, and a 30-day path for mid-market and founder-led teams who know AI matters but freeze at where to start.
+
+## Why “first use case” is the real strategy problem
+
+Most organisations do not fail because the model is weak. They fail because:
+
+- Nobody owns the process after the demo  
+- There is no baseline (cycle time, error rate, hours)  
+- Data lives in inboxes and PDFs with no access path  
+- Success was defined as “people tried the tool,” not a business metric  
+
+Picking the first AI use case is therefore a *portfolio and risk* decision, not a feature shop. If you have not yet mapped organisational constraints, skim an [AI readiness assessment](/blog/ai-readiness-assessment) in parallel—do not use readiness as an excuse to never ship.
+
+## The five-factor scorecard
+
+Score each candidate 1–5. Prefer the highest total that a **single owner** can pilot.
+
+| Factor | Ask | High score looks like |
+|--------|-----|------------------------|
+| **Volume** | How often does this run weekly? | Dozens+ of similar items |
+| **Pain** | Who complains if it is slow or wrong? | Clear cost or delay |
+| **Data** | Can we access examples safely? | Exportable or API-accessible |
+| **Error cost** | What if the model is wrong? | Recoverable with review |
+| **Owner** | Who fixes it on day 31? | Named role, not “AI committee” |
+
+**Rule of thumb:** if any factor scores 1, it is not a first use case—it is a science project.
+
+### Strong first-use-case patterns
+
+1. **Document / email intake** — extract fields, flag missing data, queue exceptions.  
+2. **Support triage** — classify intent and urgency; route; draft replies for common intents.  
+3. **CRM hygiene** — summarise calls/emails into structured fields.  
+4. **Internal knowledge handoff** — pack context for the next team with fewer missed fields.
+
+These map cleanly onto [AI workflow automation](/blog/ai-workflow-automation) once you have a winner.
+
+### Weak first-use-case patterns (avoid)
+
+- Site-wide chatbot with no FAQ owner and no deflection metric  
+- Fully autonomous refunds, credit, or medical/legal advice  
+- “Rewrite the whole ERP with agents”  
+- Buying five tools before one process map exists  
+- Use cases that depend on data you are not allowed to send to a vendor
+
+## Worked example: three candidates, one winner
+
+Imagine a 40-person services firm:
+
+| Candidate | Volume | Pain | Data | Error cost | Owner | Total |
+|-----------|--------|------|------|------------|-------|-------|
+| Public website chatbot | 3 | 2 | 4 | 2 | 1 | **12** |
+| Invoice PDF field extraction | 5 | 5 | 4 | 4 | 5 | **23** |
+| Fully auto quote pricing | 3 | 4 | 2 | 1 | 3 | **13** |
+
+Invoice extraction wins: high volume, clear owner in finance, and human review on exceptions. The chatbot loses on ownership; auto-pricing loses on error cost.
+
+## 30-day pilot for the first AI use case
+
+### Week 1 — Baseline and design
+- Count volume and median cycle time for the last 4 weeks  
+- Collect 50–100 real examples (redact if needed)  
+- Define human gates and “done” state  
+- Write success criteria (e.g. −30% handling time, ≤X% exception rate)
+
+### Week 2–3 — Thin build
+- One trigger → model step → write-back → log  
+- Prefer structured outputs over free-form chat  
+- Sample review every day; track disagreements  
+
+### Week 4 — Decide
+Scale only if metrics moved and someone will own monitoring. Otherwise kill or redesign—do not expand to five departments on vibes.
+
+For stack patterns and orchestration choices, use the [AI workflow automation](/blog/ai-workflow-automation) guide. For broader rollout after the pilot, see the [small-business AI implementation playbook](/blog/ai_automation_for_small_business_owners_2025_implementation_playbook).
+
+## NZ / mid-market notes
+
+- **Privacy:** invoices and tickets often contain personal data—check vendor terms and retention.  
+- **Systems:** Xero, HubSpot, Intercom, and shared drives are common sources; API access beats screenshot bots.  
+- **Capacity:** fractional technical leadership is fine for architecture review; day-to-day ownership still needs an internal process owner.
+
+## Connect the dots (do not expand random LEGACY themes)
+
+Once the first AI use case ships:
+
+1. Document the runbook and metrics  
+2. Add adjacent workflows in the same domain (same data, same owner)  
+3. Revisit strategy and [AI readiness](/blog/ai-readiness-assessment) gaps that blocked other candidates  
+4. Only then open “build vs buy” conversations for custom systems  
+
+Do not let a successful invoice pilot justify a random SAP or fractional-CTO content binge that is off your Primary strategy.
+
+## FAQ
+
+### What is a good first AI use case?
+A good first AI use case is a real, repeated workflow with measurable volume, available data, an owner, and recoverable errors under human review—not a flashy chat demo with no baseline metrics.
+
+### How do I choose my first AI project?
+Score candidates on volume, data quality, error cost, integration access, and business owner. Pick the highest score that a single team can pilot in 30 days without a programme office.
+
+### What first AI use cases fail most often?
+Company-wide chatbots with no process owner, fully autonomous decisions on high-stakes outcomes, and tools bought before the process is mapped all fail more often than narrow intake or triage pilots.
+
+### How long should a first AI pilot take?
+Plan a 30-day thin slice with a baseline, human-in-the-loop, and a kill/scale decision. Stretching pilots for months usually means scope or ownership is wrong.
+
+### Do I need an AI readiness assessment first?
+A lightweight readiness pass helps when data, skills, or governance are unknown. If one workflow already has clean data and a willing owner, you can pilot in parallel with a light readiness check.
+
+## Next step
+
+List five painful workflows this week. Score them with the table above. Pilot only the winner. That is how a first AI use case becomes a system—not a slide.
