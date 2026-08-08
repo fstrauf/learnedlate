@@ -30,9 +30,11 @@ dist-ssr
 *.sw?
 .vercel
 
-# PageSeeds automation: ignore generated artifacts; track shared operator brief
+# PageSeeds automation: ignore generated artifacts; track shared operator brief + program SOT
 .github/automation/*
 !.github/automation/project.md
+!.github/automation/project.yaml
+!.github/automation/seo_program.yaml
 !.github/automation/inventory_prune_plan.md
 .github/automation/artifacts/
 .github/automation/task_results/

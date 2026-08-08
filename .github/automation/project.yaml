@@ -1,0 +1,130 @@
+schema_version: 1
+product_name: LearnedLate
+posthog_project_id: "176201"
+search_keywords:
+  primary:
+  - ai readiness assessment
+  - where to start with ai
+  - ai strategy for business
+  - ai workflow automation
+  - ai implementation partner
+  - ai implementation for business
+  - when to build custom ai
+  - ai build vs buy
+  - first ai use case
+  - ai readiness checklist
+  problem:
+  - know ai matters but where to start
+  - automate repetitive tasks ai
+  - ai pilots never became useful
+  - custom ai vs off the shelf
+  - team still doing work by hand
+  - wrong first ai project
+  audience:
+  - mid market ai consulting
+  - founder led business ai
+  - practical ai for business
+  - anz mid market leaders
+  do_not_expand:
+  - fractional CTO
+  - interim CTO
+  - NZ startup CTO pricing
+  - MVP development for startups
+  - SAP clean core
+  - SAP BTP
+  - SAP Joule
+  - S/4HANA consulting
+  - Days to Expiry
+  - options trading
+  - BrewedLate
+  - Expense Sorted
+  - PageSeeds SEO service writing
+clusters:
+- name: Getting started with AI
+  status: active
+  keywords:
+  - ai readiness assessment
+  - where to start with ai
+  - first ai use case
+  - ai readiness checklist
+  - ai strategy for business
+  - choose first ai project
+- name: Workflow automation
+  status: active
+  keywords:
+  - ai workflow automation
+  - business process automation ai
+  - automate repetitive tasks ai
+  - ai process automation
+  - workflow automation examples
+  - multi system workflow automation
+- name: Practical AI implementation
+  status: active
+  keywords:
+  - ai implementation partner
+  - ai deployment strategy
+  - ai implementation for business
+  - ai rollout plan
+  - end to end ai delivery
+  - make ai useful day to day
+- name: Custom AI vs standard tools
+  status: active
+  keywords:
+  - when to build custom ai
+  - custom ai vs off the shelf
+  - ai build vs buy
+  - bespoke ai development
+  - custom ai development
+  - when standard tools are enough
+- name: Regional ANZ content
+  status: planned
+  keywords:
+  - ai consulting australia
+  - ai automation new zealand
+  - ai implementation australia
+  - ai for nz businesses
+- name: Fractional CTO and legacy services
+  status: legacy
+  keywords:
+  - fractional CTO
+  - interim CTO
+  - NZ startup CTO
+  - MVP development for startups
+  - SAP clean core
+  - SAP BTP consulting
+  - S/4HANA consulting
+  - custom software company NZ
+reddit:
+  mention_stance: optional
+  seed_subreddits:
+  - smallbusiness
+  - entrepreneur
+  - consulting
+  - artificial
+  - machinelearning
+  - automation
+  - sysadmin
+  - nzbusiness
+  - australia
+  excluded_subreddits:
+  - sap
+  - sapcommunity
+  trigger_topics:
+  - where to start with AI at work / first AI use case
+  - AI readiness for mid-market teams
+  - AI workflow automation / automating manual multi-system work
+  - AI pilots that never became real operations
+  - AI implementation partner (not strategy-only)
+  - build vs buy custom AI / when off-the-shelf is not enough
+  - custom AI development for a specific business workflow
+  - replacing repetitive handoffs with automated workflows
+  query_keywords:
+  - where to start with AI
+  - AI workflow automation
+  - AI implementation
+  - automate manual process
+  - build vs buy AI
+  - custom AI for business
+  - AI readiness
+  - AI pilot failed
+  - off the shelf vs custom

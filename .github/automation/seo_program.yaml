@@ -1,0 +1,181 @@
+schema_version: 1
+goal: >-
+  Organic should produce AI-service inquiries (strategy → implementation → engineering)
+  and AI readiness checklist downloads—not max impressions from LEGACY fractional CTO,
+  MVP, or SAP inventory.
+current_mode: attract
+mode_mix_this_month:
+  attract: 3
+  harvest: 1
+  tools: 1
+metrics:
+  - id: gsc_click_share_primary_or_ai_active
+    source: gsc
+    direction: up
+    note: Share of clicks on Primary/ACTIVE AI ladder slugs vs total catalog clicks
+  - id: gsc_impression_share_legacy_fractional_mvp_sap
+    source: gsc
+    direction: flat_or_down_share
+    note: LEGACY fractional/MVP/SAP share OK flat or down — not the north star
+  - id: primary_keyword_coverage
+    source: shortlist_catalog
+    direction: up
+    note: Live published slug + inbound links + outcome review per Primary head
+  - id: blog_to_contact_or_checklist
+    source: posthog
+    direction: up
+    note: Blog/service paths → /contact or /ai-readiness-checklist engagement (thin PostHog baseline)
+  - id: not_indexed_catalog
+    source: gsc
+    direction: down
+    note: Catalog not_indexed count (baseline ~42 after 2026-08-08 collect_gsc)
+product_paths:
+  contact: /contact
+  strategy: /services/strategy
+  implementation: /services/implementation
+  engineering: /services/engineering
+  checklist: /ai-readiness-checklist
+  examples:
+    - /services/strategy
+    - /services/implementation
+    - /services/engineering
+    - /ai-readiness-checklist
+    - /blog/ai-readiness-assessment
+    - /blog/ai-workflow-automation
+    - /blog/first-ai-use-case
+    - /blog/ai-build-vs-buy
+    - /blog/ai-implementation-partner
+primary_backlog:
+  - keyword: ai readiness assessment
+    status: measuring
+    target_slug: ai-readiness-assessment
+    notes: Live published; low/zero GSC; deploy+inbound ongoing; measure after crawl lag
+  - keyword: ai workflow automation
+    status: measuring
+    target_slug: ai-workflow-automation
+    notes: Path B published 2026-08-01; deploy 2026-08-08; content_outcome_review ~2026-09-01
+  - keyword: first ai use case
+    status: measuring
+    target_slug: first-ai-use-case
+    notes: Path B published 2026-08-01; deploy 2026-08-08; content_outcome_review ~2026-09-01
+  - keyword: ai build vs buy
+    status: measuring
+    target_slug: ai-build-vs-buy
+    notes: Path B published 2026-08-07; deploy 2026-08-08; content_outcome_review ~2026-09-07
+  - keyword: ai implementation partner
+    status: measuring
+    target_slug: ai-implementation-partner
+    notes: Path B published 2026-08-07; deploy 2026-08-08; content_outcome_review ~2026-09-07
+  - keyword: where to start with ai
+    status: open
+    target_slug: null
+    notes: Uncovered Primary — next Attract Path B intentional write
+  - keyword: ai strategy for business
+    status: open
+    target_slug: null
+    notes: Uncovered Primary — next Attract Path B; pair with /services/strategy CTA
+  - keyword: ai implementation for business
+    status: open
+    target_slug: null
+    notes: Uncovered Primary — adjacent to implementation partner; prefer partner slug links first
+  - keyword: when to build custom ai
+    status: open
+    target_slug: null
+    notes: Uncovered Primary — pair with build-vs-buy keeper after deploy settles
+  - keyword: ai readiness checklist
+    status: open
+    target_slug: null
+    notes: >-
+      Non-catalog landing /ai-readiness-checklist holds ~227 GSC impr — write blog
+      Primary or map demand to product checklist + ai-readiness-assessment
+harvest_queue:
+  - slug: technical-due-diligence-checklist
+    goal: title_ctr_measure
+    status: measuring
+    notes: >-
+      Top waste ~289 impr / 0 cl / pos ~47; Path B content fix 2026-08-02; deploy 2026-08-08;
+      declining_pages ~45% impr drop — wait outcome ~2026-09-01; LEGACY-adjacent, harvest only
+  - slug: business-process-automation-examples
+    goal: product_cta_bridge
+    status: open
+    notes: ACTIVE-adjacent ~51 impr / 0 cl / pos ~50 — CTA to /services/implementation + workflow Primary
+  - slug: using-obsidian-and-cursor-for-writing
+    goal: intro_bridge
+    status: open
+    notes: Only www click earner (~321 impr / 1 cl) but off-strategy — light bridge only, do not expand
+  - slug: how-to-choose-cto-for-startup
+    goal: internal_links
+    status: open
+    notes: LEGACY head ~64 impr; no Primary expansion — optional soft CTA away from CTO ladder
+tools_queue:
+  - path_or_slug: /ai-readiness-checklist
+    status: open
+    notes: Free lead magnet; ~227 non-catalog GSC impr — ensure crawl/index + blog bridges
+  - path_or_slug: /services/strategy
+    status: open
+    notes: Commercial pillar for readiness / where-to-start Primaries
+  - path_or_slug: /services/implementation
+    status: open
+    notes: Commercial pillar for workflow / implementation partner Primaries
+  - path_or_slug: /services/engineering
+    status: open
+    notes: Commercial pillar for build-vs-buy / custom AI Primaries
+  - path_or_slug: /contact
+    status: open
+    notes: Primary conversion path (no SaaS signup) — harvest CTAs should land here or checklist
+prune_queue:
+  - slug: fractional-cto-costs-in-new-zealand-2025-pricing-guide-for-nz-startups
+    cluster: Fractional CTO and legacy services
+    action: merge_into:nz-startups-fractional-cto-guide
+    evidence: >-
+      hard_cannibalization query "fractional cto nz" — guide ~33 impr / costs ~29 impr (28d desk 2026-08-08);
+      redirect_equity residual on source
+    status: open
+    notes: LEGACY hard cannibal — Path B merge when capacity; human confirm if high traffic
+  - slug: how-to-build-an-mvp-for-your-startup-a-founders-step-by-step-guide
+    cluster: Fractional CTO and legacy services
+    action: noindex
+    evidence: ~85 impr / 0 clicks / pos ~91 (28d 2026-08-08); do_not_expand MVP; thin ROI
+    status: open
+    confirm: required
+    notes: Operator-manual noindex only — never agent-executed
+  - slug: free-accounting-software-nz-guide
+    cluster: Fractional CTO and legacy services
+    action: noindex
+    evidence: ~80 impr / 0 clicks / pos ~46 (28d 2026-08-08); off Primary AI ladder
+    status: open
+    confirm: required
+    notes: Operator-manual noindex only
+  - slug: sap-joule-custom-skills-development-step-by-step-tutorial-for-beginners
+    cluster: Fractional CTO and legacy services
+    action: noindex
+    evidence: ~23 impr / 0 clicks (28d 2026-08-08); do_not_expand SAP Joule
+    status: open
+    confirm: required
+    notes: Operator-manual noindex only
+cluster_policy_hints:
+  - name: Getting started with AI
+    preferred_status: active
+    notes: Primary spine — readiness, first use case, where to start, strategy
+  - name: Workflow automation
+    preferred_status: active
+    notes: Primary spine — workflow automation + BPA harvest bridges
+  - name: Practical AI implementation
+    preferred_status: active
+    notes: Implementation partner + rollout content
+  - name: Custom AI vs standard tools
+    preferred_status: active
+    notes: Build vs buy + when to build custom
+  - name: Regional ANZ content
+    preferred_status: planned
+    notes: Keep planned until Primary coverage stronger
+  - name: Fractional CTO and legacy services
+    preferred_status: legacy
+    notes: Already LEGACY — prune/harvest only; never expand
+last_reviewed_at: '2026-08-08'
+review_cadence_days: 30
+notes: >-
+  First-run seed after weekly 2026-08-08. GSC catalog ~1195 impr / 1 click; not_indexed 42;
+  striking-distance 0. Primaries shipped×5 measuring (readiness + 4 Path B). Mode attract for
+  remaining open Primaries. PostHog project 176201 thin (7d ~0; 30d ~27 visitors). Product paths
+  are services pillars + checklist/contact — not SaaS signup. Deploy commit 8ae59c6 same day.
