@@ -2377,7 +2377,39 @@
       "title": "AI Build vs Buy: A Practical Decision Framework for Business",
       "url_slug": "ai-build-vs-buy",
       "word_count": 1389
+    },
+    {
+      "content_gaps_addressed": [],
+      "content_hash": "0e6ee121f2f3eff86346d01b11b84296a94d464c17b6911ef6074c713166eefc",
+      "estimated_traffic_monthly": "",
+      "file": "./src/blog/posts/106_ai_strategy_for_business.mdx",
+      "id": 106,
+      "keyword_difficulty": "",
+      "last_edited_at": "2026-08-13T03:28:19.811720679+00:00",
+      "published_date": "2026-08-12",
+      "status": "published",
+      "target_keyword": "",
+      "target_volume": 0,
+      "title": "AI Strategy for Business: What to Decide Before You Buy Tools",
+      "url_slug": "ai-strategy-for-business",
+      "word_count": 1371
+    },
+    {
+      "content_gaps_addressed": [],
+      "content_hash": "496161081ea42fc2c8570103cb4d4333b46bee7a7a5ec1c60739960b5c8dfc41",
+      "estimated_traffic_monthly": "",
+      "file": "./src/blog/posts/106_where_to_start_with_ai.mdx",
+      "id": 107,
+      "keyword_difficulty": "",
+      "last_edited_at": "2026-08-13T03:28:19.811692929+00:00",
+      "published_date": "2026-08-12",
+      "status": "published",
+      "target_keyword": "where to start with ai",
+      "target_volume": 0,
+      "title": "Where to Start With AI: A 30-Day Sequence for Business Teams",
+      "url_slug": "where-to-start-with-ai",
+      "word_count": 1427
     }
   ],
-  "nextArticleId": 106
+  "nextArticleId": 108
 }

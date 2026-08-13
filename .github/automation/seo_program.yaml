@@ -67,13 +67,13 @@ primary_backlog:
     target_slug: ai-implementation-partner
     notes: Path B published 2026-08-07; deploy 2026-08-08; content_outcome_review ~2026-09-07
   - keyword: where to start with ai
-    status: open
-    target_slug: null
-    notes: Uncovered Primary — next Attract Path B intentional write
+    status: measuring
+    target_slug: where-to-start-with-ai
+    notes: Path B published 2026-08-13; deploy pending; content_outcome_review ~2026-09-12
   - keyword: ai strategy for business
-    status: open
-    target_slug: null
-    notes: Uncovered Primary — next Attract Path B; pair with /services/strategy CTA
+    status: measuring
+    target_slug: ai-strategy-for-business
+    notes: Path B published 2026-08-13; pair /services/strategy; outcome ~2026-09-12
   - keyword: ai implementation for business
     status: open
     target_slug: null

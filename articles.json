@@ -4786,6 +4786,44 @@
       "estimated_traffic_monthly": "",
       "cluster": "Getting started with AI",
       "cluster_role": "primary"
+    },
+    {
+      "id": 107,
+      "title": "Where to Start With AI: A 30-Day Sequence for Business Teams",
+      "url_slug": "where-to-start-with-ai",
+      "file": "./src/blog/posts/106_where_to_start_with_ai.mdx",
+      "target_keyword": "where to start with ai",
+      "keyword_difficulty": "0",
+      "target_volume": 0,
+      "published_date": "2026-08-12",
+      "word_count": 1427,
+      "status": "published",
+      "meta_title": "Where to Start With AI: A 30-Day Sequence for Business Teams",
+      "meta_description": "Where to start with AI: pick one owned workflow, run a thin readiness check, and pilot in 30 days before you buy another tool.",
+      "canonical_url": "https://www.learnedlate.com/blog/where-to-start-with-ai",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "Getting started with AI",
+      "cluster_role": "primary"
+    },
+    {
+      "id": 108,
+      "title": "AI Strategy for Business: What to Decide Before You Buy Tools",
+      "url_slug": "ai-strategy-for-business",
+      "file": "./src/blog/posts/106_ai_strategy_for_business.mdx",
+      "target_keyword": "ai strategy for business",
+      "keyword_difficulty": "0",
+      "target_volume": 0,
+      "published_date": "2026-08-12",
+      "word_count": 1371,
+      "status": "published",
+      "meta_title": "AI Strategy for Business: What to Decide Before You Buy Tools",
+      "meta_description": "AI strategy for business is four decisions: outcomes, workflows, buy vs build, and owners. One-page template plus a 90-day keep/kill calendar.",
+      "canonical_url": "https://www.learnedlate.com/blog/ai-strategy-for-business",
+      "content_gaps_addressed": [],
+      "estimated_traffic_monthly": "",
+      "cluster": "Getting started with AI",
+      "cluster_role": "primary"
     }
   ]
 }
