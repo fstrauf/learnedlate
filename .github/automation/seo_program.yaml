@@ -75,13 +75,13 @@ primary_backlog:
     target_slug: ai-strategy-for-business
     notes: Path B published 2026-08-13; pair /services/strategy; outcome ~2026-09-12
   - keyword: ai implementation for business
-    status: open
-    target_slug: null
-    notes: Uncovered Primary — adjacent to implementation partner; prefer partner slug links first
+    status: measuring
+    target_slug: ai-implementation-for-business
+    notes: Path B published 2026-08-18; pair /services/implementation; outcome ~2026-09-17
   - keyword: when to build custom ai
-    status: open
-    target_slug: null
-    notes: Uncovered Primary — pair with build-vs-buy keeper after deploy settles
+    status: measuring
+    target_slug: when-to-build-custom-ai
+    notes: Path B published 2026-08-18; pair /services/engineering + build-vs-buy; outcome ~2026-09-17
   - keyword: ai readiness checklist
     status: open
     target_slug: null
