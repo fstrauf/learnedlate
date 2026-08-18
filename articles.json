@@ -4824,6 +4824,38 @@
       "estimated_traffic_monthly": "",
       "cluster": "Getting started with AI",
       "cluster_role": "primary"
+    },
+    {
+      "content_gaps_addressed": [],
+      "content_hash": "e4918240c4b49d636bd8981cb0024544f8410ae0eb63ba0d8cafa50df9c4e379",
+      "estimated_traffic_monthly": "",
+      "file": "./src/blog/posts/107_ai_implementation_for_business.mdx",
+      "id": 109,
+      "keyword_difficulty": "",
+      "last_edited_at": "2026-08-18T03:55:06Z",
+      "published_date": "2026-08-17",
+      "status": "published",
+      "target_keyword": "ai implementation for business",
+      "target_volume": 0,
+      "title": "AI Implementation for Business: How to Ship One Workflow",
+      "url_slug": "ai-implementation-for-business",
+      "word_count": 1537
+    },
+    {
+      "content_gaps_addressed": [],
+      "content_hash": "8c65433fd607a5932c60c2c4580e43f093f00945a92e787d525ab0d658bf63b9",
+      "estimated_traffic_monthly": "",
+      "file": "./src/blog/posts/107_when_to_build_custom_ai.mdx",
+      "id": 110,
+      "keyword_difficulty": "",
+      "last_edited_at": "2026-08-18T03:55:06Z",
+      "published_date": "2026-08-17",
+      "status": "published",
+      "target_keyword": "when to build custom ai",
+      "target_volume": 0,
+      "title": "When to Build Custom AI: A Go / No-Go Threshold",
+      "url_slug": "when-to-build-custom-ai",
+      "word_count": 1574
     }
   ]
 }

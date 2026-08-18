@@ -1,0 +1,153 @@
+---
+title: "When to Build Custom AI: A Go / No-Go Threshold"
+description: "Build custom AI after buy/assemble failed a real pilot, the workflow is a durable edge, and an owner can run a 90-day slice."
+slug: "when-to-build-custom-ai"
+date: "2026-08-17"
+status: "draft"
+keyword: "when to build custom ai"
+target_keyword: "when to build custom ai"
+summary: "When to build custom AI: after a failed buy/assemble pilot, on a proprietary workflow with volume, and only with a named owner and a 90-day kill date."
+faq:
+  - question: "When should a business build custom AI?"
+    answer: "Build custom AI when the workflow is a durable operating edge, your data lives in systems no SaaS product sees cleanly, the best buy option failed a documented 30-day pilot twice, and a named owner can run a 90-day delivery slice."
+  - question: "Is it too early to build custom AI?"
+    answer: "Yes, if you cannot name the workflow, the baseline metric, and the owner. It is also too early if you have not tried the obvious buy or assemble path on real cases. Custom is a second move, not a first experiment."
+  - question: "When should you not build custom AI?"
+    answer: "Do not build for generic work (summaries, email drafts, first-pass support), for a process that runs a few times a month, or to “own the model” as a strategy. Buy or assemble those jobs."
+  - question: "Custom AI vs buy vs assemble — how do I choose?"
+    answer: "Buy a product that already sits on the data. Assemble two to four tools around a process when systems must talk. Build only when those two fail for documented reasons and the process will still matter in three years. Use the build vs buy scorecard first."
+  - question: "How long should a first custom AI build take?"
+    answer: "A first custom slice should ship write-back in 90 days or it is the wrong slice. Multi-year platform builds with no keep/kill date are not justified by “when to build custom AI”—they are unowned programmes."
+---
+
+# When to Build Custom AI (and When You Are Still Too Early)
+
+**Build custom AI** when three things are already true: the workflow is a durable edge (not a generic job), the best off-the-shelf or assembled stack failed a *documented* pilot on real cases, and a named owner can run a 90-day slice with write-back. If any of those is missing, you are early. Buy or assemble. Custom is a second move.
+
+This page is the go / no-go timing article. The [AI build vs buy](/blog/ai-build-vs-buy) scorecard is the path chooser (buy / assemble / build). This is the *when*: the threshold that keeps mid-market teams (including NZ/ANZ operators) from funding a platform because a demo looked clever.
+
+It is also not a generic “custom software vs SaaS” procurement argument. Custom **AI** is usually a thin application around *your* process and data—not training a foundation model.
+
+## The threshold (print this)
+
+Open a custom build only if **all five** pass. One fail = wait.
+
+| Gate | Pass | You are early if… |
+|------|------|-------------------|
+| **1. Named workflow** | One process, weekly volume, system of record | “We need an AI layer” |
+| **2. Baseline** | Last 30 days of volume × error or cycle time | Vibes, no number |
+| **3. Buy/assemble failed** | Same test, written reasons, twice if cheap | You skipped the SaaS trial |
+| **4. Durable edge** | Process still matters in 3+ years | Fashionable chatbot, no moat |
+| **5. Owner + 90-day slice** | Named person, hours, kill date | Steering committee, no calendar |
+
+Gates 1–2 are [first AI use case](/blog/first-ai-use-case) work. Gate 3 is the build-vs-buy test. Gate 5 is delivery. Custom without those is a science project.
+
+## What “custom” means in 2026 (so you do not overbuild)
+
+Almost nobody should train a foundation model. Custom, in practice:
+
+| Custom enough | Not custom (do not start here) |
+|---------------|--------------------------------|
+| App that encodes *your* intake → extract → decide → write-back | Fine-tuning because a prompt “felt generic” |
+| Eval set from *your* last 90 days of cases | “Our own GPT” as a brand exercise |
+| Deep integration the SaaS API cannot do | Rebuilding a CRM copilot you refused to configure |
+| Human-review policy + audit trail for *your* risk | A wrapper UI around a public chat model |
+
+If the job is summarisation, drafting, or first-pass triage inside a tool you already pay for, you are not in custom territory. Turn the feature on. Measure. Stop.
+
+## You are too early if…
+
+**The strategy is blank.** No outcomes, no in-scope list, no owner. That is an [AI strategy for business](/blog/ai-strategy-for-business) gap, not an engineering gap.
+
+**You have not run a buy/assemble slice.** A 30-day trial of the obvious product, with human review and a written score, is cheaper than a statement of work. If you will not spend 30 days on a trial, you will not spend 90 on a build.
+
+**Volume is a trickle.** A process that runs eight times a month cannot pay back a custom slice. Automate the *busy* path first — [AI workflow automation](/blog/ai-workflow-automation) on high-volume handoffs.
+
+**Nobody will own the evals.** Custom dies when the only person who understands the labels leaves. If you cannot name who updates the sample set monthly, do not build.
+
+**The “edge” is the model.** Your edge is the process and the data, or you do not have one. “We should own the weights” is not a reason.
+
+## You are late (build now) if…
+
+All of these show up together:
+
+1. **The same buy product failed the same test twice** — missing fields, cannot write back, cannot see the systems that matter.  
+2. **Workarounds are now the process** — spreadsheets, shadow inboxes, people re-keying.  
+3. **Error cost is real** — wrong code, missed SLA, leaked field — and the SaaS vendor will not let you change the path.  
+4. **The workflow is how you compete** — quoting, allocation, underwriting-style judgment, specialist ops — not “also have a chatbot.”  
+5. **You can staff 90 days** — one owner plus delivery (internal or an [implementation partner](/blog/ai-implementation-partner) who ships, not decks).
+
+If 1–4 are true and 5 is false, you are not “not ready to build.” You are under-resourced. Shrink the slice or wait. Do not start a two-year platform to compensate for no owner.
+
+## Score the timing (use after the build-vs-buy card)
+
+Score 1–5. **Do not build below 18.** Revisit in a quarter.
+
+| Signal | 1 (wait) | 5 (build window) |
+|--------|----------|------------------|
+| Buy/assemble evidence | Never tried | Failed twice, written |
+| Process uniqueness | Industry-standard | Specific operating model |
+| Data gravity | Lives in one SaaS | Split across ERP, email, files, legacy |
+| Volume × error cost | Occasional, cheap mistakes | Daily, expensive mistakes |
+| Integration depth | Export/CSV is fine | Must write back in-product |
+| Horizon | Might change next year | Core for 3+ years |
+| Ownership | No hours | Named owner, 4–8 hrs/week |
+
+Pair a high score with a [readiness assessment](/blog/ai-readiness-assessment). Readiness asks *can we run a slice*. This page asks *should that slice be custom*.
+
+## Worked example: two companies, same industry
+
+Both are 60-person wholesale distributors. Both want “AI on inbound orders.”
+
+**Company A — do not build.** Orders already land in the ERP. The ERP vendor shipped a line-item matcher last year. They have not turned it on. Custom here is ego. Thirty-day buy trial, human review, done.
+
+**Company B — build window.** Orders arrive as unstructured PDFs and portal dumps from three retailers, each with different pack-size language. Two people re-key ~400 lines/day. The ERP matcher fails on pack size and substitute SKUs (documented, 6-week trial, 31% error). The mapping rules *are* the operating edge. Volume is daily. Owner exists.
+
+Company B’s custom slice is not “an LLM.” It is: parse → map to *their* SKU graph → confidence gate → write sales order → human on the 20% tail. Ninety days. If error rate does not beat the baseline, kill it.
+
+Same keyword. Opposite decision. The difference is evidence, not ambition.
+
+## Cost traps that fake a “yes”
+
+| Trap | Sounds like | Reality |
+|------|-------------|---------|
+| **Platform first** | “We’ll grow into it” | You implement a vendor, then hunt for a job |
+| **Build to learn** | “Custom is how we upskill” | Learning is a 30-day assemble slice, not a repo |
+| **Licence fear** | “Seats will get expensive” | Custom people-cost usually beats seats in year one |
+| **Demo theatre** | Board liked the prototype | Prototype had clean PDFs; production has scans |
+| **Forever SOW** | Partner wants a 12-month “AI foundation” | If they cannot name the day-90 write-back, walk |
+
+Year-one custom is almost always *more expensive* than buy. Custom wins later, and only if the process runs often enough that workarounds and missed edge cases exceed a focused build. If you cannot sketch that on a napkin, you are early.
+
+## A 90-day custom slice (or it is the wrong slice)
+
+**Days 1–10.** Freeze the workflow, baseline, eval set (real last-90-day cases), error policy.
+
+**Days 11–60.** Thin path only. Human on every ledger- or customer-facing output. No second department.
+
+**Day 60–70.** Keep / kill / rewrite. Written. If kill, you learned cheaper than a year of retainers.
+
+**Days 71–90.** Harden only what you kept: monitoring, handover, who updates labels.
+
+If the statement of work cannot describe the day-90 write-back in one sentence, you are not deciding *when to build custom AI*. You are buying a programme.
+
+## FAQ
+
+**When should a business build custom AI?**  
+Build custom AI when the workflow is a durable operating edge, your data lives in systems no SaaS product sees cleanly, the best buy option failed a documented 30-day pilot twice, and a named owner can run a 90-day delivery slice.
+
+**Is it too early to build custom AI?**  
+Yes, if you cannot name the workflow, the baseline metric, and the owner. It is also too early if you have not tried the obvious buy or assemble path on real cases. Custom is a second move, not a first experiment.
+
+**When should you not build custom AI?**  
+Do not build for generic work (summaries, email drafts, first-pass support), for a process that runs a few times a month, or to “own the model” as a strategy. Buy or assemble those jobs.
+
+**Custom AI vs buy vs assemble — how do I choose?**  
+Buy a product that already sits on the data. Assemble two to four tools around a process when systems must talk. Build only when those two fail for documented reasons and the process will still matter in three years. Use the [build vs buy scorecard](/blog/ai-build-vs-buy) first.
+
+**How long should a first custom AI build take?**  
+A first custom slice should ship write-back in 90 days or it is the wrong slice. Multi-year platform builds with no keep/kill date are not justified by “when to build custom AI”—they are unowned programmes.
+
+---
+
+If the five gates pass and you need the custom slice designed so the internal team can run it, start an [engineering conversation](/services/engineering). If gate 1 or 2 fails, go back to the [first use case](/blog/first-ai-use-case) and the [AI readiness checklist](/ai-readiness-checklist).

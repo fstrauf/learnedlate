@@ -1,0 +1,191 @@
+---
+title: "AI Implementation for Business: How to Ship One Workflow"
+description: "AI implementation for business is a 90-day loop: baseline, thin slice, human review, write-back. Phases and kill criteria—not a platform rollout."
+slug: "ai-implementation-for-business"
+date: "2026-08-17"
+status: "draft"
+keyword: "ai implementation for business"
+target_keyword: "ai implementation for business"
+summary: "AI implementation for business means shipping one named workflow into operations—baseline, human review, write-back, keep/kill—not installing a platform."
+faq:
+  - question: "What is AI implementation for business?"
+    answer: "AI implementation for business is putting a model inside one named workflow so work actually changes: a baseline metric, a thin slice, human review, and write-back to the system of record. It is not buying seats, running a hackathon, or publishing a roadmap."
+  - question: "How do you implement AI in a business?"
+    answer: "Name one workflow and owner, measure the current cycle time or error rate, run a 30-day human-reviewed slice, write results back the way the team already works, then keep, kill, or scale. Do not start with a platform or a twelve-use-case backlog."
+  - question: "How long does AI implementation take?"
+    answer: "A first production slice should land in 30–90 days if the workflow is named and data is reachable. Multi-year “AI programmes” without a keep/kill date are not implementation—they are unowned exploration."
+  - question: "AI implementation vs AI strategy — what is the difference?"
+    answer: "Strategy chooses outcomes, in-scope workflows, buy/assemble/build, and owners. Implementation delivers the first thin slice. Invert that order and you implement a tool in search of a problem."
+  - question: "When should a business hire help for AI implementation?"
+    answer: "Hire when the first use case is already chosen, internal capacity is the bottleneck, and you need production write-back in 90 days. Do not hire a partner to “explore AI” with no named workflow."
+---
+
+# AI Implementation for Business: Ship One Workflow, Not a Platform
+
+**AI implementation for business** is the work of putting a model *inside one named process* so operations change: a baseline number, a thin slice, a human in the loop, and write-back to the system you already run. It is not a vendor bake-off, a prompt library, or a twelve-slide “AI rollout.” If nobody can point at a workflow that is different on Friday than it was on Monday, you have not implemented anything.
+
+This page is the delivery playbook for mid-market and founder-led teams (including NZ/ANZ operators). It sits *after* an [AI strategy for business](/blog/ai-strategy-for-business) and a [first AI use case](/blog/first-ai-use-case). It is *not* the [AI implementation partner](/blog/ai-implementation-partner) scorecard—that is who to hire. This is how the work actually ships.
+
+## What “implemented” actually means
+
+A feature flag is not implementation. A chatbot on the intranet is not implementation. Implemented means all four are true:
+
+| Gate | Pass | Fail |
+|------|------|------|
+| **Named workflow** | Quote-to-cash exception handling; invoice coding; inbound triage | “Customer service” or “knowledge” |
+| **Baseline** | Last 30 days of volume, cycle time, or error rate | “We think it takes a while” |
+| **Write-back** | Result lands in CRM / ERP / inbox the team already uses | A separate AI tab nobody opens |
+| **Owner + kill date** | Named person, day-40 keep/kill written | Open-ended “pilot” |
+
+If any row fails, stop buying tools. Fix the row.
+
+## The sequence that works (and the one that does not)
+
+**Do this:**
+
+1. Confirm outcomes and in-scope workflows (strategy).  
+2. Pick **one** use case with weekly volume and an owner.  
+3. Baseline the metric.  
+4. Run a 30-day thin slice with human review.  
+5. Write back to the system of record.  
+6. Keep, kill, or scale in writing.  
+7. Only then open a second workflow.
+
+**Do not do this:**
+
+| Common start | Why it stalls |
+|--------------|---------------|
+| Pick a platform first | You implement a vendor, then hunt for a job |
+| Fifteen use-case workshops | No owner, no baseline, no keep/kill |
+| “Train everyone on ChatGPT” | Skills with nothing to apply them to |
+| Build a data lake first | Months of plumbing, zero process change |
+| Chatbot as the first ship | Demo traffic, no write-back, no metric |
+
+Teams that start with [where to start with AI](/blog/where-to-start-with-ai) and a [readiness assessment](/blog/ai-readiness-assessment) skip most of this waste. Implementation is the middle of the ladder, not the first rung.
+
+## Phase 0 — Alignment (week 1)
+
+Write these on one page before anyone logs into a vendor console:
+
+- **Workflow:** one sentence, one system of record  
+- **Metric:** cycle time, error rate, hours, or missed fields — pick one  
+- **Owner:** four to eight hours a week, not a steering committee  
+- **Error policy:** which outputs a human must see before a customer or a ledger  
+- **Out of scope:** unsupervised customer decisions, replacing the ERP this quarter
+
+If leadership cannot agree on the metric, you are still in strategy. Do not pretend it is implementation.
+
+## Phase 1 — Baseline and thin slice (days 8–40)
+
+### Baseline (do not skip)
+
+Count the last 30 days:
+
+- Volume (how many times the process runs)  
+- Cycle time or touch time  
+- Error / rework rate  
+- Who touches it today (roles, not departments)
+
+A slice without a baseline cannot be kept or killed. You will argue about vibes.
+
+### Thin slice (one path, not the whole process)
+
+Example — inbound quote requests that sit in a shared inbox:
+
+1. Extract the customer, product family, and missing fields from the email.  
+2. Draft a reply or a CRM note.  
+3. Human reviews before send.  
+4. Write the structured fields into the CRM.  
+5. Log whether the draft was accepted, edited, or thrown away.
+
+That is [AI workflow automation](/blog/ai-workflow-automation) in miniature. You are not training a model. You are putting a model in the path the work already takes.
+
+**Slice rules:**
+
+- One system of record, not four  
+- Human review on every customer-facing or ledger-facing output  
+- Twenty to fifty real cases, not a synthetic demo pack  
+- Same owner who will run it after go-live  
+
+If you cannot get twenty real cases in 30 days, the process is too rare to implement first.
+
+## Phase 2 — Keep / kill / scale (day 40)
+
+Write one of three sentences. No “continue to monitor.”
+
+| Decision | When | Next action |
+|----------|------|-------------|
+| **Keep** | Metric moved, owner still has hours, write-back used daily | Harden evals, reduce review on the easy 70% |
+| **Kill** | No movement, or nobody used the write-back | Retire the tool. Pick the next in-scope workflow or stop |
+| **Scale** | Keep criteria met *and* a second workflow is already named | Same owner model. Do not add a third outcome |
+
+Teams that skip day 40 collect half-alive copilots. That is not a programme; it is licence sprawl.
+
+## Who does the work (internal vs partner)
+
+**Stay internal** when the workflow is obvious, data is exportable, and an owner has four hours a week. Most first slices should stay internal. Buy or assemble first — see [AI build vs buy](/blog/ai-build-vs-buy).
+
+**Bring implementation help** when:
+
+- The first use case is already scored and named  
+- Integrations or evals are the bottleneck, not “we have no idea what to do”  
+- You need production write-back in 90 days and the internal team is maxed  
+
+That is the [implementation partner](/blog/ai-implementation-partner) conversation — delivery, not a strategy deck. If you do not have a named workflow yet, you are hiring a workshop.
+
+## Worked example: invoice coding (numbers you can copy)
+
+A 40-person services firm codes ~180 supplier invoices a month. Two people spend ~12 minutes each on average (36 hours/month). About 8% bounce back from the accountant for the wrong cost centre.
+
+**Implementation, not a platform:**
+
+- **Metric:** minutes per invoice + bounce-back rate  
+- **Slice:** PDF → extract vendor, amount, GST, suggested cost centre → human confirms in the same inbox → write to Xero  
+- **Days 1–10:** export last 30 days; label 40 invoices by hand as the eval set  
+- **Days 11–40:** run the extract+suggest loop on new invoices only; human still posts  
+- **Day 40 keep if:** median handle time ≤ 6 minutes *and* bounce-back does not rise  
+
+If the extract is wrong on vendor names, you do not “add more AI.” You fix the vendor list and the eval set. That is implementation discipline.
+
+## What to measure after go-live
+
+Keep a weekly four-line log. If you cannot fill it, the slice is not live.
+
+1. Cases through the path  
+2. Human accept / edit / reject rates  
+3. The original business metric vs baseline  
+4. Incidents (wrong send, wrong ledger, privacy miss)
+
+Reject-rate climbing means the model or the process shifted. Do not scale. Re-baseline.
+
+## Common implementation failures
+
+| Failure | What it looks like | Fix |
+|---------|--------------------|-----|
+| **Tool-first** | Six seats, zero write-back | Name one workflow or cancel seats |
+| **No owner** | “The AI working group” | One name, hours on the calendar |
+| **Demo data** | Perfect PDFs, messy reality later | Only real last-30-day cases |
+| **Shadow UI** | Team still lives in email; AI is a tab | Write back to the existing system |
+| **No kill date** | Pilot month six | Day 40 written in week 1 |
+| **Scope creep** | Second department added at week 3 | Finish slice 1 or kill it |
+
+## FAQ
+
+**What is AI implementation for business?**  
+AI implementation for business is putting a model inside one named workflow so work actually changes: a baseline metric, a thin slice, human review, and write-back to the system of record. It is not buying seats, running a hackathon, or publishing a roadmap.
+
+**How do you implement AI in a business?**  
+Name one workflow and owner, measure the current cycle time or error rate, run a 30-day human-reviewed slice, write results back the way the team already works, then keep, kill, or scale. Do not start with a platform or a twelve-use-case backlog.
+
+**How long does AI implementation take?**  
+A first production slice should land in 30–90 days if the workflow is named and data is reachable. Multi-year “AI programmes” without a keep/kill date are not implementation—they are unowned programmes.
+
+**AI implementation vs AI strategy — what is the difference?**  
+Strategy chooses outcomes, in-scope workflows, buy/assemble/build, and owners. Implementation delivers the first thin slice. Invert that order and you implement a tool in search of a problem.
+
+**When should a business hire help for AI implementation?**  
+Hire when the first use case is already chosen, internal capacity is the bottleneck, and you need production write-back in 90 days. Do not hire a partner to “explore AI” with no named workflow.
+
+---
+
+If the first workflow is named and you need delivery rather than another workshop, start an [implementation conversation](/services/implementation). If you cannot name the workflow yet, use the [AI readiness checklist](/ai-readiness-checklist) and the [first use case scorecard](/blog/first-ai-use-case) first.
