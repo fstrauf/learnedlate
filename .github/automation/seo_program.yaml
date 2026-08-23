@@ -97,8 +97,10 @@ harvest_queue:
       declining_pages ~45% impr drop — wait outcome ~2026-09-01; LEGACY-adjacent, harvest only
   - slug: business-process-automation-examples
     goal: product_cta_bridge
-    status: open
-    notes: ACTIVE-adjacent ~51 impr / 0 cl / pos ~50 — CTA to /services/implementation + workflow Primary
+    status: measuring
+    notes: >-
+      Path B content fix 2026-08-23: CTA bridge to /services/implementation + ai-workflow-automation,
+      fixed 2 dead related links (crm, cloud-migration); content_outcome_review +30d
   - slug: using-obsidian-and-cursor-for-writing
     goal: intro_bridge
     status: open
@@ -130,8 +132,10 @@ prune_queue:
     evidence: >-
       hard_cannibalization query "fractional cto nz" — guide ~33 impr / costs ~29 impr (28d desk 2026-08-08);
       redirect_equity residual on source
-    status: open
-    notes: LEGACY hard cannibal — Path B merge when capacity; human confirm if high traffic
+    status: done
+    notes: >-
+      Source MDX already removed 2026-08-01 (commit f3db7bf, underscore 301 live);
+      added missing hyphenated-variant 301 to vercel.json 2026-08-23 — prune merge complete
   - slug: how-to-build-an-mvp-for-your-startup-a-founders-step-by-step-guide
     cluster: Fractional CTO and legacy services
     action: noindex
