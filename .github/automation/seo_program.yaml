@@ -77,11 +77,11 @@ primary_backlog:
   - keyword: ai implementation for business
     status: measuring
     target_slug: ai-implementation-for-business
-    notes: Path B published 2026-08-18; content_outcome_review ~2026-09-17
+    notes: Path B published 2026-08-18; pair /services/implementation; outcome ~2026-09-17
   - keyword: when to build custom ai
     status: measuring
     target_slug: when-to-build-custom-ai
-    notes: Path B published 2026-08-18; pair /services/engineering; outcome ~2026-09-17
+    notes: Path B published 2026-08-18; pair /services/engineering + build-vs-buy; outcome ~2026-09-17
   - keyword: ai readiness checklist
     status: open
     target_slug: null
