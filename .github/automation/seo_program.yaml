@@ -99,8 +99,10 @@ harvest_queue:
     goal: product_cta_bridge
     status: measuring
     notes: >-
-      Path B content fix 2026-08-23: CTA bridge to /services/implementation + ai-workflow-automation,
-      fixed 2 dead related links (crm, cloud-migration); content_outcome_review +30d
+      ACTIVE-adjacent ~199 impr / 0 cl / pos ~54 (fresh desk 2026-08-30); Path B content fix
+      2026-08-23: CTA bridge to /services/implementation + ai-workflow-automation, fixed 2 dead
+      related links (crm, cloud-migration); 2026-08-30: added /ai-readiness-checklist bridge;
+      content_outcome_review +30d
   - slug: using-obsidian-and-cursor-for-writing
     goal: intro_bridge
     status: open
@@ -135,7 +137,8 @@ prune_queue:
     status: done
     notes: >-
       Source MDX already removed 2026-08-01 (commit f3db7bf, underscore 301 live);
-      added missing hyphenated-variant 301 to vercel.json 2026-08-23 — prune merge complete
+      added missing hyphenated-variant 301 to vercel.json 2026-08-23 — prune merge complete;
+      confirmed weekly 2026-08-30 (residual GSC on source is redirect-equity lag)
   - slug: how-to-build-an-mvp-for-your-startup-a-founders-step-by-step-guide
     cluster: Fractional CTO and legacy services
     action: noindex
