@@ -77,11 +77,11 @@ primary_backlog:
   - keyword: ai implementation for business
     status: measuring
     target_slug: ai-implementation-for-business
-    notes: Path B published 2026-08-18; content_outcome_review ~2026-09-17
+    notes: Path B published 2026-08-18; pair /services/implementation; outcome ~2026-09-17
   - keyword: when to build custom ai
     status: measuring
     target_slug: when-to-build-custom-ai
-    notes: Path B published 2026-08-18; pair with build-vs-buy keeper; content_outcome_review ~2026-09-17
+    notes: Path B published 2026-08-18; pair /services/engineering + build-vs-buy; outcome ~2026-09-17
   - keyword: ai readiness checklist
     status: open
     target_slug: null
@@ -100,8 +100,9 @@ harvest_queue:
     status: measuring
     notes: >-
       ACTIVE-adjacent ~199 impr / 0 cl / pos ~54 (fresh desk 2026-08-30); Path B content fix
-      2026-08-30: CTA bridge to /services/implementation + /ai-readiness-checklist +
-      ai-workflow-automation; outcome review ~2026-09-29
+      2026-08-23: CTA bridge to /services/implementation + ai-workflow-automation, fixed 2 dead
+      related links (crm, cloud-migration); 2026-08-30: added /ai-readiness-checklist bridge;
+      content_outcome_review +30d
   - slug: using-obsidian-and-cursor-for-writing
     goal: intro_bridge
     status: open
@@ -135,9 +136,9 @@ prune_queue:
       redirect_equity residual on source
     status: done
     notes: >-
-      Already merged 2026-08-01 (commit f3db7bf, PR #16): file deleted + 301 in vercel.json
-      → /blog/2025-06-22-nz-startups-fractional-cto-guide; confirmed weekly 2026-08-30;
-      residual GSC on source is redirect-equity lag
+      Source MDX already removed 2026-08-01 (commit f3db7bf, underscore 301 live);
+      added missing hyphenated-variant 301 to vercel.json 2026-08-23 — prune merge complete;
+      confirmed weekly 2026-08-30 (residual GSC on source is redirect-equity lag)
   - slug: how-to-build-an-mvp-for-your-startup-a-founders-step-by-step-guide
     cluster: Fractional CTO and legacy services
     action: noindex
