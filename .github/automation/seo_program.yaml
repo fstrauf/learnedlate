@@ -49,7 +49,10 @@ primary_backlog:
   - keyword: ai readiness assessment
     status: measuring
     target_slug: ai-readiness-assessment
-    notes: Live published; low/zero GSC; deploy+inbound ongoing; measure after crawl lag
+    notes: >-
+      Legacy duplicate /blog/099_ai_readiness_assessment (held ~290 Primary impr, pos ~67)
+      consolidated 2026-09-04: stale catalog dupe removed, 301 + frontmatter canonical +
+      sitemap now point to /blog/ai-readiness-assessment; equity transfer lag ~2-4 weeks
   - keyword: ai workflow automation
     status: measuring
     target_slug: ai-workflow-automation
@@ -83,11 +86,12 @@ primary_backlog:
     target_slug: when-to-build-custom-ai
     notes: Path B published 2026-08-18; pair /services/engineering + build-vs-buy; outcome ~2026-09-17
   - keyword: ai readiness checklist
-    status: open
+    status: done
     target_slug: null
     notes: >-
-      Non-catalog landing /ai-readiness-checklist holds ~227 GSC impr — write blog
-      Primary or map demand to product checklist + ai-readiness-assessment
+      Demand mapped to product landing /ai-readiness-checklist (379 impr pos ~41 +
+      'ai readiness assessment checklist' 61 impr pos ~38, 28d 2026-09-04) — no competing
+      blog article; decision weekly 2026-09-04; bridge blog CTAs to landing
 harvest_queue:
   - slug: technical-due-diligence-checklist
     goal: title_ctr_measure
