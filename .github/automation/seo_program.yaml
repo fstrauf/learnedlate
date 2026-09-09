@@ -12,7 +12,7 @@ metrics:
   - id: gsc_click_share_primary_or_ai_active
     source: gsc
     direction: up
-    note: Share of clicks on Primary/ACTIVE AI ladder slugs vs total catalog clicks
+    note: Share of clicks on Primary/ACTIVE AI ladder slugs vs total catalog clicks (www 28d)
   - id: gsc_impression_share_legacy_fractional_mvp_sap
     source: gsc
     direction: flat_or_down_share
@@ -20,11 +20,11 @@ metrics:
   - id: primary_keyword_coverage
     source: shortlist_catalog
     direction: up
-    note: Live published slug + inbound links + outcome review per Primary head
+    note: 9/10 Primary heads live published; ai readiness checklist (blog) still uncovered
   - id: blog_to_contact_or_checklist
     source: posthog
     direction: up
-    note: Blog/service paths → /contact or /ai-readiness-checklist engagement (thin PostHog baseline)
+    note: Blog/service paths → /contact or /ai-readiness-checklist engagement — WARN 2026-09-09, MCP session on wrong project (227760 vs 176201)
   - id: not_indexed_catalog
     source: gsc
     direction: down
@@ -163,7 +163,7 @@ prune_queue:
   - slug: how-to-build-an-mvp-for-your-startup-a-founders-step-by-step-guide
     cluster: Fractional CTO and legacy services
     action: noindex
-    evidence: ~85 impr / 0 clicks / pos ~91 (28d 2026-08-08); do_not_expand MVP; thin ROI
+    evidence: ~186 impr / 0 clicks / pos ~89 across two URL variants (28d 2026-09-03); do_not_expand MVP
     status: open
     confirm: required
     notes: Operator-manual noindex only — never agent-executed
@@ -173,14 +173,22 @@ prune_queue:
     evidence: 117 impr / 0 clicks / pos ~52 (28d desk 2026-09-09); off Primary AI ladder
     status: open
     confirm: required
-    notes: Operator-manual noindex only
+    notes: Operator-manual noindex only; impressions tripled but zero clicks — still pure waste
   - slug: sap-joule-custom-skills-development-step-by-step-tutorial-for-beginners
     cluster: Fractional CTO and legacy services
     action: noindex
     evidence: ~29 impr / 1 click (28d desk 2026-09-09); do_not_expand SAP Joule
     status: open
     confirm: required
-    notes: Operator-manual noindex only
+    notes: >-
+      Operator-manual noindex only; note: earned 1 of 8 www clicks and pos ~23 is its best
+      window yet — operator may prefer merging into /sap-joule-custom-skills-development instead
+  - slug: interim-cto-vs-fractional-cto-which-one-does-your-startup-need
+    cluster: Fractional CTO and legacy services
+    action: merge_into:nz-startups-fractional-cto-guide
+    evidence: ~146 impr / 0 clicks (28d 2026-09-03); do_not_expand interim/fractional CTO; keeper indexed
+    status: open
+    notes: Same-intent fractional/interim CTO comparison; consolidates equity onto indexed keeper per #8 pattern
 cluster_policy_hints:
   - name: Getting started with AI
     preferred_status: active
