@@ -5,14 +5,14 @@ goal: >-
   MVP, or SAP inventory.
 current_mode: attract
 mode_mix_this_month:
-  attract: 3
-  harvest: 1
+  attract: 2
+  harvest: 2
   tools: 1
 metrics:
   - id: gsc_click_share_primary_or_ai_active
     source: gsc
     direction: up
-    note: Share of clicks on Primary/ACTIVE AI ladder slugs vs total catalog clicks
+    note: Share of clicks on Primary/ACTIVE AI ladder slugs vs total catalog clicks (www 28d)
   - id: gsc_impression_share_legacy_fractional_mvp_sap
     source: gsc
     direction: flat_or_down_share
@@ -20,15 +20,15 @@ metrics:
   - id: primary_keyword_coverage
     source: shortlist_catalog
     direction: up
-    note: Live published slug + inbound links + outcome review per Primary head
+    note: 9/10 Primary heads live published; ai readiness checklist (blog) still uncovered
   - id: blog_to_contact_or_checklist
     source: posthog
     direction: up
-    note: Blog/service paths → /contact or /ai-readiness-checklist engagement (thin PostHog baseline)
+    note: Blog/service paths → /contact or /ai-readiness-checklist engagement — WARN 2026-09-09, MCP session on wrong project (227760 vs 176201)
   - id: not_indexed_catalog
     source: gsc
     direction: down
-    note: Catalog not_indexed count (baseline ~42 after 2026-08-08 collect_gsc)
+    note: Fresh count unavailable in worktree (last known ~42 @2026-08-08); canonical ai-readiness-assessment is not_indexed_discovered — recollect
 product_paths:
   contact: /contact
   strategy: /services/strategy
@@ -49,72 +49,79 @@ primary_backlog:
   - keyword: ai readiness assessment
     status: measuring
     target_slug: ai-readiness-assessment
-    notes: Live published; low/zero GSC; deploy+inbound ongoing; measure after crawl lag
+    notes: >-
+      Live id96; canonical 239 impr / 0 cl / pos ~69 (28d 2026-09-03) but indexing_status
+      not_indexed_discovered — indexing blocker first; old underscore variant
+      /blog/099_ai_readiness_assessment holds 366 impr (see Needs attention)
   - keyword: ai workflow automation
     status: measuring
     target_slug: ai-workflow-automation
-    notes: Path B published 2026-08-01; deploy 2026-08-08; content_outcome_review ~2026-09-01
+    notes: Barely registering (1 impr / pos 80, 28d 2026-09-03); content_outcome_review due ~2026-09-01 — run it
   - keyword: first ai use case
     status: measuring
     target_slug: first-ai-use-case
-    notes: Path B published 2026-08-01; deploy 2026-08-08; content_outcome_review ~2026-09-01
+    notes: 1 impr / pos 9 (28d 2026-09-03); content_outcome_review due ~2026-09-01 — run it
   - keyword: ai build vs buy
     status: measuring
     target_slug: ai-build-vs-buy
-    notes: Path B published 2026-08-07; deploy 2026-08-08; content_outcome_review ~2026-09-07
+    notes: 34 impr / 0 cl / pos ~88 (28d 2026-09-03); content_outcome_review due ~2026-09-07 — run it
   - keyword: ai implementation partner
     status: measuring
     target_slug: ai-implementation-partner
-    notes: Path B published 2026-08-07; deploy 2026-08-08; content_outcome_review ~2026-09-07
+    notes: 101 impr / 0 cl / pos ~33 (28d 2026-09-03) — best-positioned Primary; title/CTR pass candidate
   - keyword: where to start with ai
     status: measuring
     target_slug: where-to-start-with-ai
-    notes: Path B published 2026-08-13; deploy pending; content_outcome_review ~2026-09-12
+    notes: 3 impr / pos ~24 (28d 2026-09-03); outcome review ~2026-09-12
   - keyword: ai strategy for business
     status: measuring
     target_slug: ai-strategy-for-business
-    notes: Path B published 2026-08-13; pair /services/strategy; outcome ~2026-09-12
+    notes: 420 impr / 0 cl / pos ~67 (28d 2026-09-03) — high demand, zero CTR; title/meta CTR pass priority
   - keyword: ai implementation for business
     status: measuring
     target_slug: ai-implementation-for-business
-    notes: Path B published 2026-08-18; pair /services/implementation; outcome ~2026-09-17
+    notes: ~0 GSC (28d 2026-09-03); outcome review ~2026-09-17
   - keyword: when to build custom ai
     status: measuring
     target_slug: when-to-build-custom-ai
-    notes: Path B published 2026-08-18; pair /services/engineering + build-vs-buy; outcome ~2026-09-17
+    notes: ~0 GSC (28d 2026-09-03); outcome review ~2026-09-17
   - keyword: ai readiness checklist
     status: open
     target_slug: null
     notes: >-
-      Non-catalog landing /ai-readiness-checklist holds ~227 GSC impr — write blog
-      Primary or map demand to product checklist + ai-readiness-assessment
+      /ai-readiness-checklist landing now 575 impr / 0 cl / pos ~41 (28d 2026-09-03) —
+      largest Primary demand pool, zero clicks; blog Primary slug still uncovered;
+      tools/harvest CTR pass + decide blog coverage
 harvest_queue:
   - slug: technical-due-diligence-checklist
     goal: title_ctr_measure
     status: measuring
     notes: >-
-      Top waste ~289 impr / 0 cl / pos ~47; Path B content fix 2026-08-02; deploy 2026-08-08;
-      declining_pages ~45% impr drop — wait outcome ~2026-09-01; LEGACY-adjacent, harvest only
+      Top waste 1042 impr / 0 cl / pos ~50 (28d 2026-09-03, up from 289) — demand
+      tripled, still zero clicks; Path B fix 2026-08-02; content_outcome_review was due
+      ~2026-09-01 — run title/CTR review now, LEGACY-adjacent harvest only
+  - slug: digital_marketing_nz_guide
+    goal: product_cta_bridge
+    status: open
+    notes: >-
+      Top www click earner 501 impr / 4 cl / pos ~70 (28d 2026-09-03); off Primary ladder
+      but earning — light bridge to AI workflow/automation services, do not expand topic
   - slug: business-process-automation-examples
     goal: product_cta_bridge
     status: measuring
-    notes: >-
-      ACTIVE-adjacent ~199 impr / 0 cl / pos ~54 (fresh desk 2026-08-30); Path B content fix
-      2026-08-23: CTA bridge to /services/implementation + ai-workflow-automation, fixed 2 dead
-      related links (crm, cloud-migration); 2026-08-30: added /ai-readiness-checklist bridge;
-      content_outcome_review +30d
+    notes: 330 impr / 0 cl / pos ~53 (28d 2026-09-03); Path B CTA bridge shipped 2026-08-23 + checklist bridge 2026-08-30; content_outcome_review +30d
   - slug: using-obsidian-and-cursor-for-writing
     goal: intro_bridge
     status: open
-    notes: Only www click earner (~321 impr / 1 cl) but off-strategy — light bridge only, do not expand
+    notes: Now 118 impr / 2 cl / pos ~15 (28d 2026-09-03; impressions fell 321→118, clicks rose 1→2) — light bridge only, do not expand
   - slug: how-to-choose-cto-for-startup
     goal: internal_links
     status: open
-    notes: LEGACY head ~64 impr; no Primary expansion — optional soft CTA away from CTO ladder
+    notes: 247 impr / 0 cl / pos ~57 (28d 2026-09-03, up from 64) — LEGACY head; optional soft CTA away from CTO ladder
 tools_queue:
   - path_or_slug: /ai-readiness-checklist
     status: open
-    notes: Free lead magnet; ~227 non-catalog GSC impr — ensure crawl/index + blog bridges
+    notes: 575 impr / 0 cl / pos ~41 (28d 2026-09-03) — biggest demand pool; title/meta CTR pass + confirm crawl/index
   - path_or_slug: /services/strategy
     status: open
     notes: Commercial pillar for readiness / where-to-start Primaries
@@ -132,34 +139,39 @@ prune_queue:
     cluster: Fractional CTO and legacy services
     action: merge_into:nz-startups-fractional-cto-guide
     evidence: >-
-      hard_cannibalization query "fractional cto nz" — guide ~33 impr / costs ~29 impr (28d desk 2026-08-08);
-      redirect_equity residual on source
+      hard_cannibalization query "fractional cto nz" — guide ~24 impr / costs ~23 impr (28d 2026-09-03);
+      301s live (hyphen + underscore variants, vercel.json); residual GSC is redirect-equity lag
     status: done
-    notes: >-
-      Source MDX already removed 2026-08-01 (commit f3db7bf, underscore 301 live);
-      added missing hyphenated-variant 301 to vercel.json 2026-08-23 — prune merge complete;
-      confirmed weekly 2026-08-30 (residual GSC on source is redirect-equity lag)
+    notes: Prune merge complete 2026-08-23; confirmed weekly 2026-08-30; re-confirmed this review — residual is lag
   - slug: how-to-build-an-mvp-for-your-startup-a-founders-step-by-step-guide
     cluster: Fractional CTO and legacy services
     action: noindex
-    evidence: ~85 impr / 0 clicks / pos ~91 (28d 2026-08-08); do_not_expand MVP; thin ROI
+    evidence: ~186 impr / 0 clicks / pos ~89 across two URL variants (28d 2026-09-03); do_not_expand MVP
     status: open
     confirm: required
     notes: Operator-manual noindex only — never agent-executed
   - slug: free-accounting-software-nz-guide
     cluster: Fractional CTO and legacy services
     action: noindex
-    evidence: ~80 impr / 0 clicks / pos ~46 (28d 2026-08-08); off Primary AI ladder
+    evidence: ~296 impr / 0 clicks / pos ~52 (28d 2026-09-03, up from 80 impr); off Primary AI ladder
     status: open
     confirm: required
-    notes: Operator-manual noindex only
+    notes: Operator-manual noindex only; impressions tripled but zero clicks — still pure waste
   - slug: sap-joule-custom-skills-development-step-by-step-tutorial-for-beginners
     cluster: Fractional CTO and legacy services
     action: noindex
-    evidence: ~23 impr / 0 clicks (28d 2026-08-08); do_not_expand SAP Joule
+    evidence: ~29 impr / 1 click / pos ~23 (28d 2026-09-03); do_not_expand SAP Joule
     status: open
     confirm: required
-    notes: Operator-manual noindex only
+    notes: >-
+      Operator-manual noindex only; note: earned 1 of 8 www clicks and pos ~23 is its best
+      window yet — operator may prefer merging into /sap-joule-custom-skills-development instead
+  - slug: interim-cto-vs-fractional-cto-which-one-does-your-startup-need
+    cluster: Fractional CTO and legacy services
+    action: merge_into:nz-startups-fractional-cto-guide
+    evidence: ~146 impr / 0 clicks (28d 2026-09-03); do_not_expand interim/fractional CTO; keeper indexed
+    status: open
+    notes: Same-intent fractional/interim CTO comparison; consolidates equity onto indexed keeper per #8 pattern
 cluster_policy_hints:
   - name: Getting started with AI
     preferred_status: active
@@ -179,10 +191,11 @@ cluster_policy_hints:
   - name: Fractional CTO and legacy services
     preferred_status: legacy
     notes: Already LEGACY — prune/harvest only; never expand
-last_reviewed_at: '2026-08-08'
+last_reviewed_at: '2026-09-09'
 review_cadence_days: 30
 notes: >-
-  First-run seed after weekly 2026-08-08. GSC catalog ~1195 impr / 1 click; not_indexed 42;
-  striking-distance 0. Primaries shipped×5 measuring (readiness + 4 Path B). Mode attract for
-  remaining open Primaries. PostHog project 176201 thin (7d ~0; 30d ~27 visitors). Product paths
-  are services pillars + checklist/contact — not SaaS signup. Deploy commit 8ae59c6 same day.
+  Review 2026-09-09 (previous 2026-08-08). www 28d desk (gsc_at 2026-09-03): 6428 impr / 8 cl —
+  demand up ~5× vs first seed but AI-ladder clicks still ~0; bottleneck shifted from coverage
+  (9/10 Primary heads live) to indexing + CTR. PostHog MCP session is on project 227760, not
+  176201 — conversion north star WARN, do not invent. Prune merge fractional costs done; 3
+  noindex rows re-confirmed open (confirm required); 1 new merge_into (interim vs fractional).
