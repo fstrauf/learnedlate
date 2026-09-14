@@ -10,7 +10,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 110.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 1,
@@ -38,7 +38,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 247.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 2,
@@ -92,7 +92,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 3.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 4,
@@ -130,7 +130,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 83.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 6,
@@ -181,11 +181,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/best-ai-tools-for-business-2025.mdx",
       "gsc": {
-        "avg_position": 34.7,
+        "avg_position": 32.6,
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 15.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 8,
@@ -240,7 +240,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 3.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 10,
@@ -264,7 +264,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 1.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 11,
@@ -284,11 +284,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/technical-due-diligence-checklist.mdx",
       "gsc": {
-        "avg_position": 48.2,
+        "avg_position": 51.6,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 1131.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 1002.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 12,
@@ -328,11 +328,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/business-process-automation-examples.mdx",
       "gsc": {
-        "avg_position": 53.6,
+        "avg_position": 52.7,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 274.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 380.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 14,
@@ -392,11 +392,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/2025-08-01-automate-marketing-automate-anything.mdx",
       "gsc": {
-        "avg_position": 75.5,
+        "avg_position": 60.2,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 2.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 5.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 17,
@@ -451,7 +451,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 2.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 19,
@@ -493,11 +493,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/digital_marketing_nz_guide.mdx",
       "gsc": {
-        "avg_position": 70.1,
-        "clicks": 1.0,
-        "ctr": 0.0014,
-        "impressions": 723.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "avg_position": 70.0,
+        "clicks": 5.0,
+        "ctr": 0.0251,
+        "impressions": 199.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 21,
@@ -539,11 +539,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/free_accounting_software_nz_guide.mdx",
       "gsc": {
-        "avg_position": 52.0,
+        "avg_position": 51.4,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 307.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 292.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 23,
@@ -623,11 +623,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/2025-06-22-small-business-ai-confusion-why-no-one-using-effectively.mdx",
       "gsc": {
-        "avg_position": 81.8,
+        "avg_position": 82.3,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 24.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 37.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 27,
@@ -654,7 +654,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 5.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 28,
@@ -746,7 +746,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 1.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 32,
@@ -770,11 +770,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/2025-04-05-custom-software-packages-nz.mdx",
       "gsc": {
-        "avg_position": 63.8,
+        "avg_position": 60.8,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 36.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 79.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 33,
@@ -797,11 +797,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/2025-06-22-business-process-automation-small-business-guide.mdx",
       "gsc": {
-        "avg_position": 12.0,
+        "avg_position": 12.6,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 6.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 5.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 34,
@@ -828,7 +828,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 1.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 35,
@@ -889,11 +889,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/2025-03-05-make-space-for-your-best-work.mdx",
       "gsc": {
-        "avg_position": 5.7,
+        "avg_position": 7.0,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 3.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 5.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 38,
@@ -954,11 +954,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/2025-06-22-nz-startups-fractional-cto-guide.mdx",
       "gsc": {
-        "avg_position": 14.1,
+        "avg_position": 15.0,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 39.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 43.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 41,
@@ -986,7 +986,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 1.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-03T04:41:14Z",
         "period_days": 90
       },
       "id": 42,
@@ -1032,7 +1032,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 1.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 44,
@@ -1059,7 +1059,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 3.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 45,
@@ -1086,7 +1086,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 55.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 46,
@@ -1109,11 +1109,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/047_interim_cto_vs_fractional_cto_which_one_does_your_startup_need.mdx",
       "gsc": {
-        "avg_position": 72.7,
+        "avg_position": 68.4,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 103.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 173.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 47,
@@ -1123,7 +1123,7 @@
       "published_date": "2025-10-06",
       "review_count": 2,
       "review_status": "reviewed",
-      "status": "published",
+      "status": "redirected",
       "target_keyword": "interim CTO vs fractional CTO",
       "target_volume": 0,
       "title": "Interim CTO vs Fractional CTO: Which One Does Your Startup Need?",
@@ -1140,7 +1140,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 3.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 48,
@@ -1163,11 +1163,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/049_when_to_hire_your_first_cto_a_startup_founders_timing_guide.mdx",
       "gsc": {
-        "avg_position": 43.3,
+        "avg_position": 45.5,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 12.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 13.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 49,
@@ -1193,8 +1193,8 @@
         "avg_position": 89.5,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 108.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 111.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 50,
@@ -1259,11 +1259,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/053_what_does_a_fractional_cto_do_exactly_roles_responsibilities_deliverables.mdx",
       "gsc": {
-        "avg_position": 81.5,
+        "avg_position": 79.0,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 28.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 43.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 53,
@@ -1348,7 +1348,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 7.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 57,
@@ -1391,11 +1391,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/059_mvp_development_cost_for_saas_startups_2026_budget_guide_with_real_examples.mdx",
       "gsc": {
-        "avg_position": 35.3,
+        "avg_position": 38.3,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 3.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 4.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 59,
@@ -1418,7 +1418,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 2.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 60,
@@ -1441,11 +1441,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/061_the_complete_guide_to_nz_startup_grants_funding_2025_edition_with_application_tips.mdx",
       "gsc": {
-        "avg_position": 45.6,
+        "avg_position": 44.4,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 20.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 28.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 61,
@@ -1500,7 +1500,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 4.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 63,
@@ -1524,7 +1524,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 8.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 64,
@@ -1543,11 +1543,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/065_free_software_development_agreement_template_for_nz_startups_2025.mdx",
       "gsc": {
-        "avg_position": 6.8,
+        "avg_position": 6.5,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 4.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 6.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 65,
@@ -1619,11 +1619,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/069_mobile_app_vs_web_app_which_should_your_startup_build_first.mdx",
       "gsc": {
-        "avg_position": 48.0,
+        "avg_position": 43.3,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 7.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 8.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 69,
@@ -1650,7 +1650,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 41.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 70,
@@ -1678,7 +1678,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 20.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 71,
@@ -1774,11 +1774,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/075_fractional_cto_for_saas_startups_scaling_your_platform_without_the_full_time_price_tag.mdx",
       "gsc": {
-        "avg_position": 27.4,
+        "avg_position": 24.8,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 87.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 110.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 75,
@@ -1805,7 +1805,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 24.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 76,
@@ -1824,11 +1824,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/077_fractional_cto_for_healthcare_startups_compliance_tech_stack_growth_strategy.mdx",
       "gsc": {
-        "avg_position": 88.0,
+        "avg_position": 78.9,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 12.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 14.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 77,
@@ -1851,7 +1851,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 4.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 78,
@@ -1879,7 +1879,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 7.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 79,
@@ -1907,7 +1907,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 32.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 80,
@@ -1930,11 +1930,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/081_sap_joule_custom_skills_development_step_by_step_tutorial_for_beginners.mdx",
       "gsc": {
-        "avg_position": 23.0,
+        "avg_position": 22.7,
         "clicks": 1.0,
-        "ctr": 0.0357,
-        "impressions": 28.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "ctr": 0.0345,
+        "impressions": 29.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 81,
@@ -1980,7 +1980,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 13.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 83,
@@ -2004,7 +2004,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 2.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 84,
@@ -2023,11 +2023,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/085_ai_chat_bot_for_business.mdx",
       "gsc": {
-        "avg_position": 47.0,
+        "avg_position": 40.5,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 5.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 6.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 85,
@@ -2119,7 +2119,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 5.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 89,
@@ -2143,11 +2143,11 @@
       "estimated_traffic_monthly": "",
       "file": "src/blog/posts/090_ai_automation.mdx",
       "gsc": {
-        "avg_position": 52.9,
+        "avg_position": 55.9,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 12.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 19.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 90,
@@ -2194,7 +2194,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 1.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 92,
@@ -2222,7 +2222,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 1.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 93,
@@ -2242,11 +2242,11 @@
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/097_ai_consultant_salary.mdx",
       "gsc": {
-        "avg_position": 33.6,
+        "avg_position": 33.3,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 97.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 98.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 94,
@@ -2288,11 +2288,11 @@
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/099_ai_readiness_assessment.mdx",
       "gsc": {
-        "avg_position": 69.4,
+        "avg_position": 68.6,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 271.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 432.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 96,
@@ -2319,7 +2319,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 5.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 97,
@@ -2365,7 +2365,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 15.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 99,
@@ -2389,7 +2389,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 68.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 100,
@@ -2429,7 +2429,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 1.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 102,
@@ -2453,7 +2453,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 1.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 103,
@@ -2473,11 +2473,11 @@
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/105_ai_implementation_partner.mdx",
       "gsc": {
-        "avg_position": 34.9,
+        "avg_position": 33.4,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 75.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 101.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 104,
@@ -2501,7 +2501,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 34.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 105,
@@ -2521,11 +2521,11 @@
       "estimated_traffic_monthly": "",
       "file": "./src/blog/posts/106_ai_strategy_for_business.mdx",
       "gsc": {
-        "avg_position": 66.5,
+        "avg_position": 66.4,
         "clicks": 0.0,
         "ctr": 0.0,
-        "impressions": 281.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "impressions": 500.0,
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 106,
@@ -2549,7 +2549,7 @@
         "clicks": 0.0,
         "ctr": 0.0,
         "impressions": 3.0,
-        "last_synced": "2026-09-01T21:42:56Z",
+        "last_synced": "2026-09-14T02:12:00Z",
         "period_days": 90
       },
       "id": 107,

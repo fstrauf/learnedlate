@@ -64,13 +64,15 @@ primary_backlog:
   - keyword: ai build vs buy
     status: measuring
     target_slug: ai-build-vs-buy
-    notes: Path B published 2026-08-07; content_outcome_review due 2026-09-07 (deferred under cap 2026-09-09)
+    notes: >-
+      Outcome review 2026-09-14: insufficient_data (no GSC tape in recent window;
+      crawl lag) — re-review next due window before treating as covered
   - keyword: ai implementation partner
-    status: measuring
+    status: done
     target_slug: ai-implementation-partner
     notes: >-
-      Path B published 2026-08-07; first GSC signal 67 impr / 0 cl / pos ~29 (28d desk 2026-09-09);
-      content_outcome_review due 2026-09-07 (deferred under cap 2026-09-09)
+      Outcome review 2026-09-14: improved (baseline zero → 48 impr / 0 cl / pos ~27
+      across 10 days) — coverage established
   - keyword: where to start with ai
     status: measuring
     target_slug: where-to-start-with-ai
@@ -187,8 +189,12 @@ prune_queue:
     cluster: Fractional CTO and legacy services
     action: merge_into:nz-startups-fractional-cto-guide
     evidence: ~146 impr / 0 clicks (28d 2026-09-03); do_not_expand interim/fractional CTO; keeper indexed
-    status: open
-    notes: Same-intent fractional/interim CTO comparison; consolidates equity onto indexed keeper per #8 pattern
+    status: measuring
+    notes: >-
+      Path B merge 2026-09-14: keeper folded interim-vs-fractional content (5581w), 9 inbound
+      rewrites, source depublished, +30d keeper outcome review scheduled. Live 301 must go to
+      tracked vercel.json (redirects.csv is gitignored local) — operator follow-up for the
+      live underscore URL /blog/interim_cto_vs_fractional_cto_which_one_does_your_startup_need
 cluster_policy_hints:
   - name: Getting started with AI
     preferred_status: active
