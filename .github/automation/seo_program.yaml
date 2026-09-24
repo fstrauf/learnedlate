@@ -125,7 +125,10 @@ harvest_queue:
   - slug: how-to-choose-cto-for-startup
     goal: internal_links
     status: open
-    notes: LEGACY head ~64 impr; no Primary expansion — optional soft CTA away from CTO ladder
+    notes: >-
+      LEGACY head collapsed 64 → 2 impr (28d desk 2026-09-24) — an internal-link
+      fix has nothing left to harvest; no Primary expansion — optional soft CTA
+      away from CTO ladder only if it recovers
   - slug: digital-marketing-nz-guide
     goal: product_cta_bridge
     status: in_progress
