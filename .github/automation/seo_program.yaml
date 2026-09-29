@@ -50,9 +50,9 @@ primary_backlog:
     status: measuring
     target_slug: ai-readiness-assessment
     notes: >-
-      Canonical 239 impr / 0 cl / pos ~69 (28d desk 2026-09-09); legacy 099 URL still 366 impr —
-      301/canonical un-split sits in unmerged PR #23 (weekly 2026-09-04); equity transfer starts
-      after merge + deploy
+      228 impr / 0 cl / pos ~67 + legacy /blog/099 URL 228 impr (28d desk 2026-09-29). Root cause
+      of split: MDX frontmatter canonical points at the 099 URL (both URLs self-declare 099) —
+      operator fix. Harvest CTA bridge to checklist + /services/strategy weekly 2026-09-29; re-review +30d
   - keyword: ai workflow automation
     status: measuring
     target_slug: ai-workflow-automation
@@ -84,8 +84,9 @@ primary_backlog:
     status: measuring
     target_slug: ai-strategy-for-business
     notes: >-
-      Path B published 2026-08-13; outcome review 2026-09-19 improved (410 impr / 0 cl / pos ~66,
-      21d with data); pair /services/strategy
+      Path B published 2026-08-13; outcome review 2026-09-19 improved; 335 impr / 0 cl / pos ~66
+      (28d 2026-09-29) — content fix 2026-09-29 aligns to 'ai business strategy' (212 impr) + early
+      checklist/strategy CTA; re-review +30d
   - keyword: ai implementation for business
     status: measuring
     target_slug: ai-implementation-for-business
@@ -114,11 +115,10 @@ harvest_queue:
       no re-fix without new evidence
   - slug: business-process-automation-examples
     goal: product_cta_bridge
-    status: measuring
+    status: done
     notes: >-
-      ACTIVE-adjacent 210 impr / 0 cl / pos ~55 (28d desk 2026-09-09); CTA bridges to
-      /services/implementation + ai-workflow-automation + /ai-readiness-checklist shipped
-      2026-08-23/30; content_outcome_review due 2026-09-28
+      Outcome review 2026-09-29: regressed (206 impr/28d pos ~54 → 119 impr/18d pos ~50;
+      per-day impr slightly down, position slightly up) — CTA bridges stay; no re-fix without new evidence
   - slug: using-obsidian-and-cursor-for-writing
     goal: intro_bridge
     status: in_progress
