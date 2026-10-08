@@ -1,0 +1,27 @@
+# Project config for the /growth-review skill. Facts only — the skill owns the process.
+# DRAFT: north stars and indicators proposed from seo_program.yaml metrics[]; owner to confirm.
+repo: fstrauf/learnedlate
+pageseeds_project: learnedlate
+cadence_days: 14
+posthog:
+  project_id: 176201
+related_files:
+  - .github/automation/seo_program.yaml
+
+north_stars:
+  - id: blog_to_contact_or_checklist
+    lane: conversion
+    source: posthog
+    note: "Blog/service paths → /contact or /ai-readiness-checklist engagement. Thin PostHog baseline; report counts next to rates."
+
+leading_indicators:
+  - { id: gsc_click_share_primary_or_ai_active, lane: seo, source: gsc, note: "Share of clicks on Primary/ACTIVE AI ladder slugs vs total catalog clicks" }
+  - { id: primary_keyword_coverage, lane: seo, source: other, note: "Live published slug + inbound links + outcome review per Primary head (shortlist/catalog)" }
+  - { id: not_indexed_catalog, lane: seo, source: gsc, note: "Catalog not_indexed count; direction down" }
+
+bottleneck_order:
+  - measurement gaps
+  - organic demand on Primary / AI heads
+  - blog → contact or checklist conversion
+
+small_n_note: "Very low traffic: weekly deltas are noise. Judge conversion only on 8-week windows; say when N is too small."
