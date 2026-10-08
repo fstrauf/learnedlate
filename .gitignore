@@ -36,6 +36,7 @@ dist-ssr
 !.github/automation/project.yaml
 !.github/automation/seo_program.yaml
 !.github/automation/inventory_prune_plan.md
+!.github/automation/growth_review.yaml
 .github/automation/artifacts/
 .github/automation/task_results/
 
