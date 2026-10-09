@@ -52,7 +52,9 @@ primary_backlog:
     notes: >-
       228 impr / 0 cl / pos ~67 + legacy /blog/099 URL 228 impr (28d desk 2026-09-29). Root cause
       of split: MDX frontmatter canonical points at the 099 URL (both URLs self-declare 099) —
-      operator fix. Harvest CTA bridge to checklist + /services/strategy weekly 2026-09-29; re-review +30d
+      operator fix. Harvest CTA bridge to checklist + /services/strategy weekly 2026-09-29; re-review +30d.
+      2026-10-04: GSC inspect confirms clean URL 'Alternate page with proper canonical tag' — Path B
+      fix set frontmatter canonical to /blog/ai-readiness-assessment (vercel 301 099→clean still operator)
   - keyword: ai workflow automation
     status: measuring
     target_slug: ai-workflow-automation
@@ -60,7 +62,9 @@ primary_backlog:
   - keyword: first ai use case
     status: measuring
     target_slug: first-ai-use-case
-    notes: Path B published 2026-08-01; outcome review 2026-09-04 insufficient_data; re-review next due window
+    notes: >-
+      Path B published 2026-08-01; outcome review 2026-09-04 insufficient_data; indexed but 0 impr 28d
+      (2026-10-04) — weekly 2026-10-04 added checklist link + strategy/checklist/contact CTA; review +30d
   - keyword: ai build vs buy
     status: measuring
     target_slug: ai-build-vs-buy
@@ -92,19 +96,22 @@ primary_backlog:
     target_slug: ai-implementation-for-business
     notes: >-
       Path B published 2026-08-18; outcome review 2026-09-24 insufficient_data (zero GSC tape
-      5+ weeks post-publish) — treat as visibility/indexing problem if still zero
+      5+ weeks post-publish) — treat as visibility/indexing problem if still zero; collect_gsc
+      2026-10-04: Submitted and indexed (first inspection after 09-29 publish)
   - keyword: when to build custom ai
     status: measuring
     target_slug: when-to-build-custom-ai
     notes: >-
       Path B published 2026-08-18; pair /services/engineering + build-vs-buy; outcome review
-      2026-09-24 insufficient_data (zero GSC tape) — visibility/indexing check before any rewrite
+      2026-09-24 insufficient_data (zero GSC tape) — visibility/indexing check before any rewrite;
+      collect_gsc 2026-10-04: Submitted and indexed
   - keyword: ai readiness checklist
     status: measuring
     target_slug: ai-readiness-checklist
     notes: >-
       Path B blog published 2026-09-18 (article 110) bridging to product /ai-readiness-checklist
-      lead magnet + ai-readiness-assessment; outcome review 2026-10-19
+      lead magnet + ai-readiness-assessment; outcome review 2026-10-19. 2026-10-04: blog URL
+      'Discovered - currently not indexed'; +2 inbound (BPA examples, first-ai-use-case) this weekly
 harvest_queue:
   - slug: technical-due-diligence-checklist
     goal: title_ctr_measure
@@ -115,8 +122,9 @@ harvest_queue:
       no re-fix without new evidence
   - slug: business-process-automation-examples
     goal: product_cta_bridge
-    status: done
+    status: measuring
     notes: >-
+      2026-10-04: 099 links → clean readiness URL + checklist blog link (Path B content; review +30d).
       Outcome review 2026-09-29: regressed (206 impr/28d pos ~54 → 119 impr/18d pos ~50;
       per-day impr slightly down, position slightly up) — CTA bridges stay; no re-fix without new evidence
   - slug: using-obsidian-and-cursor-for-writing
