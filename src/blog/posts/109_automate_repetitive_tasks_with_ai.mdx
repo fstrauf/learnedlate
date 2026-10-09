@@ -1,0 +1,132 @@
+---
+title: "Automate Repetitive Tasks With AI: A 5-Test Shortlist"
+description: "To automate repetitive tasks with AI, list your weekly tasks, score each on five tests, and automate only the top one first. Free scoring table inside."
+slug: "automate-repetitive-tasks-with-ai"
+date: "2026-10-08"
+status: "draft"
+keyword: "automate repetitive tasks with ai"
+target_keyword: "automate repetitive tasks with ai"
+summary: "To automate repetitive tasks with AI, list the tasks your team repeats every week, score each against five tests (volume, rules, inputs, cost of error, ownership), and automate the single highest-scoring task first. AI suits tasks that involve reading or writing text; plain rule-based steps are often cheaper with ordinary automation."
+faq:
+  - question: "What repetitive tasks can AI automate?"
+    answer: "Tasks that involve reading, sorting, or writing text: triaging emails, extracting fields from invoices or forms, drafting standard replies, summarising calls or documents, tagging records, and preparing first-draft reports. Tasks that are purely 'if this, then that' between two systems usually don't need AI at all."
+  - question: "How do I decide which repetitive task to automate first?"
+    answer: "Score each candidate on five tests: how often it happens, how consistent the rules are, how standard the inputs are, how costly an error would be, and whether someone owns the outcome. Start with the task that scores highest and has a low cost of error."
+  - question: "Do I need custom software to automate tasks with AI?"
+    answer: "Usually not for the first task. Most repetitive tasks can be automated with tools you already pay for plus an AI step inside an automation platform. Custom development makes sense when the task crosses several systems or needs logic off-the-shelf tools can't express."
+  - question: "What is the difference between AI automation and regular automation?"
+    answer: "Regular automation follows fixed rules: when a form is submitted, create a row. AI automation handles steps where the input varies, such as reading an email and deciding what it is about, or drafting a reply. Good workflows use both: rules where rules work, AI only where judgement on text is needed."
+  - question: "How much time can automating repetitive tasks save?"
+    answer: "It depends on volume and how much review the output needs. Measure it: time the task manually for a week, then time the review of the AI output. If the review takes nearly as long as doing the task, the task isn't a good candidate yet."
+---
+
+# How to Automate Repetitive Tasks With AI: Score Five Tests First
+
+To **automate repetitive tasks with AI**, list the tasks your team repeats every week and score each one against five tests: volume, rules, inputs, cost of error, and ownership. Then automate only the single highest-scoring task first. AI is the right tool when the task involves reading, sorting, or writing text that varies each time. When a task is a fixed rule between two systems, ordinary automation is usually cheaper and more reliable.
+
+The hard part is not the tooling. It is choosing a task that is worth automating and will actually stay automated. The scoring table below does that in about an hour.
+
+## Step 1: List what your team actually repeats
+
+Ask each person to write down every task they did more than twice last week, with a rough time per instance. Do not filter yet. You are after the real list, not the list people think is impressive.
+
+Typical entries in a services or operations team:
+
+- Reading inbound emails and deciding who should handle them
+- Copying details from invoices, purchase orders, or forms into another system
+- Writing the same kind of reply, quote cover note, or status update
+- Summarising client calls or meetings into notes and actions
+- Pulling numbers from several places into a weekly report
+- Renaming, tagging, and filing documents
+
+Most teams end up with 15 to 30 items. That is enough.
+
+## Step 2: Score each task on five tests
+
+Score each test from 1 (poor fit) to 3 (strong fit). The maximum is 15.
+
+| Test | Score 1 | Score 2 | Score 3 |
+|------|---------|---------|---------|
+| **Volume.** How often does it happen? | A few times a month | A few times a week | Daily or more |
+| **Rules.** Could you explain how to do it to a new hire on one page? | No, it's judgement every time | Mostly, with exceptions | Yes, clearly |
+| **Inputs.** Do the inputs arrive in a predictable form? | Every one is different | Similar, but messy (emails, PDFs) | Structured (forms, exports) |
+| **Cost of error.** What happens if the output is wrong once? | Customer, money, or legal harm | Rework, internal annoyance | Easily caught, no harm |
+| **Ownership.** Is there a person who would check and own the result? | Nobody obvious | Someone, but stretched | Yes, named |
+
+Two rules override the total:
+
+1. **A 1 on cost of error means not first.** Put it later, once you have a working review habit.
+2. **A 1 on ownership means not at all yet.** Automations without an owner degrade quietly. Nobody notices until something important breaks.
+
+## Step 3: Decide whether the task needs AI at all
+
+Many "AI automation" projects are really ordinary automation with an AI label. Use this to check:
+
+| If the task is mostly… | Use | Example |
+|------------------------|-----|---------|
+| Moving structured data between systems on a fixed rule | Standard automation (no AI) | New form submission → create CRM record |
+| Reading varied text and classifying it | AI step inside an automation | Sort inbound emails by request type and urgency |
+| Pulling specific fields out of messy documents | AI extraction + human check | Supplier invoice PDFs → line items in accounting |
+| Writing a first draft from known inputs | AI drafting + human edit | Weekly client status update from task notes |
+| Making a real decision with consequences | Keep a person in charge; AI can prepare the inputs | Approving refunds, pricing exceptions |
+
+The best workflows combine both: rules do the predictable steps, and AI handles only the step where text needs reading or writing. This keeps cost down and makes errors easier to find. For a deeper treatment of multi-step workflows, see our guide to [AI workflow automation](/blog/ai-workflow-automation).
+
+## Worked example: scoring a real-looking shortlist
+
+The scores below are **illustrative**, showing how the table separates candidates that look similar at first glance.
+
+| Task | Volume | Rules | Inputs | Cost of error | Ownership | Total | Verdict |
+|------|--------|-------|--------|---------------|-----------|-------|---------|
+| Triage inbound support emails | 3 | 2 | 2 | 3 | 3 | **13** | Automate first (AI classification) |
+| Supplier invoice data entry | 3 | 3 | 2 | 2 | 3 | **13** | Strong second (AI extraction, human check) |
+| Weekly management report | 2 | 3 | 3 | 3 | 2 | **13** | Mostly standard automation; AI only for the commentary |
+| Client meeting summaries | 3 | 2 | 1 | 3 | 1 | 10 | Wait: no owner for the notes |
+| Approving discount requests | 2 | 1 | 2 | 1 | 3 | 9 | Keep human; AI can gather context |
+
+Three tasks tie on 13, and the tie-break matters. Email triage goes first because an error is cheap: a mis-sorted email gets re-routed. An invoice error reaches the accounts. The weekly report scores well, but it barely needs AI, so it is a quick standard-automation win rather than an AI project.
+
+## Step 4: Automate one task properly
+
+Pick the top task and do it fully before starting the second:
+
+1. **Time the current process for a week.** This is your baseline. Without it you cannot say whether the automation worked.
+2. **Build the smallest version.** One input source, one output, one reviewer. Use tools you already pay for where possible.
+3. **Run it alongside the manual process** for two to four weeks. Log every error and what kind it was.
+4. **Switch over** once errors are rare and predictable, and remove the manual path so it doesn't creep back.
+5. **Measure again** against the baseline and decide on the next task.
+
+Steps 3 and 4 are where most efforts stall. The tool works, but the old manual habit never goes away. Our [AI rollout plan](/blog/ai-rollout-plan) covers how to run that switch with go/no-go gates.
+
+## Where automating repetitive tasks goes wrong
+
+**Starting with the most annoying task instead of the best-scoring one.** The most annoying task is often annoying because it is full of judgement, which is exactly what makes it a poor first candidate.
+
+**Automating a broken process.** If the manual process has unclear steps, automating it makes the confusion faster. Fix the one-page description first (the "rules" test).
+
+**Measuring outputs instead of time saved.** "500 emails processed" means nothing if staff re-check every one. Measure total time including review.
+
+**Automating five things at once.** Each automation needs an owner and a review habit. One working automation beats five half-trusted ones.
+
+## When to bring in help
+
+Most teams can automate their first one or two repetitive tasks with existing tools. Outside help starts to pay off when the top-scoring tasks cross several systems, involve messy documents at volume, or need an integration your current tools can't do. If you are still unsure which task to start with, [choosing your first AI use case](/blog/first-ai-use-case) goes deeper on selection. Our list of [business process automation examples](/blog/business-process-automation-examples) shows what others have automated.
+
+If you'd like a second opinion on your shortlist, our [AI implementation service](/services/implementation) starts from exactly this scoring exercise. You can also [contact us](/contact) to talk it through.
+
+## FAQ
+
+**What repetitive tasks can AI automate?**
+Tasks that involve reading, sorting, or writing text: triaging emails, extracting fields from invoices or forms, drafting standard replies, summarising calls, tagging records, and preparing first-draft reports. Pure "if this, then that" steps between systems usually don't need AI.
+
+**How do I decide which repetitive task to automate first?**
+Score each candidate on volume, rules, inputs, cost of error, and ownership. Start with the highest scorer that has a low cost of error and a named owner.
+
+**Do I need custom software to automate tasks with AI?**
+Usually not for the first task. An AI step inside an automation platform, plus tools you already pay for, covers most cases. Custom development makes sense when the task crosses several systems or needs logic off-the-shelf tools can't express.
+
+**What is the difference between AI automation and regular automation?**
+Regular automation follows fixed rules. AI automation handles steps where the input varies, such as reading an email or drafting a reply. Good workflows use rules where rules work and AI only where judgement on text is needed.
+
+**How much time can automating repetitive tasks save?**
+It depends on volume and review effort. Time the task manually for a week, then time the review of the AI output. If the review takes nearly as long as the task, it isn't a good candidate yet.

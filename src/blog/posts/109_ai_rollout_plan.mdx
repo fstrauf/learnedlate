@@ -1,0 +1,152 @@
+---
+title: "AI Rollout Plan: A 90-Day Template With Go/No-Go Gates"
+description: "An AI rollout plan moves one workflow from pilot to daily use in 90 days: four phases, named owners, and a go/no-go gate between each. Copy the template."
+slug: "ai-rollout-plan"
+date: "2026-10-08"
+status: "draft"
+keyword: "ai rollout plan"
+target_keyword: "ai rollout plan"
+summary: "An AI rollout plan takes one workflow from a working pilot to everyday use in about 90 days, in four phases (prove, shadow, switch, scale) with a written go/no-go gate between each. Most rollouts fail at the switch, not the pilot."
+faq:
+  - question: "What is an AI rollout plan?"
+    answer: "A dated plan that moves one AI-assisted workflow from a working pilot into normal daily operations. It names the workflow, the owner, the people affected, the success measure, and the go/no-go gate that must be passed before each phase starts."
+  - question: "How long should an AI rollout take?"
+    answer: "For a single workflow in a mid-sized business, plan on roughly 90 days: about two weeks to prove it, three to four weeks running in shadow, two weeks switching over, and the rest stabilising and measuring. Larger organisations repeat the cycle per team rather than stretching one plan."
+  - question: "What is the difference between an AI strategy and an AI rollout plan?"
+    answer: "A strategy decides which problems AI should solve and in what order. A rollout plan takes one of those decisions and gets it into daily use, with owners, dates, and gates. You need the strategy first, but most stalled AI programmes have a strategy and no rollout plan."
+  - question: "Why do AI rollouts fail?"
+    answer: "Usually because the pilot worked but nobody changed the actual process. The old way stays available, no one owns the new workflow, and the success measure was never agreed. A rollout plan fixes this by making the switch a dated, owned step."
+  - question: "Do we need a partner to run an AI rollout?"
+    answer: "Not always. If you have someone with time to own the workflow and someone who can maintain the integration, you can run it in-house. If either is missing, a partner who stays through the switch phase is usually cheaper than a stalled rollout."
+---
+
+An **AI rollout plan** takes one AI-assisted workflow from a working pilot into normal daily use, usually in about 90 days. It does this in four phases (**prove, shadow, switch, scale**) with a written go/no-go gate between each. The plan names one workflow, one owner, one success measure, and the date the old way of working stops. Most AI rollouts fail at the switch, not at the pilot. A good plan is built around that step.
+
+This guide gives you the template, the gate questions, and a worked example you can adapt. If you have not picked the workflow yet, start with [choosing your first AI use case](/blog/first-ai-use-case) and come back.
+
+## Why pilots work and rollouts stall
+
+A pilot answers one question: *can the tool do the task?* The answer is usually yes. A rollout answers a different one: *will the business actually work this way from now on?* That depends on things the pilot never tested:
+
+- Who owns the workflow when the person who championed the pilot is busy.
+- What happens when the AI output is wrong at 4pm on a Friday.
+- Whether the old spreadsheet, inbox rule, or manual step is still sitting there as a fallback, quietly winning.
+- Whether anyone agreed what "working" means before the pilot started.
+
+The plan below turns each of those into a named step with a date. That makes it less a project plan and more a change plan with a technical component.
+
+## The four phases at a glance
+
+| Phase | Typical length | What happens | Gate to exit |
+|-------|----------------|--------------|--------------|
+| 1. Prove | 1–2 weeks | Run the AI step on real, recent examples. Measure quality against the current process. | Output quality meets the agreed bar on real data |
+| 2. Shadow | 3–4 weeks | AI runs alongside the current process. People compare, correct, and log errors. Nothing customer-facing depends on it yet. | Error rate stable and below threshold; reviewers trust it |
+| 3. Switch | ~2 weeks | The AI-assisted workflow becomes the default. The old path is removed or made deliberately harder. | Team works the new way without being chased |
+| 4. Scale | Remaining weeks | Extend to more volume, people, or a neighbouring workflow. Hand over to business-as-usual ownership. | Measured result reported; owner signed off |
+
+The lengths are a starting point, not a rule. A simple document-drafting workflow may move faster. Anything that touches customers, money, or regulated data should spend longer in shadow.
+
+## Before day one: the one-page brief
+
+Write this down before the 90 days start. If you cannot fill a line, you are not ready to roll out, and that is useful to know. (Our [AI readiness checklist](/ai-readiness-checklist) is a quick way to find the missing line.)
+
+| Line | Example answer |
+|------|----------------|
+| Workflow | Turning inbound customer emails into tagged support tickets with a draft reply |
+| Business owner | Support team lead (not IT, not the vendor) |
+| Technical owner | Whoever maintains the integration and prompt/config |
+| People affected | Four support staff, one escalation manager |
+| Success measure | Median time from email to first reply; reply edit rate |
+| Quality bar | Fewer than 1 in 20 drafts need a full rewrite |
+| Fallback | Manual triage, documented, for when the AI step is down |
+| Switch date | The date the old manual triage queue is closed |
+
+The business owner line matters most. When the owner is in IT or sits with the vendor, the workflow ends up optimised for the tool rather than the work.
+
+## Phase 1: Prove (weeks 1–2)
+
+Take real, recent examples (last month's emails, last quarter's invoices, the actual documents) and run them through the AI step. Compare the output to what your team produced.
+
+What to record:
+
+- How many outputs were usable as-is, usable with light edits, or wrong.
+- The *kinds* of errors, not just the count. A tool that is wrong in predictable ways is much easier to roll out than one that is wrong at random.
+- How long the review took compared with doing the task from scratch.
+
+**Gate question:** on real data, does the output meet the quality bar in your brief? If not, either change the workflow scope (narrow it) or stop. A narrower workflow that works beats a broad one that half-works.
+
+## Phase 2: Shadow (weeks 3–6)
+
+The AI runs on live work, but people still do the task the current way. They compare the two, correct the AI output, and log each error in one shared place.
+
+This phase builds two things you cannot buy: an error log that tells you where the edges are, and trust from the people who will use it. Skipping shadow to save a month is the most common reason teams later quietly stop using the tool.
+
+Run a short weekly review: the owner, one or two users, and the technical owner. Look at the error log, decide what to fix, and agree whether the error rate is trending down.
+
+**Gate question:** is the error rate stable and below your threshold for two consecutive weeks, and do the reviewers say they would rather have it than not?
+
+## Phase 3: Switch (weeks 7–8)
+
+This is the phase most plans leave out. The AI-assisted workflow becomes the default, and the old way is removed or made deliberately harder. Close the old queue, archive the old template, or change the inbox rule.
+
+During the switch:
+
+- Keep the documented fallback ready, and test it once.
+- Expect a short dip in speed as people adjust. Do not reverse the decision in the first week because of it.
+- Make the owner visible. Questions go to them, not to whoever set up the tool.
+
+If governance sign-off is needed, get it before this phase, not during. Our [AI governance strategy guide](/blog/ai-governance-strategy) covers what a lightweight sign-off looks like.
+
+**Gate question:** two weeks after the switch, is the team working the new way without being reminded?
+
+## Phase 4: Scale (weeks 9–13)
+
+Only now extend: more volume, more people, or the neighbouring workflow that shares the same data. Report the measured result against the success measure in your brief, then hand day-to-day ownership to business as usual.
+
+This is also the right moment to decide what comes next. A rollout that worked is the strongest evidence you will have for the second one. If the next candidate is a multi-step process that crosses systems, [AI workflow automation](/blog/ai-workflow-automation) covers how to design it.
+
+## Worked example: support email triage
+
+The example below is **illustrative**. It shows how the template fills in, not a client result.
+
+| Week | Phase | What happened | Gate decision |
+|------|-------|---------------|---------------|
+| 1–2 | Prove | 200 emails from last month run through the classifier and drafting step. Tags mostly right; drafts too long and too formal. | Go, with the scope narrowed to the three most common request types |
+| 3–6 | Shadow | Staff triage as usual and compare. The error log shows the AI mis-tags refund requests that mention a product name. A rule is added. | Go: error rate flat for two weeks; staff prefer starting from a draft |
+| 7–8 | Switch | Manual triage queue closed. Uncommon request types route straight to a person. Fallback tested once during a short outage. | Go: team working the new way unprompted |
+| 9–13 | Scale | Extended to the second support inbox. Owner reports median first-reply time and edit rate against the brief. | Handed over to the support lead |
+
+Notice what the plan did *not* do: it did not try to automate every request type at once, and it did not keep the old queue open "just in case."
+
+## Common mistakes in AI rollout plans
+
+**Planning the technology, not the switch.** If the plan has integration tasks but no date when the old process stops, it is a pilot extension, not a rollout.
+
+**Measuring activity instead of outcome.** "Number of AI drafts generated" goes up even when nobody uses them. Measure the business outcome in your brief.
+
+**One owner for everything.** The business owner and the technical owner are different jobs. Combining them usually means one of the jobs does not get done.
+
+**Rolling out to everyone at once.** One team, one workflow, then repeat. Larger organisations run several 90-day cycles in parallel rather than one big programme.
+
+## In-house or with a partner?
+
+You can run this plan yourself if you have a business owner with real time for it and someone who can maintain the integration after week 13. If either is missing, an outside team is usually cheaper than a rollout that stalls in shadow. The question is less "can a partner build it" and more "will they stay through the switch". Our guide to choosing an [AI implementation partner](/blog/ai-implementation-partner) covers what to ask.
+
+If you want help planning or running a rollout, our [AI implementation service](/services/implementation) is built around these four phases. You can also [get in touch](/contact) to talk through your first workflow.
+
+## FAQ
+
+**What is an AI rollout plan?**
+A dated plan that moves one AI-assisted workflow from a working pilot into normal daily operations. It names the workflow, owner, people affected, success measure, and the go/no-go gate before each phase.
+
+**How long should an AI rollout take?**
+For a single workflow in a mid-sized business, roughly 90 days: about two weeks to prove, three to four weeks in shadow, two weeks to switch, and the rest stabilising and measuring.
+
+**What is the difference between an AI strategy and an AI rollout plan?**
+A strategy decides which problems AI should solve and in what order. A rollout plan gets one of those decisions into daily use, with owners, dates, and gates.
+
+**Why do AI rollouts fail?**
+Usually because the pilot worked but nobody changed the actual process. The old way stays available, no one owns the new workflow, and the success measure was never agreed.
+
+**Do we need a partner to run an AI rollout?**
+Not always. If you have a workflow owner with time and someone to maintain the integration, run it in-house. If either is missing, a partner who stays through the switch phase is usually cheaper than a stalled rollout.
