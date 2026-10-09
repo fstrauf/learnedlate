@@ -13,6 +13,9 @@ search_keywords:
   - ai build vs buy
   - first ai use case
   - ai readiness checklist
+  - ai readiness assessment framework
+  - ai rollout plan
+  - automate repetitive tasks with ai
   problem:
   - know ai matters but where to start
   - automate repetitive tasks ai
@@ -49,6 +52,7 @@ clusters:
   - ai readiness checklist
   - ai strategy for business
   - choose first ai project
+  - ai readiness assessment framework
 - name: Workflow automation
   status: active
   keywords:
@@ -58,6 +62,7 @@ clusters:
   - ai process automation
   - workflow automation examples
   - multi system workflow automation
+  - automate repetitive tasks with ai
 - name: Practical AI implementation
   status: active
   keywords:
@@ -67,6 +72,7 @@ clusters:
   - ai rollout plan
   - end to end ai delivery
   - make ai useful day to day
+  - ai rollout plan
 - name: Custom AI vs standard tools
   status: active
   keywords:
