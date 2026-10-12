@@ -13,6 +13,12 @@ search_keywords:
   - ai build vs buy
   - first ai use case
   - ai readiness checklist
+  - ai readiness assessment framework
+  - ai rollout plan
+  - automate repetitive tasks with ai
+  - ai data readiness
+  - how to evaluate ai vendors
+  - deterministic vs agentic ai workflows
   problem:
   - know ai matters but where to start
   - automate repetitive tasks ai
@@ -49,6 +55,8 @@ clusters:
   - ai readiness checklist
   - ai strategy for business
   - choose first ai project
+  - ai readiness assessment framework
+  - ai data readiness
 - name: Workflow automation
   status: active
   keywords:
@@ -58,6 +66,8 @@ clusters:
   - ai process automation
   - workflow automation examples
   - multi system workflow automation
+  - automate repetitive tasks with ai
+  - deterministic vs agentic ai workflows
 - name: Practical AI implementation
   status: active
   keywords:
@@ -76,6 +86,7 @@ clusters:
   - bespoke ai development
   - custom ai development
   - when standard tools are enough
+  - how to evaluate ai vendors
 - name: Regional ANZ content
   status: planned
   keywords:
@@ -128,3 +139,11 @@ reddit:
   - AI readiness
   - AI pilot failed
   - off the shelf vs custom
+sources:
+- id: ai-readiness-checklist-15q
+  kind: product_surface
+  holds: >-
+    The /ai-readiness-checklist lead magnet text: 15 questions in 4 dimensions (People Q1-4,
+    Process Q5-8, Technology Q9-12, Data Q13-15), the 1-5 scoring scale, the 75-point total and
+    the score bands with what each band means
+  path: public/ai-readiness-checklist.md
