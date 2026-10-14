@@ -1,0 +1,124 @@
+---
+title: "How to Evaluate AI Vendors: A 4-Question Scorecard Before Any Demo"
+description: "How to evaluate AI vendors: write your requirements first, then score integration, infrastructure and security 1–5 before any demo shapes the decision."
+slug: "how-to-evaluate-ai-vendors"
+date: "2026-10-12"
+status: "draft"
+keyword: "how to evaluate ai vendors"
+target_keyword: "how to evaluate ai vendors"
+first_party_sources: [ai-readiness-checklist-15q]
+summary: "To evaluate AI vendors, define the outcome and requirements before the first demo, then score four questions from the Technology dimension of the AI readiness checklist (integration, infrastructure, security, independent evaluation) on a 1–5 scale out of 20."
+faq:
+  - question: "How do you evaluate an AI vendor?"
+    answer: "Write down the business outcome and requirements first. Then score the vendor on integration with your systems, infrastructure fit, security and compliance, and whether your team can judge the product independently. Ask every vendor to prove each point against your own data, not a demo dataset."
+  - question: "What is the biggest mistake when choosing an AI vendor?"
+    answer: "Letting the vendor lead. When the vendor shapes the requirements, the answer is always their product, regardless of your actual needs. Vendor-led strategy is one of the most common AI failure modes."
+  - question: "What questions should you ask an AI vendor?"
+    answer: "Which of our systems does the tool read from and write to, and through what API? Where is our data processed and stored? What audit trail and access controls exist? What happens when input fields are missing? How do we test the output against our own historical cases?"
+  - question: "Should you build or buy AI?"
+    answer: "Buy when a standard tool fits the process and integrates with your systems. Build when the workflow is specific to your business or no tool connects to the data it needs. A vendor evaluation is often what reveals which case you are in."
+---
+
+# How to Evaluate AI Vendors (Before the Demo Decides for You)
+
+To **evaluate AI vendors** well, write your requirements before you take the first call, then score each vendor on four questions: can it connect to your systems, does your infrastructure support it, does it meet your security and compliance needs, and can your team judge it independently of the sales pitch? Score each 1 to 5. The total is out of 20, and any 1 or 2 is a reason to stop before signing.
+
+Those four questions are the Technology dimension (Q9–Q12) of our free [AI readiness checklist](/ai-readiness-checklist). The last one matters most, because the checklist names vendor-led strategy as the second most common AI failure mode: when the vendor leads the conversation, the answer is always their product.
+
+## Step 1: Define requirements before vendor engagement
+
+Most vendor evaluations go wrong before the first demo. The team books calls, watches polished walkthroughs, and then writes requirements that happen to match the tool they liked best.
+
+Reverse the order. Before you talk to anyone, write down three things:
+
+1. **The process** you want to change, named precisely ("matching supplier invoices to purchase orders", not "finance automation").
+2. **The metric** you expect to move and how you will measure it.
+3. **The value at stake**, roughly, in dollars or hours.
+
+This is Q5 of the checklist: "We should use AI" is not a strategy. If you cannot name the process, the metric and the value, you are not ready to evaluate vendors yet. Start with [choosing your first AI use case](/blog/first-ai-use-case) instead.
+
+## Step 2: Score each vendor on four questions
+
+Use the same 1–5 scale for every vendor:
+
+| Score | Meaning |
+|-------|---------|
+| **1** | Not at all: we haven't started |
+| **2** | Barely: early conversations only |
+| **3** | Partially: some progress, significant gaps |
+| **4** | Mostly: solid foundation, minor gaps |
+| **5** | Fully: confident and operational |
+
+### Q9: Integration. Can the tool reach the data it needs?
+
+AI tools that cannot connect to your existing systems create parallel workflows instead of replacing them. If staff have to copy AI output back into core systems by hand, the efficiency gain evaporates. Integration capability is a hard prerequisite.
+
+**Ask the vendor:** which of our systems does your tool read from and write to? Through which API? Show it working against a system like ours, not a sample dataset.
+
+### Q10: Infrastructure. Does it fit what you run today?
+
+This rarely needs a big investment, because cloud platforms provide AI infrastructure on demand. What you do need is a clear picture of your current capabilities, constraints, and the gap between where you are and where the vendor's tool expects you to be.
+
+**Ask the vendor:** what does your tool need from us (cloud accounts, compute, network access, data exports)? Who sets that up, and who maintains it?
+
+### Q11: Security and compliance. Can it process your data safely?
+
+AI systems process organisational data, sometimes sensitive data, at scale. Privacy controls, access management, audit trails and regulatory compliance are not optional add-ons. They are foundational.
+
+**Ask the vendor:** where is our data processed and stored? Is it used to train your models? What access controls and audit logs do we get? How do we delete our data when we leave?
+
+### Q12: Independence. Can you judge the vendor without the vendor?
+
+> Can we evaluate AI vendors independently — without letting vendor capabilities shape our requirements?
+
+This is the question that decides whether the other three answers can be trusted. If nobody on your side can tell hype from practical capability, every demo looks good. Q2 of the checklist covers the same ground from the people side: your team needs enough AI literacy to ask the right questions of vendors and make informed build-vs-buy decisions. You do not need data scientists for that.
+
+**Practical test:** before the demo, hold back 20 to 50 of your own past cases with known outcomes. Ask the vendor to run them. Compare their output to what actually happened. A vendor who will not run your cases is telling you something.
+
+## Step 3: Compare vendors side by side
+
+Put every vendor in one table. Here is an illustrative comparison for a hypothetical invoice-matching project. The vendors and scores are made up to show the method.
+
+| Question | Vendor A (finance suite add-on) | Vendor B (general AI platform) | Custom build |
+|----------|---------------------------------|--------------------------------|--------------|
+| Q9 Integration | 5: native to the accounting system | 2: CSV upload only | 4: built against the system's API |
+| Q10 Infrastructure | 5: runs inside the existing subscription | 4: separate cloud account | 3: needs hosting and support |
+| Q11 Security | 4: data stays in the suite; training opt-out | 2: data used for model improvement by default | 4: you control storage and logs |
+| Q12 Independence | 4: ran 40 of our past invoices; matched most | 2: demo on sample data only | 4: tested against our history during build |
+| **Total / 20** | **18** | **10** | **15** |
+
+Vendor B gave the most impressive demo. It also scores lowest, because it cannot reach the data without manual exports and it would not run real cases. That gap is exactly what a requirements-first evaluation is meant to expose.
+
+When the best off-the-shelf score is low and a custom option scores well, you are in build territory. Our [AI build vs buy framework](/blog/ai-build-vs-buy) covers that decision in detail.
+
+## Red flags during vendor evaluation
+
+- **The requirements came from the vendor.** If your requirements document reads like their feature list, restart Step 1.
+- **No integration story.** "You can export a CSV" means a parallel workflow, not automation.
+- **Demo data only.** The tool has never seen anything like your records.
+- **Vague data handling.** No clear answer on where data is processed, stored, or used for training.
+- **No pilot shape.** You cannot run one bounded process and validate it against real metrics within 90 days (Q8 of the checklist). Large rollouts that cannot start small tend to stall.
+
+## Where vendor evaluation fits in AI readiness
+
+Vendor evaluation is the last of four Technology questions, and Technology is one of four dimensions in the checklist. People, Process and Technology are each scored out of 20 and Data out of 15, for a total of 75. A strong vendor cannot fix a weak data foundation: if your data for the process is fragmented or ungoverned, score [AI data readiness](/blog/ai-data-readiness) before you sign anything.
+
+If you would rather run the evaluation with someone independent of every vendor, that is what an [AI implementation partner](/blog/ai-implementation-partner) should do. Our engineering work covers custom builds when no tool fits; see [engineering services](/services/engineering), or [get in touch](/contact) to talk through a shortlist.
+
+## FAQ
+
+### How do you evaluate an AI vendor?
+
+Write down the business outcome and requirements first. Then score the vendor on integration with your systems, infrastructure fit, security and compliance, and whether your team can judge the product independently. Ask every vendor to prove each point against your own data, not a demo dataset.
+
+### What is the biggest mistake when choosing an AI vendor?
+
+Letting the vendor lead. When the vendor shapes the requirements, the answer is always their product, regardless of your actual needs. Vendor-led strategy is one of the most common AI failure modes.
+
+### What questions should you ask an AI vendor?
+
+Which of our systems does the tool read from and write to, and through what API? Where is our data processed and stored? What audit trail and access controls exist? What happens when input fields are missing? How do we test the output against our own historical cases?
+
+### Should you build or buy AI?
+
+Buy when a standard tool fits the process and integrates with your systems. Build when the workflow is specific to your business or no tool connects to the data it needs. A vendor evaluation is often what reveals which case you are in.
