@@ -1,0 +1,160 @@
+---
+title: "AI Data Readiness: 3 Questions That Decide If Your First AI Project Works"
+description: "AI data readiness comes down to three questions: is there history to learn from, can you reach it in one place, and is it governed? Score it out of 15."
+slug: "ai-data-readiness"
+date: "2026-10-13"
+status: "draft"
+keyword: "ai data readiness"
+target_keyword: "ai data readiness"
+first_party_sources: [ai-readiness-checklist-15q]
+summary: "AI data readiness is scored on three questions (history, access, governance), each 1–5, for a subtotal out of 15. A low data score means fixing where data lives and who owns it before buying any AI tool."
+faq:
+  - question: "What is AI data readiness?"
+    answer: "AI data readiness is whether the data behind a specific process is recorded, reachable and governed well enough for an AI system to learn from it or act on it. It is measured per use case, not for the whole company."
+  - question: "How do you measure data readiness for AI?"
+    answer: "Score three questions from 1 to 5: do you have historical data for the use case, is it accessible from a single point, and do you have governance covering quality, access and retention. The subtotal is out of 15."
+  - question: "What is the most common data readiness problem?"
+    answer: "Fragmentation. The data exists, but it is spread across spreadsheets, legacy systems, inboxes and paper files, so nobody can say where the complete record lives. Many teams only find this out mid-project, when it is expensive to fix."
+  - question: "Do you need a data warehouse before starting with AI?"
+    answer: "No. You need the data for one bounded process to be reachable and owned. A single well-kept system of record for that process is enough to run a focused pilot."
+  - question: "Is data readiness more important than people or process readiness?"
+    answer: "It is one of four dimensions, alongside people, process and technology. Data is the one most often discovered late, which is why it is worth scoring before you choose a tool or a vendor."
+---
+
+# AI Data Readiness: The 3 Questions That Decide Your First AI Project
+
+**AI data readiness** is whether the data behind one specific process is recorded, reachable and governed well enough for an AI system to learn from it or act on it. You can score it with three questions, each rated 1 to 5: do you have historical data for the use case, can you reach it from a single point, and does anyone govern its quality, access and retention? The subtotal is out of 15, and a low score means fixing data before buying a tool.
+
+The three questions below are Dimension 4 of our free [AI readiness checklist](/ai-readiness-checklist), a 15-question scorecard across people, process, technology and data. This page goes deeper on the data dimension alone: what each question really tests, what a 1 and a 5 look like, and what to do with your score.
+
+## Why data readiness is scored per use case
+
+"Is our data ready for AI?" has no useful answer at company level. Every business has some clean data and some chaos. The useful question is narrower: **is the data for the process we want to change ready?**
+
+An invoice-matching workflow and a customer-support assistant need completely different data. The first needs a clean history of invoices, purchase orders and payments. The second needs past tickets, resolutions and a current knowledge base. You can be a 5 on one and a 1 on the other.
+
+So before you score anything, name the process. If you cannot, that is a process problem, not a data problem. Start with [how to pick your first AI use case](/blog/first-ai-use-case) and come back.
+
+## The scoring scale
+
+Each question uses the same 1–5 scale as the full checklist:
+
+| Score | Meaning |
+|-------|---------|
+| **1** | Not at all: we haven't started |
+| **2** | Barely: early conversations only |
+| **3** | Partially: some progress, significant gaps |
+| **4** | Mostly: solid foundation, minor gaps |
+| **5** | Fully: confident and operational |
+
+Three questions give a data subtotal out of 15. The other three dimensions (people, process, technology) are scored out of 20 each, for a full checklist total of 75.
+
+## Question 13: Do you have historical data for this use case?
+
+> Do we have historical data that could be used to train or validate AI models for our use cases?
+
+AI needs examples to learn from, or at least examples to be tested against. If the target process has no recorded history, inconsistent records, or data locked in formats a system cannot read, you have a data problem to solve before you have an AI problem to solve.
+
+This matters even when you are not training a model. If you buy an off-the-shelf tool, you still need past cases to check whether its output is right. Without history, you cannot validate anything, and "it seems to work" becomes the acceptance test.
+
+| Score | What it looks like |
+|-------|--------------------|
+| 1 | The process is not recorded anywhere. Outcomes live in people's heads. |
+| 3 | Records exist but are inconsistent: free-text fields, missing outcomes, different formats by year. |
+| 5 | A consistent history of inputs and outcomes, in a readable format, covering enough cases to test against. |
+
+**Quick test:** can you pull 50 past examples of this process, each with the input and the final outcome, in one afternoon? If not, score 2 or lower.
+
+## Question 14: Is the data accessible from a single point?
+
+> Is our critical business data accessible from a single point, or fragmented across disconnected systems?
+
+This is where most teams lose points. The data usually exists. It is just spread across spreadsheets, legacy systems, inboxes and paper files. Knowing where it lives, what format it is in, and what is missing is the first step, and many organisations only discover the gaps mid-project, when they are expensive to fix.
+
+Fragmentation also connects to the technology dimension. An AI tool that cannot reach your systems through an API or integration point creates a parallel workflow. Staff end up copying output back into the core system by hand, and the efficiency gain disappears.
+
+| Score | What it looks like |
+|-------|--------------------|
+| 1 | Data for this process is spread across email, spreadsheets and paper, with no complete copy anywhere. |
+| 3 | One main system holds most of it, but key fields live in side spreadsheets or inboxes. |
+| 5 | One system of record holds the complete data, and it can be read through an API or export. |
+
+**Quick test:** draw the path of one record from start to finish. Every time it changes system or format, that is a seam an AI project will have to cross.
+
+## Question 15: Do you have data governance?
+
+> Do we have data governance policies covering quality standards, access controls, and retention?
+
+Who owns the data? Who can access it? How is quality maintained? What are the retention rules? Without answers, an AI system inherits and amplifies existing data problems, producing confident-sounding outputs from unreliable inputs.
+
+Governance does not have to mean a policy binder. For a first project it means four named answers:
+
+1. **Owner:** one person who fixes errors when they are found.
+2. **Access:** who may read the data, and whether an external AI tool is allowed to.
+3. **Quality:** what "correct" means for the fields the process depends on.
+4. **Retention:** how long records are kept, and whether that limits what you can train or test on.
+
+| Score | What it looks like |
+|-------|--------------------|
+| 1 | Nobody owns the data. Access is "whoever has the login". |
+| 3 | An informal owner exists; access and retention rules are unwritten. |
+| 5 | A named owner, written access rules that cover AI tools, quality checks and a retention policy. |
+
+## A worked example: scoring two processes
+
+Here is how one hypothetical 40-person services firm might score two candidate processes. The numbers are illustrative, not client data.
+
+| Question | Supplier invoice matching | Client proposal drafting |
+|----------|---------------------------|--------------------------|
+| Q13 History | 4: three years of invoices and POs in the accounting system | 2: past proposals scattered across shared drives, outcomes not recorded |
+| Q14 Single point | 4: accounting system with an export | 1: drives, email attachments, personal folders |
+| Q15 Governance | 3: finance owns it, retention set by tax rules, AI access unwritten | 1: no owner, no access rules |
+| **Data subtotal** | **11 / 15** | **4 / 15** |
+
+The firm wanted to start with proposal drafting because it was the more exciting demo. The data score says otherwise. Invoice matching can run as a pilot now; proposal drafting needs a few weeks of data work first (one folder, one template, win/loss recorded) before any tool is worth trialling.
+
+That is the real value of scoring data readiness: it changes the order of projects, not just the budget.
+
+## What your data score means
+
+The checklist's score bands apply to the full 75-point total, but the data subtotal tells you where the risk sits:
+
+- **12–15:** data is not your bottleneck. Look at people and process scores, then move to a [rollout decision](/blog/ai-implementation-partner).
+- **8–11:** workable for a bounded pilot. Write down the gaps (usually Q15) and close them during the pilot, not after.
+- **3–7:** fix the data for this process first. Pick one system of record, name an owner, and record outcomes for a few weeks. Or choose a different first use case with better data.
+
+In the full checklist, a total of 40–59 means "foundations in place, gaps to close", and the recommended next step is to find your lowest-scoring dimension and invest there before committing to implementation. For many teams that dimension is data.
+
+## Data readiness and the vendor conversation
+
+A low data score is also your best defence against a bad vendor pitch. If a vendor's demo depends on clean, centralised data you do not have, the demo is not evidence. Ask every vendor which of your systems their tool reads from, what it does when fields are missing, and how you will validate output against your own history. If you cannot answer Q13, you cannot check their answer either.
+
+For the wider decision of buying a tool versus building something around your data, see [AI build vs buy](/blog/ai-build-vs-buy). For governance beyond a single project, see our [AI governance strategy guide](/blog/ai-governance-strategy).
+
+## Score the other three dimensions
+
+Data is one of four dimensions. The full [AI readiness checklist](/ai-readiness-checklist) adds people (sponsorship, literacy, culture, upskilling), process (outcomes, real workflows, governance, a 90-day pilot) and technology (integration, infrastructure, security, independent vendor evaluation). It takes about 20 minutes and gives you a score out of 75.
+
+If you would rather have the scoring done with you, the [AI readiness assessment](/blog/ai-readiness-assessment) is the deeper version: a scored evaluation across all four dimensions and a prioritised opportunity map. You can [book it through our contact page](/contact).
+
+## FAQ
+
+### What is AI data readiness?
+
+AI data readiness is whether the data behind a specific process is recorded, reachable and governed well enough for an AI system to learn from it or act on it. It is measured per use case, not for the whole company.
+
+### How do you measure data readiness for AI?
+
+Score three questions from 1 to 5: do you have historical data for the use case, is it accessible from a single point, and do you have governance covering quality, access and retention. The subtotal is out of 15.
+
+### What is the most common data readiness problem?
+
+Fragmentation. The data exists, but it is spread across spreadsheets, legacy systems, inboxes and paper files, so nobody can say where the complete record lives. Many teams only find this out mid-project, when it is expensive to fix.
+
+### Do you need a data warehouse before starting with AI?
+
+No. You need the data for one bounded process to be reachable and owned. A single well-kept system of record for that process is enough to run a focused pilot.
+
+### Is data readiness more important than people or process readiness?
+
+It is one of four dimensions, alongside people, process and technology. Data is the one most often discovered late, which is why it is worth scoring before you choose a tool or a vendor.

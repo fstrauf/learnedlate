@@ -56,10 +56,12 @@ product_paths:
     - /blog/ai-implementation-partner
 primary_backlog:
   - keyword: ai data readiness
-    status: open
+    status: measuring
+    target_slug: ai-data-readiness
     source_ids: [ai-readiness-checklist-15q]
     notes: >-
-      angle: Dimension 4 Data (Q13-Q15: historical data, single point vs fragmented systems,
+      Weekly 2026-10-15: Path B write + publish (1745w, source gate pass, Q13-Q15 scoring tables);
+      root articles.json row added; review task-cfe7d754 (2026-11-13). Original angle: Dimension 4 Data (Q13-Q15: historical data, single point vs fragmented systems,
       data governance) with its scoring, from ai-readiness-checklist-15q. Added 2026-10-13 from
       ACTIVE 'Getting started with AI'. No catalog slug owns data readiness (heading grep
       2026-10-13; 100_ai_development_services mentions it in passing). No GSC tape for the
@@ -67,10 +69,12 @@ primary_backlog:
       ai-readiness-assessment and the /ai-readiness-checklist lead magnet; run research-pull
       before writing
   - keyword: how to evaluate ai vendors
-    status: open
+    status: measuring
+    target_slug: how-to-evaluate-ai-vendors
     source_ids: [ai-readiness-checklist-15q]
     notes: >-
-      angle: Q12 'evaluate AI vendors independently' plus the Technology dimension (Q9-Q11:
+      Weekly 2026-10-15: Path B write + publish (1350w, source gate pass, Q9-Q12 vendor scorecard);
+      root articles.json row added; review task-0b9f7d8c (2026-11-13). Original angle: Q12 'evaluate AI vendors independently' plus the Technology dimension (Q9-Q11:
       APIs, infrastructure, security), from ai-readiness-checklist-15q. Added 2026-10-13 from
       ACTIVE 'Custom AI vs standard tools'. No catalog slug (heading grep 2026-10-13). Pair with
       ai-build-vs-buy + /services/engineering. Run research-pull first; take the strongest
@@ -234,9 +238,10 @@ prune_queue:
     evidence: >-
       Source (redirected) still 121 impr / 0 cl / pos ~50 (28d 2026-10-12), on the underscore URL;
       keeper 26 impr / pos ~10.6, indexed
-    status: measuring
+    status: done
     notes: >-
-      Path B merge 2026-09-14; keeper review due 2026-10-14. Operator: tracked vercel.json 301
+      Keeper review 2026-10-15 insufficient_data (keeper 19 → 27 impr, pos 16.2 → 10.5, 0 cl).
+      Path B merge 2026-09-14. Operator: tracked vercel.json 301
       for /blog/interim_cto_vs_fractional_cto_which_one_does_your_startup_need still missing
   - slug: what-does-a-fractional-cto-do-exactly-roles-responsibilities-deliverables
     cluster: Fractional CTO and legacy services
